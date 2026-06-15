@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>事業紹介 ｜ TELEMO（AI営業代行） ｜ GIGUUU株式会社</title>
+    <meta
+      name="description"
+      content="GIGUUUの事業紹介。営業歴15年のプロ×AIで月8,800コールを仕組み化するAI営業代行『TELEMO』。月額35万円・初期費用0円・全ログ開示。結果が出ない営業代行にもう払わなくていい。"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Space+Grotesk:wght@400;500;700&family=Noto+Sans+JP:wght@300;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+        }
+      }
+    </script>
+  </head>
+
+  <body>
+    <div class="fx-overlay" aria-hidden="true">
+      <div class="fx-grid"></div>
+      <div class="fx-scanline"></div>
+      <div class="fx-noise"></div>
+    </div>
+    <div class="cursor-glow" aria-hidden="true"></div>
+
+    <div class="loader" id="loader">
+      <div class="loader__ring"></div>
+      <div class="loader__text">TELEMO<span>_</span>LOADING</div>
+    </div>
+
+    <div class="scroll-rail" aria-hidden="true">
+      <span class="scroll-rail__bar" id="scrollBar"></span>
+    </div>
+
+    <!-- ヘッダー -->
+    <header class="nav" id="nav">
+      <a class="nav__logo" href="index.html">
+        <img class="brand-logo" src="giguuu-logo.png" alt="GIGUUU株式会社 ロゴ" />
+        GIGUUU<span class="nav__logo-sub">株式会社</span>
+      </a>
+      <nav class="nav__links" id="navLinks">
+        <a href="index.html#about">GIGUUUとは</a>
+        <a href="index.html#company">会社情報</a>
+        <a href="business.html" class="is-active">事業紹介</a>
+        <a href="index.html#telemo">TELEMO</a>
+        <a class="nav__cta" href="index.html#contact">お問い合わせ</a>
+      </nav>
+      <button class="nav__burger" id="burger" aria-label="メニュー">
+        <span></span><span></span><span></span>
+      </button>
+    </header>
+
+    <main>
+      <p class="crumb"><a href="index.html">GIGUUU</a> ／ 事業紹介・TELEMO</p>
+
+      <!-- サブヒーロー -->
+      <section class="subhero">
+        <p class="eyebrow eyebrow--line reveal">今年で37期目の業界TOPの営業ノウハウを集約</p>
+        <h1 class="subhero__title reveal">
+          結果が出ない営業代行に<br />
+          <span class="grad">もう払わなくていい。</span>
+        </h1>
+        <p class="subhero__big reveal">月<b>8,800</b>コールを仕組みで回す。</p>
+        <p class="subhero__sub reveal">営業代行で失敗した人ほど違いが分かります。</p>
+      </section>
+
+      <!-- 2つの導線 -->
+      <section class="paths">
+        <article class="path reveal">
+          <div class="path__top"><span>NEWCOMER</span><span class="path__no">01</span></div>
+          <p class="path__sub">初めての方</p>
+          <h3>そもそも営業代行って何？</h3>
+          <p>人を雇うより安く・多く・全部見える営業代行です。</p>
+          <ul class="path__list">
+            <li>8,800コール保証</li>
+            <li>営業約2人分</li>
+            <li>スクリプト込み</li>
+          </ul>
+          <a class="btn btn--ghost" href="#what"><span>初めての方向けに見る</span><i class="btn__arrow">→</i></a>
+        </article>
+        <article class="path path--alt reveal">
+          <div class="path__top"><span>EXPERIENCED</span><span class="path__no">02</span></div>
+          <p class="path__sub">利用経験がある方</p>
+          <h3>「成果ゼロ」で悩んでいませんか</h3>
+          <p>高額・不透明・長期縛り。全部逆に設計しました。</p>
+          <ul class="path__list">
+            <li>全ログ開示</li>
+            <li>月額35万円／初期費用0円</li>
+            <li>8,800コール</li>
+          </ul>
+          <a class="btn btn--ghost" href="#compare"><span>経験者向けに見る</span><i class="btn__arrow">→</i></a>
+        </article>
+      </section>
+
+      <!-- 実績メトリクス -->
+      <section class="metrics">
+        <div class="metrics__row">
+          <div class="metric reveal"><strong>97<sup>%</sup></strong><span>リピート率</span></div>
+          <div class="metric reveal"><strong>15<sup>%</sup></strong><span>最高アポイント率</span></div>
+          <div class="metric reveal"><strong>88<sup>%</sup></strong><span>決裁者商談率</span></div>
+        </div>
+        <p class="metrics__note">※2023年度実績（自社調べに基づく）</p>
+      </section>
+
+      <!-- そもそも営業代行とは -->
+      <section class="sec" id="what">
+        <div class="sec__head reveal">
+          <span class="sec__no">01</span>
+          <h2 class="sec__title">WHAT IS</h2>
+          <span class="sec__line"></span>
+        </div>
+        <div class="prose reveal">
+          <h3>そもそも、営業代行サービスって？</h3>
+          <p>営業代行とは、貴社の代わりに新規開拓の営業活動を行うサービスのことです。</p>
+          <p>
+            ターゲットリストの作成、トークスクリプトの設計、テレアポ・商談打診までを一気通貫で代行。
+            「営業人員を雇う余裕はないが、売上は伸ばしたい」企業の<strong>最短の解</strong>として、多くの会社が導入しています。
+          </p>
+          <p>ただし、営業代行なら何でも良いわけではありません。</p>
+        </div>
+      </section>
+
+      <!-- 営業代行あるある -->
+      <section class="sec">
+        <div class="sec__head reveal">
+          <span class="sec__no">02</span>
+          <h2 class="sec__title">よくある失敗</h2>
+          <span class="sec__line"></span>
+        </div>
+        <p class="prose reveal" style="margin-bottom: 28px">
+          こんな「営業代行あるある」、ありませんか？ 失敗した人ほど、刺さるはずです。
+        </p>
+        <div class="aruaru">
+          <article class="aruaru__card reveal">
+            <span class="aruaru__tag">契約の縛り</span>
+            <p>半年払ってもアポは片手で数えるほど。解約しても請求書だけ届き続けた。</p>
+            <span class="aruaru__who">製造業 / 取締役 様</span>
+          </article>
+          <article class="aruaru__card reveal">
+            <span class="aruaru__tag">ブラックボックス</span>
+            <p>月1回のサマリーPDFだけ。何を話したか全く見えない。</p>
+            <span class="aruaru__who">IT / マーケ責任者 様</span>
+          </article>
+          <article class="aruaru__card reveal">
+            <span class="aruaru__tag">ブランド毀損</span>
+            <p>後から録音を聞いて愕然。粘る強引トークを、うちの名前で。</p>
+            <span class="aruaru__who">SaaS / 事業責任者 様</span>
+          </article>
+          <article class="aruaru__card reveal">
+            <span class="aruaru__tag">営業知見ゼロ</span>
+            <p>AI営業を使ってみたら、作ったのは営業素人のエンジニア。</p>
+            <span class="aruaru__who">スタートアップ / 代表 様</span>
+          </article>
+        </div>
+      </section>
+
+      <!-- HUMAN × AI -->
+      <section class="sec">
+        <div class="sec__head reveal">
+          <span class="sec__no">03</span>
+          <h2 class="sec__title">HUMAN × AI</h2>
+          <span class="sec__line"></span>
+        </div>
+        <div class="prose reveal" style="margin-bottom: 30px">
+          <h3>営業歴15年のプロが、AIと融合したらどうなるか。</h3>
+          <p>
+            プロの現場知見で設計し、AIで実行量・データ・品質を底上げ。
+            「人がやる営業」の限界を、TELEMOはひとつずつ外しました。
+          </p>
+        </div>
+        <table class="compare reveal">
+          <thead>
+            <tr><th>ITEM</th><th>HUMAN（人の営業）</th><th>TELEMO（プロ × AI）</th></tr>
+          </thead>
+          <tbody>
+            <tr><th>稼働時間</th><td>平日8時間</td><td class="col-telemo"><span class="ck">✓</span>24時間365日稼働</td></tr>
+            <tr><th>コール量</th><td>月500〜1,000件</td><td class="col-telemo"><span class="ck">✓</span>月8,800コール（約2人分）</td></tr>
+            <tr><th>通話ログ</th><td>担当メモのみ</td><td class="col-telemo"><span class="ck">✓</span>全通話を100%記録</td></tr>
+            <tr><th>品質</th><td>人によってバラつく</td><td class="col-telemo"><span class="ck">✓</span>トップ営業の品質で一定</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- VS OTHER AI -->
+      <section class="sec">
+        <div class="sec__head reveal">
+          <span class="sec__no">04</span>
+          <h2 class="sec__title">VS. OTHER AI</h2>
+          <span class="sec__line"></span>
+        </div>
+        <div class="prose reveal">
+          <h3>他のAI営業代行と一緒にしないでください</h3>
+          <p>
+            一般的なAI営業は、エンジニアが作っている。技術は優れていても、営業を知らない。
+            どれだけ精度が高くても、「何を話すか」「どこで引くか」「どう刺すか」── この判断こそが<strong>営業の急所</strong>です。
+          </p>
+          <p>
+            TELEMOは、違います。15年以上の営業実績を持つチームが、現場ベースでトーク設計。
+            現場で鍛え上げたトークツリー・KPI・改善ロジックに、AIの実行力と分析力を乗せます。
+            <strong>「人が設計し、AIが動かし、人が磨く」</strong>── この順番でしか、売れる営業は再現できません。
+          </p>
+        </div>
+      </section>
+
+      <!-- WHY IT WORKS -->
+      <section class="sec">
+        <div class="sec__head reveal">
+          <span class="sec__no">05</span>
+          <h2 class="sec__title">WHY IT WORKS</h2>
+          <span class="sec__line"></span>
+        </div>
+        <div class="why">
+          <div class="why__item reveal"><span class="why__no">01</span><div><h4>余計な会話は一切しない</h4><p>目的のない雑談・回りくどい説明はゼロ。必要な情報だけを、必要な順番で。</p></div></div>
+          <div class="why__item reveal"><span class="why__no">02</span><div><h4>YESを取るための流れ</h4><p>相手が「はい」と言いやすい質問設計。小さなYESを積み重ねて商談へ導きます。</p></div></div>
+          <div class="why__item reveal"><span class="why__no">03</span><div><h4>温度感の見極め</h4><p>相手の反応から興味度を即座に判定。見込みのある先だけにリソースを集中。</p></div></div>
+          <div class="why__item reveal"><span class="why__no">04</span><div><h4>トスまでの最短導線</h4><p>アポイント獲得までの無駄なステップを排除。最短ルートで商談の場を作ります。</p></div></div>
+        </div>
+        <p class="prose reveal" style="margin-top: 26px; text-align: center">
+          「払ったのに成果ゼロ」も、「何してるかわからない」も、<strong>TELEMOには存在しません。</strong>
+        </p>
+      </section>
+
+      <!-- 採用 vs TELEMO 理由 -->
+      <section class="sec">
+        <div class="sec__head reveal">
+          <span class="sec__no">06</span>
+          <h2 class="sec__title">採用 or TELEMO</h2>
+          <span class="sec__line"></span>
+        </div>
+        <div class="reasons">
+          <article class="reason reveal">
+            <span class="reason__idx">01 /</span>
+            <h4>人件費の実態を知っていますか</h4>
+            <p>給与だけじゃない。社会保険（約15%）・交通費・残業/有給・教育・管理。そして最大のリスクは離職。採用→教育→戦力化→離職→再採用のループ。</p>
+            <div class="reason__fig"><b>月50万〜</b><span>隠れコスト合計（給与+社保+交通費+教育+管理+離職リスク）</span></div>
+          </article>
+          <article class="reason reveal">
+            <span class="reason__idx">02 /</span>
+            <h4>離職なし・感情ブレなし</h4>
+            <p>離職なし・教育不要・感情ブレなし・パフォーマンス一定。止まらず、忠実に、∞に稼働し続けます。</p>
+            <div class="reason__fig"><b>8,800コール/月</b><span>※人の場合：200コール/日 × 22日 ＝ 約4,400コール</span></div>
+          </article>
+          <article class="reason reveal">
+            <span class="reason__idx">03 /</span>
+            <h4>本業に集中できる</h4>
+            <p>新規開拓をプロに任せれば、自社は商品開発や顧客フォローなどコア業務に専念できます。</p>
+            <div class="reason__fig"><b>営業工数 実質0</b><span>自社の強みに時間を使える</span></div>
+          </article>
+        </div>
+      </section>
+
+      <!-- コスト比較 -->
+      <section class="sec" id="compare">
+        <div class="sec__head reveal">
+          <span class="sec__no">07</span>
+          <h2 class="sec__title">COST COMPARE</h2>
+          <span class="sec__line"></span>
+        </div>
+        <div class="prose reveal" style="margin-bottom: 30px; text-align: center">
+          <h3>採用1人分の予算で、リスクゼロの営業力を。</h3>
+        </div>
+        <table class="compare reveal">
+          <thead>
+            <tr><th>ITEM</th><th>HUMAN（新卒採用）</th><th>TELEMO（プロ × AI）</th></tr>
+          </thead>
+          <tbody>
+            <tr><th>月額コスト</th><td>給与 28万円/月</td><td class="col-telemo"><span class="ck">✓</span>月額35万円（約2人分）</td></tr>
+            <tr><th>社会保険</th><td>約4.2万円（15%）</td><td class="col-telemo"><span class="ck">✓</span>込み</td></tr>
+            <tr><th>交通費</th><td>約1万円/月</td><td class="col-telemo"><span class="ck">✓</span>込み</td></tr>
+            <tr><th>残業・有給</th><td>約2.8万円（10%）</td><td class="col-telemo"><span class="ck">✓</span>込み</td></tr>
+            <tr><th>録音・ログ</th><td>なし</td><td class="col-telemo"><span class="ck">✓</span>込み</td></tr>
+            <tr><th>文字起こし</th><td>担当メモのみ</td><td class="col-telemo"><span class="ck">✓</span>込み</td></tr>
+            <tr><th>教育コスト</th><td>発生</td><td class="col-telemo"><span class="ck">✓</span>0円</td></tr>
+            <tr><th>離職リスク</th><td>あり</td><td class="col-telemo"><span class="ck">✓</span>なし</td></tr>
+            <tr><th>初期費用</th><td>採用広告費など</td><td class="col-telemo"><span class="ck">✓</span>0円</td></tr>
+          </tbody>
+        </table>
+        <p class="prose reveal" style="margin-top: 24px; text-align: center">
+          TELEMOは、<strong>辞めない。飽きない。ブレない。</strong>24時間365日、同じ品質で稼働し続けます。
+        </p>
+      </section>
+
+      <!-- FLOW -->
+      <section class="sec">
+        <div class="sec__head reveal">
+          <span class="sec__no">08</span>
+          <h2 class="sec__title">FLOW</h2>
+          <span class="sec__line"></span>
+        </div>
+        <p class="eyebrow reveal" style="text-align: center; margin-bottom: 28px">▸ 最短5営業日でコール開始</p>
+        <div class="flow">
+          <article class="step reveal"><span class="step__no">STEP<b>01</b></span><h4>無料相談・ヒアリング</h4><p>現状の営業課題・ターゲット・目標をお伺いします。所要10〜15分、売り込みはしません。</p></article>
+          <article class="step reveal"><span class="step__no">STEP<b>02</b></span><h4>ターゲット設計・トーク構築</h4><p>15年のノウハウでリスト作成とトークスクリプトを設計。AIに勝ちパターンを実装します。</p></article>
+          <article class="step reveal"><span class="step__no">STEP<b>03</b></span><h4>テストコール</h4><p>少量で架電し、反応データを見ながらトークと分岐をチューニングします。</p></article>
+          <article class="step reveal"><span class="step__no">STEP<b>04</b></span><h4>本稼働・改善</h4><p>月8,800コールで運用開始。全通話ログを見ながら、継続的に成果を改善します。</p></article>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section class="sec">
+        <div class="sec__head reveal">
+          <span class="sec__no">09</span>
+          <h2 class="sec__title">FAQ</h2>
+          <span class="sec__line"></span>
+        </div>
+        <div class="faq reveal" id="faq">
+          <div class="faq__item">
+            <button class="faq__q">本当に月間8,800コールされますか？<span class="faq__icon">+</span></button>
+            <div class="faq__a"><p>はい。TELEMOは月8,800コール（人換算で約2人分）を標準稼働として設計しています。24時間365日、同じ品質で稼働し続けます。</p></div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__q">どんな業種に対応していますか？<span class="faq__icon">+</span></button>
+            <div class="faq__a"><p>新規開拓のテレアポを必要とする業種に幅広く対応します。ターゲットやトークは業種ごとに個別設計するため、詳細はヒアリング時にご案内します。</p></div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__q">トークスクリプトは誰がどうやって作りますか？<span class="faq__icon">+</span></button>
+            <div class="faq__a"><p>営業歴15年以上のプロチームが、現場ベースでトークツリー・分岐・KPIを設計し、その勝ちパターンをAIに実装します。</p></div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__q">契約期間はどのくらいですか？<span class="faq__icon">+</span></button>
+            <div class="faq__a"><p>「長期縛り」を逆に設計したサービスです。具体的な契約条件はご相談時にお伝えします。</p></div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__q">初期費用はかかりますか？<span class="faq__icon">+</span></button>
+            <div class="faq__a"><p>初期費用は0円です。料金は月額35万円で、録音・ログ・文字起こしまで込みです。</p></div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__q">人の営業と比べてどのくらいコスト削減できますか？<span class="faq__icon">+</span></button>
+            <div class="faq__a"><p>採用1人分の予算で約2人分の稼働量を実現します。給与に加え、社会保険・交通費・教育・離職などの隠れコストも不要です。</p></div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__q">どのくらいで成果が出ますか？<span class="faq__icon">+</span></button>
+            <div class="faq__a"><p>テストコールで反応データを見ながらチューニングし、本稼働後も全ログを基に継続改善します。最短5営業日でコールを開始できます。</p></div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__q">途中でスクリプトやターゲットの変更はできますか？<span class="faq__icon">+</span></button>
+            <div class="faq__a"><p>はい。反応データをもとにトーク・分岐・ターゲットを継続的に見直し、改善し続けます。</p></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 最終CTA -->
+      <section class="sec">
+        <div class="cta-final reveal">
+          <p class="eyebrow eyebrow--line">SaaS 営業支援</p>
+          <p class="cta-final__logo">TELEMO</p>
+          <h3>営業のプロが作った、<span class="grad">日本一正直な営業代行。</span></h3>
+          <p>かけた分だけ、全部見える。それがTELEMOです。</p>
+          <p>現状の営業コストと比較した“削減インパクト”を、その場で算出します。</p>
+          <div class="cta-final__actions">
+            <a class="btn btn--primary btn--lg" href="index.html#contact"><span>まずは10〜15分だけ話しましょう</span><i class="btn__arrow">→</i></a>
+            <a class="btn btn--ghost btn--lg" href="index.html#contact"><span>資料請求</span></a>
+          </div>
+          <p class="cta-final__meta">所要時間：10〜15分 ／ 費用：無料 ／ 売り込み：なし</p>
+        </div>
+      </section>
+    </main>
+
+    <!-- フッター -->
+    <footer class="footer">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <img class="brand-logo" src="giguuu-logo.png" alt="GIGUUU株式会社 ロゴ" />
+          <span>GIGUUU<span class="footer__sub">株式会社</span></span>
+          <p class="footer__tag">人の限界を、技術で超えていく</p>
+        </div>
+        <nav class="footer__nav">
+          <a href="index.html#about">GIGUUUとは</a>
+          <a href="index.html#company">会社情報</a>
+          <a href="business.html">事業紹介</a>
+          <a href="index.html#telemo">TELEMO</a>
+          <a href="index.html#news">お知らせ</a>
+          <a href="index.html#recruit">採用情報</a>
+          <a href="index.html#policy">各種ポリシー</a>
+          <a href="index.html#contact">お問い合わせ</a>
+        </nav>
+        <div class="footer__social">
+          <a href="#" aria-label="Twitter / X" class="soc">X</a>
+          <a href="#" aria-label="Facebook" class="soc">f</a>
+          <a href="#" aria-label="Instagram" class="soc">◎</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© 2026 GIGUUU Inc. All rights reserved.</span>
+        <span class="footer__build">SYSTEM ONLINE ● v2.0</span>
+      </div>
+    </footer>
+
+    <script type="module" src="./main.js"></script>
+    <script src="./site.js" defer></script>
+  </body>
+</html>

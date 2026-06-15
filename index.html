@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GIGUUU株式会社 ｜ 人の限界を、技術で超えていく</title>
+    <meta
+      name="description"
+      content="GIGUUU株式会社 公式サイト。現場を知る、AIの会社。営業ノウハウをAIで再現するSaaS営業支援『TELEMO』を提供。人の可能性を、AIで拡張する。"
+    />
+
+    <!-- フォント：ディスプレイ(Orbitron/Space Grotesk) + 日本語(Noto Sans JP) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Space+Grotesk:wght@400;500;700&family=Noto+Sans+JP:wght@300;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+
+    <!-- importmap：CDN(unpkg) の Three.js を "three" で読み込む -->
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+        }
+      }
+    </script>
+  </head>
+
+  <body>
+    <!-- 3D 背景キャンバスは main.js が body 先頭に自動挿入 -->
+
+    <!-- スクリーン全体に乗せる近未来オーバーレイ（グリッド/走査線/ノイズ） -->
+    <div class="fx-overlay" aria-hidden="true">
+      <div class="fx-grid"></div>
+      <div class="fx-scanline"></div>
+      <div class="fx-noise"></div>
+    </div>
+
+    <!-- マウス追従のグロー -->
+    <div class="cursor-glow" aria-hidden="true"></div>
+
+    <!-- 読み込みローダー -->
+    <div class="loader" id="loader">
+      <div class="loader__ring"></div>
+      <div class="loader__text">GIGUUU<span>_</span>SYSTEM BOOT</div>
+    </div>
+
+    <!-- 右側スクロールインジケータ -->
+    <div class="scroll-rail" aria-hidden="true">
+      <span class="scroll-rail__bar" id="scrollBar"></span>
+    </div>
+
+    <!-- ============ ヘッダー ============ -->
+    <header class="nav" id="nav">
+      <a class="nav__logo" href="#hero">
+        <img class="brand-logo" src="giguuu-logo.png" alt="GIGUUU株式会社 ロゴ" />
+        GIGUUU<span class="nav__logo-sub">株式会社</span>
+      </a>
+      <nav class="nav__links" id="navLinks">
+        <a href="#about">GIGUUUとは</a>
+        <a href="#company">会社情報</a>
+        <a href="business.html">事業紹介</a>
+        <a href="#telemo">TELEMO</a>
+        <a class="nav__cta" href="#contact">お問い合わせ</a>
+      </nav>
+      <button class="nav__burger" id="burger" aria-label="メニュー">
+        <span></span><span></span><span></span>
+      </button>
+    </header>
+
+    <main>
+      <!-- ============ HERO ============ -->
+      <section class="hero" id="hero">
+        <div class="hero__inner">
+          <p class="eyebrow reveal">▸ ABOUT GIGUUU</p>
+          <h1 class="hero__title reveal">
+            <span class="hero__line1">人の限界を、</span>
+            <span class="hero__line2" data-text="技術で超えていく">技術で超えていく</span>
+          </h1>
+          <p class="hero__lead reveal">
+            現場を知る、AIの会社。営業会社発のテクノロジーで、<br class="brpc" />
+            属人化していた“勝ちパターン”を、誰もが使える仕組みに変える。
+          </p>
+          <div class="hero__actions reveal">
+            <a class="btn btn--primary" href="business.html">
+              <span>事業を見る</span>
+              <i class="btn__arrow">→</i>
+            </a>
+            <a class="btn btn--ghost" href="#contact"><span>お問い合わせ</span></a>
+          </div>
+
+          <ul class="hero__stats reveal">
+            <li>
+              <strong data-count="1000">0</strong><span>万件＋</span>
+              <em>コールデータ</em>
+            </li>
+            <li><strong>AI</strong><span>×営業</span><em>現場発の技術</em></li>
+            <li><strong>04</strong><span>DOMAINS</span><em>事業領域</em></li>
+          </ul>
+        </div>
+        <a href="#about" class="hero__scroll" aria-label="スクロール">
+          <span>SCROLL</span>
+          <i></i>
+        </a>
+      </section>
+
+      <!-- ============ 01 ABOUT US ============ -->
+      <section class="sec" id="about">
+        <div class="sec__head reveal">
+          <span class="sec__no">01</span>
+          <h2 class="sec__title">ABOUT US</h2>
+          <span class="sec__line"></span>
+        </div>
+        <div class="panel panel--split reveal">
+          <div class="panel__lead">
+            <h3>現場を知る、<br /><span class="grad">AIの会社。</span></h3>
+          </div>
+          <div class="panel__body">
+            <p>
+              私たちGIGUUUは、エンジニア発ではなく<strong>営業会社発</strong>のAIカンパニーです。
+              数百万件を超えるコールデータと、現場で磨かれた営業ノウハウ。
+              その両方を知るからこそ、机上ではない“効く”AIをつくれる。
+            </p>
+            <p>
+              技術のための技術ではなく、現場の課題から逆算したプロダクト。
+              それがGIGUUUの出発点です。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ 02 MISSION ============ -->
+      <section class="sec sec--center" id="mission">
+        <div class="sec__head reveal">
+          <span class="sec__no">02</span>
+          <h2 class="sec__title">MISSION</h2>
+          <span class="sec__line"></span>
+        </div>
+        <div class="statement reveal">
+          <h3 class="statement__main">
+            人の可能性を、<br /><span class="hlbox"><span class="hlbox__t">AIで拡張する</span></span>
+          </h3>
+          <p class="statement__sub">
+            AIは人を置き換えるためではなく、人が本質的な仕事に集中するためにある。
+            繰り返しを機械に、創造を人に。私たちはその境界を引き直します。
+          </p>
+        </div>
+      </section>
+
+      <!-- ============ 03 VISION ============ -->
+      <section class="sec sec--center" id="vision">
+        <div class="sec__head reveal">
+          <span class="sec__no">03</span>
+          <h2 class="sec__title">VISION</h2>
+          <span class="sec__line"></span>
+        </div>
+        <div class="statement reveal">
+          <h3 class="statement__main">
+            誰もが、挑戦できる<br /><span class="hlbox"><span class="hlbox__t">社会をつくる</span></span>
+          </h3>
+          <p class="statement__sub">
+            才能や環境の差を、技術で埋める。規模や経歴に関わらず、
+            挑戦する人がフェアに勝てる世界へ。
+          </p>
+        </div>
+      </section>
+
+      <!-- ============ 04 VALUE ============ -->
+      <section class="sec" id="value">
+        <div class="sec__head reveal">
+          <span class="sec__no">04</span>
+          <h2 class="sec__title">VALUE</h2>
+          <span class="sec__line"></span>
+        </div>
+        <div class="domains">
+          <article class="domain reveal">
+            <span class="domain__num">01</span>
+            <div class="domain__body">
+              <span class="domain__tag">CHALLENGE ／ 前例がない＝伸びしろ</span>
+              <h3 class="domain__title">
+                <span class="domain__lead">挑戦を</span>
+                <span class="domain__box"><span class="domain__boxtext">止めない</span></span>
+              </h3>
+              <p class="domain__desc">失敗を恐れず挑戦する。誰もやっていないからこそ、私たちがやる意味がある。前例がないことにこそ、本当の価値がある。</p>
+            </div>
+          </article>
+
+          <article class="domain reveal">
+            <span class="domain__num">02</span>
+            <div class="domain__body">
+              <span class="domain__tag">QUESTION ／ その当たり前、本当に正しい？</span>
+              <h3 class="domain__title">
+                <span class="domain__lead">常識を</span>
+                <span class="domain__box"><span class="domain__boxtext">疑う</span></span>
+              </h3>
+              <p class="domain__desc">今までのやり方に縛られない。「当たり前」を一度立ち止まって疑い、机上の空論ではなく、現場で起きている事実から考える。</p>
+            </div>
+          </article>
+
+          <article class="domain reveal">
+            <span class="domain__num">03</span>
+            <div class="domain__body">
+              <span class="domain__tag">VALUE ／ 技術のためのAIは、作らない</span>
+              <h3 class="domain__title">
+                <span class="domain__lead">技術を</span>
+                <span class="domain__box"><span class="domain__boxtext">価値に変える</span></span>
+              </h3>
+              <p class="domain__desc">AIは目的ではなく、課題解決の手段。流行を追うのではなく、現場で本当に使われ、成果につながる形まで徹底して磨き上げる。</p>
+            </div>
+          </article>
+
+          <article class="domain reveal">
+            <span class="domain__num">04</span>
+            <div class="domain__body">
+              <span class="domain__tag">PEOPLE ／ AIの主役は、いつも人</span>
+              <h3 class="domain__title">
+                <span class="domain__lead">人を</span>
+                <span class="domain__box"><span class="domain__boxtext">主役にする</span></span>
+              </h3>
+              <p class="domain__desc">テクノロジーの先にいるのは、いつも人。まず動き、改善しながら進化する。人の可能性を広げるためにこそ、技術を使う。</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- ============ 05 OUR STORY ============ -->
+      <section class="sec" id="story">
+        <div class="sec__head reveal">
+          <span class="sec__no">05</span>
+          <h2 class="sec__title">OUR STORY</h2>
+          <span class="sec__line"></span>
+        </div>
+        <div class="story reveal">
+          <blockquote class="story__quote">
+            「営業は才能ではない。<span class="grad">仕組みです。</span>」
+          </blockquote>
+          <p class="story__text">
+            トップ営業の話し方、間の取り方、切り返しのタイミング。
+            一部の天才の頭の中にしかなかった“勝ちパターン”を、AIで解析し再現する。
+            属人化を仕組みに変えるために、私たちは<strong>TELEMO</strong>を生み出しました。
+          </p>
+        </div>
+      </section>
+
+      <!-- ============ 06 BUSINESS ============ -->
+      <section class="sec" id="business">
+        <div class="sec__head reveal">
+          <span class="sec__no">06</span>
+          <h2 class="sec__title">BUSINESS</h2>
+          <span class="sec__line"></span>
+        </div>
+        <div class="domains">
+          <article class="domain reveal">
+            <span class="domain__num">01</span>
+            <div class="domain__body">
+              <span class="domain__tag">AI自動応答 ／ ボイスボット ／ 問い合わせ対応</span>
+              <h3 class="domain__title">
+                <span class="domain__lead">人と人を、つなぐ</span>
+                <span class="domain__box"><span class="domain__boxtext">AI Communication</span></span>
+              </h3>
+              <p class="domain__desc">電話・チャット・音声をAIが担い、人と企業の接点をなめらかに。「伝わらない」「届かない」をなくす。</p>
+            </div>
+          </article>
+
+          <article class="domain domain--flag reveal">
+            <span class="domain__num">02</span>
+            <div class="domain__body">
+              <span class="domain__flag">FLAGSHIP</span>
+              <span class="domain__tag">AI自動コール ／ トーク設計 ／ 商談獲得</span>
+              <h3 class="domain__title">
+                <span class="domain__lead">営業を、仕組みに</span>
+                <span class="domain__box"><span class="domain__boxtext">AI Sales ／ TELEMO</span></span>
+              </h3>
+              <p class="domain__desc">トップ営業の話し方・分岐・タイミングを再現するSaaS。属人化した“勝ちパターン”を、誰もの武器に。</p>
+            </div>
+          </article>
+
+          <article class="domain reveal">
+            <span class="domain__num">03</span>
+            <div class="domain__body">
+              <span class="domain__tag">業務自動化 ／ データ抽出 ／ ワークフロー連携</span>
+              <h3 class="domain__title">
+                <span class="domain__lead">人を、創造へ還す</span>
+                <span class="domain__box"><span class="domain__boxtext">AI Automation</span></span>
+              </h3>
+              <p class="domain__desc">繰り返しの業務をAIが巻き取り、人は判断と創造へ集中。時間という資源を取り戻す。</p>
+            </div>
+          </article>
+
+          <article class="domain reveal">
+            <span class="domain__num">04</span>
+            <div class="domain__body">
+              <span class="domain__tag">データ基盤 ／ 新規事業創出 ／ 働き方改革</span>
+              <h3 class="domain__title">
+                <span class="domain__lead">成長を、支える</span>
+                <span class="domain__box"><span class="domain__boxtext">AI Platform</span></span>
+              </h3>
+              <p class="domain__desc">蓄積したデータとAIを基盤化し、単発で終わらせない。継続的に成長できる土台をつくる。</p>
+            </div>
+          </article>
+        </div>
+        <div class="sec__cta reveal">
+          <a class="btn btn--primary btn--lg" href="business.html">
+            <span>事業紹介を詳しく見る</span><i class="btn__arrow">→</i>
+          </a>
+        </div>
+      </section>
+
+      <!-- ============ NUMBERS ============ -->
+      <section class="sec sec--center" id="numbers">
+        <div class="sec__head reveal">
+          <span class="sec__no">07</span>
+          <h2 class="sec__title">NUMBERS</h2>
+          <span class="sec__line"></span>
+        </div>
+        <p class="eyebrow reveal" style="margin-bottom: 30px">▸ 数字で見る GIGUUU</p>
+        <div class="metrics__row metrics__row--4">
+          <div class="metric reveal"><strong>37<sup>期</sup></strong><span>業界で培った営業歴</span></div>
+          <div class="metric reveal"><strong>8,800<sup>件</sup></strong><span>TELEMO 月間コール数</span></div>
+          <div class="metric reveal"><strong>97<sup>%</sup></strong><span>リピート率</span></div>
+          <div class="metric reveal"><strong>88<sup>%</sup></strong><span>決裁者商談率</span></div>
+        </div>
+        <p class="metrics__note reveal">
+          ※ TELEMO 2023年度実績（自社調べ）。営業歴は前身事業を含みます。
+        </p>
+      </section>
+
+      <!-- ============ TELEMO ============ -->
+      <section class="sec" id="telemo">
+        <div class="telemo reveal">
+          <div class="telemo__left">
+            <p class="eyebrow">▸ SaaS 営業支援</p>
+            <h2 class="telemo__logo">TELEMO</h2>
+            <p class="telemo__catch">
+              現場で培った営業ノウハウを、<span class="grad">AIで再現。</span>
+            </p>
+            <p class="telemo__text">
+              トップ営業の話し方・分岐・タイミングを仕組み化し、
+              属人化していた“勝ちパターン”を、誰もが使える形にします。
+            </p>
+            <div class="tags">
+              <span class="tag">#AI自動コール</span>
+              <span class="tag">#トーク設計</span>
+              <span class="tag">#商談獲得</span>
+            </div>
+            <a class="btn btn--primary" href="#contact">
+              <span>導入を相談する</span><i class="btn__arrow">→</i>
+            </a>
+          </div>
+          <div class="telemo__right">
+            <div class="telemo__viz">
+              <div class="telemo__viz-ring"></div>
+              <div class="telemo__viz-core">AI</div>
+              <ul class="telemo__viz-nodes">
+                <li>自動コール</li>
+                <li>トーク分岐</li>
+                <li>商談獲得</li>
+                <li>解析</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ 07 MESSAGE ============ -->
+      <section class="sec sec--center" id="message">
+        <div class="sec__head reveal">
+          <span class="sec__no">08</span>
+          <h2 class="sec__title">MESSAGE</h2>
+          <span class="sec__line"></span>
+        </div>
+        <div class="statement reveal">
+          <h3 class="statement__main statement__main--sm">
+            技術が目的ではなく、<br />
+            <span class="hlbox"><span class="hlbox__t">課題解決こそが目的である</span></span>
+          </h3>
+          <p class="statement__sub">
+            私たちが見ているのは最新の技術トレンドではなく、目の前の現場の課題。
+            解くべき問題から始めるという原則を、これからも変えません。
+          </p>
+        </div>
+      </section>
+
+      <!-- ============ NEWS ============ -->
+      <section class="sec" id="news">
+        <div class="sec__head reveal">
+          <span class="sec__no">09</span>
+          <h2 class="sec__title">NEWS</h2>
+          <span class="sec__line"></span>
+        </div>
+        <div class="news reveal">
+          <a class="news__item" href="#company">
+            <span class="news__date">2021.12</span>
+            <span class="news__cat">INFO</span>
+            <span class="news__title">GIGUUU株式会社を設立しました。</span>
+            <i class="news__arrow">→</i>
+          </a>
+          <a class="news__item" href="business.html">
+            <span class="news__date">TOPIC</span>
+            <span class="news__cat">SERVICE</span>
+            <span class="news__title">SaaS営業支援「TELEMO」を提供しています。</span>
+            <i class="news__arrow">→</i>
+          </a>
+          <a class="news__item" href="#recruit">
+            <span class="news__date">TOPIC</span>
+            <span class="news__cat">RECRUIT</span>
+            <span class="news__title">挑戦する仲間を募集しています。</span>
+            <i class="news__arrow">→</i>
+          </a>
+        </div>
+      </section>
+
+      <!-- ============ RECRUIT ============ -->
+      <section class="sec" id="recruit">
+        <div class="sec__head reveal">
+          <span class="sec__no">10</span>
+          <h2 class="sec__title">RECRUIT</h2>
+          <span class="sec__line"></span>
+        </div>
+        <div class="recruit reveal">
+          <div class="recruit__body">
+            <h3>挑戦する仲間を、<span class="grad">募集しています。</span></h3>
+            <p>
+              「営業は才能ではなく、仕組み」だと信じ、AIで人の可能性を広げる。
+              前例のない挑戦を一緒に楽しめる仲間を探しています。職種・経験は問いません。
+              まずは“話を聞きにくる”感覚で、気軽にご連絡ください。
+            </p>
+            <div class="tags">
+              <span class="tag">#エンジニア</span>
+              <span class="tag">#セールス</span>
+              <span class="tag">#AIプランナー</span>
+              <span class="tag">#コーポレート</span>
+            </div>
+            <a class="btn btn--primary" href="#contact">
+              <span>カジュアルに話を聞く</span><i class="btn__arrow">→</i>
+            </a>
+          </div>
+          <div class="recruit__side">
+            <div class="recruit__chip">挑戦を止めない</div>
+            <div class="recruit__chip">常識を疑う</div>
+            <div class="recruit__chip">技術を価値に変える</div>
+            <div class="recruit__chip">人を主役にする</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ 会社情報 ============ -->
+      <section class="sec" id="company">
+        <div class="sec__head reveal">
+          <span class="sec__no">11</span>
+          <h2 class="sec__title">COMPANY</h2>
+          <span class="sec__line"></span>
+        </div>
+        <div class="panel reveal">
+          <table class="info">
+            <tbody>
+              <tr><th>会社名</th><td>GIGUUU株式会社</td></tr>
+              <tr><th>設立</th><td>2021年12月</td></tr>
+              <tr><th>代表者</th><td>青木 一平</td></tr>
+              <tr><th>所在地</th><td>東京都豊島区東池袋1-34-5</td></tr>
+              <tr><th>連絡先</th><td><a href="tel:0343661687">03-4366-1687</a></td></tr>
+              <tr>
+                <th>事業内容</th>
+                <td>プラットフォーム事業<br />代理店事業</td>
+              </tr>
+              <tr>
+                <th>代表サービス</th>
+                <td>SaaS営業支援「<a href="business.html">TELEMO</a>」</td>
+              </tr>
+              <tr>
+                <th>お問い合わせ</th>
+                <td><a href="#contact">お問い合わせフォームへ →</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- ============ 各種ポリシー ============ -->
+      <section class="sec" id="policy">
+        <div class="sec__head reveal">
+          <span class="sec__no">12</span>
+          <h2 class="sec__title">POLICY</h2>
+          <span class="sec__line"></span>
+        </div>
+        <div class="policy reveal">
+          <a class="policy__item" href="#">プライバシーポリシー<i>→</i></a>
+          <a class="policy__item" href="#">利用規約<i>→</i></a>
+          <a class="policy__item" href="#">情報セキュリティ方針<i>→</i></a>
+          <a class="policy__item" href="#">特定商取引法に基づく表記<i>→</i></a>
+        </div>
+      </section>
+
+      <!-- ============ お問い合わせ ============ -->
+      <section class="sec sec--center" id="contact">
+        <div class="sec__head reveal">
+          <span class="sec__no">13</span>
+          <h2 class="sec__title">CONTACT</h2>
+          <span class="sec__line"></span>
+        </div>
+        <div class="contact reveal">
+          <p class="contact__lead">
+            事業・採用・TELEMO導入のご相談など、お気軽にお問い合わせください。
+          </p>
+          <form class="contact__form" id="contactForm" novalidate>
+            <div class="field">
+              <label>お名前</label>
+              <input type="text" name="name" placeholder="山田 太郎" required />
+            </div>
+            <div class="field">
+              <label>会社名</label>
+              <input type="text" name="company" placeholder="株式会社○○" />
+            </div>
+            <div class="field">
+              <label>メールアドレス</label>
+              <input type="email" name="email" placeholder="you@example.com" required />
+            </div>
+            <div class="field field--full">
+              <label>お問い合わせ内容</label>
+              <textarea name="message" rows="4" placeholder="ご相談内容をご記入ください" required></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--lg">
+              <span>送信する</span><i class="btn__arrow">→</i>
+            </button>
+            <p class="contact__status" id="formStatus" role="status"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- ============ フッター ============ -->
+    <footer class="footer">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <img class="brand-logo" src="giguuu-logo.png" alt="GIGUUU株式会社 ロゴ" />
+          <span>GIGUUU<span class="footer__sub">株式会社</span></span>
+          <p class="footer__tag">人の限界を、技術で超えていく</p>
+        </div>
+        <nav class="footer__nav">
+          <a href="#about">GIGUUUとは</a>
+          <a href="#company">会社情報</a>
+          <a href="business.html">事業紹介</a>
+          <a href="#telemo">TELEMO</a>
+          <a href="#news">お知らせ</a>
+          <a href="#recruit">採用情報</a>
+          <a href="#policy">各種ポリシー</a>
+          <a href="#contact">お問い合わせ</a>
+        </nav>
+        <div class="footer__social">
+          <a href="#" aria-label="Twitter / X" class="soc">X</a>
+          <a href="#" aria-label="Facebook" class="soc">f</a>
+          <a href="#" aria-label="Instagram" class="soc">◎</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© 2026 GIGUUU Inc. All rights reserved.</span>
+        <span class="footer__build">SYSTEM ONLINE ● v2.0</span>
+      </div>
+    </footer>
+
+    <script type="module" src="./main.js"></script>
+    <script src="./site.js" defer></script>
+  </body>
+</html>
