@@ -1391,6 +1391,51 @@ main { position: relative; z-index: 1; }
 .path__list li { font-size: 0.84rem; color: var(--ink); }
 .path__list li::before { content: "▸ "; color: var(--cyan); }
 
+/* コスト内訳リスト（コスト比較カード） */
+.costlist { list-style: none; padding: 0; margin: 18px 0; display: flex; flex-direction: column; gap: 12px; }
+.costlist li { display: flex; justify-content: space-between; align-items: baseline; gap: 14px; font-size: 0.95rem; color: var(--ink); border-bottom: 1px dashed var(--line); padding-bottom: 11px; }
+.costlist li span { color: var(--muted); }
+.costlist li b { font-weight: 700; white-space: nowrap; }
+.costlist__total { display: flex; justify-content: space-between; align-items: baseline; gap: 14px; margin-top: 4px; }
+.costlist__total span { color: var(--muted); font-size: 0.95rem; }
+.costlist__total b { font-family: var(--disp); font-size: clamp(1.8rem, 4vw, 2.6rem); font-weight: 800; color: var(--cyan); }
+.costlist__total b small { font-size: 0.85rem; font-weight: 600; margin-left: 4px; }
+
+/* TELEMOカードのお問い合わせ誘導 */
+.cost-ask { text-align: center; padding: 14px 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 16px; min-height: 200px; }
+.cost-ask__lead { color: var(--muted); font-size: 0.98rem; margin: 0; }
+.cost-ask__main { font-family: var(--disp); font-size: clamp(2rem, 5vw, 3rem); font-weight: 800; margin: 0; }
+
+/* 比較表のお問い合わせリンク */
+.col-telemo a { color: var(--cyan); font-weight: 700; text-decoration: none; border-bottom: 1px solid rgba(46, 209, 107, 0.45); transition: color 0.2s; }
+.col-telemo a:hover { color: #6ff0a0; }
+
+/* インフォボックス（BPO市場の実態・参考） */
+.infogrid { max-width: var(--maxw); margin: 24px auto 0; padding: 0 clamp(20px, 5vw, 40px); display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+.infobox { background: var(--glass); border: 1px solid var(--line); border-radius: 14px; padding: 26px; }
+.infobox--wide { max-width: var(--maxw); margin: 0 auto 22px; }
+.infobox--accent { background: linear-gradient(160deg, rgba(255, 194, 60, 0.08), var(--glass)); border-color: rgba(255, 194, 60, 0.25); }
+.infobox__title { font-size: 1.05rem; font-weight: 700; margin: 0 0 18px; color: var(--cyan); }
+.infobox--accent .infobox__title { color: var(--gold); }
+.infobox__list { list-style: none; padding: 0; margin: 0; display: grid; gap: 14px; }
+.infobox__list li { display: grid; grid-template-columns: 170px 1fr; gap: 4px 16px; align-items: baseline; border-bottom: 1px dashed var(--line); padding-bottom: 13px; }
+.infobox__list li span { color: var(--cyan); font-weight: 600; font-size: 0.9rem; }
+.infobox__list li b { font-weight: 700; color: var(--ink); }
+.infobox__list li em { grid-column: 1 / -1; font-style: normal; color: var(--dim); font-size: 0.8rem; line-height: 1.7; }
+.infobox__body { color: var(--muted); line-height: 1.9; font-weight: 300; font-size: 0.92rem; margin: 0 0 14px; }
+.infobox__hl { margin: 0; }
+.infobox__hl b { color: var(--cyan); font-size: 1.08rem; }
+.infobox__hl span { color: var(--muted); font-size: 0.82rem; display: block; margin-top: 5px; }
+.infobox__note { color: var(--dim); font-size: 0.8rem; line-height: 1.7; margin: 0; }
+.valuelist { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 13px; }
+.valuelist li { position: relative; padding-left: 26px; color: var(--ink); font-size: 0.92rem; line-height: 1.7; }
+.valuelist li::before { content: "✓"; position: absolute; left: 0; top: 0; color: var(--gold); font-weight: 700; }
+
+@media (max-width: 900px) {
+  .infogrid { grid-template-columns: 1fr; }
+  .infobox__list li { grid-template-columns: 1fr; }
+}
+
 /* 実績メトリクス */
 .metrics {
   max-width: var(--maxw);
