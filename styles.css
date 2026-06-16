@@ -1414,10 +1414,11 @@ main { position: relative; z-index: 1; }
 .infogrid { max-width: var(--maxw); margin: 24px auto 0; padding: 0 clamp(20px, 5vw, 40px); display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
 .infobox { background: var(--glass); border: 1px solid var(--line); border-radius: 14px; padding: 26px; }
 .infobox--wide { max-width: var(--maxw); margin: 0 auto 22px; }
-.infobox--accent { background: linear-gradient(160deg, rgba(255, 194, 60, 0.08), var(--glass)); border-color: rgba(255, 194, 60, 0.25); }
+.infobox--accent { background: linear-gradient(160deg, rgba(46, 209, 107, 0.08), var(--glass)); border-color: rgba(46, 209, 107, 0.25); }
 .infobox__title { font-size: 1.05rem; font-weight: 700; margin: 0 0 18px; color: var(--cyan); }
-.infobox--accent .infobox__title { color: var(--gold); }
+.infobox--accent .infobox__title { color: var(--cyan); }
 .infobox__list { list-style: none; padding: 0; margin: 0; display: grid; gap: 14px; }
+.infobox--wide .infobox__list { grid-template-columns: 1fr 1fr; column-gap: 56px; row-gap: 16px; }
 .infobox__list li { display: grid; grid-template-columns: 170px 1fr; gap: 4px 16px; align-items: baseline; border-bottom: 1px dashed var(--line); padding-bottom: 13px; }
 .infobox__list li span { color: var(--cyan); font-weight: 600; font-size: 0.9rem; }
 .infobox__list li b { font-weight: 700; color: var(--ink); }
@@ -1429,10 +1430,11 @@ main { position: relative; z-index: 1; }
 .infobox__note { color: var(--dim); font-size: 0.8rem; line-height: 1.7; margin: 0; }
 .valuelist { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 13px; }
 .valuelist li { position: relative; padding-left: 26px; color: var(--ink); font-size: 0.92rem; line-height: 1.7; }
-.valuelist li::before { content: "✓"; position: absolute; left: 0; top: 0; color: var(--gold); font-weight: 700; }
+.valuelist li::before { content: "✓"; position: absolute; left: 0; top: 0; color: var(--cyan); font-weight: 700; }
 
 @media (max-width: 900px) {
   .infogrid { grid-template-columns: 1fr; }
+  .infobox--wide .infobox__list { grid-template-columns: 1fr; }
   .infobox__list li { grid-template-columns: 1fr; }
 }
 
