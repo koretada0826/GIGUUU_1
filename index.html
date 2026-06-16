@@ -482,7 +482,11 @@
           <p class="contact__lead">
             事業・採用・TELEMO導入のご相談など、お気軽にお問い合わせください。
           </p>
-          <form class="contact__form" id="contactForm" novalidate>
+          <form class="contact__form" id="contactForm" action="https://api.web3forms.com/submit" method="POST" novalidate>
+            <input type="hidden" name="access_key" value="31d3749e-b24f-4268-aee5-bcdd79a86b36" />
+            <input type="hidden" name="subject" value="【GIGUUU】お問い合わせがありました" />
+            <input type="hidden" name="from_name" value="GIGUUU お問い合わせフォーム" />
+            <input type="checkbox" name="botcheck" style="display: none" tabindex="-1" autocomplete="off" />
             <div class="field">
               <label>お名前</label>
               <input type="text" name="name" placeholder="山田 太郎" required />

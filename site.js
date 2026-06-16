@@ -106,24 +106,45 @@
     });
   });
 
-  // ---- お問い合わせフォーム（デモ送信） ----
+  // ---- お問い合わせフォーム（Web3Forms 送信） ----
   const form = document.getElementById("contactForm");
   const status = document.getElementById("formStatus");
   if (form) {
-    form.addEventListener("submit", (e) => {
+    form.addEventListener("submit", async (e) => {
       e.preventDefault();
       if (!form.checkValidity()) {
         status.style.color = "var(--magenta)";
         status.textContent = "▸ 必須項目（お名前・メール・内容）をご確認ください。";
         return;
       }
+      const btn = form.querySelector('button[type="submit"]');
       status.style.color = "var(--cyan)";
       status.textContent = "▸ 送信中...";
-      setTimeout(() => {
+      if (btn) btn.disabled = true;
+      try {
+        const res = await fetch("https://api.web3forms.com/submit", {
+          method: "POST",
+          headers: { Accept: "application/json" },
+          body: new FormData(form),
+        });
+        const data = await res.json();
+        if (data.success) {
+          status.style.color = "var(--cyan)";
+          status.textContent =
+            "✓ 送信ありがとうございます。担当より折り返しご連絡いたします。";
+          form.reset();
+        } else {
+          status.style.color = "var(--magenta)";
+          status.textContent =
+            "▸ 送信に失敗しました。お手数ですが時間をおいて再度お試しください。";
+        }
+      } catch (err) {
+        status.style.color = "var(--magenta)";
         status.textContent =
-          "✓ 送信ありがとうございます。担当より折り返しご連絡いたします。（※デモ：実際の送信は行われません）";
-        form.reset();
-      }, 900);
+          "▸ 通信エラーが発生しました。時間をおいて再度お試しください。";
+      } finally {
+        if (btn) btn.disabled = false;
+      }
     });
   }
 })();
