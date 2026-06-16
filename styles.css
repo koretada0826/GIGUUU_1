@@ -1137,7 +1137,7 @@ main { position: relative; z-index: 1; }
 .contact__lead { color: var(--muted); line-height: 2; font-weight: 300; margin: 0 0 30px; }
 .contact__form {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 18px;
   padding: clamp(26px, 4vw, 44px);
   text-align: left;
