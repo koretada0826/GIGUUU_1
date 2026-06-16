@@ -1638,6 +1638,7 @@ main { position: relative; z-index: 1; }
    追加セクション（トップ拡張）：NUMBERS / NEWS / RECRUIT
    ============================================================= */
 .metrics__row--4 { grid-template-columns: repeat(4, 1fr); }
+.metrics__row--3 { grid-template-columns: repeat(3, 1fr); }
 
 /* NEWS / お知らせ */
 .news { max-width: 960px; margin: 0 auto; }
@@ -1697,6 +1698,7 @@ main { position: relative; z-index: 1; }
 
 @media (max-width: 900px) {
   .metrics__row--4 { grid-template-columns: 1fr 1fr; }
+  .metrics__row--3 { grid-template-columns: 1fr 1fr; }
   .recruit { grid-template-columns: 1fr; }
 }
 @media (max-width: 640px) {
