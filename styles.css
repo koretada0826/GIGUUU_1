@@ -1203,7 +1203,7 @@ main { position: relative; z-index: 1; }
   font-size: 0.82rem;
   margin: 8px 0 0;
 }
-.footer__nav { display: grid; gap: 12px; font-size: 0.86rem; }
+.footer__nav { display: flex; flex-wrap: wrap; gap: 12px 24px; font-size: 0.86rem; }
 .footer__nav a { color: var(--muted); transition: color 0.25s; }
 .footer__nav a:hover { color: var(--cyan); }
 .footer__social { display: flex; gap: 12px; }
