@@ -288,3 +288,8 @@
   .page-home header.ggh .ggh__panel,
   .page-home header.ggh .ggh__contact i { animation: none; transition: none; }
 }
+
+/* Burger only on mobile (<=900px). */
+@media (min-width: 901px) {
+  .page-home header.ggh .ggh__burger { display: none; }
+}
