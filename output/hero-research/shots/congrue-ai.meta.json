@@ -1,0 +1,136 @@
+{
+ "slug": "congrue-ai",
+ "url": "https://www.congrue.ai/",
+ "capturedAt": "2026-10-12 21:14:45",
+ "files": {
+  "pc_f0": "congrue-ai-pc-f0.jpg",
+  "pc_f1": "congrue-ai-pc-f1.jpg",
+  "pc_f2": "congrue-ai-pc-f2.jpg",
+  "pc_scroll": "congrue-ai-pc-scroll.jpg",
+  "sp": "congrue-ai-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.congrue.ai/",
+  "title": "Congrue",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 9280,
+  "h1": "Sell the system, not the SKU.",
+  "h1Style": {
+   "fontFamily": "Perfektta, ui-sans-serif, system-ui, sans-serif",
+   "fontSize": "90px",
+   "fontWeight": "600",
+   "lineHeight": "99px",
+   "letterSpacing": "-0.9px",
+   "color": "rgb(255, 255, 250)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 105,
+    "y": 358,
+    "w": 561,
+    "h": 198
+   }
+  },
+  "lead": "Congrue reads every project an MEP rep receives, quotes and prices every product, and enters the order. Rep agencies sell more. Manufacturers get a front office that runs itself.",
+  "ctas": [],
+  "videos": [],
+  "canvases": [
+   {
+    "w": 1440,
+    "h": 429
+   }
+  ],
+  "images": [
+   {
+    "src": "https://www.congrue.ai/assets/room-6-DNm_nz5L.webp",
+    "w": 790,
+    "h": 590,
+    "alt": ""
+   },
+   {
+    "src": "https://www.congrue.ai/assets/room-6-DNm_nz5L.webp",
+    "w": 790,
+    "h": 590,
+    "alt": ""
+   },
+   {
+    "src": "data:image/svg+xml,%3csvg%20preserveAspectRatio='none'%20overflow='visible'%20style='display:%20block;'%20width='1405.74'%20height='237.865'%20viewBox='0%200%201405.74%20237.865'%20fill='none'%20xmlns",
+    "w": 1406,
+    "h": 238,
+    "alt": "Congrue"
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Perfektta",
+   "Instrument Sans"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "Sell the system, not the SKU.",
+  "h1Style": {
+   "fontFamily": "Perfektta, ui-sans-serif, system-ui, sans-serif",
+   "fontSize": "50px",
+   "fontWeight": "600",
+   "lineHeight": "47px",
+   "letterSpacing": "-0.5px",
+   "color": "rgb(255, 255, 250)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 20,
+    "y": 76,
+    "w": 320,
+    "h": 94
+   }
+  },
+  "lead": "Congrue reads every project an MEP rep receives, quotes and prices every product, and enters the order. Rep agencies sell more. Manufacturers get a front office that runs itself.",
+  "ctas": [],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.congrue.ai/assets/room-0-C-KeOZwF.webp",
+    "w": 350,
+    "h": 261,
+    "alt": "Mechanical room. The marker follows the equipment being added to the quote."
+   },
+   {
+    "src": "https://www.congrue.ai/assets/room-1-TvB0f1cK.webp",
+    "w": 350,
+    "h": 261,
+    "alt": ""
+   },
+   {
+    "src": "https://www.congrue.ai/assets/room-6-DNm_nz5L.webp",
+    "w": 350,
+    "h": 261,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 8670
+ },
+ "elapsedSec": 11.4
+}

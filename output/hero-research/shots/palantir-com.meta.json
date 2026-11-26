@@ -1,0 +1,152 @@
+{
+ "slug": "palantir-com",
+ "url": "https://www.palantir.com/",
+ "capturedAt": "2026-10-12 21:08:55",
+ "files": {
+  "pc_f0": "palantir-com-pc-f0.jpg",
+  "pc_f1": "palantir-com-pc-f1.jpg",
+  "pc_f2": "palantir-com-pc-f2.jpg",
+  "pc_scroll": "palantir-com-pc-scroll.jpg",
+  "sp": "palantir-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.palantir.com/jp",
+  "title": "Palantir (パランティア)",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 9941,
+  "h1": "AI(人工知能)を基盤にしたオペレーションであらゆる意思決定を支援",
+  "h1Style": {
+   "fontFamily": "\"Alliance No.2\", \"Alliance No.1\", system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, ",
+   "fontSize": "100px",
+   "fontWeight": "400",
+   "lineHeight": "115px",
+   "letterSpacing": "-2px",
+   "color": "rgb(30, 33, 36)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 30,
+    "y": 312,
+    "w": 793,
+    "h": 460
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "選ばれる理由",
+   "プラットフォーム",
+   "↳ AIP",
+   "↳ Foundry",
+   "↳ Gotham",
+   "↳ Apollo",
+   "オファリング",
+   "事例",
+   "Palantirについて",
+   "Accept All Cookies",
+   "Reject All",
+   "Cookies Settings"
+  ],
+  "videos": [
+   {
+    "src": "https://www.palantir.com/assets/xrfr7uokpv1b/179jnSIqbTxRcoeH11g6Yr/7a763e583b528f0a500f077853c81109/AIDG_1.mp4",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 1380,
+    "h": 776,
+    "playing": true
+   }
+  ],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.palantir.com/assets/xrfr7uokpv1b/1mGKgEjUasdbBrIXjOsZ29/d204a15a869fe10da9fff41f5e6e7248/My_project__9_.png?quality=70&width=700&height=467&fit=crop",
+    "w": 506,
+    "h": 338,
+    "alt": "an older man and woman, both wearing hats, sitting side by side on a bench looki"
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Alliance No.1",
+   "Alliance No.2"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "AI(人工知能)を基盤にしたオペレーションであらゆる意思決定を支援",
+  "h1Style": {
+   "fontFamily": "\"Alliance No.1\", system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Dro",
+   "fontSize": "34px",
+   "fontWeight": "400",
+   "lineHeight": "40.001px",
+   "letterSpacing": "normal",
+   "color": "rgb(30, 33, 36)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 20,
+    "y": 263,
+    "w": 320,
+    "h": 160
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "選ばれる理由",
+   "プラットフォーム",
+   "↳ AIP",
+   "↳ Foundry",
+   "↳ Gotham",
+   "↳ Apollo",
+   "オファリング",
+   "Palantirについて",
+   "Accept All Cookies",
+   "Reject All",
+   "Cookies Settings"
+  ],
+  "videos": [
+   {
+    "src": "https://www.palantir.com/assets/xrfr7uokpv1b/179jnSIqbTxRcoeH11g6Yr/7a763e583b528f0a500f077853c81109/AIDG_1.mp4",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 350,
+    "h": 197,
+    "playing": true
+   }
+  ],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.palantir.com/assets/xrfr7uokpv1b/1mGKgEjUasdbBrIXjOsZ29/d204a15a869fe10da9fff41f5e6e7248/My_project__9_.png?quality=70&width=700&height=467&fit=crop",
+    "w": 1400,
+    "h": 934,
+    "alt": "an older man and woman, both wearing hats, sitting side by side on a bench looki"
+   }
+  ],
+  "pageHeight": 8657
+ },
+ "elapsedSec": 11.4
+}

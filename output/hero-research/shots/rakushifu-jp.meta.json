@@ -1,0 +1,219 @@
+{
+ "slug": "rakushifu-jp",
+ "url": "https://rakushifu.jp/",
+ "capturedAt": "2026-10-12 21:06:17",
+ "files": {
+  "pc_f0": "rakushifu-jp-pc-f0.jpg",
+  "pc_f1": "rakushifu-jp-pc-f1.jpg",
+  "pc_f2": "rakushifu-jp-pc-f2.jpg",
+  "pc_scroll": "rakushifu-jp-pc-scroll.jpg",
+  "sp": "rakushifu-jp-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://rakushifu.jp/",
+  "title": "らくしふ | LINEにも対応するクラウドシフト管理",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 12183,
+  "h1": "らくしふ",
+  "h1Style": {
+   "fontFamily": "\"Noto Sans JP\", sans-serif",
+   "fontSize": "15px",
+   "fontWeight": "400",
+   "lineHeight": "27px",
+   "letterSpacing": "1.5px",
+   "color": "rgb(51, 51, 51)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 156,
+    "y": 270,
+    "w": 392,
+    "h": 63
+   }
+  },
+  "lead": "無料で資料ダウンロード",
+  "ctas": [
+   "外食・中食",
+   "小売",
+   "介護・医療",
+   "機能一覧",
+   "シフト管理効率化",
+   "経営指標の可視化",
+   "打刻・勤怠連携",
+   "自動作成",
+   "その他便利機能",
+   "お問い合わせ",
+   "資料請求",
+   "無料で資料ダウンロード"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://rakushifu.jp/wp-content/themes/rakushifu/assets/img/common/logo_smarthr_horizontal.svg",
+    "w": 270,
+    "h": 43,
+    "alt": "らくしふ"
+   },
+   {
+    "src": "https://rakushifu.jp/wp-content/themes/rakushifu/assets/img/common/logo_smarthr_horizontal.svg",
+    "w": 392,
+    "h": 63,
+    "alt": "らくしふ"
+   },
+   {
+    "src": "https://rakushifu.jp/wp-content/themes/rakushifu/assets/img/top/img_achivements.webp",
+    "w": 1200,
+    "h": 77,
+    "alt": ""
+   },
+   {
+    "src": "https://rakushifu.jp/wp-content/themes/rakushifu/assets/img/top/bg_kv01_optimized.webp",
+    "w": 1470,
+    "h": 671,
+    "alt": ""
+   },
+   {
+    "src": "https://rakushifu.jp/wp-content/themes/rakushifu/assets/img/top/bg_kv02_optimized.webp",
+    "w": 1470,
+    "h": 671,
+    "alt": ""
+   },
+   {
+    "src": "https://rakushifu.jp/wp-content/themes/rakushifu/assets/img/top/bg_kv03_optimized.webp",
+    "w": 1470,
+    "h": 671,
+    "alt": ""
+   },
+   {
+    "src": "https://rakushifu.jp/wp-content/themes/rakushifu/assets/img/top/bg_kv01_optimized.webp",
+    "w": 1470,
+    "h": 671,
+    "alt": ""
+   },
+   {
+    "src": "https://rakushifu.jp/wp-content/themes/rakushifu/assets/img/top/bg_kv02_optimized.webp",
+    "w": 1470,
+    "h": 671,
+    "alt": ""
+   },
+   {
+    "src": "https://rakushifu.jp/wp-content/themes/rakushifu/assets/img/top/bg_kv03_optimized.webp",
+    "w": 1470,
+    "h": 671,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Noto Sans JP"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "らくしふ",
+  "h1Style": {
+   "fontFamily": "\"Noto Sans JP\", sans-serif",
+   "fontSize": "15px",
+   "fontWeight": "400",
+   "lineHeight": "27px",
+   "letterSpacing": "1.5px",
+   "color": "rgb(51, 51, 51)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 40,
+    "y": 400,
+    "w": 310,
+    "h": 50
+   }
+  },
+  "lead": "無料で資料ダウンロード",
+  "ctas": [
+   "大規模展開向け",
+   "料金",
+   "導入事例",
+   "資料ライブラリ",
+   "お問い合わせ",
+   "資料請求",
+   "お問い合わせ",
+   "資料請求",
+   "無料で資料ダウンロード"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://rakushifu.jp/wp-content/themes/rakushifu/assets/img/common/logo_smarthr_horizontal.svg",
+    "w": 310,
+    "h": 50,
+    "alt": "らくしふ"
+   },
+   {
+    "src": "https://rakushifu.jp/wp-content/themes/rakushifu/assets/img/top/sp/img_achivements.webp",
+    "w": 350,
+    "h": 178,
+    "alt": ""
+   },
+   {
+    "src": "https://rakushifu.jp/wp-content/themes/rakushifu/assets/img/top/sp/bg_kv01.webp",
+    "w": 390,
+    "h": 550,
+    "alt": ""
+   },
+   {
+    "src": "https://rakushifu.jp/wp-content/themes/rakushifu/assets/img/top/sp/bg_kv02.webp",
+    "w": 390,
+    "h": 550,
+    "alt": ""
+   },
+   {
+    "src": "https://rakushifu.jp/wp-content/themes/rakushifu/assets/img/top/sp/bg_kv03.webp",
+    "w": 390,
+    "h": 550,
+    "alt": ""
+   },
+   {
+    "src": "https://rakushifu.jp/wp-content/themes/rakushifu/assets/img/top/sp/bg_kv01.webp",
+    "w": 390,
+    "h": 550,
+    "alt": ""
+   },
+   {
+    "src": "https://rakushifu.jp/wp-content/themes/rakushifu/assets/img/top/sp/bg_kv02.webp",
+    "w": 390,
+    "h": 550,
+    "alt": ""
+   },
+   {
+    "src": "https://rakushifu.jp/wp-content/themes/rakushifu/assets/img/top/sp/bg_kv03.webp",
+    "w": 390,
+    "h": 550,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 17333
+ },
+ "elapsedSec": 13.3
+}

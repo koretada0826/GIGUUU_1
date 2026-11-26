@@ -1,0 +1,110 @@
+{
+ "slug": "maximatherapy-com",
+ "url": "https://maximatherapy.com/",
+ "capturedAt": "2026-10-12 21:12:31",
+ "files": {
+  "pc_f0": "maximatherapy-com-pc-f0.jpg",
+  "pc_f1": "maximatherapy-com-pc-f1.jpg",
+  "pc_f2": "maximatherapy-com-pc-f2.jpg",
+  "pc_scroll": "maximatherapy-com-pc-scroll.jpg",
+  "sp": "maximatherapy-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://maximatherapy.com/",
+  "title": "Maxima Therapy | Personalized Support for Neurodivergent Individuals",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 11195,
+  "h1": "THE FIRST YEARS MATTER MOST",
+  "h1Style": {
+   "fontFamily": "\"Robuck Rounded\"",
+   "fontSize": "214.286px",
+   "fontWeight": "400",
+   "lineHeight": "171.428px",
+   "letterSpacing": "normal",
+   "color": "rgb(253, 68, 1)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 161,
+    "y": -3837,
+    "w": 549,
+    "h": 857
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "Donate",
+   "Get started"
+  ],
+  "videos": [],
+  "canvases": [
+   {
+    "w": 1440,
+    "h": 990
+   }
+  ],
+  "images": [],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "ui-sans-serif",
+   "ABC Diatype Rounded Plus",
+   "Robuck Rounded"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 10295,
+ "sp": {
+  "h1": "THE FIRST YEARS MATTER MOST",
+  "h1Style": {
+   "fontFamily": "\"Robuck Rounded\"",
+   "fontSize": "88.4001px",
+   "fontWeight": "400",
+   "lineHeight": "70.7201px",
+   "letterSpacing": "normal",
+   "color": "rgb(253, 68, 1)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 21,
+    "y": -3178,
+    "w": 133,
+    "h": 354
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "Donate",
+   "Get started"
+  ],
+  "videos": [],
+  "canvases": [
+   {
+    "w": 390,
+    "h": 928
+   }
+  ],
+  "images": [],
+  "pageHeight": 9264
+ },
+ "elapsedSec": 12.5
+}

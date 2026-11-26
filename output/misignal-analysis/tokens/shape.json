@@ -1,0 +1,727 @@
+{
+ "meta": {
+  "measuredAt": "2026-10-05",
+  "site": "https://misignal.jp/",
+  "pages": [
+   "/",
+   "/products/scan",
+   "/faq",
+   "/article",
+   "/commitment",
+   "/contact(フォームのみ)"
+  ],
+  "viewports": {
+   "pc": "1440x900 DPR1",
+   "sp": "390x844 DPR2 isMobile iPhone UA"
+  },
+  "note": "computed style は全可視要素から自動集計。weight は text=文字数 / bg=面積px² / その他=要素数。"
+ },
+ "pc": {
+  "borderRadius": [
+   {
+    "value": "6px",
+    "count": 40,
+    "samples": [
+     "div.ProductPageFooterV2_ctaCard 492x196",
+     "a.ProductPageFooter_medicalText 233x38",
+     "a.ProductPageFooter_medicalText 228x38",
+     "a.ProductPageFooter_medicalText ProductPageFooter_medicalTextFill 262x38"
+    ]
+   },
+   {
+    "value": "999px",
+    "count": 33,
+    "samples": [
+     "button.KwSection_cmButton 400x60",
+     "a.CustomerSupport_Block_lineLink 229x64",
+     "button.Doctors_dot Doctors_dotActive 12x12",
+     "button.Doctors_dot 12x12"
+    ]
+   },
+   {
+    "value": "4px",
+    "count": 27,
+    "samples": [
+     "button.Achievements_button 356x52",
+     "a.KwSection_specialButton 574x58",
+     "button.ScanCtaCompact_button 440x56",
+     "button.PurchaseCta_buyButton 424x56"
+    ]
+   },
+   {
+    "value": "0px 0px 4px 4px",
+    "count": 25,
+    "samples": [
+     "a.ProductPageHeader_menu_link_top_tab_blue 147x33",
+     "a.ProductPageHeader_menu_link_top_tab_white 123x33",
+     "a.ProductPageHeader_menu_link_top_tab_white 97x33",
+     "a.ProductPageHeader_menu_link_top_tab_white 110x33"
+    ]
+   },
+   {
+    "value": "12px",
+    "count": 23,
+    "samples": [
+     "div.client_icon_menu_2025 client_is_opacity 100x90",
+     "div.client_icon_menu_2025 100x90",
+     "div.ContentDisplayWithModal_container ScanReasonList_content_display_modal 310x200",
+     "div.CustomerSupport_bottom_wrapper 992x217"
+    ]
+   },
+   {
+    "value": "8px",
+    "count": 22,
+    "samples": [
+     "div.Benefits_statCard 310x270",
+     "img.ProductPageFooterV2_lineIcon 40x40",
+     "div.DoctorCommentSlide_doctor_comment_inner DoctorCommentSlide_variant_green 830x360",
+     "div.Collapse_collapse_container Collapse_white 992x99"
+    ]
+   },
+   {
+    "value": "50%",
+    "count": 20,
+    "samples": [
+     "svg.Doctors_arrowCircle 72x72",
+     "svg.Media_AwardSlider_arrowCircle 72x72",
+     "img 80x80",
+     "button.splide splide__arrow--next 32x32"
+    ]
+   },
+   {
+    "value": "40px",
+    "count": 10,
+    "samples": [
+     "a.ProductPageFooterV2_lineButton 442x48",
+     "div.ModalLinkButton_button_container ScanReasonList_modal_link_button 142x38",
+     "button.Button_btn Button_secondary 186x46",
+     "button.Button_btn Button_primary 343x54"
+    ]
+   },
+   {
+    "value": "10px",
+    "count": 10,
+    "samples": [
+     "span.Collapse_line Collapse_blue 18x2",
+     "span.Collapse_line Collapse_blue 2x18"
+    ]
+   },
+   {
+    "value": "44px",
+    "count": 4,
+    "samples": [
+     "button.button_btn button_blue 142x38",
+     "button.button_btn button_blue 363x50",
+     "button.button_btn button_blue 232x73"
+    ]
+   },
+   {
+    "value": "30px",
+    "count": 3,
+    "samples": [
+     "div.InspectionFlow_inspection_flow_header_item_step 60x60"
+    ]
+   },
+   {
+    "value": "90px",
+    "count": 2,
+    "samples": [
+     "span.CustomerSupport_Block_telIconFrame 36x36"
+    ]
+   },
+   {
+    "value": "5px",
+    "count": 2,
+    "samples": [
+     "div.EarlyDetectionSection_container 992x483",
+     "div.InspectionFlow_deliverable_message_root 304x97"
+    ]
+   },
+   {
+    "value": "100px",
+    "count": 2,
+    "samples": [
+     "div.SupportFreeTelBox_container 380x83",
+     "div.SupportFreeTelBox_free_text 62x24"
+    ]
+   },
+   {
+    "value": "50px",
+    "count": 2,
+    "samples": [
+     "button.FaqSearchBar_search_button 114x54",
+     "a.page_cta_button 181x50"
+    ]
+   }
+  ],
+  "border": [
+   {
+    "value": "all 1px solid #1F7BB8",
+    "count": 53,
+    "samples": [
+     "div.client_icon_menu_2025 client_is_opacity",
+     "div.client_icon_menu_2025",
+     "span.CustomerSupport_Block_telIconFrame",
+     "a.SecondaryButton_button"
+    ]
+   },
+   {
+    "value": "all 1px solid #FFFFFF",
+    "count": 35,
+    "samples": [
+     "a.KwSection_specialButton",
+     "div.DiscountPriceDisplayLine_discount_badge DiscountPriceDisplayLine_color_blue",
+     "div.ProductPageFooterV2_ctaCard",
+     "a.ProductPageFooter_medicalTextOutlined"
+    ]
+   },
+   {
+    "value": "RBL 1px solid #4694C9",
+    "count": 15,
+    "samples": [
+     "a.ProductPageHeader_menu_link_top_tab_white"
+    ]
+   },
+   {
+    "value": "B 1px solid #FFFFFF",
+    "count": 15,
+    "samples": [
+     "div.ProductPageFooter_columnTitle"
+    ]
+   },
+   {
+    "value": "B 1px solid #1F7BB8",
+    "count": 10,
+    "samples": [
+     "a.EarlyDetectionCases_link",
+     "a.About_Intro_link",
+     "a.About_Pancreas_link",
+     "a.About_Sensitivity_link"
+    ]
+   },
+   {
+    "value": "all 1px solid #E0E0E0",
+    "count": 9,
+    "samples": [
+     "div.LatestColumn_latest_column_area"
+    ]
+   },
+   {
+    "value": "B 1px solid #B8B8B8",
+    "count": 6,
+    "samples": [
+     "div.DiscountPriceDisplayLine_course_header"
+    ]
+   },
+   {
+    "value": "T 1px solid #E0E2E3",
+    "count": 6,
+    "samples": [
+     "div.ProductPageFooter_bottom",
+     "div.page_breadcrumb_wrapper_bottom"
+    ]
+   },
+   {
+    "value": "T 1px solid #E0E0E0",
+    "count": 5,
+    "samples": [
+     "a.News_row"
+    ]
+   },
+   {
+    "value": "all 1px solid #004380",
+    "count": 3,
+    "samples": [
+     "div.InspectionFlow_stepCircle"
+    ]
+   },
+   {
+    "value": "all 1px solid #06C755",
+    "count": 3,
+    "samples": [
+     "a.FloatingBanners_lineCard"
+    ]
+   },
+   {
+    "value": "B 1px solid #20B646",
+    "count": 2,
+    "samples": [
+     "span.CustomerSupport_Block_lineButton"
+    ]
+   },
+   {
+    "value": "L 8px solid #FFFFFF",
+    "count": 2,
+    "samples": [
+     "div.button_triangleRight"
+    ]
+   },
+   {
+    "value": "B 1px solid #FF5C00",
+    "count": 1,
+    "samples": [
+     "div.ScanCtaCompact_campaignInner"
+    ]
+   },
+   {
+    "value": "B 1px solid #E0E0E0",
+    "count": 1,
+    "samples": [
+     "div.News_list"
+    ]
+   },
+   {
+    "value": "all 1px solid #569DD6",
+    "count": 1,
+    "samples": [
+     "button.Button_btn Button_secondary"
+    ]
+   },
+   {
+    "value": "all 2px solid #E0E2E3",
+    "count": 1,
+    "samples": [
+     "div.FaqSearchBar_input_field"
+    ]
+   }
+  ],
+  "boxShadow": [
+   {
+    "value": "#00000040(A=0.25) 0px 1px 2px 0px",
+    "count": 30,
+    "samples": [
+     "a.ProductPageFooter_medicalText",
+     "a.ProductPageFooter_medicalText ProductPageFooter_medicalTextFill",
+     "a.ProductPageFooter_medicalTextOutlined"
+    ]
+   },
+   {
+    "value": "#00000033(A=0.2) 0px 2px 5px 0px",
+    "count": 17,
+    "samples": [
+     "div.client_icon_menu_2025 client_is_opacity",
+     "div.client_icon_menu_2025",
+     "button.ScanCtaCompact_button",
+     "button.PurchaseCta_buyButton"
+    ]
+   },
+   {
+    "value": "#00000012(A=0.07) 0px 4px 6px 0px",
+    "count": 10,
+    "samples": [
+     "div.ProductPageHeader_container_inner",
+     "div.SecondGlobalNavigation_second_global_navigation"
+    ]
+   },
+   {
+    "value": "#00000014(A=0.08) 0px 3px 6px 0px",
+    "count": 10,
+    "samples": [
+     "div.KwSection_cmStill",
+     "div.Benefits_statCard",
+     "a.FloatingBanners_lineCard",
+     "a.FloatingBanners_taidanCard"
+    ]
+   },
+   {
+    "value": "#00000033(A=0.2) 0px 2px 6px 0px",
+    "count": 9,
+    "samples": [
+     "a.ProductPageFooterV2_lineButton",
+     "button.Button_btn Button_secondary",
+     "button.Button_btn Button_primary",
+     "div.SupportFreeTelBox_container"
+    ]
+   },
+   {
+    "value": "#0000001A(A=0.1) 1.81818px 1.81818px 9.09091px 0px",
+    "count": 4,
+    "samples": [
+     "div.EarlyDetectionCases_card",
+     "div.EarlyDetectionCases_cardLast"
+    ]
+   },
+   {
+    "value": "#0000001F(A=0.12) 0px 2px 6px 0px",
+    "count": 2,
+    "samples": [
+     "div.ModalLinkButton_button_container ScanReasonList_modal_link_button"
+    ]
+   }
+  ],
+  "textShadow": [
+   {
+    "value": "rgba(0, 0, 0, 0.25) 0px 0px 8px",
+    "count": 3,
+    "samples": [
+     "div.SensitivitySpecificitySection_top_container_number Font_zen_old_mincho_bold",
+     "span.SensitivitySpecificitySection_top_container_number_unit_1",
+     "span.SensitivitySpecificitySection_top_container_number_unit_2"
+    ]
+   }
+  ]
+ },
+ "sp": {
+  "borderRadius": [
+   {
+    "value": "6px",
+    "count": 40,
+    "samples": [
+     "div.ProductPageFooterV2_ctaCard 342x217",
+     "div.ProductPageFooterV2_ctaCard 342x241",
+     "a.ProductPageFooter_medicalText 233x38",
+     "a.ProductPageFooter_medicalText 228x38"
+    ]
+   },
+   {
+    "value": "999px",
+    "count": 32,
+    "samples": [
+     "button.KwSection_cmButton 184x48",
+     "a.CustomerSupport_Block_lineLink 199x60",
+     "div.InspectionFlow_stepCircle 40x40",
+     "span.Column_cardBadge 93x31"
+    ]
+   },
+   {
+    "value": "4px",
+    "count": 28,
+    "samples": [
+     "button.Achievements_button 358x45",
+     "a.KwSection_specialButton 310x47",
+     "button.Cta_button Cta_buttonSp 287x52",
+     "div.DiscountPriceDisplayLine_discount_badge DiscountPriceDisplayLine_color_blue 149x25"
+    ]
+   },
+   {
+    "value": "50%",
+    "count": 24,
+    "samples": [
+     "span.AboutPart2_Pancreas_ring556 275x275",
+     "span.AboutPart2_Pancreas_ring557 275x275",
+     "span.AboutPart2_Pancreas_ring559 270x270",
+     "span.AboutPart2_Pancreas_ring558 275x275"
+    ]
+   },
+   {
+    "value": "12px",
+    "count": 23,
+    "samples": [
+     "div.client_icon_menu_2025 client_is_opacity 72x52",
+     "div.client_icon_menu_2025 72x52",
+     "div.ContentDisplayWithModal_container ScanReasonList_content_display_modal 325x200",
+     "div.CustomerSupport_bottom_wrapper 390x333"
+    ]
+   },
+   {
+    "value": "8px",
+    "count": 22,
+    "samples": [
+     "div.Benefits_card 310x272",
+     "img.ProductPageFooterV2_lineIcon 40x40",
+     "div.DoctorCommentSlide_doctor_comment_inner DoctorCommentSlide_variant_green 290x644",
+     "div.Collapse_collapse_container Collapse_white 330x114"
+    ]
+   },
+   {
+    "value": "40px",
+    "count": 10,
+    "samples": [
+     "a.ProductPageFooterV2_lineButton 292x48",
+     "div.ModalLinkButton_button_container ScanReasonList_modal_link_button 142x38",
+     "button.Button_btn Button_secondary 186x46",
+     "button.Button_btn Button_primary 330x48"
+    ]
+   },
+   {
+    "value": "10px",
+    "count": 10,
+    "samples": [
+     "span.Collapse_line Collapse_blue 18x2",
+     "span.Collapse_line Collapse_blue 2x18"
+    ]
+   },
+   {
+    "value": "832.5px",
+    "count": 9,
+    "samples": [
+     "button.Doctors_dot Doctors_dotActive 10x10",
+     "button.Doctors_dot 10x10",
+     "button.Media_AwardSlider_dot Media_AwardSlider_dotActive 10x10",
+     "button.Media_AwardSlider_dot 10x10"
+    ]
+   },
+   {
+    "value": "44px",
+    "count": 4,
+    "samples": [
+     "button.button_btn button_blue 142x38",
+     "button.button_btn button_blue 290x74",
+     "button.button_btn button_blue 192x44"
+    ]
+   },
+   {
+    "value": "30px",
+    "count": 3,
+    "samples": [
+     "div.InspectionFlow_inspection_flow_header_item_step 60x60"
+    ]
+   },
+   {
+    "value": "70px",
+    "count": 2,
+    "samples": [
+     "span.CustomerSupport_Block_telIconFrame 28x28"
+    ]
+   },
+   {
+    "value": "5px",
+    "count": 2,
+    "samples": [
+     "div.EarlyDetectionSection_container 355x676",
+     "div.InspectionFlow_deliverable_message_root 304x97"
+    ]
+   },
+   {
+    "value": "100px",
+    "count": 2,
+    "samples": [
+     "div.SupportFreeTelBox_container 335x72",
+     "div.SupportFreeTelBox_free_text 62x24"
+    ]
+   },
+   {
+    "value": "50px",
+    "count": 2,
+    "samples": [
+     "button.FaqSearchBar_search_button 109x54",
+     "a.page_cta_button 153x43"
+    ]
+   }
+  ],
+  "border": [
+   {
+    "value": "all 1px solid #1F7BB8",
+    "count": 58,
+    "samples": [
+     "div.client_icon_menu_2025 client_is_opacity",
+     "div.client_icon_menu_2025",
+     "span.CustomerSupport_Block_telIconFrame",
+     "a.SecondaryButton_button"
+    ]
+   },
+   {
+    "value": "all 1px solid #FFFFFF",
+    "count": 35,
+    "samples": [
+     "a.KwSection_specialButton",
+     "div.DiscountPriceDisplayLine_discount_badge DiscountPriceDisplayLine_color_blue",
+     "div.ProductPageFooterV2_ctaCard",
+     "a.ProductPageFooter_medicalTextOutlined"
+    ]
+   },
+   {
+    "value": "B 1px solid #1F7BB8",
+    "count": 11,
+    "samples": [
+     "a.EarlyDetectionCases_link",
+     "a.AboutPart1_Intro_link",
+     "button.AboutPart2_SensitivityModalButton_button",
+     "a.AboutPart2_Pancreas_link"
+    ]
+   },
+   {
+    "value": "all 1px solid #E0E0E0",
+    "count": 9,
+    "samples": [
+     "div.LatestColumn_latest_column_area"
+    ]
+   },
+   {
+    "value": "B 1px solid #B8B8B8",
+    "count": 6,
+    "samples": [
+     "div.DiscountPriceDisplayLine_course_header"
+    ]
+   },
+   {
+    "value": "T 1px solid #E0E2E3",
+    "count": 6,
+    "samples": [
+     "div.ProductPageFooter_bottom",
+     "div.page_breadcrumb_wrapper_bottom"
+    ]
+   },
+   {
+    "value": "T 1px solid #E0E0E0",
+    "count": 5,
+    "samples": [
+     "a.News_row News_rowFirst",
+     "a.News_row"
+    ]
+   },
+   {
+    "value": "all 1px solid #76ADD2",
+    "count": 3,
+    "samples": [
+     "div.Benefits_card"
+    ]
+   },
+   {
+    "value": "all 1px solid #004380",
+    "count": 3,
+    "samples": [
+     "div.InspectionFlow_stepCircle"
+    ]
+   },
+   {
+    "value": "all 1px solid #06C755",
+    "count": 3,
+    "samples": [
+     "a.FloatingBanners_lineCard"
+    ]
+   },
+   {
+    "value": "B 1px solid #20B646",
+    "count": 2,
+    "samples": [
+     "span.CustomerSupport_Block_lineButton"
+    ]
+   },
+   {
+    "value": "L 8px solid #FFFFFF",
+    "count": 2,
+    "samples": [
+     "div.button_triangleRight"
+    ]
+   },
+   {
+    "value": "B 1px solid #E0E0E0",
+    "count": 1,
+    "samples": [
+     "div.News_list"
+    ]
+   },
+   {
+    "value": "all 1px solid #569DD6",
+    "count": 1,
+    "samples": [
+     "button.Button_btn Button_secondary"
+    ]
+   },
+   {
+    "value": "all 2px solid #E0E2E3",
+    "count": 1,
+    "samples": [
+     "div.FaqSearchBar_input_field"
+    ]
+   }
+  ],
+  "boxShadow": [
+   {
+    "value": "#00000040(A=0.25) 0px 1px 2px 0px",
+    "count": 30,
+    "samples": [
+     "a.ProductPageFooter_medicalText",
+     "a.ProductPageFooter_medicalText ProductPageFooter_medicalTextFill",
+     "a.ProductPageFooter_medicalTextOutlined"
+    ]
+   },
+   {
+    "value": "#00000033(A=0.2) 0px 2px 5px 0px",
+    "count": 18,
+    "samples": [
+     "div.client_icon_menu_2025 client_is_opacity",
+     "div.client_icon_menu_2025",
+     "button.Achievements_button",
+     "button.Cta_button Cta_buttonSp"
+    ]
+   },
+   {
+    "value": "#00000033(A=0.2) 0px 2px 6px 0px",
+    "count": 14,
+    "samples": [
+     "a.ProductPageFooterV2_lineButton",
+     "a.ProductPageFooterV2_phoneNumberSp",
+     "button.Button_btn Button_secondary",
+     "button.Button_btn Button_primary"
+    ]
+   },
+   {
+    "value": "#00000014(A=0.08) 0px 3px 6px 0px",
+    "count": 10,
+    "samples": [
+     "div.KwSection_cmStill",
+     "div.Benefits_card",
+     "a.FloatingBanners_lineCard",
+     "a.FloatingBanners_taidanCard"
+    ]
+   },
+   {
+    "value": "#0000001A(A=0.1) 1.22727px 1.22727px 6.13636px 0px",
+    "count": 8,
+    "samples": [
+     "div.EarlyDetectionCases_card"
+    ]
+   },
+   {
+    "value": "#00000012(A=0.07) 0px 4px 6px 0px",
+    "count": 5,
+    "samples": [
+     "div.ProductPageHeader_container_inner"
+    ]
+   },
+   {
+    "value": "#0000001F(A=0.12) 0px 2px 6px 0px",
+    "count": 2,
+    "samples": [
+     "div.ModalLinkButton_button_container ScanReasonList_modal_link_button"
+    ]
+   }
+  ],
+  "textShadow": [
+   {
+    "value": "rgb(255, 255, 255) 0px 0px 9.42857px",
+    "count": 5,
+    "samples": [
+     "p.AboutPart2_Pancreas_circleLead",
+     "span.AboutPart2_Pancreas_k1",
+     "span.AboutPart2_Pancreas_k2",
+     "span.AboutPart2_Pancreas_k3"
+    ]
+   },
+   {
+    "value": "rgb(255, 255, 255) 0px 0px 6.28571px",
+    "count": 3,
+    "samples": [
+     "p.AboutPart2_Pancreas_circleNumber",
+     "span.AboutPart2_Pancreas_circleNumber9",
+     "span.AboutPart2_Pancreas_circleNumberUnit"
+    ]
+   },
+   {
+    "value": "rgba(0, 0, 0, 0.25) 0px 0px 8px",
+    "count": 3,
+    "samples": [
+     "div.SensitivitySpecificitySection_top_container_number Font_zen_old_mincho_bold",
+     "span.SensitivitySpecificitySection_top_container_number_unit_1",
+     "span.SensitivitySpecificitySection_top_container_number_unit_2"
+    ]
+   },
+   {
+    "value": "rgb(255, 255, 255) 0.785714px 0.785714px 23.5714px",
+    "count": 2,
+    "samples": [
+     "p.AboutPart2_Pancreas_circleTitle",
+     "span.AboutPart2_Pancreas_circleTitleTight"
+    ]
+   }
+  ]
+ },
+ "dsRadius": {
+  "--ds-radius-xs": "2px",
+  "--ds-radius-sm": "4px",
+  "--ds-radius-lg": "12px",
+  "--ds-radius-full": "999px"
+ }
+}

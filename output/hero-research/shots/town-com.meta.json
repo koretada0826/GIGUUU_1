@@ -1,0 +1,142 @@
+{
+ "slug": "town-com",
+ "url": "https://www.town.com/",
+ "capturedAt": "2026-10-12 21:13:41",
+ "files": {
+  "pc_f0": "town-com-pc-f0.jpg",
+  "pc_f1": "town-com-pc-f1.jpg",
+  "pc_f2": "town-com-pc-f2.jpg",
+  "pc_scroll": "town-com-pc-scroll.jpg",
+  "sp": "town-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.town.com/",
+  "title": "Town | The AI Assistant That Does the Work",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 12803,
+  "h1": "Learns how you work, then gets to work.",
+  "h1Style": {
+   "fontFamily": "slab, \"slab Fallback\", Georgia, serif",
+   "fontSize": "88px",
+   "fontWeight": "83",
+   "lineHeight": "90.2px",
+   "letterSpacing": "-2.2px",
+   "color": "rgb(28, 27, 27)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": -1,
+    "y": 130,
+    "w": 1,
+    "h": 1
+   }
+  },
+  "lead": "Learns how you work,",
+  "ctas": [
+   "Meet your Townie"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.town.com/images/brand/home/cycle/1.webp",
+    "w": 205,
+    "h": 256,
+    "alt": "A person paired with Bud"
+   },
+   {
+    "src": "https://www.town.com/images/brand/home/townies/previews/bud.webp",
+    "w": 135,
+    "h": 226,
+    "alt": ""
+   },
+   {
+    "src": "https://www.town.com/_next/image?url=%2Fimages%2Fbrand%2Fhome%2Ftownies%2Fbud.webp&w=384&q=90&dpl=dpl_DWJmrajvHA8hryEJLX6VDGKJXEwW",
+    "w": 135,
+    "h": 226,
+    "alt": "Bud the dog Townie wearing a bowtie"
+   },
+   {
+    "src": "https://www.town.com/_next/image?url=%2Fimages%2Fbrand%2Fhome%2Ftownies%2Felle-norm.jpg&w=640&q=75&dpl=dpl_DWJmrajvHA8hryEJLX6VDGKJXEwW",
+    "w": 400,
+    "h": 400,
+    "alt": "Elle and Norm working together"
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "slab",
+   "sans",
+   "diatype"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(253, 253, 252)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "Learns how you work, then gets to work.",
+  "h1Style": {
+   "fontFamily": "slab, \"slab Fallback\", Georgia, serif",
+   "fontSize": "40px",
+   "fontWeight": "85",
+   "lineHeight": "46px",
+   "letterSpacing": "-0.4px",
+   "color": "rgb(28, 27, 27)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": -1,
+    "y": 192,
+    "w": 1,
+    "h": 1
+   }
+  },
+  "lead": "Learns how you work,",
+  "ctas": [
+   "Meet your Townie"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.town.com/images/brand/home/cycle/1.webp",
+    "w": 141,
+    "h": 176,
+    "alt": "A person paired with Bud"
+   },
+   {
+    "src": "https://www.town.com/images/brand/home/townies/previews/bud.webp",
+    "w": 114,
+    "h": 191,
+    "alt": ""
+   },
+   {
+    "src": "https://www.town.com/_next/image?url=%2Fimages%2Fbrand%2Fhome%2Ftownies%2Fbud.webp&w=640&q=90&dpl=dpl_DWJmrajvHA8hryEJLX6VDGKJXEwW",
+    "w": 114,
+    "h": 191,
+    "alt": "Bud the dog Townie wearing a bowtie"
+   }
+  ],
+  "pageHeight": 15219
+ },
+ "elapsedSec": 14.5
+}

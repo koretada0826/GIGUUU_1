@@ -1,0 +1,39 @@
+{
+  "concept_id": 8,
+  "title": "sansan-line",
+  "prompt": "Use case: ads-marketing.\nAsset: ONE original Japanese call-center recruitment HERO image, wide landscape aspect about 1938:811 (2.39:1). This is a new site-referenced creative direction, not a website screenshot or a clone.\nInput image 1: actual saved website screenshot of Sansan, https://jp.sansan.com/. Study its composition, type hierarchy and imagery treatment. Input image 2: our current call-center image, used ONLY for subject context (headsets, operators, call-center equipment), not its repeated anime arrangement.\nObserved reference element: 青い線画の人物と大きな業務画面を組み合わせ、仕事の仕組みを明快に見せる。\nDirection: Use the Sansan screenshot's blue editorial LINE-ILLUSTRATION and oversized workstation motif. White background, LEFT clean heavy navy headline. RIGHT a giant simplified CRM monitor outlined in cobalt with unreadable customer-contact rows; two stylized young Japanese headset operators in blue line art interact with the workstation, one seated and one reviewing a script. Restrained pale-blue flat fills, thin expressive navy outlines, small telephone/speech symbols. Original human scenes, no upward revenue arrow, graphs, business-card imagery, proof statistics or source brand elements.\nExact ORIGINAL approved copy: small label \"CALL CENTER RECRUIT\"; headline \"声をつなぐ、\" / \"チームをつくる。\"; subcopy \"人と話す仕事を、もっとおもしろく。\". Use these strings ONLY, plus 電話対応 / 営業 / サポート / チーム if small work labels are needed. Do not copy any text from the attached website screenshot.\nKeep call-center theme recognizable: professional communications headsets worn on heads with natural boom microphones, customer-contact workstation/screens with unreadable interface text, desk telephone or call-script papers. All human foreground staff Japanese adults. Natural proportions and coherent anatomy. Photographic concepts must be photographs; illustrative/sculptural concepts must follow their distinct direction.\nPalette: mostly white, navy, cobalt blue and pale blue/teal, natural skin tones. The attached site's other brand colors are reference context, not output requirements. Keep bright edges that suit a white page, with no full dark rectangular background.\nNO copied company logos, brands, slogans, named people, identity recreation, dates, certifications, customer quotes, salary/benefit promises, numerical claims, header/navigation, website CTA, browser chrome, watermarks or multiple concept thumbnails. No company-specific recruitment conditions. Preserve legibility, avoid cropped lettering or faces. Output exactly one finished opaque hero image, not a full page.\nTARGETED STYLE CORRECTION: Previous attempt failed by copying anime character rendering from subject image 2 and adding bar-chart imagery. Use image 1's genuinely MINIMAL BLUE LINE-ART people as the main art reference: loose thin expressive navy contour lines, very simple small facial features, largely white skin and white clothes with just restrained pale-blue flat fills. NO anime/manga, realistic eyes, shaded skin, painterly hair, textured office or blurred crowd. Exactly two simplified editorial line-drawn operators, both with clearly attached headset microphones, next to the oversized CRM screen. CRM contains only abstract unreadable customer rows. No chart, bars, graph, rising arrow or results icon anywhere. Exact original text stays fully readable.",
+  "base_prompt": "Use case: ads-marketing.\nAsset: ONE original Japanese call-center recruitment HERO image, wide landscape aspect about 1938:811 (2.39:1). This is a new site-referenced creative direction, not a website screenshot or a clone.\nInput image 1: actual saved website screenshot of Sansan, https://jp.sansan.com/. Study its composition, type hierarchy and imagery treatment. Input image 2: our current call-center image, used ONLY for subject context (headsets, operators, call-center equipment), not its repeated anime arrangement.\nObserved reference element: 青い線画の人物と大きな業務画面を組み合わせ、仕事の仕組みを明快に見せる。\nDirection: Use the Sansan screenshot's blue editorial LINE-ILLUSTRATION and oversized workstation motif. White background, LEFT clean heavy navy headline. RIGHT a giant simplified CRM monitor outlined in cobalt with unreadable customer-contact rows; two stylized young Japanese headset operators in blue line art interact with the workstation, one seated and one reviewing a script. Restrained pale-blue flat fills, thin expressive navy outlines, small telephone/speech symbols. Original human scenes, no upward revenue arrow, graphs, business-card imagery, proof statistics or source brand elements.\nExact ORIGINAL approved copy: small label \"CALL CENTER RECRUIT\"; headline \"声をつなぐ、\" / \"チームをつくる。\"; subcopy \"人と話す仕事を、もっとおもしろく。\". Use these strings ONLY, plus 電話対応 / 営業 / サポート / チーム if small work labels are needed. Do not copy any text from the attached website screenshot.\nKeep call-center theme recognizable: professional communications headsets worn on heads with natural boom microphones, customer-contact workstation/screens with unreadable interface text, desk telephone or call-script papers. All human foreground staff Japanese adults. Natural proportions and coherent anatomy. Photographic concepts must be photographs; illustrative/sculptural concepts must follow their distinct direction.\nPalette: mostly white, navy, cobalt blue and pale blue/teal, natural skin tones. The attached site's other brand colors are reference context, not output requirements. Keep bright edges that suit a white page, with no full dark rectangular background.\nNO copied company logos, brands, slogans, named people, identity recreation, dates, certifications, customer quotes, salary/benefit promises, numerical claims, header/navigation, website CTA, browser chrome, watermarks or multiple concept thumbnails. No company-specific recruitment conditions. Preserve legibility, avoid cropped lettering or faces. Output exactly one finished opaque hero image, not a full page.",
+  "attempt": 2,
+  "tool": "image_gen__imagegen (built-in)",
+  "actual_model": null,
+  "attached_references": [
+    {
+      "path": "/Users/matsugirintarou/Desktop/rintaro/giguuu改善/assets/recruit/callcenter-site-referenced-10/references/08-jp-sansan-com.jpg",
+      "role": "actual website screenshot, composition/type/image treatment",
+      "captured_at": "2026-10-12"
+    },
+    {
+      "path": "/Users/matsugirintarou/Desktop/rintaro/giguuu改善/assets/recruit/recruit-callcenter-illustrated-v1.png",
+      "role": "call-center subject context only"
+    }
+  ],
+  "source_site": {
+    "name": "Sansan",
+    "url": "https://jp.sansan.com/"
+  },
+  "borrowed_visual_element": "青い線画の人物と大きな業務画面を組み合わせ、仕事の仕組みを明快に見せる。",
+  "generated_source_path": "/Users/matsugirintarou/.codex/generated_images/01a13517-3d8c-7100-bfc3-0550c0913d71/exec-6456220e-a9a4-416e-9d32-f50fbf0bedf3.png",
+  "saved_path": "/Users/matsugirintarou/Desktop/rintaro/giguuu改善/assets/recruit/callcenter-site-referenced-10/08-sansan-line.png",
+  "dimensions": [
+    1938,
+    811
+  ],
+  "visual_inspection": {
+    "headline": "exact and readable",
+    "subcopy": "exact and readable",
+    "reference_composition": "minimal blue outline people with oversized abstract CRM monitor",
+    "callcenter": "two operators with communications boom-mic headsets; desk telephone and call-script sheet",
+    "source_brand": "no copied source logo, claims, business cards or metrics",
+    "style": "simple blue editorial line illustration, no charts or anime rendering"
+  }
+}

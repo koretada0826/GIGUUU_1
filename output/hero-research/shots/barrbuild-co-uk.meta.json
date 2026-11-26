@@ -1,0 +1,134 @@
+{
+ "slug": "barrbuild-co-uk",
+ "url": "https://www.barrbuild.co.uk/",
+ "capturedAt": "2026-10-12 21:10:45",
+ "files": {
+  "pc_f0": "barrbuild-co-uk-pc-f0.jpg",
+  "pc_f1": "barrbuild-co-uk-pc-f1.jpg",
+  "pc_f2": "barrbuild-co-uk-pc-f2.jpg",
+  "pc_scroll": "barrbuild-co-uk-pc-scroll.jpg",
+  "sp": "barrbuild-co-uk-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.barrbuild.co.uk/",
+  "title": "Home - Barr Build",
+  "lang": "en-US",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 5676,
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.barrbuild.co.uk/assets/logo-on-load.svg",
+    "w": 280,
+    "h": 131,
+    "alt": "Barr Logo"
+   },
+   {
+    "src": "https://barr.ams3.cdn.digitaloceanspaces.com/build/_3000x1688_crop_center-center_100_none/Proj_Red_Landscaping_008_lo-res.jpg",
+    "w": 1440,
+    "h": 900,
+    "alt": ""
+   },
+   {
+    "src": "https://barr.ams3.cdn.digitaloceanspaces.com/build/2025_09_30_North_Gate_Hall_0014-EDIT-CROP.jpg",
+    "w": 1440,
+    "h": 900,
+    "alt": ""
+   },
+   {
+    "src": "https://barr.ams3.cdn.digitaloceanspaces.com/build/POOL_HOUSE-8199_lo-res_Edit_2026-06-05-093817_kaqq.jpg",
+    "w": 1440,
+    "h": 900,
+    "alt": ""
+   },
+   {
+    "src": "https://barr.ams3.cdn.digitaloceanspaces.com/build/_3000x1688_crop_center-center_100_none/200722_Farm202.jpg",
+    "w": 1440,
+    "h": 900,
+    "alt": ""
+   },
+   {
+    "src": "https://barr.ams3.cdn.digitaloceanspaces.com/build/Church_Farm_2024_08_13_IMG_0003_EDIT-CROP-2.jpg",
+    "w": 1440,
+    "h": 900,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(246, 243, 239)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.barrbuild.co.uk/assets/logo-on-load.svg",
+    "w": 210,
+    "h": 98,
+    "alt": "Barr Logo"
+   },
+   {
+    "src": "https://barr.ams3.cdn.digitaloceanspaces.com/build/_3000x1688_crop_center-center_100_none/Proj_Red_Landscaping_008_lo-res.jpg",
+    "w": 390,
+    "h": 744,
+    "alt": ""
+   },
+   {
+    "src": "https://barr.ams3.cdn.digitaloceanspaces.com/build/2025_09_30_North_Gate_Hall_0014-EDIT-CROP.jpg",
+    "w": 390,
+    "h": 744,
+    "alt": ""
+   },
+   {
+    "src": "https://barr.ams3.cdn.digitaloceanspaces.com/build/POOL_HOUSE-8199_lo-res_Edit_2026-06-05-093817_kaqq.jpg",
+    "w": 390,
+    "h": 744,
+    "alt": ""
+   },
+   {
+    "src": "https://barr.ams3.cdn.digitaloceanspaces.com/build/_3000x1688_crop_center-center_100_none/200722_Farm202.jpg",
+    "w": 390,
+    "h": 744,
+    "alt": ""
+   },
+   {
+    "src": "https://barr.ams3.cdn.digitaloceanspaces.com/build/Church_Farm_2024_08_13_IMG_0003_EDIT-CROP-2.jpg",
+    "w": 390,
+    "h": 744,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 7095
+ },
+ "elapsedSec": 21.5
+}

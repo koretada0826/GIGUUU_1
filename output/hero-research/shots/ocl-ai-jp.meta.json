@@ -1,0 +1,195 @@
+{
+ "slug": "ocl-ai-jp",
+ "url": "https://ocl-ai.jp/",
+ "capturedAt": "2026-10-12 21:17:53",
+ "files": {
+  "pc_f0": "ocl-ai-jp-pc-f0.jpg",
+  "pc_f1": "ocl-ai-jp-pc-f1.jpg",
+  "pc_f2": "ocl-ai-jp-pc-f2.jpg",
+  "pc_scroll": "ocl-ai-jp-pc-scroll.jpg",
+  "sp": "ocl-ai-jp-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://ocl-ai.jp/",
+  "title": "社内研修ならOCL AI（オシエルエーアイ）｜AI活用型 研修プラットフォーム",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 13371,
+  "h1": "",
+  "h1Style": {
+   "fontFamily": "Kosugi, \"Noto Sans JP\", \"Hiragino Sans\", \"Hiragino Kaku Gothic ProN\", Meiryo, sans-serif",
+   "fontSize": "10px",
+   "fontWeight": "400",
+   "lineHeight": "12px",
+   "letterSpacing": "normal",
+   "color": "rgb(26, 26, 26)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 40,
+    "y": 0,
+    "w": 188,
+    "h": 88
+   }
+  },
+  "lead": "ホーム 特長 機能紹介 料金プラン よくある質問 無料で試してみる 資料ダウンロード",
+  "ctas": [
+   "ホーム",
+   "機能紹介",
+   "料金プラン",
+   "よくある質問",
+   "無料で試してみる",
+   "資料ダウンロード",
+   "まずは機能を体験する 1分でカンタン無料登録！",
+   "資料をダウンロードする",
+   "導入について相談する",
+   "お問い合わせ",
+   "オンライン商談を予約",
+   "閉じる"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://ocl-ai.jp/assets/images/common/header_logo.png",
+    "w": 188,
+    "h": 47,
+    "alt": "OCL AI"
+   },
+   {
+    "src": "https://ocl-ai.jp/assets/images/top/mainvisual_txt01.svg",
+    "w": 460,
+    "h": 217,
+    "alt": "人材の成長に寄り添うAI × 教育　AIで社内研修をもっとシンプルに"
+   },
+   {
+    "src": "https://ocl-ai.jp/assets/images/top/mainvisual_img01_bg.png?v=202606021200",
+    "w": 603,
+    "h": 394,
+    "alt": ""
+   },
+   {
+    "src": "https://ocl-ai.jp/assets/images/top/mainvisual_img01.png",
+    "w": 442,
+    "h": 301,
+    "alt": ""
+   },
+   {
+    "src": "https://ocl-ai.jp/assets/images/top/mainvisual_img02_bg.png?v=202606021200",
+    "w": 125,
+    "h": 288,
+    "alt": ""
+   },
+   {
+    "src": "https://ocl-ai.jp/assets/images/top/mainvisual_img02.png",
+    "w": 113,
+    "h": 250,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [
+   {
+    "bg": "url(\"https://ocl-ai.jp/assets/images/top/contactArea01_bg.png\")",
+    "w": 1440,
+    "h": 254
+   },
+   {
+    "bg": "url(\"https://ocl-ai.jp/assets/images/top/contactArea01_bg02.svg\")",
+    "w": 195,
+    "h": 43
+   },
+   {
+    "bg": "url(\"https://ocl-ai.jp/assets/images/common/floating_bg.png\")",
+    "w": 318,
+    "h": 293
+   }
+  ],
+  "firstScreenFonts": [
+   "Kosugi"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": true
+  },
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "",
+  "h1Style": {
+   "fontFamily": "Kosugi, \"Noto Sans JP\", \"Hiragino Sans\", \"Hiragino Kaku Gothic ProN\", Meiryo, sans-serif",
+   "fontSize": "10px",
+   "fontWeight": "400",
+   "lineHeight": "12px",
+   "letterSpacing": "normal",
+   "color": "rgb(26, 26, 26)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 0,
+    "y": 0,
+    "w": 188,
+    "h": 79
+   }
+  },
+  "lead": "ホーム 特長 機能紹介 料金プラン よくある質問 無料で試してみる 資料ダウンロード",
+  "ctas": [
+   "まずは機能を体験する 1分でカンタン無料登録！",
+   "導入について相談する",
+   "お問い合わせ",
+   "オンライン商談を予約",
+   "閉じる"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://ocl-ai.jp/assets/images/top/mainvisual_txt01.svg",
+    "w": 298,
+    "h": 141,
+    "alt": "人材の成長に寄り添うAI × 教育　AIで社内研修をもっとシンプルに"
+   },
+   {
+    "src": "https://ocl-ai.jp/assets/images/top/mainvisual_img01_bg.png?v=202606021200",
+    "w": 313,
+    "h": 205,
+    "alt": ""
+   },
+   {
+    "src": "https://ocl-ai.jp/assets/images/top/mainvisual_img01@2x.png",
+    "w": 230,
+    "h": 157,
+    "alt": ""
+   },
+   {
+    "src": "https://ocl-ai.jp/assets/images/top/mainvisual_img02_bg.png?v=202606021200",
+    "w": 64,
+    "h": 148,
+    "alt": ""
+   },
+   {
+    "src": "https://ocl-ai.jp/assets/images/top/mainvisual_img02@2x.png",
+    "w": 58,
+    "h": 129,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 19842
+ },
+ "elapsedSec": 12.8
+}

@@ -1,0 +1,250 @@
+{
+  "name": "TELEMO benefits layout adapted from AISHIFT worries-resolve",
+  "version": 1,
+  "source": {
+    "url": "https://aishift.com/",
+    "selector": ".worries-resolve",
+    "fetched_at": "2026-10-22T06:04:52.053831+00:00",
+    "html_sha256": "1572de8f4c99846133cf41e3269df2b9a0107c8eaa807bf03034dc075fbd04ba",
+    "css_url": "https://aishift.com/assets/css/index.BDO0N_38.css",
+    "css_sha256": "d58ce9cff4f89ea56fcc437bfca5c276f303778cdaf8f526127005366bdd67a4",
+    "screenshot": {
+      "path": "docs/design/aishift-benefits-reference.png",
+      "pixels": {
+        "width": 2896,
+        "height": 1702
+      },
+      "provided_by": "user",
+      "scope": "cropped desktop reference; bottom of mascot and last row are cropped"
+    },
+    "measurement_note": "CSS declarations are extracted source values, not computed pixel measurements. Screenshot proportions are visual estimates."
+  },
+  "reference": {
+    "headline": "シフトラが\n悩みを解決",
+    "layout": {
+      "columns": "two card columns with a large center gap",
+      "rows": 3,
+      "center": "vertical-rl headline and mascot beneath",
+      "stagger": "alternate horizontal offset per row",
+      "background": "pale gray",
+      "cards": "off-white surfaces, three rounded corners and one square lower corner, short side rule"
+    },
+    "source_css_declarations": [
+      ".worries-resolve{position:relative}",
+      ".worries-resolve{margin-top:4.8rem}",
+      ".worries-resolve{margin-top:4rem;padding-top:26rem}",
+      ".worries-resolve-ttl{letter-spacing:var(--tracking-tight);line-height:1.2;position:absolute;width:fit-content;writing-mode:vertical-rl}",
+      ".worries-resolve-ttl{left:0;margin:auto;right:0;top:4.8rem}",
+      ".worries-resolve-ttl{left:5.5rem;top:0}",
+      ".worries-resolve-ttl strong{color:var(--color-code-light-blue-500);font-family:var(--font-family-cezanne-b)}",
+      ".worries-resolve-ttl strong{font-size:9rem}",
+      ".worries-resolve-ttl strong{font-size:4.5rem}",
+      ".worries-resolve-ttl span{font-size:7.5rem;padding:.5rem 0}",
+      ".worries-resolve-ttl span{font-size:3.8rem;padding:.3rem 0}",
+      ".worries-resolve-article{display:grid}",
+      ".worries-resolve-article{gap:2.4rem 33.6rem;grid-template-columns:repeat(2,1fr)}",
+      ".worries-resolve-article{gap:2rem;grid-template-columns:1fr;margin:0 2rem}",
+      ".worries-resolve-item{background-color:var(--color-gray-025);overflow:hidden;position:relative}",
+      ".worries-resolve-item{box-shadow:0 .2rem 1rem 0 rgb(var(--color-blue-500-rgb)/6%);display:flex;flex-direction:column;height:25.6rem;padding:4.2rem 4.8rem}",
+      ".worries-resolve-item:nth-of-type(odd){border-radius:var(--border-radius) var(--border-radius) 0 var(--border-radius)}",
+      ".worries-resolve-item:nth-of-type(2n){border-radius:var(--border-radius) var(--border-radius) var(--border-radius) 0}",
+      ".worries-resolve-item:nth-of-type(3){left:-4.8rem}",
+      ".worries-resolve-item:nth-of-type(4){right:-4.8rem}",
+      ".worries-resolve-item{border-radius:var(--border-radius) var(--border-radius) var(--border-radius) 0;padding:3.6rem 4rem}",
+      ".worries-resolve-item:before{background-color:var(--color-tora-light-blue-500);content:\"\";display:block;left:0;position:absolute}",
+      ".worries-resolve-item:before{height:5.6rem;top:4.8rem;width:.4rem}",
+      ".worries-resolve-item:before{height:5.6rem;top:3.6rem;width:.4rem}",
+      ".worries-resolve-item-ttl{color:var(--color-blue-500);font-family:var(--font-family-cezanne-b);line-height:var(--leading-normal)}",
+      ".worries-resolve-item-ttl{font-size:2.6rem;padding-bottom:2.8rem}",
+      ".worries-resolve-item-ttl{font-size:2rem}",
+      ".worries-resolve-item-txt{color:var(--color-gray-700);font-family:var(--font-family-cezanne-m);line-height:var(--leading-relaxed);text-align:justify;word-break:break-all}",
+      ".worries-resolve-item-txt{font-size:1.5rem;margin-top:auto}",
+      ".worries-resolve-item-txt{font-size:1.4rem;margin-top:2rem}",
+      ".worries-resolve-item-txt strong{font-family:var(--font-family-cezanne-b)}"
+    ],
+    "cards": [
+      {
+        "order": 1,
+        "row": 1,
+        "side": "left",
+        "title": "現場ルールが多くても\nまとまる。",
+        "body": "「AさんとBさんは別で」「店長か副店長は必ず」など、自然な日本語で入力。会話でつくるシフトラが\"ことば\"を理解し、現場に最適なシフトを提案。"
+      },
+      {
+        "order": 2,
+        "row": 1,
+        "side": "right",
+        "title": "現場フォーマットに\nスムーズにフィット。",
+        "body": "既存のExcelテンプレートに直接出力可能。\nExcel直結の出力機能で現場フローにフィット。"
+      },
+      {
+        "order": 3,
+        "row": 2,
+        "side": "left",
+        "title": "ほぼ手直し不要の\n完成度。",
+        "body": "完成度96％以上の品質で、シフト作成時間を40時間→10分に短縮。AIが\"確定レベル\"のシフトを生成。"
+      },
+      {
+        "order": 4,
+        "row": 2,
+        "side": "right",
+        "title": "業界ごとのルールにも、\nしっかり対応。",
+        "body": "保育の法定配置、医療・介護の連勤制限、小売・飲食の繁閑配置まで、業界ルールを理解して提案。"
+      },
+      {
+        "order": 5,
+        "row": 3,
+        "side": "left",
+        "title": "希望集計から承認・配布まで、\n自動で完結。",
+        "body": "LINE・メール・QRで希望を集め、\nリマインドも自動送信。提出率も運用効率も底上げ。"
+      },
+      {
+        "order": 6,
+        "row": 3,
+        "side": "right",
+        "title": "時間帯も時間単位も、\nAIが自動で最適化。",
+        "body": "早番／遅番への対応や30分単位の調整も可能。すべてAIが精密に組み立てます。"
+      }
+    ],
+    "source_asset": "https://aishift.com/assets/images/top/worries_character_img.webp"
+  },
+  "implementation": {
+    "target": "index.html#telemo-core",
+    "scope": "Only replace the existing core strengths section; preserve surrounding sections, anchors and interactions.",
+    "headline": [
+      "営業の悩みを、",
+      "仕組みで解決。"
+    ],
+    "eyebrow": "営業を強くする、6つの仕組み",
+    "character": {
+      "path": "assets/concierge/president-cutout/poster.webp",
+      "reuse": true,
+      "alt": "営業を案内するミニ社長",
+      "speech": "お待たせしました！ここからは僕がご案内します。",
+      "pixels": {
+        "width": 256,
+        "height": 384
+      },
+      "motion": {
+        "sprite": "assets/concierge/president-cutout/wave.webp",
+        "frames": 8,
+        "entry_duration_ms": 900,
+        "wave_duration_ms": 2200,
+        "trigger": "section enters the middle viewport band: floating guide sinks, then the center stage enters when visible; click, tap, Enter or Space to replay",
+        "reduced_motion": "static portrait; no transition; existing guide motion pause is also respected",
+        "fallback": "static portrait if the sprite cannot load",
+        "reserved_stage_ratio": "1145 / 1374; preserve the previous layout dimensions",
+        "floating_guide_departure_ms": 560,
+        "center_start_after_ms": 580,
+        "while_in_section": "floating guide hidden and inert; central president remains in place",
+        "on_section_exit": "hide central character and restore the existing floating guide with its prior collapsed/inert state"
+      },
+      "dialogue": [
+        "お待たせしました！ここからは僕がご案内します。",
+        "声も、トーク設計も。営業現場の知見を詰め込んでいます。",
+        "結果を見て、一緒に改善。その積み重ねが大切なんです。"
+      ],
+      "comments": {
+        "controller": "telemo-guide-comments.js",
+        "arrival_delay_ms": 900,
+        "advance_interval_ms": 8000,
+        "stop_after_last_comment": true,
+        "manual_next": true,
+        "reduced_motion": "show greeting immediately; advance manually",
+        "talk_sprite": "assets/concierge/president-cutout/talk.webp",
+        "audio": false
+      }
+    },
+    "palette": {
+      "background": "#F4F6F8",
+      "card": "#FFFFFF",
+      "accent": "#007D8C",
+      "heading": "#0A2A44",
+      "body": "#34424E",
+      "line": "#D8E8EC"
+    },
+    "responsive": {
+      "desktop_min_width_px": 1100,
+      "desktop": "three columns: left cards / center headline and president / right cards",
+      "tablet": "horizontal headline with president, then two columns in source order",
+      "mobile_max_width_px": 600,
+      "mobile": "horizontal headline with smaller president, then one column in source order"
+    },
+    "adaptation_notes": [
+      "Keep TELEMO content and teal palette; do not copy the reference service claims, brand mascot, blue palette or fonts.",
+      "Original four core strengths are retained; the two additional cards describe capabilities already present in the existing service and support sections.",
+      "Render copy as static semantic HTML; do not require a client-side JSON fetch."
+    ],
+    "cards": [
+      {
+        "id": "voice",
+        "label": "生声",
+        "headline": [
+          "人に近い、",
+          "自然な会話を。"
+        ],
+        "body": "実際の営業マンの声を使用。営業に必要なトーン・間・抑揚まで設計しています。",
+        "source_selector": "#telemo-core .telemo-core__card:nth-child(1)"
+      },
+      {
+        "id": "tree",
+        "label": "トークツリー",
+        "headline": [
+          "現場で成果が出る、",
+          "トーク設計。"
+        ],
+        "body": "営業現場から逆算して、質問・回答・アウト返し・分岐を設計。商材ごとに最適なトークを構築します。",
+        "source_selector": "#telemo-core .telemo-core__card:nth-child(2)"
+      },
+      {
+        "id": "analysis",
+        "label": "データ分析・改善",
+        "headline": [
+          "結果を分析し、",
+          "次の改善へ。"
+        ],
+        "body": "どこまで進んだのか。どこで断られたのか。何が成果につながったのか。結果を分析し、次の改善につなげます。",
+        "source_selector": "#telemo-core .telemo-core__card:nth-child(3)"
+      },
+      {
+        "id": "handover",
+        "label": "RW（Runaway）",
+        "headline": [
+          "想定外の会話には、",
+          "人のフォローを。"
+        ],
+        "body": "想定していない質問や、AIだけでは判断できない会話が発生した場合は、人がフォローできる仕組みです。",
+        "source_selector": "#telemo-core .telemo-core__card:nth-child(4)"
+      },
+      {
+        "id": "calls",
+        "label": "自動架電",
+        "headline": [
+          "大量のリストにも、",
+          "安定したアプローチ。"
+        ],
+        "body": "数万件規模のリストにも、安定した品質で架電が可能です。新規営業から休眠顧客の掘り起こしまで、さまざまな営業シーンに対応します。",
+        "source_selector": "#telemo-cases, #telemo-how"
+      },
+      {
+        "id": "support",
+        "label": "伴走サポート",
+        "headline": [
+          "導入したあとも、",
+          "改善まで一緒に。"
+        ],
+        "body": "システムの提供だけでなく、営業のプロとしての知見をもとに、運用の改善まで伴走します。",
+        "source_selector": "#telemo-support"
+      }
+    ],
+    "typography": {
+      "font_family": "Existing local Noto Sans JP / --rf-display",
+      "body_px": 14,
+      "card_heading_px": {
+        "desktop": "clamp(21px, 1.8vw, 26px)",
+        "tablet_and_mobile": 23
+      },
+      "mobile_primary_heading": "clamp(26px, 6.9vw, 34px)"
+    }
+  }
+}

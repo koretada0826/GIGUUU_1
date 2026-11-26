@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TELEMO｜AI営業 月22,000コール・月額35万円｜GIGUUU株式会社</title>
+    <meta
+      name="description"
+      content="営業を、人から『仕組み』へ。TELEMOは月22,000コール・月額35万円（税別）。架電から営業トーク、クロージング、受注までAIが行います。提供：GIGUUU株式会社"
+    />
+
+    <!-- フォント：見出し Zen Maru Gothic / 本文 Noto Sans JP / 手書き風アクセント Yusei Magic（Heroの1語だけなので text= で文字を絞る） -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Zen+Maru+Gothic:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Yusei+Magic&text=%E4%BB%95%E7%B5%84%E3%81%BF&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./telemo-aji.css" />
+  </head>
+
+  <body class="ta-body">
+    <!-- ============ ヘッダー ============ -->
+    <header class="ta-root ta-header" id="ta-header">
+      <div class="ta-header__bar">
+        <a class="ta-header__brand" href="#hero">
+          <span class="ta-header__tag" aria-hidden="true">AI SALES AUTOMATION</span>
+          <span class="ta-header__brand-row">
+            <img class="ta-header__logo" src="giguuu-logo.png" alt="GIGUUU株式会社" width="842" height="595" />
+            <span class="ta-header__name" aria-hidden="true">GIGUUU株式会社</span>
+          </span>
+        </a>
+        <button class="ta-header__burger" type="button" aria-expanded="false" aria-controls="ta-header-nav" aria-label="メニューを開く">
+          <span class="ta-header__burger-lines" aria-hidden="true"><i></i><i></i><i></i></span>
+        </button>
+        <nav class="ta-header__nav" id="ta-header-nav" aria-label="ページ内メニュー">
+          <ul class="ta-header__list">
+            <li><a href="#telemo">TELEMOとは</a></li>
+            <li><a href="#pricing">料金</a></li>
+            <li><a href="#flow">導入の流れ</a></li>
+            <li><a href="#company">会社情報</a></li>
+          </ul>
+          <div class="ta-header__cta-box">
+            <a class="ta-header__cta" href="#contact">無料で相談する</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- ============ HERO（参照LP 要素1：画面の半分ほどの高さ／左に文字・右に主役ビジュアル／手書き風の1語／吊り下げ小物） ============ -->
+      <section class="ta-root ta-hero" id="hero" aria-labelledby="ta-hero-title">
+        <div class="ta-hero__inner">
+          <h1 class="ta-hero__title" id="ta-hero-title">
+            <span class="ta-hero__line">営業を、人から</span>
+            <span class="ta-hero__line">『<span class="ta-hero__hand">仕組み</span>』へ。</span>
+          </h1>
+          <p class="ta-hero__sub">
+            <span>月22,000コール。</span>
+            <span>月額35万円。</span>
+            <span>AIが受注までやりきる。</span>
+          </p>
+          <div class="ta-hero__actions">
+            <a class="ta-btn ta-btn--fill" href="#contact">無料で相談する</a>
+            <a class="ta-btn ta-btn--line" href="#demo">実際の営業音声を聴く</a>
+          </div>
+          <div class="ta-hero__visual">
+            <div class="ta-hero__screen" role="img" aria-label="TELEMO管理画面のイメージ。今月の発信数、通話ログ、アポ獲得の通知を表示しています。">
+              <div class="ta-hero__bar">
+                <span class="ta-hero__bar-logo">TELEMO</span>
+                <span class="ta-hero__bar-live"><i></i>自動架電中</span>
+              </div>
+              <div class="ta-hero__body">
+                <div class="ta-hero__count">
+                  <p class="ta-hero__count-label">今月の発信数</p>
+                  <p class="ta-hero__count-num"><span data-ta-count="15276">15,276</span><small>/ 22,000</small></p>
+                  <span class="ta-hero__meter"><i></i></span>
+                  <p class="ta-hero__count-foot">コール</p>
+                </div>
+                <div class="ta-hero__log">
+                  <p class="ta-hero__log-head">通話ログ</p>
+                  <ul class="ta-hero__log-list">
+                    <li><span class="ta-hero__log-time">10:42</span><span class="ta-hero__log-co">製造業 A社</span><span class="ta-hero__tag ta-hero__tag--apo">アポ獲得</span></li>
+                    <li><span class="ta-hero__log-time">10:39</span><span class="ta-hero__log-co">IT・通信 B社</span><span class="ta-hero__tag ta-hero__tag--talk">営業トーク</span></li>
+                    <li><span class="ta-hero__log-time">10:37</span><span class="ta-hero__log-co">不動産 C社</span><span class="ta-hero__tag ta-hero__tag--conn">担当者接続</span></li>
+                    <li><span class="ta-hero__log-time">10:35</span><span class="ta-hero__log-co">人材 D社</span><span class="ta-hero__tag ta-hero__tag--re">再架電</span></li>
+                    <li><span class="ta-hero__log-time">10:33</span><span class="ta-hero__log-co">卸売 E社</span><span class="ta-hero__tag ta-hero__tag--talk">営業トーク</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="ta-hero__hang" aria-hidden="true">
+              <span class="ta-hero__thread"></span>
+              <div class="ta-hero__toast">
+                <span class="ta-hero__toast-icon"><svg viewBox="0 0 24 24" width="20" height="20"><path d="M5 12.5l4.2 4.2L19 7" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+                <span class="ta-hero__toast-body"><b>アポ獲得</b><small>製造業 A社・10:42</small></span>
+              </div>
+            </div>
+            <img class="ta-hero__robot" src="ta-robot.svg" alt="" width="120" height="106" />
+            <p class="ta-hero__note">※画面はイメージです。数値はサンプルです。</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ TELEMO川柳 1（参照LP 要素8：縦書きの短冊をセクション境界から吊るす） ============ -->
+      <aside class="ta-root ta-senryu ta-senryu--r ta-senryu--1" aria-label="TELEMO川柳">
+        <div class="ta-senryu__hang">
+          <span class="ta-senryu__thread" aria-hidden="true"></span>
+          <figure class="ta-senryu__card">
+            <figcaption class="ta-senryu__label">TELEMO川柳</figcaption>
+            <p class="ta-senryu__text"><span>二万二千　</span><span>かければ見える　</span><span>勝ちパターン</span></p>
+          </figure>
+          <img class="ta-senryu__robot" src="ta-robot.svg" alt="" width="120" height="106" />
+        </div>
+      </aside>
+
+      <!-- ============ Features① TELEMOとは（参照LP 要素2＋3：左右50%の塗り分け・白い数値パネル・比較棒グラフとマーカーの結論文） ============ -->
+      <section class="ta-root ta-value" id="telemo" aria-labelledby="ta-value-title">
+        <div class="ta-value__inner">
+          <h2 class="ta-value__title" id="ta-value-title"><span>人1人分のコストで、</span><span>約5倍の営業機会。</span></h2>
+
+          <div class="ta-value__compare">
+            <div class="ta-value__side ta-value__side--human">
+              <p class="ta-value__label">人による営業</p>
+              <svg class="ta-value__icon" viewBox="0 0 80 80" width="80" height="80" aria-hidden="true">
+                <circle cx="40" cy="29" r="13" fill="#fff" stroke="currentColor" stroke-width="2.5" />
+                <path d="M15 74c2-14 12-23 25-23s23 9 25 23" fill="#fff" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" />
+                <path d="M24 30a16 16 0 0 1 32 0" fill="none" stroke="currentColor" stroke-width="2.5" />
+                <rect x="20" y="26" width="7" height="11" rx="3.5" fill="currentColor" />
+                <rect x="53" y="26" width="7" height="11" rx="3.5" fill="currentColor" />
+                <path d="M56 37c0 6-4 9-11 9" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+              </svg>
+              <dl class="ta-value__facts">
+                <div><dt>1人あたり</dt><dd>約<b>40</b>万円/月</dd></div>
+                <div><dt>月間コール数</dt><dd><b>4,400</b>コール</dd></div>
+              </dl>
+              <ul class="ta-value__detail">
+                <li>1時間 約25コール</li>
+                <li>1日 約200コール</li>
+                <li>月22日稼働</li>
+              </ul>
+            </div>
+            <div class="ta-value__arrow" aria-hidden="true">
+              <svg viewBox="0 0 90 20" width="90" height="20"><path d="M2 10h84M76 2l9 8-9 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg>
+            </div>
+            <div class="ta-value__side ta-value__side--telemo">
+              <p class="ta-value__label">TELEMO</p>
+              <img class="ta-value__icon ta-value__icon--robot" src="ta-robot.svg" alt="" width="120" height="106" />
+              <dl class="ta-value__facts">
+                <div><dt>1IDあたり</dt><dd><b>35</b>万円/月</dd></div>
+                <div><dt>月間コール数</dt><dd><b>22,000</b>コール</dd></div>
+              </dl>
+              <ul class="ta-value__detail">
+                <li>24時間自動架電</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="ta-value__panel">
+            <p class="ta-value__panel-l"><small>人1人分の</small><span>コストで</span></p>
+            <span class="ta-value__eq" aria-hidden="true"></span>
+            <p class="ta-value__panel-r"><small>約</small><b>5</b><span>倍の営業機会</span></p>
+            <img class="ta-value__robot" src="ta-robot.svg" alt="" width="120" height="106" />
+          </div>
+
+          <figure class="ta-value__chart">
+            <figcaption class="ta-value__chart-title">月間コール数<small>（コール/月）</small></figcaption>
+            <div class="ta-value__plot">
+              <ul class="ta-value__ticks" aria-hidden="true">
+                <li>0</li>
+                <li>10,000</li>
+                <li>20,000</li>
+              </ul>
+              <span class="ta-value__guide" aria-hidden="true"></span>
+              <div class="ta-value__col ta-value__col--human">
+                <span class="ta-value__gap" aria-hidden="true"><em>約<b>5</b>倍</em></span>
+                <span class="ta-value__bar"><span>4,400</span></span>
+              </div>
+              <div class="ta-value__col ta-value__col--telemo">
+                <span class="ta-value__bar"><span>22,000</span></span>
+              </div>
+            </div>
+            <div class="ta-value__names">
+              <span class="ta-value__name--human">人による営業</span>
+              <span class="ta-value__name--telemo">TELEMO</span>
+            </div>
+          </figure>
+
+          <p class="ta-value__lead">
+            <span>5倍電話できることが価値ではない。</span>
+            <span><span class="ta-marker">22,000回の営業活動を改善し続けられること</span>が価値。</span>
+          </p>
+        </div>
+      </section>
+
+      <!-- ============ Features② 他社AI営業との違い（参照LP 要素4＋3：8pxの太枠・白帯の見出しにバッジ・2列＋縦罫・全幅帯・マーカーの式） ============ -->
+      <section class="ta-root ta-diff" id="compare" aria-labelledby="ta-diff-title">
+        <div class="ta-diff__frame">
+          <div class="ta-diff__head">
+            <h2 class="ta-diff__title" id="ta-diff-title"><span>同じ『AI営業』でも、</span><span>やっていることが<span class="ta-diff__badge"><svg class="ta-diff__blob" viewBox="0 0 140 120" aria-hidden="true" focusable="false"><path d="M76.0 17.3 A19.9 19.9 0 0 1 104.3 32.4 A18.7 18.7 0 0 1 120.9 57.6 A18.5 18.5 0 0 1 108.4 84.8 A19.8 19.8 0 0 1 81.4 101.9 A20.3 20.3 0 0 1 49.2 95.3 A19.7 19.7 0 0 1 23.1 77.2 A18.1 18.1 0 0 1 24.1 48.0 A18.7 18.7 0 0 1 43.2 24.7 A20.8 20.8 0 0 1 76.0 17.3Z" /></svg><span class="ta-diff__badge-txt">違う</span></span>。</span></h2>
+          </div>
+
+          <div class="ta-diff__cols">
+            <div class="ta-diff__col ta-diff__col--other">
+              <h3 class="ta-diff__col-title">他社AI営業</h3>
+              <ol class="ta-diff__flow">
+                <li>AIが大量架電</li>
+                <li>担当者につながる</li>
+                <li>営業担当へ転送</li>
+                <li>そこから人が営業</li>
+              </ol>
+              <p class="ta-diff__price">1コール 約<b>20</b>円<small>（相場）</small></p>
+            </div>
+            <div class="ta-diff__col ta-diff__col--telemo">
+              <h3 class="ta-diff__col-title">TELEMO</h3>
+              <ol class="ta-diff__flow">
+                <li>架電</li>
+                <li>担当者接続</li>
+                <li>営業トーク</li>
+                <li>アウト返し</li>
+                <li>デスクロ</li>
+                <li>クロージング</li>
+                <li>受注</li>
+              </ol>
+              <p class="ta-diff__toss">（必要に応じて人へのトスアップも可能）</p>
+              <p class="ta-diff__price">1コール 約<b>15.9</b>円</p>
+            </div>
+          </div>
+
+          <div class="ta-diff__range">
+            <p class="ta-diff__range-title">AIが担当する範囲</p>
+            <div class="ta-diff__scale">
+              <span class="ta-diff__corner" aria-hidden="true"></span>
+              <span class="ta-diff__step" aria-hidden="true">架電</span>
+              <span class="ta-diff__step" aria-hidden="true">担当者接続</span>
+              <span class="ta-diff__step" aria-hidden="true">営業トーク</span>
+              <span class="ta-diff__step" aria-hidden="true">アウト返し</span>
+              <span class="ta-diff__step" aria-hidden="true">デスクロ</span>
+              <span class="ta-diff__step" aria-hidden="true">クロージング</span>
+              <span class="ta-diff__step" aria-hidden="true">受注</span>
+              <span class="ta-diff__row-name ta-diff__row-name--other">他社AI営業</span>
+              <span class="ta-diff__seg ta-diff__seg--other-ai">AI<span class="ta-sr">：架電・担当者接続まで</span></span>
+              <span class="ta-diff__seg ta-diff__seg--other-human">人<span class="ta-sr">：営業トークから受注まで</span></span>
+              <span class="ta-diff__row-name ta-diff__row-name--telemo">TELEMO</span>
+              <span class="ta-diff__seg ta-diff__seg--telemo">AI<span class="ta-sr">：架電から受注まで</span></span>
+            </div>
+          </div>
+
+          <p class="ta-diff__band"><span>違いは4.1円ではありません。</span><span>『どこまで営業できるか』です。</span></p>
+
+          <p class="ta-diff__formula">
+            <span>22,000コール</span><i>×</i><span>営業設計</span><i>×</i><span>運用改善</span><i>×</i><span>伴走支援</span><i>=</i><span class="ta-diff__formula-ans"><span class="ta-marker">月額35万円</span></span>
+          </p>
+        </div>
+      </section>
+
+      <!-- ============ TELEMO川柳 2 ============ -->
+      <aside class="ta-root ta-senryu ta-senryu--l ta-senryu--2" aria-label="TELEMO川柳">
+        <div class="ta-senryu__hang">
+          <span class="ta-senryu__thread" aria-hidden="true"></span>
+          <figure class="ta-senryu__card">
+            <figcaption class="ta-senryu__label">TELEMO川柳</figcaption>
+            <p class="ta-senryu__text"><span>営業は　</span><span>根性よりも　</span><span>再現性</span></p>
+          </figure>
+          <img class="ta-senryu__robot" src="ta-robot.svg" alt="" width="120" height="106" />
+        </div>
+      </aside>
+
+      <!-- ============ Features③ 対象シーン（参照LP 要素4：等幅の列を縦罫・横罫で区切る／2行目にマーカー） ============ -->
+      <section class="ta-root ta-scenes" id="scenes" aria-labelledby="ta-scenes-title">
+        <div class="ta-scenes__panel">
+          <h2 class="ta-scenes__title" id="ta-scenes-title">こんな営業をしている会社に。</h2>
+          <ol class="ta-scenes__grid">
+            <li class="ta-scenes__item">
+              <span class="ta-scenes__no" aria-hidden="true">01</span>
+              <p class="ta-scenes__name"><span>新規</span><span class="ta-marker">法人営業</span></p>
+              <svg class="ta-scenes__icon" viewBox="0 0 64 64" width="64" height="64" aria-hidden="true" focusable="false"><path d="M14 56V12h24v44M38 24h12v32M8 56h48M24 56v-8h6v8" class="ta-scenes__ln" /><path d="M20 20h4M28 20h4M20 28h4M28 28h4M20 36h4M28 36h4M43 32h3M43 40h3" class="ta-scenes__ac" /></svg>
+            </li>
+            <li class="ta-scenes__item">
+              <span class="ta-scenes__no" aria-hidden="true">02</span>
+              <p class="ta-scenes__name"><span>大量リストへの</span><span class="ta-marker">アプローチ</span></p>
+              <svg class="ta-scenes__icon" viewBox="0 0 64 64" width="64" height="64" aria-hidden="true" focusable="false"><rect x="14" y="8" width="36" height="48" rx="4" class="ta-scenes__ln" /><path d="M26 20h16M26 30h16M26 40h16M26 50h9" class="ta-scenes__ln" /><path d="M20 20h1M20 30h1M20 40h1M20 50h1" class="ta-scenes__ac" /></svg>
+            </li>
+            <li class="ta-scenes__item">
+              <span class="ta-scenes__no" aria-hidden="true">03</span>
+              <p class="ta-scenes__name"><span class="ta-marker">テレアポ</span></p>
+              <svg class="ta-scenes__icon" viewBox="0 0 64 64" width="64" height="64" aria-hidden="true" focusable="false"><path d="M22 12c-4 0-9 3-9 9 0 17 14 31 31 31 6 0 9-5 9-9l-9-7-5 4c-6-3-11-8-14-14l4-5z" class="ta-scenes__ln" /><path d="M40 16a10 10 0 0 1 9 9M40 7a19 19 0 0 1 18 18" class="ta-scenes__ac" /></svg>
+            </li>
+            <li class="ta-scenes__item">
+              <span class="ta-scenes__no" aria-hidden="true">04</span>
+              <p class="ta-scenes__name"><span>営業代行を</span><span class="ta-marker">利用している</span></p>
+              <svg class="ta-scenes__icon" viewBox="0 0 64 64" width="64" height="64" aria-hidden="true" focusable="false"><rect x="10" y="22" width="44" height="30" rx="4" class="ta-scenes__ln" /><path d="M24 22v-6a3 3 0 0 1 3-3h10a3 3 0 0 1 3 3v6M10 35h44" class="ta-scenes__ln" /><path d="M29 32h6v7h-6z" class="ta-scenes__ac" /></svg>
+            </li>
+            <li class="ta-scenes__item">
+              <span class="ta-scenes__no" aria-hidden="true">05</span>
+              <p class="ta-scenes__name"><span>休眠顧客の</span><span class="ta-marker">掘り起こし</span></p>
+              <svg class="ta-scenes__icon" viewBox="0 0 64 64" width="64" height="64" aria-hidden="true" focusable="false"><path d="M34 14a20 20 0 1 0 18 28A17 17 0 0 1 34 14z" class="ta-scenes__ln" /><path d="M42 12h8l-8 9h8M50 26h5l-5 6h5" class="ta-scenes__ac" /></svg>
+            </li>
+            <li class="ta-scenes__item">
+              <span class="ta-scenes__no" aria-hidden="true">06</span>
+              <p class="ta-scenes__name"><span>見込み顧客への</span><span class="ta-marker">再アプローチ</span></p>
+              <svg class="ta-scenes__icon" viewBox="0 0 64 64" width="64" height="64" aria-hidden="true" focusable="false"><path d="M50 30a18 18 0 0 0-32-10M14 34a18 18 0 0 0 32 10" class="ta-scenes__ln" /><path d="M17 11v9h9M47 53v-9h-9" class="ta-scenes__ac" /></svg>
+            </li>
+            <li class="ta-scenes__item">
+              <span class="ta-scenes__no" aria-hidden="true">07</span>
+              <p class="ta-scenes__name"><span>営業人員の採用・教育に</span><span class="ta-marker">悩んでいる</span></p>
+              <svg class="ta-scenes__icon" viewBox="0 0 64 64" width="64" height="64" aria-hidden="true" focusable="false"><path d="M32 18c-6-4-14-5-22-4v34c8-1 16 0 22 4 6-4 14-5 22-4V14c-8-1-16 0-22 4zM32 18v34" class="ta-scenes__ln" /><path d="M16 24h9M16 31h9M39 24h9M39 31h9" class="ta-scenes__ac" /></svg>
+            </li>
+            <li class="ta-scenes__item">
+              <span class="ta-scenes__no" aria-hidden="true">08</span>
+              <p class="ta-scenes__name"><span>トップ営業のやり方を</span><span class="ta-marker">組織に残したい</span></p>
+              <svg class="ta-scenes__icon" viewBox="0 0 64 64" width="64" height="64" aria-hidden="true" focusable="false"><path d="M12 22l9 9 11-15 11 15 9-9-4 22H16z" class="ta-scenes__ln" /><path d="M16 52h32" class="ta-scenes__ac" /></svg>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- ============ Testimonials TELEMOをつくったひと／導入企業の声（参照LP 要素6：袋文字の見出し・波線のサブ・罫のV字の切り欠き・グレーの吹き出し・線画の人物・「さん」を小さく・左右交互） ============ -->
+      <section class="ta-root ta-voice" id="maker" aria-labelledby="ta-voice-title">
+        <div class="ta-voice__inner">
+          <div class="ta-voice__head">
+            <h2 class="ta-voice__title" id="ta-voice-title">TELEMOをつくったひと。</h2>
+            <p class="ta-voice__sub">
+              <svg class="ta-voice__wave" viewBox="0 0 44 12" width="44" height="12" aria-hidden="true" focusable="false"><path d="M1 9c6-8 12-8 18-2s12 6 24-2" /></svg>
+              <span class="ta-voice__sub-txt"><span>営業を知っている人が、</span><span>AIを使って営業を仕組みにした。</span></span>
+              <svg class="ta-voice__wave" viewBox="0 0 44 12" width="44" height="12" aria-hidden="true" focusable="false"><path d="M1 3c12 8 18 8 24 2s12-6 18 2" /></svg>
+            </p>
+          </div>
+          <span class="ta-voice__rule" aria-hidden="true"></span>
+
+          <div class="ta-voice__item">
+            <div class="ta-voice__face">
+              <!-- TODO: 先方素材 青木氏写真 -->
+              <svg viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="人物のイメージ（写真準備中）"><circle cx="60" cy="44" r="20" class="ta-voice__ln" /><path d="M22 108c3-22 19-34 38-34s35 12 38 34" class="ta-voice__ln" /><path d="M48 76l12 14 12-14" class="ta-voice__ac" /></svg>
+            </div>
+            <div class="ta-voice__body">
+              <div class="ta-voice__bubble">
+                <p>25歳で光通信に入社し、個人営業・責任者・統括部長を経験しました。現在も自社でコールセンターを運営しています。</p>
+                <p class="ta-voice__rec-title">単月実績</p>
+                <ul class="ta-voice__rec">
+                  <li><span class="ta-voice__rec-name">電子電話帳営業<small>（フレッツ光）</small></span><span class="ta-voice__rec-num"><b>1,500</b>件</span></li>
+                  <li><span class="ta-voice__rec-name">アライアンス営業<small>（フレッツ光）</small></span><span class="ta-voice__rec-num"><b>2,000</b>件</span></li>
+                  <li><span class="ta-voice__rec-name">CRM営業<small>（U-NEXT）</small></span><span class="ta-voice__rec-num"><b>1,500</b>件</span></li>
+                  <li><span class="ta-voice__rec-name">CRM営業<small>（WiMAX）</small></span><span class="ta-voice__rec-num"><b>2,000</b>件</span></li>
+                </ul>
+              </div>
+              <p class="ta-voice__name"><span class="ta-voice__org">株式会社Everエフォート 代表</span><span class="ta-voice__person">青木 一平<small>さん</small></span></p>
+            </div>
+          </div>
+
+          <p class="ta-voice__quote"><span>『AIを知っている人』ではなく</span><span><span class="ta-marker">『営業を知っている人』</span>が、</span><span>AIを使って営業を仕組みにした。</span></p>
+
+          <div class="ta-voice__cases" id="voice">
+            <h3 class="ta-voice__cases-title">導入企業の声</h3>
+            <div class="ta-voice__item ta-voice__item--case">
+              <div class="ta-voice__face ta-voice__face--empty" aria-hidden="true"></div>
+              <div class="ta-voice__body">
+                <!-- TODO: 先方素材 導入企業の声（掲載許諾済みの社名・コメント・写真） -->
+                <div class="ta-voice__bubble ta-voice__bubble--empty"><p>掲載準備中</p></div>
+              </div>
+            </div>
+            <div class="ta-voice__item ta-voice__item--case ta-voice__item--rev">
+              <div class="ta-voice__face ta-voice__face--empty" aria-hidden="true"></div>
+              <div class="ta-voice__body">
+                <!-- TODO: 先方素材 導入企業の声（掲載許諾済みの社名・コメント・写真） -->
+                <div class="ta-voice__bubble ta-voice__bubble--empty"><p>掲載準備中</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ TELEMO川柳 3 ============ -->
+      <aside class="ta-root ta-senryu ta-senryu--r ta-senryu--3" aria-label="TELEMO川柳">
+        <div class="ta-senryu__hang">
+          <span class="ta-senryu__thread" aria-hidden="true"></span>
+          <figure class="ta-senryu__card">
+            <figcaption class="ta-senryu__label">TELEMO川柳</figcaption>
+            <p class="ta-senryu__text"><span>売れるまで　</span><span>回して直す　</span><span>それテレモ</span></p>
+          </figure>
+          <img class="ta-senryu__robot" src="ta-robot.svg" alt="" width="120" height="106" />
+        </div>
+      </aside>
+
+      <!-- ============ Pricing 料金（参照LP 要素5：主色の全幅帯と、その下端をまたぐ角を切った白カード／要素7の外枠カード） ============ -->
+      <section class="ta-root ta-price" id="pricing" aria-labelledby="ta-price-title">
+        <div class="ta-price__band">
+          <h2 class="ta-price__title" id="ta-price-title">料金はシンプル。</h2>
+        </div>
+        <div class="ta-price__cards">
+          <div class="ta-price__card">
+            <div class="ta-price__card-in">
+              <h3 class="ta-price__card-title">初期費用<small>（税別）</small></h3>
+              <p class="ta-price__amount"><b>200,000</b>円</p>
+              <p class="ta-price__card-text">トーク設計・シナリオ構築・<br />初期設定・環境構築</p>
+            </div>
+          </div>
+          <div class="ta-price__card">
+            <div class="ta-price__card-in">
+              <h3 class="ta-price__card-title">月額費用<small>（税別）</small></h3>
+              <p class="ta-price__amount"><b>350,000</b>円</p>
+              <p class="ta-price__card-text">月間22,000コール<small>（2026年10月利用分より）</small><span>1コールあたり約15.9円</span></p>
+            </div>
+            <img class="ta-price__robot" src="ta-robot.svg" alt="" width="120" height="106" />
+          </div>
+        </div>
+
+        <div class="ta-price__inner">
+          <div class="ta-price__box">
+            <h3 class="ta-price__box-head">月額に含まれるもの</h3>
+            <ul class="ta-price__list">
+              <li>AI自動架電<small>（22,000コール/月）</small></li>
+              <li>トークツリー設計・改善</li>
+              <li>通話データ分析・レポート</li>
+              <li>実際の音声確認・課題抽出</li>
+              <li>営業コンサルタントの伴走</li>
+              <li>システム利用料・通信費<small>（6万円分込み）</small></li>
+            </ul>
+          </div>
+
+          <ul class="ta-price__terms">
+            <li>
+              <h3 class="ta-price__term-title">追加費用なし</h3>
+            </li>
+            <li>
+              <h3 class="ta-price__term-title">未消化コールは翌月に繰り越し</h3>
+              <p class="ta-price__term-text"><span>例：当月12,000コール使用</span> <span>→ 10,000コール繰り越し</span> <span>→ 翌月最大32,000コール</span></p>
+            </li>
+            <li>
+              <h3 class="ta-price__term-title">契約期間6ヶ月</h3>
+              <p class="ta-price__term-text">以降6ヶ月ごとの自動更新</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- ============ CTA 導入の流れ（参照LP 要素7：V字で切り替える補足エリア・1pxティール罫の外枠カード） ============ -->
+      <section class="ta-root ta-flow" id="flow" aria-labelledby="ta-flow-title">
+        <div class="ta-flow__inner">
+          <h2 class="ta-flow__title" id="ta-flow-title">導入の流れ</h2>
+          <ol class="ta-flow__list">
+            <li class="ta-flow__card">
+              <p class="ta-flow__step">STEP<b>01</b></p>
+              <div class="ta-flow__body">
+                <h3 class="ta-flow__name">6ヶ月の利用意思決定</h3>
+              </div>
+            </li>
+            <li class="ta-flow__card">
+              <p class="ta-flow__step">STEP<b>02</b></p>
+              <div class="ta-flow__body">
+                <h3 class="ta-flow__name">第1回トークツリーMTG</h3>
+                <p class="ta-flow__detail">初期費用 <b>200,000</b>円</p>
+              </div>
+            </li>
+            <li class="ta-flow__card">
+              <p class="ta-flow__step">STEP<b>03</b></p>
+              <div class="ta-flow__body">
+                <h3 class="ta-flow__name">トークツリー制作</h3>
+              </div>
+            </li>
+            <li class="ta-flow__card">
+              <p class="ta-flow__step">STEP<b>04</b></p>
+              <div class="ta-flow__body">
+                <h3 class="ta-flow__name">約10営業日で納品</h3>
+              </div>
+            </li>
+            <li class="ta-flow__card">
+              <p class="ta-flow__step">STEP<b>05</b></p>
+              <div class="ta-flow__body">
+                <h3 class="ta-flow__name">納品・運用開始</h3>
+                <p class="ta-flow__detail">月額 <b>350,000</b>円</p>
+              </div>
+            </li>
+            <li class="ta-flow__card">
+              <p class="ta-flow__step">STEP<b>06</b></p>
+              <div class="ta-flow__body">
+                <h3 class="ta-flow__name">毎月請求</h3>
+                <p class="ta-flow__detail">毎月のご利用分をご請求</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- ============ CTA 音声デモ／相談（参照LP 要素7：淡色背景の白パネルと、下辺をまたぐピル型ボタン） ============ -->
+      <section class="ta-root ta-demo" id="demo" aria-labelledby="ta-demo-title">
+        <div class="ta-demo__inner">
+          <div class="ta-demo__panel">
+            <h2 class="ta-demo__title" id="ta-demo-title"><span>まずは実際の</span><span><em>営業音声</em>を聴いてください</span></h2>
+            <p class="ta-demo__sub"><span>説明するより、</span><span>まず聴いていただくのが一番早い。</span></p>
+            <img class="ta-demo__robot" src="ta-robot.svg" alt="" width="120" height="106" />
+            <!-- TODO: 先方確認 音声デモURLの恒久性・LP掲載可否 -->
+            <a class="ta-demo__listen" href="https://demoaudio-cxpuxivk.manus.space/?code=o6yvTD42hExQnTLqYbpxvH" target="_blank" rel="noopener">
+              <span class="ta-demo__play" aria-hidden="true"></span>
+              <span>営業音声を聴く</span>
+              <svg class="ta-demo__ext" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><path d="M9 2h5v5M14 2L7 9M12 10v4H2V4h4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" /></svg>
+              <span class="ta-sr">（外部サイト・新しいタブで開きます）</span>
+            </a>
+          </div>
+          <p class="ta-demo__ext-note">※外部サイト（音声デモ）が新しいタブで開きます。</p>
+          <div class="ta-demo__cta">
+            <a class="ta-btn ta-btn--fill ta-demo__consult" href="#contact">無料で相談する</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ FAQ（参照LP 要素7：外枠カード（見出し行・本文・破線）を details/summary で開閉） ============ -->
+      <section class="ta-root ta-faq" id="faq" aria-labelledby="ta-faq-title">
+        <div class="ta-faq__inner">
+          <h2 class="ta-faq__title" id="ta-faq-title">よくあるご質問</h2>
+          <div class="ta-faq__list">
+            <details class="ta-faq__item">
+              <summary class="ta-faq__q"><span class="ta-faq__mark" aria-hidden="true">Q</span><span class="ta-faq__q-txt">契約期間はどのくらいですか？</span><span class="ta-faq__icon" aria-hidden="true"></span></summary>
+              <div class="ta-faq__a">
+                <p class="ta-faq__a-row"><span class="ta-faq__mark ta-faq__mark--a" aria-hidden="true">A</span><span>6ヶ月です。以降は6ヶ月ごとに自動更新となります。</span></p>
+              </div>
+            </details>
+            <details class="ta-faq__item">
+              <summary class="ta-faq__q"><span class="ta-faq__mark" aria-hidden="true">Q</span><span class="ta-faq__q-txt">使い切れなかったコールはどうなりますか？</span><span class="ta-faq__icon" aria-hidden="true"></span></summary>
+              <div class="ta-faq__a">
+                <p class="ta-faq__a-row"><span class="ta-faq__mark ta-faq__mark--a" aria-hidden="true">A</span><span>翌月に繰り越せます。</span></p>
+                <p class="ta-faq__a-sub"><span>例：当月12,000コール使用</span> <span>→ 10,000コール繰り越し</span> <span>→ 翌月最大32,000コール</span></p>
+              </div>
+            </details>
+            <details class="ta-faq__item">
+              <summary class="ta-faq__q"><span class="ta-faq__mark" aria-hidden="true">Q</span><span class="ta-faq__q-txt">他社のAI営業サービスと何が違いますか？</span><span class="ta-faq__icon" aria-hidden="true"></span></summary>
+              <div class="ta-faq__a">
+                <p class="ta-faq__a-row"><span class="ta-faq__mark ta-faq__mark--a" aria-hidden="true">A</span><span>他社の多くは、担当者につなぐまでがAIで、その後は人が営業します。TELEMOは営業トーク・アウト返し・デスクロ・クロージングまでAIが行い、必要に応じて人へトスアップします。</span></p>
+                <p class="ta-faq__a-sub">1コールあたり 約15.9円（他社相場 約20円）</p>
+              </div>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ TELEMO川柳 4 ============ -->
+      <aside class="ta-root ta-senryu ta-senryu--l ta-senryu--4" aria-label="TELEMO川柳">
+        <div class="ta-senryu__hang">
+          <span class="ta-senryu__thread" aria-hidden="true"></span>
+          <figure class="ta-senryu__card">
+            <figcaption class="ta-senryu__label">TELEMO川柳</figcaption>
+            <p class="ta-senryu__text"><span>人がやる　</span><span>仕事をもっと　</span><span>選ぼうよ</span></p>
+          </figure>
+          <img class="ta-senryu__robot" src="ta-robot.svg" alt="" width="120" height="106" />
+        </div>
+      </aside>
+
+      <!-- ============ お問い合わせ（既存フォームの属性・hidden・name/type/required・#formStatus はそのまま。見た目だけ外枠カードとピル型ボタンに） ============ -->
+      <section class="ta-root ta-contact" id="contact" aria-labelledby="ta-contact-title">
+        <h2 class="ta-contact__title" id="ta-contact-title">お問い合わせ</h2>
+        <div class="contact ta-contact__card">
+          <p class="contact__lead">
+            事業・採用・TELEMO導入のご相談など、お気軽にお問い合わせください。
+          </p>
+          <form class="contact__form" id="contactForm" action="https://api.web3forms.com/submit" method="POST" novalidate>
+            <input type="hidden" name="access_key" value="31d3749e-b24f-4268-aee5-bcdd79a86b36" />
+            <input type="hidden" name="subject" value="【GIGUUU】お問い合わせがありました" />
+            <input type="hidden" name="from_name" value="GIGUUU お問い合わせフォーム" />
+            <input type="checkbox" name="botcheck" style="display: none" tabindex="-1" autocomplete="off" />
+            <div class="field">
+              <label>お名前</label>
+              <input type="text" name="name" placeholder="山田 太郎" required />
+            </div>
+            <div class="field">
+              <label>会社名</label>
+              <input type="text" name="company" placeholder="株式会社○○" />
+            </div>
+            <div class="field">
+              <label>メールアドレス</label>
+              <input type="email" name="email" placeholder="you@example.com" required />
+            </div>
+            <div class="field">
+              <label>電話番号</label>
+              <input type="tel" name="tel" placeholder="03-1234-5678" />
+            </div>
+            <div class="field field--full">
+              <label>お問い合わせ内容</label>
+              <textarea name="message" rows="4" placeholder="ご相談内容をご記入ください" required></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--lg">
+              <span>送信する</span><i class="btn__arrow">→</i>
+            </button>
+            <p class="contact__status" id="formStatus" role="status"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- ============ フッター（参照LP 要素8：PAGE TOP タブにロボットが覗く。会社情報は旧 #company の記載をそのまま移設） ============ -->
+    <footer class="ta-root ta-footer" id="company">
+      <div class="ta-footer__tab">
+        <a class="ta-footer__pagetop" href="#hero"><span class="ta-footer__pagetop-arrow" aria-hidden="true"></span>PAGE TOP</a>
+        <img class="ta-footer__robot" src="ta-robot.svg" alt="" width="120" height="106" />
+      </div>
+      <div class="ta-footer__body">
+        <div class="ta-footer__inner">
+          <div class="ta-footer__brand">
+            <img class="ta-footer__logo" src="giguuu-logo.png" alt="GIGUUU株式会社" width="842" height="595" />
+          </div>
+          <div class="ta-footer__info">
+            <h2 class="ta-footer__title">会社情報</h2>
+            <dl class="ta-footer__table">
+              <div><dt>会社名</dt><dd>GIGUUU株式会社</dd></div>
+              <div><dt>設立</dt><dd>2021年12月</dd></div>
+              <div><dt>代表者</dt><dd>青木 一平</dd></div>
+              <div><dt>所在地</dt><dd>東京都豊島区東池袋1-34-5</dd></div>
+              <div><dt>連絡先</dt><dd><a href="tel:0343661687">03-4366-1687</a></dd></div>
+              <div><dt>事業内容</dt><dd>プラットフォーム事業<br />代理店事業</dd></div>
+            </dl>
+          </div>
+        </div>
+        <!-- TODO: 先方確認 プライバシーポリシー／利用規約／情報セキュリティ方針／特定商取引法に基づく表記 の実URL -->
+        <!-- TODO: 先方確認 SNS（X / Facebook / Instagram）の実URL（旧ページはリンク先未設定のため非表示） -->
+        <p class="ta-footer__copy"><small>© 2026 GIGUUU Inc. All rights reserved.</small></p>
+      </div>
+    </footer>
+
+    <script src="./site.js" defer></script>
+    <script src="./telemo-aji.js" defer></script>
+  </body>
+</html>

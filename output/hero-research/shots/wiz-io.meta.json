@@ -1,0 +1,107 @@
+{
+ "slug": "wiz-io",
+ "url": "https://www.wiz.io/",
+ "capturedAt": "2026-10-12 21:22:34",
+ "files": {
+  "pc_f0": "wiz-io-pc-f0.jpg",
+  "pc_f1": "wiz-io-pc-f1.jpg",
+  "pc_f2": "wiz-io-pc-f2.jpg",
+  "pc_scroll": "wiz-io-pc-scroll.jpg",
+  "sp": "wiz-io-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.wiz.io/",
+  "title": "Wiz: AI Cybersecurity for All Your Cloud and AI Applications",
+  "lang": "en-us",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 10944,
+  "h1": "Protect Everything You Build and Run",
+  "h1Style": {
+   "fontFamily": "fontHeadings, \"fontHeadings Fallback\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Seg",
+   "fontSize": "52px",
+   "fontWeight": "600",
+   "lineHeight": "66px",
+   "letterSpacing": "normal",
+   "color": "rgb(57, 63, 73)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 65,
+    "y": 164,
+    "w": 580,
+    "h": 132
+   }
+  },
+  "lead": "Wiz connects code, cloud, and runtime into a single security graph that provides the end-to-end context required to automate risk reduction and threat response, enabling security teams to operate at AI speed. AI alone doesn't make security faster. Context does.",
+  "ctas": [
+   "Submit",
+   "Get a demo",
+   "Continue"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [],
+  "backgroundImages": [
+   {
+    "bg": "url(\"https://cdn.cookielaw.org/logos/static/ot_close.svg\")",
+    "w": 44,
+    "h": 44
+   }
+  ],
+  "firstScreenFonts": [
+   "fontHeadings",
+   "fontSans"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "Protect Everything You Build and Run",
+  "h1Style": {
+   "fontFamily": "fontHeadings, \"fontHeadings Fallback\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Seg",
+   "fontSize": "32px",
+   "fontWeight": "600",
+   "lineHeight": "38px",
+   "letterSpacing": "normal",
+   "color": "rgb(57, 63, 73)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 32,
+    "y": 97,
+    "w": 326,
+    "h": 76
+   }
+  },
+  "lead": "Wiz connects code, cloud, and runtime into a single security graph that provides the end-to-end context required to automate risk reduction and threat response, enabling security teams to operate at AI speed. AI alone doesn't make security faster. Context does.",
+  "ctas": [
+   "Submit",
+   "Get a demo",
+   "Continue"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [],
+  "pageHeight": 12190
+ },
+ "elapsedSec": 11.8
+}

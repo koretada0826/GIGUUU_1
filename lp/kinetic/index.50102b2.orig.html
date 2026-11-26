@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GIGUUU株式会社 ｜ 現場を知り尽くした、コールセンター経営者がつくったAI</title>
+    <meta
+      name="description"
+      content="GIGUUU株式会社 公式サイト。現場を知る、AIの会社。営業ノウハウをAIで再現するSaaS営業支援『TELEMO』を提供。営業の現場を知るAIで、商談づくりを支援する。"
+    />
+
+    <!-- フォント：ディスプレイ(Orbitron/Space Grotesk) + 日本語(Noto Sans JP) -->
+    
+    
+    <link
+      href="./reference/fonts.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="./reference/giguuu-logo.png" />
+    <link rel="stylesheet" href="./boundary.css" />
+    <link rel="stylesheet" href="./concept-08.css" />
+    <link rel="stylesheet" href="./mi-header.css?v=20261012a" />
+    <link rel="stylesheet" href="./index-refine.css?v=20261012d" />
+    <link rel="stylesheet" href="./founder.css?v=20261012f" />
+    <link rel="stylesheet" href="./telemo-continuation.css?v=20261012b" />
+    <link rel="stylesheet" href="./telemo-support.css?v=20261012a" />
+    <link rel="stylesheet" href="./telemo-use-cases.css?v=20261012a" />
+    <link rel="stylesheet" href="./telemo-comparison.css?v=20261012a" />
+    <link rel="stylesheet" href="./telemo-reference.css?v=20261012g" />
+
+    <link rel="stylesheet" href="./telemo-diff-matrix.css?v=20261012a" />
+
+
+    <link rel="stylesheet" href="./telemo-core-images.css?v=20261012a" />
+
+
+    <link rel="stylesheet" href="./assets/hero/editorial/fonts.css" />
+    <link rel="stylesheet" href="./hero-editorial.css?v=20261012g" />
+    <link rel="stylesheet" href="./hero-blue-concept.css?v=20261012a" />
+
+    <script>
+      (() => {
+        const navigation = performance.getEntriesByType("navigation")[0];
+        if (navigation?.type !== "reload") return;
+
+        history.scrollRestoration = "manual";
+        if (location.hash) {
+          history.replaceState(history.state, "", location.pathname + location.search);
+        }
+
+        const scrollToTop = () => {
+          const root = document.documentElement;
+          const behavior = root.style.scrollBehavior;
+          root.style.scrollBehavior = "auto";
+          window.scrollTo(0, 0);
+          root.style.scrollBehavior = behavior;
+        };
+
+        document.addEventListener("DOMContentLoaded", scrollToTop, { once: true });
+        window.addEventListener("pageshow", scrollToTop, { once: true });
+      })();
+    </script>
+  </head>
+
+  <body class="page-home concept-08">
+    <!-- 3D 背景キャンバスは main.js が body 先頭に自動挿入 -->
+
+    <!-- スクリーン全体に乗せる近未来オーバーレイ（グリッド/走査線/ノイズ） -->
+    <div class="fx-overlay" aria-hidden="true">
+      <div class="fx-grid"></div>
+      <div class="fx-scanline"></div>
+      <div class="fx-noise"></div>
+    </div>
+
+    <!-- マウス追従のグロー -->
+    <div class="cursor-glow" aria-hidden="true"></div>
+
+    <!-- 読み込みローダー -->
+    <div class="loader" id="loader">
+      <div class="loader__ring"></div>
+      <div class="loader__text">GIGUUU<span>_</span>SYSTEM BOOT</div>
+    </div>
+
+    <!-- 右側スクロールインジケータ -->
+    <div class="scroll-rail" aria-hidden="true">
+      <span class="scroll-rail__bar" id="scrollBar"></span>
+    </div>
+
+    <!-- ============ ヘッダー ============ -->
+    <header class="nav ggh" id="nav">
+      <div class="ggh__inner">
+        <a class="nav__logo ggh__logo" href="#hero" aria-label="TELEMO トップ"><span>TELEMO</span></a>
+        <nav class="nav__links ggh__navigation" id="navLinks" aria-label="メインナビゲーション">
+          <div class="ggh__main">
+            <div class="ggh__primary">
+              <a class="is-active" href="#founder">私たちについて</a>
+              <a href="#telemo-how">サービス</a>
+              <a href="#telemo-cases">活用シーン</a>
+              <a href="#news">ニュース</a>
+              <a href="#recruit">採用情報</a>
+              <a class="ggh__mobile-contact" href="#contact">お問い合わせ</a>
+            </div>
+          </div>
+        </nav>
+        <a class="ggh__contact" href="#contact"><span>お問い合わせ</span><i aria-hidden="true">→</i></a>
+        <button class="nav__burger ggh__burger" id="burger" type="button" aria-label="メニューを開く" aria-expanded="false" aria-controls="navLinks">
+          <span></span><span></span><span></span>
+        </button>
+        <div class="ggh__panel" id="gghPanel" hidden>
+          <a href="#founder">私たちについて</a>
+          <a href="#telemo-how">サービス</a>
+          <a href="#telemo-cases">活用シーン</a>
+          <a href="#news">ニュース</a>
+          <a href="#recruit">採用情報</a>
+          <a class="ggh__panel-contact" href="#contact">お問い合わせ</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- ============ HERO / EDITORIAL STORYTELLING ============ -->
+      <section class="hero editorial-hero blue-concept-hero" id="hero" aria-labelledby="hero-title">
+        <div class="editorial-hero__copy">
+          <h1 class="editorial-hero__title editorial-hero__title--telemo" id="hero-title"><span>現場を知り尽くした、</span><span>コールセンター経営者が</span><span>つくったAI</span></h1>
+          <p class="editorial-hero__lead">現場で培った営業ノウハウを、<br />AIで再現。</p>
+          <p class="editorial-hero__description">トップ営業の話し方、間の取り方、切り返しのタイミング。<br />属人化していた“勝ちパターン”を、誰もが使える仕組みに変える。</p>
+          <a class="editorial-hero__cta" href="#founder"><span>私たちの想い</span><span aria-hidden="true">→</span></a>
+        </div>
+        <div class="editorial-hero__collage" aria-label="青い立体的な形とコーラル色の電話">
+          <div class="editorial-hero__photo-stack">
+            <figure class="editorial-hero__office-photo"><img src="./assets/hero/editorial/blue-phone-hero-v1.jpg" width="1672" height="941" alt="青い立体的な形に囲まれたコーラル色の電話の受話器" fetchpriority="high" decoding="async" /></figure>
+          </div>
+        </div>
+        <button class="editorial-hero__pause" type="button" aria-pressed="false" hidden>背景を一時停止</button>
+        <nav class="editorial-hero__side" aria-label="ページのストーリー">
+          <div class="editorial-hero__numbers">
+            <a href="#hero" aria-label="01 トップ" aria-current="location">01</a>
+            <a href="#founder" aria-label="02 私たちについて">02</a>
+            <a href="#telemo-how" aria-label="03 TELEMOの仕組み">03</a>
+            <a href="#contact" aria-label="04 お問い合わせ">04</a>
+          </div>
+          <a href="#founder" class="editorial-hero__scroll"><span>SCROLL</span><i aria-hidden="true"></i></a>
+        </nav>
+      </section>
+
+      <section class="reference-logo-band" aria-labelledby="reference-logo-title">
+        <div class="reference-logo-band__inner">
+          <div class="reference-logo-band__copy">
+            <h2 id="reference-logo-title">導入企業</h2>
+            <p class="reference-logo-band__note">※表示サンプルです。TELEMOの導入企業ではありません。</p>
+          </div>
+          <div class="reference-logo-band__logos">
+            <p class="reference-logo-band__empty">ロゴ掲載準備中</p>
+            <div class="reference-logo-band__track">
+              <div class="reference-logo-band__group">
+                <img src="./assets/client-logo-samples/amazon.svg" alt="Amazon" />
+                <img src="./assets/client-logo-samples/google.svg" alt="Google" />
+                <img src="./assets/client-logo-samples/toyota.svg" alt="Toyota" />
+                <img src="./assets/client-logo-samples/slack.svg" alt="Slack" />
+                <img src="./assets/client-logo-samples/nikkei.svg" alt="Nikkei" />
+                <img src="./assets/client-logo-samples/smarthr.svg" alt="SmartHR" />
+                <img src="./assets/client-logo-samples/dena.svg" alt="DeNA" />
+                <img src="./assets/client-logo-samples/sansan.svg" alt="Sansan" />
+                <img src="./assets/client-logo-samples/ana.svg" alt="ANA" />
+                <img src="./assets/client-logo-samples/morisawa.svg" alt="Morisawa" />
+                <img src="./assets/client-logo-samples/openai.svg" alt="OpenAI" />
+                <img src="./assets/client-logo-samples/kurashi-no-market.svg" alt="くらしのマーケット" />
+                <img src="./assets/client-logo-samples/tential.svg" alt="TENTIAL" />
+                <img src="./assets/client-logo-samples/shopify.svg" alt="Shopify" />
+                <img src="./assets/client-logo-samples/chatwork.svg" alt="Chatwork" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <script>
+        (() => {
+          const logos = document.querySelector(".reference-logo-band__logos");
+          const group = logos.querySelector(".reference-logo-band__group");
+          if (!group.querySelector("img")) return;
+          const duplicate = group.cloneNode(true);
+          duplicate.setAttribute("aria-hidden", "true");
+          duplicate.querySelectorAll("img").forEach(img => { img.alt = ""; });
+          group.after(duplicate);
+          logos.classList.add("has-logos");
+        })();
+      </script>
+
+      <!-- ============ FOUNDER ============ -->
+      <section class="sec founder" id="founder" aria-labelledby="founder-title">
+        <div class="founder__top reveal">
+          <p class="founder__logo">
+            <span class="founder__logo-main">TELEMO</span>
+            <span class="founder__logo-sub">AI SALES AUTOMATION</span>
+          </p>
+          <p class="founder__tagline">SALES<br />AUTOMATION<br />FOR A BETTER TOMORROW</p>
+        </div>
+
+        <div class="founder__grid">
+          <div class="founder__person reveal">
+            <figure class="founder__photo">
+              <img src="./assets/founder/founder-portrait-ai.png" width="1191" height="1320" alt="青木 一平の写真" loading="lazy" decoding="async" />
+            </figure>
+            <div class="founder__meta">
+              <div class="founder__name">
+                <p class="founder__role">株式会社Everエフォート 代表</p>
+                <p class="founder__name-ja">青木 一平</p>
+                <p class="founder__name-en">IPPEI AOKI</p>
+              </div>
+              <p class="founder__hand">営業の<br />可能性を、<br />もっと先へ。</p>
+            </div>
+          </div>
+
+          <div class="founder__body reveal">
+            <h2 class="founder__title" id="founder-title"><span class="founder__title-em">TELEMO</span>をつくったひと。</h2>
+            <p class="founder__lead">私は、ずっと営業をやってきました。</p>
+            <p class="founder__text">
+              25歳で光通信に入社し、個人営業・責任者・統轄部長として、数多くの営業現場を経験。独立後も、今なお自社でコールセンターを運営し、法人営業の最前線に立っています。
+            </p>
+
+            <div class="founder__record-head">
+              <p class="founder__badge">主な営業実績（単月）</p>
+              <p class="founder__record-note">電話で売る営業を、現場でやり続けてきました。</p>
+            </div>
+            <ul class="founder__cards">
+              <li class="founder__card">
+                <div class="founder__card-head">
+                  <svg class="founder__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5.5c3-1 6-1 9 1v13c-3-2-6-2-9-1z M21 5.5c-3-1-6-1-9 1v13c3-2 6-2 9-1z" /></svg>
+                  <p>電子電話帳営業<br />フレッツ光</p>
+                </div>
+                <p class="founder__num">1,500<small>件</small></p>
+              </li>
+              <li class="founder__card">
+                <div class="founder__card-head">
+                  <svg class="founder__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 9l4-3 4 1.5 3-1.5 3 1 2-1 4 3 M2 9l3 5 M22 9l-3 5 M5 14l3 3c.8.8 2 .8 2.6 0 M8 13l3.5 3.5c.8.8 2 .8 2.6 0 M10 11l4.5 4.5c.8.8 2 .8 2.6 0L19 14 M13 6l-4 3.5c-.8.7-.6 1.8.6 2 1 .2 2-.3 3-1l2-1.5" /></svg>
+                  <p>アライアンス営業<br />フレッツ光</p>
+                </div>
+                <p class="founder__num">2,000<small>件</small></p>
+              </li>
+              <li class="founder__card">
+                <div class="founder__card-head">
+                  <svg class="founder__icon founder__icon--fill" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" /><path class="founder__icon-cut" d="M10 8l6 4-6 4z" /></svg>
+                  <p>CRM営業<br />U-NEXT</p>
+                </div>
+                <p class="founder__num">1,500<small>件</small></p>
+              </li>
+              <li class="founder__card">
+                <div class="founder__card-head">
+                  <svg class="founder__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M2.5 9a14 14 0 0 1 19 0 M5.5 12.5a9.5 9.5 0 0 1 13 0 M8.5 16a5 5 0 0 1 7 0" /><circle cx="12" cy="19.2" r="1.3" fill="currentColor" stroke="none" /></svg>
+                  <p>CRM営業<br />WiMAX</p>
+                </div>
+                <p class="founder__num">2,000<small>件</small></p>
+              </li>
+            </ul>
+
+            <div class="founder__now">
+              <svg class="founder__now-icon" viewBox="0 0 32 24" aria-hidden="true"><circle cx="16" cy="6" r="4" /><circle cx="6.5" cy="8" r="3" /><circle cx="25.5" cy="8" r="3" /><path d="M9 22c0-4.5 3-7.5 7-7.5s7 3 7 7.5z M1 21c0-3.5 2.2-6 5.5-6 1.3 0 2.4.4 3.3 1-1.4 1.5-2.2 3.4-2.4 5z M31 21c0-3.5-2.2-6-5.5-6-1.3 0-2.4.4-3.3 1 1.4 1.5 2.2 3.4 2.4 5z" /></svg>
+              <p>現在も、自社でコールセンターを運営し、<br />法人営業を現場で行っています。</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="founder__origin reveal">
+          <h3>現場で培った営業ノウハウを、AIで再現。</h3>
+          <p>トップ営業の話し方、間の取り方、切り返しのタイミング。<br class="brpc" />一部の天才の頭の中にしかなかった“勝ちパターン”を、AIで解析し再現する。<br class="brpc" />属人化を仕組みに変えるために、私たちはTELEMOを生み出しました。</p>
+        </div>
+
+        <div class="founder__band reveal">
+          <div class="founder__band-main">
+            <p class="founder__band-pre">「AIを知っている人」が営業AIをつくったのではない。</p>
+            <p class="founder__band-copy"><span class="founder__band-em">「営業を知っている人」</span>が、<br />AIを使って<span class="founder__band-em">営業を仕組み</span>にした。</p>
+          </div>
+          <p class="founder__band-note">これまでの営業の経験と、<br />現場での実践をもとに、<br />TELEMOは生まれました。</p>
+          <p class="founder__band-en">HUMAN<br />SALES<br />KNOWS<br />THE ANSWER.</p>
+        </div>
+      </section>
+
+      <!-- ============ TELEMO / HOW IT WORKS ============ -->
+      <section class="sec telemo-how" id="telemo-how" aria-labelledby="telemo-how-title">
+        <div class="sec__head reveal">
+          <span class="sec__no">01</span>
+          <h2 class="sec__title" id="telemo-how-title">HOW IT WORKS</h2>
+          <span class="sec__line"></span>
+        </div>
+        <div class="telemo-how__intro reveal">
+          <p class="telemo-story__eyebrow">AI SALES AUTOMATION</p>
+          <h3>営業の入口から、<span>「売れるところ」</span>までを<span>仕組み</span>にする。</h3>
+          <p>TELEMOは、ただ電話をかけるだけではありません。担当者との会話から、営業・アウト返し・テスクロ・クロージングまでを一気通貫で行います。</p>
+        </div>
+        <ol class="telemo-how__grid">
+          <li class="reveal"><span class="telemo-how__number">01</span><h4>営業リスト</h4><span class="telemo-how__icon" aria-hidden="true"><svg viewBox="0 0 64 64"><path d="M16 6h25l9 9v43H16z M41 6v10h9 M23 26h20 M23 35h20 M23 44h14" /></svg></span><p>貴社のリストをTELEMOに登録します。</p></li>
+          <li class="reveal"><span class="telemo-how__number">02</span><h4>自動架電</h4><span class="telemo-how__icon" aria-hidden="true"><svg viewBox="0 0 64 64"><path d="M16 9l10 7-5 9c4 8 10 14 18 18l9-5 7 10-6 7C29 56 8 35 9 15z M38 12c8 1 13 6 14 14 M38 21c4 1 6 3 7 7" /></svg></span><p>AIが大量に自動で架電します。</p></li>
+          <li class="reveal"><span class="telemo-how__number">03</span><h4>担当者と会話</h4><span class="telemo-how__icon" aria-hidden="true"><svg viewBox="0 0 64 64"><path d="M7 12h39a6 6 0 0 1 6 6v20a6 6 0 0 1-6 6H25L12 54V44H7a6 6 0 0 1-6-6V18a6 6 0 0 1 6-6z M13 24h26 M13 32h17 M28 44v5a6 6 0 0 0 6 6h12l9 6v-6h2a6 6 0 0 0 6-6V31a6 6 0 0 0-6-6h-5" /></svg></span><p>受付を突破し担当者につながります。</p></li>
+          <li class="reveal"><span class="telemo-how__number">04</span><h4>商品説明・<br />ヒアリング</h4><span class="telemo-how__icon" aria-hidden="true"><svg viewBox="0 0 64 64"><path d="M13 6h34v44H13z M21 17h18 M21 25h18 M21 33h12 M21 41h9 M43 43a10 10 0 1 0 0 20 10 10 0 0 0 0-20z M51 59l10 5" /></svg></span><p>用意したトークで商品説明・ヒアリングを行います。</p></li>
+          <li class="reveal"><span class="telemo-how__number">05</span><h4>アウト返し</h4><span class="telemo-how__icon" aria-hidden="true"><svg viewBox="0 0 64 64"><path d="M52 21a23 23 0 0 0-39 4 M12 15v11h11 M12 43a23 23 0 0 0 39-4 M52 49V38H41" /></svg></span><p>断られた場合も適切に切り返し、再アプローチします。</p></li>
+          <li class="reveal"><span class="telemo-how__number">06</span><h4>テスクロ・<br />クロージング</h4><span class="telemo-how__icon" aria-hidden="true"><svg viewBox="0 0 64 64"><path d="M3 22l13-10 12 7 8-4 11 4 12-7 3 23-13 7-9-4-8 10-10-7-9 3-10-8z M19 20l12 11 8-8 M31 31l12 11 M24 35l10 10 M47 19l-8 4" /></svg></span><p>興味・意向を確認し、設計次第でクロージングまで行います。</p></li>
+          <li class="reveal"><span class="telemo-how__number">07</span><h4>受注／見込み化<br />／人へトス</h4><span class="telemo-how__icon" aria-hidden="true"><svg viewBox="0 0 64 64"><path d="M9 53h10V36H9z M27 53h10V27H27z M45 53h10V17H45z M8 27l15-9 10 6L55 8 M44 8h11v11" /></svg></span><p>受注・見込み化し、必要に応じて人の営業担当へ引き継ぎます。</p></li>
+        </ol>
+      </section>
+
+      <!-- ============ TELEMO / USE CASES ============ -->
+      <section class="sec telemo-cases" id="telemo-cases" aria-labelledby="telemo-cases-title">
+        <div class="telemo-cases__intro reveal">
+          <h2 id="telemo-cases-title">こんな<span>営業</span>を<span>している会社</span>に。</h2>
+          <p>TELEMOは、業種や規模を問わず、さまざまな営業シーンでご活用いただけます。</p>
+        </div>
+        <div class="telemo-cases__grid">
+          <article class="telemo-cases__card reveal"><div class="telemo-cases__card-head"><span>01</span><h3>新規法人営業</h3></div><img src="./assets/telemo-use-cases/01-new-business.webp" width="1942" height="809" alt="青空の下に建つ高層オフィスビル" loading="lazy" decoding="async" /><p>これまでアプローチできなかった企業へ、効率的にリーチできます。</p></article>
+          <article class="telemo-cases__card reveal"><div class="telemo-cases__card-head"><span>02</span><h3>大量リストへのアプローチ</h3></div><img src="./assets/telemo-use-cases/02-large-list.webp" width="1942" height="809" alt="営業資料が積まれたデスク" loading="lazy" decoding="async" /><p>数万件規模のリストにも、安定した品質で架電が可能です。</p></article>
+          <article class="telemo-cases__card reveal"><div class="telemo-cases__card-head"><span>03</span><h3>テレアポ</h3></div><img src="./assets/telemo-use-cases/03-tele-appointment.webp" width="1942" height="809" alt="ヘッドセットを着けて応対するオペレーター" loading="lazy" decoding="async" /><p>受付突破から担当者接続、温度確認、トスまで対応します。</p></article>
+          <article class="telemo-cases__card reveal"><div class="telemo-cases__card-head"><span>04</span><h3>営業代行を利用している</h3></div><img src="./assets/telemo-use-cases/04-inhouse-sales.webp" width="1942" height="809" alt="商談の席で握手する二人" loading="lazy" decoding="async" /><p>外部に頼らず、自社でコントロールできる営業基盤を構築できます。</p></article>
+          <article class="telemo-cases__card reveal"><div class="telemo-cases__card-head"><span>05</span><h3>休眠顧客の掘り起こし</h3></div><img src="./assets/telemo-use-cases/05-dormant-customers.webp" width="1942" height="809" alt="保管された顧客ファイルを取り出す手" loading="lazy" decoding="async" /><p>過去の顧客リストへ再アプローチし、眠っているニーズを発掘します。</p></article>
+          <article class="telemo-cases__card reveal"><div class="telemo-cases__card-head"><span>06</span><h3>見込み顧客への再アプローチ</h3></div><img src="./assets/telemo-use-cases/06-prospect-followup.webp" width="1942" height="809" alt="スマートフォンで連絡を確認する営業担当者" loading="lazy" decoding="async" /><p>一度接点のあった見込み顧客へ、適切なタイミングで再架電できます。</p></article>
+          <article class="telemo-cases__card reveal"><div class="telemo-cases__card-head"><span>07</span><h3>営業人員の採用・教育に悩んでいる</h3></div><img src="./assets/telemo-use-cases/07-sales-training.webp" width="1942" height="809" alt="ノートとパソコンを置いた明るいオフィスのデスク" loading="lazy" decoding="async" /><p>採用コストや教育コストを抑え、即戦力の営業活動を実現できます。</p></article>
+          <article class="telemo-cases__card reveal"><div class="telemo-cases__card-head"><span>08</span><h3>トップ営業のやり方を組織に残したい</h3></div><img src="./assets/telemo-use-cases/08-sales-knowhow.webp" width="1942" height="809" alt="窓越しに都市を見つめるビジネスパーソン" loading="lazy" decoding="async" /><p>トップ営業のトークやノウハウを仕組み化し、組織全体で再現できます。</p></article>
+        </div>
+      </section>
+
+      <!-- ============ TELEMO / SALES OPPORTUNITY COMPARISON ============ -->
+      <section class="sec telemo-compare" id="telemo-compare" aria-labelledby="telemo-compare-title">
+        <div class="telemo-compare__intro reveal">
+          <h2 id="telemo-compare-title">人1人分のコストで、<em>約<strong>5</strong>倍</em>の営業機会。</h2>
+          <p>同じコストでも、かけられる電話の数が圧倒的に違います。さらに、TELEMOは成果改善の仕組みを持っています。</p>
+        </div>
+        <div class="telemo-compare__grid reveal">
+          <article class="telemo-compare__card telemo-compare__card--human" aria-label="人による営業">
+            <header class="telemo-compare__card-header">
+              <svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="11" r="7" fill="currentColor" /><path d="M5 36c1-10 6-16 15-16s14 6 15 16z" fill="currentColor" /></svg>
+              <h3>人による営業</h3><span>営業担当１人</span>
+            </header>
+            <div class="telemo-compare__card-body">
+              <img class="telemo-compare__person" src="./assets/telemo-comparison/human-sales.webp" width="1536" height="1024" alt="電話で営業する担当者" loading="lazy" decoding="async" />
+              <div class="telemo-compare__metrics">
+                <p class="telemo-compare__basis">１人あたり</p>
+                <p class="telemo-compare__cost">約 <strong>40</strong>万円／月</p>
+                <div class="telemo-compare__calls"><span>月間コール数</span><strong>4,400<small>コール</small></strong></div>
+              </div>
+            </div>
+            <div class="telemo-compare__features">
+              <p><span aria-hidden="true">◷</span>１時間<br /><strong>約25コール</strong></p>
+              <p><span aria-hidden="true">▦</span>１日（8時間）<br /><strong>約200コール</strong></p>
+              <p><span aria-hidden="true">▥</span>月間（<em class="nobr">22日稼働</em>）<br /><strong>約4,400コール</strong></p>
+            </div>
+          </article>
+
+          <div class="telemo-compare__arrow"><span>約<strong>5</strong>倍<small>の営業機会</small></span></div>
+
+          <article class="telemo-compare__card telemo-compare__card--ai" aria-label="TELEMOによる営業">
+            <header class="telemo-compare__card-header">
+              <svg viewBox="0 0 40 40" aria-hidden="true"><rect x="5" y="8" width="30" height="25" rx="10" fill="none" stroke="currentColor" stroke-width="3" /><path d="M12 20q3-4 6 0m4 0q3-4 6 0" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" /><path d="M20 4v4m-2-4h4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" /></svg>
+              <h3>TELEMO</h3><span>１ID あたり</span>
+            </header>
+            <div class="telemo-compare__card-body">
+              <img class="telemo-compare__robot" src="./assets/telemo-comparison/telemo-robot.webp" width="1145" height="1374" alt="笑顔のTELEMOロボット" loading="lazy" decoding="async" />
+              <div class="telemo-compare__metrics">
+                <p class="telemo-compare__basis">１ID あたり</p>
+                <p class="telemo-compare__cost"><strong>35</strong>万円／月</p>
+                <div class="telemo-compare__calls"><span>月間コール数</span><strong>22,000<small>コール</small></strong></div>
+              </div>
+            </div>
+            <div class="telemo-compare__features">
+              <p><span aria-hidden="true">☎</span>24時間<br /><strong>自動架電</strong></p>
+              <p><span aria-hidden="true">▤</span>圧倒的な<br /><strong>コール数</strong></p>
+              <p><span aria-hidden="true">∞</span>データをもとに<br /><strong>改善し<span class="nobr">続けられる</span></strong></p>
+            </div>
+          </article>
+        </div>
+        <p class="telemo-compare__note">※人による営業の費用・コール数は、営業担当者１人・<span class="nobr">１日８時間</span>・月22日稼働を想定した比較例です。</p>
+      </section>
+
+      <!-- ============ TELEMO / 量だけではない4つの仕組み（提案資料 p.6） ============ -->
+      <section class="sec telemo-core" id="telemo-core" aria-labelledby="telemo-core-title">
+        <div class="ref-head reveal">
+          <h2 id="telemo-core-title">「<span>量</span>」だけでは、営業は<span>強くならない。</span></h2>
+          <p>TELEMOは、電話の量だけでなく、営業設計・データ分析・改善の仕組みまで備えています。</p>
+        </div>
+        <div class="telemo-core__grid reveal">
+          <article class="telemo-core__card">
+            <h3><span>01</span>生声</h3>
+            <img class="telemo-core__image" src="./assets/telemo-core/generated/01-natural-voice-v1.jpg" width="960" height="640" alt="自然な営業音声を収録するスタジオマイクとポップフィルター" loading="lazy" decoding="async" />
+            <p class="telemo-core__text">実際の営業マンの声を使用。営業に必要なトーン・間・抑揚まで設計しています。</p>
+            <p class="telemo-core__point"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M6 16v8 M12 10v20 M18 6v28 M24 12v16 M30 9v22 M36 15v10" /></svg><span>人に近い、<br />自然な会話を実現。</span></p>
+          </article>
+          <article class="telemo-core__card">
+            <h3><span>02</span>トークツリー</h3>
+            <img class="telemo-core__image" src="./assets/telemo-core/generated/02-talk-tree-v1.jpg" width="960" height="640" alt="挨拶から質問・回答・切り返しへ分岐する営業トークツリー" loading="lazy" decoding="async" />
+            <p class="telemo-core__text">営業現場から逆算して、質問・回答・アウト返し・分岐を設計。商材ごとに最適なトークを構築します。</p>
+            <p class="telemo-core__point"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M5 7h24a3 3 0 0 1 3 3v13a3 3 0 0 1-3 3H15l-7 6v-6H5a3 3 0 0 1-3-3V10a3 3 0 0 1 3-3z M9 14h16 M9 19h11" /></svg><span>現場で成果が出る<br />トーク設計。</span></p>
+          </article>
+          <article class="telemo-core__card">
+            <h3><span>03</span>データ分析・改善</h3>
+            <img class="telemo-core__image" src="./assets/telemo-core/generated/03-analysis-v1.jpg" width="960" height="640" alt="架電結果を確認する分析画面のイメージ" loading="lazy" decoding="async" />
+            <p class="telemo-core__text">どこまで進んだのか。どこで断られたのか。何が成果につながったのか。結果を分析し、次の改善につなげます。</p>
+            <p class="telemo-core__point"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M4 35h32" /><rect x="7" y="22" width="6" height="13" /><rect x="17" y="14" width="6" height="21" /><rect x="27" y="6" width="6" height="29" /></svg><span>データで、<br />営業はもっと強くなる。</span></p>
+          </article>
+          <article class="telemo-core__card">
+            <h3><span>04</span>RW<small>（Runaway）</small></h3>
+            <img class="telemo-core__image" src="./assets/telemo-core/generated/04-human-support-v1.jpg" width="960" height="640" alt="想定外の会話を人がフォローするコールセンター担当者" loading="lazy" decoding="async" />
+            <p class="telemo-core__text">想定していない質問や、AIだけでは判断できない会話が発生した場合は、人がフォローできる仕組みです。</p>
+            <p class="telemo-core__point"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M7 23v-3a13 13 0 0 1 26 0v3" /><rect x="4" y="21" width="7" height="11" rx="2.5" /><rect x="29" y="21" width="7" height="11" rx="2.5" /><path d="M32.5 32v1a5 5 0 0 1-5 5H23" /></svg><span>AIだけで完結しない。<br />人の力も活かす。</span></p>
+          </article>
+        </div>
+        <div class="ref-band reveal">
+          <p class="ref-band__pre">量 × 営業設計 × データ × 改善</p>
+          <p class="ref-band__copy">これが、<em>TELEMO</em>です。</p>
+        </div>
+      </section>
+
+      <!-- ============ TELEMO / SUPPORT ============ -->
+      <section class="sec telemo-support" id="telemo-support" aria-labelledby="telemo-support-title">
+        <div class="telemo-support__intro reveal">
+          <p class="telemo-support__eyebrow">AI SALES AUTOMATION</p>
+          <h2 class="telemo-support__title" id="telemo-support-title">導入して<span>終わりではない</span>。</h2>
+          <p class="telemo-support__lead">TELEMOは、納品して終わるシステムではありません。<br />実際に運用し、結果を分析し、改善を繰り返すことで、成果を最大化していきます。</p>
+        </div>
+
+        <div class="telemo-support__cycle reveal">
+          <ol class="telemo-support__steps">
+            <li class="telemo-support__step">
+              <span class="telemo-support__no">01</span>
+              <h3 class="telemo-support__step-title">架電</h3>
+              <div class="telemo-support__visual" aria-hidden="true">
+                <svg viewBox="0 0 200 132"><rect width="200" height="132" rx="8" fill="#e2f1f7" /><circle cx="80" cy="66" r="56" fill="#d2e8f1" /><path d="M44 132c3-22 17-34 36-34s33 12 36 34z" fill="#f4f8fa" stroke="#c9dbe4" stroke-width="1.5" /><rect x="38" y="22" width="84" height="74" rx="36" fill="#fbfdfe" stroke="#c9dbe4" stroke-width="1.5" /><rect x="47" y="38" width="66" height="44" rx="22" fill="#0b1a2a" /><path d="M63 63q6-9 12 0M85 63q6-9 12 0" fill="none" stroke="#36d7ea" stroke-width="4" stroke-linecap="round" /><path d="M32 60a48 48 0 0 1 96 0" fill="none" stroke="#1b2a39" stroke-width="5" stroke-linecap="round" /><rect x="26" y="50" width="16" height="28" rx="7" fill="#1b2a39" /><rect x="118" y="50" width="16" height="28" rx="7" fill="#1b2a39" /><rect x="29" y="55" width="4" height="18" rx="2" fill="#36d7ea" /><rect x="127" y="55" width="4" height="18" rx="2" fill="#36d7ea" /><path d="M34 78c0 12 8 18 22 18" fill="none" stroke="#1b2a39" stroke-width="3" stroke-linecap="round" /><circle cx="58" cy="96" r="4" fill="#1b2a39" /><g transform="translate(146 42)"><path d="M9 4h7l3 9-5 4c2 5 5 8 10 10l4-5 9 3v7c0 2-2 4-4 4C18 36 4 22 4 8c0-2 2-4 5-4z" fill="#0c3a56" /><path d="M24 4a12 12 0 0 1 12 12M24 10a6 6 0 0 1 6 6" fill="none" stroke="#0c3a56" stroke-width="3" stroke-linecap="round" /></g></svg>
+              </div>
+              <p class="telemo-support__step-text">TELEMOが<br />自動で大量に架電</p>
+            </li>
+            <li class="telemo-support__step">
+              <span class="telemo-support__no">02</span>
+              <h3 class="telemo-support__step-title">結果分析</h3>
+              <div class="telemo-support__visual" aria-hidden="true">
+                <svg viewBox="0 0 200 132"><rect width="200" height="132" rx="8" fill="#e8f0f5" /><rect x="36" y="12" width="128" height="88" rx="5" fill="#26313c" /><rect x="41" y="17" width="118" height="78" rx="2" fill="#fff" /><rect x="47" y="23" width="26" height="4" rx="2" fill="#9fb2bf" /><path d="M47 34h12M47 40h9M47 46h11" stroke="#d3dde4" stroke-width="2" stroke-linecap="round" /><path d="M62 86h58" stroke="#c6d3dc" stroke-width="1.5" /><g fill="#3a8fe0"><rect x="66" y="74" width="5" height="12" /><rect x="73" y="68" width="5" height="18" /><rect x="80" y="71" width="5" height="15" /><rect x="87" y="62" width="5" height="24" /><rect x="94" y="56" width="5" height="30" /><rect x="101" y="50" width="5" height="36" /></g><rect x="108" y="40" width="5" height="46" fill="#1565b8" /><circle cx="140" cy="42" r="12" fill="none" stroke="#d6e6f2" stroke-width="7" /><circle cx="140" cy="42" r="12" fill="none" stroke="#1c8fdc" stroke-width="7" stroke-dasharray="52 24" transform="rotate(-90 140 42)" /><path d="M128 66h24M128 73h18M128 80h22" stroke="#d3dde4" stroke-width="2.5" stroke-linecap="round" /><path d="M20 100h160l-12 18H32z" fill="#cdd6dd" /><path d="M40 103h120l-6 9H46z" fill="#56626d" /><rect x="88" y="114" width="24" height="2.5" rx="1.2" fill="#a9b5be" /></svg>
+              </div>
+              <p class="telemo-support__step-text">架電結果を<br />リアルタイムで分析</p>
+            </li>
+            <li class="telemo-support__step">
+              <span class="telemo-support__no">03</span>
+              <h3 class="telemo-support__step-title">実際の音声を確認</h3>
+              <div class="telemo-support__visual" aria-hidden="true">
+                <svg viewBox="0 0 200 132"><rect width="200" height="132" rx="8" fill="#17212c" /><circle cx="44" cy="66" r="20" fill="#c5ced6" /><circle cx="44" cy="60" r="7" fill="#8796a3" /><path d="M30 80c2-8 8-12 14-12s12 4 14 12a20 20 0 0 1-28 0z" fill="#8796a3" /><rect x="72" y="44" width="112" height="44" rx="6" fill="#263646" /><circle cx="90" cy="66" r="11" fill="#3a4f63" /><path d="M86 59l12 7-12 7z" fill="#fff" /><path d="M108 63V69M111 61V71M114 58V74M117 54V78M120 59V73M123 51V81M126 56V76M129 48V84M132 53V79M135 57V75M138 50V82M141 46V86M144 52V80M147 55V77M150 49V83M153 58V74M156 53V79M159 60V72M162 56V76M165 61V71M168 59V73M171 62V70M174 63V69" fill="none" stroke="#39d0e6" stroke-width="2" stroke-linecap="round" /></svg>
+              </div>
+              <p class="telemo-support__step-text">実際の通話音声を<br />聞いて、現状を把握</p>
+            </li>
+            <li class="telemo-support__step">
+              <span class="telemo-support__no">04</span>
+              <h3 class="telemo-support__step-title">課題発見</h3>
+              <div class="telemo-support__visual" aria-hidden="true">
+                <svg viewBox="0 0 200 132"><rect width="200" height="132" rx="8" fill="#e9eef2" /><rect x="12" y="8" width="164" height="118" rx="2" fill="#fff" stroke="#dbe3e9" /><path d="M22 41h146M22 67h146M22 93h146" stroke="#e3e9ee" /><g fill="none" stroke="#33475a" stroke-width="1.6"><rect x="22" y="21" width="13" height="13" rx="1.5" /><rect x="22" y="47" width="13" height="13" rx="1.5" /><rect x="22" y="73" width="13" height="13" rx="1.5" /><rect x="22" y="99" width="13" height="13" rx="1.5" /></g><path d="M24 27l4 4 8-10M24 53l4 4 8-10M24 79l4 4 8-10M24 105l4 4 8-10" fill="none" stroke="#0c3a56" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" /><g font-size="12" font-weight="700" fill="#2a3846"><text x="42" y="33">トークのどこで離脱？</text><text x="42" y="59">よくある質問は？</text><text x="42" y="85">訴求の刺さり方は？</text><text x="42" y="111">リストの質は？</text></g><path d="M196 3L183 40" stroke="#1d2a36" stroke-width="7" stroke-linecap="round" /><path d="M182 43l-2 6" stroke="#8a96a0" stroke-width="2.4" stroke-linecap="round" /></svg>
+              </div>
+              <p class="telemo-support__step-text">データと音声から<br />課題を特定</p>
+            </li>
+            <li class="telemo-support__step">
+              <span class="telemo-support__no">05</span>
+              <h3 class="telemo-support__step-title">トーク・分岐を改善</h3>
+              <div class="telemo-support__visual" aria-hidden="true">
+                <svg viewBox="0 0 200 132"><rect width="200" height="132" rx="8" fill="#e5edf2" /><path d="M100 38v12M40 50h120M40 50v10M100 50v10M160 50v10M40 82v10M28 92h24M28 92v8M52 92v8M160 82v10M148 92h24M148 92v8M172 92v8" fill="none" stroke="#5b7787" stroke-width="1.6" /><rect x="70" y="14" width="60" height="24" rx="3" fill="#0e5b74" /><rect x="16" y="60" width="48" height="22" rx="3" fill="#2a8aa3" /><rect x="76" y="60" width="48" height="22" rx="3" fill="#9db2bf" /><rect x="136" y="60" width="48" height="22" rx="3" fill="#6d9fb2" /><rect x="18" y="100" width="20" height="14" rx="2" fill="#7fb4c6" /><rect x="42" y="100" width="20" height="14" rx="2" fill="#b5c6d0" /><rect x="138" y="100" width="20" height="14" rx="2" fill="#b5c6d0" /><rect x="162" y="100" width="20" height="14" rx="2" fill="#7fb4c6" /></svg>
+              </div>
+              <p class="telemo-support__step-text">トークツリー・<br />文言・分岐を最適化</p>
+            </li>
+            <li class="telemo-support__step">
+              <span class="telemo-support__no">06</span>
+              <h3 class="telemo-support__step-title">再度架電</h3>
+              <div class="telemo-support__visual" aria-hidden="true">
+                <svg viewBox="0 0 200 132"><rect width="200" height="132" rx="8" fill="#e2f1f7" /><circle cx="80" cy="66" r="56" fill="#d2e8f1" /><path d="M44 132c3-22 17-34 36-34s33 12 36 34z" fill="#f4f8fa" stroke="#c9dbe4" stroke-width="1.5" /><rect x="38" y="22" width="84" height="74" rx="36" fill="#fbfdfe" stroke="#c9dbe4" stroke-width="1.5" /><rect x="47" y="38" width="66" height="44" rx="22" fill="#0b1a2a" /><path d="M63 63q6-9 12 0M85 63q6-9 12 0" fill="none" stroke="#36d7ea" stroke-width="4" stroke-linecap="round" /><path d="M32 60a48 48 0 0 1 96 0" fill="none" stroke="#1b2a39" stroke-width="5" stroke-linecap="round" /><rect x="26" y="50" width="16" height="28" rx="7" fill="#1b2a39" /><rect x="118" y="50" width="16" height="28" rx="7" fill="#1b2a39" /><rect x="29" y="55" width="4" height="18" rx="2" fill="#36d7ea" /><rect x="127" y="55" width="4" height="18" rx="2" fill="#36d7ea" /><path d="M34 78c0 12 8 18 22 18" fill="none" stroke="#1b2a39" stroke-width="3" stroke-linecap="round" /><circle cx="58" cy="96" r="4" fill="#1b2a39" /><g transform="translate(146 42)"><path d="M9 4h7l3 9-5 4c2 5 5 8 10 10l4-5 9 3v7c0 2-2 4-4 4C18 36 4 22 4 8c0-2 2-4 5-4z" fill="#0c3a56" /><path d="M24 4a12 12 0 0 1 12 12M24 10a6 6 0 0 1 6 6" fill="none" stroke="#0c3a56" stroke-width="3" stroke-linecap="round" /></g></svg>
+              </div>
+              <p class="telemo-support__step-text">改善した内容で<br />再度架電し、<span class="nobr">成果を伸ばす</span></p>
+            </li>
+          </ol>
+          <p class="telemo-support__loop"><span>このサイクルを繰り返し、成果を最大化します。</span></p>
+        </div>
+
+        <div class="telemo-support__band reveal">
+          <figure class="telemo-support__photo">
+            <img src="./assets/telemo-pricing/headset.png" width="1774" height="887" alt="オフィスのデスクに置かれたヘッドセット" loading="lazy" decoding="async" />
+          </figure>
+          <div class="telemo-support__message">
+            <p class="telemo-support__pre">営業会社だから、</p>
+            <p class="telemo-support__copy"><em>「数字を見る」</em>だけでは<em>終わらない。</em><br /><em>「なぜ売れないのか」</em>まで、<br />一緒に考える。</p>
+            <p class="telemo-support__body">TELEMOは、システムの提供だけでなく、<br />営業のプロとしての知見をもとに、<br />成果が出るまで伴走します。</p>
+          </div>
+          <div class="telemo-support__support">
+            <p class="telemo-support__label">伴走サポートの一例</p>
+            <ul class="telemo-support__items">
+              <li><svg class="telemo-support__icon" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="12" r="5" /><circle cx="9" cy="15" r="3.5" /><circle cx="31" cy="15" r="3.5" /><path d="M11 33c0-6 4-10 9-10s9 4 9 10z M3 31c0-5 2.5-8 6-8 1.6 0 2.9.5 4 1.4 M37 31c0-5-2.5-8-6-8-1.6 0-2.9.5-4 1.4" /></svg><span>定期的な結果レポート・改善提案</span></li>
+              <li><svg class="telemo-support__icon" viewBox="0 0 40 40" aria-hidden="true"><path d="M5 7h21a3 3 0 0 1 3 3v10a3 3 0 0 1-3 3H14l-6 5v-5H5a3 3 0 0 1-3-3V10a3 3 0 0 1 3-3z M9 13h13 M9 18h9 M29 14h6a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3h-2v5l-6-5h-8a3 3 0 0 1-3-3v-3" /></svg><span>トークツリーの見直し・最適化</span></li>
+              <li><svg class="telemo-support__icon" viewBox="0 0 40 40" aria-hidden="true"><path d="M4 35h32" /><rect x="7" y="22" width="6" height="13" /><rect x="17" y="14" width="6" height="21" /><rect x="27" y="6" width="6" height="29" /></svg><span>通話音声をもとにした課題分析</span></li>
+              <li><svg class="telemo-support__icon" viewBox="0 0 40 40" aria-hidden="true"><path d="M7 23v-3a13 13 0 0 1 26 0v3" /><rect x="4" y="21" width="7" height="11" rx="2.5" /><rect x="29" y="21" width="7" height="11" rx="2.5" /><path d="M32.5 32v1a5 5 0 0 1-5 5H23" /><rect x="18" y="35" width="5" height="4" rx="2" /></svg><span>営業コンサルタントによる運用サポート</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="telemo-support__footer reveal">
+          <p class="telemo-support__closing"><span>使い続けるほど、<em>成果は大きくなる。</em></span></p>
+          <p class="telemo-support__brand"><span class="telemo-support__brand-main">TELEMO</span> <span class="telemo-support__brand-sub">AI SALES AUTOMATION</span></p>
+          <p class="telemo-support__tagline">HUMAN SALES × AI<br />FOR A BETTER TOMORROW</p>
+        </div>
+      </section>
+
+      <!-- ============ TELEMO / PLAN ============ -->
+      <section class="sec telemo-plan" id="telemo-plan" aria-labelledby="telemo-plan-title">
+        <div class="sec__head reveal">
+          <span class="sec__no">02</span>
+          <h2 class="sec__title" id="telemo-plan-title">PRICING</h2>
+          <span class="sec__line"></span>
+        </div>
+        <div class="telemo-plan__intro reveal">
+          <p class="telemo-story__eyebrow">TELEMO　AI SALES AUTOMATION</p>
+          <h3>料金は<span>シンプル。</span></h3>
+          <p>TELEMOは、わかりやすい料金体系で、営業設計・分析・改善・伴走まで含まれています。</p>
+        </div>
+        <div class="telemo-plan__pricing reveal">
+          <div class="telemo-plan__price-card"><h4>初期費用 <small>（税別）</small></h4><strong>200,000<small>円</small></strong><p>トーク設計・シナリオ構築<br />初期設定・環境構築</p><span class="telemo-plan__card-symbol" aria-hidden="true">⚙</span></div>
+          <div class="telemo-plan__price-card"><h4>月額費用 <small>（税別）</small></h4><strong>350,000<small>円</small></strong><p>月間 <b>22,000</b> コール</p><div class="telemo-plan__unit">1コールあたり<strong>約 15.9<small>円</small></strong></div></div>
+          <div class="telemo-plan__included"><h4>月額費用に含まれるもの</h4><ul><li>AIによる自動架電（<span class="nobr">22,000コール</span>／月）</li><li>トークツリー設計・改善</li><li>通話データの分析・レポート</li><li>実際の音声確認・課題抽出</li><li>営業コンサルタントによる伴走サポート</li><li>システム利用料・通信費（<span class="nobr">6万円分込み</span>）</li></ul></div>
+        </div>
+        <div class="telemo-plan__benefits reveal">
+          <div><span aria-hidden="true">◎</span><h4>追加費用なし</h4><p>月額費用以外のランニングコストは不要です。</p></div>
+          <div><span aria-hidden="true">▥</span><h4>たくさん使える</h4><p>月間22,000コール。未消化分は翌月繰越可能です。</p></div>
+          <div><span aria-hidden="true">♟</span><h4>プロの支援付き</h4><p>営業のプロが改善まで伴走します。</p></div>
+          <div><span aria-hidden="true">↗</span><h4>成果につながる</h4><p>データと改善の繰り返しで成果を最大化します。</p></div>
+        </div>
+        <p class="telemo-plan__effective reveal">※月間22,000コールは、2026年10月利用分より適用されます。</p>
+        <div class="telemo-plan__banner reveal"><div><p>シンプルな料金で、</p><strong>営業の未来を大きく変える。</strong></div><span>営業を、<br />次のステージへ。</span></div>
+        <div class="telemo-plan__process reveal" role="group" aria-labelledby="telemo-process-title">
+          <div class="telemo-plan__process-heading">
+            <h4 id="telemo-process-title">ご契約から<span>納品・ご請求</span>までの流れ</h4>
+            <p>専任担当が、導入から運用開始までしっかりサポートします。</p>
+          </div>
+          <ol class="telemo-plan__steps">
+            <li class="telemo-plan__step">
+              <span class="telemo-plan__step-number">STEP 01</span>
+              <div class="telemo-plan__step-body">
+                <h5>6ヶ月の利用意思決定</h5>
+                <p>ご契約の意思確認をいただきます。</p>
+              </div>
+            </li>
+            <li class="telemo-plan__step">
+              <span class="telemo-plan__step-number">STEP 02</span>
+              <div class="telemo-plan__step-body">
+                <h5>第1回トークツリーMTG</h5>
+                <p>運用方針・訴求内容・トーク設計をすり合わせ。</p>
+                <div class="telemo-plan__step-price"><span>初期費用（税別）</span><strong>200,000<small>円</small></strong></div>
+              </div>
+            </li>
+            <li class="telemo-plan__step">
+              <span class="telemo-plan__step-number">STEP 03</span>
+              <div class="telemo-plan__step-body">
+                <h5>トークツリー制作</h5>
+                <p>ヒアリング内容をもとに最適なトークツリーを制作します。</p>
+              </div>
+            </li>
+            <li class="telemo-plan__step">
+              <span class="telemo-plan__step-number">STEP 04</span>
+              <div class="telemo-plan__step-body">
+                <h5>約10営業日</h5>
+                <p>通常、約10営業日で納品いたします。</p>
+              </div>
+            </li>
+            <li class="telemo-plan__step">
+              <span class="telemo-plan__step-number">STEP 05</span>
+              <div class="telemo-plan__step-body">
+                <h5>納品・運用開始</h5>
+                <p>最終確認後、運用を開始します。</p>
+                <div class="telemo-plan__step-price"><span>月額費用（税別）</span><strong>350,000<small>円</small></strong></div>
+              </div>
+            </li>
+            <li class="telemo-plan__step">
+              <span class="telemo-plan__step-number">STEP 06</span>
+              <div class="telemo-plan__step-body">
+                <h5>ご請求</h5>
+                <p>毎月のご利用分をご請求いたします。</p>
+                <p class="telemo-plan__step-footnote">※お支払いは請求書に基づきます。</p>
+              </div>
+            </li>
+          </ol>
+          <div class="telemo-plan__carryover">
+            <div class="telemo-plan__carryover-intro">
+              <h5>未消化コールは翌月へ繰り越し</h5>
+              <p>当月に使用されなかったコール数は、翌月に自動で繰り越されます。</p>
+            </div>
+            <div class="telemo-plan__carryover-example">
+              <p><span>例</span> 当月12,000コール使用の場合</p>
+              <div class="telemo-plan__carryover-math">
+                <div><small>当月使用</small><strong>12,000<em>コール</em></strong></div>
+                <b aria-hidden="true">＋</b>
+                <div><small>翌月繰り越し</small><strong>10,000<em>コール</em></strong></div>
+                <b aria-hidden="true">→</b>
+                <div class="telemo-plan__carryover-result"><small>翌月 最大</small><strong>32,000<em>コール</em></strong><span>ご利用可能</span></div>
+              </div>
+            </div>
+          </div>
+          <ul class="telemo-plan__process-notes">
+            <li>契約期間は6ヶ月です。6ヶ月経過後は6ヶ月ごとに自動更新となります。</li>
+            <li>月間コール数は22,000コールです。未消化分は翌月へ繰り越し可能です（翌月最大<span class="nobr">32,000コール</span>）。</li>
+            <li>お支払いは、当社指定の請求書に基づき、期日までにお振込みください。振込手数料は貴社にてご負担をお願いいたします。</li>
+          </ul>
+        </div>
+        <div class="telemo-plan__actions reveal">
+          <a class="btn btn--primary btn--lg" href="#contact"><span>TELEMOについて相談する</span><i class="btn__arrow">→</i></a>
+          <a class="telemo-plan__detail" href="#telemo-cases">活用シーンを見る →</a>
+        </div>
+      </section>
+
+      <!-- ============ NEWS ============ -->
+      <section class="sec" id="news">
+        <div class="sec__head reveal">
+          <span class="sec__no">03</span>
+          <h2 class="sec__title">NEWS</h2>
+          <span class="sec__line"></span>
+        </div>
+        <div class="news reveal">
+          <a class="news__item" href="#company">
+            <span class="news__date">2021.12</span>
+            <span class="news__cat">INFO</span>
+            <span class="news__title">GIGUUU株式会社を設立しました。</span>
+            <i class="news__arrow">→</i>
+          </a>
+          <a class="news__item" href="#telemo-how">
+            <span class="news__date">TOPIC</span>
+            <span class="news__cat">SERVICE</span>
+            <span class="news__title">SaaS営業支援「TELEMO」を提供しています。</span>
+            <i class="news__arrow">→</i>
+          </a>
+          <a class="news__item" href="#recruit">
+            <span class="news__date">TOPIC</span>
+            <span class="news__cat">RECRUIT</span>
+            <span class="news__title">挑戦する仲間を募集しています。</span>
+            <i class="news__arrow">→</i>
+          </a>
+        </div>
+      </section>
+
+      <!-- ============ RECRUIT ============ -->
+      <section class="sec" id="recruit">
+        <div class="sec__head reveal">
+          <span class="sec__no">04</span>
+          <h2 class="sec__title">RECRUIT</h2>
+          <span class="sec__line"></span>
+        </div>
+        <div class="recruit reveal">
+          <div class="recruit__body">
+            <h3>挑戦する仲間を、<span class="grad">募集しています。</span></h3>
+            <p>
+              「営業は才能ではなく、仕組み」だと信じ、AIで人の可能性を広げる。
+              前例のない挑戦を一緒に楽しめる仲間を探しています。職種・経験は問いません。
+              まずは“話を聞きにくる”感覚で、気軽にご連絡ください。
+            </p>
+            <div class="tags">
+              <span class="tag">#エンジニア</span>
+              <span class="tag">#セールス</span>
+              <span class="tag">#AIプランナー</span>
+              <span class="tag">#コーポレート</span>
+            </div>
+            <a class="btn btn--primary" href="#contact">
+              <span>カジュアルに話を聞く</span><i class="btn__arrow">→</i>
+            </a>
+          </div>
+          <div class="recruit__side">
+            <div class="recruit__chip">挑戦を止めない</div>
+            <div class="recruit__chip">常識を疑う</div>
+            <div class="recruit__chip">技術を価値に変える</div>
+            <div class="recruit__chip">人を主役にする</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ 会社情報 ============ -->
+      <section class="sec" id="company">
+        <div class="sec__head reveal">
+          <span class="sec__no">05</span>
+          <h2 class="sec__title">COMPANY</h2>
+          <span class="sec__line"></span>
+        </div>
+        <div class="panel reveal">
+          <table class="info">
+            <tbody>
+              <tr><th>会社名</th><td>GIGUUU株式会社</td></tr>
+              <tr><th>設立</th><td>2021年12月</td></tr>
+              <tr><th>代表者</th><td>青木 一平</td></tr>
+              <tr><th>所在地</th><td>東京都豊島区東池袋1-34-5</td></tr>
+              <tr><th>連絡先</th><td><a href="tel:0343661687">03-4366-1687</a></td></tr>
+              <tr>
+                <th>事業内容</th>
+                <td>プラットフォーム事業<br />代理店事業</td>
+              </tr>
+              <tr>
+                <th>代表サービス</th>
+                <td>SaaS営業支援「<a href="#telemo-how">TELEMO</a>」</td>
+              </tr>
+              <tr>
+                <th>お問い合わせ</th>
+                <td><a href="#contact">お問い合わせフォームへ →</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- ============ 各種ポリシー ============ -->
+      <section class="sec" id="policy">
+        <div class="sec__head reveal">
+          <span class="sec__no">06</span>
+          <h2 class="sec__title">POLICY</h2>
+          <span class="sec__line"></span>
+        </div>
+        <div class="policy reveal">
+          <a class="policy__item" href="#">プライバシーポリシー<i>→</i></a>
+          <a class="policy__item" href="#">利用規約<i>→</i></a>
+          <a class="policy__item" href="#">情報セキュリティ方針<i>→</i></a>
+          <a class="policy__item" href="#">特定商取引法に基づく表記<i>→</i></a>
+        </div>
+      </section>
+
+      <!-- ============ お問い合わせ ============ -->
+      <section class="sec sec--center" id="contact">
+        <div class="sec__head reveal">
+          <span class="sec__no">07</span>
+          <h2 class="sec__title">CONTACT</h2>
+          <span class="sec__line"></span>
+        </div>
+        <div class="contact reveal">
+          <p class="contact__lead">
+            事業・採用・TELEMO導入のご相談など、お気軽にお問い合わせください。
+          </p>
+          <form class="contact__form" id="contactForm" action="https://api.web3forms.com/submit" method="POST" novalidate>
+            <input type="hidden" name="access_key" value="31d3749e-b24f-4268-aee5-bcdd79a86b36" />
+            <input type="hidden" name="subject" value="【GIGUUU】お問い合わせがありました" />
+            <input type="hidden" name="from_name" value="GIGUUU お問い合わせフォーム" />
+            <input type="checkbox" name="botcheck" style="display: none" tabindex="-1" autocomplete="off" />
+            <div class="field">
+              <label for="contact-name">お名前</label>
+              <input type="text" id="contact-name" name="name" placeholder="山田 太郎" required />
+            </div>
+            <div class="field">
+              <label for="contact-company">会社名</label>
+              <input type="text" id="contact-company" name="company" placeholder="株式会社○○" />
+            </div>
+            <div class="field">
+              <label for="contact-email">メールアドレス</label>
+              <input type="email" id="contact-email" name="email" placeholder="you@example.com" required />
+            </div>
+            <div class="field">
+              <label for="contact-tel">電話番号</label>
+              <input type="tel" id="contact-tel" name="tel" placeholder="03-1234-5678" />
+            </div>
+            <div class="field field--full">
+              <label for="contact-message">お問い合わせ内容</label>
+              <textarea id="contact-message" name="message" rows="4" placeholder="ご相談内容をご記入ください" required></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--lg">
+              <span>送信する</span><i class="btn__arrow">→</i>
+            </button>
+            <p class="contact__status" id="formStatus" role="status"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- ============ フッター ============ -->
+    <footer class="footer">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <img width="52" height="40" class="brand-logo" src="./reference/giguuu-logo.png" alt="GIGUUU株式会社 ロゴ" />
+          <span>GIGUUU<span class="footer__sub">株式会社</span></span>
+          <p class="footer__tag">現場を知り尽くした、コールセンター経営者がつくったAI</p>
+        </div>
+        <nav class="footer__nav">
+          <a href="#founder">GIGUUUとは</a>
+          <a href="#company">会社情報</a>
+          <a href="#telemo-how">TELEMO</a>
+          <a href="#news">お知らせ</a>
+          <a href="#recruit">採用情報</a>
+          <a href="#policy">各種ポリシー</a>
+          <a href="#contact">お問い合わせ</a>
+        </nav>
+        <div class="footer__social">
+          <a href="#" aria-label="Twitter / X" class="soc">X</a>
+          <a href="#" aria-label="Facebook" class="soc">f</a>
+          <a href="#" aria-label="Instagram" class="soc">◎</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© 2026 GIGUUU Inc. All rights reserved.</span>
+      </div>
+    </footer>
+
+    <script src="./reference/vendor/gsap/gsap.min.js" defer></script>
+    <script src="./hero-editorial.js?v=20261012h" defer></script>
+    <script src="./boundary-ui.js?v=20261006i" defer></script>
+  </body>
+</html>

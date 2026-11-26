@@ -1,0 +1,11 @@
+{
+ "slug": "sami-marketing",
+ "url": "https://sami.marketing/en",
+ "capturedAt": "2026-10-12 21:25:04",
+ "files": {},
+ "errors": [
+  "pc: TimeoutError: Page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://sami.marketing/en\", waiting until \"domcontentloaded\"\n",
+  "sp: TimeoutError: Page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://sami.marketing/en\", waiting until \"domcontentloaded\"\n"
+ ],
+ "elapsedSec": 70.2
+}

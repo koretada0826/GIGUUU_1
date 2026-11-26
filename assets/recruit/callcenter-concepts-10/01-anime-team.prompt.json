@@ -1,0 +1,25 @@
+{
+  "concept_id": 1,
+  "title": "明るいチーム・アニメ",
+  "prompt": "Use case: ads-marketing.\nAsset type: exactly one wide recruitment hero illustration/image for a Japanese call-center recruitment website; aspect ratio about 2.39:1 (1938:811 reference). No lower webpage navigation or buttons, no contact sheet, no multiple variants inside one image.\nReference image: approved call-center illustration, used as subject/context reference. Change the composition and visual style substantially according to this concept; don't just recolor the reference.\nConcept: 明るいチーム・アニメ.\nArt direction: Faithful friendly Japanese anime art like the reference, four young headset-wearing call-center colleagues with expressive smiles, a welcoming standing team leader and seated operators. Left 42% large cobalt brush headline; right 58% bright office team. Sky-blue windows and city. Headsets, CRM monitors, paper scripts and a desk phone.\nColor palette: white, cobalt blue, navy, pale sky blue or pale teal. Background edges clean and bright enough for a white website; preserve natural skin colors for photographs. No red, orange or neon accents.\nEvery human operator must wear a professional communications headset ON THE HEAD with a correctly attached boom microphone near the mouth. Show recognizable telephone/customer-contact work with CRM screens whose interface text is unreadable, desk phone or call-script sheets. No programming/code editor, no music headphones around neck, no unrelated meeting-only scene.\nExact text, readable and carefully spelled: small upper-left \"CALL CENTER RECRUIT\"; headline in two lines \"あなたの声が、\" / \"チームの力になる。\"; small supporting line \"電話の向こうに、価値を届ける。\".\nIf the concept naturally uses role speech bubbles, their ONLY exact labels are \"電話対応\", \"営業\", \"サポート\", \"チーム\". Do NOT use \"エンジニア\", \"AIプランナー\", \"コーポレート\", \"採用情報\", the previous AI-future slogan, or invented unreadable Japanese. For photorealistic/editorial concepts, omit bubbles if they would distract; the heading, small English label and subcopy must still appear.\nComposition: large clearly legible blue/navy Japanese headline in the LEFT 38%-45%; human scene or themed illustration on RIGHT 55%-62%, never cover faces with text. Do not crop the text or faces. Distinct professional concept, one clean finished image. No price, salary, hiring-condition promises, metrics, certifications, generic lorem ipsum, company logos, watermark, frame, CTA button, or navigation. Anatomically coherent hands and headsets. Output one opaque landscape image.",
+  "tool": "image_gen__imagegen (built-in)",
+  "actual_model": null,
+  "references": [
+    "/Users/matsugirintarou/Desktop/rintaro/giguuu改善/assets/recruit/recruit-callcenter-illustrated-v1.png"
+  ],
+  "generated_source_path": "/Users/matsugirintarou/.codex/generated_images/01a134a4-6ce1-7290-8919-30c49dd047ea/exec-50c35bfe-a33b-4352-b529-38b8b668f857.png",
+  "saved_path": "/Users/matsugirintarou/Desktop/rintaro/giguuu改善/assets/recruit/callcenter-concepts-10/01-anime-team.png",
+  "dimensions": {
+    "width": 1938,
+    "height": 811
+  },
+  "attempt": 1,
+  "visual_self_check": {
+    "headline": "Complete and readable; matches exact two lines",
+    "subcopy": "Complete and readable",
+    "headsets": "Four foreground operators and background operators wear boom-mic headsets",
+    "theme": "CRM screens, call-script sheets, desk telephone; clearly call center",
+    "style": "Friendly detailed anime",
+    "issues": "Small extra readable handwritten phrase upper right: 声で、つながる。どこまでもいっしょに。"
+  }
+}

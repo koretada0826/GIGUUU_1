@@ -1,0 +1,6 @@
+{
+  "tool": "built-in image_gen",
+  "use_case": "photorealistic-natural",
+  "reference": "/Users/matsugirintarou/Downloads/Unknown-2.png",
+  "prompt": "Use case: photorealistic-natural. Asset type: standalone editorial corporate website photograph, wide 16:10. Input image: reference screenshot, ONLY the photograph in its upper-right collage cell is the visual reference; do not reproduce the webpage. Primary request: authentic Japanese call center documentary photo. Japanese employees in dark business clothing wearing wired professional headsets seated in a row at ordinary workstations, candid side-angle medium-wide composition. Near worker at right edge is naturally cropped in close profile; three coworkers in middle distance in profile, working and speaking naturally while looking at their monitors. Natural office daylight, beige, gray and charcoal palette, soft shallow focus, ordinary office monitors and desks. Real human skin and hair texture, understated corporate documentary camera aesthetic. No text, UI, logos, watermarks, borders, neon, artificial glow, surreal effect, extra fingers or malformed anatomy. Full bleed photograph only."
+}

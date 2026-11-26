@@ -1,0 +1,117 @@
+{
+ "slug": "www-jal-com-ja",
+ "url": "https://www.jal.com/ja/",
+ "capturedAt": "2026-10-12 21:08:54",
+ "files": {
+  "pc_f0": "www-jal-com-ja-pc-f0.jpg",
+  "pc_f1": "www-jal-com-ja-pc-f1.jpg",
+  "pc_f2": "www-jal-com-ja-pc-f2.jpg",
+  "pc_scroll": "www-jal-com-ja-pc-scroll.jpg",
+  "sp": "www-jal-com-ja-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.jal.com/ja-jp/",
+  "title": "JAL企業サイト",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 7195,
+  "h1": "",
+  "h1Style": {
+   "fontFamily": "\"Noto Sans JP\", メイリオ, sans-serif",
+   "fontSize": "16px",
+   "fontWeight": "400",
+   "lineHeight": "16px",
+   "letterSpacing": "0.32px",
+   "color": "rgb(0, 0, 0)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 0,
+    "y": 114,
+    "w": 1425,
+    "h": 657
+   }
+  },
+  "lead": "SCROLL",
+  "ctas": [
+   "ホーム",
+   "JALについて",
+   "安全・安心",
+   "サステナビリティ",
+   "IR情報",
+   "JALとつながる",
+   "ソリューション・サービス",
+   "ソリューション・サービス",
+   "プレスリリース",
+   "採用情報"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.jal.com/sites/ja/img_sites/top_img_kv.png",
+    "w": 1425,
+    "h": 656,
+    "alt": "JAL Soaring Together"
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Noto Sans JP"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": true,
+   "lottie": false
+  },
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "",
+  "h1Style": {
+   "fontFamily": "\"Noto Sans JP\", メイリオ, sans-serif",
+   "fontSize": "16px",
+   "fontWeight": "400",
+   "lineHeight": "16px",
+   "letterSpacing": "0.32px",
+   "color": "rgb(0, 0, 0)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 0,
+    "y": 51,
+    "w": 390,
+    "h": 489
+   }
+  },
+  "lead": "SCROLL",
+  "ctas": [],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.jal.com/sites/ja/img_sites/top_img_kv_sp.png",
+    "w": 390,
+    "h": 488,
+    "alt": "JAL Soaring Together"
+   }
+  ],
+  "pageHeight": 10490
+ },
+ "elapsedSec": 13.9
+}

@@ -1,0 +1,180 @@
+{
+ "slug": "wantedlyinc-com",
+ "url": "https://wantedlyinc.com/",
+ "capturedAt": "2026-10-12 21:08:12",
+ "files": {
+  "pc_f0": "wantedlyinc-com-pc-f0.jpg",
+  "pc_f1": "wantedlyinc-com-pc-f1.jpg",
+  "pc_f2": "wantedlyinc-com-pc-f2.jpg",
+  "pc_scroll": "wantedlyinc-com-pc-scroll.jpg",
+  "sp": "wantedlyinc-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://wantedlyinc.com/",
+  "title": "ウォンテッドリー株式会社（Wantedly, Inc.）",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 7221,
+  "h1": "究極の適材適所によりシゴトでココロオドルひとをふやす。",
+  "h1Style": {
+   "fontFamily": "TazuganeGothicStdN-Medium, system-ui, -apple-system, \"Hiragino Kaku Gothic ProN\", \"Noto Sans JP\", sans-serif",
+   "fontSize": "16px",
+   "fontWeight": "500",
+   "lineHeight": "16px",
+   "letterSpacing": "normal",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 32,
+    "y": 488,
+    "w": 847,
+    "h": 378
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "Our Mission",
+   "Scroll",
+   "Our Mission 私たちのミッション",
+   "Company 企業情報",
+   "Products プロダクト",
+   "News ニュース",
+   "Investors 株主・投資家向け情報",
+   "Sustainability サステナビリティ",
+   "Careers 採用情報",
+   "Contact お問い合わせ",
+   "採用情報 Careers"
+  ],
+  "videos": [
+   {
+    "src": "https://wantedlyinc.com/assets/top/footer.mp4",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 320,
+    "h": 400,
+    "playing": true
+   }
+  ],
+  "canvases": [
+   {
+    "w": 1440,
+    "h": 900
+   },
+   {
+    "w": 1047,
+    "h": 378
+   },
+   {
+    "w": 1440,
+    "h": 900
+   },
+   {
+    "w": 1440,
+    "h": 900
+   }
+  ],
+  "images": [
+   {
+    "src": "https://wantedlyinc.com/_image/?href=%2F_astro%2Fphoto-1.D-3826LF.png&w=120&h=120&f=webp",
+    "w": 50,
+    "h": 50,
+    "alt": ""
+   },
+   {
+    "src": "https://wantedlyinc.com/_image/?href=%2F_astro%2Fphoto-2.BKasq5gG.png&w=120&h=120&f=webp",
+    "w": 50,
+    "h": 50,
+    "alt": ""
+   },
+   {
+    "src": "https://wantedlyinc.com/_image/?href=%2F_astro%2Fphoto-3.CG-JPCit.png&w=120&h=120&f=webp",
+    "w": 50,
+    "h": 50,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "TazuganeGothicStdN-Medium",
+   "itc-avant-garde-gothic-pro"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": true,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(245, 245, 245)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "究極の適材適所によりシゴトでココロオドルひとをふやす。",
+  "h1Style": {
+   "fontFamily": "TazuganeGothicStdN-Medium, system-ui, -apple-system, \"Hiragino Kaku Gothic ProN\", \"Noto Sans JP\", sans-serif",
+   "fontSize": "16px",
+   "fontWeight": "500",
+   "lineHeight": "16px",
+   "letterSpacing": "normal",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 32,
+    "y": 495,
+    "w": 352,
+    "h": 227
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "採用情報 Careers"
+  ],
+  "videos": [
+   {
+    "src": "https://wantedlyinc.com/assets/top/logo.mp4",
+    "autoplay": false,
+    "loop": false,
+    "muted": true,
+    "w": 397,
+    "h": 223,
+    "playing": false
+   }
+  ],
+  "canvases": [
+   {
+    "w": 390,
+    "h": 844
+   },
+   {
+    "w": 552,
+    "h": 227
+   },
+   {
+    "w": 390,
+    "h": 844
+   },
+   {
+    "w": 390,
+    "h": 844
+   }
+  ],
+  "images": [],
+  "pageHeight": 7015
+ },
+ "elapsedSec": 12.6
+}

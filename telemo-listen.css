@@ -1,0 +1,123 @@
+/* 「まずは、実際のTELEMOをお聴きください。」デモ音声セクション（提案資料 p.1）。導入企業ロゴ帯の直下に置く。 */
+.page-home .telemo-listen { --tl-teal: #007d8c; --tl-teal-dark: #00606c; --tl-pale: #eaf6f8; --tl-line: #d7edf2; --tl-ink: #0a2a44; --tl-muted: #5d6b7c; }
+.page-home .telemo-listen .ref-head p { margin: 14px auto 0; max-width: 40em; color: var(--tl-muted); font-size: clamp(14px, 1.1vw, 17px); line-height: 1.8; }
+.telemo-listen__grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr);
+  gap: 24px;
+  max-width: none;
+  margin: clamp(28px, 3.5vw, 48px) auto 0;
+}
+.telemo-listen__player {
+  display: grid;
+  grid-template-columns: 180px minmax(0, 1fr);
+  gap: 32px;
+  align-items: center;
+  padding: 32px;
+  border: 1px solid var(--tl-line);
+  border-radius: 20px;
+  background: var(--tl-pale);
+}
+.telemo-listen__robot { width: 180px; height: auto; }
+.telemo-listen__control { display: grid; gap: 22px; }
+.telemo-listen__wave { width: 100%; max-width: 420px; height: 48px; color: var(--tl-teal); }
+.telemo-listen__wave rect { transform-origin: center; }
+.telemo-listen.is-playing .telemo-listen__wave rect { animation: telemo-listen-wave 1.1s ease-in-out infinite alternate; }
+.telemo-listen.is-playing .telemo-listen__wave rect:nth-child(odd) { animation-duration: .8s; }
+.telemo-listen.is-playing .telemo-listen__wave rect:nth-child(3n) { animation-delay: -.3s; }
+@keyframes telemo-listen-wave { from { transform: scaleY(.35); } to { transform: scaleY(1.15); } }
+.telemo-listen__play {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  justify-self: start;
+  min-height: 60px;
+  padding: 8px 28px 8px 10px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--tl-teal);
+  color: #fff;
+  font: 700 16px/1.4 "Noto Sans JP", sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+}
+.telemo-listen__play:hover { background: var(--tl-teal-dark); }
+.telemo-listen__play:focus-visible { outline: 3px solid #ffb27a; outline-offset: 3px; }
+.telemo-listen__play-icon {
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: #fff;
+  color: var(--tl-teal);
+}
+.telemo-listen__play-icon svg { width: 22px; height: 22px; }
+.telemo-listen__play-icon svg + svg { display: none; }
+.telemo-listen.is-playing .telemo-listen__play-icon svg:first-child { display: none; }
+.telemo-listen.is-playing .telemo-listen__play-icon svg + svg { display: block; }
+.telemo-listen__status { margin: 0; min-height: 1.4em; color: var(--tl-muted); font-size: 13px; }
+.telemo-listen__status[hidden] { display: none; }
+.telemo-listen__qr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  padding: 32px;
+  border: 1px solid var(--tl-line);
+  border-radius: 20px;
+  background: #fff;
+}
+.telemo-listen__qr-code {
+  width: 148px;
+  height: 148px;
+  padding: 10px;
+  border: 1px solid var(--tl-line);
+  border-radius: 8px;
+  color: var(--tl-ink);
+}
+.telemo-listen__qr-code svg, .telemo-listen__qr-code img { display: block; width: 100%; height: 100%; }
+.telemo-listen__qr h3 { margin: 4px 0 0; color: var(--tl-ink); font-size: 17px; font-weight: 800; }
+.telemo-listen__qr p { margin: 0; color: var(--tl-muted); font-size: 14px; line-height: 1.7; }
+.telemo-listen__note { max-width: none; margin: 20px auto 0; color: var(--tl-muted); font-size: 13px; }
+.telemo-listen__band {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px 24px;
+  max-width: none;
+  margin: clamp(28px, 3.5vw, 48px) auto 0;
+  padding: 22px 28px;
+  border-radius: 14px;
+  background: var(--tl-pale); /* 濃紺の帯は禁止（docs/design/やってはいけない.md #1） */
+  color: var(--tl-ink);
+}
+.telemo-listen__band p { margin: 0; }
+.telemo-listen__band-text { font-size: clamp(16px, 1.4vw, 20px); font-weight: 800; }
+.telemo-listen__band-en { color: var(--tl-teal); font-size: 11px; font-weight: 700; letter-spacing: .22em; }
+@media (max-width: 1024px) {
+  .telemo-listen__player { grid-template-columns: 120px minmax(0, 1fr); gap: 20px; padding: 24px; }
+  .telemo-listen__robot { width: 120px; }
+}
+@media (max-width: 760px) {
+  .telemo-listen__grid { grid-template-columns: 1fr; }
+  .telemo-listen__player { grid-template-columns: 1fr; justify-items: center; padding: 24px; }
+  .telemo-listen__robot { width: 140px; }
+  .telemo-listen__control { justify-items: center; }
+  .telemo-listen__play { justify-self: stretch; font-size: 14px; }
+  .telemo-listen__qr { padding: 24px; }
+}
+@media (prefers-reduced-motion: reduce) { .telemo-listen.is-playing .telemo-listen__wave rect { animation: none; } }
+
+/* ページ内で聴ける3種類の営業デモ */
+.telemo-listen__demos { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; margin-top: clamp(28px, 3.5vw, 48px); }
+.telemo-listen__demo { min-width: 0; padding: 28px 24px; border: 1px solid var(--tl-line); border-radius: 20px; background: var(--tl-pale); }
+.telemo-listen__number { margin: 0 0 18px; color: var(--tl-teal); font: 700 12px/1.4 Inter, sans-serif; letter-spacing: .16em; }
+.telemo-listen__demo h3 { margin: 0; color: var(--tl-ink); font-size: clamp(20px, 2vw, 26px); font-weight: 800; }
+.telemo-listen__category { margin: 10px 0 24px; color: var(--tl-muted); font-size: 13px; }
+.telemo-listen__demo audio { display: block; width: 100%; border-radius: 8px; }
+.telemo-listen__demo audio:focus-visible { outline: 3px solid var(--tl-teal); outline-offset: 4px; }
+.telemo-listen__error { color: #9c3024; font-size: 13px; line-height: 1.7; }
+@media (max-width: 900px) { .telemo-listen__demos { grid-template-columns: 1fr; gap: 16px; } }

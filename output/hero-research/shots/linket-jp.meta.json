@@ -1,0 +1,170 @@
+{
+ "slug": "linket-jp",
+ "url": "https://linket.jp/",
+ "capturedAt": "2026-10-12 21:17:38",
+ "files": {
+  "pc_f0": "linket-jp-pc-f0.jpg",
+  "pc_f1": "linket-jp-pc-f1.jpg",
+  "pc_f2": "linket-jp-pc-f2.jpg",
+  "pc_scroll": "linket-jp-pc-scroll.jpg",
+  "sp": "linket-jp-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://linket.jp/",
+  "title": "つながる、チケットLINKET",
+  "lang": "ja-jp",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 11425,
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [
+   "TOP",
+   "特徴",
+   "券種紹介",
+   "導入事例",
+   "コラム",
+   "お知らせ",
+   "よくある質問",
+   "会社概要",
+   "資料請求",
+   "お問い合わせ"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://linket.jp/hs-fs/hubfs/topPats24.png?width=191&height=61&name=topPats24.png",
+    "w": 191,
+    "h": 61,
+    "alt": "ロゴ"
+   },
+   {
+    "src": "https://linket.jp/hs-fs/hubfs/topPats23.png?width=516&height=165&name=topPats23.png",
+    "w": 516,
+    "h": 165,
+    "alt": "ロゴ"
+   },
+   {
+    "src": "https://linket.jp/hs-fs/hubfs/topPats80.png?width=746&height=477&name=topPats80.png",
+    "w": 746,
+    "h": 477,
+    "alt": "topPats80"
+   },
+   {
+    "src": "https://linket.jp/hubfs/raw_assets/public/LINKET_2025/images/topPats23_03.png",
+    "w": 87,
+    "h": 77,
+    "alt": "装飾キャラ"
+   },
+   {
+    "src": "https://linket.jp/hubfs/raw_assets/public/LINKET_2025/images/topPats23_04.png",
+    "w": 155,
+    "h": 117,
+    "alt": "装飾キャラ"
+   },
+   {
+    "src": "https://linket.jp/hubfs/raw_assets/public/LINKET_2025/images/topPats23_05.png",
+    "w": 47,
+    "h": 67,
+    "alt": "装飾キャラ"
+   },
+   {
+    "src": "https://linket.jp/hubfs/raw_assets/public/LINKET_2025/images/topPats23_06.png",
+    "w": 117,
+    "h": 147,
+    "alt": "装飾キャラ"
+   },
+   {
+    "src": "https://linket.jp/hubfs/raw_assets/public/LINKET_2025/images/topPats23_08.png",
+    "w": 185,
+    "h": 497,
+    "alt": "背景装飾"
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Noto Sans JP"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": true,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [
+   "TOP",
+   "特徴",
+   "券種紹介",
+   "導入事例",
+   "コラム",
+   "お知らせ",
+   "よくある質問",
+   "会社概要",
+   "資料請求",
+   "お問い合わせ"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://linket.jp/hs-fs/hubfs/topPats23.png?width=1032&height=330&name=topPats23.png",
+    "w": 200,
+    "h": 64,
+    "alt": "ロゴ"
+   },
+   {
+    "src": "https://linket.jp/hs-fs/hubfs/topPats80.png?width=1119&height=716&name=topPats80.png",
+    "w": 350,
+    "h": 224,
+    "alt": "topPats80"
+   },
+   {
+    "src": "https://linket.jp/hubfs/raw_assets/public/LINKET_2025/images/topPats23_03.png",
+    "w": 53,
+    "h": 46,
+    "alt": "装飾キャラ"
+   },
+   {
+    "src": "https://linket.jp/hubfs/raw_assets/public/LINKET_2025/images/topPats23_04.png",
+    "w": 70,
+    "h": 53,
+    "alt": "装飾キャラ"
+   },
+   {
+    "src": "https://linket.jp/hubfs/raw_assets/public/LINKET_2025/images/topPats23_06.png",
+    "w": 60,
+    "h": 75,
+    "alt": "装飾キャラ"
+   },
+   {
+    "src": "https://linket.jp/hubfs/raw_assets/public/LINKET_2025/images/topPats23_08.png",
+    "w": 185,
+    "h": 497,
+    "alt": "背景装飾"
+   }
+  ],
+  "pageHeight": 14220
+ },
+ "elapsedSec": 14.9
+}

@@ -1,0 +1,128 @@
+{
+ "slug": "outseta-com",
+ "url": "https://www.outseta.com/",
+ "capturedAt": "2026-10-12 21:16:29",
+ "files": {
+  "pc_f0": "outseta-com-pc-f0.jpg",
+  "pc_f1": "outseta-com-pc-f1.jpg",
+  "pc_f2": "outseta-com-pc-f2.jpg",
+  "pc_scroll": "outseta-com-pc-scroll.jpg",
+  "sp": "outseta-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.outseta.com/v4",
+  "title": "Outseta | Membership Management Software",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 6682,
+  "h1": "Launch and Grow Your Membership",
+  "h1Style": {
+   "fontFamily": "Kaio, Arial, sans-serif",
+   "fontSize": "72px",
+   "fontWeight": "600",
+   "lineHeight": "72px",
+   "letterSpacing": "-1.44px",
+   "color": "rgb(2, 6, 23)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 303,
+    "y": 245,
+    "w": 834,
+    "h": 144
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "​LogoCopy SVG code",
+   "​BrandDownload resources"
+  ],
+  "videos": [],
+  "canvases": [
+   {
+    "w": 1440,
+    "h": 1217
+   }
+  ],
+  "images": [
+   {
+    "src": "https://cdn.prod.website-files.com/663cf90ca192fe7e5bcb8bd7/690e682852c8088d81a549f1_cleanshot-2025-11-07-16-24-53-p-1600.avif",
+    "w": 299,
+    "h": 168,
+    "alt": ""
+   },
+   {
+    "src": "https://cdn.prod.website-files.com/663cf90ca192fe7e5bcb8bd7/690e68bda1388512816ab08f_cleanshot-2025-11-07-16-46-18.avif",
+    "w": 299,
+    "h": 168,
+    "alt": ""
+   },
+   {
+    "src": "https://cdn.prod.website-files.com/663cf90ca192fe7e5bcb8bd7/690e5d2ea48b8dbb1557ab74_cleanshot-2025-11-07-15-55-35-p-1600.avif",
+    "w": 299,
+    "h": 168,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Inter Var",
+   "Kaio"
+  ],
+  "libs": {
+   "gsap": true,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "Launch and Grow Your Membership",
+  "h1Style": {
+   "fontFamily": "Kaio, Arial, sans-serif",
+   "fontSize": "38.4609px",
+   "fontWeight": "600",
+   "lineHeight": "38.4609px",
+   "letterSpacing": "-0.769219px",
+   "color": "rgb(2, 6, 23)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 24,
+    "y": 141,
+    "w": 342,
+    "h": 115
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "​LogoCopy SVG code",
+   "​BrandDownload resources"
+  ],
+  "videos": [],
+  "canvases": [
+   {
+    "w": 390,
+    "h": 2450
+   }
+  ],
+  "images": [],
+  "pageHeight": 11301
+ },
+ "elapsedSec": 14.6
+}

@@ -1,0 +1,1166 @@
+{
+ "url": "http://127.0.0.1:4173/heroes/copied-source-ui/18-chalkliner/index.html",
+ "at": "2026-11-04T15:26:04.616Z",
+ "allow": [
+  "few-pictures",
+  "still-page"
+ ],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 2,
+   "filled": [
+    0.92,
+    0.8
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 1063,
+     "screens": 1.2,
+     "words": 18,
+     "img": 2,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 0,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 2,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "chalk.png",
+      "poster.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "TELEMO",
+     "words": 1,
+     "chars": 6,
+     "lines": 1,
+     "size": 56,
+     "vw": 3.9,
+     "font": "Noto Sans JP",
+     "weight": 900,
+     "tracking": -0.065,
+     "leading": 0.95,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.15,
+     "top": 140,
+     "tag": "div",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "営業電話は、 TELEMOがかけます。",
+     "words": 2,
+     "lines": 2,
+     "size": 42,
+     "font": "Noto Sans JP"
+    },
+    "headings": [
+     {
+      "text": "TELEMO",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Noto Sans JP",
+      "weight": 900,
+      "tracking": -0.065,
+      "leading": 0.95,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.15,
+      "top": 140,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "営業電話は、 TELEMOがかけます。",
+      "words": 2,
+      "chars": 19,
+      "lines": 2,
+      "size": 42,
+      "vw": 2.9,
+      "font": "Noto Sans JP",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 1.4,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.31,
+      "top": 315,
+      "tag": "h1",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 2,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Noto Sans JP",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      13,
+      14,
+      15,
+      16,
+      18,
+      20,
+      26,
+      42,
+      56
+     ],
+     "sizeCount": 9,
+     "notLoaded": [],
+     "body": null,
+     "measureChars": null,
+     "max": {
+      "size": 56,
+      "vw": 3.9,
+      "font": "Noto Sans JP",
+      "text": "TELEMO"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.31,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f3f6f7",
+       "top": 68,
+       "hsl": {
+        "h": 195,
+        "s": 0.2,
+        "l": 0.96
+       }
+      },
+      {
+       "color": "#0a2a44",
+       "top": 90,
+       "hsl": {
+        "h": 207,
+        "s": 0.74,
+        "l": 0.15
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#0a2a44",
+       "share": 0.76
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.24
+      }
+     ],
+     "button": {
+      "bg": "#fd8e44",
+      "hsl": {
+       "h": 24,
+       "s": 0.98,
+       "l": 0.63
+      },
+      "fg": "#0a2a44"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 1,
+     "inHero": 1,
+     "radius": 0,
+     "height": 54,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "音声デモを聴く"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 1,
+     "boxRadius": 38,
+     "squareMedia": 0,
+     "roundedMedia": 1,
+     "mediaRadius": 38,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.74
+     }
+    ],
+    "nav": {
+     "links": 3,
+     "fixed": false,
+     "height": 68,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "noto sans jp"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 1063,
+    "margins": {
+     "left": 58,
+     "right": 58
+    },
+    "sections": [
+     {
+      "sel": "main.hero",
+      "tag": "main",
+      "top": 68,
+      "height": 832,
+      "words": 8,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "TELEMO",
+       "size": 56,
+       "tag": "div"
+      },
+      "left": 58,
+      "right": 58,
+      "textLeft": 58,
+      "textRight": 910,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer",
+      "tag": "footer",
+      "top": 900,
+      "height": 163,
+      "words": 7,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 58,
+      "right": 1044,
+      "textLeft": 58,
+      "textRight": 1044,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "営業電話は、 TELEMOがかけます。",
+      "size": 42,
+      "top": 315,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 131,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 2,
+    "bodySize": 16,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0.05,
+    "voidBox": {
+     "x": 420,
+     "y": 840,
+     "w": 1020,
+     "h": 60
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 2,
+   "filled": [
+    0.85,
+    0.89
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 1053,
+     "screens": 1,
+     "words": 17,
+     "img": 2,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 0,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 1,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "chalk.png"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "TELEMO",
+     "words": 1,
+     "chars": 6,
+     "lines": 1,
+     "size": 44,
+     "vw": 5.7,
+     "font": "Noto Sans JP",
+     "weight": 900,
+     "tracking": -0.065,
+     "leading": 0.95,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.22,
+     "top": 100,
+     "tag": "div",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "営業電話は、 TELEMOがかけます。",
+     "words": 2,
+     "lines": 2,
+     "size": 27,
+     "font": "Noto Sans JP"
+    },
+    "headings": [
+     {
+      "text": "TELEMO",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 26,
+      "vw": 3.4,
+      "font": "Noto Sans JP",
+      "weight": 900,
+      "tracking": -0.05,
+      "leading": 1.2,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.13,
+      "top": 12,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "TELEMO",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 44,
+      "vw": 5.7,
+      "font": "Noto Sans JP",
+      "weight": 900,
+      "tracking": -0.065,
+      "leading": 0.95,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.22,
+      "top": 100,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "営業電話は、 TELEMOがかけます。",
+      "words": 2,
+      "chars": 19,
+      "lines": 2,
+      "size": 27,
+      "vw": 3.5,
+      "font": "Noto Sans JP",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 1.4,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.37,
+      "top": 426,
+      "tag": "h1",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 3,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Noto Sans JP",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      13,
+      14,
+      15,
+      17,
+      26,
+      27,
+      44
+     ],
+     "sizeCount": 7,
+     "notLoaded": [],
+     "body": null,
+     "measureChars": null,
+     "max": {
+      "size": 44,
+      "vw": 5.7,
+      "font": "Noto Sans JP",
+      "text": "TELEMO"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.32,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f3f6f7",
+       "top": 60,
+       "hsl": {
+        "h": 195,
+        "s": 0.2,
+        "l": 0.96
+       }
+      },
+      {
+       "color": "#0a2a44",
+       "top": 76,
+       "hsl": {
+        "h": 207,
+        "s": 0.74,
+        "l": 0.15
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#0a2a44",
+       "share": 0.75
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.25
+      }
+     ],
+     "button": {
+      "bg": "#fd8e44",
+      "hsl": {
+       "h": 24,
+       "s": 0.98,
+       "l": 0.63
+      },
+      "fg": "#0a2a44"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 1,
+     "inHero": 1,
+     "radius": 0,
+     "height": 50,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "音声デモを聴く"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 1,
+     "boxRadius": 20,
+     "squareMedia": 0,
+     "roundedMedia": 1,
+     "mediaRadius": 20,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.32
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": false,
+     "height": 60,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "noto sans jp"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 1053,
+    "margins": {
+     "left": 12,
+     "right": 12
+    },
+    "sections": [
+     {
+      "sel": "main.hero",
+      "tag": "main",
+      "top": 60,
+      "height": 830,
+      "words": 8,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "TELEMO",
+       "size": 44,
+       "tag": "div"
+      },
+      "left": 12,
+      "right": 12,
+      "textLeft": 22,
+      "textRight": 471,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer",
+      "tag": "footer",
+      "top": 890,
+      "height": 163,
+      "words": 7,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 22,
+      "right": 408,
+      "textLeft": 22,
+      "textRight": 408,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "営業電話は、 TELEMOがかけます。",
+      "size": 27,
+      "top": 426,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 40,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 2,
+    "bodySize": 16,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 2,
+   "filled": [
+    0.97,
+    0.77
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 1053,
+     "screens": 1.2,
+     "words": 17,
+     "img": 2,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 0,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 1,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "chalk.png"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "TELEMO",
+     "words": 1,
+     "chars": 6,
+     "lines": 1,
+     "size": 44,
+     "vw": 11.3,
+     "font": "Noto Sans JP",
+     "weight": 900,
+     "tracking": -0.065,
+     "leading": 0.95,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.43,
+     "top": 100,
+     "tag": "div",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "営業電話は、 TELEMOがかけます。",
+     "words": 2,
+     "lines": 2,
+     "size": 27,
+     "font": "Noto Sans JP"
+    },
+    "headings": [
+     {
+      "text": "TELEMO",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 26,
+      "vw": 6.7,
+      "font": "Noto Sans JP",
+      "weight": 900,
+      "tracking": -0.05,
+      "leading": 1.2,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.26,
+      "top": 12,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "TELEMO",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 44,
+      "vw": 11.3,
+      "font": "Noto Sans JP",
+      "weight": 900,
+      "tracking": -0.065,
+      "leading": 0.95,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.43,
+      "top": 100,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "営業電話は、 TELEMOがかけます。",
+      "words": 2,
+      "chars": 19,
+      "lines": 2,
+      "size": 27,
+      "vw": 6.9,
+      "font": "Noto Sans JP",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 1.4,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.72,
+      "top": 426,
+      "tag": "h1",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 3,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Noto Sans JP",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      13,
+      14,
+      15,
+      17,
+      26,
+      27,
+      44
+     ],
+     "sizeCount": 7,
+     "notLoaded": [],
+     "body": null,
+     "measureChars": null,
+     "max": {
+      "size": 44,
+      "vw": 11.3,
+      "font": "Noto Sans JP",
+      "text": "TELEMO"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.32,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f3f6f7",
+       "top": 60,
+       "hsl": {
+        "h": 195,
+        "s": 0.2,
+        "l": 0.96
+       }
+      },
+      {
+       "color": "#0a2a44",
+       "top": 76,
+       "hsl": {
+        "h": 207,
+        "s": 0.74,
+        "l": 0.15
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#0a2a44",
+       "share": 0.75
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.25
+      }
+     ],
+     "button": {
+      "bg": "#fd8e44",
+      "hsl": {
+       "h": 24,
+       "s": 0.98,
+       "l": 0.63
+      },
+      "fg": "#0a2a44"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 1,
+     "inHero": 1,
+     "radius": 0,
+     "height": 50,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "音声デモを聴く"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 1,
+     "boxRadius": 20,
+     "squareMedia": 0,
+     "roundedMedia": 1,
+     "mediaRadius": 20,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.37
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": false,
+     "height": 60,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "noto sans jp"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 1053,
+    "margins": {
+     "left": 12,
+     "right": 12
+    },
+    "sections": [
+     {
+      "sel": "main.hero",
+      "tag": "main",
+      "top": 60,
+      "height": 830,
+      "words": 8,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "TELEMO",
+       "size": 44,
+       "tag": "div"
+      },
+      "left": 12,
+      "right": 12,
+      "textLeft": 22,
+      "textRight": 93,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer",
+      "tag": "footer",
+      "top": 890,
+      "height": 163,
+      "words": 7,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 22,
+      "right": 30,
+      "textLeft": 22,
+      "textRight": 30,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "営業電話は、 TELEMOがかけます。",
+      "size": 27,
+      "top": 426,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 40,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 2,
+    "bodySize": 16,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "name-only-title",
+   "width": 1440,
+   "message": "The h1 is a bare name (\"営業電話は、 TELEMOがかけます。\") and nothing else on the first screen says what this is.",
+   "fix": "Keep the name if it leads, and give the line under it (18px or more) the plain words: what it is, for whom, where or when. In the study of 97 Sites of the Day, first screens that named nothing lost usability and content points.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "small-title",
+   "width": 768,
+   "message": "The h1 is 27px (\"営業電話は、 TELEMOがかけます。\").",
+   "fix": "Set the title at display size, or make the large text of the first screen the h1."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/Users/rintaro/giguuu改善/heroes/copied-source-ui/qa/page31/taste-chalk/desktop-fold.jpg",
+   "pages": [
+    "/Users/rintaro/giguuu改善/heroes/copied-source-ui/qa/page31/taste-chalk/desktop-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/Users/rintaro/giguuu改善/heroes/copied-source-ui/qa/page31/taste-chalk/tablet-fold.jpg",
+   "pages": [
+    "/Users/rintaro/giguuu改善/heroes/copied-source-ui/qa/page31/taste-chalk/tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/Users/rintaro/giguuu改善/heroes/copied-source-ui/qa/page31/taste-chalk/mobile-fold.jpg",
+   "pages": [
+    "/Users/rintaro/giguuu改善/heroes/copied-source-ui/qa/page31/taste-chalk/mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

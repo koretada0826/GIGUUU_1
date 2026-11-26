@@ -1,0 +1,336 @@
+{
+ "slug": "shiftbrain-com",
+ "url": "https://shiftbrain.com/",
+ "capturedAt": "2026-10-12 21:07:56",
+ "files": {
+  "pc_f0": "shiftbrain-com-pc-f0.jpg",
+  "pc_f1": "shiftbrain-com-pc-f1.jpg",
+  "pc_f2": "shiftbrain-com-pc-f2.jpg",
+  "pc_scroll": "shiftbrain-com-pc-scroll.jpg",
+  "sp": "shiftbrain-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://shiftbrain.com/",
+  "title": "SHIFTBRAIN Inc.",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 900,
+  "h1": "A Studio That Engaged in All Aspects of Creative Work for Branding.",
+  "h1Style": {
+   "fontFamily": "\"TT Norms ExtraLight\", sans-serif",
+   "fontSize": "50px",
+   "fontWeight": "400",
+   "lineHeight": "57.2501px",
+   "letterSpacing": "-1px",
+   "color": "rgb(18, 18, 18)",
+   "textAlign": "left",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 36,
+    "y": 215,
+    "w": 1368,
+    "h": 115
+   }
+  },
+  "lead": "All Brand Global Independent Promotion Recruit Media",
+  "ctas": [
+   "こころが、こころと、 編まれてく。",
+   "舞え、花びら。 届け、花言葉。",
+   "より良い未来を 差す光。",
+   "あふれる想いを今、 言葉にしています。",
+   "クイズだし、ゲームだし、 スポーツだ。",
+   "Payn Brand Renewal Payn, Inc."
+  ],
+  "videos": [
+   {
+    "src": "https://shiftbrain.com/wp-content/themes/my-theme/assets/components/index/index-human/thumbnail_left/45R-karuta.b6260bf1.mp4",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 540,
+    "h": 324,
+    "playing": false
+   },
+   {
+    "src": "https://shiftbrain.com/wp-content/themes/my-theme/assets/components/index/index-human/thumbnail_left/terada.c3c8a8e5.mp4",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 540,
+    "h": 324,
+    "playing": false
+   },
+   {
+    "src": "https://shiftbrain.com/wp-content/themes/my-theme/assets/components/index/index-human/thumbnail_left/cannes.f12858e7.mp4",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 540,
+    "h": 324,
+    "playing": false
+   },
+   {
+    "src": "https://shiftbrain.com/wp-content/themes/my-theme/assets/components/index/index-human/thumbnail_left/ntt.c435cc20.mp4",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 540,
+    "h": 324,
+    "playing": false
+   },
+   {
+    "src": "https://shiftbrain.com/wp-content/themes/my-theme/assets/components/index/index-human/thumbnail_left/suzukishouten.22be67a8.mp4",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 540,
+    "h": 324,
+    "playing": false
+   },
+   {
+    "src": "https://shiftbrain.com/wp-content/themes/my-theme/assets/components/index/index-human/thumbnail_left/45R-karuta.b6260bf1.mp4",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 540,
+    "h": 324,
+    "playing": false
+   },
+   {
+    "src": "https://shiftbrain.com/wp-content/themes/my-theme/assets/components/index/index-human/thumbnail_left/terada.c3c8a8e5.mp4",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 540,
+    "h": 324,
+    "playing": false
+   }
+  ],
+  "canvases": [
+   {
+    "w": 1440,
+    "h": 900
+   }
+  ],
+  "images": [
+   {
+    "src": "https://shiftbrain.com/wp-content/themes/my-theme/assets/components/index/index-human/photo_terada-loop.e5cf692c.webp",
+    "w": 6731,
+    "h": 374,
+    "alt": ""
+   },
+   {
+    "src": "https://shiftbrain.com/wp-content/themes/my-theme/assets/components/index/index-human/terada-loop-text.dbb4f328.webp",
+    "w": 6731,
+    "h": 374,
+    "alt": ""
+   },
+   {
+    "src": "https://shiftbrain.com/wp-content/themes/my-theme/assets/components/index/index-human/photo_cannes.fd949eae.webp",
+    "w": 6731,
+    "h": 374,
+    "alt": ""
+   },
+   {
+    "src": "https://shiftbrain.com/wp-content/themes/my-theme/assets/components/index/index-human/cannes-text.9be5ecb8.webp",
+    "w": 6731,
+    "h": 374,
+    "alt": ""
+   },
+   {
+    "src": "https://shiftbrain.com/wp-content/themes/my-theme/assets/components/index/index-human/photo_ntt.8652e441.webp",
+    "w": 6731,
+    "h": 374,
+    "alt": ""
+   },
+   {
+    "src": "https://shiftbrain.com/wp-content/themes/my-theme/assets/components/index/index-human/ntt-text.d9624d79.webp",
+    "w": 6731,
+    "h": 374,
+    "alt": ""
+   },
+   {
+    "src": "https://shiftbrain.com/wp-content/themes/my-theme/assets/components/index/index-human/photo_suzuki.4b78b05e.webp",
+    "w": 6731,
+    "h": 374,
+    "alt": ""
+   },
+   {
+    "src": "https://shiftbrain.com/wp-content/themes/my-theme/assets/components/index/index-human/suzuki-text.67875d16.webp",
+    "w": 6731,
+    "h": 374,
+    "alt": ""
+   },
+   {
+    "src": "https://shiftbrain.com/wp-content/themes/my-theme/assets/components/index/index-human/photo_45R-karuta.4c10072e.webp",
+    "w": 6731,
+    "h": 374,
+    "alt": ""
+   },
+   {
+    "src": "https://shiftbrain.com/wp-content/themes/my-theme/assets/components/index/index-human/45R-karuta-text.5a476c65.webp",
+    "w": 6731,
+    "h": 374,
+    "alt": ""
+   },
+   {
+    "src": "https://shiftbrain.com/wp-content/themes/my-theme/assets/components/index/index-human/thumbnail_right/45R-karuta.4ea1f40a.webp",
+    "w": 540,
+    "h": 324,
+    "alt": ""
+   },
+   {
+    "src": "https://shiftbrain.com/wp-content/themes/my-theme/assets/components/index/index-human/thumbnail_right/terada.e49714c0.webp",
+    "w": 540,
+    "h": 324,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "TT Norms Regular",
+   "YakuHanJP",
+   "TT Norms ExtraLight",
+   "TT Norms Light"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 0,
+ "sp": {
+  "h1": "A Studio That Engaged in All Aspects of Creative Work for Branding.",
+  "h1Style": {
+   "fontFamily": "\"TT Norms Light\", sans-serif",
+   "fontSize": "30px",
+   "fontWeight": "400",
+   "lineHeight": "34.35px",
+   "letterSpacing": "-0.9px",
+   "color": "rgb(18, 18, 18)",
+   "textAlign": "left",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 15,
+    "y": 136,
+    "w": 360,
+    "h": 103
+   }
+  },
+  "lead": "Filters All Brand Global Independent Promotion Recruit Media",
+  "ctas": [
+   "All",
+   "Media",
+   "Payn Brand Renewal Payn, Inc."
+  ],
+  "videos": [
+   {
+    "src": "https://shiftbrain.com/wp-content/themes/my-theme/assets/components/index/index-human/thumbnail_left/45R-karuta.b6260bf1.mp4",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 360,
+    "h": 216,
+    "playing": false
+   }
+  ],
+  "canvases": [
+   {
+    "w": 390,
+    "h": 844
+   }
+  ],
+  "images": [
+   {
+    "src": "https://shiftbrain.com/wp-content/themes/my-theme/assets/components/index/index-human/photo_terada-loop.e5cf692c.webp",
+    "w": 2911,
+    "h": 162,
+    "alt": ""
+   },
+   {
+    "src": "https://shiftbrain.com/wp-content/themes/my-theme/assets/components/index/index-human/photo_cannes.fd949eae.webp",
+    "w": 2911,
+    "h": 162,
+    "alt": ""
+   },
+   {
+    "src": "https://shiftbrain.com/wp-content/themes/my-theme/assets/components/index/index-human/photo_ntt.8652e441.webp",
+    "w": 2911,
+    "h": 162,
+    "alt": ""
+   },
+   {
+    "src": "https://shiftbrain.com/wp-content/themes/my-theme/assets/components/index/index-human/photo_suzuki.4b78b05e.webp",
+    "w": 2911,
+    "h": 162,
+    "alt": ""
+   },
+   {
+    "src": "https://shiftbrain.com/wp-content/themes/my-theme/assets/components/index/index-human/photo_45R-karuta.4c10072e.webp",
+    "w": 2911,
+    "h": 162,
+    "alt": ""
+   },
+   {
+    "src": "https://shiftbrain.com/wp-content/themes/my-theme/assets/components/index/index-human/thumbnail_right/45R-karuta.4ea1f40a.webp",
+    "w": 360,
+    "h": 216,
+    "alt": ""
+   },
+   {
+    "src": "https://shiftbrain.com/wp-content/themes/my-theme/assets/components/index/index-human/thumbnail_left/45R-karuta.918fd758.webp",
+    "w": 360,
+    "h": 216,
+    "alt": ""
+   },
+   {
+    "src": "https://shiftbrain.com/wp-content/themes/my-theme/assets/components/index/index-human/index-humanLoading/a_4.79d9b31d.webp",
+    "w": 4773,
+    "h": 265,
+    "alt": ""
+   },
+   {
+    "src": "https://shiftbrain.com/wp-content/themes/my-theme/assets/components/index/index-human/index-humanLoading/b_4.90da0b58.webp",
+    "w": 4773,
+    "h": 265,
+    "alt": ""
+   },
+   {
+    "src": "https://shiftbrain.com/wp-content/themes/my-theme/assets/components/index/index-human/index-humanLoading/c_1.f22613c0.webp",
+    "w": 4773,
+    "h": 265,
+    "alt": ""
+   },
+   {
+    "src": "https://shiftbrain.com/wp-content/themes/my-theme/assets/components/index/index-human/index-humanLoading/d_4.c37cd58a.webp",
+    "w": 4773,
+    "h": 265,
+    "alt": ""
+   },
+   {
+    "src": "https://shiftbrain.com/wp-content/themes/my-theme/assets/components/index/index-human/index-humanEnding/d_6.cd90a6d2.webp",
+    "w": 4773,
+    "h": 265,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 20106
+ },
+ "elapsedSec": 21.2
+}

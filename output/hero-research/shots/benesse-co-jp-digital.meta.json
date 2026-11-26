@@ -1,0 +1,85 @@
+{
+ "slug": "benesse-co-jp-digital",
+ "url": "https://www.benesse.co.jp/digital/",
+ "capturedAt": "2026-10-12 21:07:44",
+ "files": {
+  "pc_f0": "benesse-co-jp-digital-pc-f0.jpg",
+  "pc_f1": "benesse-co-jp-digital-pc-f1.jpg",
+  "pc_f2": "benesse-co-jp-digital-pc-f2.jpg",
+  "pc_scroll": "benesse-co-jp-digital-pc-scroll.jpg",
+  "sp": "benesse-co-jp-digital-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.benesse.co.jp/digital/",
+  "title": "ベネッセのDX戦略",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 7088,
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.benesse.co.jp/digital/_next/static/media/mv-image-pc.04b54bde.webp",
+    "w": 1200,
+    "h": 677,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Noto Sans JP",
+   "ttForts"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(0, 17, 37)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [
+   "DIGITAL TRANSFORMATION"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.benesse.co.jp/digital/_next/static/media/mv-image-sp.3a56a24d.webp",
+    "w": 325,
+    "h": 367,
+    "alt": ""
+   },
+   {
+    "src": "https://www.benesse.co.jp/digital/_next/static/media/image-1.7336bc11.webp",
+    "w": 259,
+    "h": 173,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 7713
+ },
+ "elapsedSec": 11.5
+}

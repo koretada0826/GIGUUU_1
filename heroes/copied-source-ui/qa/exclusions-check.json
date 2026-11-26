@@ -1,0 +1,112 @@
+{
+  "removed": [
+    5,
+    7,
+    9,
+    11,
+    14,
+    15,
+    16,
+    17,
+    19,
+    20,
+    21,
+    23,
+    25,
+    26,
+    27
+  ],
+  "remaining": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    8,
+    10,
+    12,
+    13,
+    18,
+    22,
+    24,
+    28,
+    29
+  ],
+  "results": [
+    {
+      "width": 1440,
+      "ids": [
+        "proposal-01",
+        "proposal-02",
+        "proposal-03",
+        "proposal-04",
+        "proposal-06",
+        "proposal-08",
+        "proposal-10",
+        "proposal-12",
+        "proposal-13",
+        "proposal-18",
+        "proposal-22",
+        "proposal-24",
+        "proposal-28",
+        "proposal-29"
+      ],
+      "overflow": false,
+      "broken": [],
+      "title": "営業電話をかけるAI・TELEMOのヒーロー14案｜TELEMO",
+      "missingAnchors": [],
+      "errors": [],
+      "passed": true
+    },
+    {
+      "width": 1280,
+      "ids": [
+        "proposal-01",
+        "proposal-02",
+        "proposal-03",
+        "proposal-04",
+        "proposal-06",
+        "proposal-08",
+        "proposal-10",
+        "proposal-12",
+        "proposal-13",
+        "proposal-18",
+        "proposal-22",
+        "proposal-24",
+        "proposal-28",
+        "proposal-29"
+      ],
+      "overflow": false,
+      "broken": [],
+      "title": "営業電話をかけるAI・TELEMOのヒーロー14案｜TELEMO",
+      "missingAnchors": [],
+      "errors": [],
+      "passed": true
+    },
+    {
+      "width": 390,
+      "ids": [
+        "proposal-01",
+        "proposal-02",
+        "proposal-03",
+        "proposal-04",
+        "proposal-06",
+        "proposal-08",
+        "proposal-10",
+        "proposal-12",
+        "proposal-13",
+        "proposal-18",
+        "proposal-22",
+        "proposal-24",
+        "proposal-28",
+        "proposal-29"
+      ],
+      "overflow": false,
+      "broken": [],
+      "title": "営業電話をかけるAI・TELEMOのヒーロー14案｜TELEMO",
+      "missingAnchors": [],
+      "errors": [],
+      "passed": true
+    }
+  ]
+}

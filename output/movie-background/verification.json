@@ -1,0 +1,67 @@
+{
+  "base": "dc5d355",
+  "widths": [
+    {
+      "width": 1440,
+      "overflow": false,
+      "geometryDifferences": [],
+      "sameTypography": true,
+      "sameLinks": true,
+      "cards": 6
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "geometryDifferences": [],
+      "sameTypography": true,
+      "sameLinks": true,
+      "cards": 6
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "geometryDifferences": [],
+      "sameTypography": true,
+      "sameLinks": true,
+      "cards": 6
+    },
+    {
+      "width": 320,
+      "overflow": false,
+      "geometryDifferences": [],
+      "sameTypography": true,
+      "sameLinks": true,
+      "cards": 6
+    }
+  ],
+  "interactions": {
+    "mobileMenu": {
+      "opens": true,
+      "closes": true,
+      "target": "#telemo-how"
+    },
+    "keyboardComment": "声も、トーク設計も。営業現場の知見を詰め込んでいます。",
+    "animation": {
+      "arrived": true,
+      "greeting": "お待たせしました！ここからは僕がご案内します。",
+      "nextComment": "声も、トーク設計も。営業現場の知見を詰め込んでいます。",
+      "floatingGuideRestored": true
+    }
+  },
+  "errors": [],
+  "assets": [
+    {
+      "url": "./telemo-movie-background.css?v=20261022a",
+      "status": 200
+    },
+    {
+      "url": "./assets/backgrounds/telemo-grid.svg",
+      "status": 200
+    },
+    {
+      "url": "./assets/backgrounds/telemo-orbits.svg",
+      "status": 200
+    }
+  ],
+  "passed": true
+}

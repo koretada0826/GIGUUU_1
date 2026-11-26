@@ -1,0 +1,48 @@
+{
+  "reference_url": "http://127.0.0.1:8000/reference/lp-sites/#stripe",
+  "resolved_page": "reference/lp-sites/stripe/index.html",
+  "source_site": "https://stripe.com/jp",
+  "extraction_basis": [
+    "local HTML header structure",
+    "local CSS header rules"
+  ],
+  "header": {
+    "layout_order": [
+      "brand logo",
+      "primary navigation",
+      "right-side actions"
+    ],
+    "navigation_labels": [
+      "サービス",
+      "ソリューション",
+      "開発者",
+      "リソース",
+      "料金体系"
+    ],
+    "right_side_actions": [
+      "サインイン",
+      "営業にお問い合わせ"
+    ],
+    "mobile_control": {
+      "type": "menu button",
+      "aria_label": "ナビゲーションメニューを切り替え"
+    },
+    "observed_css": {
+      "container_block_padding": "var(--hds-space-core-75)",
+      "container_inline_padding": "calc(var(--hds-space-layout-page-margin) + 2px)",
+      "action_height": "40px",
+      "mobile_menu_button": "40px by 40px"
+    }
+  },
+  "telemo_mapping": {
+    "brand": "GIGUUU / TELEMO",
+    "primary_navigation": [
+      "TELEMOとは",
+      "仕組み",
+      "料金",
+      "導入の流れ"
+    ],
+    "right_side_action": "実際の音声を聴く",
+    "mobile_control": "menu button that reveals the same navigation and action"
+  }
+}

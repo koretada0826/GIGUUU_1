@@ -1,0 +1,136 @@
+{
+ "slug": "unitedcarriers-com",
+ "url": "https://unitedcarriers.com/",
+ "capturedAt": "2026-10-12 21:11:06",
+ "files": {
+  "pc_f0": "unitedcarriers-com-pc-f0.jpg",
+  "pc_f1": "unitedcarriers-com-pc-f1.jpg",
+  "pc_f2": "unitedcarriers-com-pc-f2.jpg",
+  "pc_scroll": "unitedcarriers-com-pc-scroll.jpg",
+  "sp": "unitedcarriers-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://unitedcarriers.com/",
+  "title": "United Carriers | Global Freight Forwarding and Logistics",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 28229,
+  "h1": "EVERY LEG OF THE JOURNEY",
+  "h1Style": {
+   "fontFamily": "\"BT Steinhart\", Arial, sans-serif",
+   "fontSize": "80px",
+   "fontWeight": "700",
+   "lineHeight": "84px",
+   "letterSpacing": "normal",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 414,
+    "y": 443,
+    "w": 563,
+    "h": 252
+   }
+  },
+  "lead": null,
+  "ctas": [],
+  "videos": [],
+  "canvases": [
+   {
+    "w": 873,
+    "h": 873
+   }
+  ],
+  "images": [
+   {
+    "src": "https://cdn.prod.website-files.com/6a44eec1ed1af2c4c403df6b/6a4cbda52be1c66e5c7763d0_b73f2865aae1538f233749f5a8900a99_map-pre-loader.png",
+    "w": 505,
+    "h": 248,
+    "alt": "World map composed of small black dots on a transparent background."
+   },
+   {
+    "src": "https://cdn.prod.website-files.com/6a44eec1ed1af2c4c403df6b/6a4c6cb6a5d96145b3b34612_start-blur.avif",
+    "w": 1259,
+    "h": 988,
+    "alt": ""
+   },
+   {
+    "src": "https://cdn.prod.website-files.com/6a44eec1ed1af2c4c403df6b/6a4b96c759907c751a922995_7eca9aaa3d4bf61032fb078c55b2ccf4_star-p-1080.avif",
+    "w": 1440,
+    "h": 1585,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Helvetica Neue",
+   "BT Steinhart"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": true,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 701,
+ "sp": {
+  "h1": "EVERY LEG OF THE JOURNEY",
+  "h1Style": {
+   "fontFamily": "\"BT Steinhart\", Arial, sans-serif",
+   "fontSize": "47.6336px",
+   "fontWeight": "700",
+   "lineHeight": "50.0153px",
+   "letterSpacing": "normal",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 16,
+    "y": -21596,
+    "w": 363,
+    "h": 150
+   }
+  },
+  "lead": null,
+  "ctas": [],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://cdn.prod.website-files.com/6a44eec1ed1af2c4c403df6b/6a4cbda52be1c66e5c7763d0_b73f2865aae1538f233749f5a8900a99_map-pre-loader.png",
+    "w": 358,
+    "h": 176,
+    "alt": "World map composed of small black dots on a transparent background."
+   },
+   {
+    "src": "https://cdn.prod.website-files.com/6a44eec1ed1af2c4c403df6b/6a44eec1ed1af2c4c403dfc5_map.png",
+    "w": 358,
+    "h": 176,
+    "alt": "World map formed from small black circular dots on a white background."
+   },
+   {
+    "src": "https://cdn.prod.website-files.com/6a44eec1ed1af2c4c403df6b/6a44eec1ed1af2c4c403dfdd_logo-mb.png",
+    "w": 358,
+    "h": 98,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 844
+ },
+ "elapsedSec": 15.7
+}

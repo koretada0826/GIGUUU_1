@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g id="_グループ_426" data-name="グループ 426">
+    <g id="_長方形_508" data-name="長方形 508">
+      <path class="cls-1" d="M20.5,17.49h-8v-8h8v8ZM13.5,16.49h6v-6h-6v6Z"/>
+    </g>
+    <polygon class="cls-1" points="17.5 21.01 9 21.01 9 12.51 10 12.51 10 20.01 17.5 20.01 17.5 21.01"/>
+  </g>
+</svg>

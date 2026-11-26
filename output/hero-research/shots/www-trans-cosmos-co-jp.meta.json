@@ -1,0 +1,279 @@
+{
+ "slug": "www-trans-cosmos-co-jp",
+ "url": "https://www.trans-cosmos.co.jp/",
+ "capturedAt": "2026-10-12 21:07:50",
+ "files": {
+  "pc_f0": "www-trans-cosmos-co-jp-pc-f0.jpg",
+  "pc_f1": "www-trans-cosmos-co-jp-pc-f1.jpg",
+  "pc_f2": "www-trans-cosmos-co-jp-pc-f2.jpg",
+  "pc_scroll": "www-trans-cosmos-co-jp-pc-scroll.jpg",
+  "sp": "www-trans-cosmos-co-jp-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.trans-cosmos.co.jp/",
+  "title": "トランスコスモス",
+  "lang": null,
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 4292,
+  "h1": "共に挑み、実現する。かなえる力を、もっと世界に。",
+  "h1Style": {
+   "fontFamily": "メイリオ, \"Hiragino Kaku Gothic Pro\", \"ヒラギノ角ゴ Pro W3\", \"ＭＳ Ｐゴシック\", Osaka, sans-serif",
+   "fontSize": "14px",
+   "fontWeight": "700",
+   "lineHeight": "21px",
+   "letterSpacing": "normal",
+   "color": "rgb(0, 0, 0)",
+   "textAlign": "left",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 425,
+    "y": 27,
+    "w": 774,
+    "h": 21
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "札幌市で開催された「ミニさっぽろ2026」に出展",
+   "アサヒ飲料と連携し『アサヒ飲料 ワクワク大作戦！』をRobloxで公開",
+   "アジアパシフィック地域のCXベンダー調査で6年連続「リーダー」認定",
+   "サンカクシャと連携し若者伴走支援プログラムに参加",
+   "トランスコスモスの最新デジタルトランスフォーメーション情報サイト",
+   "2年連続で文部科学省の「学校における保護者等への対応の高度化事業」に採択",
+   "東京都中小企業振興公社が実施する中小企業収益力強化サポート事業を受託",
+   "じぶんらしく働く｜トランスコスモスの求人情報ならWork it!",
+   "TEL",
+   "チャット",
+   "メール"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.trans-cosmos.co.jp/images/shared/logo_tci_header.png",
+    "w": 158,
+    "h": 54,
+    "alt": "トランスコスモス株式会社"
+   },
+   {
+    "src": "https://www.trans-cosmos.co.jp/images/shared/wide_menu_service.gif",
+    "w": 190,
+    "h": 120,
+    "alt": "サービス"
+   },
+   {
+    "src": "https://www.trans-cosmos.co.jp/images/shared/wide_menu_casestudy.gif",
+    "w": 190,
+    "h": 120,
+    "alt": "業界別事例"
+   },
+   {
+    "src": "https://www.trans-cosmos.co.jp/images/shared/wide_menu_adoption.gif",
+    "w": 190,
+    "h": 120,
+    "alt": "採用情報"
+   },
+   {
+    "src": "https://www.trans-cosmos.co.jp/images/shared/wide_menu_ir.gif",
+    "w": 190,
+    "h": 120,
+    "alt": "IR情報"
+   },
+   {
+    "src": "https://www.trans-cosmos.co.jp/images/shared/wide_menu_company.gif",
+    "w": 190,
+    "h": 120,
+    "alt": "企業情報"
+   },
+   {
+    "src": "https://www.trans-cosmos.co.jp/images/top/banner/release_260709_0001.png",
+    "w": 1024,
+    "h": 343,
+    "alt": "学校における働き方改革への取り組みとして2年連続、文部科学省「学校における保護者等への対応の高度化事業」に採択"
+   },
+   {
+    "src": "https://www.trans-cosmos.co.jp/images/top/banner/release_260408.png",
+    "w": 1024,
+    "h": 343,
+    "alt": "熊本県熊本市LINE公式アカウントの多言語化をサポート"
+   },
+   {
+    "src": "https://www.trans-cosmos.co.jp/images/top/banner/release_260310.png",
+    "w": 1024,
+    "h": 343,
+    "alt": "東京薬科大学と2040年問題対応に向けた薬剤師業務の変革推進に関する連携協定を締結"
+   },
+   {
+    "src": "https://www.trans-cosmos.co.jp/images/top/banner/release_260115.png",
+    "w": 1024,
+    "h": 343,
+    "alt": "中国発ランジェリーブランド「LING LINGERIE」の日本市場での本格展開を支援"
+   },
+   {
+    "src": "https://www.trans-cosmos.co.jp/images/top/banner/meitetsu.png",
+    "w": 1024,
+    "h": 343,
+    "alt": "LINEミニアプリ活用によりエンゲージメント獲得およびグループ企業への送客を推進"
+   },
+   {
+    "src": "https://www.trans-cosmos.co.jp/images/top/banner/club_t.png",
+    "w": 1024,
+    "h": 343,
+    "alt": "KARTEを活用したUX向上および顧客とのエンゲージメント強化を実現"
+   }
+  ],
+  "backgroundImages": [
+   {
+    "bg": "url(\"https://www.trans-cosmos.co.jp/images/shared/wide_bg_navigation.gif\")",
+    "w": 1440,
+    "h": 60
+   },
+   {
+    "bg": "url(\"https://www.trans-cosmos.co.jp/images/shared/bg_navigation.gif\")",
+    "w": 570,
+    "h": 60
+   },
+   {
+    "bg": "url(\"https://www.trans-cosmos.co.jp/images/shared/bg_navigation.gif\")",
+    "w": 380,
+    "h": 60
+   }
+  ],
+  "firstScreenFonts": [
+   "メイリオ"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "共に挑み、実現する。かなえる力を、もっと世界に。",
+  "h1Style": {
+   "fontFamily": "メイリオ, \"Hiragino Kaku Gothic Pro\", \"ヒラギノ角ゴ Pro W3\", \"ＭＳ Ｐゴシック\", Osaka, sans-serif",
+   "fontSize": "14px",
+   "fontWeight": "700",
+   "lineHeight": "21px",
+   "letterSpacing": "normal",
+   "color": "rgb(0, 0, 0)",
+   "textAlign": "left",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "札幌市で開催された「ミニさっぽろ2026」に出展",
+   "アサヒ飲料と連携し『アサヒ飲料 ワクワク大作戦！』をRobloxで公開",
+   "アジアパシフィック地域のCXベンダー調査で6年連続「リーダー」認定",
+   "サンカクシャと連携し若者伴走支援プログラムに参加",
+   "トランスコスモスの最新デジタルトランスフォーメーション情報サイト",
+   "2年連続で文部科学省の「学校における保護者等への対応の高度化事業」に採択",
+   "東京都中小企業振興公社が実施する中小企業収益力強化サポート事業を受託",
+   "じぶんらしく働く｜トランスコスモスの求人情報ならWork it!",
+   "TEL",
+   "チャット",
+   "メール",
+   "採用情報"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.trans-cosmos.co.jp/images/top/banner/sp/release_260709_0001.png",
+    "w": 390,
+    "h": 213,
+    "alt": "学校における働き方改革への取り組みとして2年連続、文部科学省「学校における保護者等への対応の高度化事業」に採択"
+   },
+   {
+    "src": "https://www.trans-cosmos.co.jp/images/top/banner/sp/release_260408.png",
+    "w": 390,
+    "h": 213,
+    "alt": "熊本県熊本市LINE公式アカウントの多言語化をサポート"
+   },
+   {
+    "src": "https://www.trans-cosmos.co.jp/images/top/banner/sp/release_260310.png",
+    "w": 390,
+    "h": 213,
+    "alt": "東京薬科大学と2040年問題対応に向けた薬剤師業務の変革推進に関する連携協定を締結"
+   },
+   {
+    "src": "https://www.trans-cosmos.co.jp/images/top/banner/sp/release_260115.png",
+    "w": 390,
+    "h": 213,
+    "alt": "中国発ランジェリーブランド「LING LINGERIE」の日本市場での本格展開を支援"
+   },
+   {
+    "src": "https://www.trans-cosmos.co.jp/images/top/banner/sp/meitetsu.png",
+    "w": 390,
+    "h": 213,
+    "alt": "LINEミニアプリ活用によりエンゲージメント獲得およびグループ企業への送客を推進"
+   },
+   {
+    "src": "https://www.trans-cosmos.co.jp/images/top/banner/sp/club_t.png",
+    "w": 390,
+    "h": 213,
+    "alt": "KARTEを活用したUX向上および顧客とのエンゲージメント強化を実現"
+   },
+   {
+    "src": "https://www.trans-cosmos.co.jp/images/top/banner/sp/release_250826.png",
+    "w": 390,
+    "h": 213,
+    "alt": "「神戸市お問い合わせセンター」にDXプラットフォームを導入し、顕著な成果を創出"
+   },
+   {
+    "src": "https://www.trans-cosmos.co.jp/images/top/banner/sp/jt.png",
+    "w": 390,
+    "h": 213,
+    "alt": "チャットボットの解決率が約2.3倍向上！解決率20％台から脱却した問診ボット導入と改善施策の成功例"
+   },
+   {
+    "src": "https://www.trans-cosmos.co.jp/images/top/banner/sp/release_250527.png",
+    "w": 390,
+    "h": 213,
+    "alt": "バンダイの人気IP「たまごっち」を活用したコンテンツ「Tamagotchi Party」をRobloxで公開"
+   },
+   {
+    "src": "https://www.trans-cosmos.co.jp/images/top/banner/sp/release_250710.png",
+    "w": 390,
+    "h": 213,
+    "alt": "福岡県大木町におけるデマンド乗合タクシー利用者登録証のデジタル化を支援"
+   },
+   {
+    "src": "https://www.trans-cosmos.co.jp/images/top/banner/sp/release_250515.png",
+    "w": 390,
+    "h": 213,
+    "alt": "API連携プラットフォーム「trans-Re:Connect」を提供"
+   },
+   {
+    "src": "https://www.trans-cosmos.co.jp/images/top/banner/sp/morinaga.png",
+    "w": 390,
+    "h": 213,
+    "alt": "LINE公式アカウント新規開設から長期的な運用支援で875万人友だち獲得"
+   }
+  ],
+  "pageHeight": 3592
+ },
+ "elapsedSec": 15.6
+}

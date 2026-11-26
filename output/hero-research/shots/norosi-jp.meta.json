@@ -1,0 +1,94 @@
+{
+ "slug": "norosi-jp",
+ "url": "http://norosi.jp/",
+ "capturedAt": "2026-10-12 21:16:04",
+ "files": {
+  "pc_f0": "norosi-jp-pc-f0.jpg",
+  "pc_f1": "norosi-jp-pc-f1.jpg",
+  "pc_f2": "norosi-jp-pc-f2.jpg",
+  "pc_scroll": "norosi-jp-pc-scroll.jpg",
+  "sp": "norosi-jp-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "http://norosi.jp/",
+  "title": "norosi.jp – このドメインはお名前.comで取得されています。",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 1781,
+  "h1": "このドメインは お名前.com から取得されました。",
+  "h1Style": {
+   "fontFamily": "Times",
+   "fontSize": "24px",
+   "fontWeight": "700",
+   "lineHeight": "31.2px",
+   "letterSpacing": "normal",
+   "color": "rgb(68, 68, 68)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 0,
+    "y": 182,
+    "w": 1440,
+    "h": 31
+   }
+  },
+  "lead": "お名前.com は GMOインターネット(株) が運営する国内シェアNo.1のドメイン登録サービスです。",
+  "ctas": [],
+  "videos": [],
+  "canvases": [],
+  "images": [],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Times"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "このドメインは お名前.com から取得されました。",
+  "h1Style": {
+   "fontFamily": "Times",
+   "fontSize": "19.5px",
+   "fontWeight": "700",
+   "lineHeight": "25.35px",
+   "letterSpacing": "normal",
+   "color": "rgb(68, 68, 68)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 12,
+    "y": 134,
+    "w": 366,
+    "h": 51
+   }
+  },
+  "lead": "お名前.com は GMOインターネット(株) が運営する国内シェアNo.1のドメイン登録サービスです。",
+  "ctas": [
+   "国内シェアNo.1"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [],
+  "pageHeight": 2632
+ },
+ "elapsedSec": 10.9
+}

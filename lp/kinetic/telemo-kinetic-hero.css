@@ -1,0 +1,265 @@
+/* TELEMO kinetic first view. Scoped to the homepage so the remaining sections stay intact.
+   The wordmark, floor and translucent shapes come from the Blender render (assets/telemo-blender/telemo-kinetic-hero-*.webp);
+   only micro-copy and the about block are live HTML. Sizes are vw-based so the layout keeps the 1672px mock proportions. */
+.page-home.concept-08 .hero {
+  display: block;
+  width: 100%;
+  height: auto;
+  min-height: 0;
+  padding: 0;
+  overflow: hidden;
+  isolation: isolate;
+  background: #fff;
+}
+
+.page-home.concept-08 .hero__visual {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  min-height: 0;
+  aspect-ratio: 2880 / 1120;
+  overflow: hidden;
+  background: none;
+  animation: none;
+  pointer-events: none;
+}
+.kinetic-hero__image {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: none;
+}
+
+.kinetic-hero__micro {
+  position: absolute;
+  z-index: 2;
+  margin: 0;
+  color: #8fa9c6;
+}
+.kinetic-hero__micro--left {
+  top: max(7.5vw, calc(var(--nav-height) + 4px));
+  left: 7.35vw;
+  font: 700 clamp(8px, .78vw, 22px)/1.95 Arial, sans-serif;
+  letter-spacing: .5em;
+}
+.kinetic-hero__micro--right {
+  top: max(6.9vw, calc(var(--nav-height) + 4px));
+  left: 67.6vw;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: clamp(9px, .84vw, 24px);
+  font-weight: 500;
+  line-height: 1.8;
+  letter-spacing: .3em;
+}
+.kinetic-hero__micro--right::after {
+  content: "";
+  position: absolute;
+  top: .35em;
+  left: 18.9em;
+  width: 1px;
+  height: 6.9em;
+  background: linear-gradient(180deg, rgba(143, 169, 198, 0), rgba(143, 169, 198, .6) 35%);
+  transform: rotate(41.6deg);
+  transform-origin: 50% 0;
+}
+
+/* About block: overlaps the white fade at the bottom of the render. */
+.page-home.concept-08 .hero__inner {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: minmax(0, 40%) minmax(0, 41%) minmax(0, 19%);
+  grid-template-rows: auto 1fr;
+  column-gap: 0;
+  width: min(1600px, calc(100% - 13vw));
+  min-height: 0;
+  margin: -5.2vw auto 0;
+  padding: 0 0 2.3vw;
+  align-items: start;
+}
+.page-home.concept-08 .hero__inner > .eyebrow {
+  grid-column: 1;
+  grid-row: 1;
+  margin: 0 0 24px;
+  color: #007d8c;
+  font: 700 14px/1.5 Arial, "Noto Sans JP", sans-serif;
+  letter-spacing: .22em;
+}
+.page-home.concept-08 .hero__title,
+.page-home.concept-08 .hero__title--statement {
+  grid-column: 1;
+  grid-row: 2;
+  margin: 0;
+  color: #0a2a44;
+  font-family: var(--rf-display);
+  font-size: min(2.1vw, 38px); /* longest line「コールセンター経営者がつくったAI」(約16.6em) fits the 40% column */
+  font-weight: 700;
+  font-feature-settings: normal;
+  line-height: 1.25;
+  letter-spacing: 0;
+}
+.page-home.concept-08 .hero__line1,
+.page-home.concept-08 .hero__line2 { color: #0a2a44; }
+/* boundary.css caps line2 at 7.6em on mobile (sized for the old copy) */
+.page-home.concept-08 .hero__line2 { max-width: none; }
+
+.kinetic-hero__about {
+  grid-column: 2;
+  grid-row: 1 / 3;
+  margin: 3.4vw -3vw 0 0;
+  padding: 20px 0 0 clamp(24px, 3.95vw, 80px);
+  border-left: 1px solid #d7e2ee;
+}
+.page-home.concept-08 .hero__lead {
+  max-width: none;
+  margin: 0 0 clamp(28px, 3.1vw, 60px);
+  color: #425b76;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: clamp(13px, 1.017vw, 24px);
+  font-weight: 500;
+  font-feature-settings: normal;
+  line-height: 1.85;
+  letter-spacing: 0;
+}
+.page-home.concept-08 .hero__actions { display: flex; gap: clamp(12px, 1.43vw, 32px); flex-wrap: wrap; }
+.page-home.concept-08 .hero__actions .btn {
+  min-height: clamp(52px, 3.76vw, 80px);
+  border-radius: 999px;
+  padding: 10px clamp(18px, 1.6vw, 30px);
+  font-size: clamp(13px, .9vw, 20px);
+  font-weight: 700;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, .08);
+}
+.page-home.concept-08 .hero__actions .btn--primary {
+  min-width: clamp(170px, 13.3vw, 300px);
+  justify-content: space-between;
+  padding-left: clamp(22px, 1.9vw, 40px);
+  padding-right: clamp(14px, 1.6vw, 30px);
+  background: #fd8e44;
+}
+.page-home.concept-08 .hero__actions .btn--primary:hover { background: #ed7c32; }
+.page-home.concept-08 .hero__actions .btn--ghost {
+  min-width: clamp(140px, 10.8vw, 250px);
+  justify-content: center;
+  border: 1.5px solid #007d8c;
+  background: #fff;
+  color: #007d8c;
+  text-decoration: none;
+  box-shadow: none;
+}
+.page-home.concept-08 .hero__actions .btn--ghost:hover { background: #eaf6f8; color: #00606c; }
+.page-home.concept-08 .hero__actions .btn__arrow {
+  display: inline-grid;
+  place-items: center;
+  width: clamp(30px, 2.4vw, 52px);
+  height: clamp(30px, 2.4vw, 52px);
+  border: 1.5px solid currentColor;
+  border-radius: 50%;
+  font-size: clamp(16px, 1.25vw, 26px);
+  line-height: 1;
+  transition: transform 250ms ease;
+}
+.page-home.concept-08 .hero__actions .btn:hover .btn__arrow { transform: translateX(6px); }
+
+.kinetic-hero__handwritten {
+  grid-column: 3;
+  grid-row: 1 / 3;
+  align-self: end;
+  justify-self: end;
+  margin: 0 -2.6vw 2vw 0;
+  color: #007d8c;
+  font-family: "Klee", "Hiragino Mincho ProN", "Yu Mincho", serif;
+  font-size: clamp(21px, 1.85vw, 42px);
+  font-style: italic;
+  line-height: 1.55;
+  transform: rotate(-14deg);
+}
+.kinetic-hero__handwritten small {
+  display: block;
+  margin-top: 1vw;
+  color: #8fa9c6;
+  font: 600 clamp(8px, .64vw, 15px)/1.5 Arial, sans-serif;
+  font-style: normal;
+  letter-spacing: .55em;
+  transform: rotate(14deg);
+}
+.page-home.concept-08 .hero__scroll { display: none; }
+
+/* Bottom line of the first view: in normal flow so it never overlaps the content above it. */
+.kinetic-hero__visual-footer {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: 3.1vw;
+  margin: 0;
+  padding: 0 4.9vw 2vw 7vw;
+  color: #8fa9c6;
+  font: 600 clamp(8px, .62vw, 14px)/1.4 Arial, sans-serif;
+  letter-spacing: .3em;
+}
+.kinetic-hero__visual-footer span:first-child {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  gap: 1.1vw;
+  white-space: nowrap;
+}
+.kinetic-hero__visual-footer span:first-child::after {
+  content: "";
+  display: block;
+  flex: 1;
+  height: 1px;
+  background: #dbe5ef;
+}
+.kinetic-hero__visual-footer span:last-child { white-space: nowrap; }
+.kinetic-hero__visual-footer i {
+  display: inline-block;
+  width: 2.2vw;
+  height: 1px;
+  margin: 0 .5vw .3em;
+  background: #a8c1da;
+}
+
+@media (max-width: 1279px) {
+  .page-home.concept-08 .hero__lead .brpc { display: none; }
+}
+@media (max-width: 1000px) {
+  .kinetic-hero__micro { display: none; }
+}
+@media (max-width: 1100px) {
+  .page-home.concept-08 .hero__inner { width: calc(100% - 9vw); grid-template-columns: 42% 58%; }
+  .kinetic-hero__about { margin-right: 0; padding-left: clamp(20px, 3.2vw, 35px); }
+  .page-home.concept-08 .hero__lead { font-size: clamp(13px, 1.5vw, 16px); }
+  .kinetic-hero__handwritten { display: none; }
+  .page-home.concept-08 .hero__title,
+  .page-home.concept-08 .hero__title--statement { font-size: 2.3vw; }
+}
+@media (max-width: 767px) {
+  .page-home.concept-08 .hero__inner {
+    display: block;
+    width: calc(100% - 12vw);
+    margin-top: -3vw;
+    padding: 0 0 26px;
+  }
+  .page-home.concept-08 .hero__inner > .eyebrow { margin-bottom: 12px; }
+  .page-home.concept-08 .hero__title,
+  .page-home.concept-08 .hero__title--statement { font-size: min(5.3vw, 34px); line-height: 1.42; }
+  .kinetic-hero__about { margin: 26px 0 0; padding: 0; border-left: 0; }
+  .page-home.concept-08 .hero__lead { max-width: 600px; margin-bottom: 24px; font-size: 15px; letter-spacing: .02em; }
+  .page-home.concept-08 .hero__actions { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .page-home.concept-08 .hero__actions .btn { min-width: 0; min-height: 56px; padding: 10px 18px; font-size: 13px; }
+  .page-home.concept-08 .hero__actions .btn__arrow { width: 30px; height: 30px; font-size: 16px; }
+  .kinetic-hero__visual-footer { gap: 18px; padding: 0 6vw 22px; font-size: 9px; }
+  .kinetic-hero__visual-footer span:first-child { gap: 14px; }
+  .kinetic-hero__visual-footer i { width: 22px; margin: 0 6px .3em; }
+}
+@media (max-width: 420px) {
+  .page-home.concept-08 .hero__actions { grid-template-columns: 1fr; }
+  .page-home.concept-08 .hero__actions .btn { width: 100%; justify-content: space-between; }
+  .page-home.concept-08 .hero__actions .btn--ghost { justify-content: center; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .page-home.concept-08 .hero__actions .btn__arrow { transition: none; }
+}

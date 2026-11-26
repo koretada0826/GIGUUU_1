@@ -1,0 +1,712 @@
+
+
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>BALMUDA（バルミューダ）公式サイト</title>
+<meta name="description" content="バルミューダは道具を通した素晴らしい体験を、世界中の皆様にお届けしたいと考えている企業です。公式サイトでは、すべての製品を購入いただけます。">
+<meta name="author" content="BALMUDA Inc.">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.balmuda.com/jp/">
+<meta property="og:title" content="バルミューダ株式会社">
+<meta property="og:description" content="バルミューダは道具を通した素晴らしい体験を、世界中の皆様にお届けしたいと考えている企業です。公式サイトでは、すべての製品を購入いただけます。">
+<meta property="og:site_name" content="BALMUDA Inc.">
+<meta property="og:image" content="https://www.balmuda.com/jp/index/img/og/index.png?20210404">
+<meta property="og:locale" content="ja_JP">
+<meta property="article:author" content="BALMUDA Inc.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:description" content="バルミューダは道具を通した素晴らしい体験を、世界中の皆様にお届けしたいと考えている企業です。公式サイトでは、すべての製品を購入いただけます。">
+<meta name="twitter:title" content="バルミューダ株式会社">
+<meta name="twitter:image" content="https://www.balmuda.com/jp/index/img/og/index.png?20210404">
+<meta name="twitter:site" content="@balmuda">
+<link href="//fonts.googleapis.com/css?family=Open+Sans:400" id="googlefont">
+<link rel="stylesheet" href="assets/gotham-7ba179e6ae6d52f7.css">
+<link rel="stylesheet" href="assets/clh8pgb-6b81feaa25a97c19.css">
+<link rel="shortcut icon" href="assets/favicon-9d904d788fce3810.ico">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon-2e45b4aaeab67ab2.png">
+<link rel="icon" type="image/png" href="assets/android-touch-icon-9e3b6a113102ef6b.png">
+
+
+
+<style>
+@font-face {
+    font-family: 'icon';
+    src:url('assets/icon-35fcac78dd7f2640.bin');
+    src:url('assets/icon-35fcac78dd7f2640.bin') format('embedded-opentype'),
+        url('assets/icon-715157b6fa0b8571.woff2') format('woff2'),
+        url('assets/icon-c47f09cc50584297.woff') format('woff'),
+        url('assets/icon-964fadeff5f94119.ttf') format('truetype'),
+        url('assets/icon-8f6c0182361097b4.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+</style>
+<link rel="stylesheet" href="assets/icon-ff58a4b40fa6c5a9.css">
+<link rel="stylesheet" href="assets/variables-7ff1245f5011432f.css">
+<link rel="stylesheet" media="(max-width: 640px)" href="assets/mobile-da039f80f13623f6.css">
+<link rel="stylesheet" media="(min-width: 641px)" href="assets/desktop-d0a046ba16cd1465.css"><script src="assets/jquery-2-2-4-min-c2130a061abb7e28.js"></script>
+<link rel="stylesheet" media="(max-width: 640px)" href="assets/mobile-e23b39c923286962.css">
+<link rel="stylesheet" media="(min-width: 641px)" href="assets/desktop-6425b5811588f69e.css">
+
+
+</head>
+
+<body class="">
+
+
+<script>
+$(function(){
+    $.ajax({
+        url: 'https://store.balmuda.com/cart_api/CBlGetCartCount.jsp',
+        xhrFields: {
+            withCredentials: true
+        },
+    })
+    .done(function (cartData) {
+        if (cartData.result.status == 1) {
+            return false;
+        }
+        if (cartData.data.cartCnt != 0) {
+            $('.badge').text(cartData.data.cartCnt);
+        }
+    })
+    .fail(function (xhr, status, error) {
+        console.error('データ取得失敗:', error);
+        return false;
+    });
+});
+</script>
+
+<div class="header_wrap">
+    <div class="header" id="header">
+        <div class="brand">
+            <span class="brand__icon icon__menu drawer-toggle"></span>
+            <a href="/jp/" class="brand__balmuda"><img src="assets/balmuda_fff-min-13f41c4da013ce64.svg" data-no-retina></a>
+            <a href="https://store.balmuda.com/cart/CCtViewCart_001.jsp?DISP_TP=1" class="brand__icon icon__cart__alt"><span class="badge"></span></a>
+        </div>
+            </div>
+    <!--header-->
+
+    <div class="navigation drawer-nav">
+        <ul class="navigation__content">
+            <li class="navigation__item"><a class="__item products" href="/jp/products/"><em>Products</em></a></li>
+            <li class="navigation__item"><a class="__item journal" href="/jp/journal/"><em>Journal</em></a></li>
+            <li class="navigation__item"><a class="__item recipe" href="/jp/recipe/"><em>Recipe</em></a></li>
+            <li class="navigation__item"><a class="__item about" href="/jp/about/"><em>About</em></a></li>
+            <li class="navigation__item"><a class="__item stores" href="/jp/shops/"><em>Stores</em></a></li>
+            <li class="navigation__item"><a class="__item support" href="/jp/support/"><em>サポート</em></a></li>
+            <li class="navigation__item dropdown__trigger navigation__item--open">
+                <span class="__item cart"><i class="icon__cart__alt"></i><span class="badge"></span></span>
+                <div class="__wrap __wrap--cart">
+                    <div class="__dropdown">
+                        <a class="__item __item--cart" href="https://store.balmuda.com/cart/CCtViewCart_001.jsp?DISP_TP=1">ショッピングカート</a>
+                        <a class="__item __item--mypage" href="https://store.balmuda.com/member/CMmMyPage.jsp?DISP_TP=1">マイページ</a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+<div class="main">
+        
+<div class="billboard__wrapper">
+<a href="/jp/toaster/">
+    <div class="billboard scrollLoader lazyload" id="billboard">
+       <picture>
+                <source media="(min-width: 641px)" srcset="assets/billboard-7a4b80050c9721ff.jpg">
+                <img src="assets/billboard-d170e8da6cf5fb20.jpg" alt="The New Taste BALMUDA The Toaster">
+            </picture>
+    </div>
+    </a>
+</div>
+
+
+<div class="populars_wrapper scrollLoader">
+    <div class="__wrap">
+        <h2 class="column_title __en-text">our products</h2>
+
+        <div class="inner">
+            <div class="populars">
+                <a href="/jp/the-clock/" class="popular scrollLoader lazyload">
+                        <div class="__image __47">
+                        </div>
+                        <p class="__description __47">パーソナルクロック</p>
+                    </a>
+                <a href="/jp/toaster/pro-model" class="popular scrollLoader lazyload">
+                    <div class="__image __31">
+                    </div>
+                    <p class="__description __31">サラマンダー機能つきスチームトースター</p>
+                </a>
+                <a href="/jp/range/" class="popular scrollLoader lazyload mt15">
+                    <div class="__image __46">
+                    </div>
+                    <p class="__description __46">オーブンレンジ</p>
+                </a>
+                <a href="/jp/brew/" class="popular scrollLoader lazyload mt15">
+                    <div class="__image __17">
+                        </div>
+                        <p class="__description __17">オープンドリップ式コーヒーメーカー</p>
+                    </a>
+                    <a href="/jp/pot/" class="popular scrollLoader lazyload mt15">
+                        <div class="__image __48">
+                        </div>
+                        <p class="__description __48">電気ケトル</p>
+                    </a>
+                    
+                    <a href="/jp/speaker/" class="popular scrollLoader lazyload mt15">
+                    <div class="__image __21">
+                        </div>
+                        <p class="__description __21">ワイヤレススピーカー</p>
+                    </a>
+                    
+                        
+
+            </div>
+        </div>
+        <div class="products">
+            <a href="/jp/products/" class="__button">すべての製品をみる</a>
+        </div>
+    </div>
+</div>
+
+<div class="section_wrapper">
+    <div class="section section--index section--01 scrollLoader lazyload">
+       <div class="viewport scrollLoader fadeInUp">
+               <div class="__content">
+                   <h3 class="section__subtitle">
+                       <img src="assets/balmuda-the-pot-c242f0f9cf7054e8.svg" class="__image __desktop">
+                       <img src="assets/balmuda-the-pot_sp-1108f16adcde3798.svg" class="__image __mobile">
+                   <p class="section__description">小さくて美しい電気ケトル BALMUDA The Potに、新色「クローム」が登場</p>
+                   <a href="/jp/pot/" class="__button section__btn">詳しく見る</a>
+               </div>
+       </div><!--viewport-->
+    </div><!--section-->
+</div>
+
+<div class="section_wrapper">
+    <div class="section section--index section--07 scrollLoader lazyload">
+       <div class="viewport scrollLoader fadeInUp">
+               <div class="__content">
+                   <h3 class="section__subtitle">
+                       <img src="assets/cloc-cg-fbcdf5189b8b8b94.svg" class="__image __desktop">
+                       <img src="assets/cloc-cg_sp-f1eb9b12011a1612.svg" class="__image __mobile">
+                   <p class="section__description">特別カラー「シャンパンゴールド」が登場。</p>
+                   <a href="/jp/the-clock/" class="__button section__btn">詳しく見る</a>
+               </div>
+       </div><!--viewport-->
+    </div><!--section-->
+</div>
+
+<div class="section_wrapper">
+    <div class="section section--index section--09 scrollLoader lazyload">
+       <div class="viewport scrollLoader fadeInUp">
+               <div class="__content">
+                   <h3 class="section__subtitle">
+                       <img src="assets/journal_logo-a5551177f7ec0800.svg" class="__image __desktop">
+                       <img src="assets/journal_logo_sp-7431339665a8bcf3.svg" class="__image __mobile">
+                   <p class="section__description">アート、テイスト、テクノロジー。テーマを横断しながらバルミューダの世界をお届けします。</p>
+                   <a href="/jp/journal/" class="__button section__btn">詳しく見る</a>
+               </div>
+       </div><!--viewport-->
+    </div><!--section-->
+</div>
+
+
+<div class="about_wrapper">
+    <div class="__wrap scrollLoader lazyload">
+        <h2 class="column_title __en-text">about BALMUDA</h2>
+        <p class="about__description scrollLoader lazyload">バルミューダは、2003年に東京で設立されたデザインとエンジニアリングの会社です。<br>
+        家電をはじめ、現代の生活に欠かせないさまざまな道具をつくり出しています。</p>  
+        
+        <div class="about__image scrollLoader lazyload">
+            <img data-mobile="assets/about-mobile-about--01.jpg" data-desktop="assets/about-about--01.jpg" data-retina="assets/about-about--01-2x.jpg" class="__image adaptiveimage"> 
+        </div>
+        <div class="about__copy">
+            <p class="about__copy__text scrollLoader lazyload">私たちがプロダクトを作る<br class="__mobile">理由は、<br class="__desktop">それを心から<br class="__mobile">欲しいと思ったから。</p>
+            <p class="about__copy__text_en __en-text-light scrollLoader lazyload">we make it because we want it. </p>
+        </div>
+        <a href="./about" class="__button about__btn">詳しく見る</a>
+    </div>
+</div>
+<div class="topics_wrapper">
+    <div class="viewport scrollLoader lazyload">
+        <div class="topics-header">
+            <h2 class="column_title">Topics</h2>
+            <div class="topics">
+                <a href="/jp/the-clock/sleep_feature" class="topic">
+                    <div class="__image __21 scrollLoader lazyload">
+                    </div>
+                    <h4 class="__title">The Clockに新機能が追加</h4>
+                    <p class="__description">睡眠習慣に着目した新機能“ナイトルーティン”を追加しました。心地よいサウンドが、自分らしい就寝前の習慣づくりをサポートします。</p>
+                </a>
+                <a href="/jp/journal/using_the_clock/" class="topic">
+                    <div class="__image __19 scrollLoader lazyload">
+                    </div>
+                    <h4 class="__title">私たちの使い方。The Clock </h4>
+                    <p class="__description">The Clockの1日を通じた使い方を紹介するページを公開しました。</p>
+                </a>
+                <a href="/jp/ad/greenfan-series/" class="topic">
+                    <div class="__image __18 scrollLoader lazyload">
+                    </div>
+                    <h4 class="__title">100年ぶりの革新をもたらした扇風機</h4>
+                    <p class="__description">GreenFanシリーズだけの風の気持ちよさを、ご愛用の方々の声とともに紹介します。</p>
+                </a>
+                <a href="/jp/giftwrapping/" class="topic">
+                    <div class="__image __4 scrollLoader lazyload">
+                    </div>
+                    <h4 class="__title">ギフトラッピング</h4>
+                    <p class="__description">大切な家族、友人へのプレゼントや結婚のお祝いに。ぜひ、思いを伝える機会にご利用ください。</p>
+                </a>
+                        
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="engagements_wrapper">
+    <div class="viewport">
+
+        <ul class="engagements">
+            <li class="engagement">
+                <h4 class="__title">公式アカウント</h4>
+                <p class="__description">X（旧Twitter）、facebook、Instagram、noteの公式アカウントのご案内</p>
+                <div class="__icons">
+                    <a href='//twitter.com/balmuda' target='_blank'><span class='icon__social__twitter'></span></a>
+                    <a href='//facebook.com/balmuda' target='_blank'><span class='icon__social__facebook'></span></a>
+                    <a href='//instagram.com/balmuda' target='_blank'><span class='icon__social__instagram'></span></a>
+                    <a href='https://note.com/balmuda_note/' target='_blank'><span class='icon__social__note'></span></a>
+                </div>
+            </li>
+            <li class="engagement">
+                <h4 class="__title __icon __person">製品登録のご案内</h4>
+                <p class="__description">購入製品をご登録いただくとスムーズにサポートを受けることができます</p>
+                <a href="/reg/" class="__button">詳しく</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+</div><!--main-->
+
+
+<div class="news_notice ">
+    <div class="viewport">
+        <span class="__title">News</span>
+        <div class="__wrap">
+            <div class="__button_wrap">
+                <a class="__button __button_news active">最新情報とご案内</a>
+                <a class="__button __button_notice">重要なお知らせ</a>
+            </div>
+            <div class="__change_wrap">
+                
+                <div class="__news __box active">
+                    <p class="__item"><a href="https://www.balmuda.com/jp/news/3822" class="__link">BALMUDA The Toasterリニューアル記念イベント「The New Taste」</a></p><p class="__item"><a href="https://www.balmuda.com/jp/news/3800" class="__link">11年目にして初のフルリニューアル「BALMUDA The Toaster 」</a></p><p class="__item"><a href="https://www.balmuda.com/jp/news/3789" class="__link">「BALMUDA The Pot」の限定カラー「クローム」が復刻 </a></p><p class="__item"><a href="https://www.balmuda.com/jp/news/3780" class="__link">The Clockに特別カラー「シャンパンゴールド」が登場</a></p><p class="__item"><a href="https://www.balmuda.com/jp/news/3774" class="__link">熊本地震の影響による配送遅延のお知らせ</a></p><p class="__item"><a href="https://www.balmuda.com/jp/news/3753" class="__link">【The Clock新機能】ナイトルーティンを発表</a></p>                </div>        
+                <div class="__notice __box">
+                    <p class="__item">
+                        <a href="/jp/legal/fake-website-alert" class="__link">悪質なサイト／SNSのなりすましアカウントによる詐欺被害に関するご注意</a>
+                    </p>
+                    <p class="__item">
+                        <a href="https://tech.balmuda.com/jp/support/phone/1049/" target="_blank" class="__link">BALMUDA Phone（ソフトバンク販売モデル / SIMフリーモデル）をお持ちのお客様へ重要なお知らせ</a>
+                    </p>
+                    <p class="__item">
+                        <a href="/jp/support/notice/range-program-2019/" class="__link">BALMUDA The Range（K04Aシリーズ）をお持ちのお客様へ重要なお知らせ</a>
+                    </p>
+                    <p class="__item">
+                        <a href="/jp/support/notice/toaster-program-2018/" class="__link">BALMUDA The Toaster（K01Aシリーズ）をお持ちのお客様へ重要なお知らせ</a>
+                    </p>
+                    <p class="__item">
+                        <a href="/jp/support/notice/greenfan-program-2017/" class="__link">GreenFan Japan 2014年・2015年モデルをお持ちのお客様へ重要なお知らせ</a>
+                    </p>
+                </div>
+            
+            </div>
+            <!-- __change_wrap -->
+        </div>
+        <!-- _wrap -->
+    </div>
+</div>
+
+<script>
+    $(document).ready(function() {
+    // ボタンをクリックしたときの処理
+    $('.news_notice a.__button').click(function() {
+        $('.news_notice a.__button').removeClass('active');
+        $(this).addClass('active');
+        $('.news_notice .__box').removeClass('active');
+        var index = $('.news_notice a.__button').index(this);
+        $('.news_notice .__box').eq(index).addClass('active');
+    });
+});
+</script>        <div class="subscribe">
+            <div class="viewport">
+                <p class="description"><i class="icon icon__email"></i> <br class="sp-only">バルミューダのストーリー、会員限定の特典、<br class="sp-only">ストアのイベント情報などをお届けします。　
+                <a href="/jp/subscribe/" class="btn btn--fade">購読する</a></p>
+            </div>
+            <!--viewport-->
+        </div>
+        <!--subscribe-->
+    
+<div class="footer">
+    <div class="footer__content viewport">
+        
+
+
+
+    
+
+    <div class="footer__item footer__item--sitemap">
+    <div class="sitemap">
+        <div class="sitemap__group">
+            <h5 class="sitemap__group__header">Products</h5>
+            <ul>
+                <li><a href="/jp/products/">すべての製品</a></li>
+                <li><a href="/jp/recipe/">Recipes　バルミューダのレシピ集</a></li>
+                <li><a href="/jp/supply/">消耗品・専用パーツ　フィルターなど</a></li>
+            </ul>
+        </div>
+        <div class="sitemap__group">
+            <h5 class="sitemap__group__header">News</h5>
+            <ul>
+                <li><a href="/jp/news/date/2026/">最新情報とご案内</a></li>
+                <li><a href="/jp/support/notice/">重要なお知らせ</a></li>
+            </ul>
+        </div>
+        <!--sitemap__group-->
+        <div class="sitemap__group">
+          <h5 class="sitemap__group__header">Stores</h5>
+          <ul>
+            <li><a href="/jp/shops/">旗艦店 ／ ブランドショップについて</a></li>
+          </ul>
+        </div>
+        <!--sitemap__group-->
+        <div class="sitemap__group">
+            <h5 class="sitemap__group__header">About</h5>
+            <ul>
+                <li><a href="/jp/about/">バルミューダについて</a></li>
+                <li><a href="/jp/about/story">開発ストーリー</a></li>
+                <li><a href="/jp/about/awards">受賞歴</a></li>
+                <li><a href="/jp/about/company-overview">会社概要</a></li>
+                <li><a href="https://corp.balmuda.com/recruit/" target="_blank">採用情報</a></li>
+            </ul>
+        </div>
+        <!--sitemap__group-->
+        <div class="sitemap__group">
+            <h5 class="sitemap__group__header">サポート</h5>
+            <ul>
+                <li><a href="/jp/support/">製品サポート情報</a></li>
+                <li><a href="https://faq.balmuda.com/" taget="_blank">よくあるご質問</a></li>
+                <li><a href="/jp/support/contact/">お問い合わせ</a></li>
+                <li><a href="/jp/legal/fake-website-alert">悪質なサイト／SNSのなりすましアカウントによる詐欺被害に関するご注意</a></li>
+            </ul>
+        </div>
+        <!--sitemap__group-->
+        <div class="sitemap__group">
+            <h5 class="sitemap__group__header">Online Store</h5>
+            <ul>
+                <li><a href="/jp/guide/">ご利用ガイド</a></li>
+                <li><a href="https://store.balmuda.com/member/CMmMyPage.jsp?DISP_TP=1">マイページ（BALMUDA ID）</a></li>
+                <li><a href="https://store.balmuda.com/cart/CCtViewCart_001.jsp?DISP_TP=1">ショッピングカート</a></li>
+                <li><a href="/jp/online-service/">オンラインストアだけのサービス</a></li>
+                <li><a href="/reg/">製品登録について</a></li>
+                <li><a href="/jp/giftwrapping/">ギフトラッピングについて</a></li>
+            </ul>
+        </div>
+        <!--sitemap__group-->
+        <div class="sitemap__group">
+          <h5 class="sitemap__group__header">Other Countries／Regions</h5>
+          <ul>
+            <li><a href="https://us.balmuda.com/" target="_blank">United States</a></li>
+            <li><a href="https://www.balmuda.com/de/" target="_blank">Germany</a></li>
+            <li><a href="https://www.balmuda.co.kr" target="_blank">Korea</a></li>
+            <li><a href="https://www.balmuda.com.tw" target="_blank">Taiwan</a></li>
+            <li><a href="https://balmuda.co.th" target="_blank">Thailand</a></li>
+            <li><a href="https://balmuda.com.sg/" target="_blank">Singapore</a></li>
+            <li><a href="https://balmuda.com.my" target="_blank">Malaysia</a></li>
+          </ul>
+        </div>
+        <!--sitemap__group-->
+    </div>
+    <!--sitemap-->
+</div>
+<!--footer__item-->
+    </div>
+    <!--footer__content-->
+
+    <div class="widget">
+    <div class="viewport">
+
+        <div class="widget__item widget__item--social">
+            <div class="social">
+              <a href='//twitter.com/balmuda' target='_blank' class="social__01"><span class='icon__social__twitter'></span></a>
+              <a href='//facebook.com/balmuda' target='_blank' class="social__02"><span class='icon__social__facebook'></span></a>
+              <a href='//instagram.com/balmuda/' target='_blank' class="social__03"><span class='icon__social__instagram'></span></a>
+            </div>
+            <!--social-->
+        </div>
+        <!--widget__item-->
+
+        <div class="widget__item widget__item--text">
+            <div class="footer__text">
+                <img src="assets/footer_just_because-439709c4f829bbd2.svg" class="just-because__text" width="566" height="98" alt="just because" >
+            </div>
+        </div>
+
+
+        <div class="widget__item widget__item--region">
+            <div class="legal">
+              <a href="https://corp.balmuda.com" class="legal__link" target="_blank">企業/IR情報</a>
+              <a href="/jp/legal/privacy" class="legal__link">プライバシーポリシー</a>
+              <a href="/jp/legal/cookie_porlicy" class="legal__link">クッキーポリシー</a>
+              <a href="/jp/legal/announcement" class="legal__link">個人情報に関する公表事項</a>
+              <a href="/jp/legal/terms" class="legal__link">利用規約</a>
+              <a href="/jp/legal/deal" class="legal__link">特定商取引法に基づく表示</a>
+            </div>
+            <!--legal-->
+            <div class="footer__logos">
+              <a class="footer__logo-balmuda" href="/jp/"><img src="assets/balmuda_fff-min-13f41c4da013ce64.svg" class="copyright__balmuda" width="134" height="19" data-no-retina onerror="this.src='assets/balmuda_fff-min-d3668d4d76b58e15.png';"></a>
+              <div class='copyright__text'>Copyright &copy; BALMUDA Inc. All rights reserved</div>
+            </div>
+            <!--logos-->
+        </div>
+        <!--widget__item-->
+
+    </div>
+    <!--viewport-->
+</div>
+<!--widget-->
+
+</div>
+<!--footer-->
+
+
+
+
+    <div class="section--cookie">
+        <div class="__cookie__text-box">
+            <p class="__cookie__text">
+                私たちは、お客様の閲覧体験を向上させ、トラフィックを分析するためにクッキーを使用しています。「同意する」をクリックすることで、クッキーの使用に同意したものとみなされます。詳細については、<a href="/jp/legal/cookie_porlicy" target="_blank" class="__cookie__link">クッキーポリシー</a>をご覧ください。
+            </p>
+        </div>
+        <div class="__cookie__button-box">
+            <button id="cookie-accept" class="__cookie__button __cookie__button--accept">
+                <span>同意する</span>
+            </button>
+            <button id="cookie-decline" class="__cookie__button __cookie__button--decline">
+                <span>拒否する</span>
+            </button>
+        </div>
+    </div>
+<link rel="stylesheet" href="assets/newsletter-popup-0b2b218cdbce0735.css">
+<div class="newsletter-popup" data-newsletter-popup data-subscribe-base="https://store.balmuda.com/subscribe/CBlSbSubscribeMailMagazineComplete.jsp?DISP_TP=1&amp;MLMG_EMAIL=" aria-hidden="true">
+    <button class="newsletter-popup__close" type="button" data-newsletter-popup-close aria-label="閉じる"></button>
+    <p class="newsletter-popup__title">Sign up for our Newsmail</p>
+    <p class="newsletter-popup__text">【期間限定】ニュースメールにご登録いただくと<br>7%OFFクーポンをプレゼント</p>
+    <form class="newsletter-popup__form" data-newsletter-popup-form>
+        <input class="newsletter-popup__input" type="email" name="email" placeholder="Email Address" autocomplete="email" aria-label="Email Address">
+        <button class="newsletter-popup__submit" type="submit" aria-label="登録"></button>
+    </form>
+    <p class="__note">※<a href="/jp/legal/privacy">プライバシーポリシー</a>及び<a href="/jp/legal/announcement">個人情報に関する公表事項</a>に同意のうえ、ご登録ください。</p>  
+</div>
+<script src="assets/newsletter-popup-7b43a0ffeb15a087.js" defer></script>
+<script src="assets/script__main-min-f9caba63a8e3c947.js"></script>
+<script src="assets/script__defer-min-1576815ba603738b.js" defer></script>
+<script>
+// load webfont
+(function(){
+    var webfonts = document.getElementById('googlefont');
+    webfonts.rel = 'stylesheet';
+})();
+
+// region
+$(function(){
+    var target = $('#regionDropdownWrapper');
+    var active  = '__active';
+
+    $('#regionDropdown').on('click', function(){
+        if (target.hasClass(active)) {
+            target.removeClass(active);
+        } else {
+            target.addClass(active);
+        }
+    });
+    $(document).on('click', function(event){
+        if (target.hasClass(active)) {
+            if (!$(event.target).closest('#regionDropdown').length) {
+                target.removeClass(active);
+            }
+        }
+    });
+});
+
+// header
+$(function(){
+    var $window = $(window);
+
+    // メニュー設定
+    setMenu();
+    $window.on('resize', function() {
+        setMenu();
+    });
+
+    function setMenu() {
+        var targetOpen = $('.dropdown__trigger--open');
+        // CSSのメディアクエリと同じ値でSP/PCを判定
+        if (window.matchMedia('(max-width:640px)').matches) {
+            var active  = '__active';
+            var target = $('.dropdown__trigger');
+            targetOpen.addClass(active);
+            target.off();
+            target.on({
+                'click ' : function(e){
+                    if ($(this).hasClass(active)) {
+                        $(this).removeClass(active);
+                    } else {
+                        $(this).addClass(active);
+                    }
+                }
+            });
+
+            var accordion__trigger = $('.accordion__trigger');
+            accordion__trigger.off();
+            accordion__trigger.on({
+                'click ' : function(e) {
+                    if ($(this).hasClass(active)) {
+                        $(this).removeClass(active);
+                    } else {
+                        $(this).addClass(active);
+                    }
+                    e.stopPropagation();
+                }
+            });
+
+        } else {
+            var target = $('.dropdown__trigger');
+            var active  = '__active';
+            targetOpen.removeClass(active);
+            target.off();
+
+            $('.__wrap .__item').on({
+                'touchstart ' : function(e){
+                    e.stopPropagation();
+                }
+            });
+
+            target.on({
+                'touchstart ' : function(){
+                    if ($('.dropdown__trigger').hasClass(active)) {
+                        $(this).removeClass(active);
+                    } else {
+                        $(this).addClass(active);
+                    }
+                },
+                'mouseenter ' : function(){
+                    $(this).addClass(active);
+                },
+                'mouseleave ' : function(){
+                    $(this).removeClass(active);
+                }
+            });
+        }
+    };
+});
+</script>
+
+<!-- pick up ブロック用 -->
+<script>
+$('.hide-text').hide();
+$(".readmore").on("click", function() {
+    $(this).toggleClass("on-click");
+    $(this).prev().slideToggle();
+});
+</script>
+
+
+<script>
+// function shuffleArray(array) {
+//   for (var i = array.length - 1; i > 0; i--) {
+//     var j = Math.floor(Math.random() * (i + 1));
+//     [array[i], array[j]] = [array[j], array[i]];
+//   }
+//   return array;
+// }
+//   var $slider = $("#billboard");
+//   var slides = $slider.children().get();
+//   shuffleArray(slides); 
+//   $slider.empty().append(slides);
+
+// $("#billboard").slick({
+//     arrows: false,
+//     dots: false,
+//     infinite: true,
+//     slidesToScroll: 1,
+//     autoplay: true,
+//     autoplaySpeed: 3000,
+//     speed: 2000,
+//     swipe: true,
+//     pauseOnHover: false,
+//     fade: true,
+//     zIndex: 400,
+//     cssEase: "linear",
+// });
+
+
+function shuffleArray(array) {
+  for (var i = array.length - 1; i > 0; i--) {
+    var j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
+  var $slider = $("#section");
+  var slides = $slider.children().get();
+  shuffleArray(slides); 
+  $slider.empty().append(slides);
+  
+$("#section").slick({
+    arrows: false,
+    dots: false,
+    infinite: true,
+    slidesToScroll: 1,
+    autoplay: false,
+    autoplaySpeed: 2000,
+    speed: 1000,
+    swipe: true,
+    pauseOnHover: false,
+    fade: true,
+    zIndex: 400,
+    cssEase: "linear",
+});
+</script>
+
+    <script src="assets/jquery-cookie-min-32266c68f2aa2757.js"></script>
+    <script>
+    (function() {
+        var modal = $("body.products .modal__cashless");
+        var button = $(".modal__cashless__btn");
+        var cookie = $.cookie("modal");
+        if(cookie !== "off"){
+            modal.css("display", "block");
+        }
+        button.click(function(){
+            modal.css("display", "none");
+            $.cookie("modal", "off", {path:"/"});
+        });
+    })();
+    </script>
+    <div class="modal__overlay">
+</div>
+<link rel="stylesheet" media="(max-width: 640px)" href="assets/mobile-3a8b7c6d43eeeb05.css">
+<link rel="stylesheet" media="(min-width: 641px)" href="assets/desktop-4f49675f14db698f.css">
+<script src="assets/redirect_modal-cc6d8bd5e344f51f.js"></script>
+
+
+
+</body>
+</html>

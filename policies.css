@@ -1,0 +1,171 @@
+/* Footer links and document pages share the existing white, navy and teal palette. */
+.telemo-concierge.is-footer-visible {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.footer .footer__bottom {
+  align-items: center;
+}
+
+.footer .footer__nav {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-content: start;
+}
+
+.footer .footer__nav a {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.footer .footer__nav a[aria-current="page"] {
+  color: var(--rf-accent-hover, var(--color-brand-ink));
+  text-decoration: underline;
+}
+
+.page-policy {
+  --color-brand: var(--rf-accent);
+  --color-brand-ink: var(--rf-accent-hover);
+  color: var(--rf-text);
+}
+
+.page-policy header.ggh {
+  margin-bottom: 0;
+  border-bottom: 1px solid var(--rf-border);
+}
+
+.policy-skip {
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  z-index: 101;
+  padding: 12px 20px;
+  background: var(--color-bg);
+  color: var(--rf-accent-hover);
+  transform: translateY(-200%);
+}
+
+.policy-skip:focus {
+  transform: none;
+}
+
+.policy-page {
+  width: min(52rem, calc(100% - 48px));
+  margin-inline: auto;
+  padding-block: 40px 80px;
+  scroll-margin-top: 24px;
+}
+
+.policy-page__breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+  margin-bottom: 40px;
+  color: var(--rf-text-sub);
+  font-size: 13px;
+}
+
+.policy-page h1 {
+  margin-bottom: 32px;
+  color: var(--rf-heading);
+  font-size: clamp(24px, 3vw, 36px);
+  font-weight: 800;
+  line-height: 1.6;
+  letter-spacing: .01em;
+  overflow-wrap: anywhere;
+}
+
+.policy__body {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.95;
+  overflow-wrap: anywhere;
+}
+
+.policy__body > p + p {
+  margin-top: 12px;
+}
+
+.policy__body h2 {
+  margin: 32px 0 12px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.65;
+  color: var(--rf-heading);
+}
+
+.policy__body ul {
+  margin: 12px 0;
+  padding-left: 1.5em;
+  list-style: disc;
+}
+
+.policy__body li + li {
+  margin-top: 8px;
+}
+
+.policy-page a {
+  color: var(--rf-accent-hover);
+  text-decoration: underline;
+}
+
+.policy__draft {
+  padding: 16px 20px;
+  margin-bottom: 24px;
+  background: var(--rf-surface-gray);
+  font-size: 14px;
+}
+
+.policy__pending {
+  color: var(--color-action-ink);
+  font-size: 14px;
+}
+
+.policy__date {
+  margin-top: 32px;
+  color: var(--rf-text-sub);
+  font-size: 14px;
+}
+
+.policy__facts {
+  margin: 0;
+}
+
+.policy__facts > div {
+  display: grid;
+  grid-template-columns: 11rem minmax(0, 1fr);
+  gap: 24px;
+  padding-block: 20px;
+  border-bottom: 1px solid var(--rf-border);
+}
+
+.policy__facts dt {
+  color: var(--rf-heading);
+  font-weight: 700;
+}
+
+.policy__facts dd {
+  margin: 0;
+}
+
+.policy-page__back {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  margin-top: 40px;
+}
+
+@media (max-width: 767px) {
+  .policy-page {
+    padding-block: 24px 56px;
+  }
+
+  .policy-page__breadcrumb {
+    margin-bottom: 28px;
+  }
+
+  .policy__facts > div {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 8px;
+  }
+}

@@ -1,0 +1,212 @@
+{
+ "slug": "www-bell24-co-jp",
+ "url": "https://www.bell24.co.jp/",
+ "capturedAt": "2026-10-12 21:07:38",
+ "files": {
+  "pc_f0": "www-bell24-co-jp-pc-f0.jpg",
+  "pc_f1": "www-bell24-co-jp-pc-f1.jpg",
+  "pc_f2": "www-bell24-co-jp-pc-f2.jpg",
+  "pc_scroll": "www-bell24-co-jp-pc-scroll.jpg",
+  "sp": "www-bell24-co-jp-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.bell24.co.jp/ja/",
+  "title": "Hybrid Intelligence for All | ベルシステム24",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 6722,
+  "h1": "",
+  "h1Style": {
+   "fontFamily": "noto-sans-cjk-jp, poppins, sans-serif",
+   "fontSize": "30px",
+   "fontWeight": "600",
+   "lineHeight": "42px",
+   "letterSpacing": "normal",
+   "color": "rgb(33, 37, 41)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 30,
+    "y": 5869,
+    "w": 200,
+    "h": 56
+   }
+  },
+  "lead": "ソリューション 導入事例 採用情報 BPO ニュース一覧 PICK UP Action コンタクトセンターの森 ウェルネスの空 ジモタツ IR情報 IRニュース 経営方針 業績・財務情報 IRライブラリ 決算短信 決算説明会/決算補足資料/中期経営計画 有価証券報告書/四半期報告書 統合報告書 株主通信 株式情報 IRカレンダー 個人投資家の皆さまへ FAQ 免責事項 企業情報 企業理念 社長メッセージ 会社概要 沿革 ガバナンス・コンプライアンス 拠点・ネットワーク グループ企業 動画ギャラリー R&D（新規事業開発） 生成AI Co-Creation Lab. サステナビリティ 情報セキュ",
+  "ctas": [
+   "ソリューション",
+   "事例",
+   "BPO",
+   "ニュース",
+   "トップへ",
+   "ニュース一覧",
+   "PICK UP",
+   "Action",
+   "トップへ",
+   "IRニュース",
+   "経営方針",
+   "業績・財務情報"
+  ],
+  "videos": [
+   {
+    "src": "https://www.bell24.co.jp/ja/mov/bellsystem_signage_top.mp4",
+    "autoplay": true,
+    "loop": false,
+    "muted": true,
+    "w": 1294,
+    "h": 647,
+    "playing": true
+   }
+  ],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.bell24.co.jp/ja/images/common/logo.svg",
+    "w": 195,
+    "h": 54,
+    "alt": "Bell System24"
+   },
+   {
+    "src": "https://www.bell24.co.jp/ja/images/movie_end_pc.jpg",
+    "w": 1282,
+    "h": 641,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [
+   {
+    "bg": "url(\"https://www.bell24.co.jp/ja/images/common/outlink.png\")",
+    "w": 142,
+    "h": 51
+   },
+   {
+    "bg": "url(\"https://www.bell24.co.jp/ja/images/common/outlink.png\")",
+    "w": 67,
+    "h": 51
+   },
+   {
+    "bg": "url(\"https://www.bell24.co.jp/ja/images/common/outlink.png\")",
+    "w": 68,
+    "h": 51
+   },
+   {
+    "bg": "url(\"https://www.bell24.co.jp/ja/images/common/arrow01.png\")",
+    "w": 116,
+    "h": 40
+   },
+   {
+    "bg": "url(\"https://www.bell24.co.jp/ja/images/common/arrow01.png\")",
+    "w": 116,
+    "h": 40
+   },
+   {
+    "bg": "url(\"https://www.bell24.co.jp/ja/images/common/arrow01.png\")",
+    "w": 116,
+    "h": 40
+   },
+   {
+    "bg": "url(\"https://www.bell24.co.jp/ja/images/common/arrow01.png\")",
+    "w": 116,
+    "h": 40
+   },
+   {
+    "bg": "url(\"https://www.bell24.co.jp/ja/images/common/outlink.png\")",
+    "w": 67,
+    "h": 51
+   }
+  ],
+  "firstScreenFonts": [
+   "noto-sans-cjk-jp",
+   "poppins"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "",
+  "h1Style": {
+   "fontFamily": "noto-sans-cjk-jp, poppins, sans-serif",
+   "fontSize": "26px",
+   "fontWeight": "600",
+   "lineHeight": "36.4px",
+   "letterSpacing": "normal",
+   "color": "rgb(33, 37, 41)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 30,
+    "y": 6657,
+    "w": 147,
+    "h": 41
+   }
+  },
+  "lead": "ソリューション 導入事例 採用情報 BPO ニュース一覧 PICK UP Action IR情報 企業情報 サステナビリティ お問い合わせ サイトマップ",
+  "ctas": [
+   "ソリューション",
+   "事例",
+   "BPO",
+   "ニュース",
+   "IR",
+   "企業情報",
+   "サステナビリティ",
+   "採用",
+   "お問い合わせ",
+   "JP",
+   "English",
+   "検索"
+  ],
+  "videos": [
+   {
+    "src": "https://www.bell24.co.jp/ja/mov/bellsystem_signage_top_s.mp4",
+    "autoplay": true,
+    "loop": false,
+    "muted": true,
+    "w": 333,
+    "h": 444,
+    "playing": true
+   }
+  ],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.bell24.co.jp/ja/images/movie_end_sp.jpg",
+    "w": 330,
+    "h": 440,
+    "alt": ""
+   },
+   {
+    "src": "https://www.bell24.co.jp/ja/images/index3/icon01.png",
+    "w": 48,
+    "h": 48,
+    "alt": "ブランド"
+   },
+   {
+    "src": "https://www.bell24.co.jp/ja/images/index3/icon02.png",
+    "w": 48,
+    "h": 48,
+    "alt": "ソリューション"
+   }
+  ],
+  "pageHeight": 7478
+ },
+ "elapsedSec": 12.4
+}

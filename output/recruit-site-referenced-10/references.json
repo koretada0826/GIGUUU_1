@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "site": "ベルシステム24",
+    "url": "https://www.bell24.co.jp/",
+    "captured_at": "2026-10-12",
+    "reviewed_at": "2026-10-13",
+    "screenshot": "assets/recruit/callcenter-site-referenced-10/references/01-www-bell24-co-jp.jpg",
+    "visual_element": "白地に人物の切り抜き、斜めの色面、右寄せの大きなコピー。視線が対角線に流れる構成。",
+    "adaptation": "Use the attached Bell24 screenshot's DIAGONAL composition: white background, two photorealistic Japanese call-center colleagues cut out on the LEFT, wearing real communications headsets, confidently stepping toward a shared workplace with naturally held call-script clipboard. Large restrained navy-blue headline on RIGHT, diagonal pale-blue stripe rising from lower left to upper right beneath them. A small authentic phone/CRM workstation grounds the call-center theme. Soft editorial photography, largely neutral clothing with cobalt details. No copied poses or identities from the source, no jumping stock cartoon. The composition should differ strongly from the old text-left/team-right anime.",
+    "output": "assets/recruit/callcenter-site-referenced-10/01-bell24-diagonal.png"
+  },
+  {
+    "id": 2,
+    "site": "SmartHR 採用",
+    "url": "https://recruit.smarthr.co.jp/",
+    "captured_at": "2026-10-12",
+    "reviewed_at": "2026-10-13",
+    "screenshot": "assets/recruit/callcenter-site-referenced-10/references/02-recruit-smarthr-co-jp.jpg",
+    "visual_element": "画面を支配する極太文字、段差のある白い文字面、鮮やかな色面。大きな主張と短い補足の階層。",
+    "adaptation": "Translate the SmartHR recruitment screenshot's GIANT TYPOGRAPHY and stepped white headline planes into a call-center recruitment hero. Oversized heavy clean Japanese sans-serif text spans most of left and center on staggered white strips. RIGHT third is a cobalt/pale-blue flat visual area containing a tightly framed ORIGINAL photorealistic young Japanese headset operator and a small CRM monitor. Minimal, sharply structured, typographic advertising. No gradients, source slogans, fake performance metrics or source navigation. At least 60% of visual emphasis is typography; do not return the old anime group composition.",
+    "output": "assets/recruit/callcenter-site-referenced-10/02-smarthr-type.png"
+  },
+  {
+    "id": 3,
+    "site": "自由が丘クリニック ドクターズコスメティクス 採用",
+    "url": "https://jcdc.co.jp/recruit/01/",
+    "captured_at": "2026-10-12",
+    "reviewed_at": "2026-10-13",
+    "screenshot": "assets/recruit/callcenter-site-referenced-10/references/03-jcdc-co-jp-recruit.jpg",
+    "visual_element": "大きな人物肖像、淡い背景と細い格子、縦方向の文字配置。人物の表情を主役にする。",
+    "adaptation": "Use the JCDC recruitment screenshot only as a VISUAL portrait/grid/vertical-type reference, not beauty-industry content. One large original Japanese female call-center operator portrait CENTER, lightweight headset boom mic visible, holding a call-script clipboard, candid warm attentive smile. Pale powder-blue background with a very fine white grid and gentle white margins. Place the two-line headline as elegant vertical Japanese columns on the LEFT and the short subcopy horizontally near bottom-left. Large portrait prominence and dark navy refined serif typography, recruitment editorial mood. No beauty/cosmetic products, source model identity, salary claims or copied source lettering.",
+    "output": "assets/recruit/callcenter-site-referenced-10/03-jcdc-portrait.png"
+  },
+  {
+    "id": 4,
+    "site": "JR西日本電気システム 採用",
+    "url": "https://www.j-nesco.com/recruit/",
+    "captured_at": "2026-10-12",
+    "reviewed_at": "2026-10-13",
+    "screenshot": "assets/recruit/callcenter-site-referenced-10/references/04-j-nesco-com-recruit.jpg",
+    "visual_element": "角を落とした写真フレーム、白地の細いグリッド、主張と複数の現場写真をつなぐ配置。",
+    "adaptation": "Use the NESCO screenshot's clipped polygon photo apertures and subtle technical line grid as a design grammar. On white background, LEFT lower area contains bold navy Japanese headline. RIGHT has two large connected chamfered hexagonal editorial photographic windows: upper window shows an original Japanese operator on a headset call; lower-right window shows two colleagues reviewing an unreadable customer-contact screen and call scripts. One unified finished advertising layout, not a contact sheet or separate alternative panels. Pale blue abstract diagram lines and tiny handset symbols subtly in the white field. No trains, construction uniforms, source company logos or orange brand accents.",
+    "output": "assets/recruit/callcenter-site-referenced-10/04-nesco-frames.png"
+  },
+  {
+    "id": 5,
+    "site": "Goodpatch",
+    "url": "https://goodpatch.com/ja",
+    "captured_at": "2026-10-12",
+    "reviewed_at": "2026-10-13",
+    "screenshot": "assets/recruit/callcenter-site-referenced-10/references/05-goodpatch-com-ja.jpg",
+    "visual_element": "青い立体オブジェクトの素材感と大胆なスケール。記憶に残る象徴物を中心に置く。",
+    "adaptation": "Use the Goodpatch screenshot's tactile sculptural COBALT 3D approach, adapted into a predominantly WHITE hero. A huge beautifully rendered cobalt communications headset with a correctly modeled boom microphone floats as the primary sculpture in the CENTER-RIGHT, with a few soft 3D speech-bubble forms and subtle reflections. Two very small friendly stylized operators at a white desk underneath convey call-center work. Bold navy Japanese type LEFT, generous white negative space, museum-quality product/brand sculpture aesthetics, no heart/star copies from the source, no full dark background or generic anime meeting.",
+    "output": "assets/recruit/callcenter-site-referenced-10/05-goodpatch-sculpture.png"
+  },
+  {
+    "id": 6,
+    "site": "Parloa",
+    "url": "https://www.parloa.com/",
+    "captured_at": "2026-10-12",
+    "reviewed_at": "2026-10-13",
+    "screenshot": "assets/recruit/callcenter-site-referenced-10/references/06-parloa-com.jpg",
+    "visual_element": "仕事中の自然な人物を広い写真で見せ、空いた面に文字を重ねる。会話の文脈が伝わる場面づくり。",
+    "adaptation": "Use the Parloa screenshot's candid CINEMATIC work-in-progress photography and conversation-context framing, translated to a bright Japanese call center. Original Japanese male operator on RIGHT at his workstation, in side three-quarter view mid-call with boom-mic headset, daylight highlights, a blurred colleague behind. LEFT side is a quiet bright white office wall for a refined large navy serif headline; the photograph naturally fades into the white edge. Across right-middle add two small airy hand-drawn speech cues labeled only 電話対応 and サポート, without imitation SaaS chat cards. Photographic, unposed, storytelling composition, no copied customer chat or fake timings.",
+    "output": "assets/recruit/callcenter-site-referenced-10/06-parloa-documentary.png"
+  },
+  {
+    "id": 7,
+    "site": "Clarion",
+    "url": "https://www.clarionhealth.com/",
+    "captured_at": "2026-10-12",
+    "reviewed_at": "2026-10-13",
+    "screenshot": "assets/recruit/callcenter-site-referenced-10/references/07-clarionhealth-com.jpg",
+    "visual_element": "電話対応している一人の人物と、中央寄せの落ち着いた見出し。安心感と静かな視線誘導。",
+    "adaptation": "Translate Clarion screenshot's calm single-operator full-bleed portrait and CENTERED text hierarchy into a bright original recruitment hero. A Japanese female call-center operator sits behind a monitor on the RIGHT with a natural listening expression and lightweight boom-mic headset. Airy cool-white office background, no medical content. The LEFT-to-CENTER is mostly white, and the exact two-line headline is CENTER-aligned in this quiet region in refined navy Japanese serif, with subcopy directly below. No cards, no brand logos, no CTA rendered. Very calm, expansive, premium photography; distinctly quieter and more centered than other concepts.",
+    "output": "assets/recruit/callcenter-site-referenced-10/07-clarion-calm.png"
+  },
+  {
+    "id": 8,
+    "site": "Sansan",
+    "url": "https://jp.sansan.com/",
+    "captured_at": "2026-10-12",
+    "reviewed_at": "2026-10-13",
+    "screenshot": "assets/recruit/callcenter-site-referenced-10/references/08-jp-sansan-com.jpg",
+    "visual_element": "青い線画の人物と大きな業務画面を組み合わせ、仕事の仕組みを明快に見せる。",
+    "adaptation": "Use the Sansan screenshot's blue editorial LINE-ILLUSTRATION and oversized workstation motif. White background, LEFT clean heavy navy headline. RIGHT a giant simplified CRM monitor outlined in cobalt with unreadable customer-contact rows; two stylized young Japanese headset operators in blue line art interact with the workstation, one seated and one reviewing a script. Restrained pale-blue flat fills, thin expressive navy outlines, small telephone/speech symbols. Original human scenes, no upward revenue arrow, graphs, business-card imagery, proof statistics or source brand elements.",
+    "output": "assets/recruit/callcenter-site-referenced-10/08-sansan-line.png"
+  },
+  {
+    "id": 9,
+    "site": "サイボウズ kintone",
+    "url": "https://kintone.cybozu.co.jp/",
+    "captured_at": "2026-10-12",
+    "reviewed_at": "2026-10-13",
+    "screenshot": "assets/recruit/callcenter-site-referenced-10/references/09-kintone-cybozu-co-jp.jpg",
+    "visual_element": "親しみやすい図形と丸いモチーフ、少数の要素で仕事を説明するイラスト。",
+    "adaptation": "Translate the kintone screenshot's friendly flat visual islands and rounded service-symbol world into white/pale-BLUE call-center recruitment. LEFT confident rounded navy Japanese headline. RIGHT a playful yet polished flat illustration of two young headset operators at a simple white-and-blue desk, surrounded by three large pale-blue round icon islands for a telephone, speech bubble and call-script paper. Gentle broad pale-blue arc along bottom, clean limited shapes and crisp vector-like editorial illustration. No yellow/orange, software product logos, generic fake app UI or cloned source icon geometry. This should read simpler, friendlier and less photographic than Sansan.",
+    "output": "assets/recruit/callcenter-site-referenced-10/09-kintone-playful.png"
+  },
+  {
+    "id": 10,
+    "site": "トランスコスモス",
+    "url": "https://www.trans-cosmos.co.jp/",
+    "captured_at": "2026-10-12",
+    "reviewed_at": "2026-10-13",
+    "screenshot": "assets/recruit/callcenter-site-referenced-10/references/10-www-trans-cosmos-co-jp.jpg",
+    "visual_element": "横方向の情報帯と整理されたモジュール配置。業務の種類を並べて俯瞰できる構造を人物写真へ翻訳する。",
+    "adaptation": "Use the transcosmos screenshot only for its organized HORIZONTAL INFORMATION STRIPS and structured modules, translated into a much cleaner original call-center recruitment hero. White background with headline in navy spanning the TOP-LEFT/center. Below and across RIGHT two adjacent broad editorial photo strips show distinct real call-center moments: a Japanese operator on a headset call and two colleagues consulting a script at a workstation. Thin cobalt separators and short exact small labels 電話対応 and チーム; a small white gutter makes work modes readable. Structured editorial feature-spread composition, no source news, client logos, statistics, award claims, mini cards or website navigation. Keep overall sparse and human-centered.",
+    "output": "assets/recruit/callcenter-site-referenced-10/10-transcosmos-editorial.png"
+  }
+]

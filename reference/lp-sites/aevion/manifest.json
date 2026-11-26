@@ -1,0 +1,15 @@
+{
+  "source": "https://drone.riotters.com/",
+  "final_url": "https://drone.riotters.com/",
+  "captured_at": "2026-10-12 15:46",
+  "tool": "mirror_browser.py (static DOM snapshot)",
+  "assets_saved": 50,
+  "bytes_saved": 14756132,
+  "notes": [
+    "4 canvas element(s) replaced with screenshots",
+    "videos: 8 kept, 0 replaced by a poster frame",
+    "2 pinned scroll element(s) returned to normal flow"
+  ],
+  "failed": {},
+  "skipped": {}
+}

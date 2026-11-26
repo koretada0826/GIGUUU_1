@@ -1,0 +1,411 @@
+/* Selected UI concept 08: an image-led TELEMO homepage. */
+.concept-08 .nav {
+  min-height: 82px;
+  border-bottom: 0;
+}
+.concept-08 .nav__logo {
+  font-size: 17px;
+  letter-spacing: .01em;
+}
+.concept-08 .brand-logo { width: 58px; height: 48px; }
+.concept-08 .nav__links .nav__cta { border: 0; padding-inline: 0; }
+
+.concept-08 .hero {
+  width: 100%;
+  padding: 0;
+  overflow: hidden;
+}
+.concept-08 .hero__visual {
+  width: 100%;
+  height: clamp(380px, 37vw, 550px);
+  animation: concept-08-image-in 900ms cubic-bezier(.22, 1, .36, 1) both;
+}
+.concept-08 .hero__inner {
+  width: min(var(--page-width), calc(100% - var(--page-padding) * 2));
+  margin-inline: auto;
+  padding-block: 56px 0;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  column-gap: 72px;
+  align-items: start;
+}
+.concept-08 .hero__inner > .eyebrow {
+  grid-column: 1 / -1;
+  margin-bottom: 18px;
+  font-size: 12px;
+}
+.concept-08 .hero__title {
+  grid-column: 1;
+  grid-row: 2 / 4;
+  margin: 0;
+  font-size: clamp(40px, 4.1vw, 62px);
+  font-weight: 700;
+  line-height: 1.48;
+  letter-spacing: -.055em;
+}
+.concept-08 .hero__title::before,
+.concept-08 .hero__title::after { display: none; }
+.concept-08 .hero__title--statement { font-size: clamp(34px, 3.4vw, 44px); }
+.concept-08 .hero__line1,
+.concept-08 .hero__line2 {
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  color: var(--color-text);
+  background: none;
+  white-space: normal;
+}
+.concept-08 .hero__lead {
+  grid-column: 2;
+  grid-row: 2;
+  max-width: 590px;
+  margin: 6px 0 24px;
+  font-size: 17px;
+  line-height: 1.95;
+}
+.concept-08 .hero__actions {
+  grid-column: 2;
+  grid-row: 3;
+  gap: 16px;
+}
+.concept-08 .hero__actions .btn {
+  min-height: 54px;
+  padding: 11px 25px;
+  font-size: 15px;
+}
+.concept-08 .hero__actions .btn--ghost {
+  border: 1px solid var(--color-brand-ink);
+  border-radius: 999px;
+  padding-inline: 24px;
+  color: var(--color-brand-ink);
+  text-decoration: none;
+}
+.concept-08 .hero__actions .btn--ghost:hover,
+.concept-08 .hero__actions .btn--ghost:focus-visible {
+  border-color: var(--color-brand-ink);
+  background: var(--color-brand-ink);
+  color: #fff;
+}
+.concept-08 .hero__stats {
+  grid-column: 1 / -1;
+  grid-row: 4;
+  width: 100%;
+  margin: 60px 0 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+}
+.concept-08 .hero__stats li {
+  border-top: 1px solid var(--color-line);
+  padding: 22px 12px 8px 0;
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+.concept-08 .hero__stats li + li { padding-left: 36px; }
+.concept-08 .hero__stats strong { font-size: 30px; }
+.concept-08 .hero__stats span { font-size: 13px; }
+.concept-08 .hero__stats em {
+  margin: 0 0 0 auto;
+  font-size: 13px;
+  white-space: nowrap;
+}
+.concept-08 .hero__scroll {
+  width: min(var(--page-width), calc(100% - var(--page-padding) * 2));
+  margin: 14px auto 0;
+  padding-bottom: 22px;
+}
+.concept-08 #about { padding-block: 64px 88px; }
+.concept-08 #about .sec__head { margin-bottom: 16px; }
+.concept-08 #about .panel--split {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  grid-template-rows: auto 1fr;
+  column-gap: 52px;
+  row-gap: 22px;
+  align-items: start;
+}
+.concept-08 #about .panel__lead { grid-column: 1; grid-row: 1; }
+.concept-08 #about .panel__lead h3 {
+  font-size: clamp(36px, 3.5vw, 48px);
+  line-height: 1.48;
+  letter-spacing: -.055em;
+}
+.concept-08 #about .panel__lead h3 br { display: none; }
+.concept-08 #about .panel__lead .grad { color: var(--color-text); }
+.concept-08 #about .panel__body {
+  grid-column: 1;
+  grid-row: 2;
+  max-width: 560px;
+  font-size: 15px;
+  line-height: 1.95;
+}
+.concept-08 #about .about__facts {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin: 30px 0 0;
+  padding: 0;
+  list-style: none;
+}
+.concept-08 #about .about__facts li {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  border-top: 1px solid var(--color-line);
+  padding-top: 13px;
+  line-height: 1.45;
+}
+.concept-08 #about .about__facts strong {
+  color: var(--color-brand-ink);
+  font-size: clamp(20px, 2vw, 26px);
+  line-height: 1.2;
+  letter-spacing: -.035em;
+}
+.concept-08 #about .about__facts span { font-size: 11px; }
+.concept-08 #about .about__visual {
+  grid-column: 2;
+  grid-row: 1 / 3;
+  align-self: stretch;
+  min-height: 380px;
+  background: #f4f5f7 url("./assets/concept-08-about.png") 74% center / cover no-repeat;
+}
+@keyframes concept-08-image-in {
+  from { opacity: .8; transform: scale(1.015); }
+  to { opacity: 1; transform: scale(1); }
+}
+@media (max-width: 900px) {
+  .concept-08 .hero__inner { column-gap: 36px; }
+  .concept-08 .hero__title { font-size: clamp(34px, 4.5vw, 48px); }
+  .concept-08 .hero__lead { font-size: 15px; }
+  .concept-08 .hero__lead .brpc { display: none; }
+  .concept-08 .hero__stats em { white-space: normal; }
+}
+@media (max-width: 767px) {
+  .concept-08 .nav { min-height: var(--nav-height); }
+  .concept-08 .nav__logo { font-size: 19px; }
+  .concept-08 .brand-logo { width: 44px; height: 38px; }
+  .concept-08 .nav__links .nav__cta { border: 1px solid var(--color-control); padding-inline: 14px; }
+  .concept-08 .hero__visual {
+    height: auto;
+    aspect-ratio: 8 / 3; /* 1920x720 video: show whole frame, no side crop */
+  }
+  .concept-08 .hero__inner { display: block; padding-top: 32px; }
+  .concept-08 .hero__inner > .eyebrow { margin-bottom: 12px; }
+  .concept-08 .hero__title { margin-bottom: 22px; font-size: clamp(30px, 8vw, 40px); line-height: 1.5; }
+  .concept-08 .hero__title--statement { font-size: clamp(26px, 7vw, 34px); }
+  .concept-08 .hero__lead { margin: 0 0 22px; font-size: 15px; }
+  .concept-08 .hero__actions { display: flex; gap: 10px; }
+  .concept-08 .hero__actions .btn--primary { width: 100%; }
+  .concept-08 .hero__actions .btn--ghost { border: 0; border-radius: 0; padding-inline: 4px; text-decoration: underline; }
+  .concept-08 .hero__stats { margin-top: 36px; }
+  .concept-08 .hero__stats li { flex-wrap: wrap; gap: 0 6px; padding: 14px 8px 0 0; }
+  .concept-08 .hero__stats li + li { padding-left: 16px; }
+  .concept-08 .hero__stats strong { font-size: 28px; }
+  .concept-08 .hero__stats em { flex-basis: 100%; margin: 3px 0 0; font-size: 11px; }
+  .concept-08 .hero__scroll { margin-top: 0; }
+  .concept-08 #about { padding-block: 52px 64px; }
+  .concept-08 #about .panel--split { display: block; }
+  .concept-08 #about .panel__lead h3 { font-size: 32px; }
+  .concept-08 #about .panel__body { margin-top: 20px; }
+  .concept-08 #about .about__facts { gap: 10px; margin-top: 24px; }
+  .concept-08 #about .about__facts strong { font-size: 20px; }
+  .concept-08 #about .about__facts span { font-size: 10px; }
+  .concept-08 #about .about__visual { min-height: 230px; margin-top: 28px; background-position: 68% center; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .concept-08 .hero__visual { animation: none; }
+}
+
+.concept-08 .reference-logo-band {
+  min-height: 154px;
+  border-bottom: 1px solid #e8edf4;
+  background: #fff;
+}
+.concept-08 .reference-logo-band__inner {
+  width: min(1670px, calc(100% - 64px));
+  min-height: 154px;
+  margin-inline: auto;
+  display: grid;
+  grid-template-columns: 270px minmax(0, 1fr);
+  gap: 36px;
+  align-items: center;
+}
+.concept-08 .reference-logo-band__copy { position: relative; z-index: 1; }
+.concept-08 .reference-logo-band__note {
+  margin-top: 8px;
+  color: #68798e;
+  font-size: 11px;
+  line-height: 1.5;
+}
+.concept-08 .reference-logo-band h2 {
+  color: #0b2348;
+  font-size: clamp(19px, 1.55vw, 25px);
+  line-height: 1.3;
+  letter-spacing: -.04em;
+  white-space: nowrap;
+}
+.concept-08 .reference-logo-band__logos {
+  min-width: 0;
+  overflow: hidden;
+}
+.concept-08 .reference-logo-band__logos.has-logos { mask-image: linear-gradient(90deg, transparent, #000 3%, #000 96%, transparent); }
+.concept-08 .reference-logo-band__empty {
+  display: inline-flex;
+  align-items: center;
+  min-height: 56px;
+  padding: 0 28px;
+  border: 1px dashed #c5d3e4;
+  border-radius: 8px;
+  color: #68798e;
+  font-size: 13px;
+}
+.concept-08 .reference-logo-band__logos.has-logos .reference-logo-band__empty { display: none; }
+.concept-08 .reference-logo-band__logos:not(.has-logos) .reference-logo-band__track { display: none; }
+.concept-08 .reference-logo-band__track {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  width: max-content;
+  transform: translateX(-35px);
+}
+.concept-08 .reference-logo-band__track img {
+  display: block;
+  width: auto;
+  height: 64px;
+  max-width: none;
+  object-fit: contain;
+  flex: none;
+}
+@media (max-width: 900px) {
+  .concept-08 .reference-logo-band__inner { grid-template-columns: 230px minmax(0, 1fr); gap: 22px; }
+  .concept-08 .reference-logo-band__track { gap: 30px; }
+}
+@media (max-width: 700px) {
+  .concept-08 .reference-logo-band__inner { width: calc(100% - 36px); display: block; min-height: 0; padding: 24px 0 22px; }
+  .concept-08 .reference-logo-band h2 { font-size: 22px; }
+  .concept-08 .reference-logo-band__logos { margin-top: 12px; overflow-x: auto; mask-image: none; scrollbar-width: thin; }
+  .concept-08 .reference-logo-band__track { gap: 24px; transform: none; }
+  .concept-08 .reference-logo-band__track img { height: 54px; }
+}
+
+.concept-08 .reference-logo-band__track {
+  gap: 0;
+  transform: none;
+  animation: reference-logo-scroll 32s linear infinite;
+  animation-delay: -2s;
+}
+.concept-08 .reference-logo-band__group {
+  display: flex;
+  align-items: center;
+  flex: none;
+  gap: 48px;
+  padding-right: 48px;
+}
+.concept-08 .reference-logo-band__logos:hover .reference-logo-band__track,
+.concept-08 .reference-logo-band__logos:focus-within .reference-logo-band__track { animation-play-state: paused; }
+@keyframes reference-logo-scroll { to { transform: translateX(-50%); } }
+@media (max-width: 900px) {
+  .concept-08 .reference-logo-band__group { gap: 30px; padding-right: 30px; }
+}
+@media (max-width: 700px) {
+  .concept-08 .reference-logo-band__logos.has-logos { overflow: hidden; mask-image: linear-gradient(90deg, transparent, #000 5%, #000 95%, transparent); }
+  .concept-08 .reference-logo-band__group { gap: 24px; padding-right: 24px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .concept-08 .reference-logo-band__track { animation: none; }
+  .concept-08 .reference-logo-band__logos.has-logos { overflow-x: auto; mask-image: none; }
+}
+
+@media (min-width: 901px) {
+  .concept-08 .hero {
+    height: calc(100svh - 219px);
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+  }
+  .concept-08 .hero__visual {
+    flex: 0 0 48%;
+    height: auto;
+    min-height: 0;
+  }
+  .concept-08 .hero__inner {
+    flex: 1;
+    min-height: 0;
+    padding-block: clamp(12px, 2vh, 24px) 10px;
+    column-gap: 48px;
+  }
+  .concept-08 .hero__inner > .eyebrow { margin-bottom: 8px; }
+  .concept-08 .hero__title { font-size: clamp(34px, 3.4vw, 54px); line-height: 1.26; }
+  .concept-08 .hero__title--statement { font-size: clamp(30px, 2.9vw, 44px); }
+  .concept-08 .hero__lead { margin: 0 0 12px; font-size: 15px; line-height: 1.7; }
+  .concept-08 .hero__actions .btn { min-height: 46px; padding: 8px 20px; font-size: 13px; }
+  .concept-08 .hero__stats { margin-top: 18px; }
+  .concept-08 .hero__stats li { padding: 10px 8px 0 0; }
+  .concept-08 .hero__stats strong { font-size: 25px; }
+  .concept-08 .hero__stats em { font-size: 11px; }
+  .concept-08 .hero__scroll { display: none; }
+  .concept-08 .reference-logo-band,
+  .concept-08 .reference-logo-band__inner { height: 120px; min-height: 120px; }
+  .concept-08 .reference-logo-band__track img { height: 56px; }
+}
+@media (min-width: 901px) and (max-height: 759px) {
+  .concept-08 .hero {
+    height: calc(100svh - 209px);
+    min-height: 0;
+    display: grid;
+    grid-template-columns: 46% 54%;
+  }
+  .concept-08 .hero__visual {
+    grid-column: 1;
+    grid-row: 1;
+    align-self: center;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 8 / 3; /* match the 1920x720 video so no letterbox bars */
+  }
+  .concept-08 .hero__inner {
+    grid-column: 2;
+    grid-row: 1;
+    display: block;
+    width: auto;
+    margin: 0;
+    padding: 16px 28px 12px 0;
+  }
+  .concept-08 .hero__inner > .eyebrow { margin-bottom: 6px; }
+  .concept-08 .hero__title { margin-bottom: 9px; font-size: clamp(29px, 3vw, 43px); line-height: 1.22; }
+  .concept-08 .hero__title--statement { font-size: clamp(28px, 2.7vw, 40px); }
+  .concept-08 .hero__lead { max-width: 48em; margin-bottom: 10px; font-size: 14px; line-height: 1.55; }
+  .concept-08 .hero__actions { gap: 10px; }
+  .concept-08 .hero__actions .btn { min-height: 42px; }
+  .concept-08 .hero__stats { margin-top: 12px; }
+  .concept-08 .hero__stats li { padding-top: 7px; }
+  .concept-08 .reference-logo-band,
+  .concept-08 .reference-logo-band__inner { height: 110px; min-height: 110px; }
+}
+
+.concept-08 .hero__visual {
+  position: relative;
+  /* white studio backdrop behind the transparent 3D canvas (tones taken from the hero render) */
+  background: radial-gradient(120% 140% at 22% 8%, #fefdfb 0%, #f6f7f9 52%, #e9ecf0 100%);
+}
+.concept-08 .hero__visual .model-viewer {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  margin: 0;
+  aspect-ratio: auto;
+}
+/* WebGL unavailable / load failure: rendered poster. TELEMO sits in ~31-68% of its height, so cover is safe up to ~6:1 */
+.concept-08 .hero__visual .model-viewer__poster { object-fit: cover; }
+/* Ultrawide-and-short screens: keep the box at most ~5.6:1 so the letters keep some headroom */
+@media (min-width: 901px) and (min-height: 760px) {
+  .concept-08 .hero__visual { min-height: calc(100vw / 5.6); }
+}
+/* Portrait/tablet boxes: use the 8:3 frame of the hero render */
+@media (min-width: 768px) and (max-width: 900px), (min-width: 901px) and (max-aspect-ratio: 9 / 8) {
+  .concept-08 .hero__visual { flex: 0 0 auto; height: auto; min-height: 0; aspect-ratio: 8 / 3; }
+}

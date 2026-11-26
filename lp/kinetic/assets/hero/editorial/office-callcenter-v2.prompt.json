@@ -1,0 +1,11 @@
+{
+  "use_case": "photorealistic-natural",
+  "asset_type": "TELEMO corporate hero background photograph",
+  "reference_role": "Attached office photograph is a concept and atmosphere reference; generate a NEW photograph, not the same awkward poses.",
+  "primary_request": "A realistic documentary photograph inside a Japanese call center, same quiet trustworthy corporate concept. Correct anatomical hand and arm positions.",
+  "scene": "Neutral beige and gray office, rows of ordinary desks and monitors, Japanese employees naturally working, soft office daylight.",
+  "subject": "A Japanese female operator wearing a charcoal business jacket and a professional telephone headset, seated in the right half of the frame. She is speaking calmly while working. Both forearms extend naturally from her shoulders toward the desk; both wrists rest naturally in front of her, fingers gently on a keyboard. Her hands are NOT touching her face, chin, headset, or telephone. Clearly coherent anatomy and visible natural elbows and wrists. Other colleagues in soft focus behind her, also with hands naturally at their desks.",
+  "composition": "Wide landscape 16:9 corporate documentary hero photograph. Medium-wide side view showing the woman's torso, both forearms and desk so arm continuity is clear. Main woman on right half, softer background on left for overlaid HTML copy. Avoid cropped foreground faces.",
+  "lighting": "Soft natural daylight, understated warm-neutral colors, realistic skin and fabric textures, subtle shallow depth of field.",
+  "constraints": "No text, logos, watermarks, futuristic interfaces, neon, artificial glow. No distorted hands, duplicate fingers, detached limbs, crossed impossible arms, hands floating beside face. Keep authentic Japanese call-center setting and sophisticated photographic realism."
+}

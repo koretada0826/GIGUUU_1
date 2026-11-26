@@ -1,0 +1,105 @@
+{
+ "slug": "recruiting-forkwell-com",
+ "url": "https://recruiting.forkwell.com/",
+ "capturedAt": "2026-10-12 21:12:33",
+ "files": {
+  "pc_f0": "recruiting-forkwell-com-pc-f0.jpg",
+  "pc_f1": "recruiting-forkwell-com-pc-f1.jpg",
+  "pc_f2": "recruiting-forkwell-com-pc-f2.jpg",
+  "pc_scroll": "recruiting-forkwell-com-pc-scroll.jpg",
+  "sp": "recruiting-forkwell-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://recruiting.forkwell.com/",
+  "title": "Checking your browser...",
+  "lang": null,
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 900,
+  "h1": "Confirm you are human",
+  "h1Style": {
+   "fontFamily": "\"Helvetica Neue\", HelveticaNeue, Helvetica, Arial, sans-serif",
+   "fontSize": "32px",
+   "fontWeight": "500",
+   "lineHeight": "normal",
+   "letterSpacing": "normal",
+   "color": "rgb(17, 21, 22)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 547,
+    "y": 323,
+    "w": 345,
+    "h": 55
+   }
+  },
+  "lead": "We need to check you're not a robot before you can enter this site. I am human",
+  "ctas": [],
+  "videos": [],
+  "canvases": [],
+  "images": [],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Helvetica Neue"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 0,
+ "sp": {
+  "h1": "即戦力エンジニア採用なら「Forkwell Jobs」",
+  "h1Style": {
+   "fontFamily": "\"Noto Sans JP\", sans-serif",
+   "fontSize": "13px",
+   "fontWeight": "700",
+   "lineHeight": "21.45px",
+   "letterSpacing": "0.291174px",
+   "color": "rgb(35, 35, 35)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 30,
+    "y": 0,
+    "w": 360,
+    "h": 21
+   }
+  },
+  "lead": null,
+  "ctas": [],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://recruiting.forkwell.com/wp-content/themes/well-05/common/img/logo.svg",
+    "w": 218,
+    "h": 45,
+    "alt": "Forkwell jobs"
+   },
+   {
+    "src": "https://recruiting.forkwell.com/wp-content/themes/well-05/img/top/mainillust_new-min.png",
+    "w": 560,
+    "h": 363,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 14649
+ },
+ "elapsedSec": 12.0
+}

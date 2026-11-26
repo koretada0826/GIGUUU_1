@@ -1,0 +1,179 @@
+{
+  "count": 10,
+  "tool": "image_gen__imagegen (built-in)",
+  "actual_model": null,
+  "images": [
+    {
+      "id": 1,
+      "title": "明るいチーム・アニメ",
+      "headline": [
+        "あなたの声が、",
+        "チームの力になる。"
+      ],
+      "file": "assets/recruit/callcenter-concepts-10/01-anime-team.png",
+      "prompt_file": "assets/recruit/callcenter-concepts-10/01-anime-team.prompt.json",
+      "dimensions": [
+        1938,
+        811
+      ],
+      "bytes": 2229396,
+      "sha256": "de27cbd78318a4cb11f30346d1709b1313d4ade06e15d5ee5c8d3d39ab5f59de",
+      "visual_check": "Generated image individually opened and checked by coordinator and asset worker."
+    },
+    {
+      "id": 2,
+      "title": "やさしい水彩・人の温度",
+      "headline": [
+        "話すことから、",
+        "未来が動き出す。"
+      ],
+      "file": "assets/recruit/callcenter-concepts-10/02-watercolor-human.png",
+      "prompt_file": "assets/recruit/callcenter-concepts-10/02-watercolor-human.prompt.json",
+      "dimensions": [
+        1938,
+        811
+      ],
+      "bytes": 2442426,
+      "sha256": "ccf9a328870a7c5af96e26a0d627516857b7a15a0713a1e8e6603ed558650b41",
+      "visual_check": "Generated image individually opened and checked by coordinator and asset worker."
+    },
+    {
+      "id": 3,
+      "title": "実写・自然なオフィス",
+      "headline": [
+        "人と話す仕事を、",
+        "もっとおもしろく。"
+      ],
+      "file": "assets/recruit/callcenter-concepts-10/03-documentary-office.png",
+      "prompt_file": "assets/recruit/callcenter-concepts-10/03-documentary-office.prompt.json",
+      "dimensions": [
+        1942,
+        809
+      ],
+      "bytes": 1888843,
+      "sha256": "1a93b861d109318398d2cc8bc33ea1ed0df53710d1877ca3dc6a10d50bb99af3",
+      "visual_check": "Generated image individually opened and checked by coordinator and asset worker."
+    },
+    {
+      "id": 4,
+      "title": "レトロ・電話の仲間たち",
+      "headline": [
+        "声をつなぐ。",
+        "仲間とつくる。"
+      ],
+      "file": "assets/recruit/callcenter-concepts-10/04-retro-mascots.png",
+      "prompt_file": "assets/recruit/callcenter-concepts-10/04-retro-mascots.prompt.json",
+      "dimensions": [
+        1940,
+        810
+      ],
+      "bytes": 2596051,
+      "sha256": "19114d7a4691db57d5da36dd3d2f6988cd88e3adda8e85675be31b8963caf255",
+      "visual_check": "Generated image individually opened and checked by coordinator and asset worker."
+    },
+    {
+      "id": 5,
+      "title": "立体・小さなコールセンター",
+      "headline": [
+        "ひとつの声から、",
+        "チームの未来へ。"
+      ],
+      "file": "assets/recruit/callcenter-concepts-10/05-isometric-team.png",
+      "prompt_file": "assets/recruit/callcenter-concepts-10/05-isometric-team.prompt.json",
+      "dimensions": [
+        1938,
+        811
+      ],
+      "bytes": 1970019,
+      "sha256": "e55121d7b0d046b6a0d515adf306d2a743dd26e72b4af45224b3c54f45bc1c63",
+      "visual_check": "Generated image individually opened and checked by coordinator and asset worker."
+    },
+    {
+      "id": 6,
+      "title": "実写・オペレーターの横顔",
+      "headline": [
+        "その一言が、",
+        "誰かの力になる。"
+      ],
+      "file": "assets/recruit/callcenter-concepts-10/06-portrait-operator.png",
+      "prompt_file": "assets/recruit/callcenter-concepts-10/06-portrait-operator.prompt.json",
+      "dimensions": [
+        1938,
+        811
+      ],
+      "bytes": 1889691,
+      "sha256": "c0acb1f8a84859bfaa1bb5e7b935ff48b0eb2b858f36441a4ecf2474b2d88f6f",
+      "visual_check": "Generated image individually opened and checked by coordinator and asset worker."
+    },
+    {
+      "id": 7,
+      "title": "漫画・会話が動く現場",
+      "headline": [
+        "話す。つながる。",
+        "一緒に、前へ。"
+      ],
+      "file": "assets/recruit/callcenter-concepts-10/07-manga-energy.png",
+      "prompt_file": "assets/recruit/callcenter-concepts-10/07-manga-energy.prompt.json",
+      "dimensions": [
+        1938,
+        811
+      ],
+      "bytes": 2293793,
+      "sha256": "6303fa1c9c8f7a7dea63f6d00c41d0865104a11c2a217d8c76c5d477c770bf6e",
+      "visual_check": "Generated image individually opened and checked by coordinator and asset worker."
+    },
+    {
+      "id": 8,
+      "title": "白い余白・洗練された現場",
+      "headline": [
+        "声を届ける。",
+        "信頼を育てる。"
+      ],
+      "file": "assets/recruit/callcenter-concepts-10/08-minimal-editorial.png",
+      "prompt_file": "assets/recruit/callcenter-concepts-10/08-minimal-editorial.prompt.json",
+      "dimensions": [
+        1938,
+        811
+      ],
+      "bytes": 1801277,
+      "sha256": "e28870712dba26523a3518ce8270eee501060e87e9752dd4b257b0746afc2c99",
+      "visual_check": "Generated image individually opened and checked by coordinator and asset worker."
+    },
+    {
+      "id": 9,
+      "title": "アニメ・仲間への招待",
+      "headline": [
+        "次の一歩を、",
+        "このチームで。"
+      ],
+      "file": "assets/recruit/callcenter-concepts-10/09-welcoming-leader.png",
+      "prompt_file": "assets/recruit/callcenter-concepts-10/09-welcoming-leader.prompt.json",
+      "dimensions": [
+        1938,
+        811
+      ],
+      "bytes": 2300497,
+      "sha256": "d6370d7638afa7806bda53336971174f21476f27cc4d1ca4ae3902db328612cd",
+      "visual_check": "Generated image individually opened and checked by coordinator and asset worker."
+    },
+    {
+      "id": 10,
+      "title": "紙の立体・声のつながり",
+      "headline": [
+        "声の向こうに、",
+        "笑顔を届けよう。"
+      ],
+      "file": "assets/recruit/callcenter-concepts-10/10-paper-voice.png",
+      "prompt_file": "assets/recruit/callcenter-concepts-10/10-paper-voice.prompt.json",
+      "dimensions": [
+        1942,
+        809
+      ],
+      "bytes": 2302598,
+      "sha256": "311ee33f5c0e91deb659c59f76be0881d5084e1e12f2c7665e24667e1964a80c",
+      "visual_check": "Generated image individually opened and checked by coordinator and asset worker."
+    }
+  ],
+  "gallery": "review-board.html",
+  "site_asset_automatically_replaced": false
+}

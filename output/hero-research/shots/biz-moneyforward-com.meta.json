@@ -1,0 +1,172 @@
+{
+ "slug": "biz-moneyforward-com",
+ "url": "https://biz.moneyforward.com/",
+ "capturedAt": "2026-10-12 21:07:38",
+ "files": {
+  "pc_f0": "biz-moneyforward-com-pc-f0.jpg",
+  "pc_f1": "biz-moneyforward-com-pc-f1.jpg",
+  "pc_f2": "biz-moneyforward-com-pc-f2.jpg",
+  "pc_scroll": "biz-moneyforward-com-pc-scroll.jpg",
+  "sp": "biz-moneyforward-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://biz.moneyforward.com/",
+  "title": "バックオフィスの悩みはマネーフォワードで解決 - マネーフォワード クラウド",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 15578,
+  "h1": "バックオフィスから経営を強くする",
+  "h1Style": {
+   "fontFamily": "\"Noto Sans JP\", \"Helvetica Neue\", Arial, \"Hiragino Kaku Gothic ProN\", \"Hiragino Sans\", Meiryo, sans-serif",
+   "fontSize": "11px",
+   "fontWeight": "400",
+   "lineHeight": "11px",
+   "letterSpacing": "normal",
+   "color": "rgb(155, 160, 177)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 40,
+    "y": 60,
+    "w": 240,
+    "h": 11
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "バックオフィスから経営を強くする",
+   "料金",
+   "サービス一覧",
+   "連携サービス",
+   "セキュリティ",
+   "お役立ち資料",
+   "AIソリューション",
+   "＼料金・機能紹介／ 資料請求",
+   "クレカ登録不要・自動課金なしで1ヶ月使える！ 実際の画面を無料で試す",
+   "いま自社に必要な機能が5分でわかる！ サービス資料をダウンロード"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://assets-biz-portal.moneyforward.com/packs/dist/images/shared/campaigns/accountings/img_infobar_pc@2x-cfe4b2e8d4004e41ab9806b6f80adaf2.png",
+    "w": 1144,
+    "h": 48,
+    "alt": "終了まで残りわずか！10月31日土曜日まで 法人限定キャンペーン クラウド会計が最大1年間 実質0円 詳しく見る"
+   },
+   {
+    "src": "https://assets-biz-portal.moneyforward.com/packs/dist/images/tops/img_main_visual_badge_pc@2x-9771c76cd66d14340144d15bf9cb43c0.png",
+    "w": 300,
+    "h": 66,
+    "alt": ""
+   },
+   {
+    "src": "https://assets-biz-portal.moneyforward.com/packs/dist/images/tops/img_main_visual_pc@2x-8b410bc2593190f0e03b7e5b41fd0dc1.png",
+    "w": 544,
+    "h": 412,
+    "alt": "利用事業者数40万事業者突破！※"
+   },
+   {
+    "src": "https://assets-biz-portal.moneyforward.com/packs/dist/images/tops/icon_button_registration@2x-080d77531d4de628b40c98d09453dfe5.png",
+    "w": 96,
+    "h": 60,
+    "alt": ""
+   },
+   {
+    "src": "https://assets-biz-portal.moneyforward.com/packs/dist/images/tops/icon_button_document@2x-caf519d65c4e9822d87bc812e500c280.png",
+    "w": 96,
+    "h": 60,
+    "alt": ""
+   },
+   {
+    "src": "https://assets-biz-portal.moneyforward.com/packs/dist/images/shared/chatbot/img_chatbot_pc@2x-81fb878e875463d70f6e733096dfeb7a.png",
+    "w": 188,
+    "h": 68,
+    "alt": "AIに相談する"
+   }
+  ],
+  "backgroundImages": [
+   {
+    "bg": "url(\"https://assets-biz-portal.moneyforward.com/packs/dist/521e7e10c7772d1e84ac.svg\")",
+    "w": 48,
+    "h": 48
+   }
+  ],
+  "firstScreenFonts": [
+   "Noto Sans JP"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "バックオフィスから経営を強くする",
+  "h1Style": {
+   "fontFamily": "\"Noto Sans JP\", \"Helvetica Neue\", Arial, \"Hiragino Kaku Gothic ProN\", \"Hiragino Sans\", Meiryo, sans-serif",
+   "fontSize": "9px",
+   "fontWeight": "400",
+   "lineHeight": "9px",
+   "letterSpacing": "normal",
+   "color": "rgb(155, 160, 177)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 8,
+    "y": 13,
+    "w": 180,
+    "h": 9
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "資料請求",
+   "料金",
+   "個人向け",
+   "新設法人1年目向け",
+   "小規模〜中小企業向け",
+   "IPO準備・中堅〜上場企業向け",
+   "料金シミュレーション",
+   "サービス一覧",
+   "連携サービス",
+   "セキュリティ",
+   "お役立ち資料",
+   "AIソリューション"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://assets-biz-portal.moneyforward.com/packs/dist/images/shared/campaigns/accountings/img_infobar_sp@2x-d7fa8bd991b1bacdce36da991f03b859.png",
+    "w": 375,
+    "h": 56,
+    "alt": "終了まで残りわずか！10月31日土曜日まで 法人限定キャンペーン クラウド会計が最大1年間 実質0円 詳しく見る"
+   },
+   {
+    "src": "https://assets-biz-portal.moneyforward.com/packs/dist/images/tops/img_main_visual_sp@2x-5bc024504d4bd9b314d3e16cdaf35970.png",
+    "w": 318,
+    "h": 197,
+    "alt": "利用事業者数40万事業者突破！※"
+   }
+  ],
+  "pageHeight": 21256
+ },
+ "elapsedSec": 13.2
+}

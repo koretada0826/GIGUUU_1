@@ -1,0 +1,19 @@
+{
+  "width": 256,
+  "height": 384,
+  "fps": 12,
+  "states": {
+    "idle": {
+      "frames": 6
+    },
+    "walk": {
+      "frames": 12
+    },
+    "talk": {
+      "frames": 8
+    },
+    "wave": {
+      "frames": 8
+    }
+  }
+}

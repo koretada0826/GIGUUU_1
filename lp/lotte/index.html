@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI営業代行 TELEMO｜月22,000コール・月額35万円｜GIGUUU株式会社</title>
+    <meta
+      name="description"
+      content="AIが架電から受注まで営業を行う「TELEMO」。月22,000コール、月額350,000円（税別）。トークツリーの設計・改善、通話データの分析・レポート、営業コンサルタントの伴走まで月額に含みます。"
+    />
+
+    <!-- フォント：英字 Roboto + 日本語 Noto Sans JP -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Roboto:wght@700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./telemo-lotte.css" />
+  </head>
+
+  <body class="tl-page">
+    <!-- ============ ヘッダー（白い上段＋ネイビーの帯ナビ／SP は固定ヘッダー＋MENU ドロワー） ============ -->
+    <header class="tl-section tl-header" id="tl-header">
+      <div class="tl-header__top">
+        <div class="tl-header__inner">
+          <a class="tl-header__brand" href="#hero">
+            <span class="tl-header__mark"><img src="giguuu-logo.png" alt="GIGUUU株式会社" width="842" height="595" /></span>
+            <span class="tl-header__name">
+              <span class="tl-header__name-sub">AI営業代行</span>
+              <span class="tl-header__name-main">TELEMO</span>
+            </span>
+          </a>
+          <div class="tl-header__utility">
+            <a class="tl-header__sublink" href="#demo"><span class="tl-play" aria-hidden="true"></span>実際の営業音声を聴く</a>
+            <a class="tl-btn tl-btn--green tl-header__cta" href="#contact">無料で相談する<span class="tl-btn__chev" aria-hidden="true"></span></a>
+          </div>
+          <button type="button" class="tl-menu-btn" id="tl-menu-btn" aria-expanded="false" aria-controls="tl-gnav">
+            <span class="tl-menu-btn__icon" aria-hidden="true"><span></span><span></span><span></span></span>
+            <span class="tl-menu-btn__label">MENU</span>
+          </button>
+        </div>
+      </div>
+      <nav class="tl-gnav" id="tl-gnav" aria-label="メインメニュー">
+        <ul class="tl-gnav__list">
+          <li><a class="tl-gnav__link" href="#telemo">TELEMOとは</a></li>
+          <li><a class="tl-gnav__link" href="#pricing">料金</a></li>
+          <li><a class="tl-gnav__link" href="#flow">導入の流れ</a></li>
+          <li><a class="tl-gnav__link" href="#company">会社情報</a></li>
+          <li class="tl-gnav__cta"><a class="tl-btn tl-btn--green" href="#contact">無料で相談する<span class="tl-btn__chev" aria-hidden="true"></span></a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- ============ HERO（全幅の帯：左にキャッチ、右に管理画面ビジュアル／帯の下中央に ‹ ○○○ ⏸ ›） ============ -->
+      <section class="tl-section tl-hero" id="hero" aria-labelledby="tl-hero-title">
+        <div class="tl-hero__band">
+          <div class="tl-hero__inner">
+            <div class="tl-hero__copy">
+              <p class="tl-hero__en">AI SALES AUTOMATION</p>
+              <h1 class="tl-hero__title" id="tl-hero-title">営業を、<br />人から『仕組み』へ。</h1>
+              <p class="tl-hero__sub">月<b>22,000</b>コール。月額<b>35</b>万円。<br />AIが受注までやりきる。</p>
+              <div class="tl-hero__actions">
+                <a class="tl-btn tl-btn--green" href="#contact">無料で相談する<span class="tl-btn__chev" aria-hidden="true"></span></a>
+                <a class="tl-btn tl-btn--outline" href="#demo"><span class="tl-play" aria-hidden="true"></span>実際の営業音声を聴く</a>
+              </div>
+            </div>
+
+            <div class="tl-hero__visual" role="region" aria-roledescription="carousel" aria-label="TELEMO 管理画面のイメージ">
+              <div class="tl-app">
+                <div class="tl-app__side" aria-hidden="true">
+                  <p class="tl-app__brand">TELEMO<span>管理画面</span></p>
+                  <ul class="tl-app__menu">
+                    <li class="tl-app__menu-item" data-tl-side="0"><svg viewBox="0 0 16 16" width="16" height="16"><path d="M2 2h5v5H2zM9 2h5v5H9zM2 9h5v5H2zM9 9h5v5H9z" fill="none" stroke="currentColor" stroke-width="1.6"/></svg><span>ダッシュボード</span></li>
+                    <li class="tl-app__menu-item" data-tl-side="1"><svg viewBox="0 0 16 16" width="16" height="16"><path d="M2 3.5h12M2 8h12M2 12.5h8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg><span>通話ログ</span></li>
+                    <li class="tl-app__menu-item" data-tl-side="2"><svg viewBox="0 0 16 16" width="16" height="16"><path d="M4 11V7a4 4 0 0 1 8 0v4l1.5 1.5h-11zM6.5 14h3" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg><span>通知</span></li>
+                    <li class="tl-app__menu-item"><svg viewBox="0 0 16 16" width="16" height="16"><path d="M3.5 1.8h6l3 3v9.4h-9zM6 8.5h4.5M6 11.5h4.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg><span>レポート</span></li>
+                  </ul>
+                  <p class="tl-app__status"><i></i>自動架電 稼働中</p>
+                </div>
+                <div class="tl-app__main">
+                  <div class="tl-app__bar" aria-hidden="true">
+                    <p class="tl-app__title" data-tl-title>ダッシュボード</p>
+                    <p class="tl-app__live">24時間 自動架電</p>
+                  </div>
+                  <div class="tl-app__viewport">
+                    <ul class="tl-app__track" id="tl-hero-track" aria-live="off">
+                      <!-- ① コール数カウンター -->
+                      <li class="tl-app__slide is-active" role="group" aria-roledescription="slide" aria-label="1 / 3：今月のコール数" data-tl-name="ダッシュボード">
+                        <p class="tl-visually-hidden">今月の架電数が、月間 22,000コールの枠に対してどこまで進んでいるかを示す画面のイメージ。</p>
+                        <div class="tl-dash" aria-hidden="true">
+                          <div class="tl-card tl-dash__count">
+                            <p class="tl-card__label">今月の架電数</p>
+                            <p class="tl-dash__num"><span data-tl-count="16482" data-tl-max="22000">16,482</span><small>/ 22,000 コール</small></p>
+                            <div class="tl-dash__meter"><span></span></div>
+                            <p class="tl-dash__meta"><span>月間 22,000コール枠</span><span>残り <b data-tl-remain>5,518</b> コール（翌月へ繰り越し）</span></p>
+                          </div>
+                          <div class="tl-card tl-dash__chart">
+                            <p class="tl-card__label">日別の架電数<span>直近7日</span></p>
+                            <svg viewBox="0 0 224 92" preserveAspectRatio="none" class="tl-dash__bars">
+                              <rect x="4" y="30" width="20" height="62" rx="2"/><rect x="36" y="22" width="20" height="70" rx="2"/><rect x="68" y="34" width="20" height="58" rx="2"/><rect x="100" y="18" width="20" height="74" rx="2"/><rect x="132" y="26" width="20" height="66" rx="2"/><rect x="164" y="38" width="20" height="54" rx="2"/><rect x="196" y="14" width="20" height="78" rx="2" class="is-today"/>
+                            </svg>
+                            <p class="tl-dash__axis"><span>7日前</span><span>今日</span></p>
+                          </div>
+                          <div class="tl-card tl-dash__today">
+                            <p class="tl-card__label">本日の架電</p>
+                            <p class="tl-dash__today-num">742<small>コール</small></p>
+                            <p class="tl-dash__today-sub">最終架電 10:42</p>
+                          </div>
+                        </div>
+                      </li>
+                      <!-- ② 通話ログ -->
+                      <li class="tl-app__slide" role="group" aria-roledescription="slide" aria-label="2 / 3：通話ログ" data-tl-name="通話ログ">
+                        <p class="tl-visually-hidden">架電した時刻、架電先（伏せ字）、担当者接続・営業トーク・アウト返し・テスクロ・クロージングといった工程が並ぶ通話ログ画面のイメージ。</p>
+                        <div class="tl-card tl-log" aria-hidden="true">
+                          <p class="tl-card__label">通話ログ<span>本日</span></p>
+                          <table class="tl-log__table">
+                            <thead><tr><th>時刻</th><th>架電先</th><th>工程</th><th class="tl-log__rec">録音</th></tr></thead>
+                            <tbody>
+                              <tr class="is-live"><td>10:42</td><td>株式会社〇〇〇〇</td><td><span class="tl-tag tl-tag--teal">営業トーク</span><span class="tl-wave"><i></i><i></i><i></i><i></i></span></td><td class="tl-log__rec">通話中</td></tr>
+                              <tr><td>10:41</td><td>〇〇工業株式会社</td><td><span class="tl-tag">担当者接続</span></td><td class="tl-log__rec"><span class="tl-mini-play"></span></td></tr>
+                              <tr><td>10:38</td><td>株式会社〇〇〇</td><td><span class="tl-tag tl-tag--teal">アウト返し</span></td><td class="tl-log__rec"><span class="tl-mini-play"></span></td></tr>
+                              <tr><td>10:36</td><td>〇〇商事株式会社</td><td><span class="tl-tag tl-tag--navy">クロージング</span></td><td class="tl-log__rec"><span class="tl-mini-play"></span></td></tr>
+                              <tr><td>10:33</td><td>株式会社〇〇〇〇〇</td><td><span class="tl-tag tl-tag--navy">テスクロ</span></td><td class="tl-log__rec"><span class="tl-mini-play"></span></td></tr>
+                              <tr><td>10:31</td><td>〇〇物産株式会社</td><td><span class="tl-tag">架電</span></td><td class="tl-log__rec"><span class="tl-mini-play"></span></td></tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </li>
+                      <!-- ③ アポ獲得の通知 -->
+                      <li class="tl-app__slide" role="group" aria-roledescription="slide" aria-label="3 / 3：アポイント獲得の通知" data-tl-name="通知">
+                        <p class="tl-visually-hidden">「アポイント獲得」の通知と、この通話の工程（架電から受注まで）を示す画面のイメージ。次の工程はクロージングです。</p>
+                        <div class="tl-notice" aria-hidden="true">
+                          <div class="tl-card tl-steps">
+                            <p class="tl-card__label">この通話の工程</p>
+                            <ol class="tl-steps__list">
+                              <li class="is-done">架電</li>
+                              <li class="is-done">担当者接続</li>
+                              <li class="is-done">営業トーク</li>
+                              <li class="is-done">アウト返し</li>
+                              <li class="is-done">テスクロ</li>
+                              <li class="is-next">クロージング<em>次の工程</em></li>
+                              <li>受注</li>
+                            </ol>
+                          </div>
+                          <div class="tl-notice__side">
+                            <div class="tl-toast">
+                              <span class="tl-toast__icon"><svg viewBox="0 0 16 16" width="18" height="18"><path d="M4 11V7a4 4 0 0 1 8 0v4l1.5 1.5h-11zM6.5 14h3" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round"/></svg></span>
+                              <div class="tl-toast__body">
+                                <p class="tl-toast__title">アポイント獲得</p>
+                                <p class="tl-toast__text">株式会社〇〇〇〇 ご担当者様</p>
+                                <p class="tl-toast__time">たった今</p>
+                              </div>
+                            </div>
+                            <div class="tl-card tl-next">
+                              <p class="tl-card__label">次の工程</p>
+                              <p class="tl-next__step">クロージング<span>→ 受注</span></p>
+                              <p class="tl-next__note">必要に応じて、人へのトスアップも可能</p>
+                            </div>
+                            <div class="tl-card tl-rec">
+                              <p class="tl-card__label">この通話の録音</p>
+                              <div class="tl-rec__player">
+                                <span class="tl-play"></span>
+                                <svg viewBox="0 0 160 24" preserveAspectRatio="none" class="tl-rec__wave"><path d="M2 9v6M8 6v12M14 10v4M20 4v16M26 8v8M32 11v2M38 5v14M44 9v6M50 3v18M56 8v8M62 10v4M68 6v12M74 9v6M80 2v20M86 7v10M92 10v4M98 5v14M104 9v6M110 6v12M116 10v4M122 4v16M128 8v8M134 11v2M140 6v12M146 9v6M152 7v10M158 10v4"/></svg>
+                                <span class="tl-rec__time">04:12</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <p class="tl-hero__note">※画面はイメージです。</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="tl-hero__controls">
+          <button type="button" class="tl-hero__arrow tl-hero__arrow--prev" aria-label="前の画面へ" aria-controls="tl-hero-track"><span aria-hidden="true"></span></button>
+          <div class="tl-hero__dots">
+            <button type="button" class="tl-hero__dot" aria-label="1枚目：今月のコール数" aria-controls="tl-hero-track" aria-current="true"></button>
+            <button type="button" class="tl-hero__dot" aria-label="2枚目：通話ログ" aria-controls="tl-hero-track"></button>
+            <button type="button" class="tl-hero__dot" aria-label="3枚目：アポイント獲得の通知" aria-controls="tl-hero-track"></button>
+          </div>
+          <button type="button" class="tl-hero__pause" aria-label="自動切り替えを停止"><span aria-hidden="true"></span></button>
+          <button type="button" class="tl-hero__arrow tl-hero__arrow--next" aria-label="次の画面へ" aria-controls="tl-hero-track"><span aria-hidden="true"></span></button>
+        </div>
+      </section>
+
+      <!-- 線画アイコン（Features・Testimonials で共用。表示は <svg class="tl-ico"><use href="#..."/></svg>） -->
+      <svg class="tl-sprite" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+        <symbol id="tl-i-calls" viewBox="0 0 24 24"><path d="M8.6 3.5H6A2.5 2.5 0 0 0 3.5 6c0 8 6.5 14.5 14.5 14.5a2.5 2.5 0 0 0 2.5-2.5v-2.6l-4.4-1.8-2 2a12 12 0 0 1-5.2-5.2l2-2z"/><path d="M14.5 3.5a6 6 0 0 1 6 6M14.5 7a2.5 2.5 0 0 1 2.5 2.5"/></symbol>
+        <symbol id="tl-i-person" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 20.5c.6-4 3.9-6.5 8-6.5s7.4 2.5 8 6.5"/></symbol>
+        <symbol id="tl-i-transfer" viewBox="0 0 24 24"><path d="M3.5 12h15M14 7l5 5-5 5"/></symbol>
+        <symbol id="tl-i-group" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.5-3.6 3.1-5.8 6.5-5.8s6 2.2 6.5 5.8M15.5 4.8a3.5 3.5 0 0 1 0 6.4M17.6 14.6c2.2.7 3.6 2.6 3.9 5.4"/></symbol>
+        <symbol id="tl-i-talk" viewBox="0 0 24 24"><path d="M4 5.5h16V16h-9l-4.5 3.5V16H4z"/><path d="M8 9.5h8M8 12.5h5"/></symbol>
+        <symbol id="tl-i-return" viewBox="0 0 24 24"><path d="M9 5 4.5 9.5 9 14"/><path d="M4.5 9.5H14a5.5 5.5 0 0 1 0 11h-3"/></symbol>
+        <symbol id="tl-i-check" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="m8 12.3 2.7 2.7 5.3-5.6"/></symbol>
+        <symbol id="tl-i-pen" viewBox="0 0 24 24"><path d="M4 20.5h7"/><path d="M15.5 4.5l4 4L9 19H5v-4z"/></symbol>
+        <symbol id="tl-i-chart" viewBox="0 0 24 24"><path d="M3.5 20.5h17M6.5 17v-3.5M11 17v-7M15.5 17v-5M20 17V5.5"/></symbol>
+        <symbol id="tl-i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></symbol>
+        <symbol id="tl-i-calendar" viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15.5" rx="2"/><path d="M3.5 9.5h17M8 3v4M16 3v4"/></symbol>
+        <symbol id="tl-i-db" viewBox="0 0 24 24"><ellipse cx="12" cy="6" rx="7.5" ry="2.8"/><path d="M4.5 6v12c0 1.5 3.4 2.8 7.5 2.8s7.5-1.3 7.5-2.8V6M4.5 12c0 1.5 3.4 2.8 7.5 2.8s7.5-1.3 7.5-2.8"/></symbol>
+        <symbol id="tl-i-loop" viewBox="0 0 24 24"><path d="M12 12c-2-2.6-3.6-4-5.5-4a4 4 0 0 0 0 8c1.9 0 3.5-1.4 5.5-4s3.6-4 5.5-4a4 4 0 0 1 0 8c-1.9 0-3.5-1.4-5.5-4z"/></symbol>
+        <symbol id="tl-i-gear" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3.2"/><path d="M12 3v2.5M12 18.5V21M3 12h2.5M18.5 12H21M5.6 5.6l1.8 1.8M16.6 16.6l1.8 1.8M5.6 18.4l1.8-1.8M16.6 7.4l1.8-1.8"/></symbol>
+        <symbol id="tl-i-building" viewBox="0 0 24 24"><path d="M3.5 20.5h17M5.5 20.5V4.5h9v16M14.5 9.5h4v11M8.5 8h3M8.5 11.5h3M8.5 15h3"/></symbol>
+        <symbol id="tl-i-list" viewBox="0 0 24 24"><path d="M9 6.5h11M9 12h11M9 17.5h11M4 6.5h1.5M4 12h1.5M4 17.5h1.5"/></symbol>
+        <symbol id="tl-i-headset" viewBox="0 0 24 24"><path d="M4.5 13v-1.5a7.5 7.5 0 0 1 15 0V13"/><rect x="3.5" y="13" width="4" height="6" rx="1.5"/><rect x="16.5" y="13" width="4" height="6" rx="1.5"/><path d="M18.5 19c0 1.7-1.6 2.5-4.5 2.5h-1.5"/></symbol>
+        <symbol id="tl-i-swap" viewBox="0 0 24 24"><path d="M4 8h14l-3.5-3.5M20 16H6l3.5 3.5"/></symbol>
+        <symbol id="tl-i-archive" viewBox="0 0 24 24"><rect x="3.5" y="4.5" width="17" height="4.5" rx="1"/><path d="M5 9v10.5h14V9M10 13h4"/></symbol>
+        <symbol id="tl-i-redial" viewBox="0 0 24 24"><path d="M19.5 12a7.5 7.5 0 1 1-2.2-5.3"/><path d="M19.5 4.5v4.2h-4.2"/></symbol>
+        <symbol id="tl-i-copy" viewBox="0 0 24 24"><rect x="8.5" y="8.5" width="12" height="12" rx="1.5"/><path d="M15.5 8.5v-3A1.5 1.5 0 0 0 14 4H5a1.5 1.5 0 0 0-1.5 1.5V14A1.5 1.5 0 0 0 5 15.5h3.5"/></symbol>
+        <symbol id="tl-i-quote" viewBox="0 0 24 24"><path d="M10 7c-2.9.9-4.5 3-4.5 6.2V17h4.5v-4.5H7.6c.1-1.8 1-3 2.4-3.6zM19 7c-2.9.9-4.5 3-4.5 6.2V17H19v-4.5h-2.4c.1-1.8 1-3 2.4-3.6z"/></symbol>
+      </svg>
+
+      <!-- ============ FEATURES①：人1人分のコストで、約5倍の営業機会（白地に枠を見せずに並べ、hover で 3px の枠線） ============ -->
+      <section class="tl-section tl-cost" id="telemo" aria-labelledby="tl-cost-title">
+        <div class="tl-wrap">
+          <h2 class="tl-head tl-head--msg" id="tl-cost-title">
+            <span class="tl-head__en" aria-hidden="true">Cost</span>
+            <span class="tl-head__ja">人1人分のコストで、<br class="tl-br-sp" />約5倍の営業機会。</span>
+          </h2>
+
+          <div class="tl-cost__grid">
+            <article class="tl-cost__item" aria-labelledby="tl-cost-human">
+              <h3 class="tl-cost__label" id="tl-cost-human">
+                <svg class="tl-ico tl-cost__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#tl-i-person" /></svg>
+                <span class="tl-cost__label-text"><span class="tl-cost__en" aria-hidden="true">Human sales</span><span class="tl-cost__ja">人による営業</span></span>
+              </h3>
+              <div class="tl-cost__box">
+                <p class="tl-cost__unit">営業担当 1人あたり</p>
+                <dl class="tl-cost__nums">
+                  <div class="tl-cost__row">
+                    <dt>月額</dt>
+                    <dd class="tl-cost__price">約<b>40</b>万円</dd>
+                  </div>
+                  <div class="tl-cost__row">
+                    <dt>月間コール数</dt>
+                    <dd class="tl-cost__calls"><b>4,400</b>コール</dd>
+                  </div>
+                </dl>
+                <div class="tl-cost__meter" aria-hidden="true"><span style="--tl-ratio: 0.2"></span></div>
+                <ul class="tl-cost__notes">
+                  <li><svg class="tl-ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#tl-i-clock" /></svg><span>1時間<br />約25コール</span></li>
+                  <li><svg class="tl-ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#tl-i-calendar" /></svg><span>1日（8時間）<br />約200コール</span></li>
+                  <li><svg class="tl-ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#tl-i-chart" /></svg><span>月間（22日稼働）<br />約4,400コール</span></li>
+                </ul>
+              </div>
+            </article>
+
+            <div class="tl-cost__ratio">
+              <p class="tl-cost__ratio-text"><span class="tl-cost__ratio-num">約<b>5</b>倍</span><span class="tl-cost__ratio-sub">の営業機会</span></p>
+              <span class="tl-cost__arrow" aria-hidden="true"><i></i><i></i><i></i></span>
+            </div>
+
+            <article class="tl-cost__item tl-cost__item--telemo" aria-labelledby="tl-cost-telemo">
+              <h3 class="tl-cost__label" id="tl-cost-telemo">
+                <svg class="tl-ico tl-cost__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#tl-i-calls" /></svg>
+                <span class="tl-cost__label-text"><span class="tl-cost__en" aria-hidden="true">AI sales</span><span class="tl-cost__ja">TELEMO</span></span>
+              </h3>
+              <div class="tl-cost__box">
+                <p class="tl-cost__unit">1IDあたり</p>
+                <dl class="tl-cost__nums">
+                  <div class="tl-cost__row">
+                    <dt>月額</dt>
+                    <dd class="tl-cost__price"><b>35</b>万円</dd>
+                  </div>
+                  <div class="tl-cost__row">
+                    <dt>月間コール数</dt>
+                    <dd class="tl-cost__calls"><b>22,000</b>コール</dd>
+                  </div>
+                </dl>
+                <div class="tl-cost__meter" aria-hidden="true"><span style="--tl-ratio: 1"></span></div>
+                <ul class="tl-cost__notes">
+                  <li><svg class="tl-ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#tl-i-calls" /></svg><span>24時間<br />自動架電</span></li>
+                  <li><svg class="tl-ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#tl-i-db" /></svg><span>大量の<br />コール数</span></li>
+                  <li><svg class="tl-ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#tl-i-loop" /></svg><span>データをもとに<br />改善し続けられる</span></li>
+                </ul>
+              </div>
+            </article>
+          </div>
+
+          <p class="tl-cost__message">5倍電話できることが、<br class="tl-br-sp" />価値ではない。<br /><em>22,000回の営業活動を、<br class="tl-br-sp" />改善し続けられること</em>が価値です。</p>
+        </div>
+      </section>
+
+      <!-- ============ FEATURES②：同じ「AI営業」でも、やっていることが違う（淡グレー地に白い角丸5pxカード、名称はカードの下） ============ -->
+      <section class="tl-section tl-compare" id="compare" aria-labelledby="tl-compare-title">
+        <div class="tl-wrap">
+          <h2 class="tl-head tl-head--msg" id="tl-compare-title">
+            <span class="tl-head__en" aria-hidden="true">Difference</span>
+            <span class="tl-head__ja">同じ「AI営業」でも、<br class="tl-br-sp" />やっていることが違う。</span>
+          </h2>
+          <p class="tl-compare__legend" aria-hidden="true"><span class="is-ai">AIが行う工程</span><span class="is-human">人が行う工程</span></p>
+
+          <div class="tl-lanes">
+            <article class="tl-lane" aria-labelledby="tl-lane-other">
+              <h3 class="tl-lane__name" id="tl-lane-other">他社AI営業<small>（一例）</small></h3>
+              <div class="tl-lane__card">
+                <ol class="tl-flow">
+                  <li class="tl-flow__step is-ai"><span class="tl-flow__icon"><svg class="tl-ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#tl-i-calls" /></svg></span><span class="tl-flow__name">AIが大量架電</span></li>
+                  <li class="tl-flow__step is-ai"><span class="tl-flow__icon"><svg class="tl-ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#tl-i-person" /></svg></span><span class="tl-flow__name">担当者に<br class="tl-br-pc" />つながる</span></li>
+                  <li class="tl-flow__step is-pass"><span class="tl-flow__icon"><svg class="tl-ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#tl-i-transfer" /></svg></span><span class="tl-flow__name">営業担当へ<br class="tl-br-pc" />転送</span></li>
+                  <li class="tl-flow__step is-human tl-flow__step--rest"><span class="tl-flow__icon"><svg class="tl-ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#tl-i-group" /></svg></span><span class="tl-flow__name">そこから<br class="tl-br-pc" />人が営業</span></li>
+                </ol>
+                <div class="tl-flow__range" aria-hidden="true">
+                  <span class="is-ai" style="grid-column: 1 / 3">AIが対応</span>
+                  <span class="is-human" style="grid-column: 4 / -1">人が対応</span>
+                </div>
+              </div>
+              <p class="tl-lane__note">担当者につなぐまでがAI。その後は人が対応します。</p>
+              <p class="tl-lane__price">1コールあたり<span><b>約20</b>円</span><small>（相場）</small></p>
+            </article>
+
+            <article class="tl-lane tl-lane--telemo" aria-labelledby="tl-lane-telemo">
+              <h3 class="tl-lane__name" id="tl-lane-telemo">TELEMO</h3>
+              <div class="tl-lane__card">
+                <ol class="tl-flow">
+                  <li class="tl-flow__step is-ai"><span class="tl-flow__icon"><svg class="tl-ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#tl-i-calls" /></svg></span><span class="tl-flow__name">架電</span></li>
+                  <li class="tl-flow__step is-ai"><span class="tl-flow__icon"><svg class="tl-ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#tl-i-person" /></svg></span><span class="tl-flow__name">担当者接続</span></li>
+                  <li class="tl-flow__step is-ai"><span class="tl-flow__icon"><svg class="tl-ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#tl-i-talk" /></svg></span><span class="tl-flow__name">営業トーク<small>（商品説明・ヒアリング）</small></span></li>
+                  <li class="tl-flow__step is-ai"><span class="tl-flow__icon"><svg class="tl-ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#tl-i-return" /></svg></span><span class="tl-flow__name">アウト返し<small>（再アプローチ）</small></span></li>
+                  <li class="tl-flow__step is-ai"><span class="tl-flow__icon"><svg class="tl-ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#tl-i-check" /></svg></span><span class="tl-flow__name">テスクロ<small>（意思確認）</small></span></li>
+                  <li class="tl-flow__step is-ai"><span class="tl-flow__icon"><svg class="tl-ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#tl-i-pen" /></svg></span><span class="tl-flow__name">デスクで<br class="tl-br-pc" />クロージング</span></li>
+                  <li class="tl-flow__step is-ai"><span class="tl-flow__icon"><svg class="tl-ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#tl-i-chart" /></svg></span><span class="tl-flow__name">受注<small>（見込み化）</small></span></li>
+                </ol>
+                <div class="tl-flow__range" aria-hidden="true">
+                  <span class="is-ai" style="grid-column: 1 / -1">AIが対応</span>
+                </div>
+              </div>
+              <p class="tl-lane__note">担当者との会話から、営業トーク・アウト返し・テスクロ・クロージングまでをAIが行います。必要に応じて人へのトスアップもできます。</p>
+              <p class="tl-lane__price">1コールあたり<span><b>約15.9</b>円</span></p>
+            </article>
+          </div>
+
+          <div class="tl-compare__end">
+            <p class="tl-compare__lead">違いは4.1円ではありません。<br /><strong>「どこまで営業できるか」</strong>です。</p>
+            <p class="tl-formula">
+              <span class="tl-formula__item"><svg class="tl-ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#tl-i-db" /></svg>22,000コール</span>
+              <span class="tl-formula__op">×</span>
+              <span class="tl-formula__item"><svg class="tl-ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#tl-i-gear" /></svg>営業設計</span>
+              <span class="tl-formula__op">×</span>
+              <span class="tl-formula__item"><svg class="tl-ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#tl-i-chart" /></svg>運用改善</span>
+              <span class="tl-formula__op">×</span>
+              <span class="tl-formula__item"><svg class="tl-ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#tl-i-group" /></svg>伴走支援</span>
+              <span class="tl-formula__op">=</span>
+              <span class="tl-formula__total">月額<b>35</b>万円</span>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ TELEMO川柳①（共通コンポーネント：角丸の枠＋右向き矢印のリボン帯＋縦書きの札を上下にずらして重ねる） ============ -->
+      <aside class="tl-section tl-senryu" aria-label="TELEMO川柳 その1">
+        <div class="tl-wrap">
+          <div class="tl-senryu__frame">
+            <div class="tl-senryu__panel">
+              <span class="tl-senryu__ribbon" aria-hidden="true"></span>
+              <ul class="tl-senryu__list">
+                <li class="tl-senryu__card">
+                  <span class="tl-visually-hidden">人が売る　その前までは　テレモやる</span>
+                  <span class="tl-senryu__verse" aria-hidden="true"><span>人が売る</span><span>その前までは</span><span>テレモやる</span></span>
+                </li>
+                <li class="tl-senryu__card">
+                  <span class="tl-visually-hidden">数を打ち　無駄を削って　見込み出す</span>
+                  <span class="tl-senryu__verse" aria-hidden="true"><span>数を打ち</span><span>無駄を削って</span><span>見込み出す</span></span>
+                </li>
+              </ul>
+              <p class="tl-senryu__label"><span class="tl-senryu__en">TELEMO</span>川柳<span class="tl-senryu__chev" aria-hidden="true"></span></p>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <!-- ============ FEATURES③：こんな営業をしている会社に。（2:1 のタイルを全幅・隙間なしで 4×2。PC は hover／フォーカスで黒60%の幕＋説明） ============ -->
+      <section class="tl-section tl-scenes" id="scenes" aria-labelledby="tl-scenes-title">
+        <div class="tl-wrap">
+          <h2 class="tl-head tl-head--msg" id="tl-scenes-title">
+            <span class="tl-head__en" aria-hidden="true">Scenes</span>
+            <span class="tl-head__ja">こんな営業をしている会社に。</span>
+          </h2>
+        </div>
+        <ul class="tl-scenes__grid">
+          <li class="tl-scene tl-scene--navy" tabindex="0">
+            <div class="tl-scene__face"><span class="tl-scene__no" aria-hidden="true">01</span><svg class="tl-ico tl-scene__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#tl-i-building" /></svg></div>
+            <h3 class="tl-scene__name">新規法人営業</h3>
+            <p class="tl-scene__desc">これまでアプローチできなかった企業にも、効率よく営業できます。</p>
+          </li>
+          <li class="tl-scene tl-scene--pale" tabindex="0">
+            <div class="tl-scene__face"><span class="tl-scene__no" aria-hidden="true">02</span><svg class="tl-ico tl-scene__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#tl-i-list" /></svg></div>
+            <h3 class="tl-scene__name">大量リストへのアプローチ</h3>
+            <p class="tl-scene__desc">数万件規模のリストにも、安定した品質で架電できます。</p>
+          </li>
+          <li class="tl-scene tl-scene--teal" tabindex="0">
+            <div class="tl-scene__face"><span class="tl-scene__no" aria-hidden="true">03</span><svg class="tl-ico tl-scene__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#tl-i-headset" /></svg></div>
+            <h3 class="tl-scene__name">テレアポ</h3>
+            <p class="tl-scene__desc">受付の突破から担当者への接続、見込み度の確認、人へのトスアップまで対応します。</p>
+          </li>
+          <li class="tl-scene tl-scene--white" tabindex="0">
+            <div class="tl-scene__face"><span class="tl-scene__no" aria-hidden="true">04</span><svg class="tl-ico tl-scene__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#tl-i-swap" /></svg></div>
+            <h3 class="tl-scene__name">営業代行を利用している</h3>
+            <p class="tl-scene__desc">外部に頼らず、自社で管理できる営業の基盤をつくれます。</p>
+          </li>
+          <li class="tl-scene tl-scene--white" tabindex="0">
+            <div class="tl-scene__face"><span class="tl-scene__no" aria-hidden="true">05</span><svg class="tl-ico tl-scene__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#tl-i-archive" /></svg></div>
+            <h3 class="tl-scene__name">休眠顧客の掘り起こし</h3>
+            <p class="tl-scene__desc">過去の顧客リストに再アプローチし、眠っているニーズを掘り起こします。</p>
+          </li>
+          <li class="tl-scene tl-scene--teal" tabindex="0">
+            <div class="tl-scene__face"><span class="tl-scene__no" aria-hidden="true">06</span><svg class="tl-ico tl-scene__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#tl-i-redial" /></svg></div>
+            <h3 class="tl-scene__name">見込み顧客への再アプローチ</h3>
+            <p class="tl-scene__desc">一度接点のあった見込み顧客へ適切なタイミングで再架電できます。</p>
+          </li>
+          <li class="tl-scene tl-scene--navy" tabindex="0">
+            <div class="tl-scene__face"><span class="tl-scene__no" aria-hidden="true">07</span><svg class="tl-ico tl-scene__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#tl-i-group" /></svg></div>
+            <h3 class="tl-scene__name">営業人員の採用・教育に悩んでいる</h3>
+            <p class="tl-scene__desc">採用や教育のコストを抑えて、営業活動を始められます。</p>
+          </li>
+          <li class="tl-scene tl-scene--pale" tabindex="0">
+            <div class="tl-scene__face"><span class="tl-scene__no" aria-hidden="true">08</span><svg class="tl-ico tl-scene__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#tl-i-copy" /></svg></div>
+            <h3 class="tl-scene__name">トップ営業のやり方を組織に残したい</h3>
+            <p class="tl-scene__desc">トップ営業のトークやノウハウを仕組み化し、組織全体で再現できます。</p>
+          </li>
+        </ul>
+        <p class="tl-more-wrap"><a class="tl-more" href="#contact"><span class="tl-more__icon" aria-hidden="true"></span>導入を相談する</a></p>
+      </section>
+
+      <!-- ============ TELEMO川柳② ============ -->
+      <aside class="tl-section tl-senryu" aria-label="TELEMO川柳 その2">
+        <div class="tl-wrap">
+          <div class="tl-senryu__frame">
+            <div class="tl-senryu__panel">
+              <span class="tl-senryu__ribbon" aria-hidden="true"></span>
+              <ul class="tl-senryu__list">
+                <li class="tl-senryu__card">
+                  <span class="tl-visually-hidden">営業は　根性よりも　再現性</span>
+                  <span class="tl-senryu__verse" aria-hidden="true"><span>営業は</span><span>根性よりも</span><span>再現性</span></span>
+                </li>
+                <li class="tl-senryu__card">
+                  <span class="tl-visually-hidden">売れる型　できた瞬間　量産だ</span>
+                  <span class="tl-senryu__verse" aria-hidden="true"><span>売れる型</span><span>できた瞬間</span><span>量産だ</span></span>
+                </li>
+              </ul>
+              <p class="tl-senryu__label"><span class="tl-senryu__en">TELEMO</span>川柳<span class="tl-senryu__chev" aria-hidden="true"></span></p>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <!-- ============ TESTIMONIALS①：TELEMOをつくったひと。（ネイビーのベタ面＋ワイドカード＋等幅の白カード） ============ -->
+      <section class="tl-section tl-maker" id="maker" aria-labelledby="tl-maker-title">
+        <div class="tl-wrap">
+          <h2 class="tl-head tl-head--msg tl-head--light" id="tl-maker-title">
+            <span class="tl-head__en" aria-hidden="true">Maker</span>
+            <span class="tl-head__ja">TELEMOをつくったひと。</span>
+          </h2>
+          <p class="tl-maker__lead">「AIを知っている人」が<br class="tl-br-sp" />営業AIをつくったのではない。</p>
+
+          <article class="tl-maker__card" aria-labelledby="tl-maker-catch">
+            <div class="tl-maker__photo" aria-hidden="true">
+              <!-- TODO: 先方素材 青木氏写真 -->
+              <svg class="tl-ico" viewBox="0 0 24 24" focusable="false"><use href="#tl-i-person" /></svg>
+              <span>PHOTO</span>
+            </div>
+            <div class="tl-maker__body">
+              <h3 class="tl-maker__catch" id="tl-maker-catch">営業を知っている人が、<br />AIを使って営業を仕組みにした。</h3>
+              <p class="tl-maker__name"><span class="tl-maker__role">株式会社Everエフォート 代表</span><span class="tl-maker__person">青木 一平</span></p>
+              <p class="tl-maker__career">25歳で光通信に入社し、個人営業・責任者・統括部長を経験。独立後も自社でコールセンターを運営し、法人営業の現場に立っています。</p>
+            </div>
+          </article>
+
+          <h3 class="tl-maker__sub">主な営業実績（単月）</h3>
+          <ul class="tl-maker__results">
+            <li class="tl-result"><p class="tl-result__num"><b>1,500</b>件</p><p class="tl-result__label">電子電話帳営業<span>フレッツ光</span></p></li>
+            <li class="tl-result"><p class="tl-result__num"><b>2,000</b>件</p><p class="tl-result__label">アライアンス営業<span>フレッツ光</span></p></li>
+            <li class="tl-result"><p class="tl-result__num"><b>1,500</b>件</p><p class="tl-result__label">CRM営業<span>U-NEXT</span></p></li>
+            <li class="tl-result"><p class="tl-result__num"><b>2,000</b>件</p><p class="tl-result__label">CRM営業<span>WiMAX</span></p></li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- ============ TESTIMONIALS②：お客様の声（16:9 の枠＋タイトル＋補足。素材が届くまで枠のみ） ============ -->
+      <section class="tl-section tl-voice" id="voice" aria-labelledby="tl-voice-title">
+        <div class="tl-wrap">
+          <h2 class="tl-head" id="tl-voice-title">
+            <span class="tl-head__en" aria-hidden="true">Voice</span>
+            <span class="tl-head__ja">お客様の声</span>
+          </h2>
+          <!-- TODO: 先方素材 お客様の声（社名・コメント・写真） -->
+          <ul class="tl-voice__list">
+            <li class="tl-voice__item">
+              <div class="tl-voice__thumb"><svg class="tl-ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#tl-i-quote" /></svg><span>掲載準備中</span></div>
+              <span class="tl-voice__title" aria-hidden="true"></span>
+              <span class="tl-voice__meta" aria-hidden="true"></span>
+            </li>
+            <li class="tl-voice__item">
+              <div class="tl-voice__thumb"><svg class="tl-ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#tl-i-quote" /></svg><span>掲載準備中</span></div>
+              <span class="tl-voice__title" aria-hidden="true"></span>
+              <span class="tl-voice__meta" aria-hidden="true"></span>
+            </li>
+            <li class="tl-voice__item">
+              <div class="tl-voice__thumb"><svg class="tl-ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#tl-i-quote" /></svg><span>掲載準備中</span></div>
+              <span class="tl-voice__title" aria-hidden="true"></span>
+              <span class="tl-voice__meta" aria-hidden="true"></span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- ============ PRICING：料金はシンプル。（淡グレー地＋ワイドの料金カード＋月額に含まれるもの 3×2 の白カード＋契約の条件） ============ -->
+      <section class="tl-section tl-price" id="pricing" aria-labelledby="tl-price-title">
+        <div class="tl-wrap">
+          <h2 class="tl-head tl-head--msg" id="tl-price-title">
+            <span class="tl-head__en" aria-hidden="true">Price</span>
+            <span class="tl-head__ja">料金はシンプル。</span>
+          </h2>
+
+          <div class="tl-price__plans">
+            <div class="tl-price__plan">
+              <h3 class="tl-price__tag">初期費用</h3>
+              <p class="tl-price__amount"><b>200,000</b>円<small>（税別）</small></p>
+              <ul class="tl-price__chips">
+                <li>トーク設計</li>
+                <li>シナリオ構築</li>
+                <li>初期設定</li>
+                <li>環境構築</li>
+              </ul>
+            </div>
+            <div class="tl-price__plan">
+              <h3 class="tl-price__tag">月額費用</h3>
+              <p class="tl-price__amount"><b>350,000</b>円<small>（税別）</small></p>
+              <ul class="tl-price__chips">
+                <li>月間 <b>22,000</b>コール<small>（2026年10月利用分より）</small></li>
+                <li>1コールあたり 約<b>15.9</b>円</li>
+              </ul>
+            </div>
+          </div>
+
+          <h3 class="tl-price__sub">月額に含まれるもの</h3>
+          <ul class="tl-price__items">
+            <li class="tl-price__item">
+              <div class="tl-price__face"><span class="tl-price__no" aria-hidden="true">01</span><svg class="tl-ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#tl-i-calls" /></svg></div>
+              <p class="tl-price__name">AIによる自動架電<small>22,000コール／月</small></p>
+            </li>
+            <li class="tl-price__item">
+              <div class="tl-price__face"><span class="tl-price__no" aria-hidden="true">02</span><svg class="tl-ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#tl-i-pen" /></svg></div>
+              <p class="tl-price__name">トークツリー設計・改善</p>
+            </li>
+            <li class="tl-price__item">
+              <div class="tl-price__face"><span class="tl-price__no" aria-hidden="true">03</span><svg class="tl-ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#tl-i-chart" /></svg></div>
+              <p class="tl-price__name">通話データの分析・レポート</p>
+            </li>
+            <li class="tl-price__item">
+              <div class="tl-price__face"><span class="tl-price__no" aria-hidden="true">04</span><svg class="tl-ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#tl-i-headset" /></svg></div>
+              <p class="tl-price__name">実際の音声確認・課題抽出</p>
+            </li>
+            <li class="tl-price__item">
+              <div class="tl-price__face"><span class="tl-price__no" aria-hidden="true">05</span><svg class="tl-ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#tl-i-person" /></svg></div>
+              <p class="tl-price__name">営業コンサルタントによる伴走サポート</p>
+            </li>
+            <li class="tl-price__item">
+              <div class="tl-price__face"><span class="tl-price__no" aria-hidden="true">06</span><svg class="tl-ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#tl-i-gear" /></svg></div>
+              <p class="tl-price__name">システム利用料・通信費<small>6万円分込み</small></p>
+            </li>
+          </ul>
+
+          <h3 class="tl-price__sub">契約の条件</h3>
+          <ul class="tl-price__terms">
+            <li class="tl-price__term">
+              <p class="tl-price__tag">追加費用</p>
+              <p class="tl-price__term-main">なし</p>
+              <p class="tl-price__term-note">月額以外のランニングコストは不要です。</p>
+            </li>
+            <li class="tl-price__term">
+              <p class="tl-price__tag">未消化コール</p>
+              <p class="tl-price__term-main">翌月へ繰り越し</p>
+              <p class="tl-price__term-note">例：当月に12,000コールを使った場合</p>
+              <ol class="tl-carry">
+                <li><span>当月の使用</span><b>12,000<small>コール</small></b></li>
+                <li><span>翌月へ繰り越し</span><b>10,000<small>コール</small></b></li>
+                <li><span>翌月は最大</span><b>32,000<small>コール</small></b></li>
+              </ol>
+            </li>
+            <li class="tl-price__term">
+              <p class="tl-price__tag">契約期間</p>
+              <p class="tl-price__term-main">6ヶ月</p>
+              <p class="tl-price__term-note">以降は6ヶ月ごとの自動更新です。</p>
+            </li>
+          </ul>
+
+          <p class="tl-price__cta"><a class="tl-btn tl-btn--green" href="#contact">無料で相談する<span class="tl-btn__chev" aria-hidden="true"></span></a></p>
+        </div>
+      </section>
+
+      <!-- ============ TELEMO川柳③ ============ -->
+      <aside class="tl-section tl-senryu" aria-label="TELEMO川柳 その3">
+        <div class="tl-wrap">
+          <div class="tl-senryu__frame">
+            <div class="tl-senryu__panel">
+              <span class="tl-senryu__ribbon" aria-hidden="true"></span>
+              <ul class="tl-senryu__list">
+                <li class="tl-senryu__card">
+                  <span class="tl-visually-hidden">二万二千　かければ見える　勝ちパターン</span>
+                  <span class="tl-senryu__verse" aria-hidden="true"><span>二万二千</span><span>かければ見える</span><span>勝ちパターン</span></span>
+                </li>
+                <li class="tl-senryu__card">
+                  <span class="tl-visually-hidden">売れるまで　回して直す　それテレモ</span>
+                  <span class="tl-senryu__verse" aria-hidden="true"><span>売れるまで</span><span>回して直す</span><span>それテレモ</span></span>
+                </li>
+              </ul>
+              <p class="tl-senryu__label"><span class="tl-senryu__en">TELEMO</span>川柳<span class="tl-senryu__chev" aria-hidden="true"></span></p>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <!-- ============ CTA①：導入の流れ（白地に淡色カードを横一列。番号は丸ドット、カードの間に山形） ============ -->
+      <section class="tl-section tl-intro" id="flow" aria-labelledby="tl-flow-title">
+        <div class="tl-wrap">
+          <h2 class="tl-head" id="tl-flow-title">
+            <span class="tl-head__en" aria-hidden="true">Flow</span>
+            <span class="tl-head__ja">導入の流れ</span>
+          </h2>
+          <ol class="tl-intro__list">
+            <li class="tl-intro__step">
+              <div class="tl-intro__card"><span class="tl-intro__dot"><span class="tl-intro__en">STEP</span><span class="tl-intro__no">01</span></span></div>
+              <h3 class="tl-intro__name">6ヶ月の利用意思決定</h3>
+              <p class="tl-intro__desc">ご契約の意思確認</p>
+            </li>
+            <li class="tl-intro__step">
+              <div class="tl-intro__card"><span class="tl-intro__dot"><span class="tl-intro__en">STEP</span><span class="tl-intro__no">02</span></span></div>
+              <h3 class="tl-intro__name">第1回トークツリーMTG</h3>
+              <p class="tl-intro__desc">運用方針・訴求内容・トーク設計のすり合わせ</p>
+              <p class="tl-intro__fee"><span>初期費用</span>200,000円（税別）</p>
+            </li>
+            <li class="tl-intro__step">
+              <div class="tl-intro__card"><span class="tl-intro__dot"><span class="tl-intro__en">STEP</span><span class="tl-intro__no">03</span></span></div>
+              <h3 class="tl-intro__name">トークツリー制作</h3>
+              <p class="tl-intro__desc">ヒアリング内容をもとに制作</p>
+            </li>
+            <li class="tl-intro__step">
+              <div class="tl-intro__card"><span class="tl-intro__dot"><span class="tl-intro__en">STEP</span><span class="tl-intro__no">04</span></span></div>
+              <h3 class="tl-intro__name">約10営業日</h3>
+              <p class="tl-intro__desc">通常約10営業日で納品</p>
+            </li>
+            <li class="tl-intro__step">
+              <div class="tl-intro__card"><span class="tl-intro__dot"><span class="tl-intro__en">STEP</span><span class="tl-intro__no">05</span></span></div>
+              <h3 class="tl-intro__name">納品・運用開始</h3>
+              <p class="tl-intro__fee"><span>月額費用</span>350,000円（税別）</p>
+            </li>
+            <li class="tl-intro__step">
+              <div class="tl-intro__card"><span class="tl-intro__dot"><span class="tl-intro__en">STEP</span><span class="tl-intro__no">06</span></span></div>
+              <h3 class="tl-intro__name">ご請求</h3>
+              <p class="tl-intro__desc">毎月のご利用分を請求書でご請求します</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- ============ CTA②：音声デモ（ネイビーのベタ面＋ワイドバナーカード＋相談ボタン） ============ -->
+      <section class="tl-section tl-demo" id="demo" aria-labelledby="tl-demo-title">
+        <div class="tl-wrap">
+          <h2 class="tl-head tl-head--msg tl-head--light" id="tl-demo-title">
+            <span class="tl-head__en" aria-hidden="true">Demo</span>
+            <span class="tl-head__ja">まずは実際の営業音声を<br class="tl-br-sp" />聴いてください</span>
+          </h2>
+          <p class="tl-demo__lead">説明するより、<br class="tl-br-sp" />まず聴いていただくのが一番早い。</p>
+          <div class="tl-demo__card">
+            <div class="tl-demo__visual" aria-hidden="true">
+              <span class="tl-demo__play"></span>
+              <svg class="tl-demo__wave" viewBox="0 0 284 72" focusable="false"><rect class="is-played" x="0" y="15" width="4" height="42" rx="2" /><rect class="is-played" x="8" y="13" width="4" height="46" rx="2" /><rect class="is-played" x="16" y="13.5" width="4" height="45" rx="2" /><rect class="is-played" x="24" y="10" width="4" height="52" rx="2" /><rect class="is-played" x="32" y="28.5" width="4" height="15" rx="2" /><rect class="is-played" x="40" y="30.5" width="4" height="11" rx="2" /><rect class="is-played" x="48" y="23.5" width="4" height="25" rx="2" /><rect class="is-played" x="56" y="25.5" width="4" height="21" rx="2" /><rect class="is-played" x="64" y="9" width="4" height="54" rx="2" /><rect class="is-played" x="72" y="8.5" width="4" height="55" rx="2" /><rect class="is-played" x="80" y="21" width="4" height="30" rx="2" /><rect class="is-played" x="88" y="19.5" width="4" height="33" rx="2" /><rect class="is-played" x="96" y="31.5" width="4" height="9" rx="2" /><rect x="104" y="30.5" width="4" height="11" rx="2" /><rect x="112" y="14" width="4" height="44" rx="2" /><rect x="120" y="16.5" width="4" height="39" rx="2" /><rect x="128" y="9.5" width="4" height="53" rx="2" /><rect x="136" y="12" width="4" height="48" rx="2" /><rect x="144" y="30.5" width="4" height="11" rx="2" /><rect x="152" y="26.5" width="4" height="19" rx="2" /><rect x="160" y="27" width="4" height="18" rx="2" /><rect x="168" y="24" width="4" height="24" rx="2" /><rect x="176" y="6" width="4" height="60" rx="2" /><rect x="184" y="13" width="4" height="46" rx="2" /><rect x="192" y="18" width="4" height="36" rx="2" /><rect x="200" y="19.5" width="4" height="33" rx="2" /><rect x="208" y="31.5" width="4" height="9" rx="2" /><rect x="216" y="26" width="4" height="20" rx="2" /><rect x="224" y="16" width="4" height="40" rx="2" /><rect x="232" y="17.5" width="4" height="37" rx="2" /><rect x="240" y="5.5" width="4" height="61" rx="2" /><rect x="248" y="16.5" width="4" height="39" rx="2" /><rect x="256" y="29.5" width="4" height="13" rx="2" /><rect x="264" y="24.5" width="4" height="23" rx="2" /><rect x="272" y="31" width="4" height="10" rx="2" /><rect x="280" y="20" width="4" height="32" rx="2" /></svg>
+            </div>
+            <div class="tl-demo__body">
+              <p class="tl-demo__tag">音声デモ</p>
+              <h3 class="tl-demo__title">TELEMOの実際の営業音声を<br class="tl-br-pc" />お聴きいただけます。</h3>
+              <p class="tl-demo__note">音声は別タブで開きます。</p>
+              <a class="tl-btn tl-btn--outline tl-demo__link" href="https://demoaudio-cxpuxivk.manus.space/?code=o6yvTD42hExQnTLqYbpxvH" target="_blank" rel="noopener">営業音声を聴く（別タブ）<svg class="tl-demo__ext" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M9 2h5v5M14 2 7.5 8.5M12 9.5V14H2V4h4.5" /></svg></a>
+              <!-- TODO: 先方確認 音声デモURLの恒久性 -->
+            </div>
+          </div>
+          <p class="tl-demo__cta"><a class="tl-btn tl-btn--green" href="#contact">無料で相談する<span class="tl-btn__chev" aria-hidden="true"></span></a></p>
+        </div>
+      </section>
+
+      <!-- ============ FAQ：よくある質問（720px のタグ付きリスト：Q タグ＋質問＋右端の丸シェブロン＋1px 罫線。details で開閉） ============ -->
+      <section class="tl-section tl-faq" id="faq" aria-labelledby="tl-faq-title">
+        <div class="tl-wrap">
+          <h2 class="tl-head" id="tl-faq-title">
+            <span class="tl-head__en" aria-hidden="true">FAQ</span>
+            <span class="tl-head__ja">よくある質問</span>
+          </h2>
+          <div class="tl-faq__list">
+            <details class="tl-faq__item">
+              <summary class="tl-faq__q"><span class="tl-faq__tag" aria-hidden="true">Q</span><span class="tl-faq__text">契約期間はどのくらいですか？</span><span class="tl-faq__chev" aria-hidden="true"></span></summary>
+              <div class="tl-faq__a"><span class="tl-faq__tag tl-faq__tag--a" aria-hidden="true">A</span><p>6ヶ月です。以降は6ヶ月ごとの自動更新となります。</p></div>
+            </details>
+            <details class="tl-faq__item">
+              <summary class="tl-faq__q"><span class="tl-faq__tag" aria-hidden="true">Q</span><span class="tl-faq__text">使い切れなかったコールはどうなりますか？</span><span class="tl-faq__chev" aria-hidden="true"></span></summary>
+              <div class="tl-faq__a"><span class="tl-faq__tag tl-faq__tag--a" aria-hidden="true">A</span><p>翌月に自動で繰り越されます。たとえば当月に12,000コールを使った場合、残りの10,000コールが繰り越され、翌月は最大32,000コールまでご利用いただけます。</p></div>
+            </details>
+            <details class="tl-faq__item">
+              <summary class="tl-faq__q"><span class="tl-faq__tag" aria-hidden="true">Q</span><span class="tl-faq__text">他社のAI営業サービスとの違いは何ですか？</span><span class="tl-faq__chev" aria-hidden="true"></span></summary>
+              <div class="tl-faq__a"><span class="tl-faq__tag tl-faq__tag--a" aria-hidden="true">A</span><p>他社のAI営業（一例）は、担当者につなぐまでをAIが行い、その後は人が営業します。TELEMOは担当者との会話から、営業トーク・アウト返し・テスクロ・クロージングまでをAIが実行し、必要に応じて人へのトスアップも可能です。1コールあたりの単価は約15.9円です（他社の相場は約20円）。</p></div>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ お問い合わせ（既存フォーム：送信の仕組み・項目名・hidden 項目はそのまま。見た目だけ新デザイン） ============ -->
+      <section class="tl-section tl-contact" id="contact" aria-labelledby="tl-contact-title">
+        <div class="tl-wrap">
+          <h2 class="tl-head" id="tl-contact-title">
+            <span class="tl-head__en" aria-hidden="true">Contact</span>
+            <span class="tl-head__ja">お問い合わせ</span>
+          </h2>
+          <p class="tl-contact__lead">TELEMOの導入・料金のご相談は、<br class="tl-br-sp" />下記のフォームからお送りください。<br />担当より折り返しご連絡いたします。</p>
+          <form class="tl-contact__form" id="contactForm" action="https://api.web3forms.com/submit" method="POST" novalidate>
+            <input type="hidden" name="access_key" value="31d3749e-b24f-4268-aee5-bcdd79a86b36" />
+            <input type="hidden" name="subject" value="【GIGUUU】お問い合わせがありました" />
+            <input type="hidden" name="from_name" value="GIGUUU お問い合わせフォーム" />
+            <input type="checkbox" name="botcheck" style="display: none" tabindex="-1" autocomplete="off" />
+            <div class="tl-field">
+              <label for="tl-f-name">お名前<span class="tl-field__req">必須</span></label>
+              <input type="text" id="tl-f-name" name="name" placeholder="山田 太郎" required />
+            </div>
+            <div class="tl-field">
+              <label for="tl-f-company">会社名</label>
+              <input type="text" id="tl-f-company" name="company" placeholder="株式会社○○" />
+            </div>
+            <div class="tl-field">
+              <label for="tl-f-email">メールアドレス<span class="tl-field__req">必須</span></label>
+              <input type="email" id="tl-f-email" name="email" placeholder="you@example.com" required />
+            </div>
+            <div class="tl-field">
+              <label for="tl-f-tel">電話番号</label>
+              <input type="tel" id="tl-f-tel" name="tel" placeholder="03-1234-5678" />
+            </div>
+            <div class="tl-field tl-field--full">
+              <label for="tl-f-message">お問い合わせ内容<span class="tl-field__req">必須</span></label>
+              <textarea id="tl-f-message" name="message" rows="4" placeholder="ご相談内容をご記入ください" required></textarea>
+            </div>
+            <button type="submit" class="tl-btn tl-btn--green tl-contact__submit">送信する<span class="tl-btn__chev" aria-hidden="true"></span></button>
+            <p class="tl-contact__status" id="formStatus" role="status"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- ============ フッター（ネイビーのベタ面：白いロゴ台座＋白枠ボタン／会社情報／▶ 付きリンク＋右下のコピーライト） ============ -->
+    <footer class="tl-section tl-footer" id="company">
+      <div class="tl-wrap">
+        <div class="tl-footer__top">
+          <a class="tl-footer__logo" href="#hero"><span class="tl-footer__mark"><img src="giguuu-logo.png" alt="GIGUUU株式会社" width="842" height="595" loading="lazy" /></span></a>
+          <ul class="tl-footer__btns">
+            <li><a class="tl-footer__btn" href="#contact">無料で相談する<span class="tl-footer__chev" aria-hidden="true"></span></a></li>
+            <li><a class="tl-footer__btn" href="#demo">営業音声を聴く<span class="tl-footer__chev" aria-hidden="true"></span></a></li>
+          </ul>
+        </div>
+
+        <section class="tl-footer__company" aria-labelledby="tl-company-title">
+          <h2 class="tl-footer__title" id="tl-company-title">会社情報</h2>
+          <dl class="tl-footer__info">
+            <div><dt>会社名</dt><dd>GIGUUU株式会社</dd></div>
+            <div><dt>設立</dt><dd>2021年12月</dd></div>
+            <div><dt>代表者</dt><dd>青木 一平</dd></div>
+            <div><dt>所在地</dt><dd>東京都豊島区東池袋1-34-5</dd></div>
+            <div><dt>連絡先</dt><dd><a href="tel:0343661687">03-4366-1687</a></dd></div>
+            <div><dt>事業内容</dt><dd>プラットフォーム事業<br />代理店事業</dd></div>
+            <div><dt>代表サービス</dt><dd>SaaS営業支援「TELEMO」</dd></div>
+          </dl>
+        </section>
+
+        <div class="tl-footer__bottom">
+          <nav class="tl-footer__nav" aria-label="フッターメニュー">
+            <ul>
+              <li><a href="#telemo">TELEMOとは</a></li>
+              <li><a href="#pricing">料金</a></li>
+              <li><a href="#flow">導入の流れ</a></li>
+              <li><a href="#faq">よくある質問</a></li>
+              <li><a href="#contact">お問い合わせ</a></li>
+            </ul>
+            <!-- TODO: 先方確認 プライバシーポリシーのURL（旧ページはリンク先が未設定のため未掲載） -->
+            <!-- TODO: 先方確認 利用規約のURL（旧ページはリンク先が未設定のため未掲載） -->
+            <!-- TODO: 先方確認 情報セキュリティ方針のURL（旧ページはリンク先が未設定のため未掲載） -->
+            <!-- TODO: 先方確認 特定商取引法に基づく表記のURL（旧ページはリンク先が未設定のため未掲載） -->
+          </nav>
+          <p class="tl-footer__copy"><small>© 2026 GIGUUU Inc. All rights reserved.</small></p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./site.js" defer></script>
+    <script src="./telemo-lotte.js" defer></script>
+  </body>
+</html>

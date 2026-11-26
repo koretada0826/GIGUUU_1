@@ -1,0 +1,31 @@
+{
+  "requested_model": "image2.5",
+  "generation_tool": "built-in image_gen",
+  "model_selection_available": false,
+  "prompt": {
+    "use_case": "ads-marketing",
+    "asset_type": "website hero banner",
+    "input_image_role": "Reference image. Preserve this person's identity, pose, composition, and design.",
+    "primary_request": "Recreate the provided Japanese hero banner faithfully at wide 2.3:1 aspect ratio. Bright blue sky and Yokohama waterfront skyline; same smiling Japanese man in navy blazer and white T-shirt on right, hands clasped. Bold navy Japanese typography on white rectangular strips on left, red AI, gold ribbon, three blue/gold action panels and bottom navy navigation.",
+    "text": [
+      "人と事業の、次の一歩を。",
+      "現場を知り尽くした、",
+      "コールセンター経営者が",
+      "つくったAI",
+      "あなたの挑戦に寄り添う",
+      "サービス",
+      "事業紹介",
+      "進め方",
+      "ご利用の流れ",
+      "ご相談",
+      "お問い合わせ",
+      "サービス",
+      "私たちについて",
+      "ご利用の流れ",
+      "お問い合わせ"
+    ],
+    "constraints": "Match source positions closely, preserve all copy exactly, sharp readable Japanese, keep full banner and bottom nav, no watermark."
+  },
+  "image": "giguuu-founder-hero-v1.png",
+  "reference": "/Users/matsugirintarou/.codex/generated_images/01a11fe4-8153-7a91-9815-7bf75fce24b6/exec-7ef53c0d-4402-4c1f-8d04-42c62fca9128.png"
+}

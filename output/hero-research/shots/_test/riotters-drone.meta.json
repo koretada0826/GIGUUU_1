@@ -1,0 +1,110 @@
+{
+ "slug": "riotters-drone",
+ "url": "https://drone.riotters.com/",
+ "capturedAt": "2026-10-12 21:02:07",
+ "files": {
+  "pc_f0": "riotters-drone-pc-f0.jpg",
+  "pc_f1": "riotters-drone-pc-f1.jpg",
+  "pc_f2": "riotters-drone-pc-f2.jpg",
+  "pc_scroll": "riotters-drone-pc-scroll.jpg",
+  "sp": "riotters-drone-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://drone.riotters.com/",
+  "title": "Aevion — autonomous LiDAR inspection drone",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 16891,
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [
+   "Scroll Down"
+  ],
+  "videos": [
+   {
+    "src": "https://drone.riotters.com/intro/video1.mp4",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 393,
+    "h": 221,
+    "playing": false
+   },
+   {
+    "src": "https://drone.riotters.com/intro/video2.mp4",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 393,
+    "h": 221,
+    "playing": false
+   },
+   {
+    "src": "https://drone.riotters.com/intro/video3.mp4",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 393,
+    "h": 221,
+    "playing": false
+   }
+  ],
+  "canvases": [
+   {
+    "w": 1440,
+    "h": 900
+   }
+  ],
+  "images": [],
+  "backgroundImages": [
+   {
+    "bg": "url(\"https://drone.riotters.com/hero/aevion.svg\")",
+    "w": 1392,
+    "h": 400
+   }
+  ],
+  "firstScreenFonts": [
+   "switzer"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": true,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 560,
+ "sp": {
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [
+   "Scroll Down"
+  ],
+  "videos": [],
+  "canvases": [
+   {
+    "w": 546,
+    "h": 844
+   }
+  ],
+  "images": [],
+  "pageHeight": 9436
+ },
+ "elapsedSec": 12.0
+}

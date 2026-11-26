@@ -1,0 +1,129 @@
+{
+ "slug": "tiltongroup-com",
+ "url": "https://www.tiltongroup.com/en/",
+ "capturedAt": "2026-10-12 21:24:45",
+ "files": {
+  "pc_f0": "tiltongroup-com-pc-f0.jpg",
+  "pc_f1": "tiltongroup-com-pc-f1.jpg",
+  "pc_f2": "tiltongroup-com-pc-f2.jpg",
+  "pc_scroll": "tiltongroup-com-pc-scroll.jpg",
+  "sp": "tiltongroup-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.tiltongroup.com/en/",
+  "title": "Thermoformed plastic packaging | Tilton",
+  "lang": "en-CA",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 11131,
+  "h1": "Packaging designed for the future",
+  "h1Style": {
+   "fontFamily": "SuisseIntl, Arial, sans-serif",
+   "fontSize": "32px",
+   "fontWeight": "700",
+   "lineHeight": "32px",
+   "letterSpacing": "normal",
+   "color": "rgb(243, 241, 238)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 195,
+    "y": 218,
+    "w": 1050,
+    "h": 464
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "Allow all cookies",
+   "Allow necessary cookies",
+   "Manage cookies",
+   "Confirm my choice",
+   "Packaging",
+   "Food packaging",
+   "Medical and pharmaceutical",
+   "Custom made",
+   "Repost 100% recycled",
+   "Brio Tamper-evident",
+   "Forno From freezer to oven",
+   "Awave Made for takeout"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [],
+  "backgroundImages": [
+   {
+    "bg": "url(\"https://www.tiltongroup.com/assets/medias/_hero_tablet/WEB_2023_nov_tilton-215.jpg\")",
+    "w": 1400,
+    "h": 900
+   },
+   {
+    "bg": "url(\"blob:https://www.tiltongroup.com/b592b92b-61a1-49ad-aa1c-0cd4f12c70ff\")",
+    "w": 640,
+    "h": 522
+   }
+  ],
+  "firstScreenFonts": [
+   "SuisseIntl"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(243, 241, 238)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "Packaging designed for the future",
+  "h1Style": {
+   "fontFamily": "SuisseIntl, Arial, sans-serif",
+   "fontSize": "32px",
+   "fontWeight": "700",
+   "lineHeight": "32px",
+   "letterSpacing": "normal",
+   "color": "rgb(243, 241, 238)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 30,
+    "y": 347,
+    "w": 330,
+    "h": 151
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "Medical and pharmaceutical",
+   "Repost 100% recycled",
+   "Brio Tamper-evident",
+   "Forno From freezer to oven",
+   "Awave Made for takeout",
+   "Portfolio Our Best Sellers",
+   "Repost Our Full Repost Line",
+   "Lunch Box Our Top Lunch Box Packaging",
+   "Sandwiches Our Sandwich Containers",
+   "Sweet Tooth Our Top Dessert Packaging",
+   "Repost 100% recycled Discover",
+   "Brio Tamper-evident Discover"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [],
+  "pageHeight": 10172
+ },
+ "elapsedSec": 19.1
+}

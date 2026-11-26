@@ -1,0 +1,170 @@
+{
+ "slug": "apple-com-jp-macbook-pro",
+ "url": "https://www.apple.com/jp/macbook-pro/",
+ "capturedAt": "2026-10-12 21:07:56",
+ "files": {
+  "pc_f0": "apple-com-jp-macbook-pro-pc-f0.jpg",
+  "pc_f1": "apple-com-jp-macbook-pro-pc-f1.jpg",
+  "pc_f2": "apple-com-jp-macbook-pro-pc-f2.jpg",
+  "pc_scroll": "apple-com-jp-macbook-pro-pc-scroll.jpg",
+  "sp": "apple-com-jp-macbook-pro-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.apple.com/jp/macbook-pro/",
+  "title": "MacBook Pro - Apple（日本）",
+  "lang": "ja-JP",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 41031,
+  "h1": "MacBook Pro",
+  "h1Style": {
+   "fontFamily": "\"SF Pro JP\", \"SF Pro Display\", \"SF Pro Icons\", \"Hiragino Kaku Gothic Pro\", \"ヒラギノ角ゴ Pro W3\", メイリオ, Meiryo, \"ＭＳ Ｐゴシック\", \"H",
+   "fontSize": "28px",
+   "fontWeight": "600",
+   "lineHeight": "33.0011px",
+   "letterSpacing": "0.196px",
+   "color": "rgb(245, 245, 247)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 90,
+    "y": 683,
+    "w": 630,
+    "h": 33
+   }
+  },
+  "lead": "スピードの遺伝子。",
+  "ctas": [
+   "ストア",
+   "最新の製品を見る",
+   "Mac",
+   "iPad",
+   "iPhone",
+   "Apple Watch",
+   "Apple Vision Pro",
+   "AirPods",
+   "アクセサリ",
+   "Macの全モデルを見‍る",
+   "MacBook Neo",
+   "MacBook Air"
+  ],
+  "videos": [
+   {
+    "src": "https://www.apple.com/105/media/jp/macbook-pro/2025/785e1bc4-d1bd-4cf4-b1b3-94b9411c9e74/anim/hero/large.mp4",
+    "autoplay": false,
+    "loop": false,
+    "muted": true,
+    "w": 2880,
+    "h": 900,
+    "playing": false
+   }
+  ],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.apple.com/jp/macbook-pro/images/overview/welcome/hero_endframe__fwev9ebh42mq_large.jpg",
+    "w": 2880,
+    "h": 900,
+    "alt": "V字に見えるように置かれたMacBook Pro。M5チップを表現している"
+   },
+   {
+    "src": "data:image/gif;base64,R0lGODlhAQABAHAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==",
+    "w": 2880,
+    "h": 900,
+    "alt": "V字に見えるように置かれたMacBook Pro。M5チップファミリーを表現している"
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "SF Pro JP"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "MacBook Pro",
+  "h1Style": {
+   "fontFamily": "\"SF Pro JP\", \"SF Pro Display\", \"SF Pro Icons\", \"Hiragino Kaku Gothic Pro\", \"ヒラギノ角ゴ Pro W3\", メイリオ, Meiryo, \"ＭＳ Ｐゴシック\", \"H",
+   "fontSize": "21px",
+   "fontWeight": "600",
+   "lineHeight": "26px",
+   "letterSpacing": "0.231px",
+   "color": "rgb(245, 245, 247)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 24,
+    "y": 599,
+    "w": 341,
+    "h": 26
+   }
+  },
+  "lead": "スピードの遺伝子。",
+  "ctas": [
+   "Apple",
+   "ストア",
+   "Mac",
+   "iPad",
+   "iPhone",
+   "Watch",
+   "Vision",
+   "AirPods",
+   "TV & Home",
+   "エンターテインメント",
+   "アクセサリ",
+   "サポート"
+  ],
+  "videos": [
+   {
+    "src": "https://www.apple.com/105/media/jp/macbook-pro/2025/785e1bc4-d1bd-4cf4-b1b3-94b9411c9e74/anim/hero/small_2x.mp4",
+    "autoplay": false,
+    "loop": false,
+    "muted": true,
+    "w": 585,
+    "h": 800,
+    "playing": true
+   }
+  ],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.apple.com/jp/macbook-pro/images/overview/welcome/hero_endframe__fwev9ebh42mq_small_2x.jpg",
+    "w": 585,
+    "h": 800,
+    "alt": "V字に見えるように置かれたMacBook Pro。M5チップを表現している"
+   },
+   {
+    "src": "https://www.apple.com/jp/macbook-pro/images/overview/welcome/hero_startframe__ek0dqbh61vau_small_2x.jpg",
+    "w": 585,
+    "h": 800,
+    "alt": ""
+   },
+   {
+    "src": "data:image/gif;base64,R0lGODlhAQABAHAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==",
+    "w": 585,
+    "h": 800,
+    "alt": "V字に見えるように置かれたMacBook Pro。M5チップファミリーを表現している"
+   }
+  ],
+  "pageHeight": 42111
+ },
+ "elapsedSec": 13.0
+}

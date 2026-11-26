@@ -1,0 +1,318 @@
+{
+ "slug": "officecommun-com",
+ "url": "https://officecommun.com/",
+ "capturedAt": "2026-10-12 21:15:12",
+ "files": {
+  "pc_f0": "officecommun-com-pc-f0.jpg",
+  "pc_f1": "officecommun-com-pc-f1.jpg",
+  "pc_f2": "officecommun-com-pc-f2.jpg",
+  "pc_scroll": "officecommun-com-pc-scroll.jpg",
+  "sp": "officecommun-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://officecommun.com/",
+  "title": "Office Commun",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 1510,
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [],
+  "videos": [
+   {
+    "src": "https://auvryubksvduljzkkdcj.supabase.co/storage/v1/object/public/office-commun/fb1e0d0f-bf02-4a6e-bc63-ee23e4b54acf/1790615145408-04.mp4",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 358,
+    "h": 202,
+    "playing": true
+   },
+   {
+    "src": "https://auvryubksvduljzkkdcj.supabase.co/storage/v1/object/public/office-commun/fb1e0d0f-bf02-4a6e-bc63-ee23e4b54acf/1790615155713-08.mp4",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 177,
+    "h": 202,
+    "playing": false
+   },
+   {
+    "src": "https://auvryubksvduljzkkdcj.supabase.co/storage/v1/object/public/office-commun/fb1e0d0f-bf02-4a6e-bc63-ee23e4b54acf/1790615158248-10.mp4",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 358,
+    "h": 202,
+    "playing": false
+   },
+   {
+    "src": "https://auvryubksvduljzkkdcj.supabase.co/storage/v1/object/public/office-commun/fb1e0d0f-bf02-4a6e-bc63-ee23e4b54acf/1790615176740-13.mp4",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 177,
+    "h": 202,
+    "playing": false
+   },
+   {
+    "src": "https://auvryubksvduljzkkdcj.supabase.co/storage/v1/object/public/office-commun/fb1e0d0f-bf02-4a6e-bc63-ee23e4b54acf/1790615187914-16.mp4",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 358,
+    "h": 202,
+    "playing": false
+   },
+   {
+    "src": "https://auvryubksvduljzkkdcj.supabase.co/storage/v1/object/public/office-commun/shared/sequence-01.mp4",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 174,
+    "h": 202,
+    "playing": false
+   }
+  ],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://auvryubksvduljzkkdcj.supabase.co/storage/v1/render/image/public/office-commun/fb1e0d0f-bf02-4a6e-bc63-ee23e4b54acf/1790615137560-01.jpg?width=996&height=560&resize=cover&quality=75",
+    "w": 358,
+    "h": 202,
+    "alt": "Figr, frame 1"
+   },
+   {
+    "src": "https://auvryubksvduljzkkdcj.supabase.co/storage/v1/render/image/public/office-commun/fb1e0d0f-bf02-4a6e-bc63-ee23e4b54acf/1790615140325-02.jpg?width=493&height=560&resize=cover&quality=75",
+    "w": 177,
+    "h": 202,
+    "alt": "Figr, frame 2"
+   },
+   {
+    "src": "https://auvryubksvduljzkkdcj.supabase.co/storage/v1/render/image/public/office-commun/fb1e0d0f-bf02-4a6e-bc63-ee23e4b54acf/1790615141512-03.jpg?width=493&height=560&resize=cover&quality=75",
+    "w": 177,
+    "h": 202,
+    "alt": "Figr, frame 3"
+   },
+   {
+    "src": "https://auvryubksvduljzkkdcj.supabase.co/storage/v1/render/image/public/office-commun/fb1e0d0f-bf02-4a6e-bc63-ee23e4b54acf/1790615147718-05.jpg?width=493&height=560&resize=cover&quality=75",
+    "w": 177,
+    "h": 202,
+    "alt": "Figr, frame 5"
+   },
+   {
+    "src": "https://auvryubksvduljzkkdcj.supabase.co/storage/v1/render/image/public/office-commun/fb1e0d0f-bf02-4a6e-bc63-ee23e4b54acf/1790615148694-06.jpg?width=493&height=560&resize=cover&quality=75",
+    "w": 177,
+    "h": 202,
+    "alt": "Figr, frame 6"
+   },
+   {
+    "src": "https://auvryubksvduljzkkdcj.supabase.co/storage/v1/render/image/public/office-commun/fb1e0d0f-bf02-4a6e-bc63-ee23e4b54acf/1790615150762-07.jpg?width=996&height=560&resize=cover&quality=75",
+    "w": 358,
+    "h": 202,
+    "alt": "Figr, frame 7"
+   },
+   {
+    "src": "https://auvryubksvduljzkkdcj.supabase.co/storage/v1/render/image/public/office-commun/fb1e0d0f-bf02-4a6e-bc63-ee23e4b54acf/1790615157330-09.jpg?width=493&height=560&resize=cover&quality=75",
+    "w": 177,
+    "h": 202,
+    "alt": "Figr, frame 9"
+   },
+   {
+    "src": "https://auvryubksvduljzkkdcj.supabase.co/storage/v1/render/image/public/office-commun/fb1e0d0f-bf02-4a6e-bc63-ee23e4b54acf/1790615172327-11.jpg?width=493&height=560&resize=cover&quality=75",
+    "w": 177,
+    "h": 202,
+    "alt": "Figr, frame 11"
+   },
+   {
+    "src": "https://auvryubksvduljzkkdcj.supabase.co/storage/v1/render/image/public/office-commun/fb1e0d0f-bf02-4a6e-bc63-ee23e4b54acf/1790615175094-12.jpg?width=493&height=560&resize=cover&quality=75",
+    "w": 177,
+    "h": 202,
+    "alt": "Figr, frame 12"
+   },
+   {
+    "src": "https://auvryubksvduljzkkdcj.supabase.co/storage/v1/render/image/public/office-commun/fb1e0d0f-bf02-4a6e-bc63-ee23e4b54acf/1790615182316-14.jpg?width=493&height=560&resize=cover&quality=75",
+    "w": 177,
+    "h": 202,
+    "alt": "Figr, frame 14"
+   },
+   {
+    "src": "https://auvryubksvduljzkkdcj.supabase.co/storage/v1/render/image/public/office-commun/fb1e0d0f-bf02-4a6e-bc63-ee23e4b54acf/1790615185388-15.jpg?width=996&height=560&resize=cover&quality=75",
+    "w": 358,
+    "h": 202,
+    "alt": "Figr, frame 15"
+   },
+   {
+    "src": "https://auvryubksvduljzkkdcj.supabase.co/storage/v1/render/image/public/office-commun/adfa69f8-28e6-445d-a1e6-b51236934105/1788338851418-brand-design.jpg?width=996&height=560&resize=cover&quality=75",
+    "w": 358,
+    "h": 202,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Inter"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(252, 252, 252)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 610,
+ "sp": {
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [],
+  "videos": [
+   {
+    "src": "https://auvryubksvduljzkkdcj.supabase.co/storage/v1/object/public/office-commun/fb1e0d0f-bf02-4a6e-bc63-ee23e4b54acf/1790615145408-04.mp4",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 256,
+    "h": 144,
+    "playing": false
+   },
+   {
+    "src": "https://auvryubksvduljzkkdcj.supabase.co/storage/v1/object/public/office-commun/fb1e0d0f-bf02-4a6e-bc63-ee23e4b54acf/1790615155713-08.mp4",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 127,
+    "h": 144,
+    "playing": false
+   },
+   {
+    "src": "https://auvryubksvduljzkkdcj.supabase.co/storage/v1/object/public/office-commun/fb1e0d0f-bf02-4a6e-bc63-ee23e4b54acf/1790615158248-10.mp4",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 256,
+    "h": 144,
+    "playing": false
+   },
+   {
+    "src": "https://auvryubksvduljzkkdcj.supabase.co/storage/v1/object/public/office-commun/fb1e0d0f-bf02-4a6e-bc63-ee23e4b54acf/1790615176740-13.mp4",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 127,
+    "h": 144,
+    "playing": false
+   },
+   {
+    "src": "https://auvryubksvduljzkkdcj.supabase.co/storage/v1/object/public/office-commun/fb1e0d0f-bf02-4a6e-bc63-ee23e4b54acf/1790615187914-16.mp4",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 256,
+    "h": 144,
+    "playing": false
+   },
+   {
+    "src": "https://auvryubksvduljzkkdcj.supabase.co/storage/v1/object/public/office-commun/shared/sequence-01.mp4",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 124,
+    "h": 144,
+    "playing": false
+   }
+  ],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://auvryubksvduljzkkdcj.supabase.co/storage/v1/render/image/public/office-commun/fb1e0d0f-bf02-4a6e-bc63-ee23e4b54acf/1790615137560-01.jpg?width=996&height=560&resize=cover&quality=75",
+    "w": 256,
+    "h": 144,
+    "alt": "Figr, frame 1"
+   },
+   {
+    "src": "https://auvryubksvduljzkkdcj.supabase.co/storage/v1/render/image/public/office-commun/fb1e0d0f-bf02-4a6e-bc63-ee23e4b54acf/1790615140325-02.jpg?width=493&height=560&resize=cover&quality=75",
+    "w": 127,
+    "h": 144,
+    "alt": "Figr, frame 2"
+   },
+   {
+    "src": "https://auvryubksvduljzkkdcj.supabase.co/storage/v1/render/image/public/office-commun/fb1e0d0f-bf02-4a6e-bc63-ee23e4b54acf/1790615141512-03.jpg?width=493&height=560&resize=cover&quality=75",
+    "w": 127,
+    "h": 144,
+    "alt": "Figr, frame 3"
+   },
+   {
+    "src": "https://auvryubksvduljzkkdcj.supabase.co/storage/v1/render/image/public/office-commun/fb1e0d0f-bf02-4a6e-bc63-ee23e4b54acf/1790615147718-05.jpg?width=493&height=560&resize=cover&quality=75",
+    "w": 127,
+    "h": 144,
+    "alt": "Figr, frame 5"
+   },
+   {
+    "src": "https://auvryubksvduljzkkdcj.supabase.co/storage/v1/render/image/public/office-commun/fb1e0d0f-bf02-4a6e-bc63-ee23e4b54acf/1790615148694-06.jpg?width=493&height=560&resize=cover&quality=75",
+    "w": 127,
+    "h": 144,
+    "alt": "Figr, frame 6"
+   },
+   {
+    "src": "https://auvryubksvduljzkkdcj.supabase.co/storage/v1/render/image/public/office-commun/fb1e0d0f-bf02-4a6e-bc63-ee23e4b54acf/1790615150762-07.jpg?width=996&height=560&resize=cover&quality=75",
+    "w": 256,
+    "h": 144,
+    "alt": "Figr, frame 7"
+   },
+   {
+    "src": "https://auvryubksvduljzkkdcj.supabase.co/storage/v1/render/image/public/office-commun/fb1e0d0f-bf02-4a6e-bc63-ee23e4b54acf/1790615157330-09.jpg?width=493&height=560&resize=cover&quality=75",
+    "w": 127,
+    "h": 144,
+    "alt": "Figr, frame 9"
+   },
+   {
+    "src": "https://auvryubksvduljzkkdcj.supabase.co/storage/v1/render/image/public/office-commun/fb1e0d0f-bf02-4a6e-bc63-ee23e4b54acf/1790615172327-11.jpg?width=493&height=560&resize=cover&quality=75",
+    "w": 127,
+    "h": 144,
+    "alt": "Figr, frame 11"
+   },
+   {
+    "src": "https://auvryubksvduljzkkdcj.supabase.co/storage/v1/render/image/public/office-commun/fb1e0d0f-bf02-4a6e-bc63-ee23e4b54acf/1790615175094-12.jpg?width=493&height=560&resize=cover&quality=75",
+    "w": 127,
+    "h": 144,
+    "alt": "Figr, frame 12"
+   },
+   {
+    "src": "https://auvryubksvduljzkkdcj.supabase.co/storage/v1/render/image/public/office-commun/fb1e0d0f-bf02-4a6e-bc63-ee23e4b54acf/1790615182316-14.jpg?width=493&height=560&resize=cover&quality=75",
+    "w": 127,
+    "h": 144,
+    "alt": "Figr, frame 14"
+   },
+   {
+    "src": "https://auvryubksvduljzkkdcj.supabase.co/storage/v1/render/image/public/office-commun/fb1e0d0f-bf02-4a6e-bc63-ee23e4b54acf/1790615185388-15.jpg?width=996&height=560&resize=cover&quality=75",
+    "w": 256,
+    "h": 144,
+    "alt": "Figr, frame 15"
+   },
+   {
+    "src": "https://auvryubksvduljzkkdcj.supabase.co/storage/v1/render/image/public/office-commun/adfa69f8-28e6-445d-a1e6-b51236934105/1788338851418-brand-design.jpg?width=996&height=560&resize=cover&quality=75",
+    "w": 256,
+    "h": 144,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 1216
+ },
+ "elapsedSec": 11.4
+}

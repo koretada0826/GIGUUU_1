@@ -1,0 +1,162 @@
+[
+  {
+    "variant": "01-editorial-typographic",
+    "width": 1280,
+    "horizontalOverflow": false,
+    "headlineVisible": true,
+    "primaryVisible": true,
+    "brokenImages": 0
+  },
+  {
+    "variant": "01-editorial-typographic",
+    "width": 390,
+    "horizontalOverflow": false,
+    "headlineVisible": true,
+    "primaryVisible": true,
+    "brokenImages": 0
+  },
+  {
+    "variant": "02-asymmetric-bento",
+    "width": 1280,
+    "horizontalOverflow": false,
+    "headlineVisible": true,
+    "primaryVisible": true,
+    "brokenImages": 0
+  },
+  {
+    "variant": "02-asymmetric-bento",
+    "width": 390,
+    "horizontalOverflow": false,
+    "headlineVisible": true,
+    "primaryVisible": true,
+    "brokenImages": 0
+  },
+  {
+    "variant": "03-product-screen",
+    "width": 1280,
+    "horizontalOverflow": false,
+    "headlineVisible": true,
+    "primaryVisible": true,
+    "brokenImages": 0
+  },
+  {
+    "variant": "03-product-screen",
+    "width": 390,
+    "horizontalOverflow": false,
+    "headlineVisible": true,
+    "primaryVisible": true,
+    "brokenImages": 0
+  },
+  {
+    "variant": "04-audio-split",
+    "width": 1280,
+    "horizontalOverflow": false,
+    "headlineVisible": true,
+    "primaryVisible": true,
+    "brokenImages": 0
+  },
+  {
+    "variant": "04-audio-split",
+    "width": 390,
+    "horizontalOverflow": false,
+    "headlineVisible": true,
+    "primaryVisible": true,
+    "brokenImages": 0
+  },
+  {
+    "variant": "05-full-bleed-photo",
+    "width": 1280,
+    "horizontalOverflow": false,
+    "headlineVisible": true,
+    "primaryVisible": true,
+    "brokenImages": 0
+  },
+  {
+    "variant": "05-full-bleed-photo",
+    "width": 390,
+    "horizontalOverflow": false,
+    "headlineVisible": true,
+    "primaryVisible": true,
+    "brokenImages": 0
+  },
+  {
+    "variant": "06-minimal-no-gradient",
+    "width": 1280,
+    "horizontalOverflow": false,
+    "headlineVisible": true,
+    "primaryVisible": true,
+    "brokenImages": 0
+  },
+  {
+    "variant": "06-minimal-no-gradient",
+    "width": 390,
+    "horizontalOverflow": false,
+    "headlineVisible": true,
+    "primaryVisible": true,
+    "brokenImages": 0
+  },
+  {
+    "variant": "07-abstract-three-dimensional",
+    "width": 1280,
+    "horizontalOverflow": false,
+    "headlineVisible": true,
+    "primaryVisible": true,
+    "brokenImages": 0
+  },
+  {
+    "variant": "07-abstract-three-dimensional",
+    "width": 390,
+    "horizontalOverflow": false,
+    "headlineVisible": true,
+    "primaryVisible": true,
+    "brokenImages": 0
+  },
+  {
+    "variant": "08-real-data",
+    "width": 1280,
+    "horizontalOverflow": false,
+    "headlineVisible": true,
+    "primaryVisible": true,
+    "brokenImages": 0
+  },
+  {
+    "variant": "08-real-data",
+    "width": 390,
+    "horizontalOverflow": false,
+    "headlineVisible": true,
+    "primaryVisible": true,
+    "brokenImages": 0
+  },
+  {
+    "variant": "09-flat-diagram",
+    "width": 1280,
+    "horizontalOverflow": false,
+    "headlineVisible": true,
+    "primaryVisible": true,
+    "brokenImages": 0
+  },
+  {
+    "variant": "09-flat-diagram",
+    "width": 390,
+    "horizontalOverflow": false,
+    "headlineVisible": true,
+    "primaryVisible": true,
+    "brokenImages": 0
+  },
+  {
+    "variant": "10-dark-premium",
+    "width": 1280,
+    "horizontalOverflow": false,
+    "headlineVisible": true,
+    "primaryVisible": true,
+    "brokenImages": 0
+  },
+  {
+    "variant": "10-dark-premium",
+    "width": 390,
+    "horizontalOverflow": false,
+    "headlineVisible": true,
+    "primaryVisible": true,
+    "brokenImages": 0
+  }
+]

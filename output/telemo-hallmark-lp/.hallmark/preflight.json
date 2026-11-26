@@ -1,0 +1,12 @@
+{
+  "scanned": "2026-11-04",
+  "findings": {
+    "design_lock": "No design.md or DESIGN.md at the workspace root",
+    "framework": "Static HTML, CSS and JavaScript in the existing TELEMO workspace",
+    "fonts": "Noto Sans JP and system Japanese fallbacks in existing CSS",
+    "palette": "Existing site uses teal and orange; this isolated Hallmark page uses the dealt Coral theme",
+    "material": "Mini-president poster and talk sprites in assets/concierge/president-cutout, three demo audio files in assets/audio, service claims and contact form in index.html"
+  },
+  "preserve": ["TELEMO name", "existing mini-president asset", "existing demo audio", "existing contact destination"],
+  "introduce": ["Narrative Workflow page", "Coral theme", "speech bubble with the user's exact wording", "waveform generated from a real demo audio file", "Hallmark gates"]
+}

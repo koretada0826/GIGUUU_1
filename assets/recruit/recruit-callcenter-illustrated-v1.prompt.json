@@ -1,0 +1,39 @@
+{
+  "name": "recruit-callcenter-illustrated-v1",
+  "created_at": "2026-10-13",
+  "tool": "image_gen__imagegen (built-in)",
+  "actual_model": null,
+  "references": [
+    {
+      "file": "assets/recruit/recruit-team-illustrated-v1.png",
+      "role": "Approved full visual design and anime art direction"
+    },
+    {
+      "file": "assets/recruit/recruit-callcenter-focus-reference.png",
+      "role": "User-selected four-person scene to change"
+    }
+  ],
+  "output": "assets/recruit/recruit-callcenter-illustrated-v1.png",
+  "dimensions": {
+    "width": 1938,
+    "height": 811
+  },
+  "prompt": "Use case: precise-object-edit.\nAsset type: one wide hero illustration for the existing Japanese TELEMO recruitment website.\nImage 1 is the complete approved blue recruitment design and visual/style reference. Image 2 is the user's cropped focus on the four illustrated colleagues; it identifies exactly the scene to transform.\nCreate a new CALL CENTER VERSION of the upper illustrated hero, retaining the original friendly Japanese anime illustration style, the recognizable identities of the same four young Japanese colleagues, their blue/white/navy clothing, warm smiles, coordinated team composition, strong cobalt/sky-blue palette, bright daylight and office windows with a city skyline.\nOutput only the upper illustrated hero as one wide landscape image approximately 1505x630 (aspect ratio about 2.39:1). DO NOT include the lower white explanatory-copy section, recruitment CTA, role pills or pale-blue employment-category navigation from image 1; these already exist as functional HTML on the website. No collage, browser or device frame.\n\nChange the scene so it clearly depicts a real call-center team:\n- The seated young man on the left wears a professional lightweight single-ear or double-ear COMMUNICATIONS HEADSET ON HIS HEAD, with a slender boom microphone naturally by his mouth, not music headphones around his neck. He is cheerfully speaking with a customer while viewing a customer-contact screen. Replace his code-editor display with a subtle call-center CRM interface containing simple unreadable rows, customer/contact blocks and a small call-status symbol. Do not render legible invented interface text.\n- The young woman in front on the right also wears a lightweight boom-microphone headset, working at her computer while warmly smiling toward her teammate and consulting a paper call script.\n- The woman at the far right wears a similar headset and holds a tablet or clipboard containing an unreadable customer-support checklist.\n- The standing man behind them is an approachable team leader in the same blue blazer, wearing a small single-ear headset, supporting the team with a welcoming open-hand gesture.\n- Make the tabletop contain workstations, keyboards, computer monitors or laptops, a small business desk phone with coiled cord, simple call-script sheets and pens. Natural coherent hands and headset cabling. Reduce the prominent programming books and creative-brainstorm props so telephone work is the central visual cue.\n- Through the office background show two or three subtle additional rows of call-center workstations with low acoustic dividers and faint small headset-wearing operators. Keep them quiet and subordinate to the four primary characters; no extra foreground people.\n- Preserve sunny sky, city and bright white/blue office atmosphere. Clean and cheerful, no dark cubicle factory or futuristic holograms.\n\nPreserve the full LEFT headline and its brush styling and placement; no clipping. Exact text:\nSmall upper-left: \"RECRUIT\" and \"採用情報\"\nLarge cobalt hand-painted headline, two lines: \"挑戦する仲間を、\" / \"募集しています。\"\nLower-left handwritten note: \"AIで、\" / \"はたらくの未来を\" / \"もっとおもしろく！\"\nUpper-right handwritten note: \"きっと、\" / \"できる。\" / \"いっしょに\" / \"つくろう！\"\nRetain the original four small white role speech bubbles at their recognizable positions, with exact labels \"エンジニア\", \"セールス\", \"AIプランナー\", \"コーポレート\". The right-hand background poster may keep \"GOOD TEAM! GOOD FUTURE!\". No new slogans or claims.\n\nMaintain the recognizable anime faces, proportions and expressive original linework; don't turn them into photographs or 3D figures. Every headset must have a natural fit and correctly attached microphone boom. The scene must read as human telephone sales/customer service teamwork immediately. Exactly one opaque final wide image, sharp legible Japanese lettering, no watermark.",
+  "transparent_background": false,
+  "implementation": {
+    "page": "recruit.html",
+    "selector": ".rc-illustrated__art img",
+    "full_art_visible": true,
+    "lower_copy_cta_and_four_categories": "Working HTML preserved"
+  },
+  "visual_check": {
+    "callcenter_headsets_on_all_four": true,
+    "boom_microphones": true,
+    "crm_screens": true,
+    "desk_telephone": true,
+    "background_callcenter_workstations": true,
+    "same_blue_anime_style": true,
+    "japanese_headline_correct": true,
+    "original_references_preserved": true
+  }
+}

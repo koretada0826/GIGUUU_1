@@ -1,0 +1,12 @@
+{
+  "outsideCentralCharacterUnchanged": true,
+  "existingFloatingGuideAndControllersUnchanged": true,
+  "sourceHTMLSHA256": "529a75cf6b05773184ce62f0fcc47dd5062f6eac28d79e8aad1405eeac2677b1",
+  "restoredHTMLSHA256": "529a75cf6b05773184ce62f0fcc47dd5062f6eac28d79e8aad1405eeac2677b1",
+  "scope": [
+    "central comment bubble and talk sprite",
+    "dedicated comments CSS/JS additions",
+    "arrival/departure/leave events in the existing handoff controller"
+  ],
+  "narrationAdded": false
+}

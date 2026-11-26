@@ -1,0 +1,13 @@
+{
+  "source": "https://becomeautonomous.com/",
+  "final_url": "https://becomeautonomous.com/",
+  "captured_at": "2026-10-12 15:36",
+  "tool": "mirror_browser.py (filmstrip)",
+  "assets_saved": 21,
+  "bytes_saved": 1996853,
+  "notes": [
+    "filmstrip: 21 frames, 600px apart"
+  ],
+  "failed": {},
+  "skipped": {}
+}

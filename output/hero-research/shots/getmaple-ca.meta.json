@@ -1,0 +1,175 @@
+{
+ "slug": "getmaple-ca",
+ "url": "https://www.getmaple.ca/",
+ "capturedAt": "2026-10-12 21:15:48",
+ "files": {
+  "pc_f0": "getmaple-ca-pc-f0.jpg",
+  "pc_f1": "getmaple-ca-pc-f1.jpg",
+  "pc_f2": "getmaple-ca-pc-f2.jpg",
+  "pc_scroll": "getmaple-ca-pc-scroll.jpg",
+  "sp": "getmaple-ca-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": "safe-accept",
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.getmaple.ca/",
+  "title": "Online Doctor Appointments, Consultations, and Prescriptions in Canada, 24/7 | Maple",
+  "lang": "en-CA",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 13755,
+  "h1": "Home",
+  "h1Style": {
+   "fontFamily": "MapleWebRegular, Georgia, Times, serif",
+   "fontSize": "64px",
+   "fontWeight": "400",
+   "lineHeight": "60px",
+   "letterSpacing": "-3%",
+   "color": "rgb(255, 146, 92)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 269,
+    "y": 187,
+    "w": 1,
+    "h": 1
+   }
+  },
+  "lead": "If you need same-day care, a prescription renewal or help managing an ongoing condition, our network of Canadian-licensed doctors and nurse practitioners is ready to chat anytime.",
+  "ctas": [
+   "For Patients",
+   "For Providers",
+   "For Partners",
+   "Our practitioners",
+   "Our care services",
+   "Prescriptions",
+   "Lab work",
+   "Medical notes",
+   "Beyond ADHD",
+   "Weight Medication Assessment",
+   "Paediatric Primary Care",
+   "Mental health therapy"
+  ],
+  "videos": [
+   {
+    "src": "https://www.getmaple.ca/uploads/2026/05/SITEHEADER-5.6MB.mp4",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 1440,
+    "h": 600,
+    "playing": true
+   }
+  ],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.getmaple.ca/uploads/2026/07/health-yeah-screengrab-1_5x-1.jpg",
+    "w": 1440,
+    "h": 600,
+    "alt": ""
+   },
+   {
+    "src": "data:image/svg+xml;charset=utf-8,%3Csvg height='628' width='1200' xmlns='http://www.w3.org/2000/svg' version='1.1'%3E%3C/svg%3E",
+    "w": 1440,
+    "h": 596,
+    "alt": ""
+   },
+   {
+    "src": "https://www.getmaple.ca/uploads/2026/05/Health-Yeah-EN-Comfort-Cream.gif?fm=webp&q=75&w=1200&h=628",
+    "w": 440,
+    "h": 230,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "MapleWebRegular",
+   "Inter"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "Home",
+  "h1Style": {
+   "fontFamily": "MapleWebRegular, Georgia, Times, serif",
+   "fontSize": "56px",
+   "fontWeight": "400",
+   "lineHeight": "60px",
+   "letterSpacing": "-3%",
+   "color": "rgb(255, 146, 92)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 63,
+    "y": 151,
+    "w": 1,
+    "h": 1
+   }
+  },
+  "lead": "If you need same-day care, a prescription renewal or help managing an ongoing condition, our network of Canadian-licensed doctors and nurse practitioners is ready to chat anytime.",
+  "ctas": [
+   "Sign up",
+   "For Patients",
+   "For Providers",
+   "For Partners",
+   "Membership",
+   "Specialties",
+   "How it works",
+   "Sign in",
+   "Sign up",
+   "Get started now"
+  ],
+  "videos": [
+   {
+    "src": "https://www.getmaple.ca/uploads/2026/05/SITEHEADER-5.6MB.mp4",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 390,
+    "h": 603,
+    "playing": true
+   }
+  ],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.getmaple.ca/uploads/2026/07/health-yeah-screengrab-1_5x-1.jpg",
+    "w": 390,
+    "h": 603,
+    "alt": ""
+   },
+   {
+    "src": "data:image/svg+xml;charset=utf-8,%3Csvg height='628' width='1200' xmlns='http://www.w3.org/2000/svg' version='1.1'%3E%3C/svg%3E",
+    "w": 390,
+    "h": 603,
+    "alt": ""
+   },
+   {
+    "src": "https://www.getmaple.ca/uploads/2026/05/Health-Yeah-EN-Comfort-Cream.gif?fm=webp&q=75&w=800&h=419",
+    "w": 263,
+    "h": 137,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 17354
+ },
+ "elapsedSec": 12.5
+}

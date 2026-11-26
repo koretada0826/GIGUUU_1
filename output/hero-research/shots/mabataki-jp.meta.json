@@ -1,0 +1,164 @@
+{
+ "slug": "mabataki-jp",
+ "url": "https://mabataki.jp/",
+ "capturedAt": "2026-10-12 21:09:54",
+ "files": {
+  "pc_f0": "mabataki-jp-pc-f0.jpg",
+  "pc_f1": "mabataki-jp-pc-f1.jpg",
+  "pc_f2": "mabataki-jp-pc-f2.jpg",
+  "pc_scroll": "mabataki-jp-pc-scroll.jpg",
+  "sp": "mabataki-jp-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://mabataki.jp/",
+  "title": "渋谷のウェブ制作会社 - 株式会社マバタキ (MABATAKI, inc.)",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 3673,
+  "h1": "",
+  "h1Style": {
+   "fontFamily": "TsukuGoPro-B-HelveticaNowTextMedium, \"Noto Sans JP\", Arial, \"Hiragino Kaku Gothic ProN\", \"Noto Sans JP\", Meiryo, sans-se",
+   "fontSize": "16px",
+   "fontWeight": "600",
+   "lineHeight": "16px",
+   "letterSpacing": "normal",
+   "color": "rgb(34, 34, 34)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 0,
+    "y": 44,
+    "w": 200,
+    "h": 112
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "Home",
+   "Company",
+   "Thinking",
+   "Works",
+   "Topics",
+   "Access / Contact",
+   "Play Video with Music“色のある世界”",
+   "2026/10/30エントリー締切 エンジニア募集のお知らせ",
+   "2026/11/30エントリー締切 デザイナー募集のお知らせ"
+  ],
+  "videos": [
+   {
+    "src": "https://mabataki.jp/assets/video/video2026_v2.mp4",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 1440,
+    "h": 900,
+    "playing": true
+   }
+  ],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://mabataki.jp/assets/img/common/logo.svg",
+    "w": 88,
+    "h": 112,
+    "alt": "MABATAKI"
+   },
+   {
+    "src": "https://mabataki.jp/assets/img/common/loading-circle.svg",
+    "w": 102,
+    "h": 102,
+    "alt": ""
+   },
+   {
+    "src": "https://mabataki.jp/assets/img/common/icon-play.png",
+    "w": 66,
+    "h": 66,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "TsukuGoPro-B-HelveticaNowTextMedium"
+  ],
+  "libs": {
+   "gsap": true,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "",
+  "h1Style": {
+   "fontFamily": "TsukuGoPro-B-HelveticaNowTextMedium, \"Noto Sans JP\", Arial, \"Hiragino Kaku Gothic ProN\", \"Noto Sans JP\", Meiryo, sans-se",
+   "fontSize": "16px",
+   "fontWeight": "600",
+   "lineHeight": "16px",
+   "letterSpacing": "normal",
+   "color": "rgb(34, 34, 34)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 0,
+    "y": 19,
+    "w": 100,
+    "h": 62
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "Play Video with Music “色のある世界”",
+   "2026/10/30エントリー締切 エンジニア募集のお知らせ",
+   "2026/11/30エントリー締切 デザイナー募集のお知らせ"
+  ],
+  "videos": [
+   {
+    "src": "https://mabataki.jp/assets/video/video2026_v2.mp4",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 390,
+    "h": 585,
+    "playing": true
+   }
+  ],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://mabataki.jp/assets/img/common/logo-sp.svg",
+    "w": 48,
+    "h": 61,
+    "alt": "MABATAKI"
+   },
+   {
+    "src": "https://mabataki.jp/assets/img/common/loading-circle.svg",
+    "w": 98,
+    "h": 98,
+    "alt": ""
+   },
+   {
+    "src": "https://mabataki.jp/assets/img/common/icon-play.png",
+    "w": 52,
+    "h": 52,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 3183
+ },
+ "elapsedSec": 11.9
+}

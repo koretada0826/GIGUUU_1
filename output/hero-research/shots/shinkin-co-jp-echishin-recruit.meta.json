@@ -1,0 +1,269 @@
+{
+ "slug": "shinkin-co-jp-echishin-recruit",
+ "url": "https://www.shinkin.co.jp/echishin/recruit/",
+ "capturedAt": "2026-10-12 21:14:43",
+ "files": {
+  "pc_f0": "shinkin-co-jp-echishin-recruit-pc-f0.jpg",
+  "pc_f1": "shinkin-co-jp-echishin-recruit-pc-f1.jpg",
+  "pc_f2": "shinkin-co-jp-echishin-recruit-pc-f2.jpg",
+  "pc_scroll": "shinkin-co-jp-echishin-recruit-pc-scroll.jpg",
+  "sp": "shinkin-co-jp-echishin-recruit-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.shinkin.co.jp/echishin/recruit/",
+  "title": "採用サイト｜越前信用金庫",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 9160,
+  "h1": "RECRUIT",
+  "h1Style": {
+   "fontFamily": "\"Noto Sans JP\", sans-serif",
+   "fontSize": "16px",
+   "fontWeight": "600",
+   "lineHeight": "25.6px",
+   "letterSpacing": "0.48px",
+   "color": "rgb(47, 40, 40)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 63,
+    "y": 39,
+    "w": 212,
+    "h": 29
+   }
+  },
+  "lead": "トップ 仕事・人・ストーリー 福利厚生・キャリア 採用FAQ 募集要項 採用スケジュール ENTRY",
+  "ctas": [],
+  "videos": [
+   {
+    "src": "https://www.shinkin.co.jp/echishin/recruit/assets/home-movie01-ELC_Ky19.mp4",
+    "autoplay": false,
+    "loop": false,
+    "muted": false,
+    "w": 1152,
+    "h": 648,
+    "playing": false
+   }
+  ],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.shinkin.co.jp/echishin/recruit/assets/images/home-hero-mv-img-01-decorate.svg",
+    "w": 198,
+    "h": 255,
+    "alt": ""
+   },
+   {
+    "src": "https://www.shinkin.co.jp/echishin/recruit/assets/images/home-hero-mv-img-01.webp",
+    "w": 468,
+    "h": 569,
+    "alt": ""
+   },
+   {
+    "src": "https://www.shinkin.co.jp/echishin/recruit/assets/images/home-hero-mv-img-02.webp",
+    "w": 234,
+    "h": 172,
+    "alt": ""
+   },
+   {
+    "src": "https://www.shinkin.co.jp/echishin/recruit/assets/images/home-hero-mv-img-03-decorate.svg",
+    "w": 61,
+    "h": 70,
+    "alt": ""
+   },
+   {
+    "src": "https://www.shinkin.co.jp/echishin/recruit/assets/images/home-hero-mv-img-03.webp",
+    "w": 189,
+    "h": 249,
+    "alt": ""
+   },
+   {
+    "src": "https://www.shinkin.co.jp/echishin/recruit/assets/images/home-hero-mv-img-04.webp",
+    "w": 144,
+    "h": 97,
+    "alt": ""
+   },
+   {
+    "src": "https://www.shinkin.co.jp/echishin/recruit/assets/images/home-hero-mv-img-05-decorate-02.svg",
+    "w": 60,
+    "h": 65,
+    "alt": ""
+   },
+   {
+    "src": "https://www.shinkin.co.jp/echishin/recruit/assets/images/home-hero-mv-img-05.webp",
+    "w": 162,
+    "h": 238,
+    "alt": ""
+   },
+   {
+    "src": "https://www.shinkin.co.jp/echishin/recruit/assets/images/home-hero-mv-img-06.webp",
+    "w": 255,
+    "h": 180,
+    "alt": ""
+   },
+   {
+    "src": "https://www.shinkin.co.jp/echishin/recruit/assets/images/home-hero-mv-img-07.webp",
+    "w": 261,
+    "h": 227,
+    "alt": ""
+   },
+   {
+    "src": "https://www.shinkin.co.jp/echishin/recruit/assets/images/home-hero-mv-img-08.webp",
+    "w": 140,
+    "h": 261,
+    "alt": ""
+   },
+   {
+    "src": "https://www.shinkin.co.jp/echishin/recruit/assets/images/home-hero-mv-img-09-decorate.svg",
+    "w": 45,
+    "h": 49,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Zen Kaku Gothic New",
+   "Geologica",
+   "Lobster",
+   "Noto Sans JP"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(246, 245, 240)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "RECRUIT",
+  "h1Style": {
+   "fontFamily": "\"Noto Sans JP\", sans-serif",
+   "fontSize": "16px",
+   "fontWeight": "600",
+   "lineHeight": "25.6px",
+   "letterSpacing": "0.48px",
+   "color": "rgb(47, 40, 40)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 26,
+    "y": 36,
+    "w": 135,
+    "h": 18
+   }
+  },
+  "lead": "トップ 仕事・人・ストーリー 先輩インタビュー01 先輩インタビュー02 先輩インタビュー03 仕事のエピソード 福利厚生・キャリア 採用FAQ 募集要項 採用スケジュール Entry ご応募はこちら 地域の笑顔があふれる未来を 一緒につくりましょう！ ENTRY 越前信用金庫コーポレートサイト プライバシーポリシー",
+  "ctas": [
+   "トップ",
+   "仕事・人・ストーリー",
+   "福利厚生・キャリア",
+   "採用FAQ",
+   "募集要項",
+   "採用スケジュール",
+   "Entry ご応募はこちら 地域の笑顔があふれる未来を 一緒につくりましょう！"
+  ],
+  "videos": [
+   {
+    "src": "https://www.shinkin.co.jp/echishin/recruit/assets/home-movie01-ELC_Ky19.mp4",
+    "autoplay": false,
+    "loop": false,
+    "muted": false,
+    "w": 351,
+    "h": 197,
+    "playing": false
+   }
+  ],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.shinkin.co.jp/echishin/recruit/assets/images/schedule-hero-people.webp",
+    "w": 130,
+    "h": 116,
+    "alt": ""
+   },
+   {
+    "src": "https://www.shinkin.co.jp/echishin/recruit/assets/images/home-hero-mv-img-01-decorate.svg",
+    "w": 152,
+    "h": 195,
+    "alt": ""
+   },
+   {
+    "src": "https://www.shinkin.co.jp/echishin/recruit/assets/images/home-hero-mv-img-01.webp",
+    "w": 333,
+    "h": 405,
+    "alt": ""
+   },
+   {
+    "src": "https://www.shinkin.co.jp/echishin/recruit/assets/images/home-hero-mv-img-02.webp",
+    "w": 120,
+    "h": 88,
+    "alt": ""
+   },
+   {
+    "src": "https://www.shinkin.co.jp/echishin/recruit/assets/images/home-hero-mv-img-03.webp",
+    "w": 104,
+    "h": 137,
+    "alt": ""
+   },
+   {
+    "src": "https://www.shinkin.co.jp/echishin/recruit/assets/images/home-hero-mv-img-06.webp",
+    "w": 125,
+    "h": 76,
+    "alt": ""
+   },
+   {
+    "src": "https://www.shinkin.co.jp/echishin/recruit/assets/images/home-hero-mv-img-05.webp",
+    "w": 94,
+    "h": 137,
+    "alt": ""
+   },
+   {
+    "src": "https://www.shinkin.co.jp/echishin/recruit/assets/images/home-hero-mv-img-10.webp",
+    "w": 42,
+    "h": 93,
+    "alt": ""
+   },
+   {
+    "src": "https://www.shinkin.co.jp/echishin/recruit/assets/images/home-initiative-card-item-01.webp",
+    "w": 193,
+    "h": 162,
+    "alt": "ふくい女性活躍推進企業"
+   },
+   {
+    "src": "https://www.shinkin.co.jp/echishin/recruit/assets/images/home-initiative-card-item-02.webp",
+    "w": 193,
+    "h": 193,
+    "alt": "ふくい女性活躍推進企業"
+   },
+   {
+    "src": "https://www.shinkin.co.jp/echishin/recruit/assets/images/home-initiative-card-item-03.webp",
+    "w": 193,
+    "h": 193,
+    "alt": "ふくい女性活躍推進企業"
+   },
+   {
+    "src": "https://www.shinkin.co.jp/echishin/recruit/assets/images/home-initiative-card-item-04.webp",
+    "w": 137,
+    "h": 125,
+    "alt": "ふくい女性活躍推進企業"
+   }
+  ],
+  "pageHeight": 12162
+ },
+ "elapsedSec": 13.0
+}

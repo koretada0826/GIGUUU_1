@@ -1,0 +1,125 @@
+{
+ "slug": "www-revcomm-co-jp",
+ "url": "https://www.revcomm.co.jp/",
+ "capturedAt": "2026-10-12 21:07:10",
+ "files": {
+  "pc_f0": "www-revcomm-co-jp-pc-f0.jpg",
+  "pc_f1": "www-revcomm-co-jp-pc-f1.jpg",
+  "pc_f2": "www-revcomm-co-jp-pc-f2.jpg",
+  "pc_scroll": "www-revcomm-co-jp-pc-scroll.jpg",
+  "sp": "www-revcomm-co-jp-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.revcomm.com/ja/",
+  "title": "株式会社RevComm（レブコム） コーポレートサイト – コミュニケーションを再発明し、人が人を想う社会を創る",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 5441,
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [
+   "私たちについて",
+   "サービス",
+   "ニュース",
+   "会社情報",
+   "採用情報"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.revcomm.com/sys/wp-content/themes/revcomm/assets/img/common/pagetop-btn.svg",
+    "w": 52,
+    "h": 52,
+    "alt": "PAGE TOP"
+   }
+  ],
+  "backgroundImages": [
+   {
+    "bg": "url(\"https://www.revcomm.com/sys/wp-content/themes/revcomm/assets/img/home/mainv-circle-img-01.png\")",
+    "w": 279,
+    "h": 279
+   },
+   {
+    "bg": "url(\"https://www.revcomm.com/sys/wp-content/themes/revcomm/assets/img/home/mainv-circle-img-01.png\")",
+    "w": 279,
+    "h": 279
+   },
+   {
+    "bg": "url(\"https://www.revcomm.com/sys/wp-content/themes/revcomm/assets/img/home/mainv-shape-img-01.png\")",
+    "w": 179,
+    "h": 114
+   },
+   {
+    "bg": "url(\"https://www.revcomm.com/sys/wp-content/themes/revcomm/assets/img/home/mainv-shape-img-02.png\")",
+    "w": 126,
+    "h": 103
+   },
+   {
+    "bg": "url(\"https://www.revcomm.com/sys/wp-content/themes/revcomm/assets/img/home/mainv-shape-img-03.png\")",
+    "w": 154,
+    "h": 106
+   },
+   {
+    "bg": "url(\"https://www.revcomm.com/sys/wp-content/themes/revcomm/assets/img/home/mainv-shape-img-04.png\")",
+    "w": 134,
+    "h": 68
+   },
+   {
+    "bg": "url(\"https://www.revcomm.com/sys/wp-content/themes/revcomm/assets/img/home/mainv-shape-img-05.png\")",
+    "w": 147,
+    "h": 107
+   }
+  ],
+  "firstScreenFonts": [
+   "Poppins"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [
+   "私たちについて",
+   "サービス",
+   "ニュース",
+   "会社情報",
+   "採用情報",
+   "お問い合わせ"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.revcomm.com/sys/wp-content/themes/revcomm/assets/img/common/pagetop-btn.svg",
+    "w": 52,
+    "h": 52,
+    "alt": "PAGE TOP"
+   }
+  ],
+  "pageHeight": 5735
+ },
+ "elapsedSec": 13.8
+}

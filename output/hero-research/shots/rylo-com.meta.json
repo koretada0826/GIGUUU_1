@@ -1,0 +1,139 @@
+{
+ "slug": "rylo-com",
+ "url": "https://rylo.com/",
+ "capturedAt": "2026-10-12 21:12:48",
+ "files": {
+  "pc_f0": "rylo-com-pc-f0.jpg",
+  "pc_f1": "rylo-com-pc-f1.jpg",
+  "pc_f2": "rylo-com-pc-f2.jpg",
+  "pc_scroll": "rylo-com-pc-scroll.jpg",
+  "sp": "rylo-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://rylo.com/",
+  "title": "Free Phone Call Captioning App | Rylo",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 14197,
+  "h1": "The completely free call captioning and live transcription app",
+  "h1Style": {
+   "fontFamily": "\"PP Mori\", \"PP Mori Fallback\", sans-serif",
+   "fontSize": "64px",
+   "fontWeight": "600",
+   "lineHeight": "70.4px",
+   "letterSpacing": "-1.92px",
+   "color": "rgb(250, 245, 242)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 80,
+    "y": 190,
+    "w": 730,
+    "h": 211
+   }
+  },
+  "lead": "4.6 (3,917) Certified by FCC 100% Private Caption your conversations and never miss a word D o w n l o a d f o r f r e e",
+  "ctas": [
+   "Products",
+   "Resources",
+   "Company",
+   "Support",
+   "For Audiologists",
+   "D o w n l o a d",
+   "D o w n l o a d f o r f r e e"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://rylo.com/_astro/rylo-hero-background.BlPcKf6v_1sUPOK.avif?dpl=dpl_2TCgdpvZV2FWmj2fSNFS41rpbwGP",
+    "w": 1440,
+    "h": 1361,
+    "alt": ""
+   },
+   {
+    "src": "https://rylo.com/_astro/rylo-hero-foreground-2.BG7O6dg4_ZpnWiN.avif?dpl=dpl_2TCgdpvZV2FWmj2fSNFS41rpbwGP",
+    "w": 832,
+    "h": 998,
+    "alt": "Smiling older man with gray hair and beard wearing round glasses and orange swea"
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "PP Mori"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": true,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(250, 245, 242)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 875,
+ "sp": {
+  "h1": "The completely free call captioning and live transcription app",
+  "h1Style": {
+   "fontFamily": "\"PP Mori\", \"PP Mori Fallback\", sans-serif",
+   "fontSize": "37.75px",
+   "fontWeight": "600",
+   "lineHeight": "41.525px",
+   "letterSpacing": "-1.1325px",
+   "color": "rgb(250, 245, 242)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 20,
+    "y": 147,
+    "w": 350,
+    "h": 166
+   }
+  },
+  "lead": "4.6 (3,917) Certified by FCC 100% Private Caption your conversations and never miss a word Download for free",
+  "ctas": [
+   "Products",
+   "Phone Call Captioning",
+   "Live Transcribe",
+   "Rylo Desktop",
+   "Sign",
+   "Resources",
+   "Blog",
+   "Video Tutorials",
+   "Free Hearing Test",
+   "Company",
+   "About",
+   "Careers"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://rylo.com/_astro/rylo-hero-background.BlPcKf6v_4xBPI.avif?dpl=dpl_2TCgdpvZV2FWmj2fSNFS41rpbwGP",
+    "w": 390,
+    "h": 971,
+    "alt": ""
+   },
+   {
+    "src": "https://rylo.com/_astro/rylo-hero-foreground-2.BG7O6dg4_ZpnWiN.avif?dpl=dpl_2TCgdpvZV2FWmj2fSNFS41rpbwGP",
+    "w": 350,
+    "h": 420,
+    "alt": "Smiling older man with gray hair and beard wearing round glasses and orange swea"
+   }
+  ],
+  "pageHeight": 11519
+ },
+ "elapsedSec": 13.8
+}

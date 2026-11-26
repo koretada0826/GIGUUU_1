@@ -1,0 +1,188 @@
+{
+ "slug": "smarthr-jp",
+ "url": "https://smarthr.jp/",
+ "capturedAt": "2026-10-12 21:06:45",
+ "files": {
+  "pc_f0": "smarthr-jp-pc-f0.jpg",
+  "pc_f1": "smarthr-jp-pc-f1.jpg",
+  "pc_f2": "smarthr-jp-pc-f2.jpg",
+  "pc_scroll": "smarthr-jp-pc-scroll.jpg",
+  "sp": "smarthr-jp-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://smarthr.jp/",
+  "title": "SmartHR（スマートHR）｜労務管理クラウド7年連続シェアNo.1",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 13182,
+  "h1": "",
+  "h1Style": {
+   "fontFamily": "AdjustedYuGothic, \"Yu Gothic\", YuGothic, \"Hiragino Sans\", sans-serif",
+   "fontSize": "16px",
+   "fontWeight": "400",
+   "lineHeight": "24px",
+   "letterSpacing": "normal",
+   "color": "rgb(35, 34, 31)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 93,
+    "y": 234,
+    "w": 632,
+    "h": 209
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "SmartHRとは",
+   "機能",
+   "事例",
+   "解決する課題",
+   "料金",
+   "イベント",
+   "AIに相談する",
+   "お役立ち資料",
+   "お問い合わせ",
+   "資料ダウンロード",
+   "無料トライアル"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://smarthr.jp/_astro/img_a-1_004.BXvuhAxw.webp",
+    "w": 400,
+    "h": 42,
+    "alt": "みんなが使うから、組織が変わる"
+   },
+   {
+    "src": "https://smarthr.jp/_astro/img_a-1_005.Bk4ml9Lf.webp",
+    "w": 504,
+    "h": 92,
+    "alt": "バックオフィスから"
+   },
+   {
+    "src": "https://smarthr.jp/_astro/img_a-1_006.cftM_apr.webp",
+    "w": 592,
+    "h": 99,
+    "alt": "まるごとスマートに。"
+   },
+   {
+    "src": "https://smarthr.jp/_astro/img_a-1_002.CXaA7jTP.webp",
+    "w": 70,
+    "h": 72,
+    "alt": ""
+   },
+   {
+    "src": "https://smarthr.jp/_astro/img_a-1_003.CKIDWRIE.webp",
+    "w": 70,
+    "h": 71,
+    "alt": ""
+   },
+   {
+    "src": "https://smarthr.jp/_astro/img_a-1_001.BZu4hIcy.webp",
+    "w": 743,
+    "h": 616,
+    "alt": ""
+   },
+   {
+    "src": "https://smarthr.jp/_astro/img_a-1_007_pc.NmjD9TU_.webp",
+    "w": 1026,
+    "h": 230,
+    "alt": "SmartHRは、労務クラウド7年連続シェアNo.1（※1）、スマホアプリ250万インストール（※2）。スマホにもパソコンにもあらゆる従業員に情報と手続きが届く"
+   },
+   {
+    "src": "https://cdn.braze.eu/appboy/communication/marketing/slide_up/slide_up_message_parameters/images/6a29fb0eab047e008595eb67/eb4d182d0ba157942660a7b265520dc3785bf8fc/original.png?1781136726",
+    "w": 224,
+    "h": 192,
+    "alt": "Modal Image"
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "AdjustedYuGothic"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "",
+  "h1Style": {
+   "fontFamily": "AdjustedYuGothic, \"Yu Gothic\", YuGothic, \"Hiragino Sans\", sans-serif",
+   "fontSize": "16px",
+   "fontWeight": "400",
+   "lineHeight": "24px",
+   "letterSpacing": "normal",
+   "color": "rgb(35, 34, 31)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 35,
+    "y": 138,
+    "w": 320,
+    "h": 112
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "お問い合わせ",
+   "資料ダウンロード",
+   "無料トライアル"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://smarthr.jp/_astro/img_a-1_005.Bk4ml9Lf.webp",
+    "w": 274,
+    "h": 50,
+    "alt": "バックオフィスから"
+   },
+   {
+    "src": "https://smarthr.jp/_astro/img_a-1_006.cftM_apr.webp",
+    "w": 320,
+    "h": 54,
+    "alt": "まるごとスマートに。"
+   },
+   {
+    "src": "https://smarthr.jp/_astro/img_a-1_001.BZu4hIcy.webp",
+    "w": 420,
+    "h": 348,
+    "alt": ""
+   },
+   {
+    "src": "https://smarthr.jp/_astro/img_a-1_007_sp.DEBLcc_5.webp",
+    "w": 358,
+    "h": 584,
+    "alt": "SmartHRは、労務クラウド7年連続シェアNo.1（※1）、スマホアプリ250万インストール（※2）。スマホにもパソコンにもあらゆる従業員に情報と手続きが届く"
+   },
+   {
+    "src": "https://cdn.braze.eu/appboy/communication/marketing/slide_up/slide_up_message_parameters/images/6a29fb0eab047e008595eb69/724599d8b4d4c3406c7f354f5fa05798fc529fcf/original.png?1781136727",
+    "w": 370,
+    "h": 87,
+    "alt": "Modal Image"
+   }
+  ],
+  "pageHeight": 19642
+ },
+ "elapsedSec": 14.7
+}

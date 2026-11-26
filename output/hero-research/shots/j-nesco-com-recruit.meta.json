@@ -1,0 +1,250 @@
+{
+ "slug": "j-nesco-com-recruit",
+ "url": "https://www.j-nesco.com/recruit/",
+ "capturedAt": "2026-10-12 21:14:56",
+ "files": {
+  "pc_f0": "j-nesco-com-recruit-pc-f0.jpg",
+  "pc_f1": "j-nesco-com-recruit-pc-f1.jpg",
+  "pc_f2": "j-nesco-com-recruit-pc-f2.jpg",
+  "pc_scroll": "j-nesco-com-recruit-pc-scroll.jpg",
+  "sp": "j-nesco-com-recruit-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.j-nesco.com/recruit/",
+  "title": "JR西日本電気システム株式会社 採用サイト",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 7385,
+  "h1": "JR西日本電気システム株式会社 採用サイト",
+  "h1Style": {
+   "fontFamily": "\"Zen Kaku Gothic New\", sans-serif",
+   "fontSize": "15.2381px",
+   "fontWeight": "400",
+   "lineHeight": "normal",
+   "letterSpacing": "normal",
+   "color": "rgb(0, 0, 0)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": -1,
+    "y": -1,
+    "w": 1,
+    "h": 1
+   }
+  },
+  "lead": "会社を知る 仕事を知る 社員を知る 働く環境を知る 動画で知る 採用情報 Our Mission 当たり前の 日常を支える Entry",
+  "ctas": [
+   "Entry",
+   "Entry",
+   "就活ハラスメント 防止対策について",
+   "Entry",
+   "新卒募集 Entryはこちら",
+   "キャリア募集 Entryはこちら"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.j-nesco.com/recruit/assets/images/common/webp/logo-pc.webp",
+    "w": 180,
+    "h": 83,
+    "alt": "JR西日本電気システム株式会社のロゴ"
+   },
+   {
+    "src": "https://www.j-nesco.com/recruit/assets/images/common/illust_slide1_blue.svg",
+    "w": 48,
+    "h": 104,
+    "alt": ""
+   },
+   {
+    "src": "https://www.j-nesco.com/recruit/assets/images/common/illust_slide2_blue.svg",
+    "w": 116,
+    "h": 104,
+    "alt": ""
+   },
+   {
+    "src": "https://www.j-nesco.com/recruit/assets/images/common/illust_slide3_blue.svg",
+    "w": 146,
+    "h": 104,
+    "alt": ""
+   },
+   {
+    "src": "https://www.j-nesco.com/recruit/assets/images/common/illust_slide4_blue.svg",
+    "w": 185,
+    "h": 104,
+    "alt": ""
+   },
+   {
+    "src": "https://www.j-nesco.com/recruit/assets/images/common/illust_slide1_blue.svg",
+    "w": 48,
+    "h": 104,
+    "alt": ""
+   },
+   {
+    "src": "https://www.j-nesco.com/recruit/assets/images/common/illust_slide2_blue.svg",
+    "w": 116,
+    "h": 104,
+    "alt": ""
+   },
+   {
+    "src": "https://www.j-nesco.com/recruit/assets/images/common/illust_slide3_blue.svg",
+    "w": 146,
+    "h": 104,
+    "alt": ""
+   },
+   {
+    "src": "https://www.j-nesco.com/recruit/assets/images/common/illust_slide4_blue.svg",
+    "w": 185,
+    "h": 104,
+    "alt": ""
+   },
+   {
+    "src": "https://www.j-nesco.com/recruit/assets/images/common/illust_slide1_blue.svg",
+    "w": 48,
+    "h": 104,
+    "alt": ""
+   },
+   {
+    "src": "https://www.j-nesco.com/recruit/assets/images/common/illust_slide2_blue.svg",
+    "w": 116,
+    "h": 104,
+    "alt": ""
+   },
+   {
+    "src": "https://www.j-nesco.com/recruit/assets/images/common/illust_slide3_blue.svg",
+    "w": 146,
+    "h": 104,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Zen Kaku Gothic New"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "JR西日本電気システム株式会社 採用サイト",
+  "h1Style": {
+   "fontFamily": "\"Zen Kaku Gothic New\", sans-serif",
+   "fontSize": "16px",
+   "fontWeight": "400",
+   "lineHeight": "normal",
+   "letterSpacing": "normal",
+   "color": "rgb(0, 0, 0)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": -1,
+    "y": -1,
+    "w": 1,
+    "h": 1
+   }
+  },
+  "lead": "Our Mission 当たり前の 日常を支える Entry",
+  "ctas": [
+   "Entry",
+   "Entry",
+   "新卒募集 Entryはこちら",
+   "キャリア募集 Entryはこちら"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.j-nesco.com/recruit/assets/images/common/webp/logo.webp",
+    "w": 149,
+    "h": 65,
+    "alt": "JR西日本電気システム株式会社のロゴ"
+   },
+   {
+    "src": "https://www.j-nesco.com/recruit/assets/images/common/illust_slide2_blue.svg",
+    "w": 67,
+    "h": 60,
+    "alt": ""
+   },
+   {
+    "src": "https://www.j-nesco.com/recruit/assets/images/common/illust_slide3_blue.svg",
+    "w": 85,
+    "h": 60,
+    "alt": ""
+   },
+   {
+    "src": "https://www.j-nesco.com/recruit/assets/images/common/illust_slide4_blue.svg",
+    "w": 107,
+    "h": 60,
+    "alt": ""
+   },
+   {
+    "src": "https://www.j-nesco.com/recruit/assets/images/common/illust_slide2_blue.svg",
+    "w": 67,
+    "h": 60,
+    "alt": ""
+   },
+   {
+    "src": "https://www.j-nesco.com/recruit/assets/images/common/illust_slide3_blue.svg",
+    "w": 85,
+    "h": 60,
+    "alt": ""
+   },
+   {
+    "src": "https://www.j-nesco.com/recruit/assets/images/common/illust_slide4_blue.svg",
+    "w": 107,
+    "h": 60,
+    "alt": ""
+   },
+   {
+    "src": "https://www.j-nesco.com/recruit/assets/images/common/illust_slide2_blue.svg",
+    "w": 67,
+    "h": 60,
+    "alt": ""
+   },
+   {
+    "src": "https://www.j-nesco.com/recruit/assets/images/common/illust_slide3_blue.svg",
+    "w": 85,
+    "h": 60,
+    "alt": ""
+   },
+   {
+    "src": "https://www.j-nesco.com/recruit/assets/images/common/illust_slide4_blue.svg",
+    "w": 107,
+    "h": 60,
+    "alt": ""
+   },
+   {
+    "src": "https://www.j-nesco.com/recruit/assets/images/common/illust_slide2_blue.svg",
+    "w": 67,
+    "h": 60,
+    "alt": ""
+   },
+   {
+    "src": "https://www.j-nesco.com/recruit/assets/images/common/illust_slide3_blue.svg",
+    "w": 85,
+    "h": 60,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 6641
+ },
+ "elapsedSec": 11.7
+}

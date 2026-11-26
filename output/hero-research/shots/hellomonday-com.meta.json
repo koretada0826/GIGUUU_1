@@ -1,0 +1,134 @@
+{
+ "slug": "hellomonday-com",
+ "url": "https://www.hellomonday.com/",
+ "capturedAt": "2026-10-12 21:15:15",
+ "files": {
+  "pc_f0": "hellomonday-com-pc-f0.jpg",
+  "pc_f1": "hellomonday-com-pc-f1.jpg",
+  "pc_f2": "hellomonday-com-pc-f2.jpg",
+  "pc_scroll": "hellomonday-com-pc-scroll.jpg",
+  "sp": "hellomonday-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.hellomonday.com/",
+  "title": "Hello Monday",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 10252,
+  "h1": "Branding",
+  "h1Style": {
+   "fontFamily": "ClarendonBTWXX-Light",
+   "fontSize": "80px",
+   "fontWeight": "300",
+   "lineHeight": "64px",
+   "letterSpacing": "normal",
+   "color": "rgb(0, 0, 0)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 70,
+    "y": 676,
+    "w": 1299,
+    "h": 64
+   }
+  },
+  "lead": null,
+  "ctas": [],
+  "videos": [
+   {
+    "src": "https://www.hellomonday.com/assets/video/animations/hm-hero-desktop-non-retina.mp4",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 956,
+    "h": 664,
+    "playing": true
+   }
+  ],
+  "canvases": [
+   {
+    "w": 1299,
+    "h": 900
+   }
+  ],
+  "images": [],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "ClarendonBTWXX-Light"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 60,
+ "sp": {
+  "h1": "Experiences",
+  "h1Style": {
+   "fontFamily": "ClarendonBTWXX-Light",
+   "fontSize": "40px",
+   "fontWeight": "300",
+   "lineHeight": "32px",
+   "letterSpacing": "normal",
+   "color": "rgb(0, 0, 0)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 19,
+    "y": 464,
+    "w": 352,
+    "h": 32
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "Google - Gemini Developer Competition",
+   "Bang & Olufsen - See yourself in Sound"
+  ],
+  "videos": [],
+  "canvases": [
+   {
+    "w": 352,
+    "h": 844
+   }
+  ],
+  "images": [
+   {
+    "src": "https://www.hellomonday.com/assets/images/landing/hm-hero-mobile.png",
+    "w": 358,
+    "h": 248,
+    "alt": ""
+   },
+   {
+    "src": "https://images.ctfassets.net/9uhkiji6mhey/3EhwjYxcjhAxpEpkNAHJtY/b1542520b6aaf99c7d913201f966e593/Thumbnail_-_Image_-_Portrait.jpg?w=980&fm=jpg&q=100",
+    "w": 163,
+    "h": 215,
+    "alt": ""
+   },
+   {
+    "src": "https://images.ctfassets.net/9uhkiji6mhey/2fUoVK1y6TOItS2sBCdehV/619670c5b43838d3a16c9c73a33b00a4/Thumbnail_-_Image_-_Landscape-logo.png?w=980&fm=jpg",
+    "w": 163,
+    "h": 92,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 8184
+ },
+ "elapsedSec": 13.6
+}

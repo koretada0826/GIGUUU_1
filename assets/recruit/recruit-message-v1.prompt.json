@@ -1,0 +1,72 @@
+{
+  "task": "image_generation",
+  "output": {
+    "path": "assets/recruit/recruit-message-v1.png",
+    "aspect_ratio": "16:10",
+    "min_width": 1586,
+    "format": "png"
+  },
+  "purpose": "GIGUUU/TELEMO 採用ページ。削除したテキストブロックの代わりに置く、採用メッセージのビジュアル",
+  "style_reference": {
+    "file": "assets/recruit/recruit-visual-v1.png",
+    "keep": [
+      "写真とイラストを組み合わせた明るいトーン",
+      "青空とオフィスの雰囲気",
+      "手描き風の吹き出しとイラストの人物",
+      "紙・付箋のような小物"
+    ],
+    "change": [
+      "赤い文字は使わない。見出しは深い青緑〜青(#0b4f6c〜#006d82)の手書き風太文字",
+      "別の構図にする(人物・配置を変える)",
+      "背景を塗りつぶすベタ面や色付きの帯・ボックスは作らない"
+    ]
+  },
+  "copy": {
+    "headline": "挑戦する仲間を、募集しています。",
+    "subcopy": "職種・経験は問いません。",
+    "small_note": "まずは、話を聞きに来てください。",
+    "rules": [
+      "日本語はこの表記どおり一字一句正確に",
+      "誤字・欠け・不自然な字形・架空の文字を出さない",
+      "英語の飾り文字は GOOD TALK BETTER TEAM / JOIN US 程度まで"
+    ]
+  },
+  "scene": "明るいオフィスで、20〜30代の男女数人のチームが笑顔で打ち合わせている写真風ビジュアル。手前にノートPCとヘッドセット。周囲に『話し方!』『間の取り方!』『切り返し!』の小さな手描き吹き出しと、イラストの人物が2〜3人。",
+  "composition": "左半分に見出しとサブコピー、右半分に人物写真。文字は写真の人物に重ならない。",
+  "negative": [
+    "赤い文字",
+    "ベタ塗りの帯・ボックス",
+    "ロゴや実在企業名",
+    "透かし",
+    "崩れた日本語"
+  ],
+  "self_check": [
+    "画像内の日本語を全部読み取り、copy と一字一句比較する",
+    "赤い文字が無いことを確認する",
+    "不合格なら作り直す(最大3回)",
+    "結果を本ファイルの result に追記し、最終画像を output.path にコピーする"
+  ],
+  "result": {
+    "self_check_passed": true,
+    "read_text": {
+      "headline": "挑戦する仲間を、募集しています。",
+      "subcopy": "職種・経験は問いません。",
+      "small_note": "まずは、話を聞きに来てください。",
+      "speech_bubbles": [
+        "話し方!",
+        "間の取り方!",
+        "切り返し!"
+      ]
+    },
+    "copy_matches_exactly": true,
+    "other_japanese_text": [],
+    "red_text_present": false,
+    "attempts": 1,
+    "actual_size": {
+      "width": 1586,
+      "height": 992,
+      "unit": "px"
+    },
+    "format": "png"
+  }
+}

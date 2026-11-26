@@ -1,0 +1,223 @@
+{
+  "branch": "design/telemo-campaign-hero",
+  "base": "2eb3b62",
+  "viewports": [
+    {
+      "width": 1920,
+      "height": 1080,
+      "heroHeight": 1080,
+      "source": "http://localhost:8003/assets/hero/campaign/telemo-campaign-desktop-v1.png",
+      "naturalWidth": 1774,
+      "naturalHeight": 887,
+      "paintedImageWidth": 1788,
+      "paintedImageHeight": 894,
+      "ctaBottom": 1052,
+      "ctaAboveFold": true,
+      "buttons": [
+        {
+          "text": "事業を見る→",
+          "href": "#telemo-how",
+          "height": 58
+        },
+        {
+          "text": "お問い合わせ",
+          "href": "#contact",
+          "height": 56
+        }
+      ],
+      "overflow": false,
+      "guideHidden": true,
+      "h1Count": 1
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "heroHeight": 900,
+      "source": "http://localhost:8003/assets/hero/campaign/telemo-campaign-desktop-v1.png",
+      "naturalWidth": 1774,
+      "naturalHeight": 887,
+      "paintedImageWidth": 1428,
+      "paintedImageHeight": 714,
+      "ctaBottom": 872,
+      "ctaAboveFold": true,
+      "buttons": [
+        {
+          "text": "事業を見る→",
+          "href": "#telemo-how",
+          "height": 58
+        },
+        {
+          "text": "お問い合わせ",
+          "href": "#contact",
+          "height": 56
+        }
+      ],
+      "overflow": false,
+      "guideHidden": true,
+      "h1Count": 1
+    },
+    {
+      "width": 1440,
+      "height": 800,
+      "heroHeight": 800,
+      "source": "http://localhost:8003/assets/hero/campaign/telemo-campaign-desktop-v1.png",
+      "naturalWidth": 1774,
+      "naturalHeight": 887,
+      "paintedImageWidth": 1228,
+      "paintedImageHeight": 614,
+      "ctaBottom": 772,
+      "ctaAboveFold": true,
+      "buttons": [
+        {
+          "text": "事業を見る→",
+          "href": "#telemo-how",
+          "height": 58
+        },
+        {
+          "text": "お問い合わせ",
+          "href": "#contact",
+          "height": 56
+        }
+      ],
+      "overflow": false,
+      "guideHidden": true,
+      "h1Count": 1
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "heroHeight": 686,
+      "source": "http://localhost:8003/assets/hero/campaign/telemo-campaign-desktop-v1.png",
+      "naturalWidth": 1774,
+      "naturalHeight": 887,
+      "paintedImageWidth": 1024,
+      "paintedImageHeight": 512,
+      "ctaBottom": 658,
+      "ctaAboveFold": true,
+      "buttons": [
+        {
+          "text": "事業を見る→",
+          "href": "#telemo-how",
+          "height": 58
+        },
+        {
+          "text": "お問い合わせ",
+          "href": "#contact",
+          "height": 56
+        }
+      ],
+      "overflow": false,
+      "guideHidden": true,
+      "h1Count": 1
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "heroHeight": 554,
+      "source": "http://localhost:8003/assets/hero/campaign/telemo-campaign-desktop-v1.png",
+      "naturalWidth": 1774,
+      "naturalHeight": 887,
+      "paintedImageWidth": 768,
+      "paintedImageHeight": 384,
+      "ctaBottom": 526,
+      "ctaAboveFold": true,
+      "buttons": [
+        {
+          "text": "事業を見る→",
+          "href": "#telemo-how",
+          "height": 58
+        },
+        {
+          "text": "お問い合わせ",
+          "href": "#contact",
+          "height": 56
+        }
+      ],
+      "overflow": false,
+      "guideHidden": true,
+      "h1Count": 1
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "heroHeight": 577.3125,
+      "source": "http://localhost:8003/assets/hero/campaign/telemo-campaign-mobile-v1.png",
+      "naturalWidth": 1122,
+      "naturalHeight": 1402,
+      "paintedImageWidth": 389.9890335235378,
+      "paintedImageHeight": 487.3125,
+      "ctaBottom": 617.3125,
+      "ctaAboveFold": true,
+      "buttons": [
+        {
+          "text": "事業を見る→",
+          "href": "#telemo-how",
+          "height": 54
+        },
+        {
+          "text": "お問い合わせ",
+          "href": "#contact",
+          "height": 52
+        }
+      ],
+      "overflow": false,
+      "guideHidden": true,
+      "h1Count": 1
+    },
+    {
+      "width": 320,
+      "height": 700,
+      "heroHeight": 489.84375,
+      "source": "http://localhost:8003/assets/hero/campaign/telemo-campaign-mobile-v1.png",
+      "naturalWidth": 1122,
+      "naturalHeight": 1402,
+      "paintedImageWidth": 319.98907810271044,
+      "paintedImageHeight": 399.84375,
+      "ctaBottom": 529.84375,
+      "ctaAboveFold": true,
+      "buttons": [
+        {
+          "text": "事業を見る→",
+          "href": "#telemo-how",
+          "height": 54
+        },
+        {
+          "text": "お問い合わせ",
+          "href": "#contact",
+          "height": 52
+        }
+      ],
+      "overflow": false,
+      "guideHidden": true,
+      "h1Count": 1
+    }
+  ],
+  "interactions": {
+    "primary": {
+      "hash": "#telemo-how",
+      "keyboardFocus": {
+        "focused": true,
+        "outline": "solid"
+      }
+    },
+    "centerPresident": {
+      "greeting": "お待たせしました！ここからは僕がご案内します。",
+      "next": "声も、トーク設計も。営業現場の知見を詰め込んでいます。"
+    },
+    "contact": {
+      "hash": "#contact",
+      "formPresent": true
+    },
+    "mobileMenu": {
+      "opens": true,
+      "closes": true,
+      "hash": "#telemo-how"
+    },
+    "reducedMotion": {
+      "heroLoaded": true,
+      "guideHidden": true
+    }
+  },
+  "errors": [],
+  "passed": true
+}

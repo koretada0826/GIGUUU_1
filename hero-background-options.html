@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>ヒーロー背景の改善案 8選｜TELEMO</title>
+  <link rel="icon" href="./reference/giguuu-logo.png">
+  <link rel="stylesheet" href="./reference/fonts.css">
+  <style>
+    :root { --ink:#17343b; --muted:#637278; --line:#dce4e3; --accent:#007e88; --paper:#f6f7f4; --yellow:#f5d54b; }
+    * { box-sizing:border-box; }
+    body { margin:0; color:var(--ink); background:var(--paper); font-family:'Noto Sans JP','Hiragino Sans',sans-serif; -webkit-font-smoothing:antialiased; }
+    button,a,input { -webkit-tap-highlight-color:transparent; }
+    button { font:inherit; color:inherit; cursor:pointer; }
+    a { color:inherit; text-underline-offset:4px; }
+    button:focus-visible,a:focus-visible,input:focus-visible { outline:3px solid #b17600; outline-offset:4px; }
+    .masthead { height:76px; padding:0 max(28px,calc((100vw - 1480px)/2)); display:flex; align-items:center; justify-content:space-between; gap:20px; border-bottom:1px solid var(--line); }
+    .brand { font-size:25px; font-weight:900; letter-spacing:-1px; text-decoration:none; }
+    .masthead-label { margin-left:24px; padding-left:24px; border-left:1px solid #bdc9c8; font-size:11px; letter-spacing:.12em; font-weight:600; }
+    .masthead-back { font-size:12px; text-decoration:none; }
+    .wrap { width:min(1480px,calc(100% - 64px)); margin:0 auto; }
+    .intro { padding:55px 0 32px; display:grid; grid-template-columns:1fr 400px; gap:44px; align-items:end; }
+    .eyebrow { display:flex; gap:10px; align-items:center; margin:0 0 17px; font-size:11px; letter-spacing:.15em; font-weight:700; color:var(--accent); }
+    .eyebrow::before { content:''; width:7px; height:7px; background:var(--accent); border-radius:50%; }
+    h1 { margin:0; font-size:clamp(27px,3.1vw,46px); font-weight:800; letter-spacing:-.06em; line-height:1.5; }
+    .intro-lead { margin:17px 0 0; color:var(--muted); font-size:13px; line-height:2; }
+    .direction { padding:19px 22px; border-left:3px solid var(--accent); background:#eaf0eb; }
+    .direction small { display:block; color:var(--accent); font-size:10px; letter-spacing:.12em; font-weight:700; margin-bottom:7px; }
+    .direction strong { display:block; font-size:15px; line-height:1.85; }
+    .direction p { margin:8px 0 0; font-size:11px; color:#506762; line-height:1.9; }
+    .source-row { display:grid; grid-template-columns:1fr 1fr; gap:24px; margin-bottom:34px; }
+    .source { border:1px solid var(--line); background:#fff; display:grid; grid-template-columns:180px 1fr; gap:20px; padding:14px; align-items:center; min-width:0; }
+    .source-image { display:block; width:180px; aspect-ratio:2.06; object-fit:cover; }
+    .source .scene { width:180px; }
+    .source h2 { font-size:12px; margin:0 0 6px; }
+    .source p { margin:0; font-size:11px; line-height:1.9; color:var(--muted); }
+    .source a { display:block; line-height:0; }
+    .source small { font-size:9px; letter-spacing:.08em; color:var(--accent); display:block; margin-bottom:5px; font-weight:700; }
+    .toolbar { display:flex; align-items:center; justify-content:space-between; gap:18px; border-top:1px solid var(--line); padding:20px 0; }
+    .toolbar-group { display:flex; flex-wrap:wrap; align-items:center; gap:8px; }
+    .filter,.switch { border:1px solid var(--line); background:transparent; padding:9px 15px; border-radius:4px; font-size:11px; font-weight:600; min-height:38px; }
+    .filter[aria-pressed=true] { background:var(--ink); color:#fff; border-color:var(--ink); }
+    .filter span { opacity:.6; padding-left:6px; font-size:10px; }
+    .switch { background:#fff; display:flex; align-items:center; gap:9px; }
+    .switch-indicator { width:25px; height:15px; border-radius:12px; background:#bac8c6; position:relative; }
+    .switch-indicator::after { content:''; position:absolute; width:11px; height:11px; top:2px; left:2px; background:#fff; border-radius:50%; transition:transform .15s; }
+    .switch[aria-pressed=true] .switch-indicator { background:var(--accent); }
+    .switch[aria-pressed=true] .switch-indicator::after { transform:translateX(10px); }
+    .count { margin:0; font-size:11px; color:var(--muted); white-space:nowrap; }
+    .grid { display:grid; grid-template-columns:1fr 1fr; gap:30px 24px; }
+    .option { background:#fff; border:1px solid var(--line); min-width:0; }
+    .option[hidden] { display:none; }
+    .option-head { display:flex; justify-content:space-between; align-items:center; padding:15px 19px; min-height:53px; }
+    .option-label { display:flex; align-items:center; gap:10px; }
+    .option-num { font:500 13px/1 monospace; color:var(--accent); }
+    .option-name { font-size:12px; font-weight:700; margin:0; }
+    .recommend { font-size:9px; font-weight:700; background:#f9edb0; padding:4px 7px; border-radius:3px; }
+    .preview { width:100%; display:block; border:0; padding:0; background:transparent; text-align:left; position:relative; overflow:hidden; }
+    .preview::after { content:'拡大して見る ↗'; position:absolute; right:12px; bottom:12px; font-size:10px; padding:7px 10px; background:#ffffffed; border:1px solid #ffffff; border-radius:3px; opacity:0; transition:opacity .15s; z-index:5; }
+    .preview:hover::after,.preview:focus-visible::after { opacity:1; }
+    .option-body { padding:20px 21px 18px; }
+    .option-body h3 { margin:0 0 8px; font-size:18px; font-weight:700; letter-spacing:-.045em; }
+    .option-body>p { margin:0 0 15px; color:var(--muted); font-size:12px; line-height:1.95; min-height:46px; }
+    .option-bottom { border-top:1px solid #edf0ec; padding-top:13px; display:flex; justify-content:space-between; align-items:center; gap:10px; }
+    .tags { display:flex; flex-wrap:wrap; gap:6px; }
+    .tags span { color:#526561; font-size:10px; padding:4px 8px; background:#f0f3ef; border-radius:2px; }
+    .detail-button { border:0; background:none; font-size:11px; white-space:nowrap; padding:8px 0 8px 8px; color:var(--accent); font-weight:700; }
+    .closing { margin:38px 0 0; padding:25px 28px; display:flex; gap:24px; align-items:center; border:1px solid #c9dcd6; background:#eaf1eb; }
+    .closing-mark { font-size:32px; color:var(--accent); flex:none; }
+    .closing h2 { font-size:15px; margin:0 0 7px; }
+    .closing p { font-size:12px; color:#526761; margin:0; line-height:1.9; }
+    footer { padding:28px 0 34px; font-size:10px; color:#798883; display:flex; justify-content:space-between; gap:16px; }
+    /* すべて同じ文字・ロゴ・人物配置で、背景の効果だけを比較する。 */
+    .scene { --scene-cyan:#60cde7; width:100%; aspect-ratio:2; position:relative; overflow:hidden; isolation:isolate; container-type:inline-size; background:var(--scene-cyan); }
+    .scene::after { content:''; position:absolute; inset:0; z-index:1; pointer-events:none; opacity:.48; background:url('./assets/backgrounds/telemo-cyan-grain.svg') repeat; }
+    .scene-bg { position:absolute; inset:0; width:100%; height:100%; z-index:0; pointer-events:none; }
+    .scene-content { position:absolute; inset:0; z-index:2; pointer-events:none; }
+    .scene-title { position:absolute; left:5%; top:10%; width:92%; color:#0a2a44; font-weight:900; letter-spacing:-.04em; line-height:1.25; white-space:nowrap; }
+    .scene-title>span { display:block; font-size:5.5cqw; }
+    .scene-title>span+span { margin-top:.2em; font-size:4.85cqw; }
+    .scene-wordmark { position:absolute; top:48%; left:5%; font-size:15.6cqw; line-height:1; color:#008e9e; letter-spacing:-.065em; font-weight:900; transform:skewY(-2deg) scaleY(1.16); transform-origin:left center; -webkit-text-stroke:.045cqw #007c8a; text-shadow:-.10cqw -.05cqw #f1f5f6,-.20cqw -.10cqw #f1f5f6,-.30cqw -.15cqw #f1f5f6,-.40cqw -.20cqw #f1f5f6,-.50cqw -.25cqw #f1f5f6,-.60cqw -.30cqw #f1f5f6,-.70cqw -.35cqw #f1f5f6,-.80cqw -.40cqw #f1f5f6,-.90cqw -.45cqw #f1f5f6,-1.00cqw -.50cqw #f1f5f6,-1.10cqw -.55cqw #f1f5f6,-1.20cqw -.60cqw #f1f5f6,-1.30cqw -.65cqw #f1f5f6,-1.40cqw -.70cqw #bacbd0; filter:drop-shadow(0 .8cqw .5cqw #0a2a4425); }
+    .scene-speech { position:absolute; top:53%; right:2%; width:32%; aspect-ratio:5/3; }
+    .scene-speech>svg { width:100%; height:100%; display:block; overflow:visible; }
+    .scene-speech p { position:absolute; top:45%; left:50%; transform:translate(-50%,-50%); margin:0; color:#008c9b; font-size:3.9cqw; font-weight:900; line-height:1.25; letter-spacing:-.025em; white-space:nowrap; text-align:center; }
+    .scene-person { position:absolute; width:5.7%; height:auto; bottom:1.5%; right:2%; }
+    .background-only .scene-content { display:none; }
+    .scene--0::after { opacity:.48; }
+    .scene--1 { --scene-cyan:#4bc8df; }
+    .scene--2 { --scene-cyan:#70cfdc; }
+    .scene--3 { --scene-cyan:#48c6e0; }
+    .scene--4 { --scene-cyan:#83d6df; }
+    .scene--5 { --scene-cyan:#71d2e1; }
+    .scene--6 { --scene-cyan:#5acbde; }
+    .scene--7 { --scene-cyan:#a1dee4; }
+    .scene--8 { background:radial-gradient(ellipse at 42% 38%,#d6f5ee 0,#99e0e5 44%,#54bacc 100%); }
+    .scene--8::after { opacity:.8; }
+    dialog { width:min(1240px,calc(100vw - 48px)); max-width:none; max-height:94svh; margin:auto; padding:0; border:0; border-radius:8px; color:var(--ink); background:#fff; box-shadow:0 22px 100px #071e3355; overflow:auto; }
+    dialog::backdrop { background:#112d35b3; backdrop-filter:blur(5px); }
+    .viewer-head { display:flex; justify-content:space-between; align-items:center; gap:16px; padding:16px 24px; border-bottom:1px solid var(--line); }
+    .viewer-head h2 { font-size:15px; margin:0; }
+    .viewer-controls { display:flex; align-items:center; gap:8px; }
+    .viewer-controls button { border:1px solid var(--line); border-radius:4px; background:#fff; font-size:11px; padding:8px 12px; min-height:36px; }
+    .viewer-controls button[aria-pressed=true] { color:#fff; background:var(--ink); border-color:var(--ink); }
+    .viewer-controls .close { font-size:23px; padding:0 10px; min-width:38px; }
+    .viewer-stage { background:#e8edeb; display:flex; align-items:center; justify-content:center; overflow:hidden; padding:0; }
+    .viewer-stage.mobile { padding:20px; }
+    .viewer-stage.mobile .scene { width:360px; max-width:100%; aspect-ratio:1122/1402; border-radius:4px; box-shadow:0 4px 24px #17343b1a; }
+    .viewer-stage.mobile .scene-title { top:5%; }
+    .viewer-stage.mobile .scene-title>span { font-size:12.1cqw; white-space:normal; max-width:92%; }
+    .viewer-stage.mobile .scene-title>span+span { font-size:7.4cqw; white-space:nowrap; }
+    .viewer-stage.mobile .mobile-break { display:block; }
+    .viewer-stage.mobile .ending { display:block; font-size:12.1cqw; }
+    .viewer-stage.mobile .scene-wordmark { font-size:20.5cqw; top:49%; left:6%; }
+    .viewer-stage.mobile .scene-speech { width:66%; top:68%; left:4%; right:auto; }
+    .viewer-stage.mobile .scene-speech p { font-size:8.2cqw; }
+    .viewer-stage.mobile .scene-person { width:17%; right:5%; bottom:7%; }
+    .mobile-break { display:none; }
+    .viewer-foot { display:grid; grid-template-columns:1fr auto; padding:20px 24px; gap:25px; align-items:center; }
+    .viewer-foot p { font-size:12px; color:var(--muted); margin:0; line-height:1.9; }
+    .viewer-foot strong { color:var(--ink); }
+    .viewer-pager { display:flex; gap:8px; }
+    .viewer-pager button { padding:10px 15px; border:1px solid var(--line); border-radius:4px; background:#fff; font-size:12px; }
+    .viewer-index { font:11px monospace; color:var(--muted); text-align:right; margin-left:5px; }
+    @media(min-width:1700px) { .option-body h3 { font-size:20px; } }
+    @media(max-width:1100px) { .intro { grid-template-columns:1fr 330px; gap:24px; } .source { grid-template-columns:140px 1fr; gap:13px; } .source-image,.source .scene { width:140px; } .option-name { font-size:11px; } .option-body h3 { font-size:16px; } }
+    @media(max-width:760px) { .masthead { height:63px; padding:0 20px; } .brand { font-size:23px; } .masthead-label { margin-left:12px; padding-left:12px; font-size:8px; } .masthead-back { font-size:10px; } .wrap { width:calc(100% - 32px); } .intro { padding:32px 0 23px; grid-template-columns:1fr; gap:23px; } h1 { font-size:30px; } .intro-lead { font-size:12px; margin-top:13px; } .direction { padding:15px 17px; } .direction strong { font-size:14px; } .source-row { grid-template-columns:1fr; gap:10px; margin-bottom:22px; } .source { grid-template-columns:120px 1fr; padding:10px; } .source-image,.source .scene { width:120px; } .source p { font-size:10px; } .source h2 { font-size:11px; } .source small { font-size:8px; margin-bottom:3px; } .toolbar { flex-wrap:wrap; gap:12px; padding:16px 0; } .toolbar-group { gap:5px; } .filter { padding:8px 10px; font-size:10px; } .switch { font-size:10px; padding:8px 10px; } .grid { grid-template-columns:1fr; gap:22px; } .option-head { padding:13px 15px; } .option-name { font-size:12px; } .option-body { padding:18px 17px 14px; } .option-body>p { min-height:0; } .option-body h3 { font-size:18px; } .preview::after { opacity:1; bottom:8px; right:8px; font-size:8px; padding:5px 7px; } .closing { padding:20px; gap:15px; margin-top:26px; align-items:flex-start; } .closing h2 { font-size:14px; } .closing p { font-size:11px; } footer { font-size:9px; flex-direction:column; gap:7px; } dialog { width:calc(100vw - 20px); max-height:94svh; } .viewer-head { padding:12px; align-items:flex-start; } .viewer-head h2 { font-size:11px; padding-top:9px; } .viewer-controls { gap:4px; } .viewer-controls button { font-size:9px; padding:6px 8px; } .viewer-foot { grid-template-columns:1fr; padding:15px; gap:13px; } .viewer-foot p { font-size:11px; } .viewer-pager { justify-content:flex-end; } .viewer-stage.mobile .scene { max-height:62svh; width:min(360px,49.62svh); max-width:100%; } }
+    @media(prefers-reduced-motion:reduce) { * { transition:none!important; scroll-behavior:auto!important; } }
+    @media print { .masthead-back,.toolbar,.preview::after,.detail-button,dialog { display:none!important; } .wrap { width:100%; } .intro { padding-top:15px; } .grid { gap:16px; } .option { break-inside:avoid; } body { -webkit-print-color-adjust:exact; print-color-adjust:exact; } }
+  </style>
+</head>
+<body>
+  <header class="masthead">
+    <div><a class="brand" href="./index.html">TELEMO</a><span class="masthead-label">HERO BACKGROUND STUDY</span></div>
+    <a class="masthead-back" href="./index.html" target="_blank" rel="noopener">現在のページ ↗</a>
+  </header>
+  <main class="wrap">
+    <section class="intro" aria-labelledby="page-title">
+      <div>
+        <p class="eyebrow">BACKGROUND IDEAS / 08 DIRECTIONS</p>
+        <h1 id="page-title">背景に、ちょうどいい賑わいを。</h1>
+        <p class="intro-lead">参考画像の楽しさを、TELEMOのヒーローへ。<br>同じコピー・ロゴ・人物の配置で、背景の改善案を見比べる一覧です。</p>
+      </div>
+      <aside class="direction">
+        <small>DESIGN DIRECTION</small>
+        <strong>水色の質感 ＋ 黄色の差し色<br>＋ 主役のまわりにリズム</strong>
+        <p>装飾は外側とロゴの背面へ。<br>見出しの周辺は余白を残し、言葉を読みやすく。</p>
+      </aside>
+    </section>
+    <section class="source-row" aria-label="比較の基準">
+      <article class="source">
+        <a href="./output/hero-background-options-20261024/reference.png" target="_blank" rel="noopener" aria-label="ご提供の参考画像を別タブで開く"><img class="source-image" src="./output/hero-background-options-20261024/reference.png" alt="水色の粒子背景と黄色のアクセントを使ったオールフリーの参考画像" width="180" height="87"></a>
+        <div><small>REFERENCE</small><h2>参考画像から取り入れること</h2><p>細かな粒子感、黄色の形、<br>主役のまわりに集まるにぎやかさ。</p></div>
+      </article>
+      <article class="source">
+        <div id="baseline"></div>
+        <div><small>BEFORE / 現状の背景を再現</small><h2>水色と粒子感がベース</h2><p>ここに形の大小・方向・重なりを加え、<br>単調な広がりに変化をつける。</p></div>
+      </article>
+    </section>
+    <div class="toolbar" aria-label="比較方法">
+      <div class="toolbar-group" role="group" aria-label="案の絞り込み">
+        <button class="filter" data-filter="all" aria-pressed="true">すべて<span>8</span></button>
+        <button class="filter" data-filter="recommended" aria-pressed="false">おすすめ<span>3</span></button>
+        <button class="filter" data-filter="lively" aria-pressed="false">にぎやか<span>4</span></button>
+        <button class="filter" data-filter="calm" aria-pressed="false">落ち着き<span>4</span></button>
+      </div>
+      <div class="toolbar-group">
+        <p class="count" id="result-count" role="status" aria-live="polite">8案を表示中</p>
+        <button class="switch" id="background-toggle" aria-pressed="false"><span class="switch-indicator" aria-hidden="true"></span>背景だけを見る</button>
+      </div>
+    </div>
+    <section class="grid" id="options" aria-label="背景の改善案一覧"></section>
+    <aside class="closing">
+      <span class="closing-mark" aria-hidden="true">↗</span>
+      <div><h2>最初に試すなら、01「紙吹雪ときらめき」。</h2><p>参考画像の明るさを取り入れやすい案です。サービスらしさを出すなら02「会話の吹き出し」、落ち着いた印象なら04「重なる波」もおすすめです。</p></div>
+    </aside>
+    <footer><span>TELEMO · HERO BACKGROUND STUDY · 2026.10.24</span><span>背景の比較用モックアップ。文字とロゴはHTMLで再現しています。</span></footer>
+    <noscript><p>比較一覧の表示にはJavaScriptを有効にしてください。</p></noscript>
+  </main>
+  <dialog id="viewer" aria-labelledby="viewer-title">
+    <div class="viewer-head"><h2 id="viewer-title"></h2><div class="viewer-controls"><button id="desktop-view" aria-pressed="true">PC</button><button id="mobile-view" aria-pressed="false">スマホ</button><button class="close" id="viewer-close" aria-label="拡大表示を閉じる">×</button></div></div>
+    <div class="viewer-stage" id="viewer-stage"></div>
+    <div class="viewer-foot"><p id="viewer-note"></p><div class="viewer-pager"><button id="previous" aria-label="前の背景案">← 前の案</button><button id="next" aria-label="次の背景案">次の案 →</button><span class="viewer-index" id="viewer-index"></span></div></div>
+  </dialog>
+  <script>
+    (() => {
+      'use strict';
+      const ideas = [
+        {id:1, label:'紙吹雪ときらめき', title:'小さな形で、ぱっと楽しく。', group:'lively', recommended:true, tags:['参考画像に近い','明るい・親しみ'], text:'黄色のきらめきと白い紙吹雪を、外周に散らす。水色の面を活かしながら、楽しさと動きを添える案です。', point:'黄色は右下と左端に限定。文字の背面には小さな粒子だけを残し、紙吹雪の大小で視線にリズムをつくります。'},
+        {id:2, label:'会話の吹き出し', title:'「話すAI」が、背景から伝わる。', group:'lively', recommended:true, tags:['会話のモチーフ','サービスらしさ'], text:'半透明の吹き出しを大小で重ね、会話が広がる様子を表現。既存の白い吹き出しともつながるデザインです。', point:'背景の吹き出しは塗りを薄く、輪郭も控えめに。右下のメインの吹き出しが最も強く見える濃度にします。'},
+        {id:3, label:'広がる放射線', title:'視線が集まる、ポスターの勢い。', group:'lively', recommended:false, tags:['広告らしい勢い','視線を集める'], text:'右下から白い放射線を広げ、ロゴとメッセージを引き立てる案。参考画像の元気な印象を強めに取り入れます。', point:'線は細く、コントラストは低めに。集中点を見出しから離し、上半分が騒がしくならないように配置します。'},
+        {id:4, label:'ゆるやかに重なる波', title:'流れを足して、余白を心地よく。', group:'calm', recommended:true, tags:['落ち着いた賑わい','読みやすさ'], text:'白と淡い水色の波を下側に重ね、のっぺりした面に奥行きをつくる。やわらかさと整った印象を両立する案です。', point:'波の高さはロゴの下部までに抑えます。見出しの後ろはほぼ無地にして、大きな文字の存在感を保ちます。'},
+        {id:5, label:'声のサウンドライン', title:'声の広がりを、静かな模様に。', group:'calm', recommended:false, tags:['音声のモチーフ','すっきり'], text:'声を連想する同心円と音声波形を、細い線で配置。装飾に意味を持たせながら、静かな密度を加える案です。', point:'円は画面の外に中心を置いて、一部だけ見せます。下端に波形を置くことで、見出しの読みやすさを保ちます。'},
+        {id:6, label:'紙のコラージュ', title:'重なりのある、あたたかい背景。', group:'lively', recommended:false, tags:['紙の質感','遊び心'], text:'クリーム色と黄色の紙片を、画面の端から大胆に重ねる。切り紙の不揃いな形で、かたすぎない印象をつくります。', point:'大きな紙片は左右の端と下側へ。色面を増やしすぎず、水色・白・黄色の3系統でまとめます。'},
+        {id:7, label:'現場の小さな線画', title:'現場の道具で、親しみを添える。', group:'calm', recommended:false, tags:['電話・ヘッドセット','現場らしさ'], text:'電話やヘッドセット、会話の線画を余白に配置。「現場を知るAI」というコピーにつながる背景の案です。', point:'線画は外周に置き、文字と交差させません。イラストの色を白と薄い青緑に絞り、ロゴとの競合を抑えます。'},
+        {id:8, label:'やわらかな光と粒子', title:'質感と光だけで、奥行きを出す。', group:'calm', recommended:false, tags:['控えめな変化','質感を活かす'], text:'中央にやわらかな明るさを足し、周辺に細かな光の粒を散らす。装飾を増やしすぎず、平面的な印象を和らげます。', point:'明るい中心をロゴの上側に置き、端へ向かって水色を濃くします。粒はごく小さくして、文字の輪郭を邪魔しません。'}
+      ];
+      const star = (x,y,s,fill='#ffdb37',rotate=0) => `<path d="M0 ${-s}Q${s*.18} ${-s*.18} ${s} 0Q${s*.18} ${s*.18} 0 ${s}Q${-s*.18} ${s*.18} ${-s} 0Q${-s*.18} ${-s*.18} 0 ${-s}Z" fill="${fill}" transform="translate(${x} ${y}) rotate(${rotate})"/>`;
+      const bubble = (x,y,w,h,fill,stroke,opacity=1,rot=0) => `<g transform="translate(${x} ${y}) rotate(${rot})" opacity="${opacity}"><path d="M${w*.5} 0C${w*.12} -8 -10 ${h*.16} 0 ${h*.55}S${w*.38} ${h*1.04} ${w*.68} ${h*.87}L${w*.87} ${h*1.08}L${w*.82} ${h*.8}C${w*1.04} ${h*.68} ${w*1.08} ${h*.2} ${w*.82} ${h*.07}C${w*.7} 0 ${w*.6} 0 ${w*.5} 0Z" fill="${fill}" stroke="${stroke}" stroke-width="4" stroke-linejoin="round"/></g>`;
+      const line = (d,color='#fff',width=5,opacity=.7) => `<path d="${d}" fill="none" stroke="${color}" stroke-width="${width}" stroke-linecap="round" stroke-linejoin="round" opacity="${opacity}"/>`;
+      function art(id) {
+        let svg='';
+        if(id===1) {
+          svg += star(1270,370,48)+star(111,615,36)+star(1346,115,24,'#fff')+star(720,651,21,'#fff')+star(1178,692,18)+star(51,322,18);
+          svg += line('M-25 510Q66 464 44 415Q11 365 76 368','#fff',8,.68)+line('M1325 490Q1392 470 1429 516','#068b9a',5,.35)+line('M880 80Q909 41 948 66','#fff',6,.55);
+          [[96,70,14,48,-30,'#fff'],[555,62,14,28,32,'#fff'],[1390,634,17,48,27,'#ffe25b'],[811,466,10,27,20,'#fff'],[315,688,13,35,-24,'#ffe25b'],[1335,250,13,32,-38,'#fff'],[1080,398,12,24,45,'#ffe25b'],[62,695,10,26,18,'#fff']].forEach(([x,y,w,h,r,c])=>svg+=`<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="2" fill="${c}" opacity=".9" transform="rotate(${r} ${x} ${y})"/>`);
+          [[245,56],[960,374],[1384,405],[527,664],[1243,54],[50,174]].forEach(([x,y])=>svg+=`<circle cx="${x}" cy="${y}" r="5" fill="#fff" opacity=".75"/>`);
+        }
+        if(id===2) {
+          svg += bubble(-85,358,292,186,'#d8f6f1','#e4faf5',.62,-16)+bubble(1130,20,300,174,'#c1f0ee','#e1fbf5',.53,13)+bubble(653,585,260,144,'#e0f7ed','#eafbf7',.55,-7)+bubble(1234,342,215,123,'none','#effff9',.55,-11)+bubble(352,-60,216,119,'none','#d9f8f1',.45,5);
+          svg+=star(1264,433,30)+star(99,658,25)+line('M61 435h46m-45 25h64','#fff',7,.65)+line('M1240 118h70m-56 29h43','#fff',6,.55);
+        }
+        if(id===3) {
+          for(let i=0;i<34;i++){const angle=(i*360/34)*Math.PI/180;const x=1125+1750*Math.cos(angle),y=585+1750*Math.sin(angle);svg+=line(`M1125 585L${x.toFixed(2)} ${y.toFixed(2)}`,'#ecfff8',i%3===0?28:8,i%3===0?.2:.32);}
+          svg+=star(1370,130,42)+star(70,558,32)+star(706,690,20,'#fff')+line('M1285 326l22 -32m-5 44l35 -10','#ffe25b',9,1);
+        }
+        if(id===4) {
+          svg+=`<path d="M-80 535C199 340 408 706 725 562S1253 377 1515 521V800H-80Z" fill="#c9eee8" opacity=".72"/><path d="M-50 630C285 431 415 755 814 622S1213 512 1504 592V800H-50Z" fill="#f3fff1" opacity=".75"/><path d="M-50 718C264 560 436 823 897 729S1281 632 1504 686V800H-50Z" fill="#32bacb" opacity=".38"/>`;
+          svg+=line('M-20 515C227 334 405 678 728 544S1274 355 1470 481','#eafff8',3,.7)+star(1330,362,22,'#ffe064')+star(72,437,17,'#fff');
+        }
+        if(id===5) {
+          [210,260,310,360,410,460,510,560].forEach((r,i)=>svg+=`<circle cx="-90" cy="600" r="${r}" fill="none" stroke="#e6fff7" stroke-width="${i%2?3:5}" opacity=".48"/>`);
+          [110,160,210,260,310].forEach(r=>svg+=`<circle cx="1490" cy="305" r="${r}" fill="none" stroke="#008f9f" stroke-width="3" opacity=".14"/>`);
+          for(let i=0;i<47;i++){const h=12+Math.abs(Math.sin(i*.66)*Math.cos(i*.28))*78;svg+=`<rect x="${390+i*20}" y="${714-h/2}" width="5" height="${h}" rx="3" fill="${i%9===0?'#f4d459':'#e8fff4'}" opacity=".6"/>`;}
+          svg+=star(1290,80,22,'#ffe25b');
+        }
+        if(id===6) {
+          svg+=`<path d="M1114 359L1451 306L1516 791L920 793L935 737L973 702L963 673L1000 633L992 602L1030 559L1026 532L1070 482L1065 454L1100 412Z" fill="#fff7d9"/><path d="M-40 403L69 423L45 464L71 498L48 543L80 589L53 624L79 675L65 741L-40 752Z" fill="#f6d94e"/><path d="M1189 -53L1460 0L1413 84L1380 73L1354 109L1317 95L1293 130L1259 115L1225 143L1170 114Z" fill="#e5f5ea"/>`;
+          svg+=`<path d="M939 749L985 713L977 681L1015 637L1010 611L1044 566" fill="none" stroke="#8db7b2" stroke-width="2" stroke-dasharray="7 10" opacity=".65"/>`+star(1353,445,30,'#f4ca38')+line('M113 603q-34 -36 2 -60','#fff',7,.75)+star(233,59,18,'#fff');
+        }
+        if(id===7) {
+          const phone=`<path d="M16 0L0 10C-17 26 27 91 51 82L66 69L50 50L39 58C25 48 19 39 17 26L29 19Z"/>`;
+          const headset=`<path d="M0 43V31C0 -11 68 -11 68 31V43M0 34h12v28H0ZM56 34h12v28H56ZM68 61q0 22 -30 22h-7"/>`;
+          svg+=`<g stroke="#fff" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity=".75"><g transform="translate(76 392) rotate(-22)">${phone}</g><g transform="translate(1244 72) rotate(16) scale(1.2)">${headset}</g><g transform="translate(606 638) rotate(-13)">${headset}</g></g>`;
+          svg+=bubble(1271,382,123,72,'none','#fff',.8,-12)+line('M1305 405h43m-45 21h30','#fff',5,.7)+star(128,631,26,'#f5d54b')+star(1258,619,20,'#fff')+line('M878 53q34 32 65 -3','#fff',6,.65);
+          svg+=`<g stroke="#138fa0" stroke-width="3" fill="none" opacity=".28"><circle cx="1375" cy="608" r="31"/><circle cx="193" cy="58" r="22"/><path d="M778 696l11 -17l14 17l12 -17"/></g>`;
+        }
+        if(id===8) {
+          for(let i=0;i<82;i++){const x=(i*239+67)%1440,y=(i*151+21)%720,r=1.3+(i%5)*.55;svg+=`<circle cx="${x}" cy="${y}" r="${r}" fill="#faffed" opacity="${.25+(i%4)*.12}"/>`;}
+          svg+=`<ellipse cx="757" cy="673" rx="550" ry="35" fill="#f0fff8" opacity=".23"/><circle cx="1380" cy="640" r="255" fill="none" stroke="#f6fff5" stroke-width="1.5" opacity=".22"/>`;
+        }
+        return `<svg class="scene-bg" viewBox="0 0 1440 720" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">${svg}</svg>`;
+      }
+      function scene(id) {
+        return `<div class="scene scene--${id}">${art(id)}<div class="scene-content"><div class="scene-title"><span>本当の現場を<span class="mobile-break"></span>知り尽くした、</span><span>コールセンター経営者が<span class="ending">つくったAI</span></span></div><div class="scene-wordmark">TELEMO</div><div class="scene-speech"><svg viewBox="0 0 400 240" aria-hidden="true" focusable="false"><path d="M200 8C90-8 5 28 7 112C8 190 100 218 240 211L310 205L366 236L348 193C388 174 398 142 394 99C388 34 304 5 200 8Z" fill="white" stroke="#008c9b" stroke-width="4" stroke-linejoin="round"/></svg><p>現場の知見を、<br>AIの力に。</p></div><img class="scene-person" src="./assets/concierge/president-cutout/poster.webp" alt="" width="256" height="384"></div></div>`;
+      }
+      document.getElementById('baseline').innerHTML=scene(0);
+      const grid=document.getElementById('options');
+      grid.innerHTML=ideas.map(idea=>`<article class="option" data-id="${idea.id}" data-group="${idea.group}" data-recommended="${idea.recommended}" aria-labelledby="option-${idea.id}"><div class="option-head"><div class="option-label"><span class="option-num">0${idea.id}</span><h2 class="option-name" id="option-${idea.id}">${idea.label}</h2></div>${idea.recommended?'<span class="recommend">おすすめ</span>':''}</div><button class="preview" data-open="${idea.id}" aria-label="0${idea.id} ${idea.label}を拡大して見る">${scene(idea.id)}</button><div class="option-body"><h3>${idea.title}</h3><p>${idea.text}</p><div class="option-bottom"><div class="tags">${idea.tags.map(tag=>`<span>${tag}</span>`).join('')}</div><button class="detail-button" data-open="${idea.id}">詳しく見る ↗</button></div></div></article>`).join('');
+      const viewer=document.getElementById('viewer'), stage=document.getElementById('viewer-stage');
+      let active=1, trigger=null;
+      function show(id){
+        active=(id+7)%8+1;
+        const idea=ideas[active-1];
+        document.getElementById('viewer-title').textContent=`0${active} / ${idea.label}`;
+        stage.innerHTML=scene(active);
+        document.getElementById('viewer-note').innerHTML=`<strong>配置のポイント</strong><br>${idea.point}`;
+        document.getElementById('viewer-index').textContent=`0${active} / 08`;
+      }
+      function open(id,button){trigger=button;show(id);viewer.showModal();document.body.style.overflow='hidden';}
+      grid.addEventListener('click',event=>{const button=event.target.closest('[data-open]');if(button)open(Number(button.dataset.open),button);});
+      document.getElementById('viewer-close').addEventListener('click',()=>viewer.close());
+      viewer.addEventListener('close',()=>{document.body.style.overflow='';trigger?.focus({preventScroll:true});});
+      viewer.addEventListener('click',event=>{if(event.target===viewer){const r=viewer.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)viewer.close();}});
+      document.getElementById('previous').addEventListener('click',()=>show(active-1));
+      document.getElementById('next').addEventListener('click',()=>show(active+1));
+      viewer.addEventListener('keydown',event=>{if(event.key==='ArrowRight'){event.preventDefault();show(active+1);}if(event.key==='ArrowLeft'){event.preventDefault();show(active-1);}});
+      function viewport(mobile){stage.classList.toggle('mobile',mobile);document.getElementById('desktop-view').setAttribute('aria-pressed',String(!mobile));document.getElementById('mobile-view').setAttribute('aria-pressed',String(mobile));}
+      document.getElementById('desktop-view').addEventListener('click',()=>viewport(false));
+      document.getElementById('mobile-view').addEventListener('click',()=>viewport(true));
+      document.getElementById('background-toggle').addEventListener('click',event=>{const button=event.currentTarget;const state=button.getAttribute('aria-pressed')!=='true';button.setAttribute('aria-pressed',String(state));document.body.classList.toggle('background-only',state);});
+      document.querySelectorAll('[data-filter]').forEach(button=>button.addEventListener('click',()=>{
+        const mode=button.dataset.filter;
+        document.querySelectorAll('[data-filter]').forEach(item=>item.setAttribute('aria-pressed',String(item===button)));
+        let count=0;
+        grid.querySelectorAll('.option').forEach(card=>{const visible=mode==='all'||(mode==='recommended'?card.dataset.recommended==='true':card.dataset.group===mode);card.hidden=!visible;if(visible)count++;});
+        document.getElementById('result-count').textContent=`${count}案を表示中`;
+      }));
+    })();
+  </script>
+</body>
+</html>

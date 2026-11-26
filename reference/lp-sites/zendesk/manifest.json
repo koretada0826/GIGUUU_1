@@ -1,0 +1,269 @@
+{
+  "source": "https://www.zendesk.co.jp/lp/nb-support/",
+  "assets": {
+    "https://d1eipm3vz40hy0.cloudfront.net/images/logos/favicons/zendesk-icon-72.png": {
+      "file": "assets/3abcfe9ef231-zendesk-icon-72.png",
+      "bytes": 2356
+    },
+    "https://d1eipm3vz40hy0.cloudfront.net/images/logos/favicons/zendesk-icon-144.png": {
+      "file": "assets/7fe7786188e5-zendesk-icon-144.png",
+      "bytes": 4926
+    },
+    "https://d1eipm3vz40hy0.cloudfront.net/images/logos/favicons/zendesk-icon-57.png": {
+      "file": "assets/1f74e74d75ce-zendesk-icon-57.png",
+      "bytes": 1992
+    },
+    "https://d1eipm3vz40hy0.cloudfront.net/images/logos/favicons/zendesk-icon-120.png": {
+      "file": "assets/656bf539491b-zendesk-icon-120.png",
+      "bytes": 3804
+    },
+    "https://d1eipm3vz40hy0.cloudfront.net/images/logos/favicons/zendesk-icon-152.png": {
+      "file": "assets/1b424c6b7f44-zendesk-icon-152.png",
+      "bytes": 5359
+    },
+    "https://d1eipm3vz40hy0.cloudfront.net/images/logos/favicons/zendesk-icon-114.png": {
+      "file": "assets/ef34a356c38c-zendesk-icon-114.png",
+      "bytes": 3721
+    },
+    "https://d1eipm3vz40hy0.cloudfront.net/images/logos/favicons/zendesk-favicon.ico": {
+      "file": "assets/29516a1db73f-zendesk-favicon.ico",
+      "bytes": 4286
+    },
+    "https://web-assets.zendesk.com/cdn-cgi/image/q=65,f=auto,width=1600,fit=scale-down/zendesk/pages/campaigns/brand/Blockframe_Accordion_Service_003__ja_jp.png": {
+      "file": "assets/c16f536fb5e1-Blockframe_Accordion_Service_003__ja_jp.png",
+      "bytes": 104003
+    },
+    "https://d1eipm3vz40hy0.cloudfront.net/images/logos/favicons/zendesk-icon.svg": {
+      "file": "assets/08c41257fcd6-zendesk-icon.svg",
+      "bytes": 443
+    },
+    "https://web-assets.zendesk.com/cdn-cgi/image/q=65,f=auto,width=1600,fit=scale-down/zendesk/pages/campaigns/brand/Icons_TimeSaving_Gradient.png": {
+      "file": "assets/f1742cb4fd00-Icons_TimeSaving_Gradient.png",
+      "bytes": 1676
+    },
+    "https://web-assets.zendesk.com/cdn-cgi/image/q=65,f=auto,width=1600,fit=scale-down/zendesk/pages/campaigns/brand/Icons_SalesIncrease_Gradient.png": {
+      "file": "assets/9567a508a606-Icons_SalesIncrease_Gradient.png",
+      "bytes": 985
+    },
+    "https://web-assets.zendesk.com/cdn-cgi/image/q=65,f=auto,width=1600,fit=scale-down/zendesk/pages/campaigns/brand/ProductImagery_ADPP_AdvancedEncryption_ja-jp.png": {
+      "file": "assets/8531ffe28fb6-ProductImagery_ADPP_AdvancedEncryption_ja-jp.png",
+      "bytes": 115387
+    },
+    "https://web-assets.zendesk.com/cdn-cgi/image/q=65,f=auto,width=1600,fit=scale-down/zendesk/pages/campaigns/brand/Icons_Efficiency_Gradient.png": {
+      "file": "assets/93bc0409b460-Icons_Efficiency_Gradient.png",
+      "bytes": 1531
+    },
+    "https://web-assets.zendesk.com/cdn-cgi/image/q=65,f=auto,width=1600,fit=scale-down/zendesk/pages/industry-badges/GartnerLeader2025 (1).png": {
+      "file": "assets/449216942ca9-GartnerLeader2025--1-.png",
+      "bytes": 32555
+    },
+    "https://web-assets.zendesk.com/cdn-cgi/image/q=65,f=auto,width=1600,fit=scale-down/zendesk/pages/campaigns/brand/ProductImagery_EmployeeService_Ai_Automation__ja_jp.png": {
+      "file": "assets/b9210288ba24-ProductImagery_EmployeeService_Ai_Automation__ja_jp.png",
+      "bytes": 173307
+    },
+    "https://web-assets.zendesk.com/cdn-cgi/image/q=65,f=auto,width=1600,fit=scale-down/zendesk/pages/campaigns/brand/Icons_Sales_Gradient.png": {
+      "file": "assets/c564ed1a6e1a-Icons_Sales_Gradient.png",
+      "bytes": 1439
+    },
+    "https://web-assets.zendesk.com/cdn-cgi/image/q=65,f=auto,width=1600,fit=scale-down/zendesk/pages/campaigns/brand/akippa_brand+nb-support+nb-ai-agent.png": {
+      "file": "assets/de548022e464-akippa_brand-nb-support-nb-ai-agent.png",
+      "bytes": 28569
+    },
+    "https://web-assets.zendesk.com/cdn-cgi/image/q=65,f=auto,width=1600,fit=scale-down/zendesk/pages/campaigns/brand/ProductImagery_AIAgents_Insights__ja_jp.png": {
+      "file": "assets/232a698dc862-ProductImagery_AIAgents_Insights__ja_jp.png",
+      "bytes": 158040
+    },
+    "https://web-assets.zendesk.com/cdn-cgi/image/q=65,f=auto,width=1600,fit=scale-down/zendesk/pages/industry-badges/Logo_TrustRadius.png": {
+      "file": "assets/3631986e78e1-Logo_TrustRadius.png",
+      "bytes": 38869
+    },
+    "https://web-assets.zendesk.com/cdn-cgi/image/q=65,f=auto,width=1600,fit=scale-down/zendesk/pages/industry-badges/Logo_GetApp.png": {
+      "file": "assets/2f976ac982e9-Logo_GetApp.svg",
+      "bytes": 22321
+    },
+    "https://web-assets.zendesk.com/fonts/VanillaSans/VanillaSans-BlackItalic.woff": {
+      "file": "assets/7d6331e324b2-VanillaSans-BlackItalic.woff",
+      "bytes": 36600
+    },
+    "https://web-assets.zendesk.com/fonts/VanillaSans/VanillaSans-BlackItalic.woff2": {
+      "file": "assets/ba8e3b32d79e-VanillaSans-BlackItalic.woff2",
+      "bytes": 34156
+    },
+    "https://web-assets.zendesk.com/cdn-cgi/image/q=65,f=auto,width=1600,fit=scale-down/zendesk/pages/industry-badges/Logo_Software_Advice.png": {
+      "file": "assets/8df5727a881e-Logo_Software_Advice.svg",
+      "bytes": 16183
+    },
+    "https://web-assets.zendesk.com/fonts/VanillaSans/VanillaSans-Black.woff2": {
+      "file": "assets/aaf94cb40abe-VanillaSans-Black.woff2",
+      "bytes": 33560
+    },
+    "https://web-assets.zendesk.com/cdn-cgi/image/q=65,f=auto,width=1600,fit=scale-down/zendesk/pages/industry-badges/Logo_Capterra.png": {
+      "file": "assets/6756d7e0acf7-Logo_Capterra.svg",
+      "bytes": 10037
+    },
+    "https://web-assets.zendesk.com/fonts/VanillaSans/VanillaSans-BoldItalic.woff": {
+      "file": "assets/7543166d650e-VanillaSans-BoldItalic.woff",
+      "bytes": 37656
+    },
+    "https://web-assets.zendesk.com/fonts/VanillaSans/VanillaSans-Bold.woff": {
+      "file": "assets/e6419105de13-VanillaSans-Bold.woff",
+      "bytes": 36456
+    },
+    "https://web-assets.zendesk.com/fonts/VanillaSans/VanillaSans-BoldItalic.woff2": {
+      "file": "assets/6eba7bba47da-VanillaSans-BoldItalic.woff2",
+      "bytes": 35088
+    },
+    "https://web-assets.zendesk.com/fonts/VanillaSans/VanillaSans-Bold.woff2": {
+      "file": "assets/08d60e06d859-VanillaSans-Bold.woff2",
+      "bytes": 34028
+    },
+    "https://web-assets.zendesk.com/fonts/VanillaSans/VanillaSans-Black.woff": {
+      "file": "assets/43db64891099-VanillaSans-Black.woff",
+      "bytes": 35968
+    },
+    "https://web-assets.zendesk.com/fonts/VanillaSans/VanillaSans-Italic.woff2": {
+      "file": "assets/3f80d2c820b7-VanillaSans-Italic.woff2",
+      "bytes": 33536
+    },
+    "https://web-assets.zendesk.com/fonts/VanillaSans/VanillaSans-Light.woff": {
+      "file": "assets/13ef909d39bd-VanillaSans-Light.woff",
+      "bytes": 35704
+    },
+    "https://web-assets.zendesk.com/fonts/VanillaSans/VanillaSans-Italic.woff": {
+      "file": "assets/f5ee6661db89-VanillaSans-Italic.woff",
+      "bytes": 35724
+    },
+    "https://web-assets.zendesk.com/fonts/VanillaSans/VanillaSans-LightItalic.woff": {
+      "file": "assets/638afd20adb9-VanillaSans-LightItalic.woff",
+      "bytes": 36420
+    },
+    "https://web-assets.zendesk.com/fonts/VanillaSans/VanillaSans-LightItalic.woff2": {
+      "file": "assets/db0eb89c1ff5-VanillaSans-LightItalic.woff2",
+      "bytes": 34228
+    },
+    "https://web-assets.zendesk.com/fonts/VanillaSans/VanillaSans-Medium.woff": {
+      "file": "assets/e584e34ebe2d-VanillaSans-Medium.woff",
+      "bytes": 35996
+    },
+    "https://web-assets.zendesk.com/fonts/VanillaSans/VanillaSans-Light.woff2": {
+      "file": "assets/00c7b094c24c-VanillaSans-Light.woff2",
+      "bytes": 33512
+    },
+    "https://web-assets.zendesk.com/fonts/VanillaSans/VanillaSans-MediumItalic.woff": {
+      "file": "assets/62cd32d96166-VanillaSans-MediumItalic.woff",
+      "bytes": 36756
+    },
+    "https://web-assets.zendesk.com/fonts/VanillaSans/VanillaSans-MediumItalic.woff2": {
+      "file": "assets/83fdc4fc3fc6-VanillaSans-MediumItalic.woff2",
+      "bytes": 34304
+    },
+    "https://web-assets.zendesk.com/fonts/VanillaSans/VanillaSans-Regular.woff": {
+      "file": "assets/f0e91b13d6c2-VanillaSans-Regular.woff",
+      "bytes": 35084
+    },
+    "https://web-assets.zendesk.com/fonts/VanillaSans/VanillaSans-Regular.woff2": {
+      "file": "assets/72b5d9abc202-VanillaSans-Regular.woff2",
+      "bytes": 33088
+    },
+    "https://web-assets.zendesk.com/fonts/VanillaSans/VanillaSans-Medium.woff2": {
+      "file": "assets/eef4fb2d67a6-VanillaSans-Medium.woff2",
+      "bytes": 33784
+    },
+    "https://web-assets.zendesk.com/fonts/VanillaSans/VanillaSans-SemiBold.woff2": {
+      "file": "assets/c7131c3a4c62-VanillaSans-SemiBold.woff2",
+      "bytes": 33888
+    },
+    "https://web-assets.zendesk.com/fonts/VanillaSans/VanillaSans-SemiBoldItalic.woff": {
+      "file": "assets/09a8c69279fe-VanillaSans-SemiBoldItalic.woff",
+      "bytes": 37160
+    },
+    "https://web-assets.zendesk.com/fonts/VanillaSans/VanillaSans-SemiBoldItalic.woff2": {
+      "file": "assets/0f189aa62951-VanillaSans-SemiBoldItalic.woff2",
+      "bytes": 34624
+    },
+    "https://web-assets.zendesk.com/fonts/VanillaSans/VanillaSans-Thin.woff": {
+      "file": "assets/3b0174b2d8a4-VanillaSans-Thin.woff",
+      "bytes": 32936
+    },
+    "https://web-assets.zendesk.com/fonts/VanillaSans/VanillaSans-SemiBold.woff": {
+      "file": "assets/adbd24ecbeda-VanillaSans-SemiBold.woff",
+      "bytes": 36196
+    },
+    "https://web-assets.zendesk.com/fonts/VanillaSans/VanillaSans-Thin.woff2": {
+      "file": "assets/8b9842267856-VanillaSans-Thin.woff2",
+      "bytes": 31156
+    },
+    "https://web-assets.zendesk.com/fonts/VanillaSans/VanillaSans-ThinItalic.woff2": {
+      "file": "assets/1ea86289bacd-VanillaSans-ThinItalic.woff2",
+      "bytes": 32448
+    },
+    "https://web-assets.zendesk.com/fonts/noto-sans-jp-bold.woff": {
+      "file": "assets/33f048ef814a-noto-sans-jp-bold.woff",
+      "bytes": 1926180
+    },
+    "https://web-assets.zendesk.com/fonts/VanillaSans/VanillaSans-ThinItalic.woff": {
+      "file": "assets/f377ecfd00b1-VanillaSans-ThinItalic.woff",
+      "bytes": 34636
+    },
+    "https://web-assets.zendesk.com/fonts/noto-sans-jp-regular.woff": {
+      "file": "assets/bd253c7a3ec1-noto-sans-jp-regular.woff",
+      "bytes": 1858664
+    },
+    "https://web-assets.zendesk.com/fonts/noto-sans-jp-regular.woff2": {
+      "file": "assets/95bd9124f9f9-noto-sans-jp-regular.woff2",
+      "bytes": 1637976
+    },
+    "https://web-assets.zendesk.com/zendesk/partner-logos/logo_daimarumatuszakaya_final.png": {
+      "file": "assets/04173b04a7e6-logo_daimarumatuszakaya_final.png",
+      "bytes": 239389
+    },
+    "https://web-assets.zendesk.com/fonts/noto-sans-jp-bold.woff2": {
+      "file": "assets/8cf5679ae196-noto-sans-jp-bold.woff2",
+      "bytes": 1707936
+    },
+    "https://web-assets.zendesk.com/zendesk/partner-logos/logo_gree_final.png": {
+      "file": "assets/dc1f4b5f42c5-logo_gree_final.png",
+      "bytes": 13873
+    },
+    "https://web-assets.zendesk.com/zendesk/partner-logos/logo_moneyforward_final.png": {
+      "file": "assets/6f746a21df4b-logo_moneyforward_final.png",
+      "bytes": 88898
+    },
+    "https://web-assets.zendesk.com/zendesk/partner-logos/logo_nta_final.png": {
+      "file": "assets/1fed861e7fcc-logo_nta_final.png",
+      "bytes": 139088
+    },
+    "https://web-assets.zendesk.com/zendesk/partner-logos/logo_recruit_final.png": {
+      "file": "assets/80d377eec921-logo_recruit_final.png",
+      "bytes": 113881
+    },
+    "https://web-assets.zendesk.com/zendesk/partner-logos/logo_sride_final.png": {
+      "file": "assets/8c379bf128d8-logo_sride_final.png",
+      "bytes": 26487
+    },
+    "https://web-assets.zendesk.com/zendesk/partner-logos/logo_tepco_final.png": {
+      "file": "assets/780db76cc9fc-logo_tepco_final.png",
+      "bytes": 73766
+    },
+    "https://web-assets.zendesk.com/zendesk/partner-logos/logo_docomo_final.png": {
+      "file": "assets/c0a10f0c90ea-logo_docomo_final.png",
+      "bytes": 67581
+    },
+    "https://web-assets.zendesk.com/fonts/VanillaSans/VanillaSans-Extralight.woff": {
+      "file": "assets/13ef909d39bd-VanillaSans-Light.woff",
+      "fallback_for_unavailable_font": "https://web-assets.zendesk.com/fonts/VanillaSans/VanillaSans-Light.woff"
+    },
+    "https://web-assets.zendesk.com/fonts/VanillaSans/VanillaSans-ExtralightItalic.woff": {
+      "file": "assets/638afd20adb9-VanillaSans-LightItalic.woff",
+      "fallback_for_unavailable_font": "https://web-assets.zendesk.com/fonts/VanillaSans/VanillaSans-LightItalic.woff"
+    },
+    "https://web-assets.zendesk.com/fonts/VanillaSans/VanillaSans-Extralight.woff2": {
+      "file": "assets/00c7b094c24c-VanillaSans-Light.woff2",
+      "fallback_for_unavailable_font": "https://web-assets.zendesk.com/fonts/VanillaSans/VanillaSans-Light.woff2"
+    },
+    "https://web-assets.zendesk.com/fonts/VanillaSans/VanillaSans-ExtralightItalic.woff2": {
+      "file": "assets/db0eb89c1ff5-VanillaSans-LightItalic.woff2",
+      "fallback_for_unavailable_font": "https://web-assets.zendesk.com/fonts/VanillaSans/VanillaSans-LightItalic.woff2"
+    }
+  }
+}

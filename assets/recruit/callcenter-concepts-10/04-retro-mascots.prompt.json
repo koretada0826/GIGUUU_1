@@ -1,0 +1,26 @@
+{
+  "concept_id": 4,
+  "title": "レトロ・電話の仲間たち",
+  "prompt": "Use case: ads-marketing.\nAsset type: exactly one wide recruitment hero illustration/image for a Japanese call-center recruitment website; aspect ratio about 2.39:1 (1938:811 reference). No lower webpage navigation or buttons, no contact sheet, no multiple variants inside one image.\nReference image: approved call-center illustration, used as subject/context reference. Change the composition and visual style substantially according to this concept; don't just recolor the reference.\nConcept: レトロ・電話の仲間たち.\nArt direction: Playful retro rubber-hose cartoon advertising illustration: anthropomorphic navy/cobalt headset, friendly telephone and speech-bubble mascots alongside two simple young human operators. White gloves, lively poses, expressive eyes. Sky-blue watercolor background, tiny city and simplified call-center desk. Strong thick cobalt brush headline, paper grain; sophisticated cheerful Japanese recruitment advertising.\nColor palette: white, cobalt blue, navy, pale sky blue or pale teal. Background edges clean and bright enough for a white website; preserve natural skin colors for photographs. No red, orange or neon accents.\nEvery human operator must wear a professional communications headset ON THE HEAD with a correctly attached boom microphone near the mouth. Show recognizable telephone/customer-contact work with CRM screens whose interface text is unreadable, desk phone or call-script sheets. No programming/code editor, no music headphones around neck, no unrelated meeting-only scene.\nExact text, readable and carefully spelled: small upper-left \"CALL CENTER RECRUIT\"; headline in two lines \"声をつなぐ。\" / \"仲間とつくる。\"; small supporting line \"コールセンターで、新しい一歩を。\".\nIf the concept naturally uses role speech bubbles, their ONLY exact labels are \"電話対応\", \"営業\", \"サポート\", \"チーム\". Do NOT use \"エンジニア\", \"AIプランナー\", \"コーポレート\", \"採用情報\", the previous AI-future slogan, or invented unreadable Japanese. For photorealistic/editorial concepts, omit bubbles if they would distract; the heading, small English label and subcopy must still appear.\nComposition: large clearly legible blue/navy Japanese headline in the LEFT 38%-45%; human scene or themed illustration on RIGHT 55%-62%, never cover faces with text. Do not crop the text or faces. Distinct professional concept, one clean finished image. No price, salary, hiring-condition promises, metrics, certifications, generic lorem ipsum, company logos, watermark, frame, CTA button, or navigation. Anatomically coherent hands and headsets. Output one opaque landscape image.",
+  "tool": "built-in image_gen__imagegen",
+  "actual_model": null,
+  "references": [
+    "/Users/matsugirintarou/Desktop/rintaro/giguuu改善/assets/recruit/recruit-callcenter-illustrated-v1.png"
+  ],
+  "generated_source_path": "/Users/matsugirintarou/.codex/generated_images/01a134a6-229a-7d60-9c6c-15ab30a9edd4/exec-3294ccce-bab6-497d-93b2-0dedebc3dcb4.png",
+  "saved_path": "/Users/matsugirintarou/Desktop/rintaro/giguuu改善/assets/recruit/callcenter-concepts-10/04-retro-mascots.png",
+  "dimensions": {
+    "width": 1940,
+    "height": 810
+  },
+  "attempt": 1,
+  "self_check": {
+    "headline": "Complete and readable: 声をつなぐ。 / 仲間とつくる。",
+    "subcopy": "Complete and readable",
+    "call_center_theme": "Two main operators and background staff wearing headsets with boom microphones; desks, script sheets and desk phone present.",
+    "style_difference": "Retro headset and telephone mascots clearly distinguish this option from the original anime scene.",
+    "issues": [
+      "Decorative wall English reads Good Calls Brighter Tomorrow; not supplied copy. No forbidden Japanese role labels."
+    ]
+  }
+}

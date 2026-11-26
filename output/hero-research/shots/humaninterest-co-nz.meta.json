@@ -1,0 +1,112 @@
+{
+ "slug": "humaninterest-co-nz",
+ "url": "https://www.humaninterest.co.nz/",
+ "capturedAt": "2026-10-12 21:11:22",
+ "files": {
+  "pc_f0": "humaninterest-co-nz-pc-f0.jpg",
+  "pc_f1": "humaninterest-co-nz-pc-f1.jpg",
+  "pc_f2": "humaninterest-co-nz-pc-f2.jpg",
+  "pc_scroll": "humaninterest-co-nz-pc-scroll.jpg",
+  "sp": "humaninterest-co-nz-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.humaninterest.co.nz/",
+  "title": "Human Interest - Copywriting, Feature Writing, Editing & Communications",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 9223,
+  "h1": "HUMAN",
+  "h1Style": {
+   "fontFamily": "Overused-Grotesk, Arial, sans-serif",
+   "fontSize": "226.08px",
+   "fontWeight": "600",
+   "lineHeight": "180.864px",
+   "letterSpacing": "-5.0868px",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 22,
+    "y": 68,
+    "w": 1395,
+    "h": 16
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "ABOUT ABOUT",
+   "SERVICES SERVICES",
+   "PORTFOLIO PORTFOLIO",
+   "LATEST LATEST",
+   "CONTACT CONTACT"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://cdn.prod.website-files.com/67d3eff775a47e1249162439/67f7294e53158db4e584efb6_jamie-sutter-Kd94BQlPtUU-unsplash-p-1600.jpg",
+    "w": 1440,
+    "h": 900,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Overused-Grotesk"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "HUMAN",
+  "h1Style": {
+   "fontFamily": "Overused-Grotesk, Arial, sans-serif",
+   "fontSize": "87.75px",
+   "fontWeight": "600",
+   "lineHeight": "70.2px",
+   "letterSpacing": "-1.97438px",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 14,
+    "y": 85,
+    "w": 363,
+    "h": 3
+   }
+  },
+  "lead": null,
+  "ctas": [],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://cdn.prod.website-files.com/67d3eff775a47e1249162439/67f7294e53158db4e584efb6_jamie-sutter-Kd94BQlPtUU-unsplash-p-800.jpg",
+    "w": 390,
+    "h": 844,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 7925
+ },
+ "elapsedSec": 13.7
+}

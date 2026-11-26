@@ -1,0 +1,89 @@
+{
+  "name": "TELEMO Use Cases",
+  "source": {
+    "type": "screenshot",
+    "file": "docs/design/telemo-use-cases-reference.png",
+    "viewport_px": { "width": 1526, "height": 748 }
+  },
+  "image_generation": {
+    "requested_model": "image2.5",
+    "tool_used": "built-in image_gen",
+    "model_note": "This tool does not expose a model selector, so the exact model version cannot be verified.",
+    "shared_prompt": "Use case: photorealistic-natural. Asset type: wide horizontal photograph for one card in a Japanese AI sales landing page, 2.4:1 composition. Style: premium Japanese corporate editorial photography, cool blue and clean white color grade, natural light, realistic details, sharp main subject, no graphic design. Constraints: no text, no logos, no watermark, no UI, no borders, no collages."
+  },
+  "layout": {
+    "desktop_columns": 4,
+    "tablet_columns": 2,
+    "mobile_columns": 1,
+    "gap_px": 12,
+    "card_image_aspect_ratio": "1942:809",
+    "heading_alignment": "center"
+  },
+  "colors": {
+    "background": "#FFFFFF",
+    "teal": "#00657B",
+    "heading": "#080C19",
+    "body": "#263144",
+    "border": "#D7EDF2"
+  },
+  "headline": "こんな営業をしている会社に。",
+  "subheadline": "TELEMOは、業種や規模を問わず、さまざまな営業シーンでご活用いただけます。",
+  "cards": [
+    {
+      "number": "01",
+      "title": "新規法人営業",
+      "description": "これまでアプローチできなかった企業へ、効率的にリーチできます。",
+      "image": "assets/telemo-use-cases/01-new-business.webp",
+      "scene_prompt": "Card 01, new corporate sales: low angle view looking upward at two modern glass office towers against a vivid blue sky with white clouds, dynamic architecture, Tokyo business district, no people."
+    },
+    {
+      "number": "02",
+      "title": "大量リストへのアプローチ",
+      "description": "数万件規模のリストにも、安定した品質で架電が可能です。",
+      "image": "assets/telemo-use-cases/02-large-list.webp",
+      "scene_prompt": "Card 02, outreach to a large prospect list: close view of a neat tall stack of white printed business documents on a desk, softly blurred spreadsheet sheets in the background, bright cool office lighting, no readable letters or numbers."
+    },
+    {
+      "number": "03",
+      "title": "テレアポ",
+      "description": "受付突破から担当者接続、温度確認、トスまで対応します。",
+      "image": "assets/telemo-use-cases/03-tele-appointment.webp",
+      "scene_prompt": "Card 03, telephone appointment setting: professional Japanese female call center representative wearing a discreet headset, side profile facing right, coworkers softly out of focus behind her, bright modern office, calm competent expression."
+    },
+    {
+      "number": "04",
+      "title": "営業代行を利用している",
+      "description": "外部に頼らず、自社でコントロールできる営業基盤を構築できます。",
+      "image": "assets/telemo-use-cases/04-inhouse-sales.webp",
+      "scene_prompt": "Card 04, moving from outsourced sales to in-house control: close crop of two businesspeople in dark suits shaking hands across a meeting table, faces outside frame, professional partnership, blue white office background."
+    },
+    {
+      "number": "05",
+      "title": "休眠顧客の掘り起こし",
+      "description": "過去の顧客リストへ再アプローチし、眠っているニーズを発掘します。",
+      "image": "assets/telemo-use-cases/05-dormant-customers.webp",
+      "scene_prompt": "Card 05, reactivating dormant customers: close-up of orderly white client folders in a modern filing cabinet, one tab pulled slightly forward, soft gray-blue office light, no legible labels."
+    },
+    {
+      "number": "06",
+      "title": "見込み顧客への再アプローチ",
+      "description": "一度接点のあった見込み顧客へ、適切なタイミングで再架電できます。",
+      "image": "assets/telemo-use-cases/06-prospect-followup.webp",
+      "scene_prompt": "Card 06, following up a warm prospect: crop of a Japanese businessperson in a dark suit holding and checking a smartphone in a bright office, lower face and hands visible, shallow depth of field, phone screen hidden or unreadable."
+    },
+    {
+      "number": "07",
+      "title": "営業人員の採用・教育に悩んでいる",
+      "description": "採用コストや教育コストを抑え、即戦力の営業活動を実現できます。",
+      "image": "assets/telemo-use-cases/07-sales-training.webp",
+      "scene_prompt": "Card 07, reducing sales hiring and training burden: calm bright office desk with open notebook, pen, closed laptop and a small stack of documents, no people, ample natural window light, modern professional workspace."
+    },
+    {
+      "number": "08",
+      "title": "トップ営業のやり方を組織に残したい",
+      "description": "トップ営業のトークやノウハウを仕組み化し、組織全体で再現できます。",
+      "image": "assets/telemo-use-cases/08-sales-knowhow.webp",
+      "scene_prompt": "Card 08, preserving top salesperson know-how: rear view of a single Japanese businessperson in dark navy suit standing at a high-rise office window, looking out over a blue city skyline at sunrise, person on the right side, city visible across left and center."
+    }
+  ]
+}

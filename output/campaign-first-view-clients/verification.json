@@ -1,0 +1,367 @@
+{
+  "branch": "design/telemo-campaign-hero",
+  "viewports": [
+    {
+      "width": 1920,
+      "height": 1080,
+      "heroBottom": 960,
+      "bandBottom": 1080,
+      "logosTop": 992,
+      "logosBottom": 1048,
+      "logoImageBottom": 1048,
+      "copyTop": 991.5,
+      "copyBottom": 1048.5,
+      "fullBandVisible": true,
+      "logosInsideBand": true,
+      "copyInsideBand": true,
+      "overflow": false,
+      "ctaBottom": 932,
+      "miniFixed": false,
+      "guideCount": 0,
+      "buttons": [
+        {
+          "href": "#telemo-how",
+          "height": 58
+        },
+        {
+          "href": "#contact",
+          "height": 56
+        }
+      ],
+      "note": "※表示サンプルです。TELEMOの導入企業ではありません。",
+      "miniOverlapsButtons": false
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "heroBottom": 780,
+      "bandBottom": 900,
+      "logosTop": 812,
+      "logosBottom": 868,
+      "logoImageBottom": 868,
+      "copyTop": 813.25,
+      "copyBottom": 866.75,
+      "fullBandVisible": true,
+      "logosInsideBand": true,
+      "copyInsideBand": true,
+      "overflow": false,
+      "ctaBottom": 752,
+      "miniFixed": false,
+      "guideCount": 0,
+      "buttons": [
+        {
+          "href": "#telemo-how",
+          "height": 58
+        },
+        {
+          "href": "#contact",
+          "height": 56
+        }
+      ],
+      "note": "※表示サンプルです。TELEMOの導入企業ではありません。",
+      "miniOverlapsButtons": false
+    },
+    {
+      "width": 1440,
+      "height": 800,
+      "heroBottom": 680,
+      "bandBottom": 800,
+      "logosTop": 712,
+      "logosBottom": 768,
+      "logoImageBottom": 768,
+      "copyTop": 713.25,
+      "copyBottom": 766.75,
+      "fullBandVisible": true,
+      "logosInsideBand": true,
+      "copyInsideBand": true,
+      "overflow": false,
+      "ctaBottom": 652,
+      "miniFixed": false,
+      "guideCount": 0,
+      "buttons": [
+        {
+          "href": "#telemo-how",
+          "height": 58
+        },
+        {
+          "href": "#contact",
+          "height": 56
+        }
+      ],
+      "note": "※表示サンプルです。TELEMOの導入企業ではありません。",
+      "miniOverlapsButtons": false
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "heroBottom": 648,
+      "bandBottom": 768,
+      "logosTop": 680,
+      "logosBottom": 736,
+      "logoImageBottom": 736,
+      "copyTop": 681.984375,
+      "copyBottom": 734,
+      "fullBandVisible": true,
+      "logosInsideBand": true,
+      "copyInsideBand": true,
+      "overflow": false,
+      "ctaBottom": 620,
+      "miniFixed": false,
+      "guideCount": 0,
+      "buttons": [
+        {
+          "href": "#telemo-how",
+          "height": 58
+        },
+        {
+          "href": "#contact",
+          "height": 56
+        }
+      ],
+      "note": "※表示サンプルです。TELEMOの導入企業ではありません。",
+      "miniOverlapsButtons": false
+    },
+    {
+      "width": 1440,
+      "height": 640,
+      "heroBottom": 520,
+      "bandBottom": 640,
+      "logosTop": 552,
+      "logosBottom": 608,
+      "logoImageBottom": 608,
+      "copyTop": 553.25,
+      "copyBottom": 606.75,
+      "fullBandVisible": true,
+      "logosInsideBand": true,
+      "copyInsideBand": true,
+      "overflow": false,
+      "ctaBottom": 492,
+      "miniFixed": false,
+      "guideCount": 0,
+      "buttons": [
+        {
+          "href": "#telemo-how",
+          "height": 58
+        },
+        {
+          "href": "#contact",
+          "height": 56
+        }
+      ],
+      "note": "※表示サンプルです。TELEMOの導入企業ではありません。",
+      "miniOverlapsButtons": false
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "heroBottom": 648,
+      "bandBottom": 768,
+      "logosTop": 680,
+      "logosBottom": 736,
+      "logoImageBottom": 736,
+      "copyTop": 683.40625,
+      "copyBottom": 732.59375,
+      "fullBandVisible": true,
+      "logosInsideBand": true,
+      "copyInsideBand": true,
+      "overflow": false,
+      "ctaBottom": 620,
+      "miniFixed": false,
+      "guideCount": 0,
+      "buttons": [
+        {
+          "href": "#telemo-how",
+          "height": 58
+        },
+        {
+          "href": "#contact",
+          "height": 56
+        }
+      ],
+      "note": "※表示サンプルです。TELEMOの導入企業ではありません。",
+      "miniOverlapsButtons": false
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "heroBottom": 554,
+      "bandBottom": 710,
+      "logosTop": 600,
+      "logosBottom": 664,
+      "logoImageBottom": 664,
+      "copyTop": 607.40625,
+      "copyBottom": 656.59375,
+      "fullBandVisible": true,
+      "logosInsideBand": true,
+      "copyInsideBand": true,
+      "overflow": false,
+      "ctaBottom": 526,
+      "miniFixed": false,
+      "guideCount": 0,
+      "buttons": [
+        {
+          "href": "#telemo-how",
+          "height": 58
+        },
+        {
+          "href": "#contact",
+          "height": 56
+        }
+      ],
+      "note": "※表示サンプルです。TELEMOの導入企業ではありません。",
+      "miniOverlapsButtons": false
+    },
+    {
+      "width": 767,
+      "height": 900,
+      "heroBottom": 759.984375,
+      "bandBottom": 899.984375,
+      "logosTop": 835.578125,
+      "logosBottom": 883.578125,
+      "logoImageBottom": 883.578125,
+      "copyTop": 776.390625,
+      "copyBottom": 825.578125,
+      "fullBandVisible": true,
+      "logosInsideBand": true,
+      "copyInsideBand": true,
+      "overflow": false,
+      "ctaBottom": 735.984375,
+      "miniFixed": false,
+      "guideCount": 0,
+      "buttons": [
+        {
+          "href": "#telemo-how",
+          "height": 54
+        },
+        {
+          "href": "#contact",
+          "height": 52
+        }
+      ],
+      "note": "※表示サンプルです。TELEMOの導入企業ではありません。",
+      "miniOverlapsButtons": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "heroBottom": 641.3125,
+      "bandBottom": 781.3125,
+      "logosTop": 718.859375,
+      "logosBottom": 766.859375,
+      "logoImageBottom": 766.859375,
+      "copyTop": 655.765625,
+      "copyBottom": 708.859375,
+      "fullBandVisible": true,
+      "logosInsideBand": true,
+      "copyInsideBand": true,
+      "overflow": false,
+      "ctaBottom": 617.3125,
+      "miniFixed": false,
+      "guideCount": 0,
+      "buttons": [
+        {
+          "href": "#telemo-how",
+          "height": 54
+        },
+        {
+          "href": "#contact",
+          "height": 52
+        }
+      ],
+      "note": "※表示サンプルです。TELEMOの導入企業ではありません。",
+      "miniOverlapsButtons": false
+    },
+    {
+      "width": 375,
+      "height": 667,
+      "heroBottom": 526.984375,
+      "bandBottom": 666.984375,
+      "logosTop": 604.53125,
+      "logosBottom": 652.53125,
+      "logoImageBottom": 652.53125,
+      "copyTop": 541.4375,
+      "copyBottom": 594.53125,
+      "fullBandVisible": true,
+      "logosInsideBand": true,
+      "copyInsideBand": true,
+      "overflow": false,
+      "ctaBottom": 502.984375,
+      "miniFixed": false,
+      "guideCount": 0,
+      "buttons": [
+        {
+          "href": "#telemo-how",
+          "height": 54
+        },
+        {
+          "href": "#contact",
+          "height": 52
+        }
+      ],
+      "note": "※表示サンプルです。TELEMOの導入企業ではありません。",
+      "miniOverlapsButtons": false
+    },
+    {
+      "width": 320,
+      "height": 700,
+      "heroBottom": 553.84375,
+      "bandBottom": 693.84375,
+      "logosTop": 631.390625,
+      "logosBottom": 679.390625,
+      "logoImageBottom": 679.390625,
+      "copyTop": 568.296875,
+      "copyBottom": 621.390625,
+      "fullBandVisible": true,
+      "logosInsideBand": true,
+      "copyInsideBand": true,
+      "overflow": false,
+      "ctaBottom": 529.84375,
+      "miniFixed": false,
+      "guideCount": 0,
+      "buttons": [
+        {
+          "href": "#telemo-how",
+          "height": 54
+        },
+        {
+          "href": "#contact",
+          "height": 52
+        }
+      ],
+      "note": "※表示サンプルです。TELEMOの導入企業ではありません。",
+      "miniOverlapsButtons": false
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "heroBottom": 427.96875,
+      "bandBottom": 567.96875,
+      "logosTop": 505.515625,
+      "logosBottom": 553.515625,
+      "logoImageBottom": 553.515625,
+      "copyTop": 442.421875,
+      "copyBottom": 495.515625,
+      "fullBandVisible": true,
+      "logosInsideBand": true,
+      "copyInsideBand": true,
+      "overflow": false,
+      "ctaBottom": 403.96875,
+      "miniFixed": false,
+      "guideCount": 0,
+      "buttons": [
+        {
+          "href": "#telemo-how",
+          "height": 54
+        },
+        {
+          "href": "#contact",
+          "height": 52
+        }
+      ],
+      "note": "※表示サンプルです。TELEMOの導入企業ではありません。",
+      "miniOverlapsButtons": false
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

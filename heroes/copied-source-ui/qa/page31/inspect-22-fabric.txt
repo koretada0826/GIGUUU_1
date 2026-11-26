@@ -1,0 +1,32 @@
+TASTESKILL · INSPECT   http://127.0.0.1:4173/heroes/copied-source-ui/22-fabric/index.html
+
+MEASURED (first viewport listed)
+  hero headline   "TELEMO"  1 words · 2 line(s) · 128px (8.9vw) · Noto Sans JP 900 · tracking -0.065em · leading 0.95
+  @768px          1 line(s) · 58px
+  @390px          1 line(s) · 58px
+  typefaces       Noto Sans JP 100%
+  sizes in use    13 / 14 / 15 / 18 / 26 / 32 / 128 px
+  colour          page #ffffff · sections #f3f6f7 · button #fd8e44
+  page            1.2 screens · 19 words · 7 images · hero media 8% img
+  headings        2 · longest 2 line(s) · median 2 words
+
+WARN — fix, or be able to defend
+  [no-footage] @1440px  No video anywhere on the page.
+      → Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject.
+  [off-centre] @1440px  The margins differ: 58px on the left, 8px on the right, at 1440px.
+      → Put the navigation and the content on one pair of margins; check for padding on one side only, a scrollbar gutter, or a header on another inset than the page.
+  [name-only-title] @1440px (+768, 390)  The h1 is a bare name ("営業電話は、 TELEMOがかけます。") and nothing else on the first screen says what this is.
+      → Keep the name if it leads, and give the line under it (18px or more) the plain words: what it is, for whom, where or when. In the study of 97 Sites of the Day, first screens that named nothing lost usability and content points.
+  [small-title] @768px  The h1 is 30px ("営業電話は、 TELEMOがかけます。").
+      → Set the title at display size, or make the large text of the first screen the h1.
+
+LOOK AT THE RENDER — open these with your image viewer / Read tool before saying anything about quality:
+  desktop 1440px  heroes/copied-source-ui/qa/page31/taste-22-fabric/desktop-fold.jpg
+                  heroes/copied-source-ui/qa/page31/taste-22-fabric/desktop-page-01.jpg
+  tablet 768px    heroes/copied-source-ui/qa/page31/taste-22-fabric/tablet-fold.jpg
+                  heroes/copied-source-ui/qa/page31/taste-22-fabric/tablet-page-01.jpg
+  mobile 390px    heroes/copied-source-ui/qa/page31/taste-22-fabric/mobile-fold.jpg
+                  heroes/copied-source-ui/qa/page31/taste-22-fabric/mobile-page-01.jpg
+
+report: heroes/copied-source-ui/qa/page31/taste-22-fabric/report.json
+RESULT: 0 FAIL, 4 WARN — measurements pass. Passing the meter is the floor, not the grade: score the screenshots with references/critique.md.

@@ -1,0 +1,120 @@
+{
+ "slug": "wonderful-ai",
+ "url": "https://www.wonderful.ai/",
+ "capturedAt": "2026-10-12 21:15:23",
+ "files": {
+  "pc_f0": "wonderful-ai-pc-f0.jpg",
+  "pc_f1": "wonderful-ai-pc-f1.jpg",
+  "pc_f2": "wonderful-ai-pc-f2.jpg",
+  "pc_scroll": "wonderful-ai-pc-scroll.jpg",
+  "sp": "wonderful-ai-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": "safe-accept",
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.wonderful.ai/",
+  "title": "Wonderful | The Enterprise AI OS",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 7078,
+  "h1": "Applied AI for the enterprise",
+  "h1Style": {
+   "fontFamily": "\"ABC Favorit Light\", \"ABC Favorit Light Placeholder\", sans-serif",
+   "fontSize": "82px",
+   "fontWeight": "300",
+   "lineHeight": "86.1px",
+   "letterSpacing": "-4.1px",
+   "color": "rgb(250, 250, 250)",
+   "textAlign": "left",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 60,
+    "y": 648,
+    "w": 800,
+    "h": 172
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "Get in touch",
+   "Explore the platform"
+  ],
+  "videos": [
+   {
+    "src": "https://cdn.wonderful.ai/videos/HP%20-%20Video_Final_16x9.mp4",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 1440,
+    "h": 900,
+    "playing": true
+   }
+  ],
+  "canvases": [],
+  "images": [],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "ABC Favorit Light",
+   "Inter",
+   "sans-serif"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "Applied AI for the enterprise",
+  "h1Style": {
+   "fontFamily": "\"ABC Favorit Light\", \"ABC Favorit Light Placeholder\", sans-serif",
+   "fontSize": "42px",
+   "fontWeight": "300",
+   "lineHeight": "44.1px",
+   "letterSpacing": "-2.1px",
+   "color": "rgb(250, 250, 250)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 24,
+    "y": 262,
+    "w": 342,
+    "h": 88
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "Get in touch",
+   "Explore the platform"
+  ],
+  "videos": [
+   {
+    "src": "https://cdn.wonderful.ai/videos/HP%20-%20Video_Final%209x16.mp4",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 390,
+    "h": 760,
+    "playing": true
+   }
+  ],
+  "canvases": [],
+  "images": [],
+  "pageHeight": 7597
+ },
+ "elapsedSec": 12.4
+}

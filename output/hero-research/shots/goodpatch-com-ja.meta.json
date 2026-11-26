@@ -1,0 +1,258 @@
+{
+ "slug": "goodpatch-com-ja",
+ "url": "https://goodpatch.com/ja",
+ "capturedAt": "2026-10-12 21:09:42",
+ "files": {
+  "pc_f0": "goodpatch-com-ja-pc-f0.jpg",
+  "pc_f1": "goodpatch-com-ja-pc-f1.jpg",
+  "pc_f2": "goodpatch-com-ja-pc-f2.jpg",
+  "pc_scroll": "goodpatch-com-ja-pc-scroll.jpg",
+  "sp": "goodpatch-com-ja-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": "button:has-text('同意')",
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://goodpatch.com/ja",
+  "title": "Goodpatch グッドパッチ｜デザインの力を証明する",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 20290,
+  "h1": "Design to envision",
+  "h1Style": {
+   "fontFamily": "ryo-gothic-plusn, \"Google Sans Flex\", \"Google Sans Flex\", Arial, sans-serif",
+   "fontSize": "16px",
+   "fontWeight": "500",
+   "lineHeight": "24px",
+   "letterSpacing": "normal",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 24,
+    "y": 365,
+    "w": 1376,
+    "h": 170
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "Our Design",
+   "Business",
+   "AI × Design",
+   "Careers",
+   "News",
+   "Downloads",
+   "Contact",
+   "...",
+   "グッドパッチ創業15周年サイト公開中2026.09.01"
+  ],
+  "videos": [
+   {
+    "src": "https://goodpatch.com/videos/home/opening/desktop.mp4",
+    "autoplay": false,
+    "loop": false,
+    "muted": true,
+    "w": 1425,
+    "h": 900,
+    "playing": false
+   }
+  ],
+  "canvases": [
+   {
+    "w": 1425,
+    "h": 900
+   }
+  ],
+  "images": [
+   {
+    "src": "https://goodpatch.com/images/home/hero-title.svg",
+    "w": 1376,
+    "h": 170,
+    "alt": ""
+   },
+   {
+    "src": "https://goodpatch.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbusiness-design-partner.3u6czoqy1aga0.jpg&w=750&q=75&dpl=dpl_EXfBbNK2u1PXLgpe72NEAoiNprLk",
+    "w": 713,
+    "h": 900,
+    "alt": ""
+   },
+   {
+    "src": "https://goodpatch.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbusiness-ai-agentic-ux.075eomvw3ujcf.jpg&w=750&q=75&dpl=dpl_EXfBbNK2u1PXLgpe72NEAoiNprLk",
+    "w": 713,
+    "h": 900,
+    "alt": ""
+   },
+   {
+    "src": "https://goodpatch.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbusiness-design-partner.3u6czoqy1aga0.jpg&w=750&q=75&dpl=dpl_EXfBbNK2u1PXLgpe72NEAoiNprLk",
+    "w": 784,
+    "h": 990,
+    "alt": ""
+   },
+   {
+    "src": "https://goodpatch.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbusiness-ai-agentic-ux.075eomvw3ujcf.jpg&w=750&q=75&dpl=dpl_EXfBbNK2u1PXLgpe72NEAoiNprLk",
+    "w": 784,
+    "h": 990,
+    "alt": ""
+   },
+   {
+    "src": "https://goodpatch.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbusiness-design-partner.3u6czoqy1aga0.jpg&w=750&q=75&dpl=dpl_EXfBbNK2u1PXLgpe72NEAoiNprLk",
+    "w": 766,
+    "h": 968,
+    "alt": ""
+   },
+   {
+    "src": "https://goodpatch.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbusiness-ai-agentic-ux.075eomvw3ujcf.jpg&w=750&q=75&dpl=dpl_EXfBbNK2u1PXLgpe72NEAoiNprLk",
+    "w": 766,
+    "h": 968,
+    "alt": ""
+   },
+   {
+    "src": "https://goodpatch.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbusiness-design-partner.3u6czoqy1aga0.jpg&w=750&q=75&dpl=dpl_EXfBbNK2u1PXLgpe72NEAoiNprLk",
+    "w": 748,
+    "h": 945,
+    "alt": ""
+   },
+   {
+    "src": "https://goodpatch.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbusiness-ai-agentic-ux.075eomvw3ujcf.jpg&w=750&q=75&dpl=dpl_EXfBbNK2u1PXLgpe72NEAoiNprLk",
+    "w": 748,
+    "h": 945,
+    "alt": ""
+   },
+   {
+    "src": "https://goodpatch.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbusiness-design-partner.3u6czoqy1aga0.jpg&w=750&q=75&dpl=dpl_EXfBbNK2u1PXLgpe72NEAoiNprLk",
+    "w": 730,
+    "h": 922,
+    "alt": ""
+   },
+   {
+    "src": "https://goodpatch.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbusiness-ai-agentic-ux.075eomvw3ujcf.jpg&w=750&q=75&dpl=dpl_EXfBbNK2u1PXLgpe72NEAoiNprLk",
+    "w": 730,
+    "h": 922,
+    "alt": ""
+   },
+   {
+    "src": "https://goodpatch.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbusiness-design-partner.3u6czoqy1aga0.jpg&w=750&q=75&dpl=dpl_EXfBbNK2u1PXLgpe72NEAoiNprLk",
+    "w": 713,
+    "h": 900,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Google Sans Flex",
+   "ryo-gothic-plusn"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": true,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(240, 241, 242)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 0,
+ "sp": {
+  "h1": "Design to envision",
+  "h1Style": {
+   "fontFamily": "ryo-gothic-plusn, \"Google Sans Flex\", \"Google Sans Flex\", Arial, sans-serif",
+   "fontSize": "16px",
+   "fontWeight": "500",
+   "lineHeight": "24px",
+   "letterSpacing": "normal",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 28,
+    "y": 346,
+    "w": 335,
+    "h": 152
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "Our Design",
+   "Business",
+   "AI × Design",
+   "Careers",
+   "News",
+   "Downloads",
+   "Contact",
+   "..."
+  ],
+  "videos": [
+   {
+    "src": "https://goodpatch.com/videos/home/opening/mobile.mp4",
+    "autoplay": false,
+    "loop": false,
+    "muted": true,
+    "w": 390,
+    "h": 844,
+    "playing": true
+   }
+  ],
+  "canvases": [
+   {
+    "w": 390,
+    "h": 844
+   }
+  ],
+  "images": [
+   {
+    "src": "https://goodpatch.com/images/home/hero-title-sp.svg",
+    "w": 335,
+    "h": 152,
+    "alt": ""
+   },
+   {
+    "src": "https://goodpatch.com/_next/image?url=%2Fimages%2Fchatbot%2Flauncher-patchy.png&w=256&q=75&dpl=dpl_EXfBbNK2u1PXLgpe72NEAoiNprLk",
+    "w": 73,
+    "h": 126,
+    "alt": ""
+   },
+   {
+    "src": "https://goodpatch.com/_next/image?url=%2Fimages%2Fchatbot%2Flauncher-patchy-hover.png&w=256&q=75&dpl=dpl_EXfBbNK2u1PXLgpe72NEAoiNprLk",
+    "w": 73,
+    "h": 126,
+    "alt": ""
+   },
+   {
+    "src": "https://goodpatch.com/_next/image?url=%2Fimages%2Fchatbot%2Flauncher-patchy-exit.png&w=256&q=75&dpl=dpl_EXfBbNK2u1PXLgpe72NEAoiNprLk",
+    "w": 73,
+    "h": 126,
+    "alt": ""
+   },
+   {
+    "src": "https://goodpatch.com/_next/image?url=%2Fimages%2Fhome%2Fnews%2Fpatchy-news.png&w=750&q=75&dpl=dpl_EXfBbNK2u1PXLgpe72NEAoiNprLk",
+    "w": 68,
+    "h": 76,
+    "alt": ""
+   },
+   {
+    "src": "https://goodpatch.com/_next/image?url=%2Fimages%2Fhome%2Fnews%2Fpatchy-news-hover.png&w=750&q=75&dpl=dpl_EXfBbNK2u1PXLgpe72NEAoiNprLk",
+    "w": 68,
+    "h": 76,
+    "alt": ""
+   },
+   {
+    "src": "https://goodpatch.com/_next/image?url=%2Fimages%2Fhome%2Fnews%2Fpatchy-news-exit.png&w=750&q=75&dpl=dpl_EXfBbNK2u1PXLgpe72NEAoiNprLk",
+    "w": 68,
+    "h": 76,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 15905
+ },
+ "elapsedSec": 12.5
+}

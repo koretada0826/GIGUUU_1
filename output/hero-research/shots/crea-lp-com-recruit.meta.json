@@ -1,0 +1,126 @@
+{
+ "slug": "crea-lp-com-recruit",
+ "url": "https://crea-lp.com/recruit/",
+ "capturedAt": "2026-10-12 21:15:20",
+ "files": {
+  "pc_f0": "crea-lp-com-recruit-pc-f0.jpg",
+  "pc_f1": "crea-lp-com-recruit-pc-f1.jpg",
+  "pc_f2": "crea-lp-com-recruit-pc-f2.jpg",
+  "pc_scroll": "crea-lp-com-recruit-pc-scroll.jpg",
+  "sp": "crea-lp-com-recruit-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://crea-lp.com/recruit/",
+  "title": "”誇りの持てる”人生を、ここで。 | 採用案内 | クレア・ライフ・パートナーズ",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 7109,
+  "h1": "Recruit Site",
+  "h1Style": {
+   "fontFamily": "\"Crimson Text\", serif",
+   "fontSize": "17px",
+   "fontWeight": "200",
+   "lineHeight": "17px",
+   "letterSpacing": "0.34px",
+   "color": "rgb(0, 0, 0)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 493,
+    "y": 44,
+    "w": 453,
+    "h": 17
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "CLPについて",
+   "制度と環境",
+   "中途エントリー",
+   "新卒・インターンエントリー",
+   "お客様の声"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://crea-lp.com/recruit/wp-content/themes/generatepress/img/top_bg.png",
+    "w": 1440,
+    "h": 1180,
+    "alt": ""
+   },
+   {
+    "src": "https://crea-lp.com/recruit/wp-content/themes/generatepress/img/service_icon/icon_lmt.svg",
+    "w": 192,
+    "h": 197,
+    "alt": "ライフマネー<br>トレーニング事業"
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "FOT-筑紫ゴシック Pro B",
+   "FOT-筑紫明朝 Pr6 B",
+   "FOT-筑紫ゴシック Pr5 M"
+  ],
+  "libs": {
+   "gsap": true,
+   "ScrollTrigger": true,
+   "three": false,
+   "lenis": false,
+   "swiper": true,
+   "lottie": true
+  },
+  "bodyBg": "rgb(247, 247, 247)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "Recruit Site",
+  "h1Style": {
+   "fontFamily": "\"Crimson Text\", serif",
+   "fontSize": "13px",
+   "fontWeight": "200",
+   "lineHeight": "13px",
+   "letterSpacing": "0.26px",
+   "color": "rgb(0, 0, 0)",
+   "textAlign": "right",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 227,
+    "y": 19,
+    "w": 211,
+    "h": 13
+   }
+  },
+  "lead": null,
+  "ctas": [],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://crea-lp.com/recruit/wp-content/themes/generatepress/img/top_bg.png",
+    "w": 390,
+    "h": 675,
+    "alt": ""
+   },
+   {
+    "src": "https://crea-lp.com/recruit/wp-content/themes/generatepress/img/service_icon/icon_lmt.svg",
+    "w": 124,
+    "h": 128,
+    "alt": "ライフマネー<br>トレーニング事業"
+   }
+  ],
+  "pageHeight": 844
+ },
+ "elapsedSec": 15.4
+}

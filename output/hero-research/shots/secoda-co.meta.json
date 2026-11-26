@@ -1,0 +1,120 @@
+{
+ "slug": "secoda-co",
+ "url": "https://www.secoda.co/",
+ "capturedAt": "2026-10-12 21:13:10",
+ "files": {
+  "pc_f0": "secoda-co-pc-f0.jpg",
+  "pc_f1": "secoda-co-pc-f1.jpg",
+  "pc_f2": "secoda-co-pc-f2.jpg",
+  "pc_scroll": "secoda-co-pc-scroll.jpg",
+  "sp": "secoda-co-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.secoda.co/",
+  "title": "Secoda - The AI platform for data and analytics",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 9833,
+  "h1": "The AI platform for data and analytics",
+  "h1Style": {
+   "fontFamily": "Interdisplay, sans-serif",
+   "fontSize": "64px",
+   "fontWeight": "600",
+   "lineHeight": "68px",
+   "letterSpacing": "-1.28px",
+   "color": "rgb(34, 34, 34)",
+   "textAlign": "left",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 105,
+    "y": 310,
+    "w": 588,
+    "h": 136
+   }
+  },
+  "lead": "Powered by enterprise data governance and context across your entire data stack, Secoda delivers trusted answers fast and at scale.",
+  "ctas": [
+   "Accept cookies",
+   "Learn more"
+  ],
+  "videos": [
+   {
+    "src": "https://secoda-public-media-assets.s3.us-east-1.amazonaws.com/Main_17.mp4",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 628,
+    "h": 627,
+    "playing": true
+   }
+  ],
+  "canvases": [],
+  "images": [],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Inter",
+   "Interdisplay"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "The AI platform for data and analytics",
+  "h1Style": {
+   "fontFamily": "Interdisplay, sans-serif",
+   "fontSize": "40px",
+   "fontWeight": "600",
+   "lineHeight": "44px",
+   "letterSpacing": "-0.8px",
+   "color": "rgb(34, 34, 34)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 24,
+    "y": 252,
+    "w": 342,
+    "h": 88
+   }
+  },
+  "lead": "Powered by enterprise data governance and context across your entire data stack, Secoda delivers trusted answers fast and at scale.",
+  "ctas": [
+   "privacy policy",
+   "Accept cookies",
+   "Learn more"
+  ],
+  "videos": [
+   {
+    "src": "https://secoda-public-media-assets.s3.us-east-1.amazonaws.com/Main_17.mp4",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 342,
+    "h": 400,
+    "playing": true
+   }
+  ],
+  "canvases": [],
+  "images": [],
+  "pageHeight": 12426
+ },
+ "elapsedSec": 13.0
+}

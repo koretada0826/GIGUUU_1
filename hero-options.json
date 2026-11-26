@@ -1,0 +1,958 @@
+{
+  "version": 1,
+  "count": 72,
+  "items": [
+    {
+      "id": "hero-29ba9c2f3280",
+      "title": "明るいチーム・アニメ",
+      "group": "recruit-concepts",
+      "groupLabel": "採用・10コンセプト",
+      "target": "recruit",
+      "src": "assets/recruit/callcenter-concepts-10/01-anime-team.png",
+      "files": [
+        "assets/recruit/callcenter-concepts-10/01-anime-team.png"
+      ],
+      "width": 1938,
+      "height": 811
+    },
+    {
+      "id": "hero-baac154ff234",
+      "title": "やさしい水彩・人の温度",
+      "group": "recruit-concepts",
+      "groupLabel": "採用・10コンセプト",
+      "target": "recruit",
+      "src": "assets/recruit/callcenter-concepts-10/02-watercolor-human.png",
+      "files": [
+        "assets/recruit/callcenter-concepts-10/02-watercolor-human.png"
+      ],
+      "width": 1938,
+      "height": 811
+    },
+    {
+      "id": "hero-ab486204464f",
+      "title": "実写・自然なオフィス",
+      "group": "recruit-concepts",
+      "groupLabel": "採用・10コンセプト",
+      "target": "recruit",
+      "src": "assets/recruit/callcenter-concepts-10/03-documentary-office.png",
+      "files": [
+        "assets/recruit/callcenter-concepts-10/03-documentary-office.png"
+      ],
+      "width": 1942,
+      "height": 809
+    },
+    {
+      "id": "hero-25a340917aab",
+      "title": "レトロ・電話の仲間たち",
+      "group": "recruit-concepts",
+      "groupLabel": "採用・10コンセプト",
+      "target": "recruit",
+      "src": "assets/recruit/callcenter-concepts-10/04-retro-mascots.png",
+      "files": [
+        "assets/recruit/callcenter-concepts-10/04-retro-mascots.png"
+      ],
+      "width": 1940,
+      "height": 810
+    },
+    {
+      "id": "hero-9fa4ba90684d",
+      "title": "立体・小さなコールセンター",
+      "group": "recruit-concepts",
+      "groupLabel": "採用・10コンセプト",
+      "target": "recruit",
+      "src": "assets/recruit/callcenter-concepts-10/05-isometric-team.png",
+      "files": [
+        "assets/recruit/callcenter-concepts-10/05-isometric-team.png"
+      ],
+      "width": 1938,
+      "height": 811
+    },
+    {
+      "id": "hero-f05379d97a87",
+      "title": "実写・オペレーターの横顔",
+      "group": "recruit-concepts",
+      "groupLabel": "採用・10コンセプト",
+      "target": "recruit",
+      "src": "assets/recruit/callcenter-concepts-10/06-portrait-operator.png",
+      "files": [
+        "assets/recruit/callcenter-concepts-10/06-portrait-operator.png"
+      ],
+      "width": 1938,
+      "height": 811
+    },
+    {
+      "id": "hero-2439962498ac",
+      "title": "漫画・会話が動く現場",
+      "group": "recruit-concepts",
+      "groupLabel": "採用・10コンセプト",
+      "target": "recruit",
+      "src": "assets/recruit/callcenter-concepts-10/07-manga-energy.png",
+      "files": [
+        "assets/recruit/callcenter-concepts-10/07-manga-energy.png"
+      ],
+      "width": 1938,
+      "height": 811
+    },
+    {
+      "id": "hero-7f9ad870cc7b",
+      "title": "白い余白・洗練された現場",
+      "group": "recruit-concepts",
+      "groupLabel": "採用・10コンセプト",
+      "target": "recruit",
+      "src": "assets/recruit/callcenter-concepts-10/08-minimal-editorial.png",
+      "files": [
+        "assets/recruit/callcenter-concepts-10/08-minimal-editorial.png"
+      ],
+      "width": 1938,
+      "height": 811
+    },
+    {
+      "id": "hero-45f5ed48f12f",
+      "title": "アニメ・仲間への招待",
+      "group": "recruit-concepts",
+      "groupLabel": "採用・10コンセプト",
+      "target": "recruit",
+      "src": "assets/recruit/callcenter-concepts-10/09-welcoming-leader.png",
+      "files": [
+        "assets/recruit/callcenter-concepts-10/09-welcoming-leader.png"
+      ],
+      "width": 1938,
+      "height": 811
+    },
+    {
+      "id": "hero-53b6dec24ba5",
+      "title": "紙の立体・声のつながり",
+      "group": "recruit-concepts",
+      "groupLabel": "採用・10コンセプト",
+      "target": "recruit",
+      "src": "assets/recruit/callcenter-concepts-10/10-paper-voice.png",
+      "files": [
+        "assets/recruit/callcenter-concepts-10/10-paper-voice.png"
+      ],
+      "width": 1942,
+      "height": 809
+    },
+    {
+      "id": "hero-9223b87106e3",
+      "title": "声をつなぐ、仲間と進む。",
+      "group": "recruit-additional",
+      "groupLabel": "採用・追加10案",
+      "target": "recruit",
+      "src": "assets/recruit/callcenter-site-referenced-10/01-bell24-diagonal.png",
+      "files": [
+        "assets/recruit/callcenter-site-referenced-10/01-bell24-diagonal.png"
+      ],
+      "width": 1938,
+      "height": 812
+    },
+    {
+      "id": "hero-b9ecbe135034",
+      "title": "あなたの声を、仕事にしよう。",
+      "group": "recruit-additional",
+      "groupLabel": "採用・追加10案",
+      "target": "recruit",
+      "src": "assets/recruit/callcenter-site-referenced-10/02-smarthr-type.png",
+      "files": [
+        "assets/recruit/callcenter-site-referenced-10/02-smarthr-type.png"
+      ],
+      "width": 1938,
+      "height": 811
+    },
+    {
+      "id": "hero-ba2b9fb70c0d",
+      "title": "声を届ける、あなたが主役。",
+      "group": "recruit-additional",
+      "groupLabel": "採用・追加10案",
+      "target": "recruit",
+      "src": "assets/recruit/callcenter-site-referenced-10/03-jcdc-portrait.png",
+      "files": [
+        "assets/recruit/callcenter-site-referenced-10/03-jcdc-portrait.png"
+      ],
+      "width": 1938,
+      "height": 811
+    },
+    {
+      "id": "hero-3e47f57c970d",
+      "title": "会話の先に、チームの仕事。",
+      "group": "recruit-additional",
+      "groupLabel": "採用・追加10案",
+      "target": "recruit",
+      "src": "assets/recruit/callcenter-site-referenced-10/04-nesco-frames.png",
+      "files": [
+        "assets/recruit/callcenter-site-referenced-10/04-nesco-frames.png"
+      ],
+      "width": 1938,
+      "height": 811
+    },
+    {
+      "id": "hero-812909fc0222",
+      "title": "声の仕事に、新しいかたちを。",
+      "group": "recruit-additional",
+      "groupLabel": "採用・追加10案",
+      "target": "recruit",
+      "src": "assets/recruit/callcenter-site-referenced-10/05-goodpatch-sculpture.png",
+      "files": [
+        "assets/recruit/callcenter-site-referenced-10/05-goodpatch-sculpture.png"
+      ],
+      "width": 1938,
+      "height": 811
+    },
+    {
+      "id": "hero-00cf28c027fd",
+      "title": "会話を、価値に変える。",
+      "group": "recruit-additional",
+      "groupLabel": "採用・追加10案",
+      "target": "recruit",
+      "src": "assets/recruit/callcenter-site-referenced-10/06-parloa-documentary.png",
+      "files": [
+        "assets/recruit/callcenter-site-referenced-10/06-parloa-documentary.png"
+      ],
+      "width": 1938,
+      "height": 811
+    },
+    {
+      "id": "hero-28275242c6c5",
+      "title": "声の向こうに、笑顔を届ける。",
+      "group": "recruit-additional",
+      "groupLabel": "採用・追加10案",
+      "target": "recruit",
+      "src": "assets/recruit/callcenter-site-referenced-10/07-clarion-calm.png",
+      "files": [
+        "assets/recruit/callcenter-site-referenced-10/07-clarion-calm.png"
+      ],
+      "width": 1938,
+      "height": 811
+    },
+    {
+      "id": "hero-7b7a3dc181a4",
+      "title": "声をつなぐ、チームをつくる。",
+      "group": "recruit-additional",
+      "groupLabel": "採用・追加10案",
+      "target": "recruit",
+      "src": "assets/recruit/callcenter-site-referenced-10/08-sansan-line.png",
+      "files": [
+        "assets/recruit/callcenter-site-referenced-10/08-sansan-line.png"
+      ],
+      "width": 1938,
+      "height": 811
+    },
+    {
+      "id": "hero-2e5b8d279567",
+      "title": "声をつなぐ、チームをつくる。・別バージョン",
+      "group": "recruit-additional",
+      "groupLabel": "採用・追加10案",
+      "target": "recruit",
+      "src": "assets/recruit/callcenter-site-referenced-10/08-sansan-line.rejected-attempt-1.png",
+      "files": [
+        "assets/recruit/callcenter-site-referenced-10/08-sansan-line.rejected-attempt-1.png"
+      ],
+      "width": 1938,
+      "height": 812
+    },
+    {
+      "id": "hero-a655643984c9",
+      "title": "話すことから、一緒にはじめよう。",
+      "group": "recruit-additional",
+      "groupLabel": "採用・追加10案",
+      "target": "recruit",
+      "src": "assets/recruit/callcenter-site-referenced-10/09-kintone-playful.png",
+      "files": [
+        "assets/recruit/callcenter-site-referenced-10/09-kintone-playful.png"
+      ],
+      "width": 1938,
+      "height": 811
+    },
+    {
+      "id": "hero-2a3a37feea9e",
+      "title": "話すことから、一緒にはじめよう。・別バージョン",
+      "group": "recruit-additional",
+      "groupLabel": "採用・追加10案",
+      "target": "recruit",
+      "src": "assets/recruit/callcenter-site-referenced-10/09-kintone-playful.rejected-attempt-1.png",
+      "files": [
+        "assets/recruit/callcenter-site-referenced-10/09-kintone-playful.rejected-attempt-1.png"
+      ],
+      "width": 1938,
+      "height": 812
+    },
+    {
+      "id": "hero-e6052d071e6f",
+      "title": "声を届ける、仕事を知ろう。",
+      "group": "recruit-additional",
+      "groupLabel": "採用・追加10案",
+      "target": "recruit",
+      "src": "assets/recruit/callcenter-site-referenced-10/10-transcosmos-editorial.png",
+      "files": [
+        "assets/recruit/callcenter-site-referenced-10/10-transcosmos-editorial.png"
+      ],
+      "width": 1938,
+      "height": 812
+    },
+    {
+      "id": "hero-4b25edaf4483",
+      "title": "コールセンター・イラスト初期案",
+      "group": "recruit",
+      "groupLabel": "採用・初期案",
+      "target": "recruit",
+      "src": "assets/recruit/recruit-callcenter-illustrated-v1.png",
+      "files": [
+        "assets/recruit/recruit-callcenter-illustrated-v1.png"
+      ],
+      "width": 1938,
+      "height": 811
+    },
+    {
+      "id": "hero-b229c35ac892",
+      "title": "コールセンター・最新イラスト",
+      "group": "recruit",
+      "groupLabel": "採用・初期案",
+      "target": "recruit",
+      "src": "assets/recruit/recruit-callcenter-illustrated-v2.png",
+      "files": [
+        "assets/recruit/recruit-callcenter-illustrated-v2.png"
+      ],
+      "width": 1938,
+      "height": 811
+    },
+    {
+      "id": "hero-d0a63fff249e",
+      "title": "採用メッセージ・人物写真",
+      "group": "recruit",
+      "groupLabel": "採用・初期案",
+      "target": "recruit",
+      "src": "assets/recruit/recruit-message-v1.png",
+      "files": [
+        "assets/recruit/recruit-message-v1.png",
+        "assets/recruit/recruit-message-v1.jpg"
+      ],
+      "width": 1586,
+      "height": 992
+    },
+    {
+      "id": "hero-36c0370fd7f5",
+      "title": "採用メッセージ・背景になじむ配色",
+      "group": "recruit",
+      "groupLabel": "採用・初期案",
+      "target": "recruit",
+      "src": "assets/recruit/recruit-message-v2-blended.png",
+      "files": [
+        "assets/recruit/recruit-message-v2-blended.png"
+      ],
+      "width": 1586,
+      "height": 992
+    },
+    {
+      "id": "hero-9e4a9c8c4ca5",
+      "title": "採用・原点メッセージ",
+      "group": "recruit",
+      "groupLabel": "採用・初期案",
+      "target": "recruit",
+      "src": "assets/recruit/recruit-origin-v1.png",
+      "files": [
+        "assets/recruit/recruit-origin-v1.png"
+      ],
+      "width": 1586,
+      "height": 992
+    },
+    {
+      "id": "hero-67fb4067b72b",
+      "title": "仲間と働く・ブルーイラスト",
+      "group": "recruit",
+      "groupLabel": "採用・初期案",
+      "target": "recruit",
+      "src": "assets/recruit/recruit-team-illustrated-v1.png",
+      "files": [
+        "assets/recruit/recruit-team-illustrated-v1.png"
+      ],
+      "width": 1505,
+      "height": 1045
+    },
+    {
+      "id": "hero-6808a5117bde",
+      "title": "採用・人物ビジュアル",
+      "group": "recruit",
+      "groupLabel": "採用・初期案",
+      "target": "recruit",
+      "src": "assets/recruit/recruit-visual-v1.png",
+      "files": [
+        "assets/recruit/recruit-visual-v1.png",
+        "assets/recruit/recruit-visual-v1.jpg"
+      ],
+      "width": 1586,
+      "height": 992
+    },
+    {
+      "id": "hero-7f2e5e1f5edf",
+      "title": "コールセンター・ダーク",
+      "group": "hero",
+      "groupLabel": "トップ・人物とイラスト",
+      "target": "home",
+      "src": "assets/hero/callcenter/callcenter-dark-v1.png",
+      "files": [
+        "assets/hero/callcenter/callcenter-dark-v1.png",
+        "assets/hero/callcenter/callcenter-dark-v1.jpg"
+      ],
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "hero-0f31fd2ca66f",
+      "title": "callcenter hero poster",
+      "group": "hero",
+      "groupLabel": "トップ・人物とイラスト",
+      "target": "home",
+      "src": "assets/hero/callcenter-hero-poster.jpg",
+      "files": [
+        "assets/hero/callcenter-hero-poster.jpg"
+      ],
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": "hero-ed870861cb54",
+      "title": "telemo hero concept v1 a",
+      "group": "hero",
+      "groupLabel": "トップ・人物とイラスト",
+      "target": "home",
+      "src": "assets/hero/concept/telemo-hero-concept-v1-a.png",
+      "files": [
+        "assets/hero/concept/telemo-hero-concept-v1-a.png",
+        "assets/hero/concept/telemo-hero-concept-v1-a.jpg"
+      ],
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "hero-4468a5e33212",
+      "title": "telemo hero concept v1 b",
+      "group": "hero",
+      "groupLabel": "トップ・人物とイラスト",
+      "target": "home",
+      "src": "assets/hero/concept/telemo-hero-concept-v1-b.png",
+      "files": [
+        "assets/hero/concept/telemo-hero-concept-v1-b.png",
+        "assets/hero/concept/telemo-hero-concept-v1-b.jpg"
+      ],
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "hero-7a169f532c42",
+      "title": "telemo hero concept v1 c",
+      "group": "hero",
+      "groupLabel": "トップ・人物とイラスト",
+      "target": "home",
+      "src": "assets/hero/concept/telemo-hero-concept-v1-c.png",
+      "files": [
+        "assets/hero/concept/telemo-hero-concept-v1-c.png",
+        "assets/hero/concept/telemo-hero-concept-v1-c.jpg"
+      ],
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "hero-1a008756b3bc",
+      "title": "blue heart hero v1",
+      "group": "hero",
+      "groupLabel": "トップ・人物とイラスト",
+      "target": "home",
+      "src": "assets/hero/editorial/blue-heart-hero-v1.png",
+      "files": [
+        "assets/hero/editorial/blue-heart-hero-v1.png",
+        "assets/hero/editorial/blue-heart-hero-v1.jpg"
+      ],
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "hero-0fc599ad5b45",
+      "title": "blue phone hero v1",
+      "group": "hero",
+      "groupLabel": "トップ・人物とイラスト",
+      "target": "home",
+      "src": "assets/hero/editorial/blue-phone-hero-v1.png",
+      "files": [
+        "assets/hero/editorial/blue-phone-hero-v1.png",
+        "assets/hero/editorial/blue-phone-hero-v1.jpg"
+      ],
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "hero-d608d02e7551",
+      "title": "man callcenter v1",
+      "group": "hero",
+      "groupLabel": "トップ・人物とイラスト",
+      "target": "home",
+      "src": "assets/hero/editorial/man-callcenter-v1.jpg",
+      "files": [
+        "assets/hero/editorial/man-callcenter-v1.jpg"
+      ],
+      "width": 1151,
+      "height": 868
+    },
+    {
+      "id": "hero-def801ecf5a9",
+      "title": "office callcenter v1",
+      "group": "hero",
+      "groupLabel": "トップ・人物とイラスト",
+      "target": "home",
+      "src": "assets/hero/editorial/office-callcenter-v1.png",
+      "files": [
+        "assets/hero/editorial/office-callcenter-v1.png",
+        "assets/hero/editorial/office-callcenter-v1.jpg"
+      ],
+      "width": 1587,
+      "height": 991
+    },
+    {
+      "id": "hero-9c90721cf1db",
+      "title": "office callcenter v2",
+      "group": "hero",
+      "groupLabel": "トップ・人物とイラスト",
+      "target": "home",
+      "src": "assets/hero/editorial/office-callcenter-v2.png",
+      "files": [
+        "assets/hero/editorial/office-callcenter-v2.png",
+        "assets/hero/editorial/office-callcenter-v2.jpg"
+      ],
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "hero-d8f86b9d41d5",
+      "title": "woman callcenter v1",
+      "group": "hero",
+      "groupLabel": "トップ・人物とイラスト",
+      "target": "home",
+      "src": "assets/hero/editorial/woman-callcenter-v1.png",
+      "files": [
+        "assets/hero/editorial/woman-callcenter-v1.png",
+        "assets/hero/editorial/woman-callcenter-v1.jpg"
+      ],
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "hero-eac0dc320baf",
+      "title": "founder portrait ai",
+      "group": "hero",
+      "groupLabel": "トップ・人物とイラスト",
+      "target": "home",
+      "src": "assets/hero/founder-portrait-ai.png",
+      "files": [
+        "assets/hero/founder-portrait-ai.png"
+      ],
+      "width": 1191,
+      "height": 1320
+    },
+    {
+      "id": "hero-94d0d31fb473",
+      "title": "giguuu founder hero v1",
+      "group": "hero",
+      "groupLabel": "トップ・人物とイラスト",
+      "target": "home",
+      "src": "assets/hero/giguuu-founder-hero-v1.png",
+      "files": [
+        "assets/hero/giguuu-founder-hero-v1.png"
+      ],
+      "width": 1902,
+      "height": 827
+    },
+    {
+      "id": "hero-ae832caa015f",
+      "title": "telemo sales knowhow generated v1",
+      "group": "hero",
+      "groupLabel": "トップ・人物とイラスト",
+      "target": "home",
+      "src": "assets/hero/telemo-sales-knowhow/telemo-sales-knowhow-generated-v1.png",
+      "files": [
+        "assets/hero/telemo-sales-knowhow/telemo-sales-knowhow-generated-v1.png"
+      ],
+      "width": 1585,
+      "height": 992
+    },
+    {
+      "id": "hero-7c870e70b6ce",
+      "title": "オフィスとAIロボット",
+      "group": "3d",
+      "groupLabel": "トップ・立体ビジュアル",
+      "target": "home",
+      "src": "assets/telemo-blender/telemo-hero-office-robot.png",
+      "files": [
+        "assets/telemo-blender/telemo-hero-office-robot.png"
+      ],
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "hero-392efdb447c0",
+      "title": "TELEMO・立体タイポグラフィ／ブルー",
+      "group": "3d",
+      "groupLabel": "トップ・立体ビジュアル",
+      "target": "home",
+      "src": "assets/telemo-blender/telemo-kinetic-hero.png",
+      "files": [
+        "assets/telemo-blender/telemo-kinetic-hero.png",
+        "assets/telemo-blender/telemo-kinetic-hero-2880.webp",
+        "assets/telemo-blender/telemo-kinetic-hero-1440.webp"
+      ],
+      "width": 2880,
+      "height": 1120
+    },
+    {
+      "id": "hero-4c73c3cacdcf",
+      "title": "TELEMO・立体タイポグラフィ／ティール",
+      "group": "3d",
+      "groupLabel": "トップ・立体ビジュアル",
+      "target": "home",
+      "src": "assets/telemo-blender/telemo-kinetic-hero-teal.png",
+      "files": [
+        "assets/telemo-blender/telemo-kinetic-hero-teal.png",
+        "assets/telemo-blender/telemo-kinetic-hero-teal-2880.webp",
+        "assets/telemo-blender/telemo-kinetic-hero-teal-1440.webp"
+      ],
+      "width": 2880,
+      "height": 1120
+    },
+    {
+      "id": "hero-c338acdf0bb4",
+      "title": "telemo poster",
+      "group": "3d",
+      "groupLabel": "トップ・立体ビジュアル",
+      "target": "home",
+      "src": "assets/telemo-blender/telemo-poster.png",
+      "files": [
+        "assets/telemo-blender/telemo-poster.png",
+        "assets/telemo-blender/telemo-poster.jpg"
+      ],
+      "width": 1920,
+      "height": 720
+    },
+    {
+      "id": "hero-f9eea6211594",
+      "title": "telemo preview",
+      "group": "3d",
+      "groupLabel": "トップ・立体ビジュアル",
+      "target": "home",
+      "src": "assets/telemo-blender/telemo-preview.png",
+      "files": [
+        "assets/telemo-blender/telemo-preview.png"
+      ],
+      "width": 1200,
+      "height": 248
+    },
+    {
+      "id": "hero-d68b428aa2b8",
+      "title": "01 white brand stage",
+      "group": "ui-a",
+      "groupLabel": "トップ・デザイン10案 A",
+      "target": "home",
+      "src": "output/ui-concepts-10/01-white-brand-stage.png",
+      "files": [
+        "output/ui-concepts-10/01-white-brand-stage.png"
+      ],
+      "width": 1086,
+      "height": 1448
+    },
+    {
+      "id": "hero-ee070873f2ef",
+      "title": "02 monogram architecture",
+      "group": "ui-a",
+      "groupLabel": "トップ・デザイン10案 A",
+      "target": "home",
+      "src": "output/ui-concepts-10/02-monogram-architecture.png",
+      "files": [
+        "output/ui-concepts-10/02-monogram-architecture.png"
+      ],
+      "width": 1086,
+      "height": 1448
+    },
+    {
+      "id": "hero-e1ed67dba95a",
+      "title": "03 human handwritten emphasis",
+      "group": "ui-a",
+      "groupLabel": "トップ・デザイン10案 A",
+      "target": "home",
+      "src": "output/ui-concepts-10/03-human-handwritten-emphasis.png",
+      "files": [
+        "output/ui-concepts-10/03-human-handwritten-emphasis.png"
+      ],
+      "width": 1086,
+      "height": 1448
+    },
+    {
+      "id": "hero-1a00e856430e",
+      "title": "04 knowledge paper assembly",
+      "group": "ui-a",
+      "groupLabel": "トップ・デザイン10案 A",
+      "target": "home",
+      "src": "output/ui-concepts-10/04-knowledge-paper-assembly.png",
+      "files": [
+        "output/ui-concepts-10/04-knowledge-paper-assembly.png"
+      ],
+      "width": 1086,
+      "height": 1448
+    },
+    {
+      "id": "hero-8da40fb50b3f",
+      "title": "05 transparent clover layers",
+      "group": "ui-a",
+      "groupLabel": "トップ・デザイン10案 A",
+      "target": "home",
+      "src": "output/ui-concepts-10/05-transparent-clover-layers.png",
+      "files": [
+        "output/ui-concepts-10/05-transparent-clover-layers.png"
+      ],
+      "width": 1086,
+      "height": 1448
+    },
+    {
+      "id": "hero-e4b18086a8a4",
+      "title": "06 letterpress close up",
+      "group": "ui-a",
+      "groupLabel": "トップ・デザイン10案 A",
+      "target": "home",
+      "src": "output/ui-concepts-10/06-letterpress-close-up.png",
+      "files": [
+        "output/ui-concepts-10/06-letterpress-close-up.png"
+      ],
+      "width": 1086,
+      "height": 1448
+    },
+    {
+      "id": "hero-1c30235afaa5",
+      "title": "07 ai sales intersection",
+      "group": "ui-a",
+      "groupLabel": "トップ・デザイン10案 A",
+      "target": "home",
+      "src": "output/ui-concepts-10/07-ai-sales-intersection.png",
+      "files": [
+        "output/ui-concepts-10/07-ai-sales-intersection.png"
+      ],
+      "width": 1086,
+      "height": 1448
+    },
+    {
+      "id": "hero-eeb2d784da57",
+      "title": "08 vertical editorial voice",
+      "group": "ui-a",
+      "groupLabel": "トップ・デザイン10案 A",
+      "target": "home",
+      "src": "output/ui-concepts-10/08-vertical-editorial-voice.png",
+      "files": [
+        "output/ui-concepts-10/08-vertical-editorial-voice.png"
+      ],
+      "width": 1086,
+      "height": 1448
+    },
+    {
+      "id": "hero-a4c7823e629f",
+      "title": "09 white aperture identity",
+      "group": "ui-a",
+      "groupLabel": "トップ・デザイン10案 A",
+      "target": "home",
+      "src": "output/ui-concepts-10/09-white-aperture-identity.png",
+      "files": [
+        "output/ui-concepts-10/09-white-aperture-identity.png"
+      ],
+      "width": 1086,
+      "height": 1448
+    },
+    {
+      "id": "hero-b118a1314abd",
+      "title": "10 folded continuous story",
+      "group": "ui-a",
+      "groupLabel": "トップ・デザイン10案 A",
+      "target": "home",
+      "src": "output/ui-concepts-10/10-folded-continuous-story.png",
+      "files": [
+        "output/ui-concepts-10/10-folded-continuous-story.png"
+      ],
+      "width": 1086,
+      "height": 1448
+    },
+    {
+      "id": "hero-fb9000372bed",
+      "title": "01 cinematic signal studio",
+      "group": "ui-b",
+      "groupLabel": "トップ・デザイン10案 B",
+      "target": "home",
+      "src": "output/ui-concepts-10b/01-cinematic-signal-studio.png",
+      "files": [
+        "output/ui-concepts-10b/01-cinematic-signal-studio.png"
+      ],
+      "width": 1036,
+      "height": 1518
+    },
+    {
+      "id": "hero-40a65d1fc9fe",
+      "title": "02 precision conversation cutaway",
+      "group": "ui-b",
+      "groupLabel": "トップ・デザイン10案 B",
+      "target": "home",
+      "src": "output/ui-concepts-10b/02-precision-conversation-cutaway.png",
+      "files": [
+        "output/ui-concepts-10b/02-precision-conversation-cutaway.png"
+      ],
+      "width": 1036,
+      "height": 1518
+    },
+    {
+      "id": "hero-980db8e808c4",
+      "title": "03 macro fiber current",
+      "group": "ui-b",
+      "groupLabel": "トップ・デザイン10案 B",
+      "target": "home",
+      "src": "output/ui-concepts-10b/03-macro-fiber-current.png",
+      "files": [
+        "output/ui-concepts-10b/03-macro-fiber-current.png"
+      ],
+      "width": 1487,
+      "height": 1058
+    },
+    {
+      "id": "hero-009418160b26",
+      "title": "04 floating gallery plate",
+      "group": "ui-b",
+      "groupLabel": "トップ・デザイン10案 B",
+      "target": "home",
+      "src": "output/ui-concepts-10b/04-floating-gallery-plate.png",
+      "files": [
+        "output/ui-concepts-10b/04-floating-gallery-plate.png"
+      ],
+      "width": 1033,
+      "height": 1522
+    },
+    {
+      "id": "hero-f53a172f5574",
+      "title": "05 wide motion trail",
+      "group": "ui-b",
+      "groupLabel": "トップ・デザイン10案 B",
+      "target": "home",
+      "src": "output/ui-concepts-10b/05-wide-motion-trail.png",
+      "files": [
+        "output/ui-concepts-10b/05-wide-motion-trail.png"
+      ],
+      "width": 1036,
+      "height": 1518
+    },
+    {
+      "id": "hero-3830b60bace9",
+      "title": "06 tactile blue sheets",
+      "group": "ui-b",
+      "groupLabel": "トップ・デザイン10案 B",
+      "target": "home",
+      "src": "output/ui-concepts-10b/06-tactile-blue-sheets.png",
+      "files": [
+        "output/ui-concepts-10b/06-tactile-blue-sheets.png"
+      ],
+      "width": 1036,
+      "height": 1518
+    },
+    {
+      "id": "hero-061855a8db01",
+      "title": "07 signal window crop",
+      "group": "ui-b",
+      "groupLabel": "トップ・デザイン10案 B",
+      "target": "home",
+      "src": "output/ui-concepts-10b/07-signal-window-crop.png",
+      "files": [
+        "output/ui-concepts-10b/07-signal-window-crop.png"
+      ],
+      "width": 1035,
+      "height": 1519
+    },
+    {
+      "id": "hero-814cc1fb85a6",
+      "title": "08 telemos typographic object",
+      "group": "ui-b",
+      "groupLabel": "トップ・デザイン10案 B",
+      "target": "home",
+      "src": "output/ui-concepts-10b/08-telemos-typographic-object.png",
+      "files": [
+        "output/ui-concepts-10b/08-telemos-typographic-object.png"
+      ],
+      "width": 1035,
+      "height": 1520
+    },
+    {
+      "id": "hero-4e32f078438b",
+      "title": "09 paired material dialogue",
+      "group": "ui-b",
+      "groupLabel": "トップ・デザイン10案 B",
+      "target": "home",
+      "src": "output/ui-concepts-10b/09-paired-material-dialogue.png",
+      "files": [
+        "output/ui-concepts-10b/09-paired-material-dialogue.png"
+      ],
+      "width": 1036,
+      "height": 1518
+    },
+    {
+      "id": "hero-1825605f824e",
+      "title": "10 layered business panorama",
+      "group": "ui-b",
+      "groupLabel": "トップ・デザイン10案 B",
+      "target": "home",
+      "src": "output/ui-concepts-10b/10-layered-business-panorama.png",
+      "files": [
+        "output/ui-concepts-10b/10-layered-business-panorama.png"
+      ],
+      "width": 1353,
+      "height": 1162
+    },
+    {
+      "id": "hero-c2e079f8682e",
+      "title": "concept 08 hero",
+      "group": "hero",
+      "groupLabel": "トップ・人物とイラスト",
+      "target": "home",
+      "src": "assets/concept-08-hero.png",
+      "files": [
+        "assets/concept-08-hero.png"
+      ],
+      "width": 1774,
+      "height": 887
+    },
+    {
+      "id": "hero-2d0456844ea0",
+      "title": "telemo hero city",
+      "group": "hero",
+      "groupLabel": "トップ・人物とイラスト",
+      "target": "home",
+      "src": "assets/telemo-hero-city.webp",
+      "files": [
+        "assets/telemo-hero-city.webp"
+      ],
+      "width": 2084,
+      "height": 754
+    },
+    {
+      "id": "hero-b70a685bd192",
+      "title": "telemo hero selected",
+      "group": "hero",
+      "groupLabel": "トップ・人物とイラスト",
+      "target": "home",
+      "src": "assets/telemo-hero-selected.png",
+      "files": [
+        "assets/telemo-hero-selected.png"
+      ],
+      "width": 1810,
+      "height": 565
+    },
+    {
+      "id": "hero-0395f009c2e0",
+      "title": "ui fusion 1 8 9",
+      "group": "hero",
+      "groupLabel": "トップ・人物とイラスト",
+      "target": "home",
+      "src": "output/ui-fusion-1-8-9.png",
+      "files": [
+        "output/ui-fusion-1-8-9.png"
+      ],
+      "width": 1036,
+      "height": 1518
+    }
+  ]
+}

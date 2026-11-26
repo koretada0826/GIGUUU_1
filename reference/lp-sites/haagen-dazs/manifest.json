@@ -1,0 +1,5 @@
+{
+  "source": "https://www.haagen-dazs.co.jp/",
+  "mode": "external-link-fallback",
+  "reason": "The source returned HTTP 403 to command-line asset downloads from this environment and does not display inside the comparison iframe. The local tab links to the official page."
+}

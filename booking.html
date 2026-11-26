@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>打ち合わせ予約 ｜ GIGUUU株式会社</title>
+    <meta name="description" content="TELEMOの導入相談をオンラインで予約できます。" />
+    <link href="./reference/fonts.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="./reference/giguuu-logo.png" />
+    <link rel="stylesheet" href="./boundary.css" />
+    <link rel="stylesheet" href="./concept-08.css" />
+    <link rel="stylesheet" href="./mi-header.css?v=20261108-logo" />
+    <link rel="stylesheet" href="./index-refine.css?v=20261013a" />
+    <link rel="stylesheet" href="./policies.css?v=20261119c" />
+    <link rel="stylesheet" href="./contact.css?v=20261120-form" />
+    <link rel="stylesheet" href="./booking.css?v=20261120" />
+  </head>
+  <body class="page-home concept-08 page-policy page-contact" id="top">
+    <a class="policy-skip" href="#policy-content">本文へ移動</a>
+    <header class="nav ggh" id="nav">
+      <div class="ggh__inner">
+        <a class="nav__logo ggh__logo" href="./index.html#hero" aria-label="TELEMO トップ"><img src="./assets/telemo-logo.svg?v=20261108a" width="1376" height="312" alt="TELEMO — AI SALES AUTOMATION" /></a>
+        <nav class="nav__links ggh__navigation" id="navLinks" aria-label="メインナビゲーション">
+          <div class="ggh__main">
+            <div class="ggh__primary">
+              <a href="./index.html#telemo-how">サービス</a>
+              <a href="./index.html#telemo-cases">活用シーン</a>
+              <a href="./index.html#news">ニュース</a>
+              <a href="./recruit.html?v=20261119-logo" target="_blank" rel="noopener">採用情報</a>
+              <a class="ggh__mobile-contact" href="./contact.html">お問い合わせ</a>
+            </div>
+          </div>
+        </nav>
+        <a class="ggh__contact" href="./contact.html"><span>お問い合わせ</span><i aria-hidden="true">→</i></a>
+        <button class="nav__burger ggh__burger" id="burger" type="button" aria-label="メニューを開く" aria-expanded="false" aria-controls="navLinks">
+          <span></span><span></span><span></span>
+        </button>
+        <div class="ggh__panel" id="gghPanel" hidden>
+          <a href="./index.html#telemo-how">サービス</a>
+          <a href="./index.html#telemo-cases">活用シーン</a>
+          <a href="./index.html#news">ニュース</a>
+          <a href="./recruit.html?v=20261119-logo" target="_blank" rel="noopener">採用情報</a>
+          <a class="ggh__panel-contact" href="./contact.html">お問い合わせ</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="policy-page contact-page" id="policy-content">
+      <nav class="policy-page__breadcrumb" aria-label="パンくずリスト">
+        <a href="./index.html">トップ</a><span aria-hidden="true">/</span><span aria-current="page">打ち合わせ予約</span>
+      </nav>
+      <h1 id="booking-title">TELEMOの導入相談を予約する</h1>
+      <p class="contact__lead">所要時間は1時間です。カレンダーからご都合のよい日時をお選びください。</p>
+      <section class="contact__booking" id="booking" aria-labelledby="booking-title">
+        <p class="contact__booking-link"><a href="https://timerex.net/s/Takahisa_Katayama_5558/eed442d2" target="_blank" rel="noopener noreferrer">予約ページを別タブで開く</a></p>
+        <div id="timerex_calendar" data-url="https://timerex.net/s/Takahisa_Katayama_5558/eed442d2"></div>
+      </section>
+      <a class="policy-page__back" href="./index.html#footer">トップページへ戻る</a>
+    </main>
+
+    <footer class="footer" id="footer">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <img width="52" height="40" class="brand-logo" src="./reference/giguuu-logo.png" alt="GIGUUU株式会社 ロゴ" />
+          <span>GIGUUU<span class="footer__sub">株式会社</span></span>
+          <p class="footer__tag">現場を知り尽くした、コールセンター経営者がつくったAI</p>
+        </div>
+        <nav class="footer__nav" aria-label="フッターナビゲーション">
+          <a href="./index.html#telemo-how">サービス</a>
+          <a href="./index.html#telemo-cases">活用シーン</a>
+          <a href="./index.html#news">ニュース</a>
+          <a href="./recruit.html?v=20261119-logo" target="_blank" rel="noopener">採用情報</a>
+          <a href="./index.html#company">会社情報</a>
+          <a href="./contact.html">お問い合わせ</a>
+          <a href="./privacy.html">プライバシーポリシー</a>
+          <a href="./terms.html">利用規約</a>
+          <a href="./security.html">情報セキュリティ方針</a>
+          <a href="./commerce.html">特定商取引法に基づく表記</a>
+        </nav>
+      </div>
+      <div class="footer__bottom">
+        <span>© 2026 GIGUUU Inc. All rights reserved.</span>
+      </div>
+    </footer>
+    <script src="./boundary-ui.js?v=20261111a" defer></script>
+    <script id="timerex_embed" src="https://asset.timerex.net/js/embed.js"></script>
+    <script>
+      if (typeof TimerexCalendar === 'function') {
+        TimerexCalendar({
+          onBookingComplete: () => {
+            window.location.assign(new URL('./index.html', window.location.href).href);
+          },
+        });
+      }
+    </script>
+  </body>
+</html>

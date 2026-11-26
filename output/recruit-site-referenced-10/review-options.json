@@ -1,0 +1,9 @@
+{
+  "preset": "selector-board",
+  "title": "10サイトを参考にしたコールセンター採用画像",
+  "minTileWidth": 520,
+  "showCaptions": true,
+  "showControls": true,
+  "showPrompts": false,
+  "output": "review-board.html"
+}

@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>TELEMO UI案一覧｜5つの参照サイト × 2案</title>
+<style>
+:root{color-scheme:light;--ink:#142f3b;--muted:#63747c;--line:#dce3e5;--teal:#007d8c;--base:#f6f7f7}
+*{box-sizing:border-box}
+body{margin:0;background:var(--base);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif;font-size:14px;line-height:1.6}
+button,select{font:inherit}
+button,a,select{-webkit-tap-highlight-color:transparent}
+a{color:inherit;text-underline-offset:4px}
+button,select{cursor:pointer}
+button:focus-visible,a:focus-visible,select:focus-visible{outline:3px solid var(--teal);outline-offset:4px}
+[hidden]{display:none!important}
+.top{padding:18px 32px 16px;background:#fff;border-bottom:1px solid var(--line)}
+h1{margin:0 0 6px;font-size:clamp(24px,2.3vw,30px);line-height:1.35;letter-spacing:-.04em;font-weight:750}
+.top__description{margin:0;color:var(--muted)}
+.toolbar{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap;padding:12px 32px}
+.view-switch{display:inline-flex;gap:3px;padding:3px;background:#e7edee;border-radius:7px}
+.view-switch button{min-height:36px;padding:6px 16px;border:0;border-radius:4px;background:transparent;color:var(--muted);font-weight:650}
+.view-switch button[aria-pressed="true"]{background:#fff;color:var(--ink)}
+.filter{display:flex;align-items:center;gap:10px;color:var(--muted)}
+.filter select{max-width:220px;min-height:40px;padding:5px 30px 5px 12px;border:1px solid var(--line);border-radius:5px;background:#fff;color:var(--ink)}
+.gallery{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:22px;padding:8px 32px 28px}
+.reference{min-width:0}
+.reference__header{min-height:120px;padding:0 0 10px;margin-bottom:12px;border-bottom:1px solid var(--line)}
+.eyebrow{margin:0 0 4px;font-size:10px;font-weight:700;letter-spacing:.13em;color:var(--muted)}
+h2{margin:0;font-size:17px;font-weight:750;line-height:1.4}
+.reference__inspiration{margin:4px 0;min-height:34px;font-size:12px;line-height:1.45;color:var(--muted)}
+.reference__header a{font-size:12px;color:var(--teal)}
+.reference__options{display:grid;gap:16px}
+.concept{min-width:0;margin:0}
+.concept__preview{position:relative;display:block;background:#fff;border:1px solid var(--line);border-radius:5px;overflow:hidden;cursor:zoom-in;text-decoration:none}
+.concept__preview img{display:block;width:100%;height:auto;aspect-ratio:1505/1045;object-fit:contain}
+.concept__zoom{position:absolute;right:8px;bottom:8px;padding:4px 9px;border-radius:3px;background:#fff;color:var(--ink);font-size:11px;opacity:0}
+.concept__preview:hover .concept__zoom,.concept__preview:focus-visible .concept__zoom{opacity:1}
+figcaption{display:flex;gap:8px;align-items:baseline;margin-top:9px;font-size:12px;font-weight:600;line-height:1.5}
+.concept__number{color:var(--teal);font-variant-numeric:tabular-nums;font-size:13px;font-weight:800}
+.gallery[data-view="pairs"]{display:block;max-width:1480px;margin:auto}
+.gallery[data-view="pairs"] .reference{display:grid;grid-template-columns:185px minmax(0,1fr);gap:28px;margin-bottom:36px;padding-bottom:32px;border-bottom:1px solid var(--line)}
+.gallery[data-view="pairs"] .reference__header{border:0;margin:0;min-height:0}
+.gallery[data-view="pairs"] .reference__options{grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+.gallery[data-view="pairs"] figcaption{font-size:14px}
+.footer{padding:0 32px 24px;color:var(--muted);font-size:12px}
+dialog{width:min(1320px,calc(100vw - 40px));max-width:none;max-height:calc(100dvh - 40px);padding:0;border:1px solid var(--line);border-radius:8px;background:#fff;color:var(--ink);overflow:auto}
+dialog::backdrop{background:rgba(10,26,34,.82)}
+.dialog__header{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:14px 20px;border-bottom:1px solid var(--line)}
+.dialog__header h2{font-size:17px}
+.dialog__controls{display:flex;flex-shrink:0;gap:6px}
+.dialog__controls button{padding:7px 12px;min-height:38px;border:1px solid var(--line);border-radius:4px;background:#fff;color:var(--ink);font-size:13px}
+.dialog__controls .close{background:var(--ink);border-color:var(--ink);color:#fff}
+.dialog__image{display:block;width:100%;height:auto;max-height:calc(100dvh - 195px);object-fit:contain;background:#f3f5f5}
+.dialog__footer{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 20px;font-size:13px;color:var(--muted)}
+.dialog__footer p{margin:0}
+.dialog__footer a{white-space:nowrap;color:var(--teal)}
+body:has(dialog[open]){overflow:hidden}
+@media(min-width:1800px){.gallery{gap:28px}.reference__header{min-height:130px}}
+@media(max-width:1100px){.gallery{grid-template-columns:repeat(3,minmax(0,1fr))}.reference__header{min-height:135px}.gallery[data-view="pairs"] .reference{grid-template-columns:150px minmax(0,1fr);gap:20px}}
+@media(max-width:760px){.top{padding:20px}h1{font-size:25px}.toolbar{padding:16px 20px;gap:12px}.gallery{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 16px;padding:8px 20px 24px}.reference__header{min-height:150px}.reference__inspiration{min-height:40px}.gallery[data-view="pairs"] .reference{display:block}.gallery[data-view="pairs"] .reference__header{margin-bottom:16px}.gallery[data-view="pairs"] .reference__options{gap:16px}.dialog__header{align-items:flex-start;padding:12px;gap:10px}.dialog__header h2{font-size:14px}.dialog__controls button{font-size:12px;padding:6px 8px}.dialog__footer{padding:12px;font-size:12px}.dialog__image{max-height:calc(100dvh - 230px)}.footer{padding:0 20px 24px}}
+@media(max-width:480px){.gallery{display:block}.reference{margin-bottom:32px}.reference__header{min-height:0;margin-bottom:16px}.reference__inspiration{min-height:0}.reference__options,.gallery[data-view="pairs"] .reference__options{grid-template-columns:1fr}.filter{width:100%;justify-content:space-between}.filter select{flex:1;max-width:none}.concept__zoom{opacity:1}.top__date{font-size:10px}.dialog__header{display:block}.dialog__controls{justify-content:flex-end;margin-top:10px}.dialog__footer{display:block}.dialog__footer a{display:inline-block;margin-top:8px}}
+@media(prefers-reduced-motion:no-preference){.concept__preview{transition:border-color .15s}.concept__preview:hover{border-color:var(--teal)}}
+</style>
+</head>
+<body>
+<header class="top">
+  <h1>TELEMO｜5つの参照から、10のUI案。</h1>
+  <p class="top__description">各サイトを参考に2案ずつ。TELEMOの3D文字を軸に、構図・文字・配色を比較できます。画像を押すと拡大します。</p>
+  <a href="./telemo-ui-side-layouts.html">左右配置を調整した2案を見る →</a>
+</header>
+<div class="toolbar">
+  <div class="view-switch" role="group" aria-label="表示方法">
+    <button type="button" data-view-button="overview" aria-pressed="true">10案を一覧</button>
+    <button type="button" data-view-button="pairs" aria-pressed="false">2案ずつ大きく</button>
+  </div>
+  <label class="filter">参照元<select id="reference-filter" aria-label="参照元で絞り込む"><option value="all">すべての参照サイト</option><option value="sanuki">さぬきの夢</option><option value="movie">映画『免許返納!?』</option><option value="rakushifu">らくしふ</option><option value="farm">Farm Minerals</option><option value="allfree">オールフリー</option></select></label>
+</div>
+<main class="gallery" id="gallery" data-view="overview" aria-label="参照サイト別のUI案一覧">
+<section class="reference" data-reference="sanuki" aria-labelledby="sanuki-title">
+  <header class="reference__header">
+    <p class="eyebrow">REFERENCE 01</p>
+    <h2 id="sanuki-title">さぬきの夢</h2>
+    <p class="reference__inspiration">大きな和文・全面写真・文字と立体物の重なり</p>
+    <a href="https://oidemai-sanuki.jp/sanukinoyume/" target="_blank" rel="noopener noreferrer">参照サイトを見る ↗</a>
+  </header>
+  <div class="reference__options">
+  <figure class="concept" id="sanuki-gold">
+    <a class="concept__preview" href="./assets/telemo-ui-concepts/20261022-reference-pairs/sanuki-gold.webp" data-concept="sanuki-gold" aria-label="案1 黄金色 × 大きな明朝体を拡大">
+      <img src="./assets/telemo-ui-concepts/20261022-reference-pairs/sanuki-gold.webp" width="1505" height="1045" alt="さぬきの夢を参考にしたTELEMOのUI案1：黄金色 × 大きな明朝体" decoding="async">
+      <span class="concept__zoom">拡大する</span>
+    </a>
+    <figcaption><span class="concept__number">01</span><span>黄金色 × 大きな明朝体</span></figcaption>
+  </figure>
+<figure class="concept" id="sanuki-ink">
+    <a class="concept__preview" href="./assets/telemo-ui-concepts/20261022-reference-pairs/sanuki-ink.webp" data-concept="sanuki-ink" aria-label="案2 墨色 × 余白と光を拡大">
+      <img src="./assets/telemo-ui-concepts/20261022-reference-pairs/sanuki-ink.webp" width="1505" height="1045" alt="さぬきの夢を参考にしたTELEMOのUI案2：墨色 × 余白と光" decoding="async">
+      <span class="concept__zoom">拡大する</span>
+    </a>
+    <figcaption><span class="concept__number">02</span><span>墨色 × 余白と光</span></figcaption>
+  </figure>
+  </div>
+</section>
+<section class="reference" data-reference="movie" aria-labelledby="movie-title">
+  <header class="reference__header">
+    <p class="eyebrow">REFERENCE 02</p>
+    <h2 id="movie-title">映画『免許返納!?』</h2>
+    <p class="reference__inspiration">鮮やかな黄色・太い黒文字・円環のフレーム</p>
+    <a href="https://menkyohenno-movie.com/" target="_blank" rel="noopener noreferrer">参照サイトを見る ↗</a>
+  </header>
+  <div class="reference__options">
+  <figure class="concept" id="movie-split">
+    <a class="concept__preview" href="./assets/telemo-ui-concepts/20261022-reference-pairs/movie-split.webp" data-concept="movie-split" aria-label="案3 黄色 × 左右分割を拡大">
+      <img src="./assets/telemo-ui-concepts/20261022-reference-pairs/movie-split.webp" width="1505" height="1045" alt="映画『免許返納!?』を参考にしたTELEMOのUI案3：黄色 × 左右分割" decoding="async">
+      <span class="concept__zoom">拡大する</span>
+    </a>
+    <figcaption><span class="concept__number">03</span><span>黄色 × 左右分割</span></figcaption>
+  </figure>
+<figure class="concept" id="movie-wide">
+    <a class="concept__preview" href="./assets/telemo-ui-concepts/20261022-reference-pairs/movie-wide.webp" data-concept="movie-wide" aria-label="案4 黄色 × ワイドポスターを拡大">
+      <img src="./assets/telemo-ui-concepts/20261022-reference-pairs/movie-wide.webp" width="1505" height="1045" alt="映画『免許返納!?』を参考にしたTELEMOのUI案4：黄色 × ワイドポスター" decoding="async">
+      <span class="concept__zoom">拡大する</span>
+    </a>
+    <figcaption><span class="concept__number">04</span><span>黄色 × ワイドポスター</span></figcaption>
+  </figure>
+  </div>
+</section>
+<section class="reference" data-reference="rakushifu" aria-labelledby="rakushifu-title">
+  <header class="reference__header">
+    <p class="eyebrow">REFERENCE 03</p>
+    <h2 id="rakushifu-title">らくしふ</h2>
+    <p class="reference__inspiration">白地の読みやすさ・青の強調・黄色のボタン</p>
+    <a href="https://rakushifu.jp/" target="_blank" rel="noopener noreferrer">参照サイトを見る ↗</a>
+  </header>
+  <div class="reference__options">
+  <figure class="concept" id="rakushifu-split">
+    <a class="concept__preview" href="./assets/telemo-ui-concepts/20261022-reference-pairs/rakushifu-split.webp" data-concept="rakushifu-split" aria-label="案5 白・青・黄 × 左右配置を拡大">
+      <img src="./assets/telemo-ui-concepts/20261022-reference-pairs/rakushifu-split.webp" width="1505" height="1045" alt="らくしふを参考にしたTELEMOのUI案5：白・青・黄 × 左右配置" decoding="async">
+      <span class="concept__zoom">拡大する</span>
+    </a>
+    <figcaption><span class="concept__number">05</span><span>白・青・黄 × 左右配置</span></figcaption>
+  </figure>
+<figure class="concept" id="rakushifu-center">
+    <a class="concept__preview" href="./assets/telemo-ui-concepts/20261022-reference-pairs/rakushifu-center.webp" data-concept="rakushifu-center" aria-label="案6 白・青・黄 × 中央配置を拡大">
+      <img src="./assets/telemo-ui-concepts/20261022-reference-pairs/rakushifu-center.webp" width="1505" height="1045" alt="らくしふを参考にしたTELEMOのUI案6：白・青・黄 × 中央配置" decoding="async">
+      <span class="concept__zoom">拡大する</span>
+    </a>
+    <figcaption><span class="concept__number">06</span><span>白・青・黄 × 中央配置</span></figcaption>
+  </figure>
+  </div>
+</section>
+<section class="reference" data-reference="farm" aria-labelledby="farm-title">
+  <header class="reference__header">
+    <p class="eyebrow">REFERENCE 04</p>
+    <h2 id="farm-title">Farm Minerals</h2>
+    <p class="reference__inspiration">素材の質感・光と円柱・少ないナビゲーション</p>
+    <a href="https://www.farmminerals.com/" target="_blank" rel="noopener noreferrer">参照サイトを見る ↗</a>
+  </header>
+  <div class="reference__options">
+  <figure class="concept" id="farm-olive">
+    <a class="concept__preview" href="./assets/telemo-ui-concepts/20261022-reference-pairs/farm-olive.webp" data-concept="farm-olive" aria-label="案7 濃緑 × 立体展示を拡大">
+      <img src="./assets/telemo-ui-concepts/20261022-reference-pairs/farm-olive.webp" width="1505" height="1045" alt="Farm Mineralsを参考にしたTELEMOのUI案7：濃緑 × 立体展示" decoding="async">
+      <span class="concept__zoom">拡大する</span>
+    </a>
+    <figcaption><span class="concept__number">07</span><span>濃緑 × 立体展示</span></figcaption>
+  </figure>
+<figure class="concept" id="farm-mineral">
+    <a class="concept__preview" href="./assets/telemo-ui-concepts/20261022-reference-pairs/farm-mineral.webp" data-concept="farm-mineral" aria-label="案8 石材 × ライトギャラリーを拡大">
+      <img src="./assets/telemo-ui-concepts/20261022-reference-pairs/farm-mineral.webp" width="1505" height="1045" alt="Farm Mineralsを参考にしたTELEMOのUI案8：石材 × ライトギャラリー" decoding="async">
+      <span class="concept__zoom">拡大する</span>
+    </a>
+    <figcaption><span class="concept__number">08</span><span>石材 × ライトギャラリー</span></figcaption>
+  </figure>
+  </div>
+</section>
+<section class="reference" data-reference="allfree" aria-labelledby="allfree-title">
+  <header class="reference__header">
+    <p class="eyebrow">REFERENCE 05</p>
+    <h2 id="allfree-title">オールフリー</h2>
+    <p class="reference__inspiration">鮮やかな水色・紙の質感・丸い文字と曲線</p>
+    <a href="https://www.suntory.co.jp/non-al/allfree/karada-allfree/" target="_blank" rel="noopener noreferrer">参照サイトを見る ↗</a>
+  </header>
+  <div class="reference__options">
+  <figure class="concept" id="allfree-blue">
+    <a class="concept__preview" href="./assets/telemo-ui-concepts/20261022-reference-pairs/allfree-blue.webp" data-concept="allfree-blue" aria-label="案9 水色 × 紙の質感を拡大">
+      <img src="./assets/telemo-ui-concepts/20261022-reference-pairs/allfree-blue.webp" width="1505" height="1045" alt="オールフリーを参考にしたTELEMOのUI案9：水色 × 紙の質感" decoding="async">
+      <span class="concept__zoom">拡大する</span>
+    </a>
+    <figcaption><span class="concept__number">09</span><span>水色 × 紙の質感</span></figcaption>
+  </figure>
+<figure class="concept" id="allfree-oval">
+    <a class="concept__preview" href="./assets/telemo-ui-concepts/20261022-reference-pairs/allfree-oval.webp" data-concept="allfree-oval" aria-label="案10 白地 × ブルーの楕円を拡大">
+      <img src="./assets/telemo-ui-concepts/20261022-reference-pairs/allfree-oval.webp" width="1505" height="1045" alt="オールフリーを参考にしたTELEMOのUI案10：白地 × ブルーの楕円" decoding="async">
+      <span class="concept__zoom">拡大する</span>
+    </a>
+    <figcaption><span class="concept__number">10</span><span>白地 × ブルーの楕円</span></figcaption>
+  </figure>
+  </div>
+</section>
+</main>
+<footer class="footer">気に入った案の番号をチャットでお知らせください。各案の要素を組み合わせることもできます。</footer>
+<dialog id="concept-dialog" aria-labelledby="dialog-title">
+  <div class="dialog__header">
+    <h2 id="dialog-title"></h2>
+    <div class="dialog__controls">
+      <button type="button" id="previous">前の案</button>
+      <button type="button" id="next">次の案</button>
+      <button type="button" class="close" id="close-dialog">閉じる</button>
+    </div>
+  </div>
+  <img class="dialog__image" id="dialog-image" alt="">
+  <div class="dialog__footer"><p id="dialog-description"></p><a id="dialog-reference" target="_blank" rel="noopener noreferrer">参照サイトを見る ↗</a></div>
+</dialog>
+<script id="concept-data" type="application/json">[{"id":"sanuki-gold","number":1,"title":"黄金色 × 大きな明朝体","image":"./assets/telemo-ui-concepts/20261022-reference-pairs/sanuki-gold.webp","reference":"さぬきの夢","url":"https://oidemai-sanuki.jp/sanukinoyume/","inspiration":"大きな和文・全面写真・文字と立体物の重なり"},{"id":"sanuki-ink","number":2,"title":"墨色 × 余白と光","image":"./assets/telemo-ui-concepts/20261022-reference-pairs/sanuki-ink.webp","reference":"さぬきの夢","url":"https://oidemai-sanuki.jp/sanukinoyume/","inspiration":"大きな和文・全面写真・文字と立体物の重なり"},{"id":"movie-split","number":3,"title":"黄色 × 左右分割","image":"./assets/telemo-ui-concepts/20261022-reference-pairs/movie-split.webp","reference":"映画『免許返納!?』","url":"https://menkyohenno-movie.com/","inspiration":"鮮やかな黄色・太い黒文字・円環のフレーム"},{"id":"movie-wide","number":4,"title":"黄色 × ワイドポスター","image":"./assets/telemo-ui-concepts/20261022-reference-pairs/movie-wide.webp","reference":"映画『免許返納!?』","url":"https://menkyohenno-movie.com/","inspiration":"鮮やかな黄色・太い黒文字・円環のフレーム"},{"id":"rakushifu-split","number":5,"title":"白・青・黄 × 左右配置","image":"./assets/telemo-ui-concepts/20261022-reference-pairs/rakushifu-split.webp","reference":"らくしふ","url":"https://rakushifu.jp/","inspiration":"白地の読みやすさ・青の強調・黄色のボタン"},{"id":"rakushifu-center","number":6,"title":"白・青・黄 × 中央配置","image":"./assets/telemo-ui-concepts/20261022-reference-pairs/rakushifu-center.webp","reference":"らくしふ","url":"https://rakushifu.jp/","inspiration":"白地の読みやすさ・青の強調・黄色のボタン"},{"id":"farm-olive","number":7,"title":"濃緑 × 立体展示","image":"./assets/telemo-ui-concepts/20261022-reference-pairs/farm-olive.webp","reference":"Farm Minerals","url":"https://www.farmminerals.com/","inspiration":"素材の質感・光と円柱・少ないナビゲーション"},{"id":"farm-mineral","number":8,"title":"石材 × ライトギャラリー","image":"./assets/telemo-ui-concepts/20261022-reference-pairs/farm-mineral.webp","reference":"Farm Minerals","url":"https://www.farmminerals.com/","inspiration":"素材の質感・光と円柱・少ないナビゲーション"},{"id":"allfree-blue","number":9,"title":"水色 × 紙の質感","image":"./assets/telemo-ui-concepts/20261022-reference-pairs/allfree-blue.webp","reference":"オールフリー","url":"https://www.suntory.co.jp/non-al/allfree/karada-allfree/","inspiration":"鮮やかな水色・紙の質感・丸い文字と曲線"},{"id":"allfree-oval","number":10,"title":"白地 × ブルーの楕円","image":"./assets/telemo-ui-concepts/20261022-reference-pairs/allfree-oval.webp","reference":"オールフリー","url":"https://www.suntory.co.jp/non-al/allfree/karada-allfree/","inspiration":"鮮やかな水色・紙の質感・丸い文字と曲線"}]</script>
+<script>
+(() => {
+  const concepts = JSON.parse(document.getElementById('concept-data').textContent);
+  const gallery = document.getElementById('gallery');
+  const dialog = document.getElementById('concept-dialog');
+  const title = document.getElementById('dialog-title');
+  const image = document.getElementById('dialog-image');
+  const description = document.getElementById('dialog-description');
+  const reference = document.getElementById('dialog-reference');
+  let current = 0;
+  const baseUrl = () => location.pathname + location.search;
+
+  function show(index, updateUrl = true) {
+    current = (index + concepts.length) % concepts.length;
+    const concept = concepts[current];
+    title.textContent = '案 ' + String(concept.number).padStart(2, '0') + '  /  ' + concept.title;
+    image.src = concept.image;
+    image.alt = concept.reference + 'を参考にしたTELEMOのUI案' + concept.number + '：' + concept.title;
+    description.textContent = concept.reference + '：' + concept.inspiration;
+    reference.href = concept.url;
+    if (!dialog.open) dialog.showModal();
+    if (updateUrl) history.replaceState(null, '', baseUrl() + '#' + concept.id);
+  }
+
+  document.querySelectorAll('[data-concept]').forEach(link => {
+    link.addEventListener('click', event => {
+      event.preventDefault();
+      show(concepts.findIndex(concept => concept.id === link.dataset.concept));
+    });
+  });
+  document.querySelectorAll('[data-view-button]').forEach(button => {
+    button.addEventListener('click', () => {
+      gallery.dataset.view = button.dataset.viewButton;
+      document.querySelectorAll('[data-view-button]').forEach(item => {
+        item.setAttribute('aria-pressed', String(item === button));
+      });
+    });
+  });
+  const filter = document.getElementById('reference-filter');
+  filter.value = 'all';
+  filter.addEventListener('change', event => {
+    document.querySelectorAll('[data-reference]').forEach(section => {
+      section.hidden = event.target.value !== 'all' && section.dataset.reference !== event.target.value;
+    });
+  });
+  document.getElementById('previous').addEventListener('click', () => show(current - 1));
+  document.getElementById('next').addEventListener('click', () => show(current + 1));
+  document.getElementById('close-dialog').addEventListener('click', () => dialog.close());
+  dialog.addEventListener('close', () => history.replaceState(null, '', baseUrl()));
+  dialog.addEventListener('click', event => { if (event.target === dialog) dialog.close(); });
+  dialog.addEventListener('keydown', event => {
+    if (event.key === 'ArrowRight' || event.key === 'ArrowLeft') {
+      event.preventDefault();
+      show(current + (event.key === 'ArrowRight' ? 1 : -1));
+    }
+  });
+  const fromHash = concepts.findIndex(concept => concept.id === decodeURIComponent(location.hash.slice(1)));
+  if (fromHash >= 0) show(fromHash, false);
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,146 @@
+{
+ "slug": "raneo-co",
+ "url": "https://www.raneo.co/",
+ "capturedAt": "2026-10-12 21:11:58",
+ "files": {
+  "pc_f0": "raneo-co-pc-f0.jpg",
+  "pc_f1": "raneo-co-pc-f1.jpg",
+  "pc_f2": "raneo-co-pc-f2.jpg",
+  "pc_scroll": "raneo-co-pc-scroll.jpg",
+  "sp": "raneo-co-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.raneo.co/",
+  "title": "Raneo, agence automatisation et IA pour PME",
+  "lang": "fr",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 13492,
+  "h1": "L’IA et l’automatisation, au service des PME.",
+  "h1Style": {
+   "fontFamily": "\"Google Sans\", \"Google Sans Fallback\", system-ui, sans-serif",
+   "fontSize": "64px",
+   "fontWeight": "400",
+   "lineHeight": "70.4px",
+   "letterSpacing": "-1.28px",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 24,
+    "y": 172,
+    "w": 625,
+    "h": 116
+   }
+  },
+  "lead": "Agence d’automatisation et d’IA à Rennes : on comprend, on installe l’IA et on reste pour que ça tienne. Nous contacter N o u s c o n t a c t e r Voir les cas d’études",
+  "ctas": [
+   "Nous contacter N o u s c o n t a c t e r",
+   "Voir les cas d’études"
+  ],
+  "videos": [],
+  "canvases": [
+   {
+    "w": 1377,
+    "h": 484
+   },
+   {
+    "w": 1377,
+    "h": 484
+   }
+  ],
+  "images": [
+   {
+    "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "w": 1377,
+    "h": 484,
+    "alt": ""
+   },
+   {
+    "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "w": 1377,
+    "h": 484,
+    "alt": ""
+   },
+   {
+    "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "w": 1377,
+    "h": 484,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Inter",
+   "Google Sans"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": true,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "L’IA et l’automatisation, au service des PME.",
+  "h1Style": {
+   "fontFamily": "\"Google Sans\", \"Google Sans Fallback\", system-ui, sans-serif",
+   "fontSize": "40.4331px",
+   "fontWeight": "400",
+   "lineHeight": "44.4764px",
+   "letterSpacing": "-0.808662px",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 16,
+    "y": 148,
+    "w": 358,
+    "h": 118
+   }
+  },
+  "lead": "Agence d’automatisation et d’IA à Rennes : on comprend, on installe l’IA et on reste pour que ça tienne. Nous contacter N o u s c o n t a c t e r Voir les cas d’études",
+  "ctas": [
+   "Nous contacter N o u s c o n t a c t e r",
+   "Voir les cas d’études"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.raneo.co/_astro/still-phone-0.CPoHqupp_1Yz69r.avif",
+    "w": 358,
+    "h": 448,
+    "alt": ""
+   },
+   {
+    "src": "https://www.raneo.co/_astro/still-phone-1.BR1L9oUl_UX1uj.avif",
+    "w": 358,
+    "h": 448,
+    "alt": ""
+   },
+   {
+    "src": "https://www.raneo.co/_astro/still-phone-2.5Zjso_Zu_Z1UQrSB.avif",
+    "w": 358,
+    "h": 448,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 15102
+ },
+ "elapsedSec": 13.1
+}

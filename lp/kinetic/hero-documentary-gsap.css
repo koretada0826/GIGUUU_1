@@ -1,0 +1,14 @@
+/* GSAP owns the hero motion. These scoped overrides preserve the current layout. */
+.doc-hero .doc-hero__media,
+.page-home .doc-hero .doc-hero__title,
+.doc-hero .doc-hero__lead,
+.doc-hero .doc-hero__actions { animation: none; }
+.doc-hero .doc-hero__parallax { transform: none; will-change: auto; }
+.doc-hero .doc-hero__camera { inset: -2%; animation: none; transform: translate3d(0,0,0); will-change: auto; }
+.doc-hero.is-camera-active .doc-hero__camera { will-change: transform; }
+.doc-hero .doc-hero__photo { filter: none; }
+@media(prefers-reduced-motion:reduce) {
+  .doc-hero .doc-hero__camera { transform: none !important; will-change: auto !important; }
+  .doc-hero .doc-hero__inner * { opacity: 1 !important; visibility: visible !important; transform: none !important; }
+  .page-home.concept-08 .doc-hero .btn,.page-home.concept-08 .doc-hero .btn__arrow { transition: none; }
+}

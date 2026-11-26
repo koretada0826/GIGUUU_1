@@ -1,0 +1,192 @@
+{
+ "slug": "stellar-work",
+ "url": "https://www.stellar.work/",
+ "capturedAt": "2026-10-12 21:12:19",
+ "files": {
+  "pc_f0": "stellar-work-pc-f0.jpg",
+  "pc_f1": "stellar-work-pc-f1.jpg",
+  "pc_f2": "stellar-work-pc-f2.jpg",
+  "pc_scroll": "stellar-work-pc-scroll.jpg",
+  "sp": "stellar-work-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.stellar.work/",
+  "title": "Stellar — Blazing fast design sprints",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 8399,
+  "h1": "Your brand or website, delivered at lightspeed.",
+  "h1Style": {
+   "fontFamily": "\"Neue Montreal\"",
+   "fontSize": "104px",
+   "fontWeight": "400",
+   "lineHeight": "114.4px",
+   "letterSpacing": "-2.08px",
+   "color": "rgb(243, 243, 243)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 59,
+    "y": 201,
+    "w": 1323,
+    "h": 229
+   }
+  },
+  "lead": "Your brand or website,",
+  "ctas": [
+   "Reserve your sprint"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://cdn.prod.website-files.com/62e884e587f0bdfdb5a72d9d/66272faed2e7be8efc4474e4_COMP_Corey_card-p-800.webp",
+    "w": 719,
+    "h": 457,
+    "alt": ""
+   },
+   {
+    "src": "https://cdn.prod.website-files.com/62e884e587f0bdfdb5a72d9d/66272faed2e7be8efc4474e4_COMP_Corey_card-p-800.webp",
+    "w": 719,
+    "h": 457,
+    "alt": ""
+   },
+   {
+    "src": "https://cdn.prod.website-files.com/62e884e587f0bdfdb5a72d9d/66272ee84d5b4cd0348704ba_COMP_Gavin_card-p-800.webp",
+    "w": 719,
+    "h": 457,
+    "alt": ""
+   },
+   {
+    "src": "https://cdn.prod.website-files.com/62e884e587f0bdfdb5a72d9d/66272ee84d5b4cd0348704ba_COMP_Gavin_card-p-800.webp",
+    "w": 719,
+    "h": 457,
+    "alt": ""
+   },
+   {
+    "src": "https://cdn.prod.website-files.com/62e884e587f0bdfdb5a72d9d/66272ba8569e44e635483c62_COMP_Benten_card-p-800.webp",
+    "w": 719,
+    "h": 457,
+    "alt": ""
+   },
+   {
+    "src": "https://cdn.prod.website-files.com/62e884e587f0bdfdb5a72d9d/66272ba8569e44e635483c62_COMP_Benten_card-p-800.webp",
+    "w": 719,
+    "h": 457,
+    "alt": ""
+   },
+   {
+    "src": "https://cdn.prod.website-files.com/62e884e587f0bdfdb5a72d9d/66272ef71c21a90b1c5d5cb3_COMP_JD_card-p-800.webp",
+    "w": 719,
+    "h": 457,
+    "alt": ""
+   },
+   {
+    "src": "https://cdn.prod.website-files.com/62e884e587f0bdfdb5a72d9d/66272ef71c21a90b1c5d5cb3_COMP_JD_card-p-800.webp",
+    "w": 719,
+    "h": 457,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Neue Montreal"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "Your brand or website, delivered at lightspeed.",
+  "h1Style": {
+   "fontFamily": "\"Neue Montreal\"",
+   "fontSize": "48px",
+   "fontWeight": "400",
+   "lineHeight": "52.8px",
+   "letterSpacing": "-0.48px",
+   "color": "rgb(243, 243, 243)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 24,
+    "y": 131,
+    "w": 341,
+    "h": 211
+   }
+  },
+  "lead": "Your brand or website,",
+  "ctas": [],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://cdn.prod.website-files.com/62e884e587f0bdfdb5a72d9d/66272faed2e7be8efc4474e4_COMP_Corey_card-p-800.webp",
+    "w": 349,
+    "h": 222,
+    "alt": ""
+   },
+   {
+    "src": "https://cdn.prod.website-files.com/62e884e587f0bdfdb5a72d9d/66272faed2e7be8efc4474e4_COMP_Corey_card-p-800.webp",
+    "w": 349,
+    "h": 222,
+    "alt": ""
+   },
+   {
+    "src": "https://cdn.prod.website-files.com/62e884e587f0bdfdb5a72d9d/66272ee84d5b4cd0348704ba_COMP_Gavin_card-p-800.webp",
+    "w": 349,
+    "h": 222,
+    "alt": ""
+   },
+   {
+    "src": "https://cdn.prod.website-files.com/62e884e587f0bdfdb5a72d9d/66272ee84d5b4cd0348704ba_COMP_Gavin_card-p-800.webp",
+    "w": 349,
+    "h": 222,
+    "alt": ""
+   },
+   {
+    "src": "https://cdn.prod.website-files.com/62e884e587f0bdfdb5a72d9d/66272ba8569e44e635483c62_COMP_Benten_card-p-800.webp",
+    "w": 349,
+    "h": 222,
+    "alt": ""
+   },
+   {
+    "src": "https://cdn.prod.website-files.com/62e884e587f0bdfdb5a72d9d/66272ba8569e44e635483c62_COMP_Benten_card-p-800.webp",
+    "w": 349,
+    "h": 222,
+    "alt": ""
+   },
+   {
+    "src": "https://cdn.prod.website-files.com/62e884e587f0bdfdb5a72d9d/66272ef71c21a90b1c5d5cb3_COMP_JD_card-p-800.webp",
+    "w": 349,
+    "h": 222,
+    "alt": ""
+   },
+   {
+    "src": "https://cdn.prod.website-files.com/62e884e587f0bdfdb5a72d9d/66272ef71c21a90b1c5d5cb3_COMP_JD_card-p-800.webp",
+    "w": 349,
+    "h": 222,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 8254
+ },
+ "elapsedSec": 12.6
+}

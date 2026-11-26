@@ -1,0 +1,204 @@
+{
+ "slug": "jp-sansan-com",
+ "url": "https://jp.sansan.com/",
+ "capturedAt": "2026-10-12 21:06:59",
+ "files": {
+  "pc_f0": "jp-sansan-com-pc-f0.jpg",
+  "pc_f1": "jp-sansan-com-pc-f1.jpg",
+  "pc_f2": "jp-sansan-com-pc-f2.jpg",
+  "pc_scroll": "jp-sansan-com-pc-scroll.jpg",
+  "sp": "jp-sansan-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://jp.sansan.com/",
+  "title": "Sansan（営業AXサービス）",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 10228,
+  "h1": "名刺データベースが、 収益を最大化する",
+  "h1Style": {
+   "fontFamily": "sofia-pro, \"Helvetica Neue\", \"Yu Gothic\", YuGothic, \"ヒラギノ角ゴ Pro W3\", \"Hiragino Kaku Gothic Pro\", Verdana, Meiryo, sans-s",
+   "fontSize": "48px",
+   "fontWeight": "700",
+   "lineHeight": "67.2px",
+   "letterSpacing": "1.44px",
+   "color": "rgb(0, 78, 152)",
+   "textAlign": "left",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 120,
+    "y": 136,
+    "w": 560,
+    "h": 134
+   }
+  },
+  "lead": "Sansanは、名刺やオンラインの接点、商談履歴といったビジネスデータを 一元管理して全社で共有し、AIの力でさらに活用できるようにすることで、 売上拡大とコスト削減を同時に実現する、営業AXサービスです。",
+  "ctas": [
+   "3分でわかるSansan",
+   "お役立ち資料一覧",
+   "お問い合わせ",
+   "サポートセンター",
+   "名刺データベースに進化した 「3分でわかるSansan」 今すぐダウンロード",
+   "サービスの見積もりや 無料トライアルを依頼する お問い合わせ"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://jp.sansan.com/images/cta-fv/img-cta_3min-solution-top.png",
+    "w": 220,
+    "h": 160,
+    "alt": "3分でわかるSansan"
+   },
+   {
+    "src": "https://jp.sansan.com/images/cta-fv/img-cta_contact-top.png",
+    "w": 220,
+    "h": 160,
+    "alt": ""
+   },
+   {
+    "src": "https://jp.sansan.com/images/home/mv-visual.svg",
+    "w": 645,
+    "h": 423,
+    "alt": ""
+   },
+   {
+    "src": "https://jp.sansan.com/images/logo/logo-meti.png",
+    "w": 150,
+    "h": 55,
+    "alt": "経済産業省"
+   },
+   {
+    "src": "https://jp.sansan.com/images/logo/logo-takenaka.png",
+    "w": 150,
+    "h": 55,
+    "alt": "竹中工務店"
+   },
+   {
+    "src": "https://jp.sansan.com/images/logo/logo-meijiyasuda.png",
+    "w": 150,
+    "h": 55,
+    "alt": "明治安田生命"
+   },
+   {
+    "src": "https://jp.sansan.com/images/logo/logo-japanpost.png",
+    "w": 150,
+    "h": 55,
+    "alt": "日本郵便"
+   },
+   {
+    "src": "https://jp.sansan.com/images/logo/logo-kao.png",
+    "w": 150,
+    "h": 55,
+    "alt": "花王"
+   },
+   {
+    "src": "https://jp.sansan.com/images/logo/logo-nttdata.png",
+    "w": 150,
+    "h": 55,
+    "alt": "NTTデータ"
+   },
+   {
+    "src": "https://jp.sansan.com/images/logo/logo-mitsui.png",
+    "w": 150,
+    "h": 55,
+    "alt": "三井物産"
+   },
+   {
+    "src": "https://jp.sansan.com/images/logo/logo-sumitomolife.png",
+    "w": 150,
+    "h": 55,
+    "alt": "住友生命"
+   },
+   {
+    "src": "https://appimg.chatplus.jp/app/24703/eyecatcher/eyecatcher.1777629521.png",
+    "w": 145,
+    "h": 145,
+    "alt": "チャットでご相談ください"
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "sofia-pro"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "名刺データベースが、 収益を最大化する",
+  "h1Style": {
+   "fontFamily": "sofia-pro, \"Helvetica Neue\", \"Yu Gothic\", YuGothic, \"ヒラギノ角ゴ Pro W3\", \"Hiragino Kaku Gothic Pro\", Verdana, Meiryo, sans-s",
+   "fontSize": "35.3601px",
+   "fontWeight": "700",
+   "lineHeight": "49.5042px",
+   "letterSpacing": "0.707203px",
+   "color": "rgb(0, 78, 152)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 31,
+    "y": 83,
+    "w": 329,
+    "h": 99
+   }
+  },
+  "lead": "Sansanは、名刺やオンラインの接点、商談履歴といった ビジネスデータを一元管理して全社で共有し、 AIの力でさらに活用できるようにすることで、 売上拡大とコスト削減を同時に実現する、営業AXサービスです。",
+  "ctas": [
+   "選ばれる理由",
+   "選ばれる理由",
+   "セキュリティー対策",
+   "サポート体制",
+   "名刺データ化",
+   "AXを後押しする機能",
+   "機能",
+   "機能一覧",
+   "名刺管理関連の機能",
+   "データベース関連の機能",
+   "デジタル名刺ソリューション",
+   "データ連携ソリューション"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://jp.sansan.com/images/cta-fv/img-cta_3min-solution-top-sp.png",
+    "w": 357,
+    "h": 92,
+    "alt": "3分でわかるSansan"
+   },
+   {
+    "src": "https://jp.sansan.com/images/cta-fv/img-cta_contact-top-sp.png",
+    "w": 357,
+    "h": 92,
+    "alt": ""
+   },
+   {
+    "src": "https://jp.sansan.com/images/home/mv-visual.svg",
+    "w": 343,
+    "h": 225,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 14797
+ },
+ "elapsedSec": 13.3
+}

@@ -1,0 +1,117 @@
+{
+ "slug": "giga-ai",
+ "url": "https://giga.ai/",
+ "capturedAt": "2026-10-12 21:10:32",
+ "files": {
+  "pc_f0": "giga-ai-pc-f0.jpg",
+  "pc_f1": "giga-ai-pc-f1.jpg",
+  "pc_f2": "giga-ai-pc-f2.jpg",
+  "pc_scroll": "giga-ai-pc-scroll.jpg",
+  "sp": "giga-ai-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://giga.ai/",
+  "title": "Giga — AI support agents that improve your metrics",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 15714,
+  "h1": "No time to wait.",
+  "h1Style": {
+   "fontFamily": "\"Geist Pixel Line\", \"Geist Mono\", monospace",
+   "fontSize": "72px",
+   "fontWeight": "400",
+   "lineHeight": "64px",
+   "letterSpacing": "normal",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 170,
+    "y": 168,
+    "w": 260,
+    "h": 128
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "ScoutThe agent-building agent.",
+   "Sign in",
+   "See a demo"
+  ],
+  "videos": [],
+  "canvases": [
+   {
+    "w": 2611,
+    "h": 1632
+   }
+  ],
+  "images": [],
+  "backgroundImages": [
+   {
+    "bg": "url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4CAYAAAA5ZDbSAAAACXBIWXMAAAAnAAAAJwEqCZFPAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAOdEVYdFNvZnR3YXJlAEZpZ21hnrGWYwAAeGhJREFUeAFN3Qe4XGW1P/6Zk",
+    "w": 550,
+    "h": 470
+   }
+  ],
+  "firstScreenFonts": [
+   "Geist",
+   "inter",
+   "Geist Pixel Line"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "No time to wait.",
+  "h1Style": {
+   "fontFamily": "\"Geist Pixel Line\", \"Geist Mono\", monospace",
+   "fontSize": "72px",
+   "fontWeight": "400",
+   "lineHeight": "64px",
+   "letterSpacing": "normal",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 16,
+    "y": 145,
+    "w": 144,
+    "h": 71
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "See a demo",
+   "See a demo"
+  ],
+  "videos": [],
+  "canvases": [
+   {
+    "w": 850,
+    "h": 861
+   }
+  ],
+  "images": [],
+  "pageHeight": 14728
+ },
+ "elapsedSec": 11.9
+}

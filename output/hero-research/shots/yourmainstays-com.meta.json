@@ -1,0 +1,111 @@
+{
+ "slug": "yourmainstays-com",
+ "url": "https://yourmainstays.com/",
+ "capturedAt": "2026-10-12 21:12:36",
+ "files": {
+  "pc_f0": "yourmainstays-com-pc-f0.jpg",
+  "pc_f1": "yourmainstays-com-pc-f1.jpg",
+  "pc_f2": "yourmainstays-com-pc-f2.jpg",
+  "pc_scroll": "yourmainstays-com-pc-scroll.jpg",
+  "sp": "yourmainstays-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://yourmainstays.com/",
+  "title": "Pantry Staples and Entertaining Essentials - The Mainstays",
+  "lang": "en-CA",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 8021,
+  "h1": "Your pantry’s new main character",
+  "h1Style": {
+   "fontFamily": "\"Exposure Trial\", serif",
+   "fontSize": "76px",
+   "fontWeight": "396",
+   "lineHeight": "87.4px",
+   "letterSpacing": "normal",
+   "color": "rgb(255, 248, 224)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 48,
+    "y": 379,
+    "w": 680,
+    "h": 175
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "The Mainstays"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://yourmainstays.com/wp-content/uploads/2025/12/Home-Hero-min-2-1440x900.jpg",
+    "w": 1440,
+    "h": 900,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Auger Mono",
+   "Exposure Trial"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 248, 224)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "Your pantry’s new main character",
+  "h1Style": {
+   "fontFamily": "\"Exposure Trial\", serif",
+   "fontSize": "48px",
+   "fontWeight": "396",
+   "lineHeight": "55.2px",
+   "letterSpacing": "normal",
+   "color": "rgb(255, 248, 224)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 16,
+    "y": 355,
+    "w": 358,
+    "h": 166
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "The Mainstays"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://yourmainstays.com/wp-content/uploads/2025/12/Home-Hero-Mobile-min-640x1477.jpg",
+    "w": 390,
+    "h": 844,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 6543
+ },
+ "elapsedSec": 12.3
+}

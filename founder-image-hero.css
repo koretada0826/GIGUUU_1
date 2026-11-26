@@ -1,0 +1,33 @@
+.page-home.concept-08 .hero.founder-image-hero {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 0;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  background: #08266a;
+}
+.founder-image-hero__image { display: block; width: 100%; height: auto; }
+.founder-image-hero__sr { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.founder-image-hero__actions { position: absolute; left: 9.15%; top: 63.8%; width: 40.7%; height: 17.3%; display: grid; grid-template-columns: repeat(3, 1fr); gap: .5%; }
+.founder-image-hero__nav { position: absolute; left: 16.6%; right: 16.6%; top: 90.5%; bottom: 0; display: grid; grid-template-columns: repeat(4, 1fr); }
+.founder-image-hero__actions a, .founder-image-hero__nav a { display: block; border-radius: 12px; color: #fff; text-decoration: none; }
+.founder-image-hero__actions a span, .founder-image-hero__nav a span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+.founder-image-hero__actions a:hover, .founder-image-hero__nav a:hover { background: rgb(255 255 255 / 12%); }
+.founder-image-hero__actions a:focus-visible, .founder-image-hero__nav a:focus-visible { outline: 3px solid #ffe078; outline-offset: -3px; }
+@media (max-width: 640px) {
+  .founder-image-hero__actions { position: static; width: 100%; height: auto; padding: 12px; gap: 8px; }
+  .founder-image-hero__actions a { display: flex; align-items: center; justify-content: center; min-height: 48px; padding: 8px 4px; border: 1px solid #809bc6; background: #104d9c; font-size: 12px; font-weight: 700; }
+  .founder-image-hero__actions a span { position: static; width: auto; height: auto; overflow: visible; clip-path: none; }
+  .founder-image-hero__nav { top: calc(100vw * 827 / 1902 * .905); bottom: auto; height: calc(100vw * 827 / 1902 * .095); }
+}
+
+/* Supplied portrait hero. */
+.founder-image-hero__image { height: clamp(440px, 70vh, 780px); object-fit: contain; background: #e9f3f8; }
+.founder-image-hero__actions { position: static; width: min(900px, 100%); height: auto; margin: 0 auto; padding: 16px; gap: 12px; }
+.founder-image-hero__actions a { display: flex; justify-content: center; align-items: center; min-height: 52px; padding: 10px; background: #104d9c; border: 1px solid #809bc6; font-weight: 700; }
+.founder-image-hero__actions a span { position: static; width: auto; height: auto; overflow: visible; clip-path: none; }
+.founder-image-hero__nav { display: none; }
+@media (max-width: 640px) { .founder-image-hero__image { height: auto; } }

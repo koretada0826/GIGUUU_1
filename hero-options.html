@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ヒーロー画像の全案 ｜ TELEMO</title>
+  <link rel="stylesheet" href="./reference/fonts.css" />
+  <link rel="stylesheet" href="./hero-options.css" />
+  <script src="./hero-options-data.js" defer></script>
+  <script src="./hero-options.js" defer></script>
+</head>
+<body>
+  <header class="options-header"><a href="./index.html" class="options-brand">TELEMO</a><nav aria-label="ページ"><a href="./index.html">トップページ</a><a href="./recruit.html">採用ページ</a></nav></header>
+  <main class="options-main">
+    <p class="options-eyebrow">HERO COLLECTION</p>
+    <h1>ヒーロー画像の全案</h1>
+    <p class="options-lead">画像を選んで、実際のページで見比べる。選んだ画像は、このブラウザに保存できます。</p>
+    <div class="options-controls">
+      <label>画像を探す<input id="heroSearch" type="search" placeholder="名前・ファイル名で検索" /></label>
+      <label>シリーズ<select id="heroGroup"><option value="all">すべての案</option></select></label>
+      <button id="heroReset" type="button">保存した選択をリセット</button>
+    </div>
+    <p id="heroCount" class="options-count" role="status" aria-live="polite"></p>
+    <div id="heroGrid" class="options-grid"></div>
+    <p id="heroEmpty" hidden>該当する画像がありません。検索条件を変えてください。</p>
+    <noscript>画像一覧の表示と切り替えにはJavaScriptを有効にしてください。</noscript>
+  </main>
+  <dialog id="heroViewer" class="options-viewer" aria-labelledby="viewerTitle">
+    <div class="viewer-head"><h2 id="viewerTitle"></h2><button id="viewerClose" type="button" aria-label="拡大表示を閉じる">×</button></div>
+    <img id="viewerImage" alt="" />
+    <p id="viewerInfo"></p>
+    <div class="viewer-actions"><button id="viewerPrev" type="button">← 前の案</button><button id="viewerNext" type="button">次の案 →</button><a id="viewerRecruit">採用ページで見る</a><a id="viewerHome">トップページで見る</a><a id="viewerDownload" download>画像を保存</a></div>
+  </dialog>
+</body>
+</html>

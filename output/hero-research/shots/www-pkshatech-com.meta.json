@@ -1,0 +1,168 @@
+{
+ "slug": "www-pkshatech-com",
+ "url": "https://www.pkshatech.com/",
+ "capturedAt": "2026-10-12 21:08:51",
+ "files": {
+  "pc_f0": "www-pkshatech-com-pc-f0.jpg",
+  "pc_f1": "www-pkshatech-com-pc-f1.jpg",
+  "pc_f2": "www-pkshatech-com-pc-f2.jpg",
+  "pc_scroll": "www-pkshatech-com-pc-scroll.jpg",
+  "sp": "www-pkshatech-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.pkshatech.com/",
+  "title": "PKSHA Technology Inc.",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 8575,
+  "h1": "COEVOLUTION OF PEOPLE & SOFTWARE",
+  "h1Style": {
+   "fontFamily": "Satoshi, YuGothic, \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", \"Hiragino Sans\", Meiryo, sans-serif",
+   "fontSize": "77.76px",
+   "fontWeight": "700",
+   "lineHeight": "83.2032px",
+   "letterSpacing": "normal",
+   "color": "rgb(18, 18, 19)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 305,
+    "y": 312,
+    "w": 569,
+    "h": 250
+   }
+  },
+  "lead": "人と ソフトウエアの 共進化",
+  "ctas": [],
+  "videos": [
+   {
+    "src": "https://www.pkshatech.com/assets/videos/A_home/earth.mp4",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 788,
+    "h": 788,
+    "playing": false
+   },
+   {
+    "src": "https://www.pkshatech.com/assets/videos/A_home/kv.mp4",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 1440,
+    "h": 864,
+    "playing": true
+   }
+  ],
+  "canvases": [
+   {
+    "w": 1440,
+    "h": 900
+   }
+  ],
+  "images": [
+   {
+    "src": "https://www.pkshatech.com/static/7df45fa0da34db5ad2a6aac92731d29d/3e951/ring.webp",
+    "w": 807,
+    "h": 818,
+    "alt": ""
+   },
+   {
+    "src": "https://www.pkshatech.com/static/a1c121a3ed121bbe172bb16d0ae5de2f/36484/mesh.webp",
+    "w": 888,
+    "h": 906,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Satoshi"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(233, 233, 233)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "COEVOLUTION OF PEOPLE & SOFTWARE",
+  "h1Style": {
+   "fontFamily": "Satoshi, YuGothic, \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", \"Hiragino Sans\", Meiryo, sans-serif",
+   "fontSize": "40.7397px",
+   "fontWeight": "700",
+   "lineHeight": "46.0358px",
+   "letterSpacing": "-2.03698px",
+   "color": "rgb(18, 18, 19)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 22,
+    "y": 288,
+    "w": 302,
+    "h": 138
+   }
+  },
+  "lead": "人と ソフトウエアの 共進化",
+  "ctas": [
+   "CONTACT"
+  ],
+  "videos": [
+   {
+    "src": "https://www.pkshatech.com/assets/videos/A_home/earth.mp4",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 407,
+    "h": 407,
+    "playing": false
+   },
+   {
+    "src": "https://www.pkshatech.com/assets/videos/A_home/kv-sp.mp4",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 390,
+    "h": 509,
+    "playing": true
+   }
+  ],
+  "canvases": [
+   {
+    "w": 390,
+    "h": 844
+   }
+  ],
+  "images": [
+   {
+    "src": "https://www.pkshatech.com/static/7df45fa0da34db5ad2a6aac92731d29d/64cbd/ring.webp",
+    "w": 410,
+    "h": 416,
+    "alt": ""
+   },
+   {
+    "src": "https://www.pkshatech.com/static/a1c121a3ed121bbe172bb16d0ae5de2f/1b670/mesh.webp",
+    "w": 460,
+    "h": 470,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 7820
+ },
+ "elapsedSec": 12.6
+}

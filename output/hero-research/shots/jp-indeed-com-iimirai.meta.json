@@ -1,0 +1,127 @@
+{
+ "slug": "jp-indeed-com-iimirai",
+ "url": "https://jp.indeed.com/cm/iimirai",
+ "capturedAt": "2026-10-12 21:06:05",
+ "files": {
+  "pc_f0": "jp-indeed-com-iimirai-pc-f0.jpg",
+  "pc_f1": "jp-indeed-com-iimirai-pc-f1.jpg",
+  "pc_f2": "jp-indeed-com-iimirai-pc-f2.jpg",
+  "pc_scroll": "jp-indeed-com-iimirai-pc-scroll.jpg",
+  "sp": "jp-indeed-com-iimirai-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://jp.indeed.com/cm/iimirai",
+  "title": "Indeed (インディード) 最新CM情報",
+  "lang": "ja-JP",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 10295,
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [
+   "ホーム",
+   "企業クチコミ",
+   "給与調査",
+   "ログイン",
+   "企業様向け / 求人掲載はこちら",
+   "Indeedの活用方法",
+   "社会への取り組み",
+   "キャンペーン情報"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://d341ezm4iqaae0.cloudfront.net/assets/sites/43/2026/08/21055340/img_kv.jpg",
+    "w": 1440,
+    "h": 720,
+    "alt": ""
+   },
+   {
+    "src": "https://d341ezm4iqaae0.cloudfront.net/assets/sites/43/2026/08/21055413/logo_indeed.png",
+    "w": 256,
+    "h": 71,
+    "alt": "Indeed インディード"
+   }
+  ],
+  "backgroundImages": [
+   {
+    "bg": "url(\"https://d341ezm4iqaae0.cloudfront.net/assets/sites/43/2026/08/21231924/img_kv_base.jpg\")",
+    "w": 1440,
+    "h": 720
+   },
+   {
+    "bg": "url(\"https://d341ezm4iqaae0.cloudfront.net/assets/sites/43/2026/08/21231946/bg_statement_pc.jpg\")",
+    "w": 1440,
+    "h": 799
+   }
+  ],
+  "firstScreenFonts": [
+   "Indeed Sans",
+   "Times",
+   "Noto Sans JP",
+   "Zen Old Mincho"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": true,
+   "swiper": true,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [
+   "1 new update",
+   "ホーム",
+   "企業クチコミ",
+   "給与調査",
+   "求人掲載はこちら",
+   "履歴書を作成",
+   "国と言語🇯🇵 日本",
+   "ヘルプセンター",
+   "プライバシーセンター"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://d341ezm4iqaae0.cloudfront.net/assets/sites/43/2026/08/21055335/img_kv_sp.jpg",
+    "w": 390,
+    "h": 573,
+    "alt": ""
+   },
+   {
+    "src": "https://d341ezm4iqaae0.cloudfront.net/assets/sites/43/2026/08/21055413/logo_indeed.png",
+    "w": 178,
+    "h": 49,
+    "alt": "Indeed インディード"
+   },
+   {
+    "src": "https://d341ezm4iqaae0.cloudfront.net/assets/sites/43/2026/08/21055447/txt_statement_1_sp.png",
+    "w": 369,
+    "h": 49,
+    "alt": "大切な人と過ごす時間や、美味しいものを食べる時間と同じように..."
+   }
+  ],
+  "pageHeight": 7142
+ },
+ "elapsedSec": 12.7
+}

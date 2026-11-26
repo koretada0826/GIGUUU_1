@@ -1,0 +1,60 @@
+{
+ "slug": "woven-city-global-jpn",
+ "url": "https://www.woven-city.global/jpn",
+ "capturedAt": "2026-10-12 21:08:30",
+ "files": {
+  "pc_f0": "woven-city-global-jpn-pc-f0.jpg",
+  "pc_f1": "woven-city-global-jpn-pc-f1.jpg",
+  "pc_f2": "woven-city-global-jpn-pc-f2.jpg",
+  "pc_scroll": "woven-city-global-jpn-pc-scroll.jpg",
+  "sp": "woven-city-global-jpn-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": "button:has-text('Accept')",
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.woven-city.global/jpn",
+  "title": "Toyota Woven City",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 900,
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [],
+  "videos": [],
+  "canvases": [],
+  "images": [],
+  "backgroundImages": [],
+  "firstScreenFonts": [],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(237, 231, 228)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 0,
+ "sp": {
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [],
+  "videos": [],
+  "canvases": [],
+  "images": [],
+  "pageHeight": 844
+ },
+ "elapsedSec": 13.0
+}

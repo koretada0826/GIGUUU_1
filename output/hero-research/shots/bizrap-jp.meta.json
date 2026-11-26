@@ -1,0 +1,262 @@
+{
+ "slug": "bizrap-jp",
+ "url": "https://bizrap.jp/",
+ "capturedAt": "2026-10-12 21:06:58",
+ "files": {
+  "pc_f0": "bizrap-jp-pc-f0.jpg",
+  "pc_f1": "bizrap-jp-pc-f1.jpg",
+  "pc_f2": "bizrap-jp-pc-f2.jpg",
+  "pc_scroll": "bizrap-jp-pc-scroll.jpg",
+  "sp": "bizrap-jp-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://bizrap.jp/",
+  "title": "ビジネスラップ produced by ロックオン柳田",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 11783,
+  "h1": "",
+  "h1Style": {
+   "fontFamily": "sans-serif",
+   "fontSize": "32px",
+   "fontWeight": "700",
+   "lineHeight": "32px",
+   "letterSpacing": "normal",
+   "color": "rgb(51, 51, 51)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 50,
+    "y": 30,
+    "w": 167,
+    "h": 41
+   }
+  },
+  "lead": "produced by ロックオン柳田",
+  "ctas": [
+   "MENU OPEN!",
+   "実績を見てみる! keyboard_arrow_right",
+   "相談してみる! keyboard_arrow_right",
+   "produced by ロックオン柳田"
+  ],
+  "videos": [
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/BmqMdALMOX/s-1280x720_ed5210a6-3833-4a82-bd30-a5c6830c0390.mp4#t=0.01",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 1440,
+    "h": 900,
+    "playing": true
+   }
+  ],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/BmqMdALMOX/s-171x150_webp_88d4fa94-5840-429d-b99f-9f58e60f2669.webp",
+    "w": 90,
+    "h": 81,
+    "alt": ""
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/BmqMdALMOX/s-300x80_27c25b51-ee61-4da2-90f1-296d67d68da5.svg",
+    "w": 570,
+    "h": 152,
+    "alt": ""
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/BmqMdALMOX/s-300x79_3bcb4877-18c5-4e9f-b2cf-4049483b30ba.svg",
+    "w": 570,
+    "h": 149,
+    "alt": "ビジネス"
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/BmqMdALMOX/s-147x150_1a01f4e2-6447-4c7a-8e40-1f49948237d5.svg",
+    "w": 139,
+    "h": 142,
+    "alt": "を"
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/BmqMdALMOX/s-300x110_b1a31311-094a-4c8a-9666-fbfe44420c04.svg",
+    "w": 444,
+    "h": 162,
+    "alt": "ラップ"
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/BmqMdALMOX/s-300x83_7e7d6bb4-9c54-453a-9290-9d8fe6115d32.svg",
+    "w": 558,
+    "h": 154,
+    "alt": ""
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/BmqMdALMOX/s-94x150_2761eab7-ede3-4591-82a2-02e9147707ab.svg",
+    "w": 89,
+    "h": 142,
+    "alt": "伝える"
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/BmqMdALMOX/s-158x39_60810de0-8d96-4877-8316-8836e05ce7f9.svg",
+    "w": 167,
+    "h": 41,
+    "alt": "BUSINESS RAP ロゴ"
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/BmqMdALMOX/s-300x80_27c25b51-ee61-4da2-90f1-296d67d68da5.svg",
+    "w": 570,
+    "h": 152,
+    "alt": ""
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/BmqMdALMOX/s-300x79_3bcb4877-18c5-4e9f-b2cf-4049483b30ba.svg",
+    "w": 570,
+    "h": 149,
+    "alt": "ビジネス"
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/BmqMdALMOX/s-147x150_1a01f4e2-6447-4c7a-8e40-1f49948237d5.svg",
+    "w": 139,
+    "h": 142,
+    "alt": "を"
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/BmqMdALMOX/s-300x110_b1a31311-094a-4c8a-9666-fbfe44420c04.svg",
+    "w": 444,
+    "h": 162,
+    "alt": "ラップ"
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "sans-serif"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(0, 80, 253)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "",
+  "h1Style": {
+   "fontFamily": "sans-serif",
+   "fontSize": "32px",
+   "fontWeight": "700",
+   "lineHeight": "32px",
+   "letterSpacing": "normal",
+   "color": "rgb(51, 51, 51)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 25,
+    "y": 20,
+    "w": 166,
+    "h": 41
+   }
+  },
+  "lead": "produced by ロックオン柳田",
+  "ctas": [
+   "MENU OPEN!",
+   "実績を見てみる! keyboard_arrow_right",
+   "相談してみる! keyboard_arrow_right",
+   "produced by ロックオン柳田"
+  ],
+  "videos": [
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/BmqMdALMOX/s-720x1280_3515f8b8-7da5-4008-9502-8396860c171b.mp4#t=0.01",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 390,
+    "h": 844,
+    "playing": true
+   }
+  ],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/BmqMdALMOX/s-171x150_webp_88d4fa94-5840-429d-b99f-9f58e60f2669.webp",
+    "w": 55,
+    "h": 41,
+    "alt": ""
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/BmqMdALMOX/s-385x1000_9733a55b-a667-4231-b332-e09b69cc28e9.gif",
+    "w": 200,
+    "h": 630,
+    "alt": ""
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/BmqMdALMOX/s-1645x1387_v-fms_webp_d860e0c3-76f4-4503-af39-0860216c792d.webp",
+    "w": 309,
+    "h": 260,
+    "alt": "あらゆるビジネスをラップで伝える"
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/BmqMdALMOX/s-158x39_60810de0-8d96-4877-8316-8836e05ce7f9.svg",
+    "w": 166,
+    "h": 41,
+    "alt": "BUSINESS RAP ロゴ"
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/BmqMdALMOX/s-1645x1387_v-fms_webp_d860e0c3-76f4-4503-af39-0860216c792d_middle.webp",
+    "w": 309,
+    "h": 260,
+    "alt": "あらゆるビジネスをラップで伝える"
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/BmqMdALMOX/s-210x154_5290e562-1bb5-4997-b7b8-ed06598bd13a.svg",
+    "w": 85,
+    "h": 87,
+    "alt": "商品PRに！"
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/BmqMdALMOX/s-134x126_d89c9bd3-40ff-4840-9c21-e9031415aab2.svg",
+    "w": 64,
+    "h": 64,
+    "alt": ""
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/BmqMdALMOX/s-234x178_d4969c64-df78-4043-b520-806cf56ff0b5.svg",
+    "w": 108,
+    "h": 110,
+    "alt": "採用活動に！"
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/BmqMdALMOX/s-251x200_9b5089ad-7bf8-44bd-a147-b25c554c9469.svg",
+    "w": 100,
+    "h": 98,
+    "alt": ""
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/BmqMdALMOX/s-171x135_1a888c43-4b32-4e06-b145-25bb68122554.svg",
+    "w": 73,
+    "h": 74,
+    "alt": "周年行事に！"
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/BmqMdALMOX/s-5879x5183_v-frms_webp_d796223f-45f0-4496-b53f-7f06ad9baf6c_small.webp",
+    "w": 435,
+    "h": 382,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 11427
+ },
+ "elapsedSec": 11.4
+}

@@ -1,0 +1,127 @@
+{
+ "slug": "www-freee-co-jp",
+ "url": "https://www.freee.co.jp/",
+ "capturedAt": "2026-10-12 21:07:51",
+ "files": {
+  "pc_f0": "www-freee-co-jp-pc-f0.jpg",
+  "pc_f1": "www-freee-co-jp-pc-f1.jpg",
+  "pc_f2": "www-freee-co-jp-pc-f2.jpg",
+  "pc_scroll": "www-freee-co-jp-pc-scroll.jpg",
+  "sp": "www-freee-co-jp-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.freee.co.jp/",
+  "title": "クラウド会計ソフト｜freee",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 7200,
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [
+   "無料で始める",
+   "資料をダウンロード",
+   "製品一覧はこちら",
+   "無料で始める",
+   "資料をダウンロード",
+   "製品一覧はこちら"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.freee.co.jp/static/1f4f72049d0c1690b533cb60cbe6468f/logo.svg",
+    "w": 120,
+    "h": 46,
+    "alt": "freee"
+   },
+   {
+    "src": "https://www.freee.co.jp/static/4bb8d2708507c38434e5ae08350caed7/kv_img_individual_02_pc.png",
+    "w": 1068,
+    "h": 300,
+    "alt": "個人向け 確定申告するなら、freee いますぐ！無料で登録"
+   },
+   {
+    "src": "https://www.freee.co.jp/static/29aff830ec8848c11faa75131f1ca452/houjin_label_01.svg",
+    "w": 248,
+    "h": 64,
+    "alt": "法人のお客さまへ"
+   }
+  ],
+  "backgroundImages": [
+   {
+    "bg": "url(\"https://www.freee.co.jp/test/kvslide3.png\")",
+    "w": 1068,
+    "h": 300
+   },
+   {
+    "bg": "url(\"https://www.freee.co.jp/test/kvslide1.png\")",
+    "w": 1068,
+    "h": 300
+   },
+   {
+    "bg": "url(\"https://www.freee.co.jp/test/kvslide3.png\")",
+    "w": 1068,
+    "h": 300
+   },
+   {
+    "bg": "url(\"https://www.freee.co.jp/test/kvslide1.png\")",
+    "w": 1068,
+    "h": 300
+   },
+   {
+    "bg": "url(\"https://www.freee.co.jp/fr-3ezzk7z2/houjin_bg_01.png\")",
+    "w": 1440,
+    "h": 1192
+   }
+  ],
+  "firstScreenFonts": [
+   "Noto Sans JP"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": true,
+   "lottie": false
+  },
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.freee.co.jp/static/fc3d03d32fbe4a6b44af8bb718cdbe9b/kv_img_individual_02_sp.png",
+    "w": 358,
+    "h": 394,
+    "alt": "個人向け 確定申告するなら、freee いますぐ！無料で登録"
+   },
+   {
+    "src": "https://www.freee.co.jp/fr-3ezzk7z2/kojin_label_01_sp.svg",
+    "w": 232,
+    "h": 56,
+    "alt": "個人事業主のお客さまへ"
+   }
+  ],
+  "pageHeight": 6460
+ },
+ "elapsedSec": 16.3
+}

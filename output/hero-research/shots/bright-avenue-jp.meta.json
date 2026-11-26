@@ -1,0 +1,174 @@
+{
+ "slug": "bright-avenue-jp",
+ "url": "https://bright-avenue.jp/",
+ "capturedAt": "2026-10-12 21:09:30",
+ "files": {
+  "pc_f0": "bright-avenue-jp-pc-f0.jpg",
+  "pc_f1": "bright-avenue-jp-pc-f1.jpg",
+  "pc_f2": "bright-avenue-jp-pc-f2.jpg",
+  "pc_scroll": "bright-avenue-jp-pc-scroll.jpg",
+  "sp": "bright-avenue-jp-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://bright-avenue.jp/",
+  "title": "株式会社ブライトアベニュー | 不動産買取再販事業・リノベーション事業",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 11767,
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [
+   "会 会 社 社 情 情 報 報",
+   "私 私 た た ち ち の の 特 特 徴 徴",
+   "販 販 売 売 実 実 績 績",
+   "事 事 業 業 内 内 容 容",
+   "お お 知 知 ら ら せ せ",
+   "採 採 用 用 情 情 報 報",
+   "協 協 業 業 の の ご ご 相 相 談 談",
+   "お お 問 問 い い 合 合 わ わ せ せ",
+   "TOPPAGETOPPAGE",
+   "OUR STRENGTHOUR STRENGTH",
+   "WORKSWORKS",
+   "COMPANYCOMPANY"
+  ],
+  "videos": [
+   {
+    "src": "",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 1440,
+    "h": 900,
+    "playing": false
+   },
+   {
+    "src": "https://bright-avenue.jp/manager/wp-content/themes/bright-avenue2026/video/top_fv.webm",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 1440,
+    "h": 900,
+    "playing": true
+   }
+  ],
+  "canvases": [
+   {
+    "w": 1440,
+    "h": 900
+   },
+   {
+    "w": 1440,
+    "h": 900
+   }
+  ],
+  "images": [
+   {
+    "src": "https://bright-avenue.jp/manager/wp-content/themes/bright-avenue2026/images/top/gallery_2.avif",
+    "w": 248,
+    "h": 155,
+    "alt": ""
+   },
+   {
+    "src": "https://bright-avenue.jp/manager/wp-content/themes/bright-avenue2026/images/top/gallery_1.avif",
+    "w": 308,
+    "h": 193,
+    "alt": ""
+   },
+   {
+    "src": "https://bright-avenue.jp/manager/wp-content/themes/bright-avenue2026/images/top/gallery_4.avif",
+    "w": 248,
+    "h": 155,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [
+   {
+    "bg": "url(\"https://bright-avenue.jp/manager/wp-content/themes/bright-avenue2026/video/top_fv-poster-blur-frame.webp\")",
+    "w": 7752,
+    "h": 174
+   },
+   {
+    "bg": "url(\"https://bright-avenue.jp/manager/wp-content/themes/bright-avenue2026/video/top_fv-poster-blur-frame.webp\")",
+    "w": 7752,
+    "h": 174
+   }
+  ],
+  "firstScreenFonts": [
+   "Aeonik",
+   "YakuHanJP"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": true,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [
+   "TOPTOP",
+   "STRENGTHSTRENGTH",
+   "WORKSWORKS",
+   "COMPANYCOMPANY",
+   "SERVICESERVICE",
+   "NEWSNEWS",
+   "RECRUITRECRUIT",
+   "MENU MENU"
+  ],
+  "videos": [
+   {
+    "src": "",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 390,
+    "h": 844,
+    "playing": false
+   },
+   {
+    "src": "https://bright-avenue.jp/manager/wp-content/themes/bright-avenue2026/video/top_fv--sp-hq.mp4",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 394,
+    "h": 844,
+    "playing": true
+   }
+  ],
+  "canvases": [
+   {
+    "w": 390,
+    "h": 844
+   }
+  ],
+  "images": [
+   {
+    "src": "https://bright-avenue.jp/manager/wp-content/themes/bright-avenue2026/video/top_fv-poster-sp.avif",
+    "w": 394,
+    "h": 844,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 11321
+ },
+ "elapsedSec": 12.0
+}

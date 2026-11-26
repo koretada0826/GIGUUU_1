@@ -1,0 +1,24 @@
+{
+  "asset": "telemo-campaign-desktop-v3.png",
+  "use_case": "precise-object-edit",
+  "mode": "built-in image_gen",
+  "intent": "edit",
+  "transparent_background": false,
+  "actual_dimensions": {
+    "width": 1774,
+    "height": 887
+  },
+  "prompt": "Use case: precise-object-edit\nAsset type: existing TELEMO desktop landing-page hero artwork, 1774x887 landscape 2:1.\nInput image 1: exact approved art, the sole EDIT TARGET.\nPrimary request: Move the entire freestanding 3D TELEMO wordmark farther LEFT, with enough clear background space between its final O and the speech balloon. The O and balloon currently overlap. Fix only this overlap; preserve the remainder of the image.\nWordmark edit: Position the complete six-letter TELEMO group with leftmost edge around x=30px and rightmost edge no farther than x=1100px on the 1774px-wide canvas. Uniformly reduce only the wordmark group by about 8% if needed, maintaining all six letters, perspective, thick white sides, teal fronts, identity, material, lighting and proportions. Keep its floor baseline approximately y=735px. The entire O must be visible. Leave at least 60px of clean pale background between the O and the existing speech balloon border. Move and resize the soft wordmark shadows consistently. Fill vacated wordmark regions with the existing pale teal paper/floor texture.\nInvariants: Keep the exact canvas dimensions/aspect and crop. Keep the headline COMPLETELY unchanged in wording, navy color, font, size, line breaks and pixel placement: line1 「本当の現場を知り尽くした、」, line2 「コールセンター経営者がつくったAI」. Keep the speech balloon COMPLETELY unchanged in position, shape, dimensions, teal outline and down-right tail. Keep its exact two-line teal lettering unchanged: 「現場の知見を、」 then 「AIの力に。」. Keep the pale teal/off-white fine paper background and floor outside the wordmark edit regions unchanged.\nConstraints: No person, no added objects or text, no new claims or decorations. No image-wide scaling, stretching, cropping, zoom, reframing or style change. Spell T E L E M O exactly and keep all six letters fully visible. Do not move the headline or speech balloon. The final output is the approved art with only the wordmark positioned slightly farther left and slightly smaller, with a clean visible gap before the balloon.",
+  "referenced_image_paths": [
+    "/Users/rintaro/giguuu-campaign-hero-preview/assets/hero/campaign/telemo-campaign-desktop-v2.png"
+  ],
+  "source_output_path": "/Users/rintaro/.codex/generated_images/01a16226-1c15-73f1-b877-78e75774a1e6/exec-1f699ade-f4b4-473d-91c7-04acf4a4fbf2.png",
+  "inspection": {
+    "all_six_letters_visible": true,
+    "wordmark_balloon_gap": true,
+    "headline_exact": true,
+    "speech_balloon_exact": true,
+    "no_person_added": true,
+    "notes": "Wordmark moved left and slightly reduced; O no longer overlaps the speech balloon. Headline, balloon and canvas retained. Original built-in tool output, no raster post-processing."
+  }
+}

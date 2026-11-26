@@ -1,0 +1,21 @@
+{
+  "width": 256,
+  "height": 384,
+  "fps": 12,
+  "source": "assets/concierge/president-walker/president-static-v2.png",
+  "technique": "2.5D textured mesh; original pixels and UVs preserved",
+  "states": {
+    "idle": {
+      "frames": 6
+    },
+    "walk": {
+      "frames": 12
+    },
+    "talk": {
+      "frames": 8
+    },
+    "wave": {
+      "frames": 8
+    }
+  }
+}

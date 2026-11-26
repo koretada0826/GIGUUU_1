@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TELEMO 伴走サポート — デザイン確認</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; padding: 20px; background: #f3f6fa; color: #092653; font: 14px system-ui, sans-serif; }
+    header { display: flex; align-items: center; flex-wrap: wrap; gap: 12px; margin-bottom: 18px; }
+    h1 { margin: 0 auto 0 0; font-size: 19px; }
+    button, a { padding: 10px 14px; border: 1px solid #b9d8fb; border-radius: 4px; background: #fff; color: #092653; cursor: pointer; font: inherit; text-decoration: none; }
+    button[aria-pressed="true"] { background: #0657db; color: #fff; }
+    button:focus-visible, a:focus-visible { outline: 3px solid #0657db; outline-offset: 3px; }
+    .comparison { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; align-items: start; }
+    h2 { margin: 0 0 10px; font-size: 14px; }
+    .reference { display: block; width: 100%; height: auto; }
+    .stage { overflow: hidden; background: #fff; position: relative; }
+    iframe { display: block; border: 0; transform-origin: top left; }
+    output { display: block; white-space: pre-wrap; line-height: 1.65; padding: 16px; margin-top: 20px; background: #fff; border: 1px solid #d8e4f1; font-size: 12px; }
+    .mobile .comparison { grid-template-columns: minmax(0, 1fr) 390px; }
+    .mobile .reference { max-width: 900px; }
+    .detail .comparison { grid-template-columns: 1fr 1fr; }
+    .detail .source { overflow: hidden; height: 440px; }
+    .detail .reference { width: 100%; height: auto; }
+    @media (max-width: 900px) { body { padding: 12px; } .comparison { gap: 12px; } header { gap: 8px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>TELEMO 伴走サポート</h1>
+    <button data-width="1727" aria-pressed="true">完成画像と比較</button>
+    <button data-width="1440" aria-pressed="false">PC 1440px</button>
+    <button data-width="768" aria-pressed="false">タブレット</button>
+    <button data-width="390" aria-pressed="false">スマートフォン</button>
+    <button data-width="320" aria-pressed="false">320px</button>
+    <a href="../../index.html#telemo-support-accompaniment">ページで見る</a>
+  </header>
+  <div class="comparison">
+    <section class="source"><h2>完成画像（1727 × 911）</h2><img class="reference" src="../../assets/telemo-support/redesign/support-design-reference.png" alt="ユーザー指定の完成デザイン" /></section>
+    <section><h2 id="implementation-title">実装（1727px）</h2><div class="stage"><iframe title="実際のHTML/CSSによる伴走サポート" id="implementation"></iframe></div></section>
+  </div>
+  <output id="checks">確認中…</output>
+  <script>
+    const frame = document.querySelector('iframe');
+    const stage = document.querySelector('.stage');
+    const checks = document.querySelector('output');
+    let width = 1727;
+    let frameHeight = 911;
+    function fit() {
+      const scale = Math.min(1, stage.clientWidth / width);
+      frame.style.width = width + 'px';
+      frame.style.height = frameHeight + 'px';
+      frame.style.transform = 'scale(' + scale + ')';
+      stage.style.height = (frameHeight * scale) + 'px';
+    }
+    async function inspect() {
+      const doc = frame.contentDocument;
+      await doc.fonts.ready;
+      await Promise.all([...doc.images].map(img => img.decode().catch(() => {})));
+      const component = doc.querySelector('.telemo-support-redesign');
+      frameHeight = Math.ceil(component.getBoundingClientRect().height);
+      fit();
+      const copy = doc.querySelector('.telemo-support-redesign__copy');
+      const style = frame.contentWindow.getComputedStyle(copy);
+      const broken = [...doc.images].filter(img => !img.complete || !img.naturalWidth).map(img => img.src);
+      const overflowing = [...component.querySelectorAll('*')].filter(el => el.getBoundingClientRect().right > width + 1).map(el => el.className).filter(Boolean);
+      const text = [...doc.querySelectorAll('.telemo-support-redesign__items li')].map(el => el.textContent.trim());
+      checks.textContent = JSON.stringify({ viewport: width, height: frameHeight, overflow: doc.documentElement.scrollWidth > width, overflowing_elements: overflowing, broken_images: broken, headline_font: style.fontFamily, headline_size: style.fontSize, headline_weight: style.fontWeight, support_items: text, errors: frame.contentWindow.qaErrors || [] }, null, 2);
+      document.querySelector('#implementation-title').textContent = '実装（' + width + 'px × ' + frameHeight + 'px）';
+    }
+    async function init() {
+      const source = await fetch('../../index.html').then(r => r.text());
+      const doc = new DOMParser().parseFromString(source, 'text/html');
+      doc.head.querySelectorAll('script').forEach(el => el.remove());
+      const component = doc.querySelector('#telemo-support-accompaniment').outerHTML;
+      frame.addEventListener('load', inspect);
+      frame.srcdoc = '<!doctype html><html lang="ja"><head><base href="' + location.origin + '/">' + doc.head.innerHTML + '<style>html,body{margin:0!important;padding:0!important;min-height:0!important}body{overflow-x:visible!important}.page-home main > #telemo-support{padding:0!important;margin:0!important}.telemo-support-redesign{margin:0!important;opacity:1!important;transform:none!important;filter:none!important;visibility:visible!important}</style><script>window.qaErrors=[];window.addEventListener("error",e=>window.qaErrors.push(e.message));<\/script></head><body class="page-home concept-08"><main><section id="telemo-support">' + component + '</section></main></body></html>';
+      fit();
+    }
+    document.querySelectorAll('button[data-width]').forEach(button => button.addEventListener('click', () => {
+      width = Number(button.dataset.width);
+      document.body.classList.toggle('mobile', width <= 640);
+      document.querySelectorAll('button[data-width]').forEach(item => item.setAttribute('aria-pressed', item === button));
+      fit();
+      requestAnimationFrame(inspect);
+    }));
+    window.addEventListener('resize', () => { fit(); requestAnimationFrame(inspect); });
+    init().catch(error => { checks.textContent = error.message; });
+  </script>
+</body>
+</html>

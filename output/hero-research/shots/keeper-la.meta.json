@@ -1,0 +1,92 @@
+{
+ "slug": "keeper-la",
+ "url": "https://www.keeper.la/",
+ "capturedAt": "2026-10-12 21:27:53",
+ "files": {
+  "pc_f0": "keeper-la-pc-f0.jpg",
+  "pc_f1": "keeper-la-pc-f1.jpg",
+  "pc_f2": "keeper-la-pc-f2.jpg",
+  "pc_scroll": "keeper-la-pc-scroll.jpg",
+  "sp": "keeper-la-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.keeper.la/",
+  "title": "Site not found",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 900,
+  "h1": "Site not found",
+  "h1Style": {
+   "fontFamily": "system-ui, -apple-system, \"system-ui\", \"segoe ui\", Roboto, Helvetica, Arial, sans-serif, \"apple color emoji\", \"segoe ui ",
+   "fontSize": "22px",
+   "fontWeight": "700",
+   "lineHeight": "22px",
+   "letterSpacing": "normal",
+   "color": "rgb(53, 58, 62)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 538,
+    "y": 342,
+    "w": 364,
+    "h": 22
+   }
+  },
+  "lead": "Looks like you followed a broken link or entered a URL that doesn’t exist on Netlify.",
+  "ctas": [],
+  "videos": [],
+  "canvases": [],
+  "images": [],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "system-ui"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 0,
+ "sp": {
+  "h1": "Site not found",
+  "h1Style": {
+   "fontFamily": "system-ui, -apple-system, \"system-ui\", \"segoe ui\", Roboto, Helvetica, Arial, sans-serif, \"apple color emoji\", \"segoe ui ",
+   "fontSize": "22px",
+   "fontWeight": "700",
+   "lineHeight": "22px",
+   "letterSpacing": "normal",
+   "color": "rgb(53, 58, 62)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 49,
+    "y": 281,
+    "w": 293,
+    "h": 22
+   }
+  },
+  "lead": "Looks like you followed a broken link or entered a URL that doesn’t exist on Netlify.",
+  "ctas": [],
+  "videos": [],
+  "canvases": [],
+  "images": [],
+  "pageHeight": 844
+ },
+ "elapsedSec": 13.4
+}

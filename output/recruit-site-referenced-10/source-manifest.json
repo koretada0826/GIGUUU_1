@@ -1,0 +1,92 @@
+[
+  {
+    "id": "source-01",
+    "index": 1,
+    "title": "ベルシステム24｜白地に人物の切り抜き、斜めの色面、右寄せの大きなコピー。視線が対角線に流れる構成。",
+    "src": "../../assets/recruit/callcenter-site-referenced-10/references/01-www-bell24-co-jp.jpg",
+    "href": "https://www.bell24.co.jp/",
+    "sourceUrl": "https://www.bell24.co.jp/",
+    "captureDate": "2026-10-12"
+  },
+  {
+    "id": "source-02",
+    "index": 2,
+    "title": "SmartHR 採用｜画面を支配する極太文字、段差のある白い文字面、鮮やかな色面。大きな主張と短い補足の階層。",
+    "src": "../../assets/recruit/callcenter-site-referenced-10/references/02-recruit-smarthr-co-jp.jpg",
+    "href": "https://recruit.smarthr.co.jp/",
+    "sourceUrl": "https://recruit.smarthr.co.jp/",
+    "captureDate": "2026-10-12"
+  },
+  {
+    "id": "source-03",
+    "index": 3,
+    "title": "自由が丘クリニック ドクターズコスメティクス 採用｜大きな人物肖像、淡い背景と細い格子、縦方向の文字配置。人物の表情を主役にする。",
+    "src": "../../assets/recruit/callcenter-site-referenced-10/references/03-jcdc-co-jp-recruit.jpg",
+    "href": "https://jcdc.co.jp/recruit/01/",
+    "sourceUrl": "https://jcdc.co.jp/recruit/01/",
+    "captureDate": "2026-10-12"
+  },
+  {
+    "id": "source-04",
+    "index": 4,
+    "title": "JR西日本電気システム 採用｜角を落とした写真フレーム、白地の細いグリッド、主張と複数の現場写真をつなぐ配置。",
+    "src": "../../assets/recruit/callcenter-site-referenced-10/references/04-j-nesco-com-recruit.jpg",
+    "href": "https://www.j-nesco.com/recruit/",
+    "sourceUrl": "https://www.j-nesco.com/recruit/",
+    "captureDate": "2026-10-12"
+  },
+  {
+    "id": "source-05",
+    "index": 5,
+    "title": "Goodpatch｜青い立体オブジェクトの素材感と大胆なスケール。記憶に残る象徴物を中心に置く。",
+    "src": "../../assets/recruit/callcenter-site-referenced-10/references/05-goodpatch-com-ja.jpg",
+    "href": "https://goodpatch.com/ja",
+    "sourceUrl": "https://goodpatch.com/ja",
+    "captureDate": "2026-10-12"
+  },
+  {
+    "id": "source-06",
+    "index": 6,
+    "title": "Parloa｜仕事中の自然な人物を広い写真で見せ、空いた面に文字を重ねる。会話の文脈が伝わる場面づくり。",
+    "src": "../../assets/recruit/callcenter-site-referenced-10/references/06-parloa-com.jpg",
+    "href": "https://www.parloa.com/",
+    "sourceUrl": "https://www.parloa.com/",
+    "captureDate": "2026-10-12"
+  },
+  {
+    "id": "source-07",
+    "index": 7,
+    "title": "Clarion｜電話対応している一人の人物と、中央寄せの落ち着いた見出し。安心感と静かな視線誘導。",
+    "src": "../../assets/recruit/callcenter-site-referenced-10/references/07-clarionhealth-com.jpg",
+    "href": "https://www.clarionhealth.com/",
+    "sourceUrl": "https://www.clarionhealth.com/",
+    "captureDate": "2026-10-12"
+  },
+  {
+    "id": "source-08",
+    "index": 8,
+    "title": "Sansan｜青い線画の人物と大きな業務画面を組み合わせ、仕事の仕組みを明快に見せる。",
+    "src": "../../assets/recruit/callcenter-site-referenced-10/references/08-jp-sansan-com.jpg",
+    "href": "https://jp.sansan.com/",
+    "sourceUrl": "https://jp.sansan.com/",
+    "captureDate": "2026-10-12"
+  },
+  {
+    "id": "source-09",
+    "index": 9,
+    "title": "サイボウズ kintone｜親しみやすい図形と丸いモチーフ、少数の要素で仕事を説明するイラスト。",
+    "src": "../../assets/recruit/callcenter-site-referenced-10/references/09-kintone-cybozu-co-jp.jpg",
+    "href": "https://kintone.cybozu.co.jp/",
+    "sourceUrl": "https://kintone.cybozu.co.jp/",
+    "captureDate": "2026-10-12"
+  },
+  {
+    "id": "source-10",
+    "index": 10,
+    "title": "トランスコスモス｜横方向の情報帯と整理されたモジュール配置。業務の種類を並べて俯瞰できる構造を人物写真へ翻訳する。",
+    "src": "../../assets/recruit/callcenter-site-referenced-10/references/10-www-trans-cosmos-co-jp.jpg",
+    "href": "https://www.trans-cosmos.co.jp/",
+    "sourceUrl": "https://www.trans-cosmos.co.jp/",
+    "captureDate": "2026-10-12"
+  }
+]

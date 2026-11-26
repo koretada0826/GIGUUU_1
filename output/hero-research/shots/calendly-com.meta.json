@@ -1,0 +1,146 @@
+{
+ "slug": "calendly-com",
+ "url": "https://calendly.com/",
+ "capturedAt": "2026-10-12 21:16:01",
+ "files": {
+  "pc_f0": "calendly-com-pc-f0.jpg",
+  "pc_f1": "calendly-com-pc-f1.jpg",
+  "pc_f2": "calendly-com-pc-f2.jpg",
+  "pc_scroll": "calendly-com-pc-scroll.jpg",
+  "sp": "calendly-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://calendly.com/",
+  "title": "Meeting Scheduling Software and AI Meeting Tools | Calendly",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 13878,
+  "h1": "All the work around meetings, handled.",
+  "h1Style": {
+   "fontFamily": "\"Calendly Sans\", system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+   "fontSize": "72px",
+   "fontWeight": "500",
+   "lineHeight": "79.2px",
+   "letterSpacing": "-2px",
+   "color": "rgb(7, 26, 49)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 400,
+    "y": 228,
+    "w": 640,
+    "h": 158
+   }
+  },
+  "lead": "From AI-powered scheduling to automated meeting recaps and follow-ups, get the busywork done with fewer tools and less effort.",
+  "ctas": [
+   "Talk to sales",
+   "Log In",
+   "Get started for free",
+   "Talk to sales",
+   "Log In",
+   "Get started for free",
+   "Sign up with Google",
+   "Sign up with Microsoft"
+  ],
+  "videos": [],
+  "canvases": [
+   {
+    "w": 516,
+    "h": 333
+   },
+   {
+    "w": 516,
+    "h": 333
+   },
+   {
+    "w": 516,
+    "h": 333
+   },
+   {
+    "w": 516,
+    "h": 333
+   }
+  ],
+  "images": [
+   {
+    "src": "https://calendly.com/_astro/hero-animation-background-blur.CePUrZD8.webp",
+    "w": 4800,
+    "h": 611,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Geist",
+   "Calendly Sans"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(252, 251, 248)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "All the work around meetings, handled.",
+  "h1Style": {
+   "fontFamily": "\"Calendly Sans\", system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+   "fontSize": "40px",
+   "fontWeight": "500",
+   "lineHeight": "44px",
+   "letterSpacing": "normal",
+   "color": "rgb(7, 26, 49)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 35,
+    "y": 168,
+    "w": 320,
+    "h": 132
+   }
+  },
+  "lead": "From AI-powered scheduling to automated meeting recaps and follow-ups, get the busywork done with fewer tools and less effort.",
+  "ctas": [
+   "Product",
+   "SchedulingSimplified booking",
+   "CallieBetaAI assistant",
+   "NotetakerMeeting recaps and action items",
+   "ContactsRelationship management tools",
+   "PaymentsFlexible ways to get paid",
+   "Integrations",
+   "Security",
+   "Mobile app",
+   "Browser extension",
+   "Admin controls",
+   "Solutions"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://calendly.com/_astro/hero-animation-background-blur.CePUrZD8.webp",
+    "w": 1368,
+    "h": 631,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 14432
+ },
+ "elapsedSec": 13.9
+}

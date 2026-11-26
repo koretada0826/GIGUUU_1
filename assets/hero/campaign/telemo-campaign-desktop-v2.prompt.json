@@ -1,0 +1,26 @@
+{
+  "asset": "telemo-campaign-desktop-v2.png",
+  "use_case": "precise-object-edit",
+  "mode": "built-in image_gen",
+  "intent": "edit",
+  "transparent_background": false,
+  "actual_dimensions": {
+    "width": 1774,
+    "height": 887
+  },
+  "aspect_ratio": "2:1",
+  "prompt": "Use case: precise-object-edit\nAsset type: approved desktop TELEMO landing-page hero artwork, 2:1 landscape.\nPrimary request: Remove the entire human president character from the approved source image. This is the ONLY change. The character will be placed separately in HTML, so this final image must contain NO human.\nEdit target: the referenced image is the exact approved art. Preserve its canvas dimensions/aspect, headline text, TELEMO wordmark and speech balloon.\nChange only: erase the president's entire head, face, hair, ears, body/white shirt, arms and gesturing hand, trousers, both white shoes and human cast shadow. Fill only the removed-person regions with the surrounding existing pale teal/off-white fine paper background texture. Change ONLY the speech-balloon tail direction: remove the old upward-pointing tail and smoothly close its old spot using the existing white fill and teal border. Add one short clean tail at the lower-right edge pointing down-right toward the future small character at the bottom-right of the HTML viewport. Preserve the balloon's main body shape, text, size and location.\nInvariants: Keep all Japanese headline lettering EXACT, same position, size, font, navy color and line breaks: first line 「本当の現場を知り尽くした、」; second line 「コールセンター経営者がつくったAI」. Keep all six 3D letters 「TELEMO」 identical in placement, scale, teal fronts, white side faces, perspective, materials and soft shadows. Keep the existing white speech balloon in the exact same location, size and shape, including its teal border, with only its tail redirected down-right as specified. Keep balloon text EXACT: first line 「現場の知見を、」; second line 「AIの力に。」, same typography and position. Keep all background outside the removed-human regions unchanged.\nConstraints: No replacement character, object or decorative content. No rearranging, zooming, cropping, extending, recoloring or restyling. No changes to typography, words, punctuation or margins. No new logos, UI, buttons or text. Keep same 2:1 canvas and full original composition. Final artwork is source image minus the president, nothing else.",
+  "referenced_image_paths": [
+    "/Users/rintaro/giguuu-campaign-hero-preview/assets/hero/campaign/telemo-campaign-desktop-v1.png"
+  ],
+  "source_output_path": "/Users/rintaro/.codex/generated_images/01a162fa-fd10-74b3-8085-9f718ce020ab/exec-98b106f5-cf05-4680-8ea1-d42c273f026a.png",
+  "inspection": {
+    "all_human_parts_removed": true,
+    "headline_exact": true,
+    "speech_balloon_exact": true,
+    "telemo_spelling_exact": true,
+    "composition_preserved": true,
+    "tail_direction": "down-right from lower-right edge",
+    "notes": "President and shadow removed; main headline, TELEMO wordmark and speech-balloon body/text retain layout. Old upward tail removed and replaced by down-right tail. No raster edits applied."
+  }
+}

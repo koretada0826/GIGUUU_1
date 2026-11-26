@@ -1,0 +1,36 @@
+{
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 900,
+      "source": "http://localhost:8003/assets/hero/campaign/telemo-campaign-desktop-v3.png",
+      "naturalWidth": 1774,
+      "naturalHeight": 887,
+      "bandBottom": 900,
+      "overflow": false,
+      "guideCount": 0
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "source": "http://localhost:8003/assets/hero/campaign/telemo-campaign-desktop-v3.png",
+      "naturalWidth": 1774,
+      "naturalHeight": 887,
+      "bandBottom": 768,
+      "overflow": false,
+      "guideCount": 0
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "source": "http://localhost:8003/assets/hero/campaign/telemo-campaign-mobile-v2.png",
+      "naturalWidth": 1122,
+      "naturalHeight": 1402,
+      "bandBottom": 781.3125,
+      "overflow": false,
+      "guideCount": 0
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

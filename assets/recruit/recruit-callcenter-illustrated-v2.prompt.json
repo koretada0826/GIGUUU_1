@@ -1,0 +1,35 @@
+{
+  "name": "recruit-callcenter-illustrated-v2",
+  "created_at": "2026-10-14",
+  "tool": "image_gen__imagegen (built-in)",
+  "actual_model": null,
+  "references": [
+    {
+      "file": "assets/recruit/recruit-callcenter-illustrated-v1.png",
+      "role": "Original hero illustration; precise-object-edit target"
+    }
+  ],
+  "output": "assets/recruit/recruit-callcenter-illustrated-v2.png",
+  "dimensions": {
+    "width": 1938,
+    "height": 811
+  },
+  "prompt": "Use case: precise-object-edit.\nAsset type: existing Japanese recruitment website hero illustration.\nInput image 1 is the ONLY edit target: assets/recruit/recruit-callcenter-illustrated-v1.png, 1938 x 811 pixels.\nPerform an extremely localized object-removal edit. REMOVE ONLY these four white role speech bubbles, INCLUDING every white interior, navy outline, pointed tail, text and blue underline:\n1. \"セールス\" beside standing man's head, upper middle (roughly x1204–1405 y107–230).\n2. \"エンジニア\" beside seated man, lower left (roughly x599–784 y464–588).\n3. \"AIプランナー\" beside bun-haired woman, lower middle-right (roughly x1436–1618 y476–593).\n4. \"コーポレート\" beside tablet woman, right (roughly x1745–1914 y420–533).\nFill each removed footprint with the natural uninterrupted continuation of the existing sky, glass office windows, city skyline, background workstations, hair and blue clothing underneath it. No ghost outline, white patch, leftover tail, letters, underline or replacement label.\nSTRICT PIXEL PRESERVATION: copy all pixels outside those four bubble footprints unchanged as far as possible. Do not regenerate the whole illustration. Keep all four faces, eyes, expressions, hair, poses, hands, headsets and clothing identical. Keep the monitors, desks, phone, plants and every background detail identical.\nAll other typography must be preserved verbatim with the ORIGINAL glyph shapes, placement, styling and legibility:\nupper-left \"RECRUIT\" / \"採用情報\";\nlarge left headline \"挑戦する仲間を、\" / \"募集しています。\";\nlower-left note \"AIで、\" / \"はたらくの未来を\" / \"もっとおもしろく！\";\nupper-right note \"きっと、\" / \"できる。\" / \"いっしょに\" / \"つくろう！\";\nright poster \"GOOD TEAM! GOOD FUTURE!\".\nDo not redraw, restyle, crop, change colors, move anything or add any text. Same original anime illustration, exact same full-width composition. Output one opaque PNG at the original 1938x811 size if supported, otherwise the same 2.39:1 wide landscape aspect ratio. No frame, no watermark.",
+  "transparent_background": false,
+  "visual_check": {
+    "attempts": 1,
+    "opened_and_compared_to_original": true,
+    "all_four_role_bubbles_and_text_removed": true,
+    "no_remaining_outlines_tails_underlines_or_blank_patches": true,
+    "natural_background_and_clothing_continuation": true,
+    "recruit_and_japanese_headline_unchanged_and_legible": true,
+    "lower_left_japanese_note_unchanged_and_legible": true,
+    "upper_right_japanese_note_unchanged_and_legible": true,
+    "right_poster_unchanged_and_legible": true,
+    "four_faces_poses_headsets_and_composition_match_original": true,
+    "full_width_same_dimensions_no_crop": true,
+    "no_frame_or_watermark": true,
+    "method": "Visual inspection of original and opened generated PNG. Appearance preservation checked visually; exact pixel identity is not asserted.",
+    "result": "All requested visual checks passed on the first attempt."
+  }
+}

@@ -1,0 +1,85 @@
+{
+ "slug": "recruit-tver-co-jp",
+ "url": "https://recruit.tver.co.jp/",
+ "capturedAt": "2026-10-12 21:10:31",
+ "files": {
+  "pc_f0": "recruit-tver-co-jp-pc-f0.jpg",
+  "pc_f1": "recruit-tver-co-jp-pc-f1.jpg",
+  "pc_f2": "recruit-tver-co-jp-pc-f2.jpg",
+  "pc_scroll": "recruit-tver-co-jp-pc-scroll.jpg",
+  "sp": "recruit-tver-co-jp-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://recruit.tver.co.jp/",
+  "title": "株式会社TVer 採用サイト ",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 7125,
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [
+   "RECRUIT",
+   "HR BLOG",
+   "中途採用",
+   "新卒採用",
+   "PAGE TOP"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/moWvY0P4a6/s-284x150_04de3a0e-2327-4144-a51f-bb792760f2eb.svg",
+    "w": 94,
+    "h": 50,
+    "alt": ""
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/moWvY0P4a6/s-238x89_b50af1ab-e689-42cc-92c7-811733b326fa.svg",
+    "w": 130,
+    "h": 49,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "sans-serif",
+   "Poppins"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(245, 248, 250)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [
+   "採用情報",
+   "PAGE TOP"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [],
+  "pageHeight": 6774
+ },
+ "elapsedSec": 11.3
+}

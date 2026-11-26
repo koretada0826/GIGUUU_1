@@ -1,0 +1,167 @@
+{
+ "slug": "www-genesys-com",
+ "url": "https://www.genesys.com/",
+ "capturedAt": "2026-10-12 21:07:23",
+ "files": {
+  "pc_f0": "www-genesys-com-pc-f0.jpg",
+  "pc_f1": "www-genesys-com-pc-f1.jpg",
+  "pc_f2": "www-genesys-com-pc-f2.jpg",
+  "pc_scroll": "www-genesys-com-pc-scroll.jpg",
+  "sp": "www-genesys-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.genesys.com/",
+  "title": "Genesys Cloud CX: AI-Powered Customer Experience",
+  "lang": "en-us",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 8416,
+  "h1": "The agentic AI CX platform for the enterprise",
+  "h1Style": {
+   "fontFamily": "Roboto, -apple-system, system-ui, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+   "fontSize": "66.24px",
+   "fontWeight": "500",
+   "lineHeight": "72.864px",
+   "letterSpacing": "-2.6496px",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 58,
+    "y": 191,
+    "w": 704,
+    "h": 146
+   }
+  },
+  "lead": "AI that’s purpose-built for CX — connecting customer intent to the people, systems and workflows that resolve, automate and deliver customer experiences.",
+  "ctas": [
+   "Products",
+   "Customers",
+   "Partners",
+   "Resources",
+   "Company",
+   "Log in",
+   "Search",
+   "Get started",
+   "Get started",
+   "Explore Genesys Cloud"
+  ],
+  "videos": [],
+  "canvases": [
+   {
+    "w": 280,
+    "h": 158
+   }
+  ],
+  "images": [
+   {
+    "src": "https://www.genesys.com/wp-content/themes/genesys-kraken/header/media/lotties/product-menu-poster.webp",
+    "w": 280,
+    "h": 158,
+    "alt": ""
+   },
+   {
+    "src": "https://www.genesys.com/media/Electrolux-Youtube_Thumbnail.webp",
+    "w": 240,
+    "h": 135,
+    "alt": ""
+   },
+   {
+    "src": "https://www.genesys.com/media/Resource-thumbnail_2024-CRN-Partner-Program-Guide-Award.webp",
+    "w": 240,
+    "h": 131,
+    "alt": ""
+   },
+   {
+    "src": "https://www.genesys.com/media/megamenu-idc-2026-thumbnail.webp",
+    "w": 240,
+    "h": 154,
+    "alt": ""
+   },
+   {
+    "src": "https://www.genesys.com/media/Xperience-2025-Logo.svg",
+    "w": 240,
+    "h": 47,
+    "alt": "Xperience 2026 Broadcast"
+   },
+   {
+    "src": "https://www.genesys.com/media/genesys-hp-hero.webp",
+    "w": 1440,
+    "h": 1183,
+    "alt": "Woman standing on a busy street in a big city, holding her phone while looking i"
+   },
+   {
+    "src": "https://www.genesys.com/media/IDC_mini-banner_240x112-300x140.webp",
+    "w": 120,
+    "h": 56,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Roboto"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "The agentic AI CX platform for the enterprise",
+  "h1Style": {
+   "fontFamily": "Roboto, -apple-system, system-ui, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+   "fontSize": "36px",
+   "fontWeight": "500",
+   "lineHeight": "39.6px",
+   "letterSpacing": "-1.44px",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 20,
+    "y": 123,
+    "w": 350,
+    "h": 119
+   }
+  },
+  "lead": "AI that’s purpose-built for CX — connecting customer intent to the people, systems and workflows that resolve, automate and deliver customer experiences.",
+  "ctas": [
+   "Get started",
+   "Explore Genesys Cloud"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.genesys.com/media/genesys-hp-hero-1260x704.webp",
+    "w": 390,
+    "h": 893,
+    "alt": "Woman standing on a busy street in a big city, holding her phone while looking i"
+   },
+   {
+    "src": "https://www.genesys.com/media/IDC_mini-banner_240x112-300x140.webp",
+    "w": 120,
+    "h": 56,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 10616
+ },
+ "elapsedSec": 19.8
+}

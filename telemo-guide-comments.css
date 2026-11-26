@@ -1,0 +1,97 @@
+#telemo-core .lpsr-benefits-founder .lpsr-guide-comments {
+  position: relative;
+  display: block;
+  padding: 14px 12px 10px;
+  border-radius: 18px;
+  text-align: left;
+}
+
+#telemo-core .lpsr-benefits-founder .lpsr-guide-comments::after {
+  content: "";
+  position: absolute;
+  left: calc(50% - 6px);
+  bottom: -7px;
+  width: 12px;
+  height: 12px;
+  border-right: 1px solid var(--rf-border);
+  border-bottom: 1px solid var(--rf-border);
+  background: #fff;
+  transform: rotate(45deg);
+}
+
+#telemo-core .lpsr-benefits-founder .lpsr-guide-comments__text {
+  min-height: 3.4em;
+  margin: 0;
+  font: inherit;
+  font-size: 13px;
+  line-height: 1.7;
+  overflow-wrap: anywhere;
+}
+
+#telemo-core .lpsr-guide-comments__tools { margin-top: 6px; }
+#telemo-core .lpsr-guide-comments__tools button {
+  min-height: 32px;
+  padding: 4px 2px;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--rf-accent);
+  font: inherit;
+  font-size: 11px;
+  font-weight: 700;
+  cursor: pointer;
+}
+#telemo-core .lpsr-guide-comments__tools button:hover { background: #eaf6f8; }
+#telemo-core .lpsr-guide-comments__tools button:focus-visible { outline: 3px solid var(--rf-accent); outline-offset: 2px; }
+
+#telemo-core .lpsr-guide-comments__talk {
+  position: absolute;
+  inset: 0;
+  display: none;
+  background: url('./assets/concierge/president-cutout/talk.webp') 0 0 / 800% 100% no-repeat;
+}
+#telemo-core .lpsr-guide-has-talk.lpsr-guide-is-talking .lpsr-benefits-founder__poster { visibility: hidden; }
+#telemo-core .lpsr-guide-has-talk.lpsr-guide-is-talking .lpsr-benefits-founder__wave { display: none; }
+#telemo-core .lpsr-guide-has-talk.lpsr-guide-is-talking .lpsr-guide-comments__talk {
+  display: block;
+  animation: lpsr-guide-comment-frames 1400ms steps(8) infinite;
+}
+@keyframes lpsr-guide-comment-frames { to { background-position-x: 114.285714%; } }
+
+@media (min-width: 601px) and (max-width: 1099px) {
+  #telemo-core .lpsr-benefits-founder .lpsr-guide-comments__text { font-size: 12px; }
+}
+@media (min-width: 1100px) {
+  #telemo-core .lpsr-benefits-founder .lpsr-guide-comments { padding: 10px 10px 6px; border-radius: 14px; }
+  #telemo-core .lpsr-benefits-founder .lpsr-guide-comments__text { min-height: 0; font-size: 11px; line-height: 1.6; }
+  #telemo-core .lpsr-guide-comments__tools { margin-top: 2px; }
+  #telemo-core .lpsr-guide-comments__tools button { min-height: 28px; font-size: 10px; }
+}
+@media (max-width: 600px) {
+  #telemo-core .telemo-benefits__center { grid-template-columns: minmax(0, 1fr); }
+  #telemo-core .lpsr-benefits-founder {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 84px;
+    align-items: center;
+    grid-column: 1;
+    grid-row: 3;
+    gap: 12px;
+    width: 100%;
+    max-width: none;
+    margin-top: 14px;
+  }
+  #telemo-core .lpsr-benefits-founder .lpsr-guide-comments { margin: 0; }
+  #telemo-core .lpsr-benefits-founder .lpsr-guide-comments__text { font-size: 12px; }
+  #telemo-core .lpsr-benefits-founder .lpsr-guide-comments::after {
+    left: auto;
+    right: -7px;
+    bottom: 34px;
+    transform: rotate(-45deg);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  #telemo-core .lpsr-guide-has-talk.lpsr-guide-is-talking .lpsr-guide-comments__talk { display: none; animation: none; }
+  #telemo-core .lpsr-guide-has-talk.lpsr-guide-is-talking .lpsr-benefits-founder__poster { visibility: visible; }
+}
+#telemo-core .lpsr-benefits-founder.lpsr-guide-motion-paused.lpsr-guide-is-talking .lpsr-guide-comments__talk { display: none; animation: none; }
+#telemo-core .lpsr-benefits-founder.lpsr-guide-motion-paused.lpsr-guide-is-talking .lpsr-benefits-founder__poster { visibility: visible; }

@@ -1,0 +1,2928 @@
+/* ------------------------- 01. SCALING SYSTEM -------------------------------------------------- */
+/* Desktop */
+:root {
+  --size-unit: 16;
+  /* body font-size in design - no px */
+  --size-container-ideal: 1920;
+  /* screen-size in design - no px */
+  --size-container-min: 992px;
+  --size-container-max: 2240px;
+  --size-container: clamp(var(--size-container-min), 100dvw, var(--size-container-max));
+  --size-font: calc(var(--size-container) / (var(--size-container-ideal) / var(--size-unit)));
+
+  /* Container schaal-factoren */
+  --container-medium-scale: 0.85;
+  --container-small-scale: 0.7;
+
+  --vh: 1vh;
+  /* fallback before JS runs */
+  --full-screen-height: 100dvh;
+  --over-screen-height: 150dvh;
+}
+
+/* Tablet */
+@media screen and (max-width: 991px) {
+  :root {
+    --size-container-ideal: 991;
+    /* screen-size in design - no px */
+    --size-container-min: 768px;
+    --size-container-max: 991px;
+    --full-screen-height: calc(var(--vh) * 100);
+
+    --container-medium-scale: 0.9;
+    --container-small-scale: 0.8;
+  }
+}
+
+/* Mobile Landscape */
+@media screen and (max-width: 767px) {
+  :root {
+    --size-container-ideal: 767;
+    /* screen-size in design - no px */
+    --size-container-min: 480px;
+    --size-container-max: 767px;
+
+    --container-medium-scale: 1;
+    --container-small-scale: 1;
+  }
+}
+
+/* Mobile Portrait */
+@media screen and (max-width: 479px) {
+  :root {
+    --size-container-ideal: 479;
+    /* screen-size in design - no px */
+    --size-container-min: 320px;
+    --size-container-max: 479px;
+
+    --container-medium-scale: 1;
+    --container-small-scale: 1;
+  }
+}
+
+body {
+  font-size: var(--size-font);
+}
+
+.section-bg-wrap {
+  position: relative;
+  max-width: 2560px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  /* clipt de absolute bg */
+}
+
+.container {
+  max-width: var(--size-container);
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container.medium {
+  max-width: calc(var(--size-container) * var(--container-medium-scale));
+}
+
+.container.small {
+  max-width: calc(var(--size-container) * var(--container-small-scale));
+}
+
+/* ------------------------- 02. TRANSITIONS -------------------------------------------------- */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+li,
+ul,
+ol {
+  transition-property: background, font-size;
+  transition-duration: 0.3s;
+  transition-timing-function: cubic-bezier(.77, 0, .18, 1);
+}
+
+img {
+  transition-property: box-shadow, background, filter;
+  transition-duration: 0.3s;
+  transition-timing-function: cubic-bezier(.77, 0, .18, 1);
+}
+
+/* ------------------------- 03. LENIS -------------------------------------------------- */
+
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-smooth iframe {
+  pointer-events: none;
+}
+
+/* ------------------------- 04. CMS / CONTENT HELPERS -------------------------------------------------- */
+
+[data-cms-section]:not(:has(.w-dyn-item)) {
+  display: none;
+}
+
+/* Rich text top reset */
+.w-richtext> :not(div):first-child,
+.w-richtext>div:first-child> :first-child {
+  margin-top: 0 !important;
+}
+
+/* Rich text bottom reset */
+.w-richtext> :last-child,
+.w-richtext ol li:last-child,
+.w-richtext ul li:last-child {
+  margin-bottom: 0;
+}
+
+/* ------------------------- 05. GLOBAL BASE -------------------------------------------------- */
+
+::selection {
+  background: var(--_theme---cursor-select-bg);
+  color: var(--_theme---cursor-select-text);
+}
+
+::-moz-selection {
+  background: var(--_theme---cursor-select-bg);
+  color: var(--_theme---cursor-select-text);
+}
+
+html,
+body {
+  overflow-x: clip;
+}
+
+body {
+  -ms-overflow-style: none;
+  /* IE & Edge */
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+html {
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+body ::-webkit-scrollbar {
+  display: none;
+}
+
+:focus {
+  outline: 0;
+}
+
+/* ------------------------- 06. HIDE UTILITIES -------------------------------------------------- */
+
+.hide {
+  display: none !important;
+}
+
+@media screen and (min-width: 992px) {
+
+  .hide,
+  .hide-desktop {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 480px) {
+
+  .hide,
+  .hide-desktop-tablet {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 991px) {
+
+  .hide,
+  .hide-tablet-mobile {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hide-mobile-landscape {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .hide-mobile {
+    display: none !important;
+  }
+}
+
+/* ------------------------- 07. ACCESSIBILITY -------------------------------------------------- */
+
+*[tabindex]:focus-visible,
+input[type="file"]:focus-visible {
+  outline: 0.125rem solid var(--color-mode-default--focus-state);
+  outline-offset: 0.125rem;
+}
+
+/* ------------------------- 08. SPACING UTILITIES -------------------------------------------------- */
+
+.margin-0 {
+  margin: 0rem !important;
+}
+
+.padding-0 {
+  padding: 0rem !important;
+}
+
+.margin-top {
+  margin-right: 0rem !important;
+  margin-bottom: 0rem !important;
+  margin-left: 0rem !important;
+}
+
+.padding-top {
+  padding-right: 0rem !important;
+  padding-bottom: 0rem !important;
+  padding-left: 0rem !important;
+}
+
+.margin-right {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+  margin-left: 0rem !important;
+}
+
+.padding-right {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+  padding-left: 0rem !important;
+}
+
+.margin-bottom {
+  margin-top: 0rem !important;
+  margin-right: 0rem !important;
+  margin-left: 0rem !important;
+}
+
+.padding-bottom {
+  padding-top: 0rem !important;
+  padding-right: 0rem !important;
+  padding-left: 0rem !important;
+}
+
+.margin-left {
+  margin-top: 0rem !important;
+  margin-right: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+
+.padding-left {
+  padding-top: 0rem !important;
+  padding-right: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+
+.margin-horizontal {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+
+.padding-horizontal {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+
+.margin-vertical {
+  margin-right: 0rem !important;
+  margin-left: 0rem !important;
+}
+
+.padding-vertical {
+  padding-right: 0rem !important;
+  padding-left: 0rem !important;
+}
+
+/* ------------------------- 09. TEXT HELPERS -------------------------------------------------- */
+
+/* Truncate after 1 line */
+.text-truncate-line-01 {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+/* Truncate after 2 lines */
+.text-truncate-line-02 {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+/* Truncate after 3 lines */
+.text-truncate-line-03 {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+/* Truncate after 4 lines */
+.text-truncate-line-04 {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+
+/* ------------------------- 11. WEBFLOW OVERRIDES -------------------------------------------------- */
+
+button {
+  all: unset;
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+button:focus {
+  outline: revert;
+}
+
+/* Let these elements inherit typography from parent */
+a,
+.w-input,
+.w-select,
+.w-tab-link,
+.w-nav-link,
+.w-dropdown-btn,
+.w-dropdown-toggle,
+.w-dropdown-link {
+  color: inherit;
+  text-decoration: inherit;
+  font-size: inherit;
+}
+
+/* Remove default browser appearance from form elements */
+input,
+select,
+textarea {
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+}
+
+/* Dropdown toggle reset */
+.w-dropdown-toggle,
+.w-dropdown-toggle.w--open {
+  margin: 0;
+  border: none;
+  background: none;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+
+/* ------------------------- 12. EXTRAS -------------------------------------------------- */
+
+.lottie path {
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+/* ------------------------- HOME HERO STATE VIDEO -------------------------------------------------- */
+
+[data-hero-intro-state="skipped"] [data-hero-video] {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+@media (min-width: 992px) {
+  [data-hero-intro-state="skipped"] [data-hero-canvas] {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+/* ------------------------- 13. NAVIGATION -------------------------------------------------- */
+
+[data-menu="item"] {
+  will-change: transform, opacity;
+}
+
+[data-menu="panel"] {
+  transform: translateX(101%);
+  visibility: hidden;
+  pointer-events: none;
+  transition:
+    transform 0.7s cubic-bezier(0.625, 0.05, 0, 1),
+    visibility 0s linear 0.7s;
+  will-change: transform;
+}
+
+[data-menu="panel"].is-active {
+  transform: translateX(0%);
+  visibility: visible;
+  pointer-events: auto;
+  transition:
+    transform 0.7s cubic-bezier(0.625, 0.05, 0, 1),
+    visibility 0s linear 0s;
+}
+
+/* ------------------------- 14. BUNNY BACKGROUND VIDEO -------------------------------------------------- */
+
+/* Animation */
+[data-bunny-background-init] :is(.bunny-bg__placeholder, .bunny-bg__loading) {
+  transition: opacity 0.3s linear, visibility 0.3s linear;
+}
+
+/* Placeholder */
+[data-bunny-background-init][data-player-status="playing"] .bunny-bg__placeholder,
+[data-bunny-background-init][data-player-status="paused"] .bunny-bg__placeholder,
+[data-bunny-background-init][data-player-activated="true"][data-player-status="ready"] .bunny-bg__placeholder {
+  opacity: 0;
+  visibility: hidden;
+}
+
+/* Play/Pause */
+[data-bunny-background-init][data-player-status="playing"] .bunny-bg__play-svg,
+[data-bunny-background-init][data-player-status="loading"] .bunny-bg__play-svg {
+  display: none;
+}
+
+[data-bunny-background-init][data-player-status="playing"] .bunny-bg__pause-svg,
+[data-bunny-background-init][data-player-status="loading"] .bunny-bg__pause-svg {
+  display: block;
+}
+
+/* Loading */
+[data-bunny-background-init][data-player-status="loading"] .bunny-bg__loading {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* ------------------------- 15. BUTTONS -------------------------------------------------- */
+
+/* ----------------------------------------- */
+/* BUTTON ANIMATIONS */
+/* ----------------------------------------- */
+
+/* Shared motion */
+[data-button-anim-target],
+.btn-icon-icon__list-down,
+.btn-icon-icon__plus {
+  transition: transform 0.45s cubic-bezier(0.625, 0.05, 0, 1);
+}
+
+/* Duplicate text effect */
+.btn-icon-content__text {
+  --text-duplicate-distance: 1.5em;
+  text-shadow: 0px var(--text-duplicate-distance) currentColor;
+}
+
+/* Downward track setup */
+.btn-icon-icon__list-down {
+  transform: translate3d(0, 0, 0);
+  will-change: transform;
+}
+
+/* Keep downward arrows vertical at all times */
+.btn-icon-icon__arrow.Downward,
+.btn-icon-icon__arrow.Downward\ 2 {
+  transform: rotate(90deg);
+}
+
+/* Hover only on devices that support it */
+@media (hover: hover) and (pointer: fine) {
+
+  /* ----------------------------------------- */
+  /* ORIGINAL BUTTON */
+  /* ----------------------------------------- */
+  .btn-icon-link:hover .btn-icon-content__text {
+    transform: translate(0px, calc(-1 * var(--text-duplicate-distance)));
+  }
+
+  .btn-icon-link:hover .btn-icon-icon__arrow {
+    transform: translate(100%, 0px);
+  }
+
+  .btn-icon-link:hover .btn-icon-icon__plus {
+    transform: rotate(90deg);
+  }
+
+  /* ----------------------------------------- */
+  /* DOWNWARD BUTTON */
+  /* ----------------------------------------- */
+  .btn-icon-link-down:hover .btn-icon-content__text {
+    transform: translate(0px, calc(-1 * var(--text-duplicate-distance)));
+  }
+
+  /* move the full vertical arrow track downward */
+  .btn-icon-link-down:hover .btn-icon-icon__list-down {
+    transform: translate3d(0, 100%, 0);
+  }
+
+  .btn-icon-link-down:hover .btn-icon-icon__plus {
+    transform: rotate(90deg);
+  }
+}
+
+/* ------------------------- 16. ODOMETER -------------------------------------------------- */
+
+[data-odometer-element] {
+  position: relative;
+  display: inline-flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: flex-start;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+
+[data-odometer-inner] {
+  position: relative;
+  display: block;
+  height: 1em;
+  overflow: hidden;
+}
+
+[data-odometer-current],
+[data-odometer-next] {
+  display: block;
+  line-height: 1;
+  white-space: nowrap;
+  will-change: transform, opacity;
+}
+
+[data-odometer-next] {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+[data-odometer-label-element] {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  line-height: 1;
+  vertical-align: top;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+}
+
+[data-odometer-label-inner] {
+  position: relative;
+  display: block;
+  height: 1.2em;
+  overflow: hidden;
+}
+
+[data-odometer-label-current],
+[data-odometer-label-next] {
+  display: block;
+  line-height: 1.2;
+  white-space: nowrap;
+  will-change: transform, opacity;
+}
+
+[data-odometer-label-next] {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: max-content;
+}
+
+.odometer-h1,
+[data-odometer-label-element] {
+  font-variant-numeric: tabular-nums;
+}
+
+/* ------------------------- 17. PRODUCT NAV -------------------------------------------------- */
+
+.product-nav_li-link {
+  opacity: 0.4;
+  transition: opacity 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.product-nav_li-link:hover,
+.product-nav_li-link.is-active {
+  opacity: 1;
+}
+
+.product-nav_link-icon {
+  display: inline-flex;
+  flex-shrink: 0;
+  transform: scale(0);
+  transform-origin: center;
+  margin-right: 0;
+  transition:
+    transform 0.45s cubic-bezier(0.625, 0.05, 0, 1),
+    margin-right 0.45s cubic-bezier(0.625, 0.05, 0, 1);
+  will-change: transform, margin-right;
+}
+
+.product-nav_li-link.is-active .product-nav_link-icon {
+  transform: scale(1);
+  margin-right: 0.625em;
+}
+
+[data-product-nav-list] {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transform: translateY(-0.5em);
+  transition:
+    opacity 0.35s cubic-bezier(0.625, 0.05, 0, 1),
+    transform 0.35s cubic-bezier(0.625, 0.05, 0, 1),
+    visibility 0s linear 0.35s;
+  will-change: opacity, transform;
+}
+
+[data-product-nav-list].is-active {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: translateY(0);
+  transition:
+    opacity 0.35s cubic-bezier(0.625, 0.05, 0, 1),
+    transform 0.35s cubic-bezier(0.625, 0.05, 0, 1),
+    visibility 0s linear 0s;
+}
+
+.product-nav_overlay {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.35s cubic-bezier(0.625, 0.05, 0, 1);
+  will-change: opacity;
+}
+
+.product-nav_overlay.is-active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.product-nav_icon-svg {
+  transform: rotate(0deg);
+  transform-origin: 50% 50%;
+  transition: transform 0.35s cubic-bezier(0.625, 0.05, 0, 1);
+  will-change: transform;
+}
+
+[data-product-nav-trigger].is-active .product-nav_icon-svg {
+  transform: rotate(180deg);
+}
+
+.nav-left_slot {
+  will-change: transform;
+}
+
+.product-nav_dropdown-wrap {
+  width: 0;
+  min-width: 0;
+  overflow: hidden;
+  flex: 0 0 auto;
+  will-change: width;
+}
+
+.product-nav_dropdown {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: max-content;
+  opacity: 0;
+  pointer-events: none;
+  will-change: transform, opacity;
+}
+
+[data-product-nav-source] {
+  overflow: hidden;
+  white-space: nowrap;
+  will-change: width, opacity, transform;
+}
+
+.product-nav_indicator-fill {
+  width: 100%;
+  height: 100%;
+  transform: scaleX(0);
+  transform-origin: left center;
+  will-change: transform;
+}
+
+[data-product-nav-scroll] {
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-x: contain;
+  scrollbar-width: none;
+  cursor: grab;
+}
+
+[data-product-nav-scroll]::-webkit-scrollbar {
+  display: none;
+}
+
+[data-product-nav-scroll].is-dragging {
+  cursor: grabbing;
+}
+
+[data-product-nav-scroll] .product-nav_ul {
+  display: flex;
+  flex-wrap: nowrap;
+  width: max-content;
+  min-width: max-content;
+}
+
+[data-product-nav-scroll] .product-nav_li {
+  flex: 0 0 auto;
+}
+
+/* ------------------------- 18. NAV BG -------------------------------------------------- */
+
+/*.nav__bg {
+  transform: scaleY(0);
+  transform-origin: 50% 100%;
+  will-change: transform, background-color;
+}*/
+
+/* ------------------------- 19. SPECS -------------------------------------------------- */
+
+.specs_li-link,
+.specs_li-link.is-active {
+  opacity: 1;
+}
+
+.specs_link-icon {
+  display: inline-flex;
+  flex-shrink: 0;
+  transform: scale(0);
+  transform-origin: center;
+  margin-right: 0;
+  transition:
+    transform 0.45s cubic-bezier(0.625, 0.05, 0, 1),
+    margin-right 0.45s cubic-bezier(0.625, 0.05, 0, 1);
+  will-change: transform, margin-right;
+}
+
+@media screen and (min-width: 992px) {
+
+  .specs_li-link.is-active .specs_link-icon,
+  .specs_li-link:hover .specs_link-icon {
+    transform: scale(1);
+    margin-right: 0.625em;
+  }
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .specs_li-link:hover .specs_link-icon {
+    transform: scale(1);
+    margin-right: 0.625em;
+  }
+}
+
+.live-search__search-field:has(input:focus) {
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+.live-search__search-field input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+  opacity: 1;
+}
+
+.live-search__highlight {
+  display: inline;
+  background-color: var(--_colors---swatch--light-grey);
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+@media screen and (max-width: 991px) {
+  [data-specs-nav-scroll] {
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior-x: contain;
+    scrollbar-width: none;
+    cursor: grab;
+
+    --specs-fade-size: 2rem;
+    --specs-fade-left: 0px;
+    --specs-fade-right: var(--specs-fade-size);
+
+    -webkit-mask-image: linear-gradient(to right,
+        transparent 0,
+        #000 var(--specs-fade-left),
+        #000 calc(100% - var(--specs-fade-right)),
+        transparent 100%);
+    mask-image: linear-gradient(to right,
+        transparent 0,
+        #000 var(--specs-fade-left),
+        #000 calc(100% - var(--specs-fade-right)),
+        transparent 100%);
+  }
+
+  [data-specs-nav-scroll]::-webkit-scrollbar {
+    display: none;
+  }
+
+  [data-specs-nav-scroll].is-dragging {
+    cursor: grabbing;
+  }
+
+  [data-specs-nav-scroll] .specs_ul {
+    display: flex;
+    flex-wrap: nowrap;
+    width: max-content;
+    min-width: max-content;
+  }
+
+  [data-specs-nav-scroll] .specs_li {
+    flex: 0 0 auto;
+  }
+}
+
+/* ------------------------- 20. ACCORDION -------------------------------------------------- */
+
+/* Animate accordion bottom grid */
+.accordion-css__item-bottom {
+  transition: grid-template-rows 0.45s cubic-bezier(0.625, 0.05, 0, 1);
+}
+
+[data-accordion-status="active"] .accordion-css__item-bottom {
+  grid-template-rows: 1fr;
+}
+
+/* Animate icon */
+.accordion-css__item-icon {
+  transition: transform 0.45s cubic-bezier(0.625, 0.05, 0, 1);
+}
+
+[data-accordion-status="active"] .accordion-css__item-icon {
+  transform: rotate(0.001deg);
+}
+
+/* ------------------------- 21. USP SHOWCASE -------------------------------------------------- */
+
+.usp-showcase__title {
+  opacity: 0.22;
+  will-change: opacity;
+}
+
+.usp-showcase__item.is-active .usp-showcase__title {
+  opacity: 1;
+}
+
+/* ------------------------- 22. DRAW / MASK / VIDEO HELPERS -------------------------------------------------- */
+
+.draw-scroll__coords-char {
+  display: inline-block;
+  will-change: transform, opacity;
+}
+
+[data-draw-marker] {
+  transform-origin: center center;
+  will-change: transform, opacity;
+}
+
+.video-layer,
+.mask-wrapper,
+.mask-overlay {
+  position: absolute;
+  inset: 0;
+}
+
+.video-layer {
+  z-index: 1;
+}
+
+.mask-overlay_img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+.mask-word {
+  fill: black;
+}
+
+/* ------------------------- 23. SWAP GALLERY / TABS -------------------------------------------------- */
+
+.swap-gallery__item[data-active="true"] {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.swap-tab[data-active="true"] .swap-tab__subtitle {
+  max-height: 4rem;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.swap-tab[data-active="true"] .swap-tab__number {
+  opacity: 1;
+}
+
+.swap-tab[data-active="true"] .swap-tab__title {
+  opacity: 1;
+}
+
+@media screen and (min-width: 992px) {
+  .swap-tab:hover .swap-tab__number {
+    opacity: 1;
+  }
+
+  .swap-tab:hover .swap-tab__title {
+    color: rgba(17, 17, 17, 1);
+  }
+}
+
+/* ------------------------- 24. SLIDER -------------------------------------------------- */
+
+@media (hover: hover) and (pointer: fine) {
+
+  .btn-icon-link:hover .btn-icon-content__text,
+  [data-slider-item-hover]:hover .btn-icon-content__text {
+    transform: translate(0px, calc(-1 * var(--text-duplicate-distance)));
+  }
+
+  .btn-icon-link:hover .btn-icon-icon__arrow,
+  [data-slider-item-hover]:hover .btn-icon-icon__arrow {
+    transform: translate(100%, 0px);
+  }
+
+  .btn-icon-link:hover .btn-icon-icon__plus,
+  [data-slider-item-hover]:hover .btn-icon-icon__plus {
+    transform: rotate(90deg);
+  }
+
+  [data-slider-prev][data-slider-disabled="false"],
+  [data-slider-next][data-slider-disabled="false"] {
+    cursor: pointer;
+  }
+
+  [data-slider-prev][data-slider-disabled="false"]:hover,
+  [data-slider-next][data-slider-disabled="false"]:hover {
+    transform: scale(0.94);
+  }
+}
+
+[data-slider-collection] {
+  cursor: grab;
+  touch-action: pan-y;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+[data-slider-dragging="true"] [data-slider-collection] {
+  cursor: grabbing;
+}
+
+.main-slider__list[data-slider-list] {
+  grid-template-columns: none !important;
+}
+
+[data-slider-list] {
+  --slider-gap: 0.5em;
+
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: max-content;
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+  gap: var(--slider-gap);
+  height: 100%;
+  width: max-content;
+  justify-content: start;
+  align-content: start;
+  will-change: transform;
+}
+
+[data-slider-size="base"] {
+  grid-row: span 2;
+  height: 100%;
+  width: var(--main-slider-base-width);
+  aspect-ratio: 1 / 1;
+}
+
+[data-slider-size="small"] {
+  grid-row: span 1;
+  height: 100%;
+  width: var(--main-slider-small-width);
+  min-width: 0;
+  aspect-ratio: 3 / 2;
+}
+
+[data-slider-size="small"][data-slider-stack="solo"] {
+  grid-row: span 2;
+  height: 100%;
+  width: var(--main-slider-solo-width);
+  min-width: 0;
+  aspect-ratio: 3 / 4;
+}
+
+[data-slider-progress] {
+  width: 0%;
+  transition: width 0.2s linear;
+}
+
+[data-slider-prev],
+[data-slider-next] {
+  transform-origin: 50% 50%;
+  transition:
+    opacity 0.25s ease,
+    background-color 0.25s ease,
+    transform 0.35s cubic-bezier(0.625, 0.05, 0, 1);
+}
+
+[data-slider-prev][data-slider-disabled="false"],
+[data-slider-next][data-slider-disabled="false"] {
+  opacity: 1;
+  background-color: white;
+  pointer-events: auto;
+}
+
+[data-slider-prev][data-slider-disabled="true"],
+[data-slider-next][data-slider-disabled="true"] {
+  opacity: 0.35;
+  background-color: transparent;
+  pointer-events: none;
+}
+
+/* ------------------------- 25. BIKE EXPLORER -------------------------------------------------- */
+
+:root {
+  --bike-bg: #eceae6;
+  --bike-text: #111111;
+  --bike-border: rgba(17, 17, 17, 0.08);
+  --bike-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  --bike-radius-xl: 1.75em;
+  --bike-radius-pill: 999px;
+  --bike-ui-bg: rgba(255, 255, 255, 0.78);
+  --bike-ui-bg-strong: rgba(255, 255, 255, 0.92);
+  --bike-dot-size: 3em;
+  --bike-gap: 0.75em;
+}
+
+.bike-explorer {
+  position: relative;
+  width: 100%;
+  color: var(--bike-text);
+  overflow: clip;
+  isolation: isolate;
+}
+
+.bike-explorer__sequence-stack {
+  -webkit-mask-image:
+    linear-gradient(to bottom,
+      black 0,
+      black calc(100% - 1rem),
+      transparent 100%),
+    linear-gradient(to right,
+      transparent 0,
+      black 1rem,
+      black calc(100% - 1rem),
+      transparent 100%);
+  -webkit-mask-composite: source-in;
+
+  mask-image:
+    linear-gradient(to bottom,
+      black 0,
+      black calc(100% - 1rem),
+      transparent 100%),
+    linear-gradient(to right,
+      transparent 0,
+      black 1rem,
+      black calc(100% - 1rem),
+      transparent 100%);
+  mask-composite: intersect;
+}
+
+/* ------------------------- 25.1 BIKE EXPLORER / STICKY STAGE -------------------------------------------------- */
+
+.bike-explorer__sticky {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 100svh;
+  overflow: hidden;
+  z-index: 5;
+}
+
+.bike-explorer__stage {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* ------------------------- 25.2 BIKE EXPLORER / SEQUENCE STACK -------------------------------------------------- */
+
+.bike-explorer__sequence-stack {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.bike-explorer__sequence-wrap {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.35s ease, visibility 0.35s ease;
+}
+
+.bike-explorer__sequence-wrap.is-active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.bike-explorer__sequence-element {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.bike-sequence {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* ------------------------- 25.3 BIKE EXPLORER / HOTSPOTS -------------------------------------------------- */
+
+.bike-explorer__hotspots {
+  position: absolute;
+  inset: 0;
+  z-index: 15;
+  pointer-events: none;
+}
+
+.bike-hotspot-group {
+  position: absolute;
+  inset: 0;
+}
+
+.bike-hotspot {
+  position: absolute;
+  left: var(--x);
+  top: var(--y);
+  transform: translate(-50%, -50%);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+  pointer-events: auto;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  padding: 0;
+  color: var(--bike-text);
+  appearance: none;
+}
+
+.bike-hotspot__dot {
+  width: var(--bike-dot-size);
+  height: var(--bike-dot-size);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 var(--bike-dot-size);
+  border-radius: 50%;
+  background: var(--bike-ui-bg-strong);
+  border: 1px solid var(--bike-border);
+  box-shadow: var(--bike-shadow);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition: transform 0.25s ease, background 0.25s ease;
+}
+
+.bike-hotspot__label {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--bike-dot-size);
+  padding: 0 1rem;
+  border-radius: var(--bike-radius-pill);
+  background: var(--bike-ui-bg-strong);
+  border: 1px solid var(--bike-border);
+  box-shadow: var(--bike-shadow);
+  white-space: nowrap;
+  line-height: 1;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateX(-0.25em);
+  transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s ease;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.bike-hotspot:hover .bike-hotspot__dot,
+.bike-hotspot:focus-visible .bike-hotspot__dot,
+.bike-hotspot.is-open .bike-hotspot__dot {
+  transform: scale(1.06);
+  background: #ffffff;
+}
+
+.bike-hotspot:hover .bike-hotspot__label,
+.bike-hotspot:focus-visible .bike-hotspot__label,
+.bike-hotspot.is-open .bike-hotspot__label {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(0);
+}
+
+/* ------------------------- 25.4 BIKE EXPLORER / UI OVERLAY -------------------------------------------------- */
+
+.bike-color-switch {
+  position: relative;
+  pointer-events: auto;
+}
+
+/* COLOR SWITCH */
+
+.bike-color-switch {
+  --color-size: 1.75em;
+  --color-gap: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: var(--color-gap);
+}
+
+.bike-color-switch__button {
+  --swatch: #e8dc00;
+
+  position: relative;
+  width: var(--color-size);
+  height: var(--color-size);
+  padding: 0.25em;
+  border: 0;
+  border-radius: 999px;
+  background: #ffffff;
+  cursor: pointer;
+  appearance: none;
+  overflow: hidden;
+  will-change: width, transform;
+  transition:
+    width 0.55s cubic-bezier(0.625, 0.05, 0, 1),
+    transform 0.35s cubic-bezier(0.625, 0.05, 0, 1);
+}
+
+.bike-color-switch__button::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 999px;
+  background: var(--swatch);
+}
+
+.bike-color-switch__button[data-color-target="yellow"] {
+  --swatch: #f0e100;
+}
+
+.bike-color-switch__button[data-color-target="dark"] {
+  --swatch: #94938E;
+}
+
+.bike-color-switch__button.is-active {
+  width: calc(var(--color-size) * 2);
+}
+
+
+.bike-explorer-color__img {
+  opacity: 1;          /* allemaal zichtbaar */
+  transition: opacity 0.5s ease;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.bike-explorer-color__img.is-active {
+  opacity: 1;
+  z-index: 2;          /* actieve image bovenop */
+}
+
+.bike-explorer__colors:has(.is-active) .bike-explorer-color__img:not(.is-active) {
+  opacity: 0;          /* niet-actieve fade out, met actieve eronder zichtbaar */
+}
+
+/* ------------------------- 25.5 BIKE EXPLORER / MODAL -------------------------------------------------- */
+
+
+.bike-modal[hidden] {
+  display: none;
+}
+
+.bike-modal {
+  padding-left: 0.75em;
+  /* match top/right/bottom */
+}
+
+.bike-modal__media {
+  position: relative;
+  min-height: 22em;
+  background: #e5e2dc;
+  overflow: hidden;
+  will-change: transform, opacity;
+}
+
+.bike-modal__media img,
+.bike-modal__media video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.bike-modal__content>*:first-child {
+  margin-top: 0;
+}
+
+.bike-modal__content>*:last-child {
+  margin-bottom: 0;
+}
+
+.bike-modal__progress-dot {
+  width: 0.5em;
+  height: 0.5em;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background-color: rgba(33, 38, 35, 0.18);
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease, opacity 0.2s ease;
+}
+
+.bike-modal__progress-dot:hover {
+  background-color: rgba(33, 38, 35, 0.35);
+}
+
+.bike-modal__progress-dot.is-active {
+  background-color: #333333;
+}
+
+.icon-button:disabled {
+  opacity: 0.35;
+  pointer-events: none;
+}
+
+/* Desktop: vaste card-breedte rechts */
+@media (min-width: 992px) {
+  .bike-modal__card {
+    width: min(32em, calc(100vw - 2em)) !important;
+    max-width: calc(100vw - 2em) !important;
+  }
+}
+
+/* Tablet: compacte card rechts */
+@media (min-width: 768px) and (max-width: 991px) {
+  .bike-modal__card {
+    width: min(28em, calc(100vw - 1.5em)) !important;
+    max-width: calc(100vw - 1.5em) !important;
+  }
+
+  .bike-modal__media {
+    min-height: 14rem;
+  }
+
+  .bike-modal__content {
+    padding: 1.25rem 1.25rem 1rem;
+  }
+}
+
+/* Mobiel: full width tussen de paddings */
+@media (max-width: 767px) {
+  .bike-modal__card {
+    width: auto !important;
+    max-width: none !important;
+  }
+
+  .bike-modal__media {
+    min-height: 14rem;
+  }
+
+  .bike-modal__content {
+    padding: 1.25rem 1.25rem 1rem;
+  }
+}
+
+/* ------------------------- 25.6 BIKE EXPLORER / TIMELINE -------------------------------------------------- */
+
+.bike-explorer__timeline {
+  position: relative;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.bike-chapter {
+  position: relative;
+  width: 100%;
+  pointer-events: none;
+}
+
+.bike-chapter[data-chapter="start"] {
+  min-height: 150svh;
+}
+
+.bike-chapter[data-chapter="end"] {
+  min-height: 400svh;
+}
+
+/* ------------------------- 25.7 BIKE EXPLORER / RESPONSIVE -------------------------------------------------- */
+
+@media (max-width: 991px) {
+  .bike-explorer__sticky {
+    position: relative;
+    height: 100svh;
+  }
+
+  .bike-explorer__hotspots,
+  .bike-explorer__ui,
+  .bike-explorer__timeline {
+    display: none;
+  }
+
+  .bike-modal__card {
+    top: auto;
+    right: 0.75rem;
+    left: 0.75rem;
+    bottom: 0.75rem;
+    width: auto;
+  }
+
+  .bike-modal__media {
+    min-height: 14rem;
+  }
+
+  .bike-modal__content {
+    padding: 1.25rem 1.25rem 1rem;
+  }
+}
+
+/* ------------------------- 26. PHONE APP / INTERACTIVE -------------------------------------------------- */
+
+/* ----------------------------------------- */
+/* MODE PILLS                                */
+/* ----------------------------------------- */
+
+.app-phone__mode-slider {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 4em 0;
+  padding: 0 1em;
+  gap: 0.25em;
+
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+
+  /* scrollbar verbergen */
+  scrollbar-width: none;
+}
+
+.app-phone__mode-slider::-webkit-scrollbar {
+  display: none;
+}
+
+.app-phone__mode-slider .btn-static {
+  flex: 0 0 auto;
+}
+
+
+.app-phone__mode-slider .btn-icon-content {
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: transparent;
+  color: rgba(255, 255, 255, 0.65);
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease,
+    border-color 0.3s ease,
+    transform 0.3s ease;
+}
+
+.app-phone__mode-slider .btn-static.is-active .btn-icon-content {
+  background: rgba(255, 255, 255, 0.92);
+  color: #121714;
+  border-color: rgba(255, 255, 255, 0.92);
+}
+
+/* Active mode state (werkt ook zonder GSAP color tweening) */
+.app__phone[data-active-mode="custom"] [data-phone-mode="custom"] .btn-icon-content,
+.app__phone[data-active-mode="enduro"] [data-phone-mode="enduro"] .btn-icon-content,
+.app__phone[data-active-mode="hard-enduro"] [data-phone-mode="hard-enduro"] .btn-icon-content,
+.app__phone[data-active-mode="sm"] [data-phone-mode="sm"] .btn-icon-content,
+.app__phone[data-active-mode="mx"] [data-phone-mode="mx"] .btn-icon-content {
+  background: rgba(255, 255, 255, 0.92);
+  color: #121714;
+  border-color: rgba(255, 255, 255, 0.92);
+}
+
+/* ----------------------------------------- */
+/* HP SLIDER                                 */
+/* ----------------------------------------- */
+
+.app-phone__slider-wrap {
+  width: 100%;
+  margin-bottom: 0.25em;
+  padding-top: 0.25em;
+  padding-right: 1.5em;
+  padding-bottom: 0;
+  padding-left: 1.5em;
+  box-sizing: border-box;
+}
+
+.app-phone__slider-ticks {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0;
+  cursor: pointer;
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.app-phone__tick {
+  display: block;
+  width: 2.5px;
+  min-width: 2.5px;
+  max-width: 2.5px;
+  flex: 0 0 auto;
+  border-radius: 1.5px;
+  background: #fff;
+  will-change: opacity, height;
+}
+
+.app-phone__tick.is-active {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.app-phone__slider-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.6em;
+  opacity: 0.45;
+  font-weight: 500;
+  margin-top: 2px;
+  padding: 0 2px;
+}
+
+.app-phone__slider-label {
+  letter-spacing: 0.04em;
+}
+
+/* ----------------------------------------- */
+/* GRAPH                                     */
+/* ----------------------------------------- */
+
+.app-phone__graph-wrap {
+  position: relative;
+  display: flex;
+  width: 100%;
+  padding-top: 1.1em;
+  padding-right: 1em;
+  padding-bottom: 0.75em;
+  padding-left: 1em;
+  align-items: flex-end;
+  flex: 1 1 0%;
+  box-sizing: border-box;
+}
+
+.app-phone__graph-stage {
+  position: relative;
+  width: 100%;
+  height: 15em;
+  min-height: 15em;
+  padding-left: 18px;
+  padding-bottom: 18px;
+  box-sizing: border-box;
+}
+
+.app-phone__graph-canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.app-phone__graph-points {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.app-phone__graph-point {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #fff;
+  cursor: grab;
+  pointer-events: auto;
+  box-shadow:
+    0 0 10px rgba(255, 255, 255, 0.25),
+    0 0 3px rgba(255, 255, 255, 0.5);
+  z-index: 3;
+  left: 0;
+  top: 0;
+  touch-action: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.app-phone__graph-point:active {
+  cursor: grabbing;
+}
+
+.app-phone__graph-label-y {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%) rotate(-90deg);
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  opacity: 0.35;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.app-phone__graph-label-x {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  opacity: 0.35;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* ------------------------- 27.1 VIDEO PLAYERS -------------------------------------------------- */
+
+[data-mini-showreel-status="active"] .mini-showreel__click {
+  display: none;
+}
+
+[data-mini-showreel-status] .mini-showreel__card {
+  transition: margin 1s cubic-bezier(0.87, 0, 0.13, 1);
+}
+
+[data-mini-showreel-status="active"] .mini-showreel__card {
+  margin-top: 1.375em;
+  margin-bottom: 1.375em;
+}
+
+[data-mini-showreel-status] .mini-showreel-lightbox__dark {
+  transition: all 1s cubic-bezier(0.87, 0, 0.13, 1);
+}
+
+[data-mini-showreel-status="active"] .mini-showreel-lightbox__dark {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Mini Showreel Player: Extra CSS */
+
+[data-mini-showreel-status="not-active"] [data-bunny-player-init][data-player-status] .bunny-player__placeholder {
+  opacity: 1;
+  visibility: visible;
+}
+
+[data-mini-showreel-status="not-active"] [data-bunny-player-init][data-player-status] .bunny-player__dark {
+  opacity: 0;
+}
+
+[data-mini-showreel-status="not-active"] [data-bunny-player-init] .bunny-player__playpause {
+  opacity: 0;
+}
+
+[data-mini-showreel-status="not-active"] [data-bunny-player-init] .bunny-player__interface {
+  opacity: 0;
+  transform: translateY(1em) rotate(0.001deg);
+}
+
+/* ------------------------- 27.2 VIDEO PLAYER -------------------------------------------------- */
+
+/* Animation */
+[data-bunny-player-init] :is(.bunny-player__placeholder, .bunny-player__dark, .bunny-player__playpause, .bunny-player__loading) {
+  transition: opacity 0.3s linear, visibility 0.3s linear;
+}
+
+/* Placeholder */
+[data-bunny-player-init][data-player-status="playing"] .bunny-player__placeholder,
+[data-bunny-player-init][data-player-status="paused"] .bunny-player__placeholder,
+[data-bunny-player-init][data-player-activated="true"][data-player-status="ready"] .bunny-player__placeholder {
+  opacity: 0;
+  visibility: hidden;
+}
+
+/* Dark Overlay */
+[data-bunny-player-init][data-player-status="paused"] .bunny-player__dark,
+[data-bunny-player-init][data-player-status="playing"][data-player-hover="active"] .bunny-player__dark {
+  opacity: 0.3;
+}
+
+[data-bunny-player-init][data-player-status="playing"] .bunny-player__dark {
+  opacity: 0;
+}
+
+/* Play/Pause */
+[data-bunny-player-init][data-player-status="playing"] .bunny-player__playpause,
+[data-bunny-player-init][data-player-status="loading"] .bunny-player__playpause {
+  opacity: 0;
+}
+
+[data-bunny-player-init][data-player-status="playing"][data-player-hover="active"] .bunny-player__playpause {
+  opacity: 1;
+}
+
+[data-bunny-player-init][data-player-status="playing"] .bunny-player__play-svg,
+[data-bunny-player-init][data-player-status="loading"] .bunny-player__play-svg {
+  display: none;
+}
+
+[data-bunny-player-init][data-player-status="playing"] .bunny-player__pause-svg,
+[data-bunny-player-init][data-player-status="loading"] .bunny-player__pause-svg {
+  display: block;
+}
+
+/* Loading */
+[data-bunny-player-init][data-player-status="loading"] .bunny-player__loading {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Interface */
+.bunny-player__interface {
+  transition: all 0.6s cubic-bezier(0.625, 0.05, 0, 1);
+}
+
+[data-bunny-player-init][data-player-status="playing"] .bunny-player__interface,
+[data-bunny-player-init][data-player-status="loading"] .bunny-player__interface {
+  opacity: 0;
+  transform: translateY(1em) rotate(0.001deg);
+}
+
+[data-bunny-player-init][data-player-status="playing"][data-player-hover="active"] .bunny-player__interface,
+[data-bunny-player-init][data-player-status="loading"][data-player-hover="active"] .bunny-player__interface {
+  opacity: 1;
+  transform: translateY(0em) rotate(0.001deg);
+}
+
+/* Timeline */
+[data-bunny-player-init][data-player-status="idle"][data-player-activated="false"] .bunny-player__timeline,
+[data-bunny-player-init][data-player-status="ready"][data-player-activated="false"] .bunny-player__timeline {
+  pointer-events: none;
+}
+
+/* Timeline Handle */
+[data-bunny-player-init] .bunny-player__timeline-handle {
+  transition: transform 0.15s ease-in-out;
+}
+
+[data-bunny-player-init][data-timeline-drag="true"] .bunny-player__timeline-handle {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+/* Fullscreen */
+[data-bunny-player-init][data-player-fullscreen="true"] .bunny-player__fullscreen-shrink-svg {
+  display: block;
+}
+
+[data-bunny-player-init][data-player-fullscreen="true"] .bunny-player__fullscreen-scale-svg {
+  display: none;
+}
+
+/* Mute */
+[data-bunny-player-init][data-player-muted="true"] .bunny-player__volume-mute-svg {
+  display: block;
+}
+
+[data-bunny-player-init][data-player-muted="true"] .bunny-player__volume-up-svg {
+  display: none;
+}
+
+/* Cover Mode */
+[data-bunny-player-init][data-player-update-size="cover"] {
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+[data-bunny-player-init][data-player-update-size="cover"] [data-player-before] {
+  display: none;
+}
+
+[data-bunny-player-init][data-player-update-size="cover"][data-player-fullscreen="false"] .bunny-player__video {
+  object-fit: cover;
+}
+
+/* ========================== */
+/* CONFIGURATOR — STATES      */
+/* Add to your Slater CSS     */
+/* ========================== */
+
+.config-media__slider img,
+.config-media__slider video {
+  draggable: false;
+  user-select: none;
+  -webkit-user-drag: none;
+  pointer-events: none;
+}
+
+.config-highlights__wrap[data-config-highlights-list] {
+  display: none;
+}
+
+/* Toon alleen de lijst die matcht met geselecteerde edition */
+.config-highlights__wrap[data-config-highlights-list].is-visible {
+  display: flex;
+}
+
+/* Active state */
+.config-option.is-active {
+  border-color: var(--_colors---swatch--black);
+  border-width: 1.5px;
+}
+
+/* Hover (only on pointer devices) */
+@media (hover: hover) and (pointer: fine) {
+  .config-option:not(.is-disabled):not(.is-active):hover {
+    border-color: var(--_colors---swatch--light-grey);
+    background-color: rgba(0, 0, 0, 0.015);
+  }
+
+  .config-reserve-btn:hover {
+    transform: scale(0.97);
+  }
+
+  .config-waitlist-form__submit:hover {
+    transform: scale(0.98);
+  }
+}
+
+/* Disabled state */
+.config-option.is-disabled {
+  opacity: 0.3;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
+/* Transitions on options */
+.config-option {
+  transition:
+    border-color 0.3s cubic-bezier(0.625, 0.05, 0, 1),
+    border-width 0.3s cubic-bezier(0.625, 0.05, 0, 1),
+    background-color 0.3s cubic-bezier(0.625, 0.05, 0, 1),
+    opacity 0.3s cubic-bezier(0.625, 0.05, 0, 1);
+}
+
+/* Color options: row layout */
+.config-step__options--color,
+.config-step[data-config-step="color"] .config-step__options {
+  flex-direction: row;
+  gap: 0.75em;
+}
+
+@media screen and (max-width: 479px) {
+
+  .config-step__options--color,
+  .config-step[data-config-step="color"] .config-step__options {
+    flex-direction: column;
+  }
+}
+
+/* Step enter animation */
+.config-step.is-entering {
+  animation: configStepIn 0.55s cubic-bezier(0.625, 0.05, 0, 1) forwards;
+}
+
+@keyframes configStepIn {
+  from {
+    opacity: 0;
+    transform: translateY(0.75em);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Reserve button transition */
+.config-reserve-btn {
+  transition:
+    transform 0.35s cubic-bezier(0.625, 0.05, 0, 1),
+    opacity 0.35s cubic-bezier(0.625, 0.05, 0, 1);
+}
+
+/* Form focus states */
+.config-waitlist-form__input:focus,
+.config-waitlist-form__select:focus {
+  border-color: var(--_colors---swatch--black);
+  outline: none;
+}
+
+.config-waitlist-form__input::placeholder {
+  color: inherit;
+  opacity: 0.35;
+}
+
+/* -----------------------------------------
+   CONFIG LIGHTBOX
+   Plak dit in Webflow > Site Settings > Custom Code > Head
+   of in een Page-level embed.
+   ----------------------------------------- */
+
+/* Container — verborgen by default, JS zet display:flex bij openen */
+.config-lb {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: #f5f3ef;
+  /* achtergrondkleur van de site */
+  display: none;
+  opacity: 0;
+  overflow: hidden;
+}
+
+/* Afbeelding — volledig schermvullend, aangemaakt door JS */
+.config-lb__img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  user-select: none;
+  -webkit-user-drag: none;
+  cursor: zoom-in;
+  transform-origin: 50% 50%;
+  will-change: transform;
+}
+
+/* Tablet en mobiel: image contain in plaats van cover */
+@media (max-width: 991px) {
+  .config-lb__img {
+    object-fit: contain;
+    cursor: default; /* zoom-in click is desktop-only */
+  }
+}
+
+/* Voorkom dat de browser z'n eigen pinch-zoom/scroll uitvoert
+   en de custom pinch-handler overschrijft */
+.config-lb {
+  touch-action: none;
+  -webkit-overflow-scrolling: auto;
+  overscroll-behavior: contain;
+}
+
+/* Sluitknop — bovenin gecentreerd, boven de afbeelding */
+.config-lb__close {
+  position: absolute;
+  top: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  padding: 0.5em 1em;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: currentColor;
+  white-space: nowrap;
+  transition: opacity 0.15s;
+}
+
+.config-lb__close:hover {
+  opacity: 0.5;
+}
+
+.config-lb__close-icon {
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+}
+
+.config-lb__close-label {
+  display: inline-block;
+}
+
+/* Teller — 01 / 12 */
+.config-lb__counter {
+  font-family: inherit;
+  color: currentColor;
+  opacity: 0.6;
+}
+
+/* ========================== */
+/* STICKY SUMMARY BAR         */
+/* Add to your Slater CSS     */
+/* ========================== */
+
+.config-sticky-bar {
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  pointer-events: none;
+  opacity: 0;
+  transform: translateY(100%);
+  transition:
+    opacity 0.5s cubic-bezier(0.625, 0.05, 0, 1),
+    transform 0.5s cubic-bezier(0.625, 0.05, 0, 1);
+}
+
+.config-sticky-bar.is-visible {
+  opacity: 1;
+  transform: translateY(0%);
+  pointer-events: auto;
+}
+
+.config-sticky-bar__inner {
+  background-color: var(--_colors---swatch--off-white, #f5f3ef);
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 1.25em;
+}
+
+.config-sticky-bar__info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15em;
+}
+
+.config-sticky-bar__label {
+  opacity: 0.45;
+  margin: 0;
+}
+
+.config-sticky-bar__config {
+  font-weight: 500;
+  margin: 0;
+}
+
+.config-sticky-bar__divider {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.08);
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+}
+
+.config-sticky-bar__delivery {
+  font-weight: 500;
+  margin: 0;
+}
+
+.config-sticky-bar__pay {
+  opacity: 0.55;
+  margin: 0;
+}
+
+.config-sticky-bar__voucher {
+  opacity: 0.45;
+  margin: 0;
+}
+
+.config-sticky-bar__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 1.1em 2em;
+  border-radius: 1em;
+  background-color: #121714;
+  color: #f5f3ef;
+  font-size: 1.125em;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.35s cubic-bezier(0.625, 0.05, 0, 1);
+}
+
+.config-sticky-bar__btn:hover {
+  transform: scale(0.98);
+}
+
+@media screen and (max-width: 479px) {
+  .config-sticky-bar__inner {
+    gap: 1em;
+  }
+
+  .config-sticky-bar__btn {
+    font-size: 1em;
+    padding: 1em 1.5em;
+  }
+}
+
+/* Lightbox */
+[data-bunny-lightbox-status] .bunny-lightbox__calc {
+  transition: transform 0.3s cubic-bezier(0.625, 0.05, 0, 1), opacity 0.3s linear, visibility 0.3s linear;
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(0.9) rotate(0.001deg);
+}
+
+[data-bunny-lightbox-status="active"] .bunny-lightbox__calc {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1) rotate(0.001deg);
+}
+
+[data-bunny-lightbox-status] .bunny-lightbox__dark,
+[data-bunny-lightbox-status] .bunny-lightbox__close {
+  transition: opacity 0.3s linear, visibility 0.3s linear;
+  opacity: 0;
+  visibility: hidden;
+}
+
+[data-bunny-lightbox-status="active"] .bunny-lightbox__dark,
+[data-bunny-lightbox-status="active"] .bunny-lightbox__close {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Animation */
+[data-bunny-lightbox-init] :is(.bunny-lightbox-player__placeholder, .bunny-lightbox-player__dark, .bunny-lightbox-player__playpause, .bunny-lightbox-player__loading) {
+  transition: opacity 0.3s linear, visibility 0.3s linear;
+}
+
+/* Placeholder */
+[data-bunny-lightbox-init][data-player-status="playing"] .bunny-lightbox-player__placeholder,
+[data-bunny-lightbox-init][data-player-status="paused"] .bunny-lightbox-player__placeholder,
+[data-bunny-lightbox-init][data-player-activated="true"][data-player-status="ready"] .bunny-lightbox-player__placeholder {
+  opacity: 0;
+  visibility: hidden;
+}
+
+/* Dark Overlay */
+[data-bunny-lightbox-init][data-player-status="paused"] .bunny-lightbox-player__dark,
+[data-bunny-lightbox-init][data-player-status="playing"][data-player-hover="active"] .bunny-lightbox-player__dark {
+  opacity: 0.3;
+}
+
+[data-bunny-lightbox-init][data-player-status="playing"] .bunny-lightbox-player__dark {
+  opacity: 0;
+}
+
+/* Play/Pause */
+[data-bunny-lightbox-init][data-player-status="playing"] .bunny-lightbox-player__playpause,
+[data-bunny-lightbox-init][data-player-status="loading"] .bunny-lightbox-player__playpause {
+  opacity: 0;
+}
+
+[data-bunny-lightbox-init][data-player-status="playing"][data-player-hover="active"] .bunny-lightbox-player__playpause {
+  opacity: 1;
+}
+
+[data-bunny-lightbox-init][data-player-status="playing"] .bunny-lightbox-player__play-svg,
+[data-bunny-lightbox-init][data-player-status="loading"] .bunny-lightbox-player__play-svg {
+  display: none;
+}
+
+[data-bunny-lightbox-init][data-player-status="playing"] .bunny-lightbox-player__pause-svg,
+[data-bunny-lightbox-init][data-player-status="loading"] .bunny-lightbox-player__pause-svg {
+  display: block;
+}
+
+/* Loading */
+[data-bunny-lightbox-init][data-player-status="loading"] .bunny-lightbox-player__loading {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Interface */
+.bunny-lightbox-player__interface {
+  transition: all 0.6s cubic-bezier(0.625, 0.05, 0, 1);
+}
+
+[data-bunny-lightbox-init][data-player-status="playing"] .bunny-lightbox-player__interface,
+[data-bunny-lightbox-init][data-player-status="loading"] .bunny-lightbox-player__interface {
+  opacity: 0;
+  transform: translateY(1em) rotate(0.001deg);
+}
+
+[data-bunny-lightbox-init][data-player-status="playing"][data-player-hover="active"] .bunny-lightbox-player__interface,
+[data-bunny-lightbox-init][data-player-status="loading"][data-player-hover="active"] .bunny-lightbox-player__interface {
+  opacity: 1;
+  transform: translateY(0em) rotate(0.001deg);
+}
+
+/* Timeline */
+[data-bunny-lightbox-init][data-player-status="idle"][data-player-activated="false"] .bunny-lightbox-player__timeline,
+[data-bunny-lightbox-init][data-player-status="ready"][data-player-activated="false"] .bunny-lightbox-player__timeline {
+  pointer-events: none;
+}
+
+/* Timeline Handle */
+[data-bunny-lightbox-init] .bunny-lightbox-player__timeline-handle {
+  transition: transform 0.15s ease-in-out;
+}
+
+[data-bunny-lightbox-init][data-timeline-drag="true"] .bunny-lightbox-player__timeline-handle {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+/* Fullscreen */
+[data-bunny-lightbox-init][data-player-fullscreen="true"] .bunny-lightbox-player__fullscreen-shrink-svg {
+  display: block;
+}
+
+[data-bunny-lightbox-init][data-player-fullscreen="true"] .bunny-lightbox-player__fullscreen-scale-svg {
+  display: none;
+}
+
+/* Mute */
+[data-bunny-lightbox-init][data-player-muted="true"] .bunny-lightbox-player__volume-mute-svg {
+  display: block;
+}
+
+[data-bunny-lightbox-init][data-player-muted="true"] .bunny-lightbox-player__volume-up-svg {
+  display: none;
+}
+
+/* Cover Mode */
+[data-bunny-lightbox-init][data-player-update-size="cover"] {
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+[data-bunny-lightbox-init][data-player-update-size="cover"] [data-player-before] {
+  display: none;
+}
+
+[data-bunny-lightbox-init][data-player-update-size="cover"][data-player-fullscreen="false"] .bunny-lightbox-player__video {
+  object-fit: cover;
+}
+
+/* -----------------------------------------
+   SWIPER CORE
+----------------------------------------- */
+.swiper-wrapper {
+  display: flex;
+  align-items: stretch;
+}
+
+.swiper-slide {
+  box-sizing: border-box;
+  flex-shrink: 0;
+  height: auto;
+}
+
+@media (hover: hover) {
+  .swiper-slide:not(.is--basic) .image {
+    transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+    will-change: transform;
+  }
+
+  .swiper-slide:not(.is--basic):hover .image {
+    transform: scale(1.05);
+  }
+}
+
+
+
+/* -----------------------------------------
+   SLIDE VARIANTEN
+----------------------------------------- */
+
+/* Large — portrait op mobile, tussenstap op tablet, square op desktop */
+.swiper-slide--large .swiper-slide_card {
+  aspect-ratio: 3 / 4;
+}
+
+/* Wide — portrait op mobile, landscape vanaf tablet */
+.swiper-slide--wide .swiper-slide_card {
+  aspect-ratio: 3 / 4;
+}
+
+/* -----------------------------------------
+   RESPONSIVE OVERRIDES
+----------------------------------------- */
+
+/* Tablet (matcht Swiper breakpoint 768px) */
+@media (min-width: 768px) {
+  .swiper-slide--large .swiper-slide_card {
+    aspect-ratio: 4 / 5;
+  }
+
+  .swiper-slide--wide .swiper-slide_card {
+    aspect-ratio: 4 / 3;
+  }
+}
+
+/* Desktop (matcht Swiper breakpoint 992px) */
+@media (min-width: 992px) {
+  .swiper-slide--large .swiper-slide_card {
+    aspect-ratio: 1 / 1;
+  }
+
+  .swiper-slide--wide .swiper-slide_card {
+    aspect-ratio: 16 / 9;
+  }
+
+  /* Stacked variant alleen actief op desktop */
+  .swiper-slide--stacked {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    aspect-ratio: 1 / 1;
+  }
+
+  .swiper-slide__item {
+    flex: 1;
+    min-height: 0;
+    overflow: hidden;
+    border-radius: 0.5em;
+  }
+
+  .swiper-slide__item .swiper-slide_card {
+    aspect-ratio: unset;
+    height: 100%;
+    border-radius: 0;
+  }
+}
+
+/* -----------------------------------------
+   NAVIGATION
+----------------------------------------- */
+
+.swiper-navigation {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 4em;
+}
+
+.swiper-buttons__group {
+  display: flex;
+  gap: 0.5em;
+}
+
+.swiper-class-button {
+  display: flex;
+  width: 2.5em;
+  height: 2.5em;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100vw;
+  background-position: 50% 50%;
+  background-size: 30%;
+  background-repeat: no-repeat;
+  transition: all 450ms cubic-bezier(0.19, 1, 0.22, 1);
+  cursor: pointer;
+}
+
+.swiper-class-button.is-prev {
+  transform: rotate(180deg);
+}
+
+.swiper-button-disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+/* -----------------------------------------
+   INDICATOR
+----------------------------------------- */
+
+.swiper-indicator {
+  width: 100%;
+  height: 2px;
+  background-color: rgba(0, 0, 0, 0.12);
+}
+
+.swiper-indicator_fill {
+  width: 0%;
+  height: 100%;
+  background-color: currentColor;
+  transition: width 0.4s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+/* COMPONENT WRAPPER */
+
+.swiper-component {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+/* Forceer override van Swiper's eigen overflow */
+.swiper.swiper-initialized {
+  overflow: visible !important;
+}
+
+/* Clip zit op de wrapper */
+.swiper-clip {
+  overflow: hidden;
+  width: 100%;
+}
+
+/* MODAL */
+
+[data-modal-group-status] {
+  transition: all 0.2s linear;
+}
+
+[data-modal-group-status="active"] {
+  opacity: 1;
+  visibility: visible;
+}
+
+[data-modal-name][data-modal-status="active"] {
+  display: flex;
+}
+
+/* -----------------------------------------
+   MODAL CARD — basis verborgen state
+----------------------------------------- */
+
+.modal__card {
+  display: flex;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.modal-group.is-full .modal__card {
+  transform: translateY(100%);
+  transition: transform 0.5s cubic-bezier(0.625, 0.05, 0, 1), visibility 0.5s;
+}
+
+.modal-group.is-full .modal__card[data-modal-status="active"] {
+  transform: translateY(0%);
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.modal-group.is-split .modal__card {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.5s cubic-bezier(0.625, 0.05, 0, 1), transform 0.5s cubic-bezier(0.625, 0.05, 0, 1), visibility 0.5s;
+}
+
+.modal-group.is-split .modal__card[data-modal-status="active"] {
+  opacity: 1;
+  transform: translateY(0);
+  visibility: visible;
+  pointer-events: auto;
+}
+
+/* SVG ring — absoluut over de button heen */
+.modal__btn-close-progress {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  transform: rotate(-90deg);
+  /* start bovenaan zoals een klok */
+  pointer-events: none;
+}
+
+/* Achtergrond ring */
+.modal__btn-close-track {
+  fill: none;
+  stroke: rgba(0, 0, 0, 0.12);
+  stroke-width: 2.5;
+}
+
+/* Vullende ring */
+.modal__btn-close-fill {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 2.5;
+  stroke-linecap: round;
+  stroke-dasharray: 138.23;
+  /* 2 * π * 22 */
+  stroke-dashoffset: 138.23;
+  /* start leeg */
+  transition: stroke-dashoffset 0.1s linear;
+}
+
+[data-media-status="playing"] .cover-video,
+[data-media-status="ended"] .cover-video {
+  opacity: 1;
+}
+
+[data-media-status="playing"] [data-media-placeholder],
+[data-media-status="ended"] [data-media-placeholder] {
+  opacity: 0;
+}
+
+/* -----------------------------------------
+   USP TITLE STATE
+----------------------------------------- */
+.usp__title {
+  transition: opacity 0.4s ease, color 0.4s ease;
+  color: rgba(18, 23, 20, 0.2);
+}
+
+.usp__item.is-active .usp__title {
+  color: rgba(18, 23, 20, 1);
+}
+
+/* ------------------------- USP HERO HANDOFF / TRANSITION -------------------------------------------------- */
+
+.usp__transition {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  pointer-events: none;
+  opacity: 0;
+  visibility: hidden;
+  will-change: opacity, visibility;
+}
+
+.usp__transition.is-active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.usp__transition-card {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  border-radius: 0;
+  clip-path: inset(0% 0% 0% 0% round 0px);
+  will-change: transform, width, height, clip-path, border-radius, opacity;
+  transform: translate3d(0, 0, 0);
+  transform-origin: top left;
+  backface-visibility: hidden;
+}
+
+.usp__transition-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  user-select: none;
+  -webkit-user-drag: none;
+  pointer-events: none;
+}
+
+@media screen and (max-width: 991px) {
+  .usp__transition {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  [data-usp] {
+    position: relative;
+    margin-top: -16vh;
+    padding-top: 16vh;
+    z-index: 2;
+  }
+
+  .usp__media-sticky {
+    top: clamp(4rem, 7vh, 7rem);
+  }
+}
+
+/* -----------------------------------------
+   HERO — tablet & mobile fallback
+   Vanaf < 992px altijd video, nooit canvas
+----------------------------------------- */
+@media screen and (max-width: 991px) {
+
+  .hero,
+  .hero__sticky {
+    min-height: 100svh;
+  }
+
+  .hero__video {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .hero__video .cover-media,
+  .hero__video .cover-video,
+  .hero__video [data-media-init] {
+    width: 100%;
+    height: 100%;
+  }
+
+  .hero__video .cover-video,
+  .hero__video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .hero__canvas {
+    opacity: 0 !important;
+    visibility: hidden !important;
+    pointer-events: none !important;
+  }
+
+  .hero__overlay {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: none !important;
+  }
+
+  .nav {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: translate3d(0, 0, 0) !important;
+  }
+}
+
+/* -----------------------------------------
+   FEATURE PILLS
+----------------------------------------- */
+/* Max width of expanded pill/content */
+[data-feature-pills-init] {
+  --content-item-expanded: 25em;
+}
+
+@media screen and (max-width: 991px) {
+  [data-feature-pills-init] {
+    --content-item-expanded: calc(50% - 0.5em);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  [data-feature-pills-init] {
+    --content-item-expanded: 100%;
+  }
+}
+
+/* Default state + transition */
+[data-feature-pills-button] {
+  opacity: 1;
+  transition: opacity 400ms ease-in-out 300ms;
+}
+
+[data-feature-pills-inner] {
+  opacity: 0;
+  transition: opacity 300ms ease-in-out 0ms;
+}
+
+[data-feature-pills-cover] {
+  opacity: 1;
+  transition: opacity 350ms ease-in-out;
+}
+
+/* Active Pill */
+[data-feature-pills-item][data-active="true"] [data-feature-pills-button] {
+  opacity: 0;
+  transition: opacity 50ms ease-in-out 0ms;
+}
+
+[data-feature-pills-item][data-active="true"] [data-feature-pills-inner] {
+  opacity: 1;
+}
+
+/* Active Visual */
+[data-feature-pills-visual][data-active="true"] {
+  opacity: 1;
+}
+
+[data-feature-pills-cover][data-active="false"] {
+  opacity: 0;
+}
+
+/* Close button */
+[data-feature-pills-close] {
+  transform: scale(0) rotate(135deg);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 500ms cubic-bezier(.7, 0, .3, 1);
+}
+
+[data-feature-pills-active="true"] [data-feature-pills-close] {
+  transform: scale(1) rotate(45deg);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* 'edit' mode where buttons are hidden and inner content is shown */
+[data-feature-pills-init][data-edit-mode="true"] [data-feature-pills-collection] {
+  overflow: auto;
+  justify-content: start;
+}
+
+[data-feature-pills-init][data-edit-mode="true"] [data-feature-pills-button] {
+  display: none;
+}
+
+[data-feature-pills-init][data-edit-mode="true"] [data-feature-pills-content] {
+  position: relative;
+  pointer-events: auto;
+}
+
+[data-feature-pills-init][data-edit-mode="true"] [data-feature-pills-inner] {
+  opacity: 1;
+  transform: translate(0px, 0em);
+}
+
+/* ===========================================
+   LIGHTBOX
+   De lightbox HTML wordt dynamisch aangemaakt
+   via JS — deze CSS polt de inline styles aan
+   met hover states en transitions.
+   =========================================== */
+
+/* Close button hover */
+.config-lightbox__close {
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+
+.config-lightbox__close:hover {
+  background: rgba(255, 255, 255, 0.2) !important;
+  transform: scale(1.1);
+}
+
+/* Stage: voorkomt dat afbeelding buiten de box uitpiept */
+.config-lightbox__stage {
+  user-select: none;
+}
+
+/* Afbeelding in lightbox */
+.config-lightbox__img {
+  will-change: transform;
+  transform-origin: center center;
+  /* Geen pointer-events blokkeren — lightbox klik moet door */
+}
+
+/* Thumb knoppen */
+.config-lightbox__thumb {
+  transition: border-color 0.15s ease, opacity 0.15s ease, transform 0.1s ease;
+}
+
+.config-lightbox__thumb:hover {
+  opacity: 0.75 !important;
+  transform: scale(1.06);
+}
+
+/* Cursor tijdens zoom */
+.config-lightbox__stage[style*="zoom-in"] .config-lightbox__img {
+  cursor: zoom-in;
+}
+
+.config-lightbox__stage[style*="grab"] .config-lightbox__img {
+  cursor: grab;
+}
+
+.config-lightbox__stage[style*="grab"]:active .config-lightbox__img {
+  cursor: grabbing;
+}
+
+/* ===========================================
+   RESPONSIVE
+   =========================================== */
+
+@media (max-width: 767px) {
+  .config-media {
+    gap: 0.5rem;
+  }
+
+  .config-media__arrow {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .config-media__arrow svg {
+    width: 12px;
+    height: 12px;
+  }
+
+  /* Thumbnails iets kleiner op mobile */
+  .config-lightbox__thumb {
+    width: 2.5rem !important;
+    height: 2.5rem !important;
+  }
+}
+
+/* ===========================================
+   FORM
+   =========================================== */
+
+/* Vinkje verborgen als de checkbox niet aangevinkt is */
+[data-form-validate] .radiocheck-field .radiocheck-check-svg {
+  opacity: 0;
+}
+
+/* Vinkje zichtbaar zodra de checkbox aangevinkt is */
+[data-form-validate] .radiocheck-field input:checked~.radiocheck-custom .radiocheck-check-svg {
+  opacity: 1;
+}
+
+/* Field: Error */
+[data-validate].is--error input,
+[data-validate].is--error textarea,
+[data-validate].is--error select {
+  border-color: #FF4C24;
+}
+
+[data-validate].is--error .form-field-icon.is--error,
+[data-validate].is--error .radiocheck-field-icon.is--error {
+  opacity: 1;
+}
+
+/* Field: Success */
+[data-validate].is--success .form-field-icon.is--success,
+[data-validate].is--success .radiocheck-field-icon.is--success {
+  opacity: 1;
+}
+
+/* Field: Custom Radio or Checkbox */
+[data-form-validate] .radiocheck-field input:focus-visible~.radiocheck-custom {
+  background-color: #D0CFCD;
+  color: #E2E1DF;
+}
+
+[data-form-validate] .radiocheck-field input:focus-visible:checked~.radiocheck-custom,
+[data-form-validate] .radiocheck-field input:checked~.radiocheck-custom {
+  background-color: #131313;
+  color: #EFEEEC;
+}
+
+[data-form-validate] .radiocheck-field .radiocheck-label.is--small {
+  margin-top: 0.125em;
+}
+
+[data-validate].is--error .radiocheck-custom {
+  border-color: #FF4C24;
+}
+
+[data-validate].is--error input:checked~.radiocheck-custom {
+  border-color: #131313;
+}
+
+/* Field: Select */
+[data-form-validate] select:has(option[value=""]:checked) {
+  color: rgba(19, 19, 19, 0.3);
+}
+
+/* ------------------------- SWAP CLOCK -------------------------------------------------- */
+
+[data-swap-clock-needle] {
+  transform-box: fill-box;
+  transform-origin: 841.5px 127.5px;
+  will-change: transform;
+}
+
+.swap-clock[data-swap-clock] .swap-clock__item {
+  overflow: visible !important;
+}
+
+
+/* ------------------------- SROLL DOWN INDICATOR -------------------------------------------------- */
+
+.scrolldown-indicator__svg path {
+  opacity: 0;
+  animation: scrolldown-wave 1.8s cubic-bezier(0.45, 0, 0.55, 1) infinite;
+}
+
+.scrolldown-indicator__svg path:nth-child(1) { animation-delay: 0s; }
+.scrolldown-indicator__svg path:nth-child(2) { animation-delay: 0.25s; }
+
+@keyframes scrolldown-wave {
+  0%   { opacity: 0; transform: translateY(-6px); }
+  45%  { opacity: 1; transform: translateY(0); }
+  75%  { opacity: 1; transform: translateY(2px); }
+  100% { opacity: 0; transform: translateY(8px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .scrolldown-indicator__svg path { animation: none; opacity: 1; }
+}
+

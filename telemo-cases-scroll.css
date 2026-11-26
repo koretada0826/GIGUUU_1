@@ -1,0 +1,123 @@
+/* Circular use-case cards, scoped to the existing TELEMO section. */
+.page-home main > #telemo-cases { background: #fff; }
+
+.page-home #telemo-cases .lpsr-cases-scroll {
+  grid-template-columns: none;
+  grid-auto-flow: column;
+  grid-auto-columns: calc((100% - 96px) / 4.25);
+  gap: 24px;
+  max-width: 1090px;
+  margin: 56px auto 0;
+  padding: 4px 0 20px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: thin;
+  scrollbar-color: #007e8d #edf3f5;
+  -webkit-overflow-scrolling: touch;
+}
+.page-home #telemo-cases .lpsr-cases-scroll:focus-visible {
+  outline: 2px solid #007e8d;
+  outline-offset: -2px;
+}
+.page-home #telemo-cases .telemo-cases__card {
+  align-items: center;
+  padding: 0;
+  overflow: visible;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  text-align: center;
+  scroll-snap-align: start;
+}
+.page-home #telemo-cases .telemo-cases__card img {
+  order: 0;
+  width: min(270px, 100%);
+  height: auto;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.page-home #telemo-cases .telemo-cases__card-head {
+  position: relative;
+  z-index: 1;
+  order: 1;
+  display: block;
+  flex: 0 0 auto;
+  width: fit-content;
+  max-width: 100%;
+  height: auto;
+  min-height: 0;
+  margin-top: -8px;
+  padding: 9px 17px;
+  border-radius: 8px;
+  background: #007e8d;
+  transform: rotate(-3deg);
+}
+.page-home #telemo-cases .telemo-cases__card-head::after {
+  content: "";
+  position: absolute;
+  left: 25px;
+  bottom: -9px;
+  border: 10px solid transparent;
+  border-top-color: #007e8d;
+  border-bottom: 0;
+}
+.page-home #telemo-cases .telemo-cases__card:nth-child(even) .telemo-cases__card-head {
+  transform: rotate(3deg);
+}
+.page-home #telemo-cases .telemo-cases__card-head span { display: none; }
+.page-home #telemo-cases .telemo-cases__card-head h3 {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 1.55;
+  letter-spacing: .02em;
+}
+.page-home #telemo-cases .telemo-cases__card p {
+  order: 2;
+  max-width: 290px;
+  min-height: 0;
+  margin: 25px auto 0;
+  padding: 0;
+  color: #102d40;
+  font-size: 14px;
+  line-height: 1.9;
+}
+@media (min-width: 601px) and (max-width: 900px) {
+  .page-home #telemo-cases .lpsr-cases-scroll {
+    grid-auto-columns: calc((100% - 50px) / 2.25);
+    gap: 25px;
+  }
+}
+@media (max-width: 600px) {
+  .page-home #telemo-cases .lpsr-cases-scroll {
+    grid-template-columns: none;
+    grid-auto-flow: column;
+    grid-auto-columns: min(72vw, 280px);
+    gap: 12px;
+    max-width: none;
+    margin: 42px calc(var(--page-padding) * -1) 0;
+    padding: 0 var(--page-padding) 20px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    overscroll-behavior-x: contain;
+    scroll-padding-inline: var(--page-padding);
+    scroll-snap-type: x mandatory;
+    scrollbar-width: thin;
+    scrollbar-color: #007e8d #edf3f5;
+    -webkit-overflow-scrolling: touch;
+  }
+  .page-home #telemo-cases .lpsr-cases-scroll:focus-visible {
+    outline: 2px solid #007e8d;
+    outline-offset: -2px;
+  }
+  .page-home #telemo-cases .telemo-cases__card { scroll-snap-align: start; }
+  .page-home #telemo-cases .telemo-cases__card img { width: min(235px, 100%); }
+  .page-home #telemo-cases .telemo-cases__card p {
+    max-width: 270px;
+    margin-top: 20px;
+    font-size: 13px;
+  }
+}

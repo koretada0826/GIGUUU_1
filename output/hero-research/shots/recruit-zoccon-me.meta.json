@@ -1,0 +1,249 @@
+{
+ "slug": "recruit-zoccon-me",
+ "url": "https://recruit.zoccon.me/",
+ "capturedAt": "2026-10-12 21:08:39",
+ "files": {
+  "pc_f0": "recruit-zoccon-me-pc-f0.jpg",
+  "pc_f1": "recruit-zoccon-me-pc-f1.jpg",
+  "pc_f2": "recruit-zoccon-me-pc-f2.jpg",
+  "pc_scroll": "recruit-zoccon-me-pc-scroll.jpg",
+  "sp": "recruit-zoccon-me-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://recruit.zoccon.me/",
+  "title": "株式会社ON 採用サイト | ON CO.LTD. RECRUITMENT",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 19568,
+  "h1": "",
+  "h1Style": {
+   "fontFamily": "\"Noto Sans JP\", sans-serif",
+   "fontSize": "16px",
+   "fontWeight": "900",
+   "lineHeight": "16px",
+   "letterSpacing": "normal",
+   "color": "rgb(0, 0, 0)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 478,
+    "y": 18,
+    "w": 485,
+    "h": 429
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "RECRUITMENT ON CO.LTD."
+  ],
+  "videos": [],
+  "canvases": [
+   {
+    "w": 1440,
+    "h": 900
+   },
+   {
+    "w": 1440,
+    "h": 80
+   },
+   {
+    "w": 1440,
+    "h": 80
+   },
+   {
+    "w": 1440,
+    "h": 80
+   }
+  ],
+  "images": [
+   {
+    "src": "https://recruit.zoccon.me/assets/img/common/typo/chara_do.webp",
+    "w": 109,
+    "h": 129,
+    "alt": "DO"
+   },
+   {
+    "src": "https://recruit.zoccon.me/assets/img/common/typo/chara_more.webp",
+    "w": 108,
+    "h": 118,
+    "alt": "MORE"
+   },
+   {
+    "src": "https://recruit.zoccon.me/assets/img/common/typo/chara_neo.webp",
+    "w": 131,
+    "h": 144,
+    "alt": "NEO"
+   },
+   {
+    "src": "https://recruit.zoccon.me/assets/img/common/typo/chara_zocc.webp",
+    "w": 139,
+    "h": 149,
+    "alt": "ZOCC"
+   },
+   {
+    "src": "https://recruit.zoccon.me/assets/img/common/entry.svg",
+    "w": 166,
+    "h": 166,
+    "alt": "ENTRY エントリー"
+   },
+   {
+    "src": "https://recruit.zoccon.me/assets/img/1_top/1_our_identity/catch_loading_pc.svg",
+    "w": 485,
+    "h": 429,
+    "alt": "UNLOCK YOUR FANTASY. 可能性を、解き放て。"
+   },
+   {
+    "src": "https://recruit.zoccon.me/assets/img/1_top/1_our_identity/catch_static1_pc.svg",
+    "w": 485,
+    "h": 429,
+    "alt": "UNLOCK YOUR FANTASY. 可能性を、解き放て。"
+   },
+   {
+    "src": "https://recruit.zoccon.me/assets/img/1_top/1_our_identity/chara_pc.webp",
+    "w": 1104,
+    "h": 1006,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [
+   {
+    "bg": "url(\"https://recruit.zoccon.me/assets/img/5_entry/icon2_l.webp\")",
+    "w": 80,
+    "h": 80
+   }
+  ],
+  "firstScreenFonts": [
+   "futura-pt-condensed",
+   "Noto Sans JP"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(235, 235, 235)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 350,
+ "sp": {
+  "h1": "",
+  "h1Style": {
+   "fontFamily": "\"Noto Sans JP\", sans-serif",
+   "fontSize": "14px",
+   "fontWeight": "900",
+   "lineHeight": "14px",
+   "letterSpacing": "normal",
+   "color": "rgb(0, 0, 0)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 93,
+    "y": 42,
+    "w": 204,
+    "h": 190
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "OUR IDENTITY",
+   "CREATORS",
+   "CULTURES",
+   "ENTRY",
+   "HOME"
+  ],
+  "videos": [],
+  "canvases": [
+   {
+    "w": 390,
+    "h": 844
+   },
+   {
+    "w": 390,
+    "h": 844
+   },
+   {
+    "w": 390,
+    "h": 50
+   },
+   {
+    "w": 390,
+    "h": 50
+   },
+   {
+    "w": 390,
+    "h": 50
+   }
+  ],
+  "images": [
+   {
+    "src": "https://recruit.zoccon.me/assets/img/common/nav_chara.webp",
+    "w": 298,
+    "h": 305,
+    "alt": ""
+   },
+   {
+    "src": "https://recruit.zoccon.me/assets/img/common/fx/fx2_bmp/fx2_13_sp.webp",
+    "w": 203,
+    "h": 276,
+    "alt": ""
+   },
+   {
+    "src": "https://recruit.zoccon.me/assets/img/common/typo/chara_do.webp",
+    "w": 66,
+    "h": 77,
+    "alt": "DO"
+   },
+   {
+    "src": "https://recruit.zoccon.me/assets/img/common/typo/chara_more.webp",
+    "w": 65,
+    "h": 71,
+    "alt": "MORE"
+   },
+   {
+    "src": "https://recruit.zoccon.me/assets/img/common/typo/chara_neo.webp",
+    "w": 79,
+    "h": 87,
+    "alt": "NEO"
+   },
+   {
+    "src": "https://recruit.zoccon.me/assets/img/common/typo/chara_zocc.webp",
+    "w": 84,
+    "h": 90,
+    "alt": "ZOCC"
+   },
+   {
+    "src": "https://recruit.zoccon.me/assets/img/1_top/1_our_identity/catch_loading_sp.svg",
+    "w": 204,
+    "h": 190,
+    "alt": "UNLOCK YOUR FANTASY. 可能性を、解き放て。"
+   },
+   {
+    "src": "https://recruit.zoccon.me/assets/img/1_top/1_our_identity/catch_static1_sp.svg",
+    "w": 204,
+    "h": 190,
+    "alt": "UNLOCK YOUR FANTASY. 可能性を、解き放て。"
+   },
+   {
+    "src": "https://recruit.zoccon.me/assets/img/1_top/1_our_identity/chara_sp.webp",
+    "w": 617,
+    "h": 506,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 9329
+ },
+ "elapsedSec": 14.0
+}

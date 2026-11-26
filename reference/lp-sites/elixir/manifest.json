@@ -1,0 +1,17 @@
+{
+  "source": "https://www.shiseido.co.jp/elixir/promotion/brightening-lotion-emulsion/",
+  "final_url": "https://www.shiseido.co.jp/elixir/promotion/brightening-lotion-emulsion/",
+  "assets_saved": 451,
+  "bytes_saved": 22211373,
+  "failed": {
+    "https://www.shiseido.co.jp/elixir/promotion/brightening-lotion-emulsion/img/icon_camera.svg": "HTTP Error 404: Not Found",
+    "https://www.shiseido.co.jp/elixir/promotion/brightening-lotion-emulsion/img/icon_cart_wht.svg": "HTTP Error 404: Not Found",
+    "https://www.shiseido.co.jp/elixir/promotion/brightening-lotion-emulsion/assets/img/icon_play.svg": "HTTP Error 404: Not Found",
+    "https://www.shiseido.co.jp/elixir/promotion/brightening-lotion-emulsion/img/bg_award2.webp": "HTTP Error 404: Not Found",
+    "https://www.shiseido.co.jp/elixir/promotion/brightening-lotion-emulsion/img/bg_award2_sp.webp": "HTTP Error 404: Not Found",
+    "https://www.shiseido.co.jp/elixir/promotion/brightening-lotion-emulsion/img/bg_effect.webp": "HTTP Error 404: Not Found",
+    "https://www.shiseido.co.jp/elixir/promotion/brightening-lotion-emulsion/img/bg_effect_sp.webp": "HTTP Error 404: Not Found",
+    "https://www.shiseido.co.jp/elixir/promotion/brightening-lotion-emulsion/img/bg_modal_02.webp": "HTTP Error 404: Not Found",
+    "https://www.shiseido.co.jp/elixir/promotion/brightening-lotion-emulsion/img/bg_modal_02_sp.webp": "HTTP Error 404: Not Found"
+  }
+}

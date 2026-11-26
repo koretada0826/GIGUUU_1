@@ -1,0 +1,250 @@
+{
+ "slug": "newmaterial-ai",
+ "url": "https://newmaterial.ai/",
+ "capturedAt": "2026-10-12 21:14:56",
+ "files": {
+  "pc_f0": "newmaterial-ai-pc-f0.jpg",
+  "pc_f1": "newmaterial-ai-pc-f1.jpg",
+  "pc_f2": "newmaterial-ai-pc-f2.jpg",
+  "pc_scroll": "newmaterial-ai-pc-scroll.jpg",
+  "sp": "newmaterial-ai-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://newmaterial.ai/",
+  "title": "New Material · AI-native, by design.",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 3037,
+  "h1": "Intelligence, applied.",
+  "h1Style": {
+   "fontFamily": "\"ABC Favorit\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Col",
+   "fontSize": "16px",
+   "fontWeight": "350",
+   "lineHeight": "24px",
+   "letterSpacing": "-0.4px",
+   "color": "rgb(42, 41, 46)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": -1,
+    "y": 379,
+    "w": 1,
+    "h": 1
+   }
+  },
+  "lead": "AI Suite with AmLaw 50 Firm Managing legal matters on autopilot.",
+  "ctas": [
+   "Jump to top"
+  ],
+  "videos": [
+   {
+    "src": "https://newmaterial.ai/uploads/artifacts/1789486089047-hero.mov",
+    "autoplay": false,
+    "loop": false,
+    "muted": true,
+    "w": 704,
+    "h": 469,
+    "playing": false
+   }
+  ],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://newmaterial.ai/cdn-cgi/image/width=800,quality=70,format=auto,fit=cover/uploads/artifacts/1778107219864-tempo-studio-preview.webp",
+    "w": 704,
+    "h": 469,
+    "alt": "Tools for time series data collection"
+   },
+   {
+    "src": "https://newmaterial.ai/cdn-cgi/image/width=750,quality=70,format=auto,fit=cover/uploads/artifacts/1778106853748-retail-experience-for-on-running-preview.webp",
+    "w": 440,
+    "h": 293,
+    "alt": "Retail experience for ON Running"
+   },
+   {
+    "src": "https://newmaterial.ai/cdn-cgi/image/width=750,quality=70,format=auto,fit=cover/uploads/artifacts/1788293269149-sampler-preview.webp",
+    "w": 460,
+    "h": 307,
+    "alt": "Collaborative Prompting"
+   },
+   {
+    "src": "https://newmaterial.ai/cdn-cgi/image/width=750,quality=70,format=auto,fit=cover/uploads/artifacts/1778106986084-collecting-training-data-with-fieldday-preview.webp",
+    "w": 483,
+    "h": 322,
+    "alt": "Collecting training data with FieldDay"
+   },
+   {
+    "src": "https://newmaterial.ai/cdn-cgi/image/width=750,quality=70,format=auto,fit=cover/uploads/artifacts/1778107973468-introducing-beta-2-preview.webp",
+    "w": 509,
+    "h": 339,
+    "alt": "An intelligent camera that gets stuff done."
+   },
+   {
+    "src": "https://newmaterial.ai/cdn-cgi/image/width=750,quality=70,format=auto,fit=cover/uploads/artifacts/1789305349979-forma-crown-preview.webp",
+    "w": 537,
+    "h": 358,
+    "alt": "Forma Crown"
+   },
+   {
+    "src": "https://newmaterial.ai/cdn-cgi/image/width=750,quality=70,format=auto,fit=cover/uploads/artifacts/1778107031158-an-auditable-tabular-data-extraction-tool-powering-precision-drafting-preview.webp",
+    "w": 569,
+    "h": 380,
+    "alt": "Drafting, grounded in precedent."
+   },
+   {
+    "src": "https://newmaterial.ai/cdn-cgi/image/width=750,quality=70,format=auto,fit=cover/uploads/artifacts/1790084455560-exploded-view-of-of-canopy-preview.webp",
+    "w": 606,
+    "h": 404,
+    "alt": "Rethinking commercial vehicle security."
+   },
+   {
+    "src": "https://newmaterial.ai/cdn-cgi/image/width=750,quality=70,format=auto,fit=cover/uploads/artifacts/1789519832084-more-from-context-cards-preview.webp",
+    "w": 650,
+    "h": 433,
+    "alt": "More from context. An agentic harness for content."
+   },
+   {
+    "src": "https://newmaterial.ai/cdn-cgi/image/width=800,quality=70,format=auto,fit=cover/uploads/artifacts/1789486141139-hero-preview.webp",
+    "w": 704,
+    "h": 469,
+    "alt": "Managing legal matters on autopilot."
+   },
+   {
+    "src": "https://newmaterial.ai/cdn-cgi/image/width=800,quality=50,format=auto/uploads/artifacts/1789486139311-Hero-poster.webp",
+    "w": 704,
+    "h": 469,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "ABC Favorit"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "Intelligence, applied.",
+  "h1Style": {
+   "fontFamily": "\"ABC Favorit\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Col",
+   "fontSize": "16px",
+   "fontWeight": "350",
+   "lineHeight": "24px",
+   "letterSpacing": "-0.4px",
+   "color": "rgb(42, 41, 46)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": -1,
+    "y": 303,
+    "w": 1,
+    "h": 1
+   }
+  },
+  "lead": "AI Suite with AmLaw 50 Firm Managing legal matters on autopilot.",
+  "ctas": [
+   "Jump to top"
+  ],
+  "videos": [
+   {
+    "src": "https://newmaterial.ai/cdn-cgi/media/mode=video,width=732,height=488,fit=cover,audio=false/uploads/artifacts/1789486089047-hero.mov",
+    "autoplay": false,
+    "loop": false,
+    "muted": true,
+    "w": 366,
+    "h": 244,
+    "playing": true
+   }
+  ],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://newmaterial.ai/cdn-cgi/image/width=800,quality=70,format=auto,fit=cover/uploads/artifacts/1788293269149-sampler-preview.webp",
+    "w": 366,
+    "h": 244,
+    "alt": "Collaborative Prompting"
+   },
+   {
+    "src": "https://newmaterial.ai/cdn-cgi/image/width=750,quality=70,format=auto,fit=cover/uploads/artifacts/1778112253895-decypher-preview.webp",
+    "w": 229,
+    "h": 152,
+    "alt": "Exploring historic British street furniture with AI."
+   },
+   {
+    "src": "https://newmaterial.ai/cdn-cgi/image/width=750,quality=70,format=auto,fit=cover/uploads/artifacts/1778107973468-introducing-beta-2-preview.webp",
+    "w": 239,
+    "h": 160,
+    "alt": "An intelligent camera that gets stuff done."
+   },
+   {
+    "src": "https://newmaterial.ai/cdn-cgi/image/width=750,quality=70,format=auto,fit=cover/uploads/artifacts/1778106853748-retail-experience-for-on-running-preview.webp",
+    "w": 251,
+    "h": 167,
+    "alt": "Retail experience for ON Running"
+   },
+   {
+    "src": "https://newmaterial.ai/cdn-cgi/image/width=750,quality=70,format=auto,fit=cover/uploads/artifacts/1778366286575-introducing-fieldday-preview.webp",
+    "w": 264,
+    "h": 176,
+    "alt": "Custom vision AI, no code required."
+   },
+   {
+    "src": "https://newmaterial.ai/cdn-cgi/image/width=750,quality=70,format=auto,fit=cover/uploads/artifacts/1778107366642-the-machine-learning-process-preview.webp",
+    "w": 279,
+    "h": 186,
+    "alt": "Visualising AI"
+   },
+   {
+    "src": "https://newmaterial.ai/cdn-cgi/image/width=750,quality=70,format=auto,fit=cover/uploads/artifacts/1778107031158-an-auditable-tabular-data-extraction-tool-powering-precision-drafting-preview.webp",
+    "w": 296,
+    "h": 197,
+    "alt": "Drafting, grounded in precedent."
+   },
+   {
+    "src": "https://newmaterial.ai/cdn-cgi/image/width=750,quality=70,format=auto,fit=cover/uploads/artifacts/1790084455560-exploded-view-of-of-canopy-preview.webp",
+    "w": 315,
+    "h": 210,
+    "alt": "Rethinking commercial vehicle security."
+   },
+   {
+    "src": "https://newmaterial.ai/cdn-cgi/image/width=750,quality=70,format=auto,fit=cover/uploads/artifacts/1789519832084-more-from-context-cards-preview.webp",
+    "w": 338,
+    "h": 225,
+    "alt": "More from context. An agentic harness for content."
+   },
+   {
+    "src": "https://newmaterial.ai/cdn-cgi/image/width=800,quality=70,format=auto,fit=cover/uploads/artifacts/1789486141139-hero-preview.webp",
+    "w": 366,
+    "h": 244,
+    "alt": "Managing legal matters on autopilot."
+   },
+   {
+    "src": "https://newmaterial.ai/cdn-cgi/image/width=800,quality=50,format=auto/uploads/artifacts/1789486139311-Hero-poster.webp",
+    "w": 366,
+    "h": 244,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 3940
+ },
+ "elapsedSec": 15.5
+}

@@ -1,0 +1,190 @@
+{
+ "slug": "buildinamsterdam-com",
+ "url": "https://www.buildinamsterdam.com/",
+ "capturedAt": "2026-10-12 21:09:08",
+ "files": {
+  "pc_f0": "buildinamsterdam-com-pc-f0.jpg",
+  "pc_f1": "buildinamsterdam-com-pc-f1.jpg",
+  "pc_f2": "buildinamsterdam-com-pc-f2.jpg",
+  "pc_scroll": "buildinamsterdam-com-pc-scroll.jpg",
+  "sp": "buildinamsterdam-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.buildinamsterdam.com/",
+  "title": "Build in Amsterdam",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 900,
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [
+   "Play showreel",
+   "HOME",
+   "WORK",
+   "EXPERTISE",
+   "ABOUT",
+   "CONTACT",
+   "JOIN US",
+   "KNOWLEDGE",
+   "Menu"
+  ],
+  "videos": [
+   {
+    "src": "https://stream.mux.com/00sLHcaqvlYdkqwiPNeWeO00BIMzlwcn00011TSMs18vtqQ.m3u8?min_resolution=1080p",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 1440,
+    "h": 900,
+    "playing": false
+   }
+  ],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.buildinamsterdam.com/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F158533%2F1500x794%2F2b8065b129%2Fhome-desktop.png&w=384&q=80",
+    "w": 371,
+    "h": 198,
+    "alt": "Thumbnail for link to home page"
+   },
+   {
+    "src": "https://www.buildinamsterdam.com/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F158533%2F3000x1588%2F08cb60c343%2Fwork-desktop-2024-july.jpg&w=384&q=80",
+    "w": 371,
+    "h": 198,
+    "alt": "Work page thumbnail"
+   },
+   {
+    "src": "https://www.buildinamsterdam.com/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F158533%2F6000x3176%2F3b58cbafcf%2Fexpertise-desktop-thumb.jpg&w=384&q=80",
+    "w": 371,
+    "h": 198,
+    "alt": "More than a decade of experience in building e-com solutions with selected partn"
+   },
+   {
+    "src": "https://www.buildinamsterdam.com/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F158533%2F1500x794%2Fea17d43c84%2Fabout-desktop.png&w=384&q=80",
+    "w": 371,
+    "h": 198,
+    "alt": "Thumbnail for link to about us page"
+   },
+   {
+    "src": "https://www.buildinamsterdam.com/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F158533%2F1500x794%2F40a6edcdd4%2Fcontacts-desktop.png&w=384&q=80",
+    "w": 371,
+    "h": 198,
+    "alt": "Thumbnail for link to contacts page"
+   },
+   {
+    "src": "https://www.buildinamsterdam.com/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F158533%2F1420x752%2F70783da9c4%2Fjoinus-desktop.jpg&w=384&q=80",
+    "w": 371,
+    "h": 198,
+    "alt": "desktop thumbnailtuof the join us "
+   },
+   {
+    "src": "https://www.buildinamsterdam.com/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F158533%2F1500x794%2Fe2b580f06a%2Fknowledge-desktop-v2.png&w=3840&q=80",
+    "w": 371,
+    "h": 198,
+    "alt": "Knowledge page thumbnail"
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "NHaasGroteskDSPro",
+   "RecklessNeue-Book",
+   "NeueHaasGrotesk-Roman"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 0,
+ "sp": {
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [
+   "PLAY SHOWREEL",
+   "HOME",
+   "WORK",
+   "EXPERTISE",
+   "ABOUT",
+   "CONTACT",
+   "JOIN US",
+   "KNOWLEDGE",
+   "Menu"
+  ],
+  "videos": [
+   {
+    "src": "https://stream.mux.com/00sLHcaqvlYdkqwiPNeWeO00BIMzlwcn00011TSMs18vtqQ.m3u8",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 390,
+    "h": 844,
+    "playing": false
+   }
+  ],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.buildinamsterdam.com/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F158533%2F608x1016%2Ff9e180423c%2Fhome-mobile.png&w=384&q=80",
+    "w": 135,
+    "h": 225,
+    "alt": "Thumbnail for link to home page"
+   },
+   {
+    "src": "https://www.buildinamsterdam.com/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F158533%2F1216x2032%2F19e92d135c%2Fwork-mobile-2024-july.jpg&w=384&q=80",
+    "w": 135,
+    "h": 225,
+    "alt": "Work page thumbnail"
+   },
+   {
+    "src": "https://www.buildinamsterdam.com/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F158533%2F2432x4064%2Fb1b74a66ae%2Fexpertise-mobile-thumb.jpg&w=384&q=80",
+    "w": 135,
+    "h": 225,
+    "alt": "More than a decade of experience in building e-com solutions with selected partn"
+   },
+   {
+    "src": "https://www.buildinamsterdam.com/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F158533%2F608x1016%2Ffe7ce2c0dc%2Fabout-mobile.png&w=384&q=80",
+    "w": 135,
+    "h": 225,
+    "alt": "Thumbnail for link to about us page"
+   },
+   {
+    "src": "https://www.buildinamsterdam.com/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F158533%2F608x1016%2Faa6e7e2451%2Fcontacts-mobile.png&w=384&q=80",
+    "w": 135,
+    "h": 225,
+    "alt": "Thumbnail for link to contacts page"
+   },
+   {
+    "src": "https://www.buildinamsterdam.com/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F158533%2F608x1016%2Fc99187ec5e%2Fjoinus-mobile.jpg&w=384&q=80",
+    "w": 135,
+    "h": 225,
+    "alt": "mobile thumbnail of the join us "
+   },
+   {
+    "src": "https://www.buildinamsterdam.com/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F158533%2F608x1016%2F9368ff839d%2Fknowlegde-mobile-v2.png&w=384&q=80",
+    "w": 135,
+    "h": 225,
+    "alt": "Knowledge page thumbnail"
+   }
+  ],
+  "pageHeight": 1624
+ },
+ "elapsedSec": 12.0
+}

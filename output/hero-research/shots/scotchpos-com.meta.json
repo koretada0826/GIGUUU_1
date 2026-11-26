@@ -1,0 +1,122 @@
+{
+ "slug": "scotchpos-com",
+ "url": "https://scotchpos.com/",
+ "capturedAt": "2026-10-12 21:13:02",
+ "files": {
+  "pc_f0": "scotchpos-com-pc-f0.jpg",
+  "pc_f1": "scotchpos-com-pc-f1.jpg",
+  "pc_f2": "scotchpos-com-pc-f2.jpg",
+  "pc_scroll": "scotchpos-com-pc-scroll.jpg",
+  "sp": "scotchpos-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://scotchpos.com/",
+  "title": "Scotch | POS, Back Office & eComm for Liquor Stores",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 8037,
+  "h1": "The system that knows liquor like you do.",
+  "h1Style": {
+   "fontFamily": "__mori_658136, __mori_Fallback_658136, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Seg",
+   "fontSize": "54px",
+   "fontWeight": "600",
+   "lineHeight": "59.4px",
+   "letterSpacing": "normal",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 382,
+    "y": 210,
+    "w": 676,
+    "h": 119
+   }
+  },
+  "lead": "Far from just another POS, Scotch is the all-in-one operating system designed exclusively for liquor retailers.",
+  "ctas": [
+   "Back Office Control your store",
+   "POS & Payments Hardware for every store"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://scotchpos.com/_next/image/?url=%2Fimages%2Fhome-left.png&w=640&q=75&dpl=dpl_HzV4NKNR488A6ZV3futiED4CRDGh",
+    "w": 668,
+    "h": 778,
+    "alt": "Home Masthead Decorations"
+   },
+   {
+    "src": "https://scotchpos.com/_next/image/?url=%2Fimages%2Fhome-right.png&w=828&q=75&dpl=dpl_HzV4NKNR488A6ZV3futiED4CRDGh",
+    "w": 775,
+    "h": 815,
+    "alt": "Home Masthead Decorations"
+   },
+   {
+    "src": "https://scotchpos.com/_next/image/?url=https%3A%2F%2Fscotchcms.wpenginepowered.com%2Fwp-content%2Fuploads%2F2025%2F04%2FMAST-Order.png&w=1920&q=75&dpl=dpl_HzV4NKNR488A6ZV3futiED4CRDGh",
+    "w": 818,
+    "h": 514,
+    "alt": "MAST Order"
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "__Inter_f367f3",
+   "__mori_658136"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "The system that knows liquor like you do.",
+  "h1Style": {
+   "fontFamily": "__mori_658136, __mori_Fallback_658136, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Seg",
+   "fontSize": "36px",
+   "fontWeight": "600",
+   "lineHeight": "43.2px",
+   "letterSpacing": "normal",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 20,
+    "y": 158,
+    "w": 350,
+    "h": 130
+   }
+  },
+  "lead": "Far from just another POS, Scotch is the all-in-one operating system designed exclusively for liquor retailers.",
+  "ctas": [],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://scotchpos.com/_next/image/?url=https%3A%2F%2Fscotchcms.wpenginepowered.com%2Fwp-content%2Fuploads%2F2025%2F04%2FMAST-Order.png&w=1920&q=75&dpl=dpl_HzV4NKNR488A6ZV3futiED4CRDGh",
+    "w": 330,
+    "h": 207,
+    "alt": "MAST Order"
+   }
+  ],
+  "pageHeight": 6249
+ },
+ "elapsedSec": 12.8
+}

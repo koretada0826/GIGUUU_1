@@ -1,0 +1,122 @@
+{
+ "slug": "www-talkdesk-com",
+ "url": "https://www.talkdesk.com/",
+ "capturedAt": "2026-10-12 21:31:10",
+ "files": {
+  "pc_f0": "www-talkdesk-com-pc-f0.jpg",
+  "pc_f1": "www-talkdesk-com-pc-f1.jpg",
+  "pc_f2": "www-talkdesk-com-pc-f2.jpg",
+  "pc_scroll": "www-talkdesk-com-pc-scroll.jpg",
+  "sp": "www-talkdesk-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": "OK",
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.talkdesk.com/",
+  "title": "AI Customer Experience Automation Solutions | Contact Center Software | Talkdesk",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 8064,
+  "h1": "The hybrid workforce starts here.",
+  "h1Style": {
+   "fontFamily": "gilroyFont, \"gilroyFont Fallback\", arial, futura, sans-serif",
+   "fontSize": "64px",
+   "fontWeight": "600",
+   "lineHeight": "75.52px",
+   "letterSpacing": "0.15008px",
+   "color": "rgb(255, 255, 254)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 134,
+    "y": 353,
+    "w": 1073,
+    "h": 151
+   }
+  },
+  "lead": "CCaaS for people. CXA for AI.",
+  "ctas": [
+   "GET STARTED",
+   "Commercial & Residential Services",
+   "Meet your AI agents."
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.talkdesk.com/_next/image?url=https%3A%2F%2Finfra-cloudfront-talkdeskcom.svc.talkdeskapp.com%2Ftalkdesk_com%2Fhome-use-cases-video-fallback.webp&w=1920&q=50",
+    "w": 1439,
+    "h": 900,
+    "alt": "Home Use Cases Video Fallback"
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "gilroyFont",
+   "interFont"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": true,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(54, 3, 121)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "The hybrid workforce starts here.",
+  "h1Style": {
+   "fontFamily": "gilroyFont, \"gilroyFont Fallback\", arial, futura, sans-serif",
+   "fontSize": "32px",
+   "fontWeight": "600",
+   "lineHeight": "37.76px",
+   "letterSpacing": "0.15008px",
+   "color": "rgb(255, 255, 254)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 27,
+    "y": 150,
+    "w": 307,
+    "h": 113
+   }
+  },
+  "lead": "CCaaS for people. CXA for AI.",
+  "ctas": [
+   "GET STARTED",
+   "OUR PLATFORM",
+   "CONTACT CENTER SOLUTIONS",
+   "PRODUCTS",
+   "INDUSTRIES",
+   "RESOURCES",
+   "CUSTOMERS",
+   "COMPANY",
+   "PARTNERS",
+   "Meet your AI agents."
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.talkdesk.com/_next/image?url=https%3A%2F%2Finfra-cloudfront-talkdeskcom.svc.talkdeskapp.com%2Ftalkdesk_com%2Fmobile-asset-use-cases.svg&w=828&q=50",
+    "w": 430,
+    "h": 844,
+    "alt": "Mobile Asset Use Cases"
+   }
+  ],
+  "pageHeight": 10494
+ },
+ "elapsedSec": 13.4
+}

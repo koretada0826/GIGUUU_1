@@ -1,0 +1,126 @@
+{
+ "slug": "altina-co",
+ "url": "https://altina.co/",
+ "capturedAt": "2026-10-12 21:27:23",
+ "files": {
+  "pc_f0": "altina-co-pc-f0.jpg",
+  "pc_f1": "altina-co-pc-f1.jpg",
+  "pc_f2": "altina-co-pc-f2.jpg",
+  "pc_scroll": "altina-co-pc-scroll.jpg",
+  "sp": "altina-co-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://altina.co/",
+  "title": "Altina | AI Hearing Eyewear Made for Conversation",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 8865,
+  "h1": "Made for conversation.",
+  "h1Style": {
+   "fontFamily": "\"Junicode Italic\", \"Junicode Italic Placeholder\", sans-serif",
+   "fontSize": "110px",
+   "fontWeight": "400",
+   "lineHeight": "121px",
+   "letterSpacing": "-4.4px",
+   "color": "rgb(118, 93, 42)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 296,
+    "y": 223,
+    "w": 848,
+    "h": 121
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "About",
+   "Myself",
+   "Someone I care about",
+   "Just exploring",
+   "Join the Waitlist"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://framerusercontent.com/images/Ct7BGDE6CiY0YPIwAactP66cA.svg?width=92&height=32",
+    "w": 138,
+    "h": 48,
+    "alt": ""
+   },
+   {
+    "src": "https://framerusercontent.com/images/wfuMRvqFmJo7so1VSvUXAuIu26k.png?scale-down-to=2048&width=2784&height=906",
+    "w": 1440,
+    "h": 469,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "sans-serif",
+   "Junicode Italic",
+   "Junicode Regular",
+   "Aspekta 400"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": true,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "Made for conversation.",
+  "h1Style": {
+   "fontFamily": "\"Junicode Italic\", \"Junicode Italic Placeholder\", sans-serif",
+   "fontSize": "44px",
+   "fontWeight": "400",
+   "lineHeight": "39.6px",
+   "letterSpacing": "-1.76px",
+   "color": "rgb(118, 93, 42)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 60,
+    "y": 225,
+    "w": 271,
+    "h": 115
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "Myself",
+   "Someone I care about",
+   "Just exploring",
+   "Join the Waitlist"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://framerusercontent.com/images/wfuMRvqFmJo7so1VSvUXAuIu26k.png?scale-down-to=1024&width=2784&height=906",
+    "w": 386,
+    "h": 126,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 6961
+ },
+ "elapsedSec": 15.2
+}

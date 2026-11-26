@@ -1,0 +1,92 @@
+{
+ "slug": "homunculus-jp",
+ "url": "https://homunculus.jp/",
+ "capturedAt": "2026-10-12 21:10:09",
+ "files": {
+  "pc_f0": "homunculus-jp-pc-f0.jpg",
+  "pc_f1": "homunculus-jp-pc-f1.jpg",
+  "pc_f2": "homunculus-jp-pc-f2.jpg",
+  "pc_scroll": "homunculus-jp-pc-scroll.jpg",
+  "sp": "homunculus-jp-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://homunculus.jp/",
+  "title": "homunculus Inc. | 株式会社ホムンクルス",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 900,
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [
+   "Inside",
+   "homunculus Inc. Enter with Sound"
+  ],
+  "videos": [],
+  "canvases": [
+   {
+    "w": 1440,
+    "h": 900
+   }
+  ],
+  "images": [],
+  "backgroundImages": [
+   {
+    "bg": "url(\"https://homunculus.jp/assets/image/sand.webp\")",
+    "w": 1440,
+    "h": 900
+   },
+   {
+    "bg": "url(\"https://homunculus.jp/assets/image/dom/top_go_ring.png\")",
+    "w": 130,
+    "h": 130
+   },
+   {
+    "bg": "url(\"https://homunculus.jp/assets/image/head_logo.webp\")",
+    "w": 54,
+    "h": 48
+   }
+  ],
+  "firstScreenFonts": [],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(17, 17, 17)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 0,
+ "sp": {
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [
+   "Inside",
+   "homunculus Inc. Enter with Sound"
+  ],
+  "videos": [],
+  "canvases": [
+   {
+    "w": 390,
+    "h": 844
+   }
+  ],
+  "images": [],
+  "pageHeight": 844
+ },
+ "elapsedSec": 11.5
+}

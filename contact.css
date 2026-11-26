@@ -1,0 +1,49 @@
+/* The existing contact form now has its own page. */
+.page-contact .contact__lead {
+  margin-bottom: 32px;
+  color: var(--rf-text);
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: normal;
+  text-wrap: wrap;
+}
+
+.page-contact .contact__form {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.page-contact .field label {
+  color: var(--rf-heading);
+}
+
+.page-contact .field input,
+.page-contact .field textarea {
+  background: var(--color-bg);
+}
+
+.page-contact .field input::placeholder,
+.page-contact .field textarea::placeholder {
+  color: var(--color-muted);
+}
+
+.page-contact .field [aria-invalid="true"] {
+  border: 2px solid var(--color-action-ink);
+}
+
+.page-contact .contact__form > button {
+  background: var(--rf-accent-hover);
+  color: var(--color-bg);
+}
+
+.page-contact .contact__form > button:hover {
+  background: var(--rf-heading);
+}
+
+.page-contact .contact__form > button:disabled {
+  cursor: wait;
+}

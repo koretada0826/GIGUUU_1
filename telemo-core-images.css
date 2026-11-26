@@ -1,0 +1,11 @@
+/* Generated feature images, scoped to the existing four TELEMO cards. */
+#telemo-core .telemo-core__card { padding: 0 0 20px; overflow: hidden; }
+.page-home #telemo-core .telemo-core__card h3 { min-height: 66px; padding: 16px 14px; gap: 10px; border-bottom: 0; font-size: clamp(15px,1.4vw,20px); background: #f1f9fb; }
+#telemo-core .telemo-core__card h3 > span { font-size: 26px; padding-right: 10px; }
+#telemo-core .telemo-core__image { display: block; width: 100%; height: auto; aspect-ratio: 3/2; object-fit: cover; border: 0; }
+#telemo-core .telemo-core__text { margin: 18px 18px 20px; }
+#telemo-core .telemo-core__point { margin: 0 14px; padding: 14px 10px; gap: 10px; }
+@media(max-width: 600px) {
+  .page-home #telemo-core .telemo-core__card h3 { font-size: 20px; }
+  #telemo-core .telemo-core__image { max-height: none; }
+}

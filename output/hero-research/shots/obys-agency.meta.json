@@ -1,0 +1,159 @@
+{
+ "slug": "obys-agency",
+ "url": "https://obys.agency/",
+ "capturedAt": "2026-10-12 21:08:09",
+ "files": {
+  "pc_f0": "obys-agency-pc-f0.jpg",
+  "pc_f1": "obys-agency-pc-f1.jpg",
+  "pc_f2": "obys-agency-pc-f2.jpg",
+  "pc_scroll": "obys-agency-pc-scroll.jpg",
+  "sp": "obys-agency-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://obys.agency/",
+  "title": "Obys Agency",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 900,
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [],
+  "videos": [],
+  "canvases": [
+   {
+    "w": 1440,
+    "h": 900
+   }
+  ],
+  "images": [
+   {
+    "src": "https://cms.obys.agency/uploads/Makhno_Thumbnail_e6008952f7.webp",
+    "w": 126,
+    "h": 126,
+    "alt": ""
+   },
+   {
+    "src": "https://cms.obys.agency/uploads/Source_Unknown_Thumbnail_7e7a08561b.webp",
+    "w": 126,
+    "h": 157,
+    "alt": ""
+   },
+   {
+    "src": "https://cms.obys.agency/uploads/1_fae12fb704.webp",
+    "w": 126,
+    "h": 126,
+    "alt": "Woman in dark dress stands beside a modern wall with dark green geometric panels"
+   },
+   {
+    "src": "https://cms.obys.agency/uploads/Odin_s_Crow_Thumbnail_4dc8764e8a.webp",
+    "w": 126,
+    "h": 188,
+    "alt": ""
+   },
+   {
+    "src": "https://cms.obys.agency/uploads/Olga_Prudka_Thumbnail_73c88a2131.webp",
+    "w": 126,
+    "h": 84,
+    "alt": ""
+   },
+   {
+    "src": "https://cms.obys.agency/uploads/Yulia_Thumbnail_3226edc489.webp",
+    "w": 126,
+    "h": 126,
+    "alt": ""
+   },
+   {
+    "src": "https://cms.obys.agency/uploads/Miro_Thumbnail_413fefb05d.webp",
+    "w": 126,
+    "h": 157,
+    "alt": ""
+   },
+   {
+    "src": "https://cms.obys.agency/uploads/DES_Thumbnail_41ecc849b9.webp",
+    "w": 126,
+    "h": 126,
+    "alt": ""
+   },
+   {
+    "src": "https://cms.obys.agency/uploads/ODB_Thumbnail_ed9b4aa0f3.webp",
+    "w": 126,
+    "h": 188,
+    "alt": ""
+   },
+   {
+    "src": "https://cms.obys.agency/uploads/Eminente_Thumbnail_d7767e1666.webp",
+    "w": 126,
+    "h": 84,
+    "alt": ""
+   },
+   {
+    "src": "https://cms.obys.agency/uploads/Abetka_Thumbnail_25b7c61177.webp",
+    "w": 126,
+    "h": 126,
+    "alt": ""
+   },
+   {
+    "src": "https://cms.obys.agency/uploads/Black_Sheep_Thumbnail_09c8874314.webp",
+    "w": 126,
+    "h": 157,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Obys"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 0,
+ "sp": {
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://cms.obys.agency/uploads/Makhno_Thumbnail_e6008952f7.webp",
+    "w": 150,
+    "h": 150,
+    "alt": ""
+   },
+   {
+    "src": "https://cms.obys.agency/uploads/large_Source_Unknown_Thumbnail_7e7a08561b.webp",
+    "w": 208,
+    "h": 260,
+    "alt": ""
+   },
+   {
+    "src": "https://cms.obys.agency/uploads/large_1_fae12fb704.webp",
+    "w": 220,
+    "h": 220,
+    "alt": "Woman in dark dress stands beside a modern wall with dark green geometric panels"
+   }
+  ],
+  "pageHeight": 844
+ },
+ "elapsedSec": 13.6
+}

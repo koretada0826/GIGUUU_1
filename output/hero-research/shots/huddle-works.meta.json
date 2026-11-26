@@ -1,0 +1,119 @@
+{
+ "slug": "huddle-works",
+ "url": "https://www.huddle.works/",
+ "capturedAt": "2026-10-12 21:12:07",
+ "files": {
+  "pc_f0": "huddle-works-pc-f0.jpg",
+  "pc_f1": "huddle-works-pc-f1.jpg",
+  "pc_f2": "huddle-works-pc-f2.jpg",
+  "pc_scroll": "huddle-works-pc-scroll.jpg",
+  "sp": "huddle-works-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.huddle.works/",
+  "title": "Huddle",
+  "lang": null,
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 4774,
+  "h1": "Get",
+  "h1Style": {
+   "fontFamily": "Nng, sans-serif",
+   "fontSize": "64px",
+   "fontWeight": "400",
+   "lineHeight": "76.8px",
+   "letterSpacing": "-2px",
+   "color": "rgb(0, 0, 0)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   }
+  },
+  "lead": "a",
+  "ctas": [
+   "Get started →",
+   "STEP 1 • THE BRIEF"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [],
+  "backgroundImages": [
+   {
+    "bg": "url(\"https://cdn.prod.website-files.com/5e7545320a930f06a5bf95ee/63486161d23f4ba8103ff820_Huddle_WIP_Logo-Rg_Pos.png\")",
+    "w": 120,
+    "h": 58
+   },
+   {
+    "bg": "url(\"https://cdn.prod.website-files.com/5e7545320a930f06a5bf95ee/6352cf72d68c130330a65352_elise-wilcox-TKflRMFGxtc-unsplash.jpg\")",
+    "w": 66,
+    "h": 66
+   },
+   {
+    "bg": "url(\"https://cdn.prod.website-files.com/5e7545320a930f06a5bf95ee/6352cf72d68c13b012a65350_pexels-cottonbro-7401898.jpg\")",
+    "w": 66,
+    "h": 66
+   },
+   {
+    "bg": "url(\"https://cdn.prod.website-files.com/5e7545320a930f06a5bf95ee/6368270a8bef74bacfd57a58_Zain.JPG\")",
+    "w": 66,
+    "h": 66
+   }
+  ],
+  "firstScreenFonts": [
+   "Nng",
+   "Roboto"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(35, 35, 35)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "Get",
+  "h1Style": {
+   "fontFamily": "Nng, sans-serif",
+   "fontSize": "51.2px",
+   "fontWeight": "400",
+   "lineHeight": "61.44px",
+   "letterSpacing": "-0.32px",
+   "color": "rgb(0, 0, 0)",
+   "textAlign": "left",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   }
+  },
+  "lead": "a",
+  "ctas": [
+   "Get started →"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [],
+  "pageHeight": 5730
+ },
+ "elapsedSec": 11.5
+}

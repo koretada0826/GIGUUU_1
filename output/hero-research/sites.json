@@ -1,0 +1,3284 @@
+[
+ {
+  "slug": "drone-riotters-com",
+  "name": "Aevion（Riotters Tech Demo）",
+  "url": "https://drone.riotters.com/",
+  "source": "direct",
+  "industry": "技術デモ（ドローン点検。B2B製品を想定した見せ方）",
+  "hero_type": "3d-canvas",
+  "layout": "ヘッダー（左：ロゴ＋『Lidar Drone Scanning』／中央：『Tech Demo By Riotters』／現地時刻『GMT 12:08 pm』／右：グレーの menu）。その下に左右24px・上76pxのインセットパネル（空のグラデ）。中央にドローン、背後に極細アウトラインの巨大ワードマーク aevion（SVG 1392×400）。左下に2行のステートメント、右下に Scroll Down。",
+  "image_treatment": "淡いブルーグレー→白の縦グラデーション（霞のような空気遠近）で、パネル下端がページの白に溶ける。ワードマークは白の細線で背景に沈め、コントラストを持つのは被写体（ドローン）だけ。プロペラにモーションブラー。スクリム・グレインは見当たらない。",
+  "typography": "h1なし。ステートメント2行（目測24px前後、switzer）：1行目は濃色『Autonomous LIDAR inspection systems.』、2行目はグレー『Precision that secures critical infrastructure.』の2トーン。ヘッダーは13〜14px程度の小さな文字。",
+  "cta": "ボタン型CTAなし。右下に『Scroll Down』＋ドットの小アイコンのみ（スクロール誘導がCTAの役割）。",
+  "motion": "独自計測（0.5秒刻み＋スクロール位置別）：0.3〜2.7s 白地中央に小さな数字カウンター（プリローダー）→ 3.5s ドローンが手前に大きく出現、アームが斜めに開きかけ → 4.5s アームが水平に開き、少し後退 → 6s 画面上端から淡い空色の帯が下りてくる（パネルのマスク開き）→ 10s（hero_capture f4）空のパネル全体＋aevionワードマーク＋左下ステートメント＋Scroll Down が揃う。読み込みから完成まで約10秒かけて1要素ずつ足していく。スクロール：y300 まではヒーロー維持 → y600 空パネルが上へフェードし、ステートメントが上がり、ドローンは右へ移動・拡大してピン留め、縦の罫線が出現 → y900〜1300 左に『Detecting cracks, deformations and structural risks before they become failures.』が単語単位でグレー→濃色にスクラブで色付く → y1800『Gear』セクションでもドローンは右に残る → y2600 ドローンの向きが斜めに変わる（スクロール連動でカメラが回り込む）。",
+  "tech": "meta：canvas 1440×900（WebGLのリアルタイム3D）、lenis=true。gsap/ScrollTrigger/three はグローバル検出なし（バンドル内蔵かは不明）。video1〜3.mp4（393×221、autoplay=false、loop=true、muted）はページ後半用で初期は未再生。ヒーローは動画ではない。フォント switzer。",
+  "mobile": "SP（3s時点）はキャンバス546×844でドローンが白く霞んだ状態でフェードイン中。独自計測の11s時点で完成：PCと同じ構成を縦に再配置（左右約8pxのインセットの空パネル、ワードマークは幅いっぱいに縮小、ドローン中央、ステートメント3行＋Scroll Down を下部）。3Dのまま（静止画化・動画化はしていない）。スクロール700pxでは、単語ごとに濃色/グレーの2トーンの文（『cracks,』は下線）と、その下に角丸の映像カード（トンネルのモノトーン映像、動画か静止画かは未確認）。PCのような右側へのドローン固定は見られない。",
+  "why_good": "白地・淡色・細線だけで組み、動くのは被写体だけ。プリローダー→被写体→空間（パネル）→言葉の順に1要素ずつ足すので、要素が多くても静かに見える。",
+  "idea_for_telemo": "TELEMOでも『映像→空間→言葉』の順で足す：0〜0.6s 白地、0.6〜1.6s 映像パネルを上から下へマスク開き（clip-path inset(0 0 100% 0)→0、1000ms、ease-out）、1.6s 見出し、2.2s リード（2行目はグレーの2トーン）、右下に Scroll Down。映像パネルは左右24pxのインセットにして白地と地続きにする。",
+  "tags": [
+   "preloader",
+   "3d-object",
+   "mask-reveal",
+   "pin",
+   "scrub",
+   "text-scrub-reveal",
+   "inset-frame",
+   "two-tone-text",
+   "outline-wordmark",
+   "lenis"
+  ],
+  "score": 5,
+  "shots": {
+   "pc": "drone-riotters-com-pc-f4.jpg",
+   "sp": "drone-riotters-com-sp.jpg",
+   "scroll": "drone-riotters-com-pc-scroll.jpg",
+   "frames": [
+    "drone-riotters-com-pc-f0.jpg",
+    "drone-riotters-com-pc-f1.jpg",
+    "drone-riotters-com-pc-f2.jpg",
+    "drone-riotters-com-pc-f3.jpg",
+    "drone-riotters-com-pc-f4.jpg"
+   ]
+  },
+  "agent": "motion-craft"
+ },
+ {
+  "slug": "agent-kikkake-cc",
+  "name": "Career Kikkake（キャリア支援）",
+  "url": "https://agent.kikkake.cc/",
+  "source": "lp.webdesignclip.com",
+  "industry": "人材・転職支援（B2C サービス／白×ティール）",
+  "hero_type": "full-bleed-photo",
+  "layout": "全幅・高さ約820pxの明るい写真。右に笑顔の女性（ノートPCを前に頬杖）、左に手書き風の小コピー（下線付き）→大見出し2行→リード→円形アイコンバッジ3つ→ティールの大きなpill CTA を左寄せで縦に並べる。右下に白い角丸カード『20代の転職支援実績 1,500名以上突破！』（月桂樹付き）が写真に重なる。",
+  "image_treatment": "写真は白飛びするハイキー。左側は白に溶ける（白いグラデーションのベール）ので、文字の下に暗いスクリムが要らない。右の人物は被写界深度が浅く、窓の光がボケる。色は白・淡い緑・ティールの3色に絞られる。",
+  "typography": "meta の h1 は『あなたの転職を、採用目線で成功に導く。』。見出しは極太ゴシック（約64px）・紺(#111a2c)、『採用目線』だけティール(#12a88f)＋下に淡いミントのマーカー帯。2行。小コピーは手書き風フォント約30px（下線つき）。リードは約18px のグレー。",
+  "cta": "ティール(#14b8a6系)の大きなpill『無料カウンセリングに申し込む →』（約315×56px、影つき）が見出し群の最後。ヘッダ右にも同色のpill＋白枠の『企業の方はこちら』。スクロール後は画面右下に追従する同pill（上に小さなティールのタグ『完全無料｜30秒で完了』）が出る。",
+  "motion": "f0・f1・f2 のファイルサイズが完全に同一で、読み込み後は静止。スクロール(700px)後はヘッダが白いバーになり、右下に追従CTA（pill＋タグ）が現れる。",
+  "mobile": "写真を背景に全面で敷き、白のベールの上に文字をそのまま重ねる（顔は見出しの背後に入る）。円形バッジ3つは横並び、CTAはほぼ全幅のpill。写真の下端は白にフェードして次セクション（淡いミント）へ。",
+  "why_good": "TELEMOと同じ『白×ティール』の配色で、ハイキーな人物写真を白いベールで文字側にフェードさせている。円形バッジ→大きなpill CTA→実績カードの順に視線が流れる。",
+  "idea_for_telemo": "TELEMOのヒーローは、写真の左側を白(#fff)へフェードする（グラデーションマスク）だけにして暗いスクリムを使わない。見出しの強調語にはミント色のマーカー帯、CTAには追従する右下pill＋『完全無料｜30秒』タグ。",
+  "tags": [
+   "people-photo",
+   "high-key",
+   "white-veil",
+   "teal",
+   "pill-cta",
+   "sticky-cta",
+   "stat-card",
+   "marker-underline",
+   "circle-badges"
+  ],
+  "score": 5,
+  "shots": {
+   "pc": "agent-kikkake-cc-pc-f2.jpg",
+   "sp": "agent-kikkake-cc-sp.jpg",
+   "scroll": "agent-kikkake-cc-pc-scroll.jpg",
+   "frames": [
+    "agent-kikkake-cc-pc-f0.jpg",
+    "agent-kikkake-cc-pc-f1.jpg",
+    "agent-kikkake-cc-pc-f2.jpg"
+   ]
+  },
+  "agent": "jp-galleries"
+ },
+ {
+  "slug": "clarionhealth-com",
+  "name": "Clarion",
+  "url": "https://www.clarionhealth.com/",
+  "source": "land-book.com",
+  "industry": "B2B SaaS / 医療機関向け AI フロントオフィス（電話応対・紹介状処理・再来院促進）",
+  "hero_type": "full-bleed-photo",
+  "layout": "高さ約855pxの全面写真（meta の画像 1440×855）。上端に白い角丸ピル型の浮遊ナビ（左ロゴ・Home/Company・右に焦げ茶の『Try it out』）。受話器を持つ女性は右寄り（顔は y≈290）で、見出し・リード・CTA2つは顔の下（y≈445〜730）に画面中央揃えで配置。ヒーロー最下部に導入企業ロゴのマーキー、その下から白に近い本文地（#fbfaf8）へ切り替わる。",
+  "image_treatment": "スクラブ姿の女性が笑顔で電話に出るカラー写真（動画ではなく avif 画像、videos は空）。上は素のまま、y≈450 から下へ濃いティール（深緑青）のグラデーションを敷く下側スクリムで白文字を読ませ、下端はほぼ単色のティールにロゴ列を載せる。角丸・グレインは確認できない。",
+  "typography": "h1は 'Bpmf Zihi Kai Std', sans-serif と宣言されているが、スクショ上は明朝系（セリフ）に描画。61.7px / weight500 / 行高67.9px / 字間-1.85px / 白、中央揃え2行（box 509×136）。リードは白のサンセリフ約16〜17px（目測）・中央揃え2行（幅約570px）。SPでは h1 40px。",
+  "cta": "2個を中央横並び：白塗りピル『Schedule a demo』（焦げ茶文字）と、マイクアイコン付きの白枠アウトラインピル『Try it out』（音声デモの導線と推測）。ナビ内にも焦げ茶塗りの『Try it out』。",
+  "motion": "f0→f2で写真は静止し、変化は下端のロゴ・マーキーが左へ流れることのみ。700pxスクロールでは浮遊ナビが上端に固定されたままヒーローが流れ、続く『Scale your practice』（Capture/Convert/Recover の3カード、UI図入り）が現れる。gsap/ScrollTrigger/swiper を検出（用途は unknown）。",
+  "mobile": "ナビは白ピル（ロゴ・焦げ茶『Try it out』・ハンバーガー）。写真は女性の顔〜受話器を拡大トリミング（引き伸ばされてやや粗い）、見出し40px・2行とリード4行を中央揃えで下半分に置き、CTAは全幅で縦積み（白塗り→アウトライン）、その下にロゴ列（2社分）。ヒーロー終端は約 y=720。",
+  "why_good": "顔と受話器という『電話に出る人』を隠さず、文字を顔の下に逃がして下側だけを濃色で落とすため、表情の見えと白文字の可読性が両立している。写真がそのまま製品（電話応対AI）の文脈を語り、CTAも『デモ予約』と『試す』の二段で受ける。",
+  "idea_for_telemo": "TELEMO では受話器を持つ働く人の写真/動画を全面に敷き、顔の位置を避けて下1/3に中央揃えの見出し・リード・CTA2つ（デモ予約＋『AIの声を試す』）を置く。下端の濃色グラデに導入企業ロゴのマーキーを同居させる。",
+  "tags": [
+   "people-photo",
+   "phone",
+   "scrim",
+   "bottom-gradient",
+   "centered-text",
+   "dual-cta",
+   "logo-marquee",
+   "floating-nav",
+   "serif"
+  ],
+  "score": 5,
+  "shots": {
+   "pc": "clarionhealth-com-pc-f2.jpg",
+   "sp": "clarionhealth-com-sp.jpg",
+   "scroll": "clarionhealth-com-pc-scroll.jpg",
+   "frames": [
+    "clarionhealth-com-pc-f0.jpg",
+    "clarionhealth-com-pc-f1.jpg",
+    "clarionhealth-com-pc-f2.jpg"
+   ]
+  },
+  "agent": "global-galleries"
+ },
+ {
+  "slug": "dmj-japan-co-jp-recruit",
+  "name": "DMJ（デジタルマーケティングジャパン）採用サイト",
+  "url": "https://dmj-japan.co.jp/recruit/",
+  "source": "muuuuu.org",
+  "industry": "採用（デジタルマーケ・広告／社員ポートレート）",
+  "hero_type": "full-bleed-photo",
+  "layout": "画面全面に社員4人のポートレートを縦のヘアラインで4分割して横並び（各約365px幅の縦長カラム）。左小段落（6行・白太字）と、右へ広がる大見出し（2段、約110px）が人物の胸〜腹に重なる。上に白い角丸の浮遊ヘッダ（ロゴ・ナビ・赤い『エントリーはこちら ↗』）、左下に『DMJ'S CAREER』の小ラベル。",
+  "image_treatment": "モノクロ化した写真に、下から赤〜橙の光（グラデのフレア）が立ち上がるデュオトーン調。粒状のフィルムグレインあり。人物の笑顔は大きく顔がほとんど欠けない高さに収まり、見出しは顔の下（胴体）に載る。スクリムの代わりに下部の赤黒グラデで可読性を確保。",
+  "typography": "meta の h1 は取得できず null。見出しは白・極太の手書き調ゴシック（斜体風）、1行目『“大人の青春”は、』約110px、2行目『やり切った先にある。』約110px、2段で人物の上に重ね、行間は詰める。左の段落は約16px・白・太字。",
+  "cta": "白い角丸の浮遊ヘッダ内に、赤塗りの角ばったボタン『エントリーはこちら』＋右端に斜め矢印アイコン（約200×46px）。SP は同じボタン＋赤いハンバーガー。ヒーロー本体にはCTAなし。",
+  "motion": "f0(0.8s)は写真が強くぼけた状態（ヘッダ・ナビも不鮮明）で、見出しは未表示。f1/f2 までにピントが合い、見出しが現れる（blur-in）。スクロール(700px)後は写真が再びぼけて暗くなり（スクロール連動のブラー＋暗幕）、見出しが縦書きの大きな文字『大人の青春を創る。』に切り替わって右に出る。",
+  "mobile": "3人分のカラムだけが見える縦長クロップ（中央の人物が主役）、見出しは3段（約60px）で胴体に重なり、段落をその下、ヘッダは白い角丸バー（ロゴ・赤CTA・赤ハンバーガー）。",
+  "why_good": "複数の社員の笑顔を『縦のカラム』で等間隔に並べ、見出しを顔の下に重ねるので、人の表情と大きなコピーが両立する。ブランドカラー（赤）を写真の下部グラデで入れて、写真をブランドに寄せている。",
+  "idea_for_telemo": "コールセンターのスタッフ3〜4人を縦長カラムで並べ、下からティール(#007d8c)のグラデを立ち上げて写真をブランド色に寄せる。見出しは顔の下に重ね、スクロールで写真をぼかして次のコピーへ切り替える。",
+  "tags": [
+   "people-photo",
+   "portrait-columns",
+   "duotone",
+   "brand-color-gradient",
+   "grain",
+   "blur-in",
+   "scroll-blur",
+   "overlap-headline",
+   "floating-header"
+  ],
+  "score": 5,
+  "shots": {
+   "pc": "dmj-japan-co-jp-recruit-pc-f2.jpg",
+   "sp": "dmj-japan-co-jp-recruit-sp.jpg",
+   "scroll": "dmj-japan-co-jp-recruit-pc-scroll.jpg",
+   "frames": [
+    "dmj-japan-co-jp-recruit-pc-f0.jpg",
+    "dmj-japan-co-jp-recruit-pc-f1.jpg",
+    "dmj-japan-co-jp-recruit-pc-f2.jpg"
+   ]
+  },
+  "agent": "jp-galleries"
+ },
+ {
+  "slug": "www-genesys-com",
+  "name": "Genesys",
+  "url": "https://www.genesys.com/",
+  "source": "direct",
+  "industry": "CX SaaS / コンタクトセンター",
+  "hero_type": "full-bleed-photo",
+  "layout": "ヒーロー全面に暗い夕暮れの街頭写真（ボケた群衆の中でスマホを持つ女性）。ヘッダーは角丸の半透明ガラス風ピル。左カラムにH1→リード→CTA2→IDC受賞バナー（暗い角丸カード）。被写体は右中央、文字は左の暗い領域に載せて顔と文字を重ねない配置。",
+  "image_treatment": "左から右へ・下に向かって暗くなるスクリム/ビネット、被写界深度の浅いボケ背景、暖色の逆光（ゴールデンアワー）。モバイルでは全体がさらに暗くなり文字を優先。",
+  "typography": "H1は Roboto 66.24px/500、行高72.9px、字間−2.65px（かなりタイト）、白、左揃え（PC2行/SP3行36px）。リードは約18px白。",
+  "cta": "オレンジ(#ff4f1f)塗りの角丸『Get started』＋白塗り『Explore Genesys Cloud >』を左カラムのリード下に横並び。ヘッダー右にもオレンジのGet started。",
+  "motion": "PCはf0=f1=f2が完全一致で写真は静止。スクロール700pxで写真が大きな楕円(オーバル)にマスクされて縮み、背景がベージュ、ヘッダーが白ピルへ反転（スクロール連動のクリップ演出）。写真上にAI会話の吹き出し(Marie Chang)が重なる。",
+  "mobile": "縦長に暗く伸びる写真の上にH1(36px)→リード→CTA2(全幅・縦)の縦積み。撮影時は会話吹き出しがH1に重なって読みづらかった。",
+  "why_good": "逆光の街頭写真＋暗いスクリムで『顧客の日常』と製品メッセージをつなぎ、CTAと受賞バッジまで1画面で完結。スクロールで写真がオーバルへ変形する演出も上質。弱みは、モバイルで会話オーバーレイが見出しと衝突する点と、写真の人物が『働く人』でなく『顧客』である点。",
+  "idea_for_telemo": "全面写真に実HTML見出しを載せるなら『被写体は右・文字は左の暗い領域』のスクリム設計とタイトな字間(−2〜−3%)が参考になる。スクロールで写真を角丸オーバルに縮める演出もTELEMOの現行ヒーローに転用可。",
+  "tags": [
+   "full-bleed-photo",
+   "scrim",
+   "vignette",
+   "glass-nav",
+   "scroll-mask",
+   "ai-chat-overlay",
+   "tight-tracking",
+   "analyst-badge",
+   "people-photo"
+  ],
+  "score": 5,
+  "shots": {
+   "pc": "www-genesys-com-pc-f2.jpg",
+   "sp": "www-genesys-com-sp.jpg",
+   "scroll": "www-genesys-com-pc-scroll.jpg",
+   "frames": [
+    "www-genesys-com-pc-f0.jpg",
+    "www-genesys-com-pc-f1.jpg",
+    "www-genesys-com-pc-f2.jpg"
+   ]
+  },
+  "agent": "industry-direct"
+ },
+ {
+  "slug": "recruit-dac-co-jp",
+  "name": "Hakuhodo DY ONE Recruit Site",
+  "url": "https://recruit.hakuhodody-one.co.jp/",
+  "source": "httpster.net",
+  "industry": "広告・マーケティング（博報堂DYワンの採用サイト／社員紹介）",
+  "hero_type": "collage-grid",
+  "layout": "白背景。左上にリング型ロゴ＋『Hakuhodo DY ONE RECRUIT SITE』、右上に大文字ナビ7項目、右上の隅に接する黒い『ENTRY』ブロック。ヘッダー下から画面下近くまで、社員ポートレートのカード（寄り約330×330、全身約222×330）を2段の帯に並べ、2段の間（y≈451〜509）に極太の1行コピー『キミの好奇心が、デジタルを塗り替える。』と英語『Be Curious, Repaint Digital.』が貫通する。帯の途中にリング型グラフィックがありカードに少し重なる。",
+  "image_treatment": "同一トーンのラベンダーグレーの無地背景で撮った社員ポートレートを、寄りと全身で交互に並べる。カード内に白の手書き風キャッチ（『未知への挑戦』『人とのつながり』など）、『WAKUWAKU / MISSION / SKILL』の小さな英字ラベル、右端に縦書きの職種ラベル（SOLUTION CONSULTANT 等）、全身カードには『LEFT BRAIN ⟷ RIGHT BRAIN』のスライダー表示。カード下部にうっすら暗い帯（目視）があり白文字を乗せている。角丸なし、カード間は白い余白。",
+  "typography": "metaのh1は空（h1要素なし）。中央帯のキャッチは極太ゴシックで約60px（目視推定）・黒、英語サブは太字サンセリフの小サイズ。カード内は白い手書き風の日本語（約36px：目視）＋小さな英字ラベル。ナビは Noto Sans JP 系の14px前後大文字。",
+  "cta": "右上に黒塗りの四角い『ENTRY』（角丸なし・画面隅に接する）1個。SPでは黒の『ENTRY』と下線付きの『MENU』をヘッダーに並べる。",
+  "motion": "f0(0.8s)ではカードが幅50〜70pxの縦スリット状で、f1(3s)には本来の幅に開いている（スリットから開く登場）。f1→f2で上段は右へ約118px、下段は左へ約119px（約40px/s）と逆方向に流れ、中央帯のコピーも左へ約220px流れるため、無限マーキーと思われる。700pxスクロール後もヒーローは動かず（上段カードが y=121〜200 に残る）、次の濃灰セクション（詩的なコピー）が下から被さる。",
+  "mobile": "カードは1枚ずつ大きく表示（約323px幅のポートレート）。上下カードの間に極太コピーの帯（『キミの好奇心が』が途中まで見える）が挟まる。ヘッダーはロゴ＋黒『ENTRY』＋『MENU』。下端に濃灰の次セクションが覗く。",
+  "why_good": "同一背景・同一ライティングの人物写真を群像として並べ、手書き風コピーと縦書き職種ラベルで1人ずつ語らせている。中央を貫く極太コピーが写真群を1本に束ね、スリットから開く登場と逆方向マーキーで『人の多さ』を動きで伝える。",
+  "idea_for_telemo": "TELEMOのコールセンターで働く人の写真を、同トーンで揃えた縦長カードにして2段の逆方向マーキーで流し、各カードに役割ラベル（オペレーター／SV等）と一言を重ねる。中央に1行の大見出し帯を貫通させ、初回表示はスリットから開く演出にする。",
+  "tags": [
+   "people-photo",
+   "collage-grid",
+   "marquee",
+   "slit-open-reveal",
+   "two-row",
+   "handwriting-caption",
+   "pinned-hero",
+   "big-band-copy",
+   "recruit",
+   "vertical-label"
+  ],
+  "score": 5,
+  "shots": {
+   "pc": "recruit-dac-co-jp-pc-f2.jpg",
+   "sp": "recruit-dac-co-jp-sp.jpg",
+   "scroll": "recruit-dac-co-jp-pc-scroll.jpg",
+   "frames": [
+    "recruit-dac-co-jp-pc-f0.jpg",
+    "recruit-dac-co-jp-pc-f1.jpg",
+    "recruit-dac-co-jp-pc-f2.jpg"
+   ]
+  },
+  "agent": "global-galleries"
+ },
+ {
+  "slug": "layerx-co-jp",
+  "name": "LayerX",
+  "url": "https://layerx.co.jp/",
+  "source": "direct",
+  "industry": "B2B SaaS / フィンテック",
+  "hero_type": "split-text-image",
+  "layout": "白背景。ヘッダー左にロゴ＋ナビ、右に紫(#4f46ff)ピル『Join Us / 採用情報』。左(x=156)にH1(2行)＋淡灰の英語サブコピー。右に横長六角形にクリップしたオフィス写真（窓際の円卓で談笑する男女2人、背後を歩く人、ソファの2人）。写真の下と右に、ロゴ形状の半透明パラレログラム(淡青・濃紫・灰)を重ね、交差部は写真が透ける。",
+  "image_treatment": "写真をブランド図形(ロゴの菱形/六角形)でマスク。自然光・低彩度・白基調のオフィスで、撮られていることを意識しないドキュメンタリー調。図形を写真の縁に重ねて写真と背景をつなぐ。",
+  "typography": "H1は computed が16pxだが画面上は和文約64px・太めゴシック(Tazugane)・行間約90px・色#152632の2行(内部の子要素で大きく表示と推定)。英語サブコピーは約28pxの淡グレー(#c8ccd0)で控えめ。",
+  "cta": "ヒーロー内CTAなし（採用/ブランド寄りの設計）。ヘッダー右の紫ピルのみ。左下にスクロールヒント(縦線＋ドット)。",
+  "motion": "f0(0.8s)は見出しが1文字ずつせり上がる途中(『未来の希望を』まで)で写真・図形はまだ無く、f1(3s)で六角形写真＋図形が出現、f2で完成＝ロード時のイントロ（1440×936のcanvasを検出、図形アニメに使用と推定）。700pxスクロールで写真は去り、ヒーローの図形に似た2枚の大きなパラレログラムが残って次の段落(文字が1文字ずつ現れる)の背景に。ヘッダーは左上『Menu』ピルと右上の進捗リング付き『↑』に縮退。",
+  "mobile": "六角形写真を先頭に全幅で置き、その下にH1と英語サブコピー。CTAなし。写真が上・文字が下の分離型。",
+  "why_good": "人の写真を会社のロゴ形状でマスクし、半透明図形を重ねて『写真＝ブランド』にしている点が秀逸。ドキュメンタリー調の写真が信頼感を、図形が先進性を担う。弱みは、ヒーローにCTAがなくリード獲得には直結しないこと。",
+  "idea_for_telemo": "TELEMOのロゴ形状（またはティールの斜めカット）で現場写真をマスクし、半透明のティール図形を写真の縁に重ねる。写真の『窓』が会社のモチーフになり、全面写真より固有性が出る。",
+  "tags": [
+   "shape-mask",
+   "hexagon-crop",
+   "translucent-shapes",
+   "documentary-photo",
+   "people-photo",
+   "brand-shape",
+   "intro-animation",
+   "canvas",
+   "scroll-linked",
+   "collapsing-header"
+  ],
+  "score": 5,
+  "shots": {
+   "pc": "layerx-co-jp-pc-f2.jpg",
+   "sp": "layerx-co-jp-sp.jpg",
+   "scroll": "layerx-co-jp-pc-scroll.jpg",
+   "frames": [
+    "layerx-co-jp-pc-f0.jpg",
+    "layerx-co-jp-pc-f1.jpg",
+    "layerx-co-jp-pc-f2.jpg"
+   ]
+  },
+  "agent": "industry-direct"
+ },
+ {
+  "slug": "lightshiprv-com",
+  "name": "Lightship",
+  "url": "https://www.lightshiprv.com/",
+  "source": "land-book.com",
+  "industry": "製造・EVキャンピングトレーラー（D2C／高単価プロダクト）",
+  "hero_type": "full-bleed-video",
+  "layout": "上に濃緑の告知バー（白ピル『See the AE.1 in person』）、その下に8pxのインセットを取った角丸の全面動画フレーム（1424×884）。ナビは左にメニュー・AE.1・Technology・Specs、中央にロゴ、右に Experience・Build yours。見出しは『Born for Adventure.』を左端、『Built in America.』を右端に振り分け、中央の被写体（キャンピングカー）が見えるように画面の縦中央に配置。最下部に細い罫線と『Scroll to explore』＋下向き矢印。",
+  "image_treatment": "夕景〜日中の自然光で撮ったロケーション動画（空撮カットを含む）。スクリムは見えず、被写体の左右の余白に白文字を直接置く。動画フレームは角丸で白い余白の中に収まる“額縁付き全面動画”。f0ではフレームの四隅が斜めにカットされた多角形マスクで、f2でフルフレームに開いている。",
+  "typography": "h1は 'F37Bolton' 72px / weight400 / 行高72px / 字間-3.6px（-0.05em）/ 白。1行を左右に分割して配置（meta の h1 は同文が二重に入っている）。SPでは約40px・2行で左揃え、被写体の上に重ねる。",
+  "cta": "ヒーロー内に塗りボタンは無く、ナビの『Build yours』（テキスト）と告知バーの白ピルが入口。SPでも同様でナビの『Build yours』のみ。",
+  "motion": "f0(0.8s)：動画が多角形マスク（四隅が斜めに欠けた形）で表示され、見出しは1行に繋がったまま下から切り上がる途中（文字の下半分が隠れている）。f2(6s)：マスクがフルフレームに開き、見出しは左右に分かれて定位置に。動画も別カット（ピックアップ＋トレーラーの空撮→草原のキャンピングカー）に切り替わっている。700pxスクロール後は白背景の上に、人物の生活写真（車内で笑う夫婦・子ども・犬）が自由配置のコラージュで並び、ナビは白い半透明バーに変わる。",
+  "mobile": "動画を角丸の縦長フレーム（余白16px）に収め、上に告知バーと角丸の白いナビピル（メニュー・AE.1・ロゴ・Build yours）。見出しは2行に組み替えて被写体の上に重ね、下に『Scroll to explore』。",
+  "why_good": "額縁付きの全面動画＋マスクが開く入場演出で『特別な体験』を作り、見出しを被写体の左右に振り分けて主役を隠さない。直後に人物の生活写真コラージュを続け、プロダクトから人へ視線を動かしている。",
+  "idea_for_telemo": "TELEMOの働く人の動画を角丸の額縁フレームに入れ、見出しを人物の左右（または上下）に振り分けて顔を隠さない。入場時にフレームがマスクで開く演出と、スクロール直後の人物写真コラージュを組み合わせる。",
+  "tags": [
+   "full-bleed-video",
+   "inset-frame",
+   "rounded",
+   "clip-path-mask",
+   "split-headline",
+   "people-photo-collage-below",
+   "scroll-hint"
+  ],
+  "score": 5,
+  "shots": {
+   "pc": "lightshiprv-com-pc-f2.jpg",
+   "sp": "lightshiprv-com-sp.jpg",
+   "scroll": "lightshiprv-com-pc-scroll.jpg",
+   "frames": [
+    "lightshiprv-com-pc-f0.jpg",
+    "lightshiprv-com-pc-f1.jpg",
+    "lightshiprv-com-pc-f2.jpg"
+   ]
+  },
+  "agent": "global-galleries"
+ },
+ {
+  "slug": "mercury-com",
+  "name": "Mercury",
+  "url": "https://mercury.com/",
+  "source": "direct",
+  "industry": "B2B フィンテック（法人向け銀行）",
+  "hero_type": "full-bleed-video",
+  "layout": "フルブリードの写真調映像（霧の山稜に置かれたデスクとノートPC）。上部中央に見出し・リード・メール入力＋2ボタンを中央揃え、最下部に小さな注記の帯。",
+  "image_treatment": "夜明けの低彩度な色調（ピンクの空・青緑の山・霧）。文字は暗めの空の上に白で載る。下部の注記は暗い半透明帯。強いスクリムは目視では確認できない。",
+  "typography": "h1 arcadiaDisplay 49px/480、色 rgb(237,237,243)（純白でない）、中央1行。リード2行は小さめの白。",
+  "cta": "メール入力欄＋紫の『Open account』ピル＋半透明の『Launch demo』ピルを横一列（中央）。SPは縦積み。最初から表示。",
+  "motion": "読み込み直後（t1→t4）は静止した広い画で自動再生しない。スクロールで映像をスクラブ（独自計測）：y100 変化なし → y300 カメラがデスクへ前進 → y400 見出し・リード・CTAが半透明に → y600 文字は消え、デスク高さの目線でノートPCが中央 → y900 PCの画面（Mercuryのダッシュボード）が画面の大半を占める → y1300 実際のダッシュボードUI（暗い背景）へ受け渡し。ヒーローは約1300pxピン留め。上部の告知帯はスクロールで消える。",
+  "tech": "meta：video https://mercury.com/videos/hero/hero-scrub-lg.mp4（1440×900、autoplay=false、loop=false、playing=false）＝ファイル名どおりスクラブ専用。SPは hero-scrub-sm.mp4（390×844）。gsap等はグローバル検出なし。load timeout（重いページ）。",
+  "mobile": "SPは縦長のスクラブ用動画を別ファイルで用意（hero-scrub-sm.mp4、390×844）。文字は上部、デスクは下寄せの縦構図。",
+  "why_good": "『現実の風景→自社プロダクトの画面』へカメラが寄るだけの1カットで、B2Bの抽象的な価値を具体的なUIへ自然に受け渡している。動きはスクロール量に従うので押しつけがましくない。",
+  "idea_for_telemo": "コールセンター全景 → オペレーターのモニタへドリーイン → モニタ内のTELEMO管理画面（実HTML）へ受け渡す。ヒーローを約1.3〜1.5画面分ピン留めし、見出し・CTAはスクロール約300〜500pxで opacity 1→0。スクラブ用の動画は全フレームをキーフレームにして書き出し（一般的な実装上の注意）、SPは9:16版を別ファイルにする。",
+  "tags": [
+   "scrub",
+   "pin",
+   "dolly-in",
+   "handoff-to-ui",
+   "separate-sp-video",
+   "b2b"
+  ],
+  "score": 5,
+  "shots": {
+   "pc": "mercury-com-pc-f2.jpg",
+   "sp": "mercury-com-sp.jpg",
+   "scroll": "mercury-com-pc-scroll.jpg",
+   "frames": [
+    "mercury-com-pc-f0.jpg",
+    "mercury-com-pc-f1.jpg",
+    "mercury-com-pc-f2.jpg"
+   ]
+  },
+  "agent": "motion-craft"
+ },
+ {
+  "slug": "hioscar-com",
+  "name": "Oscar",
+  "url": "https://www.hioscar.com/",
+  "source": "saaslandingpage.com",
+  "industry": "医療保険（個人向け。雇用主・ブローカー・医療機関向けの導線もあり）",
+  "hero_type": "full-bleed-photo",
+  "layout": "1440×900 の全面写真（家族がソファで笑う集合ショット）。透過ナビが写真の上に重なる（左に藍色の 'oscar' ロゴ、白文字メニュー、右に藍色ピル『Find a Plan』）。見出しは画面中央やや下（y≈500〜740）に中央揃えで2行、CTA2個はその直下中央。",
+  "image_treatment": "人物の表情が見える自然光の集合写真を全面トリミング。写真全体に暗めのオーバーレイをかけてクリーム文字を載せている。meta には本体 1440×960 に加え 397×337・417×334 の追加画像があり、スクロール後に左右へ覗く別写真として使われている。",
+  "typography": "h1は独自ディスプレイ・セリフ（font stack: display, displayFull, ui-serif, Georgia, serif）120px / weight400 / 行高120px / 字間 -1.2px / クリーム(rgb(247,245,235))、中央揃え2行（box 1408×240）。SPでは51px・2行。リード文なし。ナビは白の細いサンセリフ。",
+  "cta": "2個のピル：藍色塗り『Shop plans』（主）＋白塗り『Find care』（副）を見出し直下に中央で並べる。ヘッダー右にも藍色ピル『Find a Plan』。",
+  "motion": "f0(0.8s)は導入状態：全幅の巨大な『oscar』ワードマークが写真に重なる（2回の取得で写真の明暗とワードマークの濃さが異なり、遷移の途中）。f1(3s)以降はワードマークが消え、ナビ・見出し・CTAが出た通常状態。700pxスクロールでは写真が角丸の中央カード（約757×522）に縮み、左右に傾いた別写真が覗くファン状の配置に変わり、ヘッダーはクリーム地・濃色文字に切り替わる（途中経過は unknown）。",
+  "mobile": "写真を縦長に寄せて顔のクローズアップにトリミング。51px・2行の見出しを下3分の1に置き、ピル2個を横並び（藍『Shop plans』＋白『Find care』）。ナビはハンバーガー＋検索＋中央ロゴ＋『Find a Plan』。",
+  "why_good": "感情の出る集合写真を全面に敷き、巨大なセリフ見出しで一言を言い切る。CTAは2個に絞り、スクロールで写真が角丸カード＋扇状の別写真へ変形して次のセクションへ橋渡しする。",
+  "idea_for_telemo": "TELEMOのコールセンター写真/動画を全面に敷き、大きな見出しを中央下・CTA2個（主＝塗り／副＝白）で固定する。スクロールで写真が角丸カードに縮み、現場写真が扇状に並ぶ遷移を足す。",
+  "tags": [
+   "full-bleed-photo",
+   "people-photo",
+   "serif-headline",
+   "center-headline",
+   "scroll-shrink-to-card",
+   "fan-collage",
+   "intro-wordmark",
+   "pill-cta",
+   "scrim",
+   "transparent-nav"
+  ],
+  "score": 5,
+  "shots": {
+   "pc": "hioscar-com-pc-f2.jpg",
+   "sp": "hioscar-com-sp.jpg",
+   "scroll": "hioscar-com-pc-scroll.jpg",
+   "frames": [
+    "hioscar-com-pc-f0.jpg",
+    "hioscar-com-pc-f1.jpg",
+    "hioscar-com-pc-f2.jpg"
+   ]
+  },
+  "agent": "global-galleries"
+ },
+ {
+  "slug": "parloa-com",
+  "name": "Parloa",
+  "url": "https://www.parloa.com/",
+  "source": "land-book.com",
+  "industry": "B2B SaaS / エンタープライズ向け AI カスタマーサービス（AIエージェント）",
+  "hero_type": "full-bleed-video",
+  "layout": "1440×900（100vh）の全面動画。ナビは上端に透過で重ね（ロゴ左・メニュー・Login・白ボタン「Book a demo」右）。見出し(x=128,y≈624)とCTAは左下、右下には製品の通話チャットUI（Customer/Agentの吹き出し＋「Resolved • 46 sec」ピル）が重なり、人物は中央〜左にトリミング。",
+  "image_treatment": "暗めでウォームトーンのドキュメンタリー調ポートレート動画（ファイル名 parloa-hero-01-web-dark30.mp4）。下側が黒に沈むグラデーション状のスクリムで左下の見出しの可読性を確保。吹き出しは refraction-glass-alpha.webp を使った半透明ガラス風の角丸カード（薄い枠線・虹色のハイライト付き）。",
+  "typography": "h1は 'Season Serif'（セリフ）54px / weight440 / 行高56.7px / 字間-0.54px / 白、3行（box 582×152）。リード文は無く見出し→CTAのみ。ガラスカード内ラベルは Geist Mono（等幅）、本文は Geist。SPでは36px・4行。",
+  "cta": "塗りボタン1個（オレンジ寄りの赤、小角丸）「Explore the platform」を見出し直下に左揃え。ナビ右端に白塗りの「Book a demo」もあり。",
+  "motion": "動画は muted loop で再生中（1440×900, playing）。f0(0.8s)のイヤホンの女性→f2(6s)のノートPCで作業する男性と、動画内で人物カットが切り替わる。吹き出しUIはf0では3つ、f2では4つ＋Resolvedピルと時間で会話が進行。スクロール700pxではヒーロー（高さ=100vh）が上へ流れ、白背景のロゴストリップへ移行。視差の有無は unknown。",
+  "mobile": "動画は390×557の上部ブロックにトリミング（人物の顔が上部）。その下は暗茶色のベタ面に切り替わり、見出し(36px・4行)とCTAを積む。チャットUIはSPスクショでは見えない。",
+  "why_good": "『人が会話している瞬間』の動画を全面に置きながら、製品の通話ログ（吹き出し）を重ねて写真と製品UIを一画面で結び付けている。見出し・CTAは左下に固定され、動画が替わっても読み位置が変わらない。",
+  "idea_for_telemo": "コールセンターで働く人の動画の右下に、半透明ガラスカードで『AIと顧客の通話ログ＋対応完了◯秒』を重ね、写真の“人”とTELEMOの通話UIを1画面に同居させる。見出しは左下・CTA1個の定位置を保つ。",
+  "tags": [
+   "video",
+   "people-photo",
+   "scrim",
+   "glass-card",
+   "bottom-left-headline",
+   "product-ui-overlay",
+   "serif"
+  ],
+  "score": 5,
+  "shots": {
+   "pc": "parloa-com-pc-f2.jpg",
+   "sp": "parloa-com-sp.jpg",
+   "scroll": "parloa-com-pc-scroll.jpg",
+   "frames": [
+    "parloa-com-pc-f0.jpg",
+    "parloa-com-pc-f1.jpg",
+    "parloa-com-pc-f2.jpg"
+   ]
+  },
+  "agent": "global-galleries"
+ },
+ {
+  "slug": "smarthr-jp",
+  "name": "SmartHR",
+  "url": "https://smarthr.jp/",
+  "source": "direct",
+  "industry": "B2B SaaS(人事労務)",
+  "hero_type": "split-text-image",
+  "layout": "2段ヘッダー直下に高さ約535pxの全幅ティール(#00bfc8→#007f8a系の斜めグラデ)バンド。左に小コピー(『組織が変わる』は濃ティール帯に白字)→極太H1(2行 白)→CTA2。右にスーツ姿3人(男女)の半身切り抜き写真を右端からはみ出させて配置（中央の女性が最前面、両脇は腕組み・メガネに手）。バンド下端で脚が切れる。",
+  "image_treatment": "人物は背景を切り抜いてティールのグラデに直置きし、肌/スーツの陰影もティール寄りに調色。単色グラデのためスクリム不要で、白文字の可読性は背景の濃淡で確保。",
+  "typography": "H1は computed が16pxで見出し本体は画像化されたロゴタイプ風の極太字(PCで約90〜100px、白、左揃え2行)と推定（meta上は文字として取得できず）。小コピーは約32px。",
+  "cta": "約300×70pxの大きなピル2つ：白『資料ダウンロード』(資料サムネ入り)と濃ティール(#0b5961)『無料トライアル』(画面サムネ＋→丸アイコン)を横並び。各ボタン上端に黄色の小ピル吹き出しラベル(『いつでも見られる！』『使いやすさを実感！』)。ヘッダー右にも濃ティールのピル2つ。",
+  "motion": "f0=f1は同一、f2で右下の個別相談会バナーが出現するのみでヒーロー本体は静止。スクロールはヘッダー固定で、700pxで月桂冠(7年連続No.1・250万インストール)＋製品画面＋3つのチェック点の信頼ストリップ。右下に個別相談会バナーが常時表示。",
+  "mobile": "中央揃えの縦積み：小コピー→H1→人物3人(全幅、下端がティールへフェード)→CTA2(全幅・縦)。下部に固定バー『資料3点セット』(冊子画像＋黄字＋ダウンロードアイコン)。",
+  "why_good": "ブランドのティール(TELEMOと同系)＋表情豊かな人物＋極太見出しで『親しみ×実績』を即伝達。CTAに吹き出しラベルとサムネを入れて心理的ハードルを下げ、SPは固定バーで再訴求する。弱みは、人物が導入現場の社員ではなく広告用キャスト風に見えること(断定はできない)と、右下バナーや下部バーなど周辺UIが多く画面が賑やかなこと。",
+  "idea_for_telemo": "TELEMOの白×ティールと近い系統なので、太い見出し＋ティール面＋人物の組み合わせは直接参考になる。ただしTELEMOは切り抜きでなく『コールセンターの環境ごと』の写真で差別化し、CTAには小さな吹き出しラベル＋サムネを足す。",
+  "tags": [
+   "teal",
+   "cutout-people",
+   "big-type",
+   "cta-label-bubble",
+   "cta-thumbnail",
+   "laurel-badges",
+   "sticky-bottom-cta-sp",
+   "people-photo",
+   "trust-strip"
+  ],
+  "score": 5,
+  "shots": {
+   "pc": "smarthr-jp-pc-f2.jpg",
+   "sp": "smarthr-jp-sp.jpg",
+   "scroll": "smarthr-jp-pc-scroll.jpg",
+   "frames": [
+    "smarthr-jp-pc-f0.jpg",
+    "smarthr-jp-pc-f1.jpg",
+    "smarthr-jp-pc-f2.jpg"
+   ]
+  },
+  "agent": "industry-direct"
+ },
+ {
+  "slug": "union-tec-jp",
+  "name": "UNION TEC（ユニオンテック）",
+  "url": "https://www.union-tec.jp/",
+  "source": "muuuuu.org / 81-web.com",
+  "industry": "コーポレート（空間デザイン・施工／職人の手元写真）",
+  "hero_type": "other",
+  "layout": "白地にヘアラインのグリッド。画面いっぱいの巨大な黒いワードマーク『UNION TEC』の中央を、角丸の横長ピル型の写真窓（約950×410px）がくり抜き、窓には職人の手元の写真（静止画か動画かは unknown：video 要素が5つあるが再生中ではない）。窓の左右には文字の断片（『IIO』『UI』）。下段に左端『人』／右端『類に意義ある空間を』の字間を大きくあけた1行コピー、左下に説明文、右下に Scroll。ヘッダは左ロゴ＋右にピル状の Contact/Menu。",
+  "image_treatment": "写真（動画）は文字『O』の位置に生まれたピル型の窓にだけ表示され、背後に巨大文字が回り込む。スクロールで窓は縦長の楕円に変形して右へ移り、中の画像が森の写真に切り替わる。背景のグリッドは歪んだ曲線でゆらぐ（f0）。スクリムなし、モノクロ文字＋実写。",
+  "typography": "meta の h1 は 'UNION TEC'（視覚的には非表示の1×1px）で、見た目のワードマークは Helvetica LT Pro 系の極太・約180px・全大文字・黒。和文は MFW-PGothic 系の太字。コピーは約24px・字間約1em。",
+  "cta": "ヘッダに黒塗りpill『Contact』と枠線pill『Menu』を縦に2つ。ヒーロー中央にCTAなし。",
+  "motion": "f0(0.8s)は『UNI◯N』の『O』がピル形に引き伸ばされた黒のワードマーク＋右下に『100%』のローダーカウンタ＋ゆらぐグリッド。f2(6s)でピルが写真窓になり、見出しの断片と下段コピーが出る。スクロール(700px)後は巨大ワードマークが淡いグレーの背景文字になり、窓が右の縦長楕円(森の写真)に変形し、左に本文が1文字ずつ黒→グレーで読み進む表現で現れる。lenis、canvas 3つ。",
+  "mobile": "窓は横長の楕円に近い形（イラスト作品の展示写真）で画面中央、ワードマークは左右の文字の端（U、N）だけが見える。コピーは下部1行（人／類に意義ある空間を）に分けて配置、Contact/Menu はヘッダの大きめピル。",
+  "why_good": "『ロゴ文字の中の1文字を写真の窓にする』ことで、ブランド名と実写を1つの構図に統合し、ローダー→窓→スクロールで窓が変形して本文へ移る、一連の導線にしている。職人の手元という匿名の人物写真で『人』を見せる。",
+  "idea_for_telemo": "TELEMO のロゴ/見出し文字の1文字（例：『O』『◯』）をピル型の窓にし、ローダーの後に窓の中でコールセンターの手元映像が流れる。スクロールで窓が楕円になって右へ移動し、本文へ入る。",
+  "tags": [
+   "mask-window",
+   "pill-mask",
+   "scroll-morph",
+   "giant-wordmark",
+   "grid-bg",
+   "loader-counter",
+   "people-hands",
+   "lenis",
+   "canvas"
+  ],
+  "score": 5,
+  "shots": {
+   "pc": "union-tec-jp-pc-f2.jpg",
+   "sp": "union-tec-jp-sp.jpg",
+   "scroll": "union-tec-jp-pc-scroll.jpg",
+   "frames": [
+    "union-tec-jp-pc-f0.jpg",
+    "union-tec-jp-pc-f1.jpg",
+    "union-tec-jp-pc-f2.jpg"
+   ]
+  },
+  "agent": "jp-galleries"
+ },
+ {
+  "slug": "vessel-for-jp",
+  "name": "VESSEL（ヴェゼル株式会社）",
+  "url": "https://vessel-for.jp/",
+  "source": "sankoudesign.com",
+  "industry": "コーポレート／採用（人材・キャリア）",
+  "hero_type": "full-bleed-photo",
+  "layout": "画面全面にスタッフ5人が屋上を歩く写真（左右端に隣のスライドの写真が少しのぞくカルーセル）。下部約25%をティール(#14b9c4系)の波形シェイプが覆い、その上に円弧状に曲がった白い大文字『VESSEL FOR RE:CHOICE』が波に沿って走り、回転した『選ぶ、をつくる』が続く。左下に Scroll down、右下に丸アイコン3つ付きのリンク。",
+  "image_treatment": "スクリムなし。屋外自然光の明るい写真に、フラットなティールの波形マスクで文字用の面を作る（写真と文字の間に色面を置いて可読性を確保）。波の曲線にそって見出し文字を曲げる。PCは5人の集合、SPは別カット（ノートPCを操作する手元）。",
+  "typography": "meta の h1 は空。見出し『VESSEL FOR RE:CHOICE』はジオメトリックなサンセリフ・太め・全大文字・約90px・白で、波の曲線に沿って円弧状に配置。サブは『選ぶ、をつくる』（約36px の和文を回転）。ヘッダは白の細字ナビ。",
+  "cta": "ヒーロー内の主CTAなし。右下に『VESSEL FOR RE:CHOICE →』の小リンク（丸アイコン3つ）。ハンバーガーは細い3本線。",
+  "motion": "f0(0.8s)は PC でもノートPCを操作する手元の写真（SP と同じカット）で、f2(6s)では5人が歩く写真に切り替わっている（スライドの自動送り。左右端に隣のスライドがのぞく）。ティールの波形面・ナビ・Scroll down は動かない。スクロール(700px)後は写真が波形のティール面の下に隠れ、ティール一色の地に白文字の『About Us』セクションへ地続きで入る。GSAP/ScrollTrigger/Swiper あり。",
+  "mobile": "SP の3秒時点は PC の f0 と同じ『ノートPCを操作する手元』の写真（スライドの1枚目）を縦長クロップで全面表示。波形のティール面が下約27%を占め、見出しは波に沿って斜めに置かれて右端で切れる。左下に Scroll down。",
+  "why_good": "ヒーロー最下部の波形のティール面が、そのまま次セクションの背景色になり、写真から本文へ『色で』繋がる。見出しを写真の上ではなく色面の上に置くため、スクリム不要。TELEMOの #007d8c に近い色相。",
+  "idea_for_telemo": "写真の下端をティール(#007d8c)の波形（または斜め）で切り、その色面に白文字の見出しを載せる。次セクションの背景色も同じティールにして地続きにする。SPは縦長クロップで下約27%を色面にする。",
+  "tags": [
+   "people-photo",
+   "wave-mask",
+   "teal",
+   "curved-text",
+   "no-scrim",
+   "seamless-section",
+   "carousel",
+   "gsap"
+  ],
+  "score": 5,
+  "shots": {
+   "pc": "vessel-for-jp-pc-f2.jpg",
+   "sp": "vessel-for-jp-sp.jpg",
+   "scroll": "vessel-for-jp-pc-scroll.jpg",
+   "frames": [
+    "vessel-for-jp-pc-f0.jpg",
+    "vessel-for-jp-pc-f1.jpg",
+    "vessel-for-jp-pc-f2.jpg"
+   ]
+  },
+  "agent": "jp-galleries"
+ },
+ {
+  "slug": "wantedlyinc-com",
+  "name": "Wantedly コーポレートサイト",
+  "url": "https://wantedlyinc.com/",
+  "source": "muuuuu.org",
+  "industry": "コーポレート（採用プラットフォーム／社員の写真・映像）",
+  "hero_type": "full-bleed-photo",
+  "layout": "画面の外周に約8pxの余白をあけ、角丸の大きなカード（1424×884px）として全面に会話中の社員2人の写真（静止画か動画かは unknown：ヒーロー面に全面 canvas が重なり、video 要素は 320×400 の小さなもの1つ）。左下に白い大見出し4行（幅約850px）、上中央に暗い半透明のフローティングナビ（白いロゴチップ付き）、右上に『採用情報 Careers』の写真サムネ付き白チップ、右下に『Our Mission』リンクと縦書きの Scroll 表示。",
+  "image_treatment": "スクリムはほぼなし（写真全体がやや沈んだ色調で、白文字が読める明度）。窓際のオフィスで人物は画面中央〜右、見出しは人物の体に重なる位置まで広がる。写真は角丸カードで、縁に8pxのページ背景がのぞく。",
+  "typography": "meta の h1 は 16px/500/白（TazuganeGothicStdN-Medium）で、見た目の見出しは約80px・太めのゴシック・白・4行（『究極の／適材適所により／シゴトでココロオドル／ひとをふやす。』）。見出し領域に重なる canvas(1047×378px) が存在し、描画方法は unknown。上に青い丸ドット付きの小見出し『私たちのミッション』。",
+  "cta": "ヒーロー内に主CTAなし。右上に『採用情報 Careers』（サムネ付き白い角丸チップ）、右下に『Our Mission →』の下線リンク。スクロール後はナビが『Menu』の小さなピルに縮む。",
+  "motion": "f0(0.8s)・f1(3s)は白地に Wantedly ロゴだけのローダー（SP の3秒時点も白地＋ロゴ＋斜めの細い写真スリットが走る導入）。f2(6s)で全面の写真・見出し・フローティングナビが表示される。スクロール(700px)後はナビが『Menu』の小さなピルに縮み、角丸カードが縦に積まれて次の写真（モニターに向かう社員）と大見出しが続く。左下に水色の丸いドットが残る。lenis あり。",
+  "mobile": "SP は3秒時点でも導入のスリット表示が残っていて、ヒーロー本体は未確認（unknown）。",
+  "why_good": "『働く人2人が話している』写真を、角丸カードの全面＋人物に重なる大きな白見出しで見せる。写真を窓の外のぼかしで抜けさせ、顔を見出しの外に置いているので、スクリムなしでも読める。",
+  "idea_for_telemo": "コールセンターの働く2人（オペレーターとスーパーバイザー）の会話の映像を角丸カードで全面に置き、見出しを左下に大きく。右上に『採用情報』のように『導入事例を見る』の写真サムネ付きチップを置く。",
+  "tags": [
+   "people-photo",
+   "full-bleed-video",
+   "rounded-card-inset",
+   "floating-nav",
+   "photo-thumb-chip",
+   "white-headline",
+   "slit-intro",
+   "lenis"
+  ],
+  "score": 5,
+  "shots": {
+   "pc": "wantedlyinc-com-pc-f2.jpg",
+   "sp": "wantedlyinc-com-sp.jpg",
+   "scroll": "wantedlyinc-com-pc-scroll.jpg",
+   "frames": [
+    "wantedlyinc-com-pc-f0.jpg",
+    "wantedlyinc-com-pc-f1.jpg",
+    "wantedlyinc-com-pc-f2.jpg"
+   ]
+  },
+  "agent": "jp-galleries"
+ },
+ {
+  "slug": "weara-co-jp-tedori",
+  "name": "ウェアラ（ユニフォームレンタル）手取りLP",
+  "url": "https://www.weara.co.jp/tedori/",
+  "source": "lp.webdesignclip.com",
+  "industry": "B2B ユニフォームレンタル（現場労働者の写真）",
+  "hero_type": "full-bleed-photo",
+  "layout": "1440×900 いっぱいに整備士の作業写真。左下に見出し4段を左寄せ（約770px幅の帯）、右側に白い円形の実績バッジ3つ（約4,000社／継続率98%／20拠点）を縦に並べる。人物の顔は右上にあり、文字と重ならない。左上と右下は斜めにカット、右下にライムグリーンの三角アクセント。",
+  "image_treatment": "スクリムなし。写真の明るさをそのまま残し、可読性は『不透明な白帯＋黒文字』『黒帯＋白文字』のラベルで確保。左上は斜めの切り欠き、右下にライム(#d5e600系)の斜め三角。色調は自然光の作業現場（暗い紺の作業服が写真内で面積を持つ）。",
+  "typography": "meta の h1 は『洗濯の負担をゼロに！』 ff-market-web 76.5px / weight 700 / line-height 91.8px / letter-spacing 0.8px / color #191919。『ユニフォームレンタルで』『手取り時間を増やそう』も同サイズの白帯・黒文字。上の2行（約34px、白文字・黒帯）は『従業員』『管理者』のみライム色。計4段で、行ごとに帯幅が文字に合わせて伸びる。",
+  "cta": "ヒーロー内には CTA なし（meta の ctas は null）。スクロール後、画面右端に黒い縦スタックの固定タブ（無料見積り／資料請求／お問合せ／電話番号 0120-57-3360）が現れる。",
+  "motion": "f0(0.8s)は写真だけ（見出し・バッジは未表示、左上の斜め切り欠きのみ）。f1(3s)で帯ラベルとバッジが出そろい f2 と同じ。スクロール(700px)後は写真が上に流れ、ライム斜線の薄い面とページ本文が来て、右端の固定CTAタブが出る。GSAP あり。",
+  "mobile": "縦長の写真を全面に使い、バッジ3つを写真の右上に縦積み、見出し帯を写真の下端（左寄せ）に移す。サイト冒頭の同意バーがロゴに重なって残る。",
+  "why_good": "現場の人の写真を大きく使いながら、文字は『帯』で貼るのでスクリムなしでも読める。実績を円バッジで写真に重ね、斜めカットとライムで製造・現場の勢いを出している。",
+  "idea_for_telemo": "コールセンターの写真を全面に出し、見出しを白（またはティール）の帯ラベルで左下に載せる。スクリムを使わないので写真が濁らない。実績（導入社数・稼働率など）は円形バッジを右に3つ縦配置。",
+  "tags": [
+   "people-photo",
+   "work-scene",
+   "label-bars",
+   "no-scrim",
+   "circle-badges",
+   "diagonal-cut",
+   "fixed-side-cta",
+   "gsap"
+  ],
+  "score": 5,
+  "shots": {
+   "pc": "weara-co-jp-tedori-pc-f2.jpg",
+   "sp": "weara-co-jp-tedori-sp.jpg",
+   "scroll": "weara-co-jp-tedori-pc-scroll.jpg",
+   "frames": [
+    "weara-co-jp-tedori-pc-f0.jpg",
+    "weara-co-jp-tedori-pc-f1.jpg",
+    "weara-co-jp-tedori-pc-f2.jpg"
+   ]
+  },
+  "agent": "jp-galleries"
+ },
+ {
+  "slug": "giftee-group-com",
+  "name": "ギフティグループ コーポレートサイト",
+  "url": "https://giftee-group.com/",
+  "source": "muuuuu.org",
+  "industry": "コーポレート（IT・ギフト／社員の写真）",
+  "hero_type": "typographic-with-small-image",
+  "layout": "白地。中央に3行の見出し（約440px幅）と暗いグレーの角丸CTA『パーパス・ステートメント →』。その周囲（上・左下・右下・中央下）に、約180〜270px幅の社員・オフィス写真の小タイルを余白をあけて散らす。画面下に区切り線とIRのお知らせ行。",
+  "image_treatment": "写真は小さな長方形タイル（角丸約6px、影・枠なし）。自然光のドキュメンタリー調（会議、集合、梱包現場、街歩き）。f0 では半透明、f2 では不透明。大きな写真は使わず、写真は『人がいる』というサインとして点在させる。",
+  "typography": "meta の h1 はロゴ（16px）。実見出しは約28px・太め・字間広め（letter-spacing 約0.3em）・濃いグレー、3行。リード文なし。",
+  "cta": "1つ。暗いグレー(#3a3a3a)の角丸矩形（約275×58px）『パーパス・ステートメント』＋右端に白い角丸の矢印アイコン。見出しの直下。ヘッダ右に EN の細枠ボタン。",
+  "motion": "f0(0.8s)→f2(6s)で写真タイルが左へ移動し（上段の2枚は約135px、左下のタイルは約220pxで、タイルごとに移動量が違う）、f0 では半透明で f2 では不透明。タイルが横に漂うマーキー状の動き（画面左下の一時停止ボタンで止められる）。スクロールではヘッダが細い固定バーになり、通常の本文が続く。",
+  "mobile": "見出しを左寄せ（約82px から）に、写真タイルは上に1枚、下の左右端に端が切れる形で2枚。CTA は幅約520px の角丸（ほぼ全幅）。一時停止ボタンは左下に残る。",
+  "why_good": "写真を大きく見せず、白地の中で人の写真を『小さく・ゆっくり漂わせる』ことで、コピーを主役にしたまま人の気配を出している。一時停止ボタンでアクセシビリティも配慮。",
+  "idea_for_telemo": "白×ティールのフラット基調を崩さず、見出し周囲にオペレーター・営業現場の小さな写真タイルを3〜5枚、ゆっくり横に漂わせる。大きな写真を置かない分、実HTMLの見出しとCTAが映える。",
+  "tags": [
+   "people-photo",
+   "small-tiles",
+   "drifting-photos",
+   "white-bg",
+   "pause-control",
+   "typographic",
+   "dark-cta",
+   "fade-in"
+  ],
+  "score": 5,
+  "shots": {
+   "pc": "giftee-group-com-pc-f2.jpg",
+   "sp": "giftee-group-com-sp.jpg",
+   "scroll": "giftee-group-com-pc-scroll.jpg",
+   "frames": [
+    "giftee-group-com-pc-f0.jpg",
+    "giftee-group-com-pc-f1.jpg",
+    "giftee-group-com-pc-f2.jpg"
+   ]
+  },
+  "agent": "jp-galleries"
+ },
+ {
+  "slug": "crea-lp-com-recruit",
+  "name": "クレア・ライフ・パートナーズ 採用サイト",
+  "url": "https://crea-lp.com/recruit/",
+  "source": "81-web.com",
+  "industry": "採用（金融・保険・不動産）",
+  "hero_type": "collage-grid",
+  "layout": "淡いグレー(#f7f7f7)の地。左上に明朝2行の見出し（約64px、黄色の引用符付き）、右下方向へ斜めに上昇する細長い角丸の縦バー群（幅約95px・間隔約10px）が階段状に並ぶ。バーの一部だけが人物写真、他は黄の無地。画面下の中央に、暗いピル状のナビ（『CLP』ロゴ＋黄の現在地タブ＋白のタブ3つ）を固定。",
+  "image_treatment": "人物写真を黄(#E8EB3A系)×黒のデュオトーン化し、縦長の角丸バー（角丸約8px）に切り抜いて、同じ黄の無地バーと混ぜる。写真の中の人は笑顔のバストアップ。写真の背景は黄に溶け、棒グラフのような右肩上がりの形で『成長』を表す。",
+  "typography": "meta の h1 は『Recruit Site』（Crimson Text 17px/200、中央）。実見出しは FOT-筑紫明朝 B 系の約64px・黒・2行（『“誇りの持てる” 人生を、ここで。』）、引用符のみ黄。英語の小コピーは右下に薄グレーの細字。",
+  "cta": "画面下中央に固定の横長ナビバー（黒いピル枠、約740×60px）。左に『CLP』ロゴ、続いて黄塗りタブ『CLPについて』、白タブ『制度と環境』『中途エントリー』『新卒・インターンエントリー』（各に小さな▶）。スクロール後も下端に残る。",
+  "motion": "f0(0.8s)は地色の中央に『CREA L』と1文字ずつ入力されるロゴだけのローダー。f2(6s)でバー群と見出しが完成。スクロール(700px)後はバーが上に流れながら人物写真が追加で見え、右に本文が現れる。固定ナビはそのまま残る。GSAP/ScrollTrigger/Swiper/Lottie あり。SP は3秒時点で黄色の無地バー（写真未表示）のみが斜めに並ぶ。",
+  "mobile": "見出しは3秒時点で未表示、黄のバー群が斜めに画面中央から右下へ並ぶ（写真入りバーは未表示＝unknown）。",
+  "why_good": "ブランド色1色（黄）で写真をデュオトーン化し、写真バーと無地バーを混ぜて『棒グラフ＝成長』という意味を付けている。写真が少なくても1つの図形として成立する。",
+  "idea_for_telemo": "人物写真をTELEMOのティール1色のデュオトーンにして、縦長の角丸バー（棒グラフ）に切り抜く。写真バーと無地ティールバーを混ぜて右肩上がりにし、『成果が伸びる』を表す。下端固定のピルナビも転用可。",
+  "tags": [
+   "people-photo",
+   "duotone",
+   "brand-color",
+   "rounded-bars",
+   "staircase-collage",
+   "fixed-bottom-nav",
+   "serif-headline",
+   "loader-typing"
+  ],
+  "score": 5,
+  "shots": {
+   "pc": "crea-lp-com-recruit-pc-f2.jpg",
+   "sp": "crea-lp-com-recruit-sp.jpg",
+   "scroll": "crea-lp-com-recruit-pc-scroll.jpg",
+   "frames": [
+    "crea-lp-com-recruit-pc-f0.jpg",
+    "crea-lp-com-recruit-pc-f1.jpg",
+    "crea-lp-com-recruit-pc-f2.jpg"
+   ]
+  },
+  "agent": "jp-galleries"
+ },
+ {
+  "slug": "www-bell24-co-jp",
+  "name": "ベルシステム24",
+  "url": "https://www.bell24.co.jp/",
+  "source": "direct",
+  "industry": "コールセンター / BPO",
+  "hero_type": "framed-image-card",
+  "layout": "上が白→淡青グラデ(右上に粒状ノイズのにじみ)、下半分が青(#0058d0付近)ベタの背景。その中央に、左右約79px余白・高さ約640pxの白い角丸カードを置き、ループ動画（bellsystem_signage_top.mp4, 1294×647）を再生。カード直下に『お探しの内容を選んでください。』＋6つのアイコンタイルのナビ。",
+  "image_treatment": "動画内は白地に人物を切り抜いたほぼモノクロの写真（スーツの男女が走る／助け合って壁を登る）＋赤またはティールの大きな幾何学シェイプ＋落ち影。写真はグレースケールにして色は図形の1色だけ。角丸カードと外側のグラデ面で『額縁』にしている。",
+  "typography": "コピー(『超えたい壁がある。挑みたい未来がある。』等)は動画に焼き込み（赤/ティールの太ゴシック、約60px相当の2行）。HTMLのH1は空（取得できず）。ナビ文字は約14px。",
+  "cta": "ヒーロー内にCTAなし。ヘッダー右に細いアイコン(メール/言語/検索)のみ。下のタイル型ナビ(白カード6分割)と、さらに下に赤ピルの『無料見学を申し込む』バナー。",
+  "motion": "f0=ロゴ＋『Hybrid Intelligence for all』→f1=赤い壁を登る2人『対話の、その先を創る。』→f2=走る2人『超えたい壁がある…』と、約2〜3秒でシーンが切替。スクロールは通常でヘッダー白固定、700pxでカード下端＋青背景の6タイルが見える。",
+  "mobile": "動画が縦長(カード約330×440px)の別構図に差し替わり（赤い壁を登る2人＋『対話の、その先を創る。』）、左右30px余白＋角丸を維持。その下に青背景のタイルナビ。",
+  "why_good": "コールセンター企業なのに『現場の作業』ではなく『挑戦する人』の物語を、切り抜きモノクロ人物＋1色の幾何学というアートディレクションで見せ、額縁カードで写真・動画に格を与えている。弱みは、コピーが動画への焼き込みでHTMLテキストではない点（検索・翻訳・アクセシビリティに不利）と、ヒーロー内にCTAがない点。",
+  "idea_for_telemo": "TELEMOのドキュメンタリー写真(動画)を全幅ではなく『角丸の額縁カード＋外側のティール薄グラデ面』に収め、見出しは実HTMLのまま重ねる案（焼き込みは避ける）。写真の縁にティールの幾何学を1色だけ重ねてブランド色と写真を結ぶ。",
+  "tags": [
+   "framed-card",
+   "rounded-corners",
+   "video",
+   "people-photo",
+   "monochrome",
+   "cutout",
+   "geometric-shapes",
+   "brand-color-accent",
+   "text-baked-in-video",
+   "call-center"
+  ],
+  "score": 5,
+  "shots": {
+   "pc": "www-bell24-co-jp-pc-f2.jpg",
+   "sp": "www-bell24-co-jp-sp.jpg",
+   "scroll": "www-bell24-co-jp-pc-scroll.jpg",
+   "frames": [
+    "www-bell24-co-jp-pc-f0.jpg",
+    "www-bell24-co-jp-pc-f1.jpg",
+    "www-bell24-co-jp-pc-f2.jpg"
+   ]
+  },
+  "agent": "industry-direct"
+ },
+ {
+  "slug": "jcdc-co-jp-recruit",
+  "name": "自由が丘クリニック ドクターズコスメティクス 採用（ルート営業）",
+  "url": "https://jcdc.co.jp/recruit/01/",
+  "source": "lp.webdesignclip.com",
+  "industry": "採用（営業職・化粧品／ティール系）",
+  "hero_type": "framed-image-card",
+  "layout": "外周に約37pxの余白をあけた大きな角丸パネル（1365×700px、ティール→ミントのグラデ＋方眼）。パネルの左上に白いロゴ用ノッチ、右上にCTA用ノッチが食い込む。中央に人物の切り抜き（ノートPCを抱えた女性）。縦書きの大文字『ルート営業』『募集』（白、約120px）が人物の左右・背後に回り込み、斜めの青いリボン2本（スキンケア化粧品／美容サロン・代理店）が前面に重なる。左に縦書き小コピー、右下に回転する円形テキストバッジ。",
+  "image_treatment": "人物は背景を切り抜いて、方眼付きのティールのグラデ面に載せる（スタジオ撮影の切り抜き）。縦書きの白文字は人物の前後に挟み込み（『募集』は人物の背後、リボンは前面）、奥行きを作る。パネルは角丸約28px。",
+  "typography": "meta は h1 取得なし（null）。見出しの縦書き『ルート営業募集』は白・太ゴシック・約120px。小コピー『働きながらきれいになれる。』は縦書きの明朝・約44px・黒。リボン文字は約32px の白太字。",
+  "cta": "右上ノッチ内に青(#4a9fd8)の角丸pill『エントリーはこちら ●』（約260×60px）。SP は画面下に固定の2分割バー：緑『LINEから予約する』｜青『エントリーはこちら』。",
+  "motion": "f0 と f2 は構成がほぼ同じで、右下の円形テキストバッジ（RECRUIT・JIYUGAOKA CLINIC）の文字位置が異なる＝回転している。スクロール(700px)後はパネルが上に流れ、グレー地の ABOUT US セクションへ。",
+  "mobile": "パネルは縦長（約715×1320px）、人物を中央、縦書きの『ルート営業』を右、『募集』を左下の背後、リボンを前面、小コピーを左上に。ロゴのノッチは維持。画面下に固定の2分割バー。",
+  "why_good": "ティール系・営業職の募集という点でTELEMOの文脈に近い。切り抜いた人物の前後に大きな縦書きを挟んで奥行きを出し、ノッチでロゴとCTAをパネルに一体化している。",
+  "idea_for_telemo": "パネルの上辺にロゴとCTAのノッチ（切り欠き）を作り、大きな角丸パネルの中に、切り抜いたオペレーターの前後へ見出しを挟む。ティールの方眼（薄いグリッド）は『ログ画面』の記号になる。SPは下端固定の2分割CTA。",
+  "tags": [
+   "people-cutout",
+   "teal",
+   "grid-bg",
+   "rounded-panel",
+   "notch-tabs",
+   "text-behind-person",
+   "vertical-text",
+   "rotating-badge",
+   "fixed-bottom-cta-sp",
+   "sales-role"
+  ],
+  "score": 5,
+  "shots": {
+   "pc": "jcdc-co-jp-recruit-pc-f2.jpg",
+   "sp": "jcdc-co-jp-recruit-sp.jpg",
+   "scroll": "jcdc-co-jp-recruit-pc-scroll.jpg",
+   "frames": [
+    "jcdc-co-jp-recruit-pc-f0.jpg",
+    "jcdc-co-jp-recruit-pc-f1.jpg",
+    "jcdc-co-jp-recruit-pc-f2.jpg"
+   ]
+  },
+  "agent": "jp-galleries"
+ },
+ {
+  "slug": "14islands-com",
+  "name": "14islands",
+  "url": "https://14islands.com/",
+  "source": "direct",
+  "industry": "エージェンシー",
+  "hero_type": "framed-image-card",
+  "layout": "淡いグレー地。上中央に小さな『CREATIVE PARTNER / WE CRAFT DIGITAL PRODUCTS AND BRANDS』、中段に巨大な『Design & Technology』を2段ずらし（&はグレー）。その下から角丸の動画カード（1332×749、左右54px）がせり上がる。",
+  "image_treatment": "角丸（小さめ）の動画カードで、ショーリールのカットが切り替わる（宇宙の光、健康診断の人物、3Dコラージュ）。WebGLキャンバス（1440×900）が重なり、文字の歪み演出に使われている可能性（推測）。",
+  "typography": "見出し BentonSans の極大サイズ（目測140px前後。h1自体は16px指定で内部要素が大きい）。黒＋&だけグレーの2トーン。",
+  "cta": "ヒーロー内にボタンなし。右上に CONTACT のテキストリンク。",
+  "motion": "独自計測：1s ナビのみ → 2s 見出しが表示（文字がわずかに歪んだ状態＝出現中と推測）、下端に緑のぼけた矩形。hero_capture では f0（0.8s）色付きカード → f1（3s）UI画面 → f2（6s）黒と、カードの中身が数秒単位で切り替わる。スクロール：y200 カードが上がり宇宙の光の映像 → y400 カードが幅いっぱい（左右約30px）に広がり『Your health checkup got upgraded.』の案件映像 → y700 黒いカードで別案件 → y1000 コラージュ、次セクション『Intelligent Products from vision to launch』の文字がグレー→黒にスクラブで色付く → y1400 カードが抜ける。",
+  "tech": "meta：video（1332×749、autoplay=true、loop=true、playing=true）、canvas 1440×900。gsap/three等はグローバル検出なし。フォント BentonSans, AftenScreen。",
+  "mobile": "SPは見出しが下寄せ、動画は同じファイルを390×219で再生。canvasも維持（390×844）。",
+  "why_good": "最初は文字だけで静かに見せ、スクロールした人にだけ映像カードが『育って』見える。映像の主張を段階的に強める設計。",
+  "idea_for_telemo": "ヒーロー直下のセクションで、TELEMOの通話画面デモ動画を幅80%の角丸カードとして置き、スクロール0→400pxで左右24pxまで拡大（scale 0.85→1）。ヒーロー本体は静かなまま、次の段で映像の情報量を上げる。",
+  "tags": [
+   "card-grow",
+   "video-loop",
+   "text-scrub-reveal",
+   "big-type",
+   "two-tone-text",
+   "webgl"
+  ],
+  "score": 4,
+  "shots": {
+   "pc": "14islands-com-pc-f1.jpg",
+   "sp": "14islands-com-sp.jpg",
+   "scroll": "14islands-com-pc-scroll.jpg",
+   "frames": [
+    "14islands-com-pc-f0.jpg",
+    "14islands-com-pc-f1.jpg",
+    "14islands-com-pc-f2.jpg"
+   ]
+  },
+  "agent": "motion-craft"
+ },
+ {
+  "slug": "anam-ai",
+  "name": "Anam",
+  "url": "https://anam.ai/",
+  "source": "land-book.com",
+  "industry": "B2B SaaS / 対話型 AI アバター API（カードの用途表記は Skills training・Customer support・Medical services・Sales）",
+  "hero_type": "slider-carousel",
+  "layout": "白背景。上にロゴ（左）とナビ（Developers/Pricing/Resources＋グレーの『Sign in』ピル）。中央揃えで橙の小チップ『Meet our most expressive model: Cara-4』→2行見出し→CTA2個→その直下に人物ポートレートカードの横並びカルーセル（中央が拡大 408×484、左右は 340×403 で端は画面外に切れる）。各カード下に名前と用途（Anne=Skills training、Richard=Customer support、Mia=Medical services、Liv=Sales）。カード列の下に『Trusted by over 8,000 builders』のロゴ行。",
+  "image_treatment": "写真ではなく、同じグレーのニット（胸元に 'Anam' 刺繍）を着たフォトリアルなAIアバターで統一。カードは角丸（約24px）・淡灰背景。中央の1枚だけが実動画（webm 再生中）で、下部に暗いグラデーションと半透明ピルの操作UI（ミュートボタン＋『Talk with Mia』）を重ね、柔らかい落ち影で浮かせている。",
+  "typography": "h1は Inter 500 / 40px / 行高44px / 字間 -0.8px / 黒、中央揃え2行。2行目『your business』は灰色で、入れ替わる語かどうかは unknown。チップは橙文字＋薄橙背景の小ピル。SPでも40px・3行。",
+  "cta": "2個のピル：黒塗り『Sign up』（主）＋薄灰塗り『Get a demo』（副）を見出し直下に中央揃え。ナビ右にも薄灰の『Sign in』ピル。拡大カード上の『Talk with Mia』（半透明ピル）が事実上の通話CTA。",
+  "motion": "f0(0.8s)は見出し＋CTAのみでカード列は未表示（空白）、f2(6s)でカルーセルが現れる。スクロール後は中央カードが Mia→Anne（暗い紫がかった背景）に切り替わり、カルーセルが自動で進行している。ヘッダーは白地のまま上端に固定され、下に全幅の顔動画セクション（『Hey, I'm Sophie…』の白い太字、暗いスクリム付き）が続く。",
+  "mobile": "1カラム：チップ→40px・3行見出し→CTA2個（横並び）→拡大カード1枚（幅340×高403）に『Talk with Mia』ボタン。隣のカードは画面端にわずかに覗く。",
+  "why_good": "『人が話しかけてくる』体験をカードUIにして、ヒーロー内に『Talk with ◯◯』という通話ボタンまで置いている。白地に見出し・CTA・カードを整理し、動くのは中央の1枚だけなので視線が迷わない。",
+  "idea_for_telemo": "働く人のポートレート（担当者カード）を横並びにして中央の1人だけを動画化し、その上に『TELEMOに電話してみる』の半透明ピルを重ねる。写真を“押せる通話UI”にする案。",
+  "tags": [
+   "carousel",
+   "portrait-cards",
+   "rounded-card",
+   "people-photo",
+   "call-button-overlay",
+   "white-bg",
+   "ai-avatar",
+   "video-card",
+   "glass-pill"
+  ],
+  "score": 4,
+  "shots": {
+   "pc": "anam-ai-pc-f2.jpg",
+   "sp": "anam-ai-sp.jpg",
+   "scroll": "anam-ai-pc-scroll.jpg",
+   "frames": [
+    "anam-ai-pc-f0.jpg",
+    "anam-ai-pc-f1.jpg",
+    "anam-ai-pc-f2.jpg"
+   ]
+  },
+  "agent": "global-galleries"
+ },
+ {
+  "slug": "benesse-co-jp-digital",
+  "name": "Benesse DIGITAL TRANSFORMATION『INNOVATION CATALYST』",
+  "url": "https://www.benesse.co.jp/digital/",
+  "source": "lp.webdesignclip.com",
+  "industry": "コーポレート（教育×DX）",
+  "hero_type": "framed-image-card",
+  "layout": "ダークネイビー地に、幅1200×高さ約677px の写真フレームを左端から置き、右の約240pxは縦書きの小テキスト（DIGITAL INNOVATION PARTNERS／Since 2021）。大見出し『INNOVATION CATALYST』が写真の枠を右にはみ出して重なり、その下に白いリード2行。",
+  "image_treatment": "マゼンタ〜ブルーの光の筋の中を歩くビジネスパーソン4人の合成写真。強いコントラストの暗色基調。後続セクションの写真は隅にマゼンタ→ブルーのグラデを重ねて世界観を統一。",
+  "typography": "meta の h1 は null。見出しは約80px のジオメトリックなサンセリフ、全大文字、2行、濃紺文字を『白い背景ブロック』に載せ、各行の帯が文字幅に合わせる。リードは白・約20px・2行。",
+  "cta": "ヒーロー内にCTAなし（ナビ文字のみ：Home/About/Strategy/Interview/Career/Contact）。",
+  "motion": "f0→f2 でフレーム右端が 1191px→1200px、『CATALYST』の白帯が約1105px→1124px に広がり、ゆっくりした拡大・文字出現が進行中。ファイルサイズ差は小さい（約4%）。スクロール(700px)後は暗い地に、写真が大小・左右ずらしで配置される本文が続く。",
+  "mobile": "写真は幅約83%（左端を出血）、見出しは写真の下端に重なって2行、リード、縦書きテキストは右端。ハンバーガーは丸いガラス風ボタン。",
+  "why_good": "写真フレームを『はみ出す大見出し』で破り、白帯ブロックで可読性を確保。光の筋と人物でDXの前進感を出しつつ、以降の写真にも同じグラデを重ねて一貫させる。",
+  "idea_for_telemo": "写真は額縁（角を揃えた大きなカード）に入れ、見出しだけ写真の枠からはみ出させて重ねる。ティールの単色を写真の隅に薄く重ねて、後続セクションの写真と統一する。",
+  "tags": [
+   "framed-image",
+   "overlap-headline",
+   "white-block-text",
+   "neon-gradient",
+   "people-photo",
+   "vertical-text",
+   "dark-bg"
+  ],
+  "score": 4,
+  "shots": {
+   "pc": "benesse-co-jp-digital-pc-f2.jpg",
+   "sp": "benesse-co-jp-digital-sp.jpg",
+   "scroll": "benesse-co-jp-digital-pc-scroll.jpg",
+   "frames": [
+    "benesse-co-jp-digital-pc-f0.jpg",
+    "benesse-co-jp-digital-pc-f1.jpg",
+    "benesse-co-jp-digital-pc-f2.jpg"
+   ]
+  },
+  "agent": "jp-galleries"
+ },
+ {
+  "slug": "www-dialpad-com",
+  "name": "Dialpad（日本語サイト）",
+  "url": "https://www.dialpad.com/",
+  "source": "direct",
+  "industry": "CX SaaS / AI電話",
+  "hero_type": "framed-image-card",
+  "layout": "暗い紺(#10002e系)の全幅背景。中央揃えでH1→リード2行→CTA2を置き、その下に約900×430pxの角丸(約28px)写真カードが最初の画面の下端から覗く。写真(スマホを持つ手とグレーのニット)の上に『田中美咲様との通話ログ』のAI要約UIカード(白)とSalesforce連携の黒ピルチップ『通話サマリー：記録済み』を重ねる。",
+  "image_treatment": "実写の手元クローズアップを低彩度のグレー背景で角丸カードにクロップし、白いUIカードを左下に重ねる『写真＋プロダクトUI』の合成。写真が地味な分UIが引き立つ。",
+  "typography": "H1は seasonVFSans 48px/600、行高52.8px、字間−0.16px、白、中央1行（SPは35px）。リードは約20px白、中央2行。",
+  "cta": "白塗りの角丸『お問い合わせ』＋透明に白枠『プラットフォームについて』を中央に横並び（SPは縦2つ）。ヘッダー右に濃紺の『お問い合わせ』。",
+  "motion": "f0(0.8s)は白地に右上の小ナビのみでヒーロー未描画、f1(3s)で暗い紺背景とコンテンツが出揃い、f1=f2で以後静止＝ロード後にヒーローがまとめて表示される。スクロールでカード全体が見え、続けて『あらゆるチーム・組織に最適なDialpad』の3カード。",
+  "mobile": "中央揃えのまま縦積み(H1 35px)、CTAは縦2つ、その下に写真カード。撮影時はCookieカードが重なっていた。",
+  "why_good": "中央見出し＋大きな写真カードという落ち着いた構成で、『通話の手元写真』に『AIが作った要約UI』を重ねて通話→要約→CRM記録という価値を1枚で説明している。弱みは、最初の画面では写真が半分しか見えず、人物の表情による信頼感は出ない。",
+  "idea_for_telemo": "『現場写真＋AIが生成した通話要約カード』の合成は、AI電話のTELEMOの価値を写真に結びつける近道。写真の余白側に小さなUIカード（通話ログ・要約・解決済み）を重ねる。",
+  "tags": [
+   "framed-card",
+   "rounded-corners",
+   "photo-with-ui-overlay",
+   "dark-bg",
+   "centered",
+   "product-ui",
+   "crm-chip"
+  ],
+  "score": 4,
+  "shots": {
+   "pc": "www-dialpad-com-pc-f2.jpg",
+   "sp": "www-dialpad-com-sp.jpg",
+   "scroll": "www-dialpad-com-pc-scroll.jpg",
+   "frames": [
+    "www-dialpad-com-pc-f0.jpg",
+    "www-dialpad-com-pc-f1.jpg",
+    "www-dialpad-com-pc-f2.jpg"
+   ]
+  },
+  "agent": "industry-direct"
+ },
+ {
+  "slug": "giga-ai",
+  "name": "Giga",
+  "url": "https://giga.ai/",
+  "source": "land-book.com",
+  "industry": "B2B SaaS / AI カスタマーサポート（音声・チャットAIエージェント）",
+  "hero_type": "device-mockup",
+  "layout": "上段：左にオレンジの角四角付きアイブロウ（等幅大文字 'AI AGENTS FOR CUSTOMER EXPERIENCE'）と2行見出し、右にリード文(x≈867)で対角配置。下段：幅約1100pxの2分割パネル（左＝黒いターミナル風 'hello_' とメール入力＋Continue、右＝筐体風の TALK ボタン＋VOICE/CHAT）。写真は無い。",
+  "image_treatment": "写真なし。背景は canvas（2611×1632）のオレンジ→赤→青の縦縞（リブガラス風）グラデーション。パネルはネジ・スピーカー穴・影のあるハードウェア質感（スキューモーフィック）で、角丸は小さめ。",
+  "typography": "h1は 'Geist Pixel Line'（ドットマトリクス風の等幅）72px / weight400 / 行高64px / 白、2行（box 260×128）。リードは白のサンセリフ約18pxで右カラム3行。ラベルは Geist Mono 大文字。SPでも見出し72px・2行のまま。",
+  "cta": "ナビ右上にオレンジのグラデ塗り角丸ボタン『SEE A DEMO』。ヒーロー内にもメール入力＋白ボタン『Continue』（音声/チャットのデモをアンロック）。",
+  "motion": "f0(0.8s)ではパネルが輪郭線のみ（ワイヤーフレーム状）、f2(6s)で質感・TALKボタン・'hello_'のカーソルが現れる。背景の縦縞グラデは700pxスクロールで暗い青黒に沈む。パネル自体はスクロールで通常通り流れる。",
+  "mobile": "1カラムに組み替え：見出し→リード→黒パネル（メール入力）→TALKパネルの縦積み。ナビには『SEE A DEMO』ボタンが残る。",
+  "why_good": "ヒーローそのものが製品体験（TALKボタンで声を試す）になっており、音声AIの価値を最初の画面で体験させる。ピクセル書体とWebGLグラデで強いブランド性を出している。",
+  "idea_for_telemo": "写真ヒーローの脇またはすぐ下に『AIの声を聞いてみる／デモ電話を受ける』パネルを置き、CTAを“まず声を聞く”に変える。ヒーロー写真は働く人の動画のまま、体験への入口だけを重ねる。",
+  "tags": [
+   "interactive-demo",
+   "webgl-canvas",
+   "gradient-bg",
+   "pixel-font",
+   "voice-ai",
+   "two-column",
+   "no-photo"
+  ],
+  "score": 4,
+  "shots": {
+   "pc": "giga-ai-pc-f2.jpg",
+   "sp": "giga-ai-sp.jpg",
+   "scroll": "giga-ai-pc-scroll.jpg",
+   "frames": [
+    "giga-ai-pc-f0.jpg",
+    "giga-ai-pc-f1.jpg",
+    "giga-ai-pc-f2.jpg"
+   ]
+  },
+  "agent": "global-galleries"
+ },
+ {
+  "slug": "huts-com",
+  "name": "Huts",
+  "url": "https://huts.com/",
+  "source": "lapa.ninja",
+  "industry": "住宅開発・設計施工サービス（郊外の土地×住まい）",
+  "hero_type": "full-bleed-video",
+  "layout": "1440×900の全面ループ動画。ナビは上端に白文字（ロゴ左、メニュー、右端に黄緑のピル『Get Started』）。見出しと CTA は画面中央に中央揃えで配置：セリフ体の見出し3行→濃緑のピルCTA『Get Started』（右に丸い矢印ボタンが連結）。その下（スクロール後）はクリーム色の背景にイラストカードのセクション『Whatever type of place you have in mind』が続く。",
+  "image_treatment": "自然光の空撮／敷地の実写動画（f0は池のある敷地の黒い家、f2は建築中の家の俯瞰）。全体に暗めのオーバーレイをかけて中央の見出しの可読性を確保（f0で特に暗い）。写真は等倍のトリミングのみで角丸・枠は無し。",
+  "typography": "h1は 'HW Cigars'（セリフ）72px / weight400 / 行高72px / 字間-0.72px / クリーム色 rgb(250,247,237)、3行・中央揃え（box 867×216）。『best way』の下に黄緑の手描き風アンダーラインが重なる。SPでは約38px・4行。",
+  "cta": "濃緑のピル『Get Started』＋丸い矢印ボタンを見出し直下に1組（中央）。ナビ右にも黄緑のピル『Get Started』。SPではナビが黄緑の丸ハンバーガーになり、CTAは見出し下の中央。",
+  "motion": "f0→f2で動画が別カットに切り替わる（ループ内のカット替え）。f0ではCTAピルが半透明（フェードイン中）で、アンダーラインはf2にだけ描かれている＝見出し・CTAが時間差で現れる。700pxスクロールで動画はヒーローごと上に流れ、クリーム背景のセクションに移る（視差は unknown）。",
+  "mobile": "動画を縦長（390×844）にトリミング（俯瞰の別アングル）。見出し(約38px・4行)とピルCTAを中央に維持し、ナビは黄緑の丸ハンバーガー。",
+  "why_good": "全面動画の上に『中央揃えのセリフ見出し＋手描きアンダーライン＋1個のCTA』を置くシンプルな型で、暗いオーバーレイと文字の遅延出現により読み始めの位置を誘導する。直後に手描きイラストのセクションで温度感を保つ。",
+  "idea_for_telemo": "働く人の動画に薄い暗色オーバーレイを重ね、見出しの重要語（例：『電話営業』）の下だけ手描き風の下線を時間差で描く。CTAは1個（ピル＋矢印）で、写真→イラストの温度を揃えたセクションへつなぐ。",
+  "tags": [
+   "full-bleed-video",
+   "scrim",
+   "center-headline",
+   "serif",
+   "underline-draw",
+   "staggered-reveal",
+   "single-cta"
+  ],
+  "score": 4,
+  "shots": {
+   "pc": "huts-com-pc-f2.jpg",
+   "sp": "huts-com-sp.jpg",
+   "scroll": "huts-com-pc-scroll.jpg",
+   "frames": [
+    "huts-com-pc-f0.jpg",
+    "huts-com-pc-f1.jpg",
+    "huts-com-pc-f2.jpg"
+   ]
+  },
+  "agent": "global-galleries"
+ },
+ {
+  "slug": "jp-indeed-com-iimirai",
+  "name": "Indeed CM特設『いい未来は探せる』",
+  "url": "https://jp.indeed.com/cm/iimirai",
+  "source": "lp.webdesignclip.com",
+  "industry": "求人プラットフォーム（CM特設）",
+  "hero_type": "full-bleed-photo",
+  "layout": "ヘッダ・サブナビ・パンくず（白）の下に、全幅・高さ約720px の青い写真エリア。左右に男女の顔を大きく（顔の約半分が画面端で切れる）、中央の空きにロゴ＋検索フォーム（2つの白抜き枠pill）＋白塗りpill『求人検索』を中央揃えで縦積み。",
+  "image_treatment": "青(#0B5CAB系)のグラデ背景に、二人が虫眼鏡越しにこちらを見る広告写真。顔が非常に大きくクロップされ、中央に UI 用の空きを残した構図。SP/スクロール後の画像には微細な粒状ノイズ（グレイン）が見える。スクリムなし。",
+  "typography": "meta の h1 は無し（null）。見出しの代わりに白いロゴと、入力欄のプレースホルダ（PC f2『ボディガード／高松市』、SP『アイスクリームショップスタッフ／勤務地』）。スクロール後の本文は白の明朝系・約18px・中央揃え・青グラデ背景上。",
+  "cta": "白塗りの角丸pill『求人検索』（約180×48px）を中央に1つ。SP のヘッダには青塗りの『アプリ ↗』。",
+  "motion": "f0(0.8s)は顔写真だけでロゴ・検索UIが未表示。f1(3s)以降に UI が現れ f2 と同じ。入力欄の例示文言が PC と SP で異なる（切替の挙動自体は未確認）。スクロール(700px)後は写真が上へ流れ、続けて同じ青のグラデにグレインが乗った背景に明朝の文章が中央揃えで現れる（写真と本文の背景が地続き）。lenis あり。",
+  "mobile": "PC の『左右に顔・中央にUI』を縦に回転し、上にロゴ＋検索UI、下に二人の顔（顔は下半分に大きく）。背景は青グラデ＋グレインで、写真の下は同じ青が続く。",
+  "why_good": "顔を大きくクロップして感情を作りつつ、中央の空きにUIを置いて『写真が UI の額縁』になっている。PC=左右、SP=上下に同じ構成を回転させ、背景色を地続きにするので継ぎ目が出ない。",
+  "idea_for_telemo": "左右に働く人の顔・手元を大きくクロップし、中央の空きに『電話番号/業種を入れてAI電話を試す』の入力＋ティールのpillを置く。SPは上にUI、下に人物。写真の下端の色を本文背景と同じにして地続きにする。",
+  "tags": [
+   "people-photo",
+   "face-crop",
+   "center-ui",
+   "grain",
+   "sp-reflow",
+   "search-form",
+   "framed-by-photo",
+   "seamless-bg",
+   "lenis"
+  ],
+  "score": 4,
+  "shots": {
+   "pc": "jp-indeed-com-iimirai-pc-f2.jpg",
+   "sp": "jp-indeed-com-iimirai-sp.jpg",
+   "scroll": "jp-indeed-com-iimirai-pc-scroll.jpg",
+   "frames": [
+    "jp-indeed-com-iimirai-pc-f0.jpg",
+    "jp-indeed-com-iimirai-pc-f1.jpg",
+    "jp-indeed-com-iimirai-pc-f2.jpg"
+   ]
+  },
+  "agent": "jp-galleries"
+ },
+ {
+  "slug": "instituteofhealth-com",
+  "name": "Institute of Health (IOH)",
+  "url": "https://www.instituteofhealth.com/",
+  "source": "land-book.com",
+  "industry": "教育 / 機能性医学・栄養療法の認定コース（専門職向けオンライン講座）",
+  "hero_type": "full-bleed-video",
+  "layout": "1440×900 の全面動画（video 1440×900 が再生中）。ナビは透過で上端（左に『IOH』セリフロゴ、中央にリンク5つ、右に About/Contact と半透明ガラスの『Student Login』）。見出し(x=32,y≈635, 3行)とリードは左下、右上(x≈1064〜1408, y≈115〜440)に実績の3段パネル（Course Units / Countries Educated / Laboratory Tests、各段は上に細い罫線・右に『…』）、右下に半透明ガラスの『Learn More ↳』カード（約190×82）。",
+  "image_treatment": "黒系の半透明の暗幕を全面にかけ、複数シーンの映像モンタージュを統一したトーンに揃える。f0=キッチンでグリーンジュースとブドウ・手元、f2=顕微鏡の対物レンズのクローズアップ（青緑）、スクロール画像(約8秒後)=教室で講師が学生へ指さす場面（学生は後ろ姿）。角丸・グレインは確認できない（unknown）。",
+  "typography": "h1は 'Lay Grotesk' 57.6px / weight500 / 行高57.6px(=1.0) / 字間-0.216px / 色 rgb(241,241,241)、左揃え3行（box 564×173）。リードは同書体の約17px（目測）・白・2行で見出し直下。統計のラベルは約13px灰、数値は約38px白（いずれも目測）。SPでは h1 39.8px。",
+  "cta": "視覚上の主CTAは右下の半透明ガラスカード『Learn More ↳』1つ（塗りボタンではなく映像に溶ける）。ナビ右に半透明の『Student Login』。",
+  "motion": "動画がシーン切替（キッチン→顕微鏡→教室）。統計パネルはカウントアップし（f0: Course Units 766 → f2: 966）、f0では1段目のみで罫線が途中まで伸び、f2では3段とも点灯（スライドインジケータ兼用に見える）。700pxスクロール後も scrollY は 48 に留まり（Lenis の補間中かピン留めかは unknown）、画像では動画下端が約48px上がり薄グレーの地が覗く。gsap/ScrollTrigger/Lenis を検出。",
+  "mobile": "動画は縦長にトリミング（血圧計のクローズアップのシーン）。統計パネルは1段（Course Units 966）のみ上部に縮退し、見出し39.8px・3行→リード3行→全幅の半透明『Learn More』カードを下に縦積み。ナビは『Menu ≡』。",
+  "why_good": "暗幕で揃えた複数シーンの映像で『現場と専門性』を見せつつ、実績をカウントアップするHUD風パネルで信頼を数字で補強している。見出しは左下に固定され、映像が変わっても読みの位置が動かない。",
+  "idea_for_telemo": "TELEMO では働く人の映像（複数シーン）に暗幕を敷き、右上に『架電数・接続率・商談化数』のカウントアップKPIパネルをHUDとして重ねる。CTAは半透明ガラスカードにして映像に溶け込ませる。",
+  "tags": [
+   "video",
+   "people-photo",
+   "montage",
+   "scrim",
+   "count-up",
+   "hud",
+   "glass-card",
+   "bottom-left-headline",
+   "lenis",
+   "gsap"
+  ],
+  "score": 4,
+  "shots": {
+   "pc": "instituteofhealth-com-pc-f2.jpg",
+   "sp": "instituteofhealth-com-sp.jpg",
+   "scroll": "instituteofhealth-com-pc-scroll.jpg",
+   "frames": [
+    "instituteofhealth-com-pc-f0.jpg",
+    "instituteofhealth-com-pc-f1.jpg",
+    "instituteofhealth-com-pc-f2.jpg"
+   ]
+  },
+  "agent": "global-galleries"
+ },
+ {
+  "slug": "j-nesco-com-recruit",
+  "name": "JR西日本電気システム 採用サイト",
+  "url": "https://www.j-nesco.com/recruit/",
+  "source": "muuuuu.org",
+  "industry": "採用（鉄道電気設備／現場作業者の写真）",
+  "hero_type": "collage-grid",
+  "layout": "方眼紙風の薄い青の罫線背景に、六角形にマスクした写真2枚（列車、ヘルメットの作業員）を斜めにずらして重ね、間に橙の小六角・青の半円・水色の楕円を置く。左に縦のメニュー、見出し『当たり前の日常を支える』（左下、約72px、2行）、右下に橙の六角形の『Entry →』ボタンが写真の縁に重なる。",
+  "image_treatment": "六角形（角丸あり）のマスク。ヘルメットの作業員は横顔のアップで、暗いブルーグレーの背景に反射ベストの赤が効く。背景には作業員・建物・電柱の細い線画が薄く散る（青の細線）。写真には色被せなし。",
+  "typography": "meta の h1 は『JR西日本電気システム株式会社 採用サイト』（視覚的には非表示、1×1px）。見出しは Zen Kaku Gothic New 系の細め〜中字、約72px、黒、2行、字間やや広め。『Our Mission』が水色の約16px 小見出し。",
+  "cta": "橙(#E8604C系)の六角形ボタン『Entry →』（約135×118px）が右下の写真の縁に重なる。ヘッダにも角の面取りされた橙の矩形『Entry』（約150×42px）。",
+  "motion": "f0(0.8s)は六角形の写真が淡く（作業員は半透明）、見出し『当たり前の日常を支える』が1行目の下半分だけ見える状態（マスクの下から上へ1行ずつせり上がる）、装飾の線画が方眼上に規則的に並ぶ。f2(6s)で六角形が所定位置に移り、橙の六角・青の半円・水色の楕円・Entry が揃う。スクロール(700px)後はヘッダの橙 Entry が右上に固定され、方眼紙の上に本文と線画（作業員）が続く。",
+  "mobile": "六角形写真2枚を縦に重ねて（列車を上、作業員を下）、橙の六角Entryを下の写真の右下に重ね、その下に見出し。ヘッダは面取りの橙『Entry』＋2本線ハンバーガー。方眼紙と線画は維持。",
+  "why_good": "六角形マスクを『会社のモチーフ』にして、写真・ボタン・装飾を同じ形で揃えている。現場の作業員の写真を大きく見せつつ、方眼紙と線画で『設計図』の世界観を作る。",
+  "idea_for_telemo": "写真を大きな角丸（または斜めカット）でマスクし、CTAボタンも同じ形（角面取り）にして、写真の縁に重ねる。方眼紙の薄い罫線（ティール10%）を背景に敷いて『ログ/画面』感を出す。",
+  "tags": [
+   "people-photo",
+   "hexagon-mask",
+   "shape-system",
+   "grid-paper",
+   "line-illustration",
+   "overlap-cta",
+   "work-scene"
+  ],
+  "score": 4,
+  "shots": {
+   "pc": "j-nesco-com-recruit-pc-f2.jpg",
+   "sp": "j-nesco-com-recruit-sp.jpg",
+   "scroll": "j-nesco-com-recruit-pc-scroll.jpg",
+   "frames": [
+    "j-nesco-com-recruit-pc-f0.jpg",
+    "j-nesco-com-recruit-pc-f1.jpg",
+    "j-nesco-com-recruit-pc-f2.jpg"
+   ]
+  },
+  "agent": "jp-galleries"
+ },
+ {
+  "slug": "jeskojets-com",
+  "name": "Jesko Jets",
+  "url": "https://jeskojets.com/",
+  "source": "land-book.com",
+  "industry": "プライベートジェットのチャーター（ラグジュアリー / 富裕層向けサービス）",
+  "hero_type": "framed-image-card",
+  "layout": "全面(1440×900)。中央に縦長楕円の航空機の窓枠（hero-front と hero-front-over の webp 2枚を重ね、meta 上の描画サイズは各 約1851×1157でビューポートより大きい）、窓の中は青空と雲の写真で中央に『Jesko Jets』ロゴタイプ。見出しは対角の2か所：左上『We are movement』(x=96, y≈156)と右下『We are distinction』で、文字が窓枠の縁に重なる。左下に『Your freedom to enjoy life』と小さな説明文、右下に罫線＋『SCROLL DOWN / TO START THE JOURNEY』、下端中央に白ピルCTA。上端ナビは左に4リンク、右に電話番号とメール。",
+  "image_treatment": "暗い茶褐色のビネット背景に、柔らかい影とハイライトのあるCG調の窓枠を合成し、窓内だけ実写の空。窓の拡大後は雲海の実写が全面に広がる。窓枠の淡灰色に白文字が被る箇所（『movement』の語尾）があり、コントラストが落ちている。グレインは確認できない（unknown）。",
+  "typography": "h1は 'GT America Expanded' 72px / weight500 / 行高63.4px(約0.88) / 字間-5.76px（約-8%）/ 白、2行（box 708×127）。右下の『We are distinction』も同系の巨大な拡張書体。補助文は同ファミリーの約16px太字。SPでは h1 41.9px。",
+  "cta": "白ピル『Book the Flight』＋丸い飛行機アイコンのボタンの1組が下端中央。スクロール後も同じ位置に残る。",
+  "motion": "f0(0.8s)はほぼ暗転のみ、f2(6s)で窓・2つの見出し・補助文が出そろう（暗→明の入場）。700pxスクロールでは窓枠が拡大して雲海写真が全面に開き（拡大/マスクが開く演出）、上部に『Jesko Jets』ロゴが残り、見出し類は消え、CTAは下端中央に固定のまま。gsap/ScrollTrigger/Lenis/Lottie を検出。",
+  "mobile": "SPスクショ(3s後)は暗い窓枠が全面に写り、中央に小さな『JESKO JETS』ラベルと2行見出し『Private jet charter worldwide』のみ。PCの2見出し・CTA・ナビはこの時点では未表示で、完成形は unknown（読み込み/演出の途中の可能性）。",
+  "why_good": "窓というのぞき穴が、スクロールで全面写真へ広がることで『見る→入り込む』の没入を作る。CTAが下端中央に常駐するため、演出中でもコンバージョン導線が切れない。",
+  "idea_for_telemo": "TELEMO では受話器・ヘッドセット・吹き出しのような電話モチーフの枠の中に働く人の映像を見せ、スクロールで枠が広がって全面映像に開く構成。CTAは下端中央に固定する。",
+  "tags": [
+   "framed-image",
+   "mask-open-on-scroll",
+   "scroll-pinned",
+   "cta-fixed-bottom",
+   "oversize-type",
+   "tight-tracking",
+   "dark",
+   "lenis",
+   "gsap"
+  ],
+  "score": 4,
+  "shots": {
+   "pc": "jeskojets-com-pc-f2.jpg",
+   "sp": "jeskojets-com-sp.jpg",
+   "scroll": "jeskojets-com-pc-scroll.jpg",
+   "frames": [
+    "jeskojets-com-pc-f0.jpg",
+    "jeskojets-com-pc-f1.jpg",
+    "jeskojets-com-pc-f2.jpg"
+   ]
+  },
+  "agent": "global-galleries"
+ },
+ {
+  "slug": "landic-com-recruit",
+  "name": "LANDIC 採用サイト",
+  "url": "https://www.landic.com/recruit/",
+  "source": "muuuuu.org",
+  "industry": "採用（不動産・地方都市）",
+  "hero_type": "framed-image-card",
+  "layout": "淡いブルーグレーの紙のような地。上段に明朝の1行見出し『この街に、誇れるだろうか。』（左寄せ、約700px幅）、その下に幅約1365×565pxの横長のメディアフレーム（左右30pxの余白。静止画か動画かは unknown：1425×900 の video 要素が2つ DOM にあるが再生中ではない）。ナビは画面の最下部に置き、左ロゴ、右に黒い『エントリー』ボタン。写真には文字を一切重ねない。",
+  "image_treatment": "夕暮れの街並みと、ピントを外した人物のシルエット（匿名の人）。角丸なしの直角フレーム、スクリムなし。背景に紙のような微細なノイズ。SP の3秒時点ではフレームがぼけた状態で、時間とともにピントが合う（f0 は読み込み画面）。",
+  "typography": "meta の h1 は取得できず空（ロゴ用要素）。実見出しは明朝系（細めの毛筆風）で約70px、1行、色は #222、字は1文字ずつ現れる。フォントは MFW-YuGoPr6N 系がナビに使われている。",
+  "cta": "1つ。ナビ右端の黒い角ばったボタン『エントリー』＋白い矢印アイコン（約98×30px）。ヒーロー本体にはCTAなし。SP は同ボタンが下端バー内でグレーに見える（読み込み中の見た目）。",
+  "motion": "f0(0.8s)は地色の中央に細い進行ライン＋『Loading』のみ。f2(6s)で見出しとフレームが表示。SPの3秒時点では見出しが『この街に』まで1文字ずつ（濃→淡のグラデ付き）出現中で、写真はまだぼけている。スクロール(700px)後はフレームが上へ流れ（ナビも一緒にスクロールして画面外へ）、次に夕日の逆光写真が左半分に出る。",
+  "mobile": "見出しを画面中段に左寄せで置き、映像フレームは下寄りに全幅（約32px余白）、ナビは下端の1行（ロゴ・エントリー・ハンバーガー）。",
+  "why_good": "写真に文字を重ねず、見出しは写真の外（上）に置くので、写真の質感を壊さない。ナビをヒーロー下端に置くことで、ファーストビューが『見出し＋写真＋ナビ』の1枚のレイアウトとして閉じる。",
+  "idea_for_telemo": "TELEMOでも『見出しは写真の上、写真は額縁カード』にして、働く人の写真に文字を載せない構成にできる。ローディング→1文字ずつの見出し→写真のピント合わせ、という順番の出現で、静かな導入になる。",
+  "tags": [
+   "framed-image",
+   "no-text-on-photo",
+   "bottom-nav",
+   "loader",
+   "char-reveal",
+   "blur-to-focus",
+   "serif-headline",
+   "people-photo"
+  ],
+  "score": 4,
+  "shots": {
+   "pc": "landic-com-recruit-pc-f2.jpg",
+   "sp": "landic-com-recruit-sp.jpg",
+   "scroll": "landic-com-recruit-pc-scroll.jpg",
+   "frames": [
+    "landic-com-recruit-pc-f0.jpg",
+    "landic-com-recruit-pc-f1.jpg",
+    "landic-com-recruit-pc-f2.jpg"
+   ]
+  },
+  "agent": "jp-galleries"
+ },
+ {
+  "slug": "apple-com-jp-macbook-pro",
+  "name": "MacBook Pro - Apple（日本）",
+  "url": "https://www.apple.com/jp/macbook-pro/",
+  "source": "direct",
+  "industry": "D2C / テック製品",
+  "hero_type": "full-bleed-video",
+  "layout": "黒地フルブリードの動画。左下に h1『MacBook Pro』＋大きなキャッチ『スピードの遺伝子。』＋サブ『M5, M5 Pro, またはM5 Maxを搭載。』、右下に価格ピルと青い『購入』ボタン。上部にグローバルナビ＋告知リボン。",
+  "image_treatment": "黒背景に製品のリムライトだけが浮かぶローキー映像。暗部が広いのでスクリムなしで文字が読める。キャッチは淡い青グレーのグラデーション文字（目視）。",
+  "typography": "h1 SF Pro JP 28px/600、色 rgb(245,245,247)（わずかに灰の白）。キャッチは目測50px前後の太字。3行を左下に揃えて積む。",
+  "cta": "右下に半透明ダークのピル（価格2行）＋青の丸ボタン『購入』1つ。0.5s時点で既に表示（映像を待たない）。スクロール後はサブナビ右端に青い『購入』が常駐。",
+  "motion": "独自計測：0.5s 黒地に文字とCTAだけ表示（映像はまだ黒）→ 1.0s キーボードのクローズアップが暗部から現れる → 1.5〜2.0s カメラが引きつつ蓋の縁を光がなめる → 2.5s 本体がV字に開いた構図へ → 3.5s・5s・7s は同一フレーム＝約3秒の映像を1回だけ再生し、最終フレームで静止。スクロールはピン留めなし（y300でヒーローが上へ流れ、y600でほぼ退場しサブナビが固定）。",
+  "tech": "meta：video …/anim/hero/large.mp4（要素2880×900、autoplay=false、loop=false、計測時 playing=false＝再生終了後）。JSから再生していると推測。gsap等の検出なし。SPは small_2x.mp4（585×800、playing=true）。",
+  "mobile": "SPは縦長用の別ファイル small_2x.mp4（585×800）に差し替え。文字は映像の下に中央揃え、価格＋購入ボタンは下部バー。",
+  "why_good": "文字を最初から出し、映像は『暗→光』の短いワンショットで構図が決まったら止める。ループしないので落ち着きがあり、読む邪魔をしない。",
+  "idea_for_telemo": "12秒ループの前に約3秒の導入カット（暗部からオペレーターの横顔に光が入る）を1回だけ再生し、その後ループ（または最終フレーム静止）へ切り替える。見出し・CTAは0〜0.3sで先に出し、映像を待たせない。文字色は純白でなく #F5F5F7 程度。",
+  "tags": [
+   "video-once",
+   "hold-last-frame",
+   "text-first",
+   "low-key",
+   "separate-sp-video",
+   "sticky-subnav"
+  ],
+  "score": 4,
+  "shots": {
+   "pc": "apple-com-jp-macbook-pro-pc-f1.jpg",
+   "sp": "apple-com-jp-macbook-pro-sp.jpg",
+   "scroll": "apple-com-jp-macbook-pro-pc-scroll.jpg",
+   "frames": [
+    "apple-com-jp-macbook-pro-pc-f0.jpg",
+    "apple-com-jp-macbook-pro-pc-f1.jpg",
+    "apple-com-jp-macbook-pro-pc-f2.jpg"
+   ]
+  },
+  "agent": "motion-craft"
+ },
+ {
+  "slug": "getmaple-ca",
+  "name": "Maple",
+  "url": "https://www.getmaple.ca/",
+  "source": "saaslandingpage.com",
+  "industry": "オンライン診療・遠隔医療（カナダ。患者向け中心、プロバイダー/パートナー向け導線あり）",
+  "hero_type": "full-bleed-video",
+  "layout": "濃緑の固定ヘッダー（高さ約90px：ロゴ・For Patients/Providers/Partners のセグメント切替・メニュー・Sign in/Sign up）の下に 1440×600 の動画帯（100vhではなく約600px）。見出し→リード（3行）→ミントのCTAをすべて中央揃えで映像の真ん中に重ねる。直下に5項目の実績ストリップ（100% Canadian Care／Over 2 million／4.8 rating など）。",
+  "image_treatment": "カフェで人々が歓声を上げる群像（f0）→エプロン姿のスタッフのアップ（f2）とカットが替わる広告調の実写動画（SITEHEADER-5.6MB.mp4・再生中）。全体にやや暗めのオーバーレイがかかって見えるが、正確な不透明度は unknown。SPでは別カット（キャップとベスト姿の男性の歓声、紙が舞う）が縦長トリミングで映る。",
+  "typography": "meta の h1 は不可視の 'Home'（1×1）で見出しの根拠にならない。画像上の見出し『Health Yeah!』はPCでは極太のグロテスク体（約110〜120px相当・2行・行間を詰めたクリーム白）、SPではブランドのセリフ体（約56px）に見える（px値は目視の概算）。リードは Inter 系の白 約22px・中央揃え3行。",
+  "cta": "ミント（淡いターコイズ）の大きなピル『Get started now』1個を中央に配置。ヘッダー右にも『Sign in』（アウトライン）と『Sign up』（ミント塗り）、右端に言語切替『FR』。",
+  "motion": "動画は再生中（1440×600）。f0(0.8s)のカフェ群像→f2(6s)のスタッフのアップへカットが替わるが、文字・CTAは固定。700pxスクロールでヒーロー帯が流れ、『How can we help you today?』と角丸の大きな写真カード（小児科：芝生に寝転ぶ子どもたち）が現れる。",
+  "mobile": "約600px高の動画帯（縦長トリミング）に、見出し・リード（6行）・幅広のミントのピルCTAを中央重ねで積む。ヘッダーは濃緑のまま『Sign up』ピル＋ハンバーガー。下に実績ストリップが縦並びで続く。",
+  "why_good": "感情の高い『人々の群像』動画に、極太の短いコピーと単一CTAだけを重ね、直下の実績ストリップで信頼を補強する。ヒーローを100vhにせず約600pxに抑え、次の情報が見えている。",
+  "idea_for_telemo": "コールセンターで働く人たちの動画（約600px高の帯）に、短い見出し1行＋リード＋単一CTAを中央重ねし、直下に導入実績の数字ストリップを置く。100vhに固定せず次の情報を覗かせる構成。",
+  "tags": [
+   "video",
+   "people-photo",
+   "center-headline",
+   "heavy-sans",
+   "single-cta",
+   "stat-strip",
+   "short-hero-band",
+   "pill-cta"
+  ],
+  "score": 4,
+  "shots": {
+   "pc": "getmaple-ca-pc-f2.jpg",
+   "sp": "getmaple-ca-sp.jpg",
+   "scroll": "getmaple-ca-pc-scroll.jpg",
+   "frames": [
+    "getmaple-ca-pc-f0.jpg",
+    "getmaple-ca-pc-f1.jpg",
+    "getmaple-ca-pc-f2.jpg"
+   ]
+  },
+  "agent": "global-galleries"
+ },
+ {
+  "slug": "overpass-com",
+  "name": "Overpass",
+  "url": "https://www.overpass.com/",
+  "source": "httpster.net",
+  "industry": "B2B / リモート営業・サポート人材マーケットプレイス",
+  "hero_type": "split-text-image",
+  "layout": "画面を左右に分割。左（x≈122〜）：下線付きの見出し3行→リード5行→メール入力＋黒ピル『START HIRING』。右半分（x≥694）：水色のブロックに、電話をしながら笑う男性の切り抜き写真（右寄せ・ブロック下端で見切れ）と左上の黄色い半円、写真に重なる白いプロフィールチップ3つ（Experience 5 years / Specialization Technology / Focus B2B）。その下に濃青ブロック（『Marcus A. Top Rated Appointment Setter』＋上下矢印ボタン＋縦ドットのページャー）と薄ピンクのブロックをモザイク状に敷く。",
+  "image_treatment": "背景を抜いた人物の切り抜き写真を単色の色面（水色・濃青・ピンク・黄）の上に配置。スクリムやグラデーションは使わず、フラットな色ブロック＋白いピルUIチップで『人材プロフィール』を表現。写真は被写体のみで、枠・角丸なし（ブロックの矩形で切る）。",
+  "typography": "meta の h1 は 2px の非表示要素で根拠にならない。スクショ上の見出しは細めのジオメトリック・サンセリフ（フォント名 'eina03'）で約70px前後（目測）、濃紺、3行で各行に太い下線。リードは灰色の約16pxで5行。",
+  "cta": "見出し真下にメール入力（薄灰のピル）＋黒塗りピル『START HIRING』を横並び。ヘッダー右に白ピル『Login』とテキストリンク『Find Remote Work』。SPでは黒ピル『START HIRING』と薄灰ピル『FIND A JOB』を縦積みで中央配置。",
+  "motion": "f0(0.8s)はロゴと右端の水色の帯だけ→f1(3s)で全要素が出揃うので、右側の水色ブロックと人物が横から入場する演出と推測できる（途中経過は未確認）。右下の濃青ブロックは上下矢印のカルーセル表示（人物の切替動作は unknown）。スクロールは通常で、下にカード型の特徴グリッドが続く。",
+  "mobile": "1カラム化：見出し（2行・中央）→リード→ボタン2つ縦積み→黄色の半円とプロフィールチップ→水色ブロック（人物は画面下に見切れ）の順。人物写真はファーストビューの外に追い出される。",
+  "why_good": "『電話をしながら笑う営業人材』の写真に、プロフィールチップを被せることで“人を選んで雇う”というサービス内容を一目で伝えている。文字は白地側に分離され可読性が高い。",
+  "idea_for_telemo": "ヒーロー右半分にコールセンターで働く人の切り抜き（または大きくトリミングした写真）を置き、『通話数・アポ率・稼働時間』などの小さな白ピルチップを重ねて、TELEMOの数値的な価値を“人”と結ぶ。左は白地の実HTML見出し＋CTA。",
+  "tags": [
+   "split",
+   "people-photo",
+   "cutout",
+   "color-blocks",
+   "ui-chips",
+   "carousel",
+   "phone",
+   "entrance-animation"
+  ],
+  "score": 4,
+  "shots": {
+   "pc": "overpass-com-pc-f2.jpg",
+   "sp": "overpass-com-sp.jpg",
+   "scroll": "overpass-com-pc-scroll.jpg",
+   "frames": [
+    "overpass-com-pc-f0.jpg",
+    "overpass-com-pc-f1.jpg",
+    "overpass-com-pc-f2.jpg"
+   ]
+  },
+  "agent": "global-galleries"
+ },
+ {
+  "slug": "palantir-com",
+  "name": "Palantir（日本語トップ）",
+  "url": "https://www.palantir.com/",
+  "source": "direct",
+  "industry": "B2B（AI・データ基盤）",
+  "hero_type": "typographic-with-small-image",
+  "layout": "白地。左に100pxの巨大な日本語見出し4行（左30px起点）。見出しの下に左右30pxインセットの横長動画パネル（1380×776）が画面下端から覗き、スクロールで全体が見える。",
+  "image_treatment": "動画は低彩度・モノトーン寄りの実写（無人機、ロボットアーム）に、UIオーバーレイ（『AI Decision Guidance』パネル、『Asset → №09』ラベル）と下部の再生バー。角丸なしの矩形。",
+  "typography": "h1 Alliance No.2 100px/400、行送り115px、字間-2px、色 rgb(30,33,36)。日本語も細めのウェイトで大きく組む。リードなし。",
+  "cta": "ヒーロー内にボタンなし。右上に枠線の『お問い合わせ』ボタン＋メニュー。",
+  "motion": "独自計測：0.4s 白 → 0.7s『AI(』→ 1.0s『AI(人工知能)を基盤にした』→ 1.4s『…あらゆる意思決』→ 1.8s 全文。約0.5sに開始し、約1.3秒で約30字を1字ずつタイプ（約40ms/字）。下端の動画は先に再生（f1→f2で画が変わる）。スクロール y400 で動画パネルが上がってくる（砂漠の無人機）→ y800 パネル全体（ロボットアーム＋UIオーバーレイ）。ピン留めは見られない。",
+  "tech": "meta：video AIDG_1.mp4（1380×776、autoplay=true、loop=true、playing=true）。canvas・gsap等なし。SPも同じmp4を350×197で再生。",
+  "mobile": "SPは見出し34pxで4行、動画は同じファイルを横長のまま縮小（350×197）。縦動画への差し替えなし。",
+  "why_good": "映像を見出しの下に一段下げ、まず言葉を読ませる。タイプ表示はAIの『生成』のメタファーとして働き、映像側はUIオーバーレイで『実運用』を見せる。",
+  "idea_for_telemo": "リード（または見出しの補助行）を『通話の文字起こし』風に約35〜40ms/字でタイプ表示（開始0.5s、完了は2s以内）。映像の上にオペレーター画面のUIラベル（例『AI架電中 03:12』）を実HTMLで小さく重ね、実運用感を出す。",
+  "tags": [
+   "typewriter",
+   "video-loop",
+   "inset-frame",
+   "ui-overlay",
+   "big-type",
+   "b2b"
+  ],
+  "score": 4,
+  "shots": {
+   "pc": "palantir-com-pc-f2.jpg",
+   "sp": "palantir-com-sp.jpg",
+   "scroll": "palantir-com-pc-scroll.jpg",
+   "frames": [
+    "palantir-com-pc-f0.jpg",
+    "palantir-com-pc-f1.jpg",
+    "palantir-com-pc-f2.jpg"
+   ]
+  },
+  "agent": "motion-craft"
+ },
+ {
+  "slug": "rekki-com",
+  "name": "REKKI",
+  "url": "https://rekki.com/",
+  "source": "httpster.net",
+  "industry": "B2B SaaS / 卸売業者向け AI 業務ロボット（受注処理・営業・カスタマーサポート）",
+  "hero_type": "full-bleed-photo",
+  "layout": "黒背景。上端に透過ナビ（左ロゴ、中央に4リンク、右に青い角丸『BOOK A DEMO』）。ヒーロー上部に暗い机上写真（デスクランプ・ペン立て・ノートPC）が薄く見え、その上に半透明ガラスのピル5つ（『resolved 7 support cases』『scanned 27 menus』『detected 4 customers churning』『replied to 15 emails』『processed 34 orders』）が右へ階段状にずれて積み重なる。その下に中央揃えの巨大見出し、灰色リード1行、青い大型ピルCTA、顧客ロゴのマーキー、さらに下端から製品UI（order hub）がデバイス枠に入って覗く。",
+  "image_treatment": "低彩度で暗い無人の机上写真を上部にだけ敷き、下へ黒に溶けるフェードで見出し領域を単色化（スクリムというより黒へのグラデーション）。ピルは半透明ダークグレーの角丸ガラス調で、上のものほど薄く消える。人物は写っていない。素材の種類（写真・動画・canvas のどれか）は meta の img/video/canvas に該当がなく unknown。",
+  "typography": "h1は 'Diatype REKKI Medium' 86px / weight400 / 行高86px(=1.0) / 字間-5.504px（約-6.4%の極端なタイトさ）/ 白、中央揃え2行（box 1320×172）。リードは灰色の約22px 1行。SPでは h1 44px・3行（左揃え）、リード3行。",
+  "cta": "大きな青（鮮やかなブルー）の塗りピル『GET A DEMO』（約254×96）を中央に1個。ナビ右上にも青角丸『BOOK A DEMO』。",
+  "motion": "f0→f2で見出し・ピル群は変化せず、顧客ロゴのマーキーのみ左へ流れる（savona/liberty wines → penshurst/galeta 等）。ピルごとの出現順アニメは f0/f2 の比較では差が見えず unknown。700pxスクロール後はナビ固定のままロゴ列が上へ流れてナビ背後に透け、製品UI（タブ OrderAI/InboxAI/MenuAI/Marketplace）が現れる。",
+  "mobile": "ナビは黒バー（ロゴ＋ハンバーガー）。ピル群は階段状のまま縮小して残り、見出し44px・3行（左揃え）、リード、全幅の青ピルCTAを縦積み。Cookieバナーが CTA の下に被っている。",
+  "why_good": "『AIが何をしたか』を件数付きのログのピルとして見出しの手前に積み、製品の仕事ぶりを写真の上で先に見せている。極端にタイトな大書見出しと1つの大きな青CTAで視線と行動が一本化される。",
+  "idea_for_telemo": "TELEMO では働く人の写真の上に『◯件架電しました／商談◯件獲得』といったAI稼働ログを階段状にずらしたガラスピルで積み、上ほど薄くフェード。見出しは中央に大書し、CTAは強い色の1個に絞る。",
+  "tags": [
+   "dark",
+   "glass-pill",
+   "activity-log",
+   "centered-headline",
+   "tight-tracking",
+   "logo-marquee",
+   "single-cta",
+   "product-ui-peek",
+   "no-people"
+  ],
+  "score": 4,
+  "shots": {
+   "pc": "rekki-com-pc-f2.jpg",
+   "sp": "rekki-com-sp.jpg",
+   "scroll": "rekki-com-pc-scroll.jpg",
+   "frames": [
+    "rekki-com-pc-f0.jpg",
+    "rekki-com-pc-f1.jpg",
+    "rekki-com-pc-f2.jpg"
+   ]
+  },
+  "agent": "global-galleries"
+ },
+ {
+  "slug": "reevo-ai",
+  "name": "Reevo",
+  "url": "https://reevo.ai/",
+  "source": "land-book.com",
+  "industry": "B2B SaaS / AIネイティブ営業プラットフォーム（営業支援）",
+  "hero_type": "framed-image-card",
+  "layout": "白背景・中央揃えの縦構成。等幅の枠付きラベル『THE AI-NATIVE SALES PLATFORM』→超巨大見出し2行→太字のリード2行→CTA2つ横並び、の下に左右48pxの余白を取った幅1344×756（16:9）の動画カードが続き、ファーストビューには上部約330pxだけ覗く。固定ナビ（ロゴ左・等幅メニュー中央・Log in／Get started右）。",
+  "image_treatment": "暖色の室内（木製ルーバー壁・観葉植物）で働く営業担当の女性を捉えたドキュメンタリー調の動画（promo-teaser.mp4）。見出しとは重ねず、文字と映像を完全に分離している。動画内にプロンプト入力欄『Help me prep for my next meeting』や『Task captured / Send revised contract to Amelia (CFO)』のトーストが見える（HTML重ねか焼き込みかは unknown）。角丸・スクリムは目視では確認できず。",
+  "typography": "h1は Metrify（超コンデンス体）113.2px / weight900 / 行高90.6px（0.8）/ 字間-1.13px / rgb(18,18,18)、全大文字・中央揃え2行（box 1231×181）。リードは太字サンセリフ（Haltung と思われる）で約24px・中央2行。SPでは57.5px・4行。",
+  "cta": "2個横並び：黒塗りの角丸『Get started ›』（幅約245px）と白抜き枠の『See Reevo ▷』。ナビにも黒塗りの『Get started』。",
+  "motion": "動画は自動再生（1344×756, playing）。f0は作業中の女性とプロンプト入力欄、f2は顔のアップと『Task captured』トースト、scroll画像では広角ショットに切り替わり中央に黒い四角の再生ボタンが出ており、短い物語のように場面と画面内UIが進行する。700pxスクロールでヒーローは通常スクロールし、ナビは固定。",
+  "mobile": "1カラム：ラベル→見出し(57.5px・4行)→動画（約342×192の16:9、中央に黒い再生ボタン、トースト付き）→リード→CTA2つを全幅で縦積み（黒塗り／白抜き枠）。ナビは『Get started』と『Menu』。",
+  "why_good": "巨大な見出しで主張しつつ、人が働く動画を枠付きカードで文字と分離して置くので可読性が崩れない。動画の中に『依頼→タスク化』のUIを入れて、人の仕事と製品の効果を同じ映像で語っている。",
+  "idea_for_telemo": "TELEMOの白地のまま、見出し・リード・CTAを上に、働く人の動画カード（左右余白つき）を直下に置き、動画の下端を折り返しで覗かせる。動画内に『架電→要約→次アクション』のUIを重ねて物語化する。",
+  "tags": [
+   "video",
+   "people-photo",
+   "framed-card",
+   "centered",
+   "condensed-heavy-type",
+   "product-ui-in-video",
+   "two-cta",
+   "white-bg",
+   "text-image-separated"
+  ],
+  "score": 4,
+  "shots": {
+   "pc": "reevo-ai-pc-f2.jpg",
+   "sp": "reevo-ai-sp.jpg",
+   "scroll": "reevo-ai-pc-scroll.jpg",
+   "frames": [
+    "reevo-ai-pc-f0.jpg",
+    "reevo-ai-pc-f1.jpg",
+    "reevo-ai-pc-f2.jpg"
+   ]
+  },
+  "agent": "global-galleries"
+ },
+ {
+  "slug": "revolut-com",
+  "name": "Revolut",
+  "url": "https://www.revolut.com/",
+  "source": "httpster.net",
+  "industry": "フィンテック（B2C銀行アプリ／Business 向けも展開）",
+  "hero_type": "full-bleed-photo",
+  "layout": "全面の青空ポートレート写真（画像 2520×1575）の上に、左寄せでロゴ付きナビ→見出し『Banking & Beyond』→リード3行→黒ピルCTA『Download the app』を積む。中央には縦長の角丸フレーム（スマホ形の白い細枠）があり、その内側に残高『£6,012』と『Accounts』ピルを表示して人物写真とアプリUIを重ねる。スクロール後のスクショには左右にも暗色のスマホ形カード（『Coffee in Paris』『House bills』の取引通知）が並び、3枚構成であることが分かる。",
+  "image_treatment": "空の青と赤髪・リネン服の人物ポートレート。スクリムやグラデーションは使わず、写真そのものの明暗（青空）に白文字を直接載せる。写真の中に『スマホ形の角丸フレーム』を描いて製品UIの“窓”にする。ナビ・見出しは白。",
+  "typography": "h1は 'Aeonik Pro' 87.6px / weight500 / 行高87.6px / 字間-2.08px / 白、1行（box 1000×88）。リードは白の約18px・3行。ただし1440幅ではリード文の右端がスマホ形フレームの枠線と顔の上に重なっており、可読性・見た目の衝突がある（観察事実）。SPでは48px・2行。",
+  "cta": "黒ピルのCTA『Download the app』1個を見出し・リードの下に左揃え。ナビ右に白ピル『Sign up』＋テキスト『Log in』。SPでは上部にアプリ導入バナー（Get）と地域切替バナーが積まれてCTAが画面中ほどに下がる。",
+  "motion": "f0(0.8s)・f2(6s)ともほぼ同一で、ヒーロー上の目立つ動きは観察されず（静止画に近い）。スクロール後は写真のスマホ形カード下端と信頼バッジ（Trustpilot・受賞ロゴ）に切り替わる。",
+  "mobile": "1カラム。上に2段のバナー、ナビ、見出し(48px・2行)、リード、CTAの順に積み、その下に人物の顔を含む角丸フレーム（残高UI入り）がCTAの直下から始まる。デスクトップ同様に写真とUIの重ねを維持。",
+  "why_good": "人物ポートレートに“スマホ形の枠と残高UI”を重ねて、人の写真と製品を一体の画として見せる。見出しを巨大な白文字にして青空の余白に置き、写真の主役（顔）と文字をほぼ分離している。",
+  "idea_for_telemo": "写真の中に電話機（受話器・ヘッドセット）形のフレームを描き、その枠内にだけ通話UI（相手名・通話時間・『AIが応対中』）を出す。働く人の写真は全面のまま、製品UIは“窓”の中に閉じ込めて写真と衝突させない。",
+  "tags": [
+   "full-bleed",
+   "people-photo",
+   "phone-frame",
+   "product-ui-overlay",
+   "large-headline",
+   "static"
+  ],
+  "score": 4,
+  "shots": {
+   "pc": "revolut-com-pc-f2.jpg",
+   "sp": "revolut-com-sp.jpg",
+   "scroll": "revolut-com-pc-scroll.jpg",
+   "frames": [
+    "revolut-com-pc-f0.jpg",
+    "revolut-com-pc-f1.jpg",
+    "revolut-com-pc-f2.jpg"
+   ]
+  },
+  "agent": "global-galleries"
+ },
+ {
+  "slug": "www-ringcentral-com",
+  "name": "RingCentral",
+  "url": "https://www.ringcentral.com/",
+  "source": "direct",
+  "industry": "CX SaaS / 音声AI",
+  "hero_type": "framed-image-card",
+  "layout": "ヘッダー直下に、左右40px余白・高さ約575px・角丸約28pxの桃→橙グラデのカード1枚。内部は左にH1(3行)＋リード＋CTA2、右に二重フチ(白い半透明の外枠＋内枠)付きの角丸動画ウィンドウ(634×469 webm)でAIエージェントUIを暖色の机上風に表示し、上に半透明ガラスのチップ『AIR PRO / Deploy AI agents』。カード直下に導入企業ロゴのマーキー。最上部にグラデのお知らせバー。",
+  "image_treatment": "暖色グラデをカード全面に敷き、動画は『写真＋UI』のハイブリッド。ガラス(半透明＋ブラー)のチップと二重フチで奥行きを出す。人物写真はなく、UI内のアバター顔のみ。",
+  "typography": "H1は NeueHaasGroteskDisplayPro 60px/500、行高63.6px、字間−0.32px、暖かい黒(#2b2926)、左揃え3行（SPは39px・4行）。リードは約18px。",
+  "cta": "青(#0073b1系)塗りピル『See pricing』＋黒枠透明ピル『Contact sales』を左カラム下に横並び。ヘッダー右に大きな青ピル『View demo』。",
+  "motion": "webm(hero-updated.webm)が再生中でf0→f2で画面が変化。スクロールするとロゴマーキー→『Power the voice of your business』の4タブへ（ヘッダー固定）。",
+  "mobile": "カード内が縦積み：H1(39px,4行)→リード→CTA2(横並び)→動画ウィンドウ（カード幅いっぱい）。お知らせバーは大きなグラデカードになり上部を占有する。",
+  "why_good": "ヒーロー全体を1つの角丸カードにまとめ、ガラスの二重フチ＋暖色グラデで製品動画を宝物のように見せている。ロゴマーキーまで1スクロールで到達。弱みは、人物写真が無く『人の温度』が希薄なこと、SPでお知らせバーがファーストビューを圧迫すること。",
+  "idea_for_telemo": "白背景のままティールの極薄グラデの角丸カードにヒーロー全体を収め、右に写真(動画)を二重フチの額縁で置く案。角丸＋薄い白フチ1本で再現できる。",
+  "tags": [
+   "framed-card",
+   "rounded-corners",
+   "gradient-card",
+   "glass-chip",
+   "video-in-frame",
+   "logo-marquee",
+   "announcement-bar"
+  ],
+  "score": 4,
+  "shots": {
+   "pc": "www-ringcentral-com-pc-f2.jpg",
+   "sp": "www-ringcentral-com-sp.jpg",
+   "scroll": "www-ringcentral-com-pc-scroll.jpg",
+   "frames": [
+    "www-ringcentral-com-pc-f0.jpg",
+    "www-ringcentral-com-pc-f1.jpg",
+    "www-ringcentral-com-pc-f2.jpg"
+   ]
+  },
+  "agent": "industry-direct"
+ },
+ {
+  "slug": "recruit-smarthr-co-jp",
+  "name": "SmartHR 採用サイト",
+  "url": "https://recruit.smarthr.co.jp/",
+  "source": "muuuuu.org / io3000.com",
+  "industry": "採用（B2B SaaS）",
+  "hero_type": "other",
+  "layout": "白いヘッダの下に、左端に張り付く白い箱ラベルが階段状に重なる（見出し2段＋リード3段、黒の細い枠線）。右側に青緑→ロイヤルブルーの横グラデ帯（右端は粗いドット/ディザ）、下半分はピンク→水色の縦グラデに細かいドットのテクスチャ。右下に画面端に接する2つのCTAボックス。",
+  "image_treatment": "写真は使わず、グラデーション＋ディザ（ピクセル状）のテクスチャを画像として扱う。文字は『不透明な白ラベル＋黒文字』で、背景色が何であっても読める（スクリム代替）。",
+  "typography": "meta の h1 は 'SmartHRRecruit'（ロゴ用で font-size 0px）。見出しは極太ゴシック（MFW-PGothic DeBold系）、約100〜110px（スクショ目測）、行高約150px、黒(#23221f)、2行。リードは約18px の太字ゴシック3行（各行が別ラベル）。",
+  "cta": "右下の画面端に接する2連ボックス：白地『カジュアル面談 →』と黒地『募集職種・エントリー』＋白い四角の矢印。上に小さな白ラベル2行（コピー）が重なる。角丸なし・直角。",
+  "motion": "f0/f1/f2 はファイルサイズが同一で、ロード後は静的。canvas が3つあり（816×150、730×150、1440×1356）、用途と動きの有無は unknown。スクロール(700px)後は未確認。",
+  "mobile": "見出し2段＋リード7段のラベルを左端に積み、グラデ帯は右端に細く残る。下半分は大きなピンク→水色のグラデのみで、白文字のコピーが下端に重なる。",
+  "why_good": "写真がなくても、ラベル帯・直角のCTA・ディザのグラデで強い視覚言語を作っている。ラベルで文字を面にするので、画像の差し替えにも強い。",
+  "idea_for_telemo": "ティール→ネイビーのグラデ帯と白ラベル見出しで『写真が無い日』のヒーローを構成できる。写真を使うときは同じ白ラベルを写真上に載せる（ウェアラと同じ手法）。CTAは右下の画面端に接する直角2連ボックス。",
+  "tags": [
+   "label-bars",
+   "dither-gradient",
+   "no-photo",
+   "corner-cta",
+   "square-cta",
+   "heavy-gothic",
+   "white-labels"
+  ],
+  "score": 4,
+  "shots": {
+   "pc": "recruit-smarthr-co-jp-pc-f2.jpg",
+   "sp": "recruit-smarthr-co-jp-sp.jpg",
+   "scroll": "recruit-smarthr-co-jp-pc-scroll.jpg",
+   "frames": [
+    "recruit-smarthr-co-jp-pc-f0.jpg",
+    "recruit-smarthr-co-jp-pc-f1.jpg",
+    "recruit-smarthr-co-jp-pc-f2.jpg"
+   ]
+  },
+  "agent": "jp-galleries"
+ },
+ {
+  "slug": "somali-co-jp-lp01",
+  "name": "Somali（ソマリ）ハイクラス転職 LP",
+  "url": "https://somali.co.jp/lp01/",
+  "source": "lp.webdesignclip.com",
+  "industry": "人材・転職エージェント",
+  "hero_type": "other",
+  "layout": "薄いグレー(#F0F2F2)の地に、左端と右端の2枚の写真を有機的なブロブ形にマスクして置き、中央に大きな明朝見出し（2段）＋リード。左の写真に黒い円バッジ『累計ご相談実績 2,500名以上！』を重ね、下に白い角丸カード（引用）が顔を出す。",
+  "image_treatment": "写真はブロブ（アメーバ状）マスク。左は人物のモーションブラー写真、右は都心の高層ビル。右のブロブには白い細い縁線。色調は淡くハイキー・やや脱彩度。見出しにはごく薄い白のグロー。",
+  "typography": "meta の h1 は innerText が空（box 520×296px、中央）で、見出しが画像/SVG かどうかは unknown。見た目は極太の明朝系で、1行目『“職”の解像度を』が約60px、2行目『上げる。』が約130px、黒。リードは約20px の字間広め。",
+  "cta": "PC はヘッダ右にテラコッタ(#D9785C系)のpill『無料転職相談』（紙飛行機アイコン付き）。SP はヘッダ右上に同pill、さらに本文下に大きな pill『まずはお気軽にご相談から／無料転職相談』（グラデ入り、約300×60px）。",
+  "motion": "f0(0.8s)は見出し・リード・バッジが未表示で、ブロブ写真とナビだけ。f1(3s)で見出しとカードが出現し f2 と同じ。ブロブ自体の動きは unknown。scroll は未確認。",
+  "mobile": "ブロブ写真を縦に再配置（右上=ビル、左下=人物）。見出しは画面中ほど、バッジを左に置き、リード→大きなpill CTA→引用カードの順に縦積み。",
+  "why_good": "写真を矩形で置かず『余白の形』を作る素材として使い、中央の見出しを主役にしている。実績バッジを写真に重ねて、実績と雰囲気を同時に見せる。",
+  "idea_for_telemo": "コールセンター写真を矩形ではなく、TELEMOのティールの曲線に合わせたブロブ/大きな角丸マスクで左右の端に置き、中央に見出し。実績バッジを写真の縁に重ねる。",
+  "tags": [
+   "blob-mask",
+   "serif-headline",
+   "stat-badge",
+   "people-photo",
+   "high-key",
+   "pill-cta",
+   "char-fade"
+  ],
+  "score": 4,
+  "shots": {
+   "pc": "somali-co-jp-lp01-pc-f2.jpg",
+   "sp": "somali-co-jp-lp01-sp.jpg",
+   "scroll": "somali-co-jp-lp01-pc-scroll.jpg",
+   "frames": [
+    "somali-co-jp-lp01-pc-f0.jpg",
+    "somali-co-jp-lp01-pc-f1.jpg",
+    "somali-co-jp-lp01-pc-f2.jpg"
+   ]
+  },
+  "agent": "jp-galleries"
+ },
+ {
+  "slug": "recruit-tver-co-jp",
+  "name": "TVer 採用サイト",
+  "url": "https://recruit.tver.co.jp/",
+  "source": "io3000.com",
+  "industry": "採用（メディア・IT／社員の写真）",
+  "hero_type": "collage-grid",
+  "layout": "淡い青白(#f5f8fa)の地。上段に巨大な欧文見出し『BEYOND the Frame!』（紺の太字＋水色の手書き筆記体『Frame!』）を左寄せ、右にサブコピーと『TVer INC. RECRUIT Join! OUR TEAM』。ファーストビュー下端（y≒590）から、角丸（約24px）の写真カードのマソンリーグリッド（笑顔の社員、オフィス、TVロゴ立体）が始まる。",
+  "image_treatment": "社員写真は角丸約24px・隙間10pxのカードで密に敷き詰め、左右の端で切れて続きがあることを示す。写真は自然光の明るいドキュメンタリー調（会話中の笑顔）。水色・紺の色調で全体が統一。",
+  "typography": "meta の h1 は null。見出しは Poppins 系の約190px・太字・紺(#0b4d8c)・全大文字（BEYOND）と小文字（the）、『Frame!』は水色(#00f0ff)の手書き筆記体（描線のストローク）で、周りに選択ボックス風の薄い矩形線。サブコピーは約24px・字間広め・水色寄りの紺。",
+  "cta": "ヘッダ右に水色の角丸pill 2つ（『中途採用 ↗』『新卒採用 ↗』）。右下に固定の『PAGE TOP』の水色角丸ボタン。SP は『採用情報 +』白pill＋紺のハンバーガー。",
+  "motion": "SP の3秒時点で『Frame!』の筆記体が『Fna』まで描かれており、筆記体が線を描くアニメーション（PC f2 では完成形＋選択ボックス）。写真マソンリーは左右端で切れ、横方向に流れる構造に見える（動きの確認は unknown）。 スクロール(700px)後は未確認。",
+  "mobile": "見出しを2行（BEYOND／the）にし、サブコピーを the の右に回す。筆記体は大きく斜めに。写真は幅の約75%の角丸カードを2段、左右端で切れて並べる。",
+  "why_good": "巨大な文字と手書きの1語でブランドの声を作り、その直下から『人の写真』が密に並ぶので、ファーストビューの1/3が人の顔になる。角丸カードで全体の雰囲気がやわらかい。",
+  "idea_for_telemo": "見出し（TELEMOのコピー）を上2/3、下1/3に働く人の写真を角丸カードのマソンリーで見せる。1語だけをティールの手書き風・描線アニメで強調する。",
+  "tags": [
+   "people-photo",
+   "masonry-cards",
+   "rounded-corners",
+   "handwriting-draw",
+   "typographic",
+   "light-bg",
+   "header-pills"
+  ],
+  "score": 4,
+  "shots": {
+   "pc": "recruit-tver-co-jp-pc-f2.jpg",
+   "sp": "recruit-tver-co-jp-sp.jpg",
+   "scroll": "recruit-tver-co-jp-pc-scroll.jpg",
+   "frames": [
+    "recruit-tver-co-jp-pc-f0.jpg",
+    "recruit-tver-co-jp-pc-f1.jpg",
+    "recruit-tver-co-jp-pc-f2.jpg"
+   ]
+  },
+  "agent": "jp-galleries"
+ },
+ {
+  "slug": "tiltongroup-com",
+  "name": "Tilton",
+  "url": "https://www.tiltongroup.com/en/",
+  "source": "httpster.net",
+  "industry": "B2B 製造 / 食品・医療向け熱成形プラスチック包材",
+  "hero_type": "framed-image-card",
+  "layout": "上に黒の告知バー（『NEW The Brio range is here』）と薄グレーのヘッダー（左に Packaging▾・検索、中央に Brands/Company/Careers/Contact/Samples、右にロゴ）。その下に、左右20pxの余白を取った角丸の写真パネル（高さ約715px、右下の角丸が大きい）。見出し『Packaging designed the future』を3行の階段状（1行目は左、2行目は右、3行目は中央寄り）に大きく重ね、左上に小さな＋形のマーク、右下に円形の下向き矢印を置く。",
+  "image_treatment": "容器を積み重ねる手元のクローズアップ写真（暗めのトーン）。スクリムは明示されず、オフホワイトの見出しを写真へ直接重ねる。写真はインセットの角丸パネルに収め、人物は顔でなく手元だけが写る。スクロール後は同じ見出しが黒に反転して薄グレーのパネルに載り、透明な容器（ボウル）の製品画像が文字の間を通る。",
+  "typography": "h1要素は 'SuisseIntl' 32px / weight700 のコンテナ（box 1050×464）で見た目の根拠にならない。見えている見出しは細いウェイトのサンセリフで、行送り約128pxからの目測で約130px前後、オフホワイト rgb(243,241,238)（スクロール後は黒）、3行の階段状。リード文は無し。SPでは約3行（Packaging／designed／for the future）に組み替え。",
+  "cta": "ヒーロー内にCTAボタンは無く、右下の円形の下向き矢印（スクロール誘導）とナビの『Samples』が入口。Cookieバナー（左下、3ボタン）が画面を大きく占有している（観察）。",
+  "motion": "f0〜f2の間に目立つ変化は無く静的。700pxスクロール後は写真パネルが上に抜け、同じ位置に同じ見出しが黒文字で現れて背景が薄グレーに切り替わり、透明な製品（ボウル）が文字の間を通る＝見出しの位置を保ったまま背景が写真→製品に入れ替わるスクロール連動（実装がピン留めか入れ替えかは unknown）。",
+  "mobile": "見出しは階段状のまま3行に縮小し、写真は全幅（角丸なし）で手元を大きくトリミング。ナビはハンバーガー＋検索＋ロゴ。Cookieバナーが下半分を占める。",
+  "why_good": "見出しの位置を固定したまま背景だけが『人の手の写真→製品』へ入れ替わるので、文字を主役にしたまま現場から製品への流れを見せられる。階段状の配置が写真の主役（手元）を隠しにくい。",
+  "idea_for_telemo": "見出しの位置を固定したまま、背景を『働く人の写真→通話UI・製品画面』へスクロールで入れ替える。見出しは階段状にずらして顔・手元を避け、写真はインセットの角丸パネルに収める。",
+  "tags": [
+   "sticky-headline",
+   "staggered-headline",
+   "inset-rounded-photo",
+   "background-swap-on-scroll",
+   "hands-photo",
+   "b2b-manufacturing"
+  ],
+  "score": 4,
+  "shots": {
+   "pc": "tiltongroup-com-pc-f2.jpg",
+   "sp": "tiltongroup-com-sp.jpg",
+   "scroll": "tiltongroup-com-pc-scroll.jpg",
+   "frames": [
+    "tiltongroup-com-pc-f0.jpg",
+    "tiltongroup-com-pc-f1.jpg",
+    "tiltongroup-com-pc-f2.jpg"
+   ]
+  },
+  "agent": "global-galleries"
+ },
+ {
+  "slug": "town-com",
+  "name": "Town",
+  "url": "https://www.town.com/",
+  "source": "siteinspire.com",
+  "industry": "SaaS / AI アシスタント（『Townie』）",
+  "hero_type": "typographic-with-small-image",
+  "layout": "見出しを画面全体に散らして配置（『Learns how you ▢ work,』は左上、『then gets to work.』は右下）。1行目と2行目の間、見出しの語間に笑顔の男性の縦長ポートレート（約192×240px・黄色背景）が入り込む。中央に小さなセリフ体のタグライン（『The unusually helpful AI assistant.』、マーカー風ハイライト）と黒いCTA、右下に手描きのイヌ型マスコット（BUD）、下端中央にプロンプト入力欄『Ask Bud anything』。ナビは角丸の枠付きパネル群。",
+  "image_treatment": "写真は小さな縦長の矩形（角丸なし）で、黄色背景のスタジオポートレート。手描きイラストのマスコットを同じ画面に並べ、写真＋イラストのペアを切り替える。地はオフホワイト(#fdfdfc)で、ハイライト色は橙→ピンクに変わる。スクロール後には、働く人の写真にイラストのロボット／キャラクターを重ねたカードが散らして配置される。",
+  "typography": "h1は 'slab'（スラブセリフ）。メタ上は88px / 行高90.2px / 字間-2.2px / 黒 rgb(28,27,27)（fontWeight=83 と記録。h1要素自体が1×1pxの不可視要素のため、見た目の指定は unknown。スクショ上は同等の大きさ）。タグラインは小さなセリフ体。SPは40px。",
+  "cta": "黒塗りの角丸『Meet your Townie』が中央に1個。ナビ右に黒『Sign up』。補助導線としてプロンプト入力欄（送信ボタン付き）。",
+  "motion": "f0〜f1（3秒）は同一、f2（6秒）ではポートレートとマスコットが薄く消えかけ、ハイライトが橙→ピンクに変わり、入力例が『Prepare analytics review for 2pm meeting』→『Renegotiate…』、『Ask Bud anything』のキャラ名も切替中（重なって表示）。一定間隔で別の人物＋キャラクターに入れ替わるサイクルと判断（次の人物の表示までは未確認）。700pxスクロールで『then gets to work.』が上へ流れ、散らしレイアウトの写真カード（『Norm drafts Elle's Morning Briefing.』など）が現れる。",
+  "mobile": "縦積み：見出し前半（40px・2行）→ポートレート（左寄せ）→タグライン→黒CTA→マスコット→右寄せの『then gets to work.』。ナビはロゴアイコン＋Sign in/Sign up＋メニューに圧縮。告知バーは3行。",
+  "why_good": "写真を“見出しの一部”として語間に埋め込み、人とAI（マスコット）の協働を絵面で説明している。人物が切り替わるサイクルで、1枚の写真に頼らず多様な使い手を見せる。",
+  "idea_for_telemo": "見出しの語間に働く人の小さな縦長ポートレートを挟み、隣に AI（TELEMO）を表すイラスト／アイコンを置いて『人＋AI』を絵で示す。数秒ごとに人物（業種）が入れ替わるサイクルにすれば、1つのヒーロー内で複数の現場を見せられる。",
+  "tags": [
+   "typographic",
+   "inline-portrait",
+   "mascot-illustration",
+   "highlighter",
+   "cycle-animation",
+   "prompt-input",
+   "slab-serif",
+   "people-photo",
+   "scattered-layout"
+  ],
+  "score": 4,
+  "shots": {
+   "pc": "town-com-pc-f2.jpg",
+   "sp": "town-com-sp.jpg",
+   "scroll": "town-com-pc-scroll.jpg",
+   "frames": [
+    "town-com-pc-f0.jpg",
+    "town-com-pc-f1.jpg",
+    "town-com-pc-f2.jpg"
+   ]
+  },
+  "agent": "global-galleries"
+ },
+ {
+  "slug": "unifygtm-com",
+  "name": "Unify",
+  "url": "https://www.unifygtm.com/",
+  "source": "minimal.gallery",
+  "industry": "B2B SaaS / AI アウトバウンド営業（GTM）",
+  "hero_type": "framed-image-card",
+  "layout": "上に濃色の告知バー＋ナビ、その下に幅いっぱい1行の巨大見出し（x=100, y=170, 幅1240・1行）。直下に幅1240px・高さ約640pxの写真ブロック（角丸なし・左右余白100px）があり、その中央下寄りに白いAIプロンプト入力カード（幅約800px、プレースホルダー『Find the best ways for me to use my network to sell to Stripe』と丸い黒の送信ボタン）が重なる。",
+  "image_treatment": "歩行者の群衆を長時間露光風に流した（モーションブラー）暖色（セピア〜橙）の写真。顔は識別できず“人の動き”だけを伝える匿名的な処理。角丸・スクリムなし。見出しは写真の外（クリーム地）に置くため重ねない。粒状感の有無は unknown。",
+  "typography": "h1は 'Feature Text'（高コントラストのディスプレイ・セリフ）90px / weight700 / 行高90px / 字間-3.6px / 濃茶黒 rgb(36,30,32) / 1行（box 1240×89）。スクショ上は文字の縁にごく薄い赤橙のにじみが見える。リード文は無く、写真上の入力カードがその役割。SPは48px。",
+  "cta": "ナビ右に『Book a Demo』（白地アウトライン）と『Try for free』（黒塗り）。ヒーロー内の主導線は写真上のプロンプト入力欄（送信ボタンが実質のCTA）。",
+  "motion": "f0→f2（6秒）で目に見える変化なし。metaでは GSAP + ScrollTrigger が有効で、プロンプト例が複数（Stripe 向け、Pylon/Coalesce.io/Unify の CEO 宛ノートなど）あるが、観察時間内では切替を確認できず（unknown）。700pxスクロールで告知バーが消えてナビが小さく固定され、写真が上に抜けて『Escape tab hell…』の見出し（キーワードが橙）と、赤いモーションブラー写真に重なるブラウザ窓モックが現れる。なおPC（Stripe向けの例文）とSP（ケータリング会社を探す例文）で入力欄のプレースホルダーが異なるため、例文は入れ替わる設計と推測できる（切替の様子は未観測）。",
+  "mobile": "1カラム。上に告知バーとナビ（黒の『Try for free』＋ハンバーガー）、見出し（48px・2行・左揃え）、その下に左右余白付きの縦長ブラー写真（幅約350px）を置き、写真の上部に白い入力カード（プレースホルダー『Find 10 top-rated catering companies in San Francisco and their owners』＋黒い丸の送信ボタン）が重なる。PCの1行見出し→SPで2行に折り返し、写真の外に置く構成は維持。",
+  "why_good": "見出しを画像に重ねずクリーム地に1行で置き、その下の大きな写真に『製品の入口（プロンプト欄）』を重ねている。ブラー写真は素材の質に依存せず、暖色が濃茶の見出しと調和して見える。",
+  "idea_for_telemo": "見出しを1行の大きな実HTMLにして写真の外に置き、その下の働く人の写真（動画）の上に『AIが電話をかける指示文を入力する欄』や通話カードを重ねる。素材が弱い／顔を出したくない場合は、ブラー処理した暖色の群衆写真が代替になる。",
+  "tags": [
+   "framed-image",
+   "motion-blur-photo",
+   "prompt-input-overlay",
+   "one-line-headline",
+   "serif",
+   "people-photo",
+   "gsap",
+   "cream-bg"
+  ],
+  "score": 4,
+  "shots": {
+   "pc": "unifygtm-com-pc-f2.jpg",
+   "sp": "unifygtm-com-sp.jpg",
+   "scroll": "unifygtm-com-pc-scroll.jpg",
+   "frames": [
+    "unifygtm-com-pc-f0.jpg",
+    "unifygtm-com-pc-f1.jpg",
+    "unifygtm-com-pc-f2.jpg"
+   ]
+  },
+  "agent": "global-galleries"
+ },
+ {
+  "slug": "whoop-com",
+  "name": "WHOOP",
+  "url": "https://www.whoop.com/",
+  "source": "direct",
+  "industry": "D2C / ウェアラブル",
+  "hero_type": "full-bleed-video",
+  "layout": "フルブリード動画。左寄せで120pxの見出し2行、その下に小さなリード、中央に白いピルCTA。上部に告知帯（紫）＋ナビ。",
+  "image_treatment": "製品バンドのマクロ撮影（メッシュの質感・水滴・斜光）。暗部が多く、文字は暗部に載る。グレインの有無は不明。",
+  "typography": "h1 proxima-nova 120px/400、行送り96px（0.8倍の詰め）、字間-3.6px、白。リードは小さく2行。",
+  "cta": "白いピル『JOIN NOW』1つ（ヒーロー中央下）。ナビ右にも青い JOIN NOW。0.8sで既に表示。",
+  "motion": "f0（0.8s）金色のメッシュ質感のマクロ → f1（3s）水滴のついたバンドのクローズアップ → f2（6s）斜めのバンドと強いハイライト。約2〜3秒ごとにカットが変わるマクロのモンタージュ。文字は最初から表示。スクロール700pxで白地の次セクション（『Wear WHOOP daily, improve your health』）へ通常スクロール。",
+  "tech": "meta：video …HomepageHero_Post48Hours_16x9_Final.mp4（1440×900、autoplay/loop/playing=true）。SPは …_9x16_…mp4（390×844、playing）。libsなし。",
+  "mobile": "SPは9:16の縦動画を別ファイルで用意。見出し50px左寄せ、CTAは画面下部中央、右下に一時停止ボタン（II）を表示。",
+  "why_good": "マクロ撮影の質感だけで『素材・精度』を語り、文字を暗部に置いて読みやすさを確保。SPで縦動画＋停止ボタンまで用意している。",
+  "idea_for_telemo": "SP用にGemini動画の9:16版を別生成し、右下に44px程度の一時停止/再生ボタン（WCAG 2.2.2）を常設する。カットの速さ（2〜3秒ごと）は静けさと逆方向なので、TELEMOは1カットの長回しのまま。",
+  "tags": [
+   "video-loop",
+   "macro",
+   "separate-sp-video",
+   "pause-button",
+   "big-type"
+  ],
+  "score": 4,
+  "shots": {
+   "pc": "whoop-com-pc-f1.jpg",
+   "sp": "whoop-com-sp.jpg",
+   "scroll": "whoop-com-pc-scroll.jpg",
+   "frames": [
+    "whoop-com-pc-f0.jpg",
+    "whoop-com-pc-f1.jpg",
+    "whoop-com-pc-f2.jpg"
+   ]
+  },
+  "agent": "motion-craft"
+ },
+ {
+  "slug": "wonderful-ai",
+  "name": "Wonderful",
+  "url": "https://www.wonderful.ai/",
+  "source": "land-book.com",
+  "industry": "B2B SaaS / エンタープライズ向け AI エージェント基盤（フッターの対象業種は銀行・通信・医療・保険・小売など）",
+  "hero_type": "full-bleed-video",
+  "layout": "上端に白い告知バー（'Official Enterprise AI Partner'＋エンブレム＋Read more →）、その下に透過ナビ（ロゴ左・Platform/Industries/Company/Blog、右に EN と白ピル『Get in touch』）。動画は 1440×900 で全面。2行見出しを左下（x=60, y≈648）、リード2行＋CTA2個を右下（x≈1010）に分ける『左下＝見出し／右下＝補足＋CTA』の対角配置で、画面中央は被写体のために空けている。",
+  "image_treatment": "インフラ系のシネマティックな映像モンタージュ（f0＝郊外のオフィス群の空撮、f2＝屋上の衛星アンテナと街並み、SPでは管制室のモニター壁と前景にぼかした人物の頭）。粒状感のある暖色〜青のグレーディングに見える。暗色グラデーション等のスクリムは明確には見えず、白文字は映像の暗部と大きさに頼って可読性を確保している（正確な処理は unknown）。",
+  "typography": "h1は 'ABC Favorit Light' 82px / weight300 / 行高86.1px / 字間 -4.1px（約-0.05em）/ 白(rgb(250,250,250))、2行（box 800×172）。リードは Inter 系の白 約20px・2行（画像からの概算）で右下カラム。SPでは42px・中央揃え。",
+  "cta": "2個のピル：白塗り『Get in touch』（主）＋白縁の透過アウトライン『Explore the platform』（副）をリード直下に横並び。ナビ右にも白ピル『Get in touch』。",
+  "motion": "動画は 1440×900 で再生中（HP - Video_Final_16x9.mp4）。f0(0.8s)の空撮→f2(6s)のアンテナへとカットが替わる一方、見出し・リード・CTAの位置は不変。Cookieバナーは f0 でフェードイン中。700pxスクロールでヒーロー帯（画面下端 y=900 まで）が通常スクロールで流れ、白地の『Trusted by leading enterprises across industries』ロゴグリッドへ移る。視差の有無は unknown。",
+  "mobile": "同じ動画を縦長にトリミングし、見出し(42px)・リード・2ボタンを中央揃えで映像の中ほどに置く（PCの左下/右下分離は解消）。告知バーとロゴ・EN・ハンバーガーが上部に残り、ヒーロー高は約720px、直下に白地のロゴ帯が続く。",
+  "why_good": "見出しを左下、補足とCTAを右下に分けて映像の中央を空けるので被写体を邪魔せず、映像がカット替わりしても文字位置は固定される。細いウェイトの大見出しと粒状感のある映像で上質なエンタープライズ感を出している。",
+  "idea_for_telemo": "コールセンター動画の中央を空け、見出しを左下（細めで大きな書体）、リード＋CTA2個（白塗り＋白縁）を右下に分割配置する。動画がカット替わりしても文字位置は固定のまま。",
+  "tags": [
+   "video",
+   "bottom-left-headline",
+   "split-corners",
+   "light-weight-type",
+   "announcement-bar",
+   "pill-cta",
+   "film-grain",
+   "transparent-nav"
+  ],
+  "score": 4,
+  "shots": {
+   "pc": "wonderful-ai-pc-f2.jpg",
+   "sp": "wonderful-ai-sp.jpg",
+   "scroll": "wonderful-ai-pc-scroll.jpg",
+   "frames": [
+    "wonderful-ai-pc-f0.jpg",
+    "wonderful-ai-pc-f1.jpg",
+    "wonderful-ai-pc-f2.jpg"
+   ]
+  },
+  "agent": "global-galleries"
+ },
+ {
+  "slug": "ycombinator-com",
+  "name": "Y Combinator",
+  "url": "https://www.ycombinator.com/",
+  "source": "lapa.ninja",
+  "industry": "スタートアップ支援・アクセラレーター",
+  "hero_type": "typographic-with-small-image",
+  "layout": "PCの1画面目は写真なしのタイポグラフィ：生成りの背景（rgb(245,245,238)）に中央揃え2行の巨大セリフ見出し『YC turns builders into formidable founders[1]』（2行目の founders は斜体）、その下に脚注の引用（Paul Graham）、最下部にシェブロン。700pxスクロールすると『During YC / Now』の角丸写真ペア（創業者の過去と現在）が左右に現れ、中央で社名リール（OpenAI/Airbnb/Stripe…）が縦に切り替わる。SPでは見出し直下に創業者写真のカード（Airbnb、キャプション＋YC→Nowの進行バー付き）が最初から入る。",
+  "image_treatment": "写真は角丸（約16px）・柔らかい影・枠なしのカード。PCでは見出しの外（スクロール後）に配置し、文字と画像を重ねない。SPのカードは下部に暗いグラデーションを敷いて白いキャプションを重ねる。写真は実在の創業者のドキュメンタリー写真（暗め〜中間調）。",
+  "typography": "h1要素は meta で取得できず（h1=None）。見出しは 'Source Serif 4' のセリフで、スクショから約80px前後（目測）・中央揃え・2行、黒に近い色、斜体で強調。UIは 'Outfit'。SPでは約36px・2行。リード文はなく脚注引用のみ。",
+  "cta": "ヒーロー内のCTAは無し。ナビ右に黒ピル『Apply』（斜体セリフ）のみ。",
+  "motion": "f0/f2に差はなく静的。スクロール700pxで写真ペアと縦の社名リール（Stripe がハイライト、他は薄い）が現れる＝スクロール連動で『Then / Now』を見せる構成。SPのカードには YC→Now の進行バーがあり、スワイプ式カルーセルと推測されるが動作は unknown。",
+  "mobile": "見出し（約36px・2行）を先頭に置き、直下に写真カードを大きく（画面幅の約85%）配置。デスクトップでは写真がスクロール後に出るのに対し、SPでは第一画面から人物写真が見える。",
+  "why_good": "第一画面を言葉だけで言い切り、直後のスクロールで『過去と現在の人物写真ペア』を見せるので、写真が見出しの主張の証拠として機能する。文字と画像が重ならず可読性が高い。",
+  "idea_for_telemo": "見出し主体の第一画面の次に、『従来の架電（疲弊した現場）／TELEMO導入後（落ち着いて働く人）』の写真ペアをスクロール連動で見せる。SPでは見出し直下に写真カードを出す。",
+  "tags": [
+   "typographic",
+   "serif",
+   "before-after",
+   "people-photo",
+   "scroll-linked",
+   "rounded-card",
+   "whitespace"
+  ],
+  "score": 4,
+  "shots": {
+   "pc": "ycombinator-com-pc-f2.jpg",
+   "sp": "ycombinator-com-sp.jpg",
+   "scroll": "ycombinator-com-pc-scroll.jpg",
+   "frames": [
+    "ycombinator-com-pc-f0.jpg",
+    "ycombinator-com-pc-f1.jpg",
+    "ycombinator-com-pc-f2.jpg"
+   ]
+  },
+  "agent": "global-galleries"
+ },
+ {
+  "slug": "bright-avenue-jp",
+  "name": "bright avenue（ブライトアベニュー）",
+  "url": "https://bright-avenue.jp/",
+  "source": "muuuuu.org / 81-web.com",
+  "industry": "不動産（買取再販・リノベ）",
+  "hero_type": "full-bleed-video",
+  "layout": "1440×900 の全画面映像（光の入るリビング）。中央に画面幅いっぱいの巨大ワードマーク『BRIGHT AVENUE』（約150px、半透明のくもりガラス調）、右下に和文コピー（約22px）と説明文、左下に住所、右上に水色の角丸四角の MENU ボタン。",
+  "image_treatment": "スクリムなし。映像は淡い青緑〜ベージュのハイキー。ワードマークは文字が椅子の脚や机の背後に回り込んで見える（前景の物体が文字を隠す）。f0 はティール(#5E9AB0)の地に回転した角丸四角と小さな写真サムネ（ローダー）。",
+  "typography": "meta の h1 は取得できず null。巨大ワードマークは全大文字の太めのサンセリフ（meta の firstScreenFonts は Aeonik / YakuHanJP）・約150px、左の『BRIGHT』は灰青の半透明、右の『VENUE』は白。和文は約22px の太め、説明は約12px。",
+  "cta": "ヘッダ右に『お問い合わせ』『協業のご相談』のテキストリンクと、水色(#5F9EB5)の角丸四角のMENUボタン（約58×58px）。ヒーロー内にCTAなし。",
+  "motion": "f0(0.8s)はティール単色の背景に、回転した角丸の四角と小さな写真が中央にあるローダー。f2(6s)で全面映像＋巨大文字。スクロール(700px)後は全面映像が縮んで中央の写真カードになり、周囲に別の5枚の写真（室内・歩く人・逆光の女性）が階段状にずれて現れ、巨大文字は薄いグレーの背景文字に変わる（映像→写真コラージュへの変形）。lenis、video 2・canvas 2。",
+  "mobile": "縦長クロップの映像、ワードマークは『BRIGHT』のみ（右が切れる）で下部に置き、住所を下端。MENU は水色の角丸四角。",
+  "why_good": "ローダーの小さな写真が全面映像に拡大し、スクロールで再び写真カードの群れに分解される、『写真が主役のトランジション』が一貫している。巨大文字と物体の前後関係で奥行きも作る。",
+  "idea_for_telemo": "ローダーの小さな写真カード→全面写真→スクロールで3〜5枚のカードに分解、という流れを使い、TELEMOの現場写真を1枚から複数へ展開する。巨大ワードマーク『TELEMO』を写真の背後に置く。",
+  "tags": [
+   "full-bleed-video",
+   "loader-to-fullscreen",
+   "scroll-to-collage",
+   "giant-wordmark",
+   "depth-layer",
+   "frosted-text",
+   "lenis",
+   "canvas"
+  ],
+  "score": 4,
+  "shots": {
+   "pc": "bright-avenue-jp-pc-f2.jpg",
+   "sp": "bright-avenue-jp-sp.jpg",
+   "scroll": "bright-avenue-jp-pc-scroll.jpg",
+   "frames": [
+    "bright-avenue-jp-pc-f0.jpg",
+    "bright-avenue-jp-pc-f1.jpg",
+    "bright-avenue-jp-pc-f2.jpg"
+   ]
+  },
+  "agent": "jp-galleries"
+ },
+ {
+  "slug": "unrep-jp",
+  "name": "unrep（アンレップ）WordPressテーマ",
+  "url": "https://unrep.jp/",
+  "source": "lp.webdesignclip.com",
+  "industry": "B2B プロダクト（Web制作会社向け WordPress テーマ）",
+  "hero_type": "other",
+  "layout": "ベージュ(#ebe9e5)地。左に見出し3行＋黒ラベルのロゴ『unrep アンレップ』、右上に回転した角丸四角（蛍光黄緑→黄→ピンク→赤のグラデーション）とその中の白い巨大な『U』。下段に、課題を書いた白い角丸チップ（アイコン＋職種ラベル＋課題文）が2段で左へ流れ、右に黒い吹き出し『コレ、解決出来ます』が重なる。",
+  "image_treatment": "写真なし。グラデーションの形がチップの下を通ると、チップがピンク寄りに透ける（半透明の白）。続く黒セクションでは、テーマのモックアップが斜めのカードで並ぶ。",
+  "typography": "meta の h1 は Noto Sans JP 57.6px / weight 900 / line-height 74.88px / color #201f1d、3行（『Web制作会社の／現場から生まれた／WordPressテーマ』）に黒ラベルのロゴを足す構成。チップ内は約16px の太字、職種ラベルは約11px の字間広め。",
+  "cta": "ヒーロー内に主CTAなし。ヘッダ右に『テーマ一覧』『料金』のテキストリンクとハンバーガー。吹き出しは回答ラベルで、リンクかどうかは unknown。",
+  "motion": "f0→f2 で課題チップの2段が左へ流れ（約175px 移動）、マーキーが動いている。見出し・形状は f0 から表示（ファイルサイズ差は約1%）。スクロール(700px)後もチップが流れ続け、その下の黒セクションに斜めのモックアップカードが並ぶ。",
+  "mobile": "見出し3行＋ロゴラベル、右上に回転四角の一部が見切れる。吹き出し→チップ2段（左右に見切れる）→黒セクションの順に縦積み。",
+  "why_good": "読み手の課題を『そのままの文』にしたチップを流し続け、黒い吹き出しで『解決できます』と答えるので、写真なしでも共感→解決が1画面で成立する。",
+  "idea_for_telemo": "営業現場の課題チップ（例：『架電リストが尽きない』『アポ率が上がらない』『新人が育たない』）を、写真ヒーローの下端に2段のマーキー帯として流し、右に『TELEMOで解決できます』の吹き出しを重ねる。",
+  "tags": [
+   "pain-point-chips",
+   "marquee",
+   "speech-bubble-answer",
+   "no-photo",
+   "gradient-shape",
+   "glass-chip",
+   "b2b"
+  ],
+  "score": 4,
+  "shots": {
+   "pc": "unrep-jp-pc-f2.jpg",
+   "sp": "unrep-jp-sp.jpg",
+   "scroll": "unrep-jp-pc-scroll.jpg",
+   "frames": [
+    "unrep-jp-pc-f0.jpg",
+    "unrep-jp-pc-f1.jpg",
+    "unrep-jp-pc-f2.jpg"
+   ]
+  },
+  "agent": "jp-galleries"
+ },
+ {
+  "slug": "rakushifu-jp",
+  "name": "らくしふ by SmartHR",
+  "url": "https://rakushifu.jp/",
+  "source": "lp.webdesignclip.com",
+  "industry": "B2B SaaS（シフト管理／店舗スタッフ）",
+  "hero_type": "split-text-image",
+  "layout": "左約45%にキャッチ→製品ロゴ→黄色の大きなCTA、右半分に笑顔の店舗スタッフ（キャップ着用）を大きく置き、手前にスマホとPC画面のモックアップを重ねる。ヒーロー下に月桂樹付きの実績4つ（30,000事業所／No.1／100万人／99.4%）、さらにプレスリリース行。画面下端に固定のCTAバー。",
+  "image_treatment": "人物写真の左端と下端が白に溶け込むフェードマスクで、白いページ背景と継ぎ目がない。背景は店内のぼかし（青緑）で被写界深度が浅く、明るくハイキー。モックアップには柔らかい影。",
+  "typography": "meta の h1 は『らくしふ』（製品ロゴ用、15px）。見えているキャッチは約24px（『現場はラクに、経営はクリアに』、強調語は青）、『LINE対応クラウドシフト管理』は約36px・太字・黒、いずれも2行。",
+  "cta": "黄色(#FFD41F系)の大きなpill『無料で資料ダウンロード』（約380×64px、DLアイコン付き、ヒーロー左）。ヘッダ右にも黄色『資料請求』と白抜き『お問い合わせ』。画面下端に固定バー（LINE連携の一文＋お問い合わせ＋資料請求）が出る。",
+  "motion": "f2 のみ詳細確認。f0→f2 のファイルサイズ差は約5%で、大きな動きはない（f0/f1 は未確認）。固定の下端CTAバーとチャットアイコンが常時表示。",
+  "mobile": "写真（人物＋デバイス）を最上部に全幅で置き、下に見出し→ロゴ→全幅のpill CTA→実績2×2の順に縦積み。",
+  "why_good": "『誰が・何で楽になるか』を、笑顔の現場スタッフ＋画面モックの1枚で伝える。写真の縁を白にフェードさせるので、白基調のUIと写真が衝突しない。黄色CTAは写真の青緑と補色で目立つ。",
+  "idea_for_telemo": "オペレーターの写真の縁を白へフェードし、手前にTELEMOの通話ログ画面のモックを重ねる。CTAはティール(#007d8c)の大きなpill＋下端固定の資料請求バー。",
+  "tags": [
+   "people-photo",
+   "device-mockup",
+   "edge-fade-mask",
+   "stat-badges",
+   "sticky-bottom-cta",
+   "high-key",
+   "white-bg"
+  ],
+  "score": 4,
+  "shots": {
+   "pc": "rakushifu-jp-pc-f2.jpg",
+   "sp": "rakushifu-jp-sp.jpg",
+   "scroll": "rakushifu-jp-pc-scroll.jpg",
+   "frames": [
+    "rakushifu-jp-pc-f0.jpg",
+    "rakushifu-jp-pc-f1.jpg",
+    "rakushifu-jp-pc-f2.jpg"
+   ]
+  },
+  "agent": "jp-galleries"
+ },
+ {
+  "slug": "ivry-jp",
+  "name": "アイブリー（IVRy）",
+  "url": "https://ivry.jp/",
+  "source": "direct",
+  "industry": "AI電話",
+  "hero_type": "device-mockup",
+  "layout": "全幅の緑ベタ＋斜めの濃淡面。左に白ピル(『0円から使えるビジネス電話の新定番』)→H1(黄色+白)2行→月桂冠3バッジ→CTA2つ。右に白縁の角丸タブレット風UIモック（ルール設定のトグル一覧）とロボット型マスコット、電話中の男性の円形顔写真を重ねる。ヒーロー下端に濃緑のカード『AI電話デモ』（電話番号0800-111-5191＋QRコード＋オペレーターのイラスト）。",
+  "image_treatment": "写真は電話中の男性を円形クロップした小さな1枚のみ（UIに重ねる）。背景は緑の単色＋斜めのトーン違いの面。スクリム・グレインなし。マスコットは白で緑上に浮く。",
+  "typography": "H1は Noto Sans JP Variable 48px/700、行高57.6px、字間.32px、白（『アイブリーのAI電話』だけ黄色）で左揃え2行。リード文なし。",
+  "cta": "黄(#f5c518)塗りの大きな角丸ボタン『今すぐ無料で試してみる』（上に黒い吹き出しラベル『フリープラン、約1分で設定完了』）＋白地に黄枠『資料をダウンロードする(無料)』を左カラムに横並び。ヘッダー右にも黄ボタン。",
+  "motion": "hero_animation.mp4（480×320）がUIモック内で再生中。f0→f2でUIのトグルやマスコット周りが変化、SPでもキラキラ演出あり。スクロールは通常。",
+  "mobile": "1カラム縦積み：白ピル→H1(32px,3行)→黄CTA(全幅)→白CTA(全幅)→月桂冠(2+1)→UIモック。CTAが最初の画面内に収まる。",
+  "why_good": "『実際に電話をかけて試せる』電話番号＋QRをヒーロー直下に置き、AI電話という商材の体験をそのままCTAにしている。緑×黄の高コントラストでCTAが目立つ。弱みは、人物写真が小さくイラスト/マスコット依存で、信頼の厚みは写真ヒーローに劣る。",
+  "idea_for_telemo": "AI電話そのものの商材であるTELEMOには最も転用しやすい。ヒーロー下端に『AI電話デモをいますぐ体験：電話番号＋QR』カードを添え、CTAの上に一言の吹き出しラベルを付けて摩擦を下げる。",
+  "tags": [
+   "green-bg",
+   "mascot",
+   "phone-number-demo",
+   "qr",
+   "laurel-badges",
+   "cta-label-bubble",
+   "video-in-ui",
+   "ai-phone"
+  ],
+  "score": 4,
+  "shots": {
+   "pc": "ivry-jp-pc-f2.jpg",
+   "sp": "ivry-jp-sp.jpg",
+   "scroll": "ivry-jp-pc-scroll.jpg",
+   "frames": [
+    "ivry-jp-pc-f0.jpg",
+    "ivry-jp-pc-f1.jpg",
+    "ivry-jp-pc-f2.jpg"
+   ]
+  },
+  "agent": "industry-direct"
+ },
+ {
+  "slug": "dhw-co-jp-jobs-2024",
+  "name": "デジタルハリウッド 採用情報",
+  "url": "https://www.dhw.co.jp/jobs/2024/",
+  "source": "lp.webdesignclip.com",
+  "industry": "採用（教育・クリエイティブスクール／社員の写真）",
+  "hero_type": "full-bleed-photo",
+  "layout": "全幅・全高の写真（マイクを持って登壇する女性）を左に置き、右半分に白い見出しと本文を左寄せの1カラム（約530px幅）で重ねる。上に白いチップ『28卒会社説明会受付中』。ヘッダは左ロゴ、中央ナビ、右端に橙の四角い ENTRY タブ＋グレーの四角いハンバーガー。右下に会社名。",
+  "image_treatment": "写真の右〜右下に、白っぽい霧のようなグラデーションから暗いティールグレーへ沈む方向性のあるスクリムが掛かり、右半分は白文字が読める明度になる。人物（顔）は左半分に置き、文字は右半分。ヘッダ左も写真に透けるナビ。",
+  "typography": "meta の h1 は null。見出し『学びで／自由になる人を増やす』は白・太めのゴシック・約44px・2行、本文は約17px・白・行間約1.8。チップは白地・黒文字・橙の『28卒』。",
+  "cta": "ヘッダ右端に橙(#e49b2f系)の四角い『ENTRY ›』タブ（約172×75px、画面端に接する）と、薄いグレーの四角いハンバーガー。ヒーロー本体にCTAなし。",
+  "motion": "f0(0.8s)は白地の中央にロゴ『digital hollywood RECRUIT』だけのローダー。f2(6s)で写真・見出しが表示。スクロール(700px)後もヘッダは固定され、写真は上へ流れて INDEX（写真カード＋色タブ見出し）へ。",
+  "mobile": "3秒時点で、PC の6秒時点とは別の写真（固定電話の受話器で話す女性）を縦長で全面に敷き、下半分を黒のグラデで塞いで白文字の見出し・本文を重ねる（スライドの切り替えか SP 専用画像かは unknown）。ヘッダは橙の ENTRY とグレーのハンバーガーが画面右上に接する。",
+  "why_good": "文字の側（右）だけを暗く、人物の側（左）は明るいまま残す方向性スクリムで、顔を隠さずに見出しを読ませている。SPの3秒時点は受話器を持つ人物の写真で、職務（電話）が一目で伝わる。",
+  "idea_for_telemo": "TELEMOの現状（写真＋HTML文字）に最も近い構成。PCは写真の右側だけにティール寄りのグラデを掛けて右に文字、SPは受話器を持つオペレーターの縦長カット＋下半分を暗く（または白く）して文字を載せる。",
+  "tags": [
+   "people-photo",
+   "directional-scrim",
+   "text-right",
+   "loader-logo",
+   "phone-handset",
+   "square-cta-tab",
+   "fixed-header"
+  ],
+  "score": 4,
+  "shots": {
+   "pc": "dhw-co-jp-jobs-2024-pc-f2.jpg",
+   "sp": "dhw-co-jp-jobs-2024-sp.jpg",
+   "scroll": "dhw-co-jp-jobs-2024-pc-scroll.jpg",
+   "frames": [
+    "dhw-co-jp-jobs-2024-pc-f0.jpg",
+    "dhw-co-jp-jobs-2024-pc-f1.jpg",
+    "dhw-co-jp-jobs-2024-pc-f2.jpg"
+   ]
+  },
+  "agent": "jp-galleries"
+ },
+ {
+  "slug": "patagonia-jp",
+  "name": "パタゴニア",
+  "url": "https://www.patagonia.jp/",
+  "source": "direct",
+  "industry": "D2C / アウトドア",
+  "hero_type": "full-bleed-video",
+  "layout": "ヘッダー下に高さ約594pxのワイド動画（16:9）、中央に『Worth it.』と短いリード、小さな枠線ボタン。動画の下にカテゴリのタブが続き、ファーストビュー内に次の段が見える。",
+  "image_treatment": "夕景の逆光サーファー → 波間の人物など、自然光のドキュメンタリー調。文字は中央の暗部に白。",
+  "typography": "h1 ヒラギノ角ゴ 51px/700、白・中央。リードは小さな白2行。",
+  "cta": "中央に白枠のピルボタン1つ。",
+  "motion": "f0（0.8s）夕日の逆光サーファー → f1/f2（3s/6s）別カットの人物へ切替（ファイル名どおり約8秒のアンビエント映像のループ）。3s以降はアプリ告知モーダルが重なる。スクロールは通常（ピンなし）。",
+  "tech": "meta：video f26_worth_it_ambient_hero_8s_HD_h264_16x9_w.mp4（1440×594、autoplay/loop/playing=true）。libsなし。",
+  "mobile": "SPも同じ16:9ファイルを390×375に切り抜いて再生（縦動画への差し替えなし）。見出し36px中央。",
+  "why_good": "ヒーローを全画面にせず約2/3の高さに収め、8秒の自然光アンビエント映像と短い一言だけにしている。商品情報は下の段に任せる潔さ。",
+  "idea_for_telemo": "ループは8〜12秒・カットは1〜2つの『アンビエント』扱いが基準になる。TELEMOの12秒は範囲内。継ぎ目はカット替えで隠すより、同じ構図のまま末尾0.5秒をクロスフェードして隠す方が静かな方向（これは提案で、パタゴニアの実装は未確認）。",
+  "tags": [
+   "video-loop",
+   "ambient",
+   "short-loop-8s",
+   "documentary",
+   "partial-height"
+  ],
+  "score": 4,
+  "shots": {
+   "pc": "patagonia-jp-pc-f0.jpg",
+   "sp": "patagonia-jp-sp.jpg",
+   "scroll": "patagonia-jp-pc-scroll.jpg",
+   "frames": [
+    "patagonia-jp-pc-f0.jpg",
+    "patagonia-jp-pc-f1.jpg",
+    "patagonia-jp-pc-f2.jpg"
+   ]
+  },
+  "agent": "motion-craft"
+ },
+ {
+  "slug": "holdings-panasonic-jp",
+  "name": "パナソニック ホールディングス",
+  "url": "https://holdings.panasonic/jp/",
+  "source": "direct",
+  "industry": "コーポレート",
+  "hero_type": "collage-grid",
+  "layout": "中央ロゴのヘッダー＋お知らせ帯の下に、全幅×約810px(動画サイズ1440×810)のヒーロー。最初は青い立方体のCG(単色ブルー背景)で、その後映像が幅の異なる複数のタイル(データセンターを見渡す男性・サーバーラック・飛行機・アリーナ・物流ヤード・青果売り場)のモザイクに分割され、中央に白文字『パナソニックグループの経営戦略』が重なる。右上に一時停止ボタン。",
+  "image_treatment": "多くのタイルを同じ青(シアン寄り)のグレーディングでそろえて統一感を出す（青果のタイルのみ色が残る）。タイル間の隙間・角丸なし。人物はデータセンターの男性1枚のみ。文字は薄い影で可読性を確保（スクリムなし）。",
+  "typography": "中央見出しは約44px・細めゴシック・白・影つき・1行。H1(computed)は12pxのサイト名要素。",
+  "cta": "ヒーロー内CTAなし（映像全体がリンクかは未確認）。一時停止ボタンのみ。",
+  "motion": "mp4(260917_HPtop_05sec.mp4, 1440×810)が再生。f0=青地に青い立方体のCG→f1=縦長の映像タイル(データセンター・サーバーラック・飛行機・アリーナ)がストリップ状に途中まで現れる→f2=モザイク完成。見出しは全フレームで同じ位置に固定。一時停止ボタンあり。",
+  "mobile": "高さ約440pxの短い帯にモザイクを縮小し、見出し2行を中央に重ねる。下に『ピックアップ』カード。ヒーローはファーストビューの半分以下。",
+  "why_good": "異なる業界の映像をタイル化して事業の幅(インフラ/航空/物流/小売)を一瞬で示し、青の統一グレーディングで一体感を保つ。弱みは、人物が主役でなく現場の人間味が薄いことと、見出しが写真に直乗せで可読性が影頼みなこと。",
+  "idea_for_telemo": "TELEMOがコールセンターだけでなく複数業種(医療・不動産・小売など)で使えることを示すなら、同一トーン(ティール寄りに調色)の複数現場写真のモザイクが有効。",
+  "tags": [
+   "collage-grid",
+   "mosaic",
+   "video",
+   "color-grading",
+   "tile-reveal",
+   "pause-control",
+   "corporate"
+  ],
+  "score": 4,
+  "shots": {
+   "pc": "holdings-panasonic-jp-pc-f2.jpg",
+   "sp": "holdings-panasonic-jp-sp.jpg",
+   "scroll": "holdings-panasonic-jp-pc-scroll.jpg",
+   "frames": [
+    "holdings-panasonic-jp-pc-f0.jpg",
+    "holdings-panasonic-jp-pc-f1.jpg",
+    "holdings-panasonic-jp-pc-f2.jpg"
+   ]
+  },
+  "agent": "industry-direct"
+ },
+ {
+  "slug": "www-recruit-co-jp",
+  "name": "リクルート",
+  "url": "https://www.recruit.co.jp/",
+  "source": "direct",
+  "industry": "コーポレート",
+  "hero_type": "full-bleed-photo",
+  "layout": "虹色ドット罫のヘッダー直下に全幅×約610pxのフォト/モーションスライドショー（3枚、区切りの進捗バー＋一時停止）。左下に白半透明のキャプションボックス(約490×105px)にコピー『まだ、ここにない、出会い。』＋サブ＋丸矢印。ビジュアルは青空と新宿の街並みの空撮に、7色の細い曲線(ブランドの『出会いの弧』)を重ねる。",
+  "image_treatment": "明るく青みに調色した写真。スライド遷移時にオフィス内部(ガラス窓・自転車・人影)が低不透明度でクロスフェードして重なる(f2)。人物はぼやけた影として環境に溶け込む。文字は写真に直乗せせず半透明の白い箱の上に置く（スクリム代わり）。",
+  "typography": "キャプション見出しは約28px(Noto Sans JP)、色#2d3133、サブ約20px。H1(computed)は10pxの別要素。",
+  "cta": "ヒーロー内に独立したCTAなし。キャプションボックス右の丸い矢印アイコンのみ。ヘッダー右にテキストリンク。",
+  "motion": "f0(青空＋街＋弧が描かれる)→f2(オフィス写真がクロスフェードで重なり弧が動く)。3スライドが自動で切替わり、進捗バーが伸び、一時停止ボタンあり。スクロールは通常。",
+  "mobile": "縦長にクロップ（空の割合が増え弧が主役、建物は下端）。キャプションは全幅の白半透明帯(2行)、進捗バー＋一時停止はヒーロー直下。",
+  "why_good": "人を直接写さず、環境(街・オフィス)とブランドの弧で『出会い』を語り、半透明の白い箱で可読性を担保する上品な設計。進捗バー＋一時停止でアクセシビリティも配慮。弱みは、サービスの具体性や行動導線(CTA)がないこと（コーポレートサイトらしい）。",
+  "idea_for_telemo": "写真に直接文字を載せず、半透明の白(またはティール)のキャプションボックスを敷く手法は、スクリムを避けたい白基調のTELEMOと相性が良い。ぼかした人影を入れた環境写真は、実在の従業員を映せない場合の代替になる。",
+  "tags": [
+   "full-bleed-photo",
+   "slideshow",
+   "crossfade",
+   "caption-box",
+   "translucent-panel",
+   "brand-motif-lines",
+   "progress-bar",
+   "pause-control",
+   "environment-photo"
+  ],
+  "score": 4,
+  "shots": {
+   "pc": "www-recruit-co-jp-pc-f2.jpg",
+   "sp": "www-recruit-co-jp-sp.jpg",
+   "scroll": "www-recruit-co-jp-pc-scroll.jpg",
+   "frames": [
+    "www-recruit-co-jp-pc-f0.jpg",
+    "www-recruit-co-jp-pc-f1.jpg",
+    "www-recruit-co-jp-pc-f2.jpg"
+   ]
+  },
+  "agent": "industry-direct"
+ },
+ {
+  "slug": "nippon-shinyaku-co-jp-recruit",
+  "name": "日本新薬 新卒採用サイト",
+  "url": "https://www.nippon-shinyaku.co.jp/recruit/",
+  "source": "muuuuu.org",
+  "industry": "採用（製薬／研究員・患者の写真）",
+  "hero_type": "framed-image-card",
+  "layout": "外周約10pxの余白をあけた大きな角丸フレーム（約1420×880px）に、写真を全面表示。左上に白い角丸タブ（ロゴ『日本新薬 NEW GRADUATE RECRUIT』）が写真に食い込み、上部にナビと小さな枠付きpill、紺・青のpill『募集要項』『エントリー／マイページ』を重ねる。左に縦書きの明朝見出し2列（約54px）。",
+  "image_treatment": "白っぽいミルキーなスクリム（ハイキー、約50%）で写真を淡くして、白い縦書き文字を読ませる。2枚の写真（研究員／ベッドの上の子ども）が時間とともに切り替わる（ダブルエクスポージャー風のにじみあり）。写真は被写界深度が浅く、人物は顔が大きく出る。",
+  "typography": "meta の h1 は空（30px/700 のロゴ要素）。見出しは縦書き・明朝系（Shippori Mincho）・白・約54px、2列（『ひとりのために、』『本気になれるか。』）。字は1文字ずつ現れる。",
+  "cta": "右上に紺(#143a80系)の角丸pill『募集要項』と青の角丸pill『エントリー／マイページ ⌄』。サブpill（キャリア採用・障がい者採用）は枠線のみ。SP は紺の角丸四角のハンバーガー。",
+  "motion": "f0(0.8s)は研究員の写真に縦書き見出しが『ひとりのた』まで、濃→淡のグラデで1文字ずつ出現中。f2(6s)では別の写真（ベッドの子ども）に切り替わり、見出し2列が完成している（クロスフェードのスライドショー）。 スクロール後は未確認。",
+  "mobile": "外周に約20pxの余白の縦長フレーム、研究員の顔を中央に大きく、見出しは縦書き2列が顔の左に重なる。ハンバーガーは右上の紺の角丸四角。Cookie バナーがヒーロー下部を覆っている。",
+  "why_good": "写真を角丸フレームに入れ、白いベールと縦書き明朝で『静かな重み』を作る。ロゴ用の白タブが写真に食い込むので、枠とナビが一体に見える。",
+  "idea_for_telemo": "フレームの角丸＋白いベール（白スクリム）で、働く人の写真を淡く見せ、白文字（またはティール文字）の見出しを載せる。ロゴ/ナビの白タブを写真に食い込ませる。",
+  "tags": [
+   "people-photo",
+   "rounded-frame",
+   "white-veil",
+   "vertical-text",
+   "crossfade-slideshow",
+   "char-reveal",
+   "serif-headline",
+   "tab-notch"
+  ],
+  "score": 4,
+  "shots": {
+   "pc": "nippon-shinyaku-co-jp-recruit-pc-f2.jpg",
+   "sp": "nippon-shinyaku-co-jp-recruit-sp.jpg",
+   "scroll": "nippon-shinyaku-co-jp-recruit-pc-scroll.jpg",
+   "frames": [
+    "nippon-shinyaku-co-jp-recruit-pc-f0.jpg",
+    "nippon-shinyaku-co-jp-recruit-pc-f1.jpg",
+    "nippon-shinyaku-co-jp-recruit-pc-f2.jpg"
+   ]
+  },
+  "agent": "jp-galleries"
+ },
+ {
+  "slug": "shinkin-co-jp-echishin-recruit",
+  "name": "越前信用金庫 採用サイト",
+  "url": "https://www.shinkin.co.jp/echishin/recruit/",
+  "source": "muuuuu.org",
+  "industry": "採用（地域金融／職員の切り抜き写真）",
+  "hero_type": "collage-grid",
+  "layout": "珊瑚色（赤橙）の全面背景に、白い角丸の浮遊ヘッダ。職員の切り抜き写真（約10体）、地域の象徴（恐竜・城・そば・看板）を白い縁取りのステッカー風に散らし、中央右にメインの男女2人（約420px幅）を大きく置く。背後に巨大な『RECRUIT』文字が横に流れ、人物がその前に立つ。左上に見出し『あつまれ 地域の笑顔』。",
+  "image_treatment": "人物・物体を白い太縁（約6px）で切り抜いたステッカー表現。背景は無地の珊瑚色（#e5574d系）で、人物写真の肌色・白シャツが映える。黄色の手書き風ラベル（Sales/Office Work/Loan Services）と矢印、円弧に沿う英文コピー（Weaving tomorrow together…）。",
+  "typography": "meta の h1 は『RECRUIT』（Noto Sans JP 16px/600）。見出し『あつまれ 地域の笑顔』は約44px・白・丸みのある太ゴシック・2行。巨大 RECRUIT は約150px・白・太字・横スクロール風に連なる（人物の足元に重なる）。",
+  "cta": "ヘッダ内に赤塗りのpill『ENTRY』と、白地・グレー枠のpill『募集要項』『採用スケジュール』。ヒーロー内にCTAなし。",
+  "motion": "f0(0.8s)は職員・恐竜・城などのステッカーが f2 と違う位置に薄い（半透明）状態で散らばり（左端で切れて漂う）、見出し・巨大『RECRUIT』・手書きラベルは未表示。f2(6s)で所定位置に集まり、見出し『あつまれ 地域の笑顔』・巨大文字・ラベルが揃う。スクロール(700px)後は同じ珊瑚色の背景が Information（お知らせ）セクションへ地続きで続き、白い角丸ヘッダが固定されたまま。動画 1152×648 の要素は DOM にあるが再生中ではない（用途は unknown）。",
+  "mobile": "恐竜・職員2人・ジャンプする職員を上段、見出しを中段、メインの男女を下段に大きく（幅いっぱい）縦積み。ヘッダは白い角丸バー（ロゴ・赤ENTRY・MENU）。",
+  "why_good": "人物を『切り抜きステッカー』にして背景色の上に並べることで、堅い業種でも親しみのあるコラージュになる。メインの2人だけ大きくして視線の中心を作る。",
+  "idea_for_telemo": "TELEMOのオペレーター写真を白縁で切り抜き、ティール地に数体散らす（受話器・ヘッドセット・グラフの切り抜きも混ぜる）。メインの2人だけ大きく、見出しは左上に白文字。",
+  "tags": [
+   "people-photo",
+   "cutout-sticker",
+   "white-outline",
+   "collage",
+   "flat-color-bg",
+   "giant-marquee-type",
+   "floating-header",
+   "playful"
+  ],
+  "score": 4,
+  "shots": {
+   "pc": "shinkin-co-jp-echishin-recruit-pc-f2.jpg",
+   "sp": "shinkin-co-jp-echishin-recruit-sp.jpg",
+   "scroll": "shinkin-co-jp-echishin-recruit-pc-scroll.jpg",
+   "frames": [
+    "shinkin-co-jp-echishin-recruit-pc-f0.jpg",
+    "shinkin-co-jp-echishin-recruit-pc-f1.jpg",
+    "shinkin-co-jp-echishin-recruit-pc-f2.jpg"
+   ]
+  },
+  "agent": "jp-galleries"
+ },
+ {
+  "slug": "aircall-io",
+  "name": "Aircall",
+  "url": "https://aircall.io/",
+  "source": "direct",
+  "industry": "CX SaaS / クラウド電話",
+  "hero_type": "device-mockup",
+  "layout": "クリーム(オフホワイト)背景の上部中央に、会話一覧UIの上に『CALL COMPLETED BY AI Virtual Agent / 100% RESOLVED』サマリーカードを重ねた大きなUIモック（約860px幅）を粒状のグローとフェードで配置。その下にセリフ体の巨大H1(中央)→CTA2。左下に『23,000+ COMPANIES TRUST AIRCALL』、右下にドット(ハーフトーン)調の地球。",
+  "image_treatment": "写真なし。紫/ミントの粒状(グレイン)グロー＋UIの下半分をフェードアウトするマスク。地球はディザ風ドット。ラベルはモノスペース大文字。",
+  "typography": "H1は itcGaramondStd 60.8px/400、行高63.8px、字間−1.2px、深緑(#216358)、中央2行。2行目の後半が入れ替わるローテーション式で、f0では『with AI that handles customer interactions, end to end.』、f2では『with AI that』まで縮み、DOM上は『qualifies customers and …』が続く(次のフレーズへ切替中)。CTA/ナビは JetBrains Mono。",
+  "cta": "緑塗りの角丸『TRY FOR FREE』＋白地緑枠『TALK TO SALES』を中央横並び（モノスペース大文字）。ヘッダー右に濃緑『GET FREE ACCESS』。",
+  "motion": "f0=f1は同一、f2でH1の2行目後半が別フレーズに入れ替わる（ローテーション式ヘッドライン）。スクロールは通常。",
+  "mobile": "撮影時はOneTrustの同意画面が全面を覆い、SPのヒーローは確認できず（unknown）。",
+  "why_good": "セリフ体×モノスペース×グレインのグローで、B2B SaaSでは珍しい編集的な上質感を出している。弱みは、人物写真がまったく無く、UIの『100% RESOLVED』カードに説得を頼っている点。",
+  "idea_for_telemo": "セリフ見出しはTELEMOのフラットなティールとの相性は未検証。『AIが解決した通話』のサマリーカードを製品の証拠として写真に重ねる点は参考になる。",
+  "tags": [
+   "serif-headline",
+   "product-ui",
+   "grain-glow",
+   "mono-labels",
+   "rotating-headline",
+   "no-people-photo"
+  ],
+  "score": 3,
+  "shots": {
+   "pc": "aircall-io-pc-f2.jpg",
+   "sp": "aircall-io-sp.jpg",
+   "scroll": "aircall-io-pc-scroll.jpg",
+   "frames": [
+    "aircall-io-pc-f0.jpg",
+    "aircall-io-pc-f1.jpg",
+    "aircall-io-pc-f2.jpg"
+   ]
+  },
+  "agent": "industry-direct"
+ },
+ {
+  "slug": "can-a-yell-jp",
+  "name": "CANaYELL（カナエル）",
+  "url": "https://www.can-a-yell.jp/",
+  "source": "lp.webdesignclip.com",
+  "industry": "B2B SaaS（タレントマネジメント／飲食・サービス業）",
+  "hero_type": "device-mockup",
+  "layout": "青緑→青のグラデ全幅帯（高さ約645px）。左に小見出し（下線付き）、大見出し2行、リード、CTA 2つ。右にスマホを持つ3Dの手とUIカード4枚（機能名）、金メダル『特許取得済』。下にピンクの帯『業界のリーディングカンパニーにお選びいただいています』とロゴ帯。",
+  "image_treatment": "3Dレンダリングの手とスマホ。背景に斜めの半透明の濃い帯と星のシルエット。UIカードは白の角丸＋ドロップシャドウで手に重なる。",
+  "typography": "meta の h1 はロゴ（16px）。見出し『人の魅力が競争力になる』は約72px・白・極太ゴシック・2行（『が』『になる』は小さめ）。リードは約26px・白・太め。",
+  "cta": "2つ。オレンジグラデの大きな角丸矩形『資料ダウンロード ›』（上辺に黄のミニラベル『3分でわかるCANaYELL』が重なる）と、白の角丸矩形『無料デモ ›』（黄のラベル『実際の画面を見たい！』）。ヘッダ右にも小型の2ボタン。",
+  "motion": "f0〜f2 のファイルサイズ差は約1%で、目視でも静止している。スクロール(700px)は未確認。",
+  "mobile": "見出し→リード→スマホ画像の順に縦積みし、CTA 2つをスマホ画像の上に全幅で重ねて配置。",
+  "why_good": "CTAの上辺に『3分でわかる』『実際の画面を見たい』の黄色いミニラベルを重ねて、押す理由を1行で添える。機能名カードで中身も見せる。",
+  "idea_for_telemo": "TELEMOのCTAの上辺に、ティールの地・白文字のミニラベル『3分でわかる』『実際の通話を聞く』を重ねる。",
+  "tags": [
+   "device-mockup",
+   "3d-hand",
+   "cta-micro-label",
+   "gradient-bg",
+   "badge-medal",
+   "two-cta"
+  ],
+  "score": 3,
+  "shots": {
+   "pc": "can-a-yell-jp-pc-f2.jpg",
+   "sp": "can-a-yell-jp-sp.jpg",
+   "scroll": "can-a-yell-jp-pc-scroll.jpg",
+   "frames": [
+    "can-a-yell-jp-pc-f0.jpg",
+    "can-a-yell-jp-pc-f1.jpg",
+    "can-a-yell-jp-pc-f2.jpg"
+   ]
+  },
+  "agent": "jp-galleries"
+ },
+ {
+  "slug": "career-dentsu-jp-intern-ds-2026",
+  "name": "DENTSU DATA SCIENCE INTERNSHIP 2026",
+  "url": "https://www.career.dentsu.jp/intern/ds/2026/",
+  "source": "lp.webdesignclip.com",
+  "industry": "採用（インターン／データサイエンス）",
+  "hero_type": "other",
+  "layout": "白の大パネル（約1228×580px、右下の角だけ大きく丸い）が左上から画面に被さり、中に3行の巨大な英文見出し（約100px）、日本語リード、右下に円形の Scroll ボタン。パネルの右と下からグラデーション映像（ターコイズ→紫→ピンク→橙）が覗く。ヘッダはパネル内（左ロゴ、ナビ、MYPAGE/ENTRY pill）。",
+  "image_treatment": "映像は色のにじむメッシュグラデーション。見出しの文字を青→緑→橙のグラデーションで塗り、映像の色と呼応させる。スクリムなし、白パネルが映像を窓のように切り取る。",
+  "typography": "meta の h1 は取得できず空。見出しは Helvetica/Arial 系の太字・全大文字・約100px・3行・行間詰め（SPは約62px・4行）。リードは約28px・黒。",
+  "cta": "ヘッダ内のpill：MYPAGE=ティール(#00a69c系)塗り、ENTRY=グレー（受付終了）。右下に円形の『Scroll ↓』（グラデの細い円枠）。",
+  "motion": "f0/f1/f2 のファイルサイズはほぼ同一（約85KB）で、目視でも差は確認できない。映像要素は再生中（1594×900）。スクロールは未確認。",
+  "mobile": "白パネルは画面幅の約88%（右端に映像の細い帯）・縦長で、見出し4行、リード、円形 Scroll を右下。下半分は映像のターコイズ〜青のグラデ。ハンバーガーはティールの3本線。",
+  "why_good": "写真がなくても、『白い大きな角丸パネルの下に動く色』という構造で窓を作り、見出し文字の色を映像と共鳴させている。パネルの角丸の大きさが特徴的。",
+  "idea_for_telemo": "白パネルの片隅だけを大きく丸め、その外側にティール系の写真（または映像）をL字に覗かせる。見出し文字にティール→濃紺のグラデーションを掛ける。",
+  "tags": [
+   "white-panel-over-video",
+   "gradient-text",
+   "big-radius-corner",
+   "mesh-gradient-video",
+   "scroll-circle"
+  ],
+  "score": 3,
+  "shots": {
+   "pc": "career-dentsu-jp-intern-ds-2026-pc-f2.jpg",
+   "sp": "career-dentsu-jp-intern-ds-2026-sp.jpg",
+   "scroll": "career-dentsu-jp-intern-ds-2026-pc-scroll.jpg",
+   "frames": [
+    "career-dentsu-jp-intern-ds-2026-pc-f0.jpg",
+    "career-dentsu-jp-intern-ds-2026-pc-f1.jpg",
+    "career-dentsu-jp-intern-ds-2026-pc-f2.jpg"
+   ]
+  },
+  "agent": "jp-galleries"
+ },
+ {
+  "slug": "www-five9-com",
+  "name": "Five9",
+  "url": "https://www.five9.com/",
+  "source": "direct",
+  "industry": "CX SaaS / コンタクトセンター",
+  "hero_type": "other",
+  "layout": "ヘッダー下から約800pxの全幅の青(紺〜青グラデ)背景。右半分に黄緑に発光する音声波形のビジュアル（縦棒＋細い曲線メッシュ＋粒子）。左にH1(4行)→リード→白ピルCTA＋テキストリンク。最上部にお知らせバー、ヘッダーは電話番号つき。",
+  "image_treatment": "写真なし。夜光グリーンの音声波形CGと青〜紺のグラデで高コントラスト。波形は右に寄せて文字と重ならない。実装は未確認（video/canvasは検出されず）。",
+  "typography": "H1は Silka 60px/700、行高67px、白、左揃え4行（約640px幅、SPは40px）。リードは約18px白。",
+  "cta": "白塗りの大きな角丸ピル『Meet the AI that closes the gap →』（約330×66px）＋白文字のテキストリンク『See how it works >』を左カラム下に配置。ヘッダー右に白ピルの『View Demo』。",
+  "motion": "f0→f2で波形がわずかに変化（ファイルサイズが微差）。スクロール後はヘッダーが白背景に切替わって固定。",
+  "mobile": "H1(40px,4行)→リード→CTAの縦積みで、波形は背景の下に薄く残るだけ（主役のビジュアルが消える）。Cookieバナーが下部を覆っていた。",
+  "why_good": "『声＝波形』という音声AIのメタファーを写真なしで直感的に見せ、巨大な問いかけ見出し(Containmentは良いのにCSATは…？)で課題を突く。弱みは、抽象的すぎて人の信頼感がなく、モバイルでビジュアルの存在感が落ちる。",
+  "idea_for_telemo": "TELEMOが人物写真を主役にするなら、写真の上に『声の波形』を細いライン(ティール)で重ねる案が競合との差別化になる。",
+  "tags": [
+   "voice-waveform",
+   "dark-blue",
+   "full-bleed-graphic",
+   "big-question-headline",
+   "no-people-photo",
+   "white-pill-cta"
+  ],
+  "score": 3,
+  "shots": {
+   "pc": "www-five9-com-pc-f2.jpg",
+   "sp": "www-five9-com-sp.jpg",
+   "scroll": "www-five9-com-pc-scroll.jpg",
+   "frames": [
+    "www-five9-com-pc-f0.jpg",
+    "www-five9-com-pc-f1.jpg",
+    "www-five9-com-pc-f2.jpg"
+   ]
+  },
+  "agent": "industry-direct"
+ },
+ {
+  "slug": "garden-eight-com",
+  "name": "Garden Eight",
+  "url": "https://garden-eight.com/",
+  "source": "direct",
+  "industry": "エージェンシー（東京）",
+  "hero_type": "3d-canvas",
+  "layout": "ベージュ地に全面WebGL（クリーム色の生き物のような3D造形が漂う）。中央に4行の巨大な英字見出し『WHAT / CAN WE / MAKE / NEXT』を左右にずらして配置。右上に小さなナビ、右下に丸いボタン。",
+  "image_treatment": "単色（クリーム）の3D造形で色数を絞り、見出しの黒だけが強い。",
+  "typography": "見出しは装飾的なセリフ（ブラックレター風）の大文字、目測100px前後、4行を階段状にずらす。h1はロゴ『GARDEN EIGHT』15px（lausanne）。",
+  "cta": "ボタンなし。右下の丸アイコン（スクロール誘導）。",
+  "motion": "独自計測：1.5〜3s 暗いグレー地に小さな『GARDEN EIGHT』（文字が揺らぐローダー）→ 3.5s 画面が明るいグレーへ → 4.5s 見出し＋3D。hero_capture の f1（3s）では『WHAT』の行が下端でマスクに切られた状態＝行ごとに下から出現。スクロール y400 で見出しが上へ、3D造形は散って画面外へ、下中央に小さな説明文 → y900 案件名の巨大マーキー（単語の間に丸い写真サムネイル）。",
+  "tech": "meta：canvas 1440×900、gsap=true、three=true。video なし。",
+  "mobile": "SPも3D＋見出し4行を維持（キャンバス390×844）、見出しは縦に詰めて中央。",
+  "why_good": "色数を1色＋黒に絞り、動きを『行ごとのマスク出現』と『造形の漂い』の2種類に限定している。",
+  "idea_for_telemo": "明朝の見出しを行単位で下からマスク開き（各行 translateY 100%→0、700ms、cubic-bezier(.2,.7,.2,1)、行間ディレイ120ms）。全面のローダーは使わず、映像のフェードと同時に始める。",
+  "tags": [
+   "preloader",
+   "line-mask-reveal",
+   "3d-object",
+   "marquee",
+   "gsap",
+   "three"
+  ],
+  "score": 3,
+  "shots": {
+   "pc": "garden-eight-com-pc-f2.jpg",
+   "sp": "garden-eight-com-sp.jpg",
+   "scroll": "garden-eight-com-pc-scroll.jpg",
+   "frames": [
+    "garden-eight-com-pc-f0.jpg",
+    "garden-eight-com-pc-f1.jpg",
+    "garden-eight-com-pc-f2.jpg"
+   ]
+  },
+  "agent": "motion-craft"
+ },
+ {
+  "slug": "www-intercom-com",
+  "name": "Intercom",
+  "url": "https://www.intercom.com/",
+  "source": "direct",
+  "industry": "CX SaaS",
+  "hero_type": "typographic-with-small-image",
+  "layout": "中央揃え。上に小さな実績表記(G2 2,000件の5つ星)→巨大H1(3行、1・3行目が灰色・2行目が黒)→セリフ体のリード→CTA2→『14 day free trial』の補足。左右の端(画面外へはみ出す)に小さな写真断片（影の2人、風船、夕焼けと鳥、目のクローズアップ）を非対称に置き、四隅に青い小さな正方形(トリムマーク)。",
+  "image_treatment": "写真はエディトリアル風の断片で『質感』として端に置く（人物は影と目のみ）。角丸・白フチ・影なしで画面端クロップ。見出しの2トーン(黒/灰)で強調。",
+  "typography": "H1は Saans 80px/400、行高80px(1.0)、字間−2.4px、中央揃え、強調部#111＋灰色（SPは40px）。リードはセリフ体(Serrif)約18px。",
+  "cta": "黒塗りの角丸(約4px)『Start free trial』＋白地黒枠『View demo』を中央に横並び。ヘッダー右にも黒『Start free trial』＋『Fin AI Agent →』。",
+  "motion": "f0=f1は同一、f2で変化（ロード後の整列/フェード、または浮遊チャットウィジェットの出現と推定）。スクロールは通常。",
+  "mobile": "H1(40px)→リード→CTA(横並び)→写真3枚を横一列に並べた帯へ組み替え（左の目、中央の夕焼け、右の影の2人）。",
+  "why_good": "写真を主役でなく『質感』として縁に置くことで、巨大な2トーン見出しの可読性を保ちつつ人間味を足す。『AIと人』という立ち位置を見出しの色で表現している。弱みは、写真が抽象的で、導入企業や数字などの信頼要素がヒーローにほぼ無いこと。",
+  "idea_for_telemo": "見出しを2トーンにして『AI』だけ濃色・『人』は淡色にするなど構造で伝える案。写真を中央でなく画面端に置くレイアウトは、TELEMOの人物写真を『背景』でなく『縁』に置く選択肢として検討できる。",
+  "tags": [
+   "typographic",
+   "collage",
+   "editorial-photos",
+   "two-tone-headline",
+   "serif-lead",
+   "centered",
+   "corner-marks"
+  ],
+  "score": 3,
+  "shots": {
+   "pc": "www-intercom-com-pc-f2.jpg",
+   "sp": "www-intercom-com-sp.jpg",
+   "scroll": "www-intercom-com-pc-scroll.jpg",
+   "frames": [
+    "www-intercom-com-pc-f0.jpg",
+    "www-intercom-com-pc-f1.jpg",
+    "www-intercom-com-pc-f2.jpg"
+   ]
+  },
+  "agent": "industry-direct"
+ },
+ {
+  "slug": "www-jal-com-ja",
+  "name": "JAL企業サイト",
+  "url": "https://www.jal.com/ja/",
+  "source": "direct",
+  "industry": "コーポレート",
+  "hero_type": "full-bleed-photo",
+  "layout": "2段ヘッダー(ロゴ＋ピルボタン群／グローバルナビ)の下に全幅×約655pxの写真（青空を見上げる女性、遠くを飛ぶJAL機、湖と山）。写真下端は白へ切れ、その下に詩的なコピー『心がそっと上向けば、新たな一歩を踏みだせる。…』が行間広く縦に並ぶ。撮影時はCookie同意ダイアログが写真中央を覆い、ダイアログの縁から大きな欧文見出しの一部がのぞくが内容は不明。",
+  "image_treatment": "低彩度で青寄りの色調に見えるが、撮影時は同意ダイアログのオーバーレイで暗く沈んでおり本来の色は不明。被写体を中央に置き、空に余白を残す。SPでは下端が斜めに切れて白へつながる(クリップパス)。",
+  "typography": "ヒーロー見出しはダイアログに隠れて不明。下のコピーは細めのNoto Sans JP約20px、中央揃え、行間が広い。",
+  "cta": "ヒーロー内CTAは確認できず(unknown)。ヘッダーにピル型ボタン(航空券の予約/お問い合わせ/サイトマップ/サイト内検索)。",
+  "motion": "f0=f1=f2が完全に一致（ダイアログ表示中で停止、動きは判定不能）。スクロール挙動も不明。",
+  "mobile": "縦長に女性が中央(顔が上寄り)、下端が斜めに切れて白背景へ→中央揃えの詩的コピー。同意ダイアログは全幅の白カード。",
+  "why_good": "1人の人物＋空＋機体という引き算の構図で、コピーの世界観と写真を一致させている。弱みは、撮影時は見出しとCTAが確認できず、コピーが5行の詩で1画面に収まらないこと。",
+  "idea_for_telemo": "人物の視線の先に余白(空)を置くと前向きな印象になる。TELEMOの写真でも視線の先に見出しを置く構図を検討する価値がある。",
+  "tags": [
+   "full-bleed-photo",
+   "single-person",
+   "negative-space",
+   "diagonal-clip-sp",
+   "poetic-copy",
+   "modal-blocked"
+  ],
+  "score": 3,
+  "shots": {
+   "pc": "www-jal-com-ja-pc-f2.jpg",
+   "sp": "www-jal-com-ja-sp.jpg",
+   "scroll": "www-jal-com-ja-pc-scroll.jpg",
+   "frames": [
+    "www-jal-com-ja-pc-f0.jpg",
+    "www-jal-com-ja-pc-f1.jpg",
+    "www-jal-com-ja-pc-f2.jpg"
+   ]
+  },
+  "agent": "industry-direct"
+ },
+ {
+  "slug": "lucidmotors-com",
+  "name": "Lucid Motors",
+  "url": "https://www.lucidmotors.com/",
+  "source": "direct",
+  "industry": "自動車（EV）",
+  "hero_type": "full-bleed-photo",
+  "layout": "フルブリードのライフスタイル写真（海辺の家で家族がSUVに荷物を積む）。左下に h1『Lucid Gravity』と1行リード、その下に3列のスペック（リース価格・メンテナンス・充電）、右側に2ボタン。最上部に告知帯。",
+  "image_treatment": "自然光の明るい写真。下部にだけ暗めのグラデーションのスクリムを敷き、白文字とスペックを載せる。",
+  "typography": "h1 Lucid Serif VF 72px/400、字間-0.5px、白。セリフの見出し＋サンセリフの小さなスペック表の組み合わせ。",
+  "cta": "白塗り矩形『VIEW INVENTORY』＋半透明の茶系矩形『BUILD & ORDER』の2つ（右下）。",
+  "motion": "f0〜f2 で変化なし（静止画、動画なし）。スクロールすると次の車種『Lucid Air』の全面写真パネルが続く（積み重ね型）。",
+  "tech": "meta：video・canvasなし。libsなし。",
+  "mobile": "SPは写真の上部を使い、地面（砂地）の部分に見出し・リード・スペック・2ボタンを中央揃えで載せる縦トリミング。",
+  "why_good": "動かさなくても、人の動作が写った写真＋下部スクリム＋セリフ見出しで上質に見える。セリフの見出しが写真の『物語』感を強める。",
+  "idea_for_telemo": "明朝の見出しは左下の暗いスクリム帯に置き、帯は高さ40%・透明→黒60%程度のグラデーションに留める。SPの縦トリミングでは、映像の机や床など情報の少ない領域を文字の下地にする構図をGemini生成時に指定する。",
+  "tags": [
+   "static-photo",
+   "scrim",
+   "serif-heading",
+   "stacked-panels",
+   "sp-recrop"
+  ],
+  "score": 3,
+  "shots": {
+   "pc": "lucidmotors-com-pc-f2.jpg",
+   "sp": "lucidmotors-com-sp.jpg",
+   "scroll": "lucidmotors-com-pc-scroll.jpg",
+   "frames": [
+    "lucidmotors-com-pc-f0.jpg",
+    "lucidmotors-com-pc-f1.jpg",
+    "lucidmotors-com-pc-f2.jpg"
+   ]
+  },
+  "agent": "motion-craft"
+ },
+ {
+  "slug": "lusion-co",
+  "name": "Lusion",
+  "url": "https://lusion.co/",
+  "source": "direct",
+  "industry": "エージェンシー（3D/WebGL）",
+  "hero_type": "3d-canvas",
+  "layout": "淡いラベンダー地に、左右約28pxのインセットで角丸の大きな3Dキャンバス（青・白・黒のパイプ状オブジェクトが密集）。上部に36pxのステートメント3行、右上に黒ピル『LET'S TALK』とMENU、最下部に『SCROLL TO EXPLORE』。",
+  "image_treatment": "角丸のフレームにリアルタイム3Dを収め、ページ地の淡色と対比させる。被写体はスタジオ照明の質感。",
+  "typography": "h1 Aeonik 36px/400 黒、3行。見出しは小さめで、主役はフレーム内のビジュアル。",
+  "cta": "黒いピル『LET'S TALK』（右上）。",
+  "motion": "f0（0.8s）黒地に白いプログレスバー＋左下に大きな数字カウンター『029』→ f1（3s）バー約85%『085』→ f2（6s）淡色地に角丸フレーム内の3D。プリローダーは数字とバーの2重表示で約3〜5秒。スクロール700pxでもフレームは画面内に残り、見出しが上に見える（ピン/視差の詳細は未確認）。",
+  "tech": "meta：canvas 1440×900（WebGL）＋45×45の小canvas。gsap/three等はグローバル検出なし（バンドル内蔵かは不明）。",
+  "mobile": "SP（3s）はまだプリローダー（黒地にロゴの組み立てと『100』）。完成状態は未確認。",
+  "why_good": "3Dを全画面にせず角丸の額縁に入れて余白を残すので、派手な素材でも品よく見える。",
+  "idea_for_telemo": "（手法のみ参考）映像を全面ではなく左右24〜28px・角丸8〜12pxのフレームに収めると、白地＋ティールのフラットな面構成と馴染む。プリローダーは不要（B2Bの営業LPで3〜5秒待たせるのは逆効果）。",
+  "tags": [
+   "preloader",
+   "counter",
+   "inset-frame",
+   "rounded-frame",
+   "3d-object"
+  ],
+  "score": 3,
+  "shots": {
+   "pc": "lusion-co-pc-f2.jpg",
+   "sp": "lusion-co-sp.jpg",
+   "scroll": "lusion-co-pc-scroll.jpg",
+   "frames": [
+    "lusion-co-pc-f0.jpg",
+    "lusion-co-pc-f1.jpg",
+    "lusion-co-pc-f2.jpg"
+   ]
+  },
+  "agent": "motion-craft"
+ },
+ {
+  "slug": "mabataki-jp",
+  "name": "MABATAKI（株式会社マバタキ）",
+  "url": "https://mabataki.jp/",
+  "source": "muuuuu.org",
+  "industry": "コーポレート／採用（ウェブ制作・クリエイティブ）",
+  "hero_type": "full-bleed-video",
+  "layout": "1440×900 の全画面映像（イラストのアニメーション）。左上に200×200の白い四角のロゴ、左下に再生アイコン付きの『Play Video with Music “色のある世界”』（約48px・白）、右上に採用のお知らせチップ2つ（黒と黄の角丸pill）、右下に縦書き Scroll と縦線、画面最下部にピンクのお知らせバー（黒ラベル『Release』＋横に流れる文字）。",
+  "image_treatment": "映像は夕焼けのグラデに、手描きタッチのイラストアニメ。映像の上のUIは小さく、スクリムは薄い（下部に白文字が読める程度の暗さ）。ロゴ用の白い四角が映像に食い込む。",
+  "typography": "meta の h1 は取得できず空。英和混在の見出し『Play Video with Music “色のある世界”』は約48px・白・Helvetica Now 系＋筑紫ゴシック、行間詰め。チップは約16px の太字。",
+  "cta": "右上に2つの角丸pill：黒地『2026/10/30エントリー締切 エンジニア募集のお知らせ』、黄地『2026/11/30エントリー締切 デザイナー募集のお知らせ』。左下の丸い再生ボタンは動画をサウンド付きで再生する導線。",
+  "motion": "f0 はファイルサイズが f1 の約1/10（unknown、未確認）。f1/f2 で映像が再生中。下部のピンクのバーはテキストが横に流れるティッカー。SP の下に続く文章では『渋谷→原宿→渋谷』の取り消し線アニメーション。GSAP あり。スクロールは未確認。",
+  "mobile": "映像は縦長クロップ（足元のアップ）、お知らせチップ2つは右上に縦積みで大きく（約300×100px）、見出しは3行、ティッカーは映像直下の1行。続きの本文は映像の下から始まる。",
+  "why_good": "映像の上に載せるUIを『採用チップ』『再生ボタン』『ティッカー』の3種に分け、いずれも小さく角丸で統一。映像を邪魔せず、採用導線と動画導線を同時に出している。",
+  "idea_for_telemo": "映像ヒーローの上に『導入事例を見る』『2026/11 無料トライアル受付中』のような日付付きチップを右上に2つ、下端に実績・お知らせのティッカーバーを置く。",
+  "tags": [
+   "full-bleed-video",
+   "info-chips",
+   "ticker",
+   "play-button",
+   "illustration-video",
+   "white-logo-block",
+   "gsap"
+  ],
+  "score": 3,
+  "shots": {
+   "pc": "mabataki-jp-pc-f2.jpg",
+   "sp": "mabataki-jp-sp.jpg",
+   "scroll": "mabataki-jp-pc-scroll.jpg",
+   "frames": [
+    "mabataki-jp-pc-f0.jpg",
+    "mabataki-jp-pc-f1.jpg",
+    "mabataki-jp-pc-f2.jpg"
+   ]
+  },
+  "agent": "jp-galleries"
+ },
+ {
+  "slug": "miitel-com",
+  "name": "MiiTel（RevComm）",
+  "url": "https://miitel.com/",
+  "source": "direct",
+  "industry": "AI電話 / 音声解析AI",
+  "hero_type": "device-mockup",
+  "layout": "ヘッダー下から約500pxの淡いグレー帯を左右分割。左に小見出し→H1 2行→金の月桂冠バッジ5連→注釈→CTA1つ。右は青い斜め帯の上にPC・ノートPC・スマホ2台のモックを右端へはみ出させて配置。ヒーロー直下に導入企業ロゴの3段マーキー、その下に濃紺のNEWS帯。",
+  "image_treatment": "人物写真は使わない（人は画面内の会議サムネに映るだけ）。淡いグレー背景＋薄い同心円の装飾、青い斜め帯でデバイスを浮かせる。スクリム・グレイン・角丸なし。モックは右端でクロップして画面外へ続く見せ方。",
+  "typography": "H1は Poppins+Noto Sans JP 46px/700、行高59.8px、色#222、左揃え2行。小見出し(約22px)でブランド名を先出し。リード文は無く、注釈(※1※2)のみ。",
+  "cta": "黒(#222)の角丸ピル「資料ダウンロード >」1つ（約270×52px）を左カラム下に配置。ヘッダー右にも黒の「資料請求・お問い合わせ」。",
+  "motion": "f0→f2の差はロゴマーキーの流れ程度で、ヒーロー本体はほぼ静止。スクロールは通常（ヘッダー固定、700pxで『MiiTelとは』のYouTube埋め込みセクションに到達）。",
+  "mobile": "中央揃えの縦積みに組み替え：小見出し→H1(26px)→デバイスモック（右が切れる）→黒の全幅CTAバー→青背景に月桂冠バッジ（2列）。",
+  "why_good": "No.1・総務大臣賞・Forbes AI50・3,000社の実績を月桂冠バッジで見出し直下に並べ、信頼を最短で伝える。弱みは、人物写真が無くAI電話の『人の温度』や現場感が出ないこと（デバイスモック一辺倒で競合と同質化しやすい）。",
+  "idea_for_telemo": "TELEMOでも見出し直下に実績バッジ（数字＋月桂冠風）を1列置く案は有効。ただしデバイスモック主体にはせず、現場写真で差別化する。",
+  "tags": [
+   "device-mockup",
+   "laurel-badges",
+   "trust-badges",
+   "logo-marquee",
+   "split-layout",
+   "no-hero-photo"
+  ],
+  "score": 3,
+  "shots": {
+   "pc": "miitel-com-pc-f2.jpg",
+   "sp": "miitel-com-sp.jpg",
+   "scroll": "miitel-com-pc-scroll.jpg",
+   "frames": [
+    "miitel-com-pc-f0.jpg",
+    "miitel-com-pc-f1.jpg",
+    "miitel-com-pc-f2.jpg"
+   ]
+  },
+  "agent": "industry-direct"
+ },
+ {
+  "slug": "ouraring-com",
+  "name": "Oura Ring（日本）",
+  "url": "https://ouraring.com/",
+  "source": "direct",
+  "industry": "D2C / ウェアラブル",
+  "hero_type": "full-bleed-photo",
+  "layout": "ベージュ地の全面写真（右側に指輪をはめた手）。左側の余白に見出し2行・リード・青いピルCTA。",
+  "image_treatment": "暖色ベージュの単色背景で手元だけを写した写真。文字側に被写体を置かない構図なのでスクリム不要。",
+  "typography": "h1 Editorial New（セリフ）84px/300、行送り92px、色 rgb(74,71,65)（暖かいダークグレー）。リードは小さめ。",
+  "cta": "青いピル『今すぐ購入』1つ（見出しの下）。文字より後に出る。",
+  "motion": "hero_capture：f0（0.8s）写真は表示済み、見出しとリードは半透明でCTAなし → f1（3s）文字が不透明になりCTAも出る → f2 変化なし。独自計測（2回目）では0.4〜2sはクリーム地＋ナビのみで写真も未表示（読み込みのばらつき）。写真が先、文字が後からフェードイン。スクロールは通常で、次セクション『体を知り、自ら健康を守る。』は中央揃え。",
+  "tech": "meta：video・canvasなし、libsなし。フォント AkkuratLL / Editorial New。",
+  "mobile": "SPは写真（手）を上部に置き、見出し36pxを写真の下に中央揃え（位置替え）。",
+  "why_good": "細いセリフ×暖色グレー×広い余白で、写真と文字のコントラストを意図的に弱めている。上質さが『静けさ』から出ている。",
+  "idea_for_telemo": "映像上の明朝見出しを純白ではなく、わずかに色味を含む白（例 #F3F5F4）にし、W3〜W4程度の細めのウェイトで大きく組む。文字のフェードインは映像が出てから0.3〜0.5s遅らせ、600〜800msで。",
+  "tags": [
+   "static-photo",
+   "text-fade-in",
+   "serif-heading",
+   "negative-space",
+   "sp-reposition"
+  ],
+  "score": 3,
+  "shots": {
+   "pc": "ouraring-com-pc-f1.jpg",
+   "sp": "ouraring-com-sp.jpg",
+   "scroll": "ouraring-com-pc-scroll.jpg",
+   "frames": [
+    "ouraring-com-pc-f0.jpg",
+    "ouraring-com-pc-f1.jpg",
+    "ouraring-com-pc-f2.jpg"
+   ]
+  },
+  "agent": "motion-craft"
+ },
+ {
+  "slug": "rivian-com",
+  "name": "Rivian",
+  "url": "https://rivian.com/",
+  "source": "direct",
+  "industry": "自動車（EV）",
+  "hero_type": "slider-carousel",
+  "layout": "高さ765pxのフルブリード動画スライダー（左右に矢印、下中央にドット）。左上寄りに白の見出し・リード・2ボタン。ヒーロー下端から次セクションの巨大な『R1S』文字が覗く。",
+  "image_treatment": "映画的な実写（ゴーストバスターズとのコラボ映像）。暗めのカラーグレーディングで白文字を載せる。",
+  "typography": "表示中スライドの見出しは目測50px前後の白（metaのh1『Find your Rivian』72px/600 Adventure は画面外のスライド）。",
+  "cta": "白塗りピル『Explore more』＋白枠ピル『Find a location』の2つを横並び。",
+  "motion": "f0（0.8s）車体側面のロゴ → f1（3s）同じカットが進行 → f2（6s）車内の人物へカット切替。3sからCookieダイアログ。スクロール700pxで灰色地に巨大な『R1S』＋車の切り抜き画像（文字と実物の重ね）。",
+  "tech": "meta：video（Cloudinary、1440×765、autoplay/loop/playing=true）×2。libsなし。",
+  "mobile": "SPは縦長の別動画（390×760）を再生、見出しは中央揃え。",
+  "why_good": "ヒーロー高さを765pxに抑えて次の段（R1Sの巨大文字）をチラ見せし、スクロールを誘う。",
+  "idea_for_telemo": "ヒーロー高さを100vhでなく約85vh（900px画面で約765px）にし、次セクションの見出しを下端に10〜15%覗かせてスクロールを促す。",
+  "tags": [
+   "video-loop",
+   "slider",
+   "peek-next-section",
+   "separate-sp-video"
+  ],
+  "score": 3,
+  "shots": {
+   "pc": "rivian-com-pc-f0.jpg",
+   "sp": "rivian-com-sp.jpg",
+   "scroll": "rivian-com-pc-scroll.jpg",
+   "frames": [
+    "rivian-com-pc-f0.jpg",
+    "rivian-com-pc-f1.jpg",
+    "rivian-com-pc-f2.jpg"
+   ]
+  },
+  "agent": "motion-craft"
+ },
+ {
+  "slug": "smarthr-jp-smarthr-10th-anniversary",
+  "name": "SmartHR 10th Anniversary",
+  "url": "https://smarthr.jp/smarthr-10th-anniversary/",
+  "source": "lp.webdesignclip.com",
+  "industry": "B2B SaaS（周年特設）",
+  "hero_type": "illustration",
+  "layout": "白地の全画面ステージ。中央右寄りに大円（上半分=ライトターコイズ、下半分=濃いターコイズの上下2分割）、左端のオレンジの小円から大円へ伸びるビーム（上=緑、下=青のグラデ）。ヘッダは左にピクセル風ロゴ、中央に『これまでの10年／これからの10年』の2リンク、右にSmartHRロゴ。左下に『Pickup』カード（緑→ターコイズのグラデ地、楕円マスクの人物写真つき）。",
+  "image_treatment": "ヒーロー本体は写真なしの図形表現。円の表面に微細なグレイン（ノイズ）が見える。人物写真は Pickup カードの楕円マスクの小さな顔写真のみ。スクロールで円が拡大して画面全体が円の色になる。",
+  "typography": "meta の h1 はロゴ文字（MFW-PGothic 16.2px）で、見出しの実寸は meta で取得できない。スクロール後に現れる見出し『人が、社会が、本当に欲しいもの』は縦書き・極太ゴシック・黒・3列、1文字約85px（スクショ目測）。",
+  "cta": "ヒーロー内に主CTAなし。ナビ中央の2リンク（矢印付き）と右上ロゴ、左下の Pickup カード（記事導線）。",
+  "motion": "f0(0.8s)は白地に『クラウド人事労務ソフトSmartHR 10周年特設サイト』の1行と Skip ボタンのオープニング。f2(6s)で大円とビームが静止して表示。スクロール(700px)後は円が画面いっぱいに拡大し、縦書きの見出しが円の上に現れる（スクロール連動）。f1 は未確認。",
+  "mobile": "図形は画面中央の小さな円に縮小し、Pickup カードは下端に全幅で配置。3秒時点では UI 全体が薄く（フェードイン途中）、見出しは未表示。",
+  "why_good": "写真に頼らず、スクロールで円が拡大して縦書きコピーが現れる『1画面の物語』。人の顔は楕円マスクの Pickup カードに限定して、点で見せている。",
+  "idea_for_telemo": "TELEMOの通話の波形・吹き出しをティール単色の円で表現し、スクロールで円が広がってコピーが出る。人の写真は小さな楕円マスクのカード（導入事例）に限定して下部に置く。",
+  "tags": [
+   "illustration",
+   "scroll-linked",
+   "grain",
+   "vertical-text",
+   "oval-mask",
+   "opening-skip",
+   "pickup-card"
+  ],
+  "score": 3,
+  "shots": {
+   "pc": "smarthr-jp-smarthr-10th-anniversary-pc-f2.jpg",
+   "sp": "smarthr-jp-smarthr-10th-anniversary-sp.jpg",
+   "scroll": "smarthr-jp-smarthr-10th-anniversary-pc-scroll.jpg",
+   "frames": [
+    "smarthr-jp-smarthr-10th-anniversary-pc-f0.jpg",
+    "smarthr-jp-smarthr-10th-anniversary-pc-f1.jpg",
+    "smarthr-jp-smarthr-10th-anniversary-pc-f2.jpg"
+   ]
+  },
+  "agent": "jp-galleries"
+ },
+ {
+  "slug": "www-tmj-jp",
+  "name": "TMJ（SECOMグループ）",
+  "url": "https://www.tmj.jp/",
+  "source": "direct",
+  "industry": "コールセンター / BPO",
+  "hero_type": "slider-carousel",
+  "layout": "ヘッダー(ロゴ＋青/紫/黄の3色ボタン)直下に、中央スライド(約716×369)の左右に前後スライドが覗く3枚見せの全幅カルーセル（6枚、ドット）。背景は薄グレー帯。下は『SERVICE』の3カード。",
+  "image_treatment": "各スライドはバナー画像（文字焼き込み）。代表例はヘッドセットで微笑む女性オペレーター（明るい高彩度、被写界深度が浅く背景は白ぼけ）に茶色の吹き出し＋緑の帯テキスト。他は手元キーボード写真に紺の丸バッジ、MaaSのCG、積み木(家族)写真など。角丸はわずか、スクリムなし。",
+  "typography": "文字は画像内。HTML側のH1は空（取得できず）。ページ本文は游ゴシック。",
+  "cta": "ヒーロー内に個別CTAなし。ヘッダー右上に青『お問い合わせ』・紫『CONTACT US』・黄『資料ダウンロード』の3色ボタンが並ぶ。",
+  "motion": "f0=生成AIスライド、f2=あんしん電話当番で、6秒以内に自動遷移（Swiper）。スクロールは通常。",
+  "mobile": "1枚表示（左右が少し覗く）＋6ドットのままバナーが画面幅いっぱいに拡大。ヘッダー右に『採用情報』『お問い合わせ』のタブとハンバーガー。",
+  "why_good": "コールセンター事業者らしく『ヘッドセットで微笑むオペレーター』の写真が一目で業務を伝える。ただし6枚のバナーで訴求が散り、焼き込み文字＋吹き出し装飾がテンプレ的で上質感に欠ける。",
+  "idea_for_telemo": "『ヘッドセットの女性』は業界の定番画像なので、TELEMOは自然光・実在の現場というドキュメンタリー調で差別化できる。カルーセルで多訴求を並べず1メッセージに絞る。",
+  "tags": [
+   "carousel",
+   "banner-images",
+   "headset-operator",
+   "people-photo",
+   "text-baked-in-image",
+   "call-center",
+   "swiper"
+  ],
+  "score": 3,
+  "shots": {
+   "pc": "www-tmj-jp-pc-f2.jpg",
+   "sp": "www-tmj-jp-sp.jpg",
+   "scroll": "www-tmj-jp-pc-scroll.jpg",
+   "frames": [
+    "www-tmj-jp-pc-f0.jpg",
+    "www-tmj-jp-pc-f1.jpg",
+    "www-tmj-jp-pc-f2.jpg"
+   ]
+  },
+  "agent": "industry-direct"
+ },
+ {
+  "slug": "trend-3d-com-lp",
+  "name": "TREND 3D フルカラー3Dプリント",
+  "url": "https://trend-3d.com/lp/",
+  "source": "lp.webdesignclip.com",
+  "industry": "B2B 製造（3Dプリント受託）",
+  "hero_type": "full-bleed-video",
+  "layout": "1440×900 の全画面ビデオの中央に、細字の1行見出し（ルビ付き）とサブコピー。ヘッダ右上にCTA 3つ＋電話番号、右下に『Full Movie』サムネイルのチップ、中央下に縦線のScroll表示。",
+  "image_treatment": "マクロ撮りの3D造形物の映像に、ほぼ黒に近い濃いスクリム。f1 は紺のグラデに輪郭だけのロゴ＋細い進行線のローダー。スクロール後は別カット（手元のスケッチ画）に切り替わり、暗幕の上に本文が載る。",
+  "typography": "meta の h1 は32px / weight 700 / line-height 48px / white だが、見た目は字間の広い細いゴシックで1行『想いを、3Dに変えていく。』（ルビ『カタチ』付き）。サブコピーは約14px。",
+  "cta": "ヘッダに3つ：資料請求・無料サンプル=ティール塗りpill、お問い合わせ=白抜き枠pill。右に電話番号（受付時間つき）。右下に『Full Movie』のサムネ付き四角チップ。ヒーロー中央にCTAなし。",
+  "motion": "f0/f1 は紺のグラデにロゴ＋進行線のローダー、f2(6s)で動画＋見出し。右下のチップはページと一緒にスクロールして上へ流れる。スクロール(700px)後は別カットの映像に暗幕が掛かり、左寄せの本文が上に重なる。GSAP/ScrollTrigger あり。",
+  "mobile": "見出しを3行（想いを、／3Dに／変えていく。）にして中ほど左寄せ。ヘッダは丸いアイコンボタン3つ（REQUEST/SAMPLE/CONTACT）＋ハンバーガー。Full Movie チップは右下に維持。",
+  "why_good": "ローダー→動画→見出しの順で出す映画的な導入と、細字・広字間の見出し。CTAをヘッダに集約して映像の邪魔をしない。『Full Movie』チップで動画への導線を小さく置く。",
+  "idea_for_telemo": "全画面ムービーを使う場合、TELEMOは白基調なので暗幕ではなく白スクリム（左80%→右0%）で映像を淡くし、右下にサムネ付きの『デモ動画を見る』チップを置く。",
+  "tags": [
+   "full-bleed-video",
+   "dark-scrim",
+   "loader",
+   "thin-type",
+   "movie-chip",
+   "header-cta-pills",
+   "gsap",
+   "video-swap-on-scroll"
+  ],
+  "score": 3,
+  "shots": {
+   "pc": "trend-3d-com-lp-pc-f2.jpg",
+   "sp": "trend-3d-com-lp-sp.jpg",
+   "scroll": "trend-3d-com-lp-pc-scroll.jpg",
+   "frames": [
+    "trend-3d-com-lp-pc-f0.jpg",
+    "trend-3d-com-lp-pc-f1.jpg",
+    "trend-3d-com-lp-pc-f2.jpg"
+   ]
+  },
+  "agent": "jp-galleries"
+ },
+ {
+  "slug": "www-altius-link-com",
+  "name": "アルティウスリンク",
+  "url": "https://www.altius-link.com/",
+  "source": "direct",
+  "industry": "コールセンター / BPO",
+  "hero_type": "slider-carousel",
+  "layout": "白ヘッダー直下に全幅1440×520の画像スライダー（7枚、ドット＋一時停止＋矢印）。写真スライド例(f2)は、左にティールの斜め帯＋『LiNKto』ロゴ＋ティール帯のキャプション、中央にスーツの男性2名の半身、右に白フチ＋影のインセット写真2枚を縦積み。下に『SERVICE』。",
+  "image_treatment": "実社員のインタビュー写真（明るいオフィス、自然光、笑顔）を全幅で使い、右に白フチの小写真を重ねる（ポラロイド風）。文字はスクリムでなくティールの帯の上に載せる。",
+  "typography": "文字は画像内（H1なし）。キャプションは白の太ゴシック約20px。",
+  "cta": "ヘッダー右にオレンジ枠の『資料DL一覧』とオレンジ塗りの『お問合せ一覧』（角丸ピル）。ヒーロー内CTAなし。",
+  "motion": "f0→f2でスライドが切替（f2のファイルサイズが増加）。スクロールは通常。",
+  "mobile": "スライドが別素材（イラスト入りのレポート告知バナー）に変わり、写真スライドは見えないことがある。ヘッダーはEN＋ハンバーガーのみ。",
+  "why_good": "社員（人）を前面に出したオウンドメディア告知で『人が支える業務』を示し、ティール帯のキャプションでブランド色と写真を結ぶ。弱みは、スライドごとに素材の質がばらつき（ストック／イラスト混在）、PCとSPで見えるクリエイティブが異なる。",
+  "idea_for_telemo": "写真下部にティール帯＋白字キャプションを敷く（スクリムの代替）、白フチ・影のインセット写真で『もう1人の現場の人』を添える。どちらも実HTMLで再現しやすい。",
+  "tags": [
+   "carousel",
+   "interview-photo",
+   "inset-photos",
+   "teal-caption-band",
+   "people-photo",
+   "call-center",
+   "text-baked-in-image"
+  ],
+  "score": 3,
+  "shots": {
+   "pc": "www-altius-link-com-pc-f2.jpg",
+   "sp": "www-altius-link-com-sp.jpg",
+   "scroll": "www-altius-link-com-pc-scroll.jpg",
+   "frames": [
+    "www-altius-link-com-pc-f0.jpg",
+    "www-altius-link-com-pc-f1.jpg",
+    "www-altius-link-com-pc-f2.jpg"
+   ]
+  },
+  "agent": "industry-direct"
+ },
+ {
+  "slug": "www-kaonavi-jp",
+  "name": "カオナビ",
+  "url": "https://www.kaonavi.jp/",
+  "source": "direct",
+  "industry": "B2B SaaS(タレントマネジメント)",
+  "hero_type": "slider-carousel",
+  "layout": "上部に細いKTi告知バー、2段ヘッダーの直下に全幅×約400pxのカルーセル（3枚、矢印＋ドット＋一時停止）。スライド1は淡い青灰のぼかしオフィスに著名人(黄色のスーツ)の半身写真を右に置き、左に細身の青いH1＋黒帯の小見出し＋CTA2。スライド2(KTi)は紫〜水色の抽象グラデ＋デバイスモック＋会話吹き出し群。下にクリーム色帯の新サービスカード(緑枠)。",
+  "image_treatment": "スライド1は明るい青灰のボケ背景に高彩度の黄色いスーツが強く対比。文字は細い水色〜青で背景の明るさに溶け込みコントラスト低め。スライド2はCGグラデ＋UIモック。",
+  "typography": "H1は画像/ロゴ内でmetaは空（文字として取得できず）。スライド1の見出しは約44pxの細字(Light)・青・詰め気味。小見出しは黒帯に白字。",
+  "cta": "白地青枠『いますぐ資料で確認してみたい』＋青塗り『詳しい料金を知りたい』(右上に橙の『無料』バッジ)を左カラム下に横並び。右下に固定の青ピル『資料をダウンロード』。",
+  "motion": "f0=スライド1(人物)、f2=スライド2(KTi)で、6秒以内に自動遷移（f1の状態は未確認）。矢印/一時停止あり。スクロールは通常。",
+  "mobile": "縦長スライド：小見出し→H1→人物(中央・全幅)→CTA2(全幅縦)。左右端に矢印、右上に一時停止。下に新サービスカード。",
+  "why_good": "著名人の実写と製品メッセージの2枚構成で認知とプロダクトを両立し、CTAは白枠/青塗りで優先度を示す。弱みは、細い水色の見出しが背景に溶けて可読性が低いこと、3枚が自動で切替わりメッセージが散ること。",
+  "idea_for_telemo": "人物を右・文字を左に置く左右分割は定番として有効。ただし見出しは太く濃く保ち（細字×淡色は避ける）、CTAは『主=塗り／副=白枠』の2種に絞る。",
+  "tags": [
+   "carousel",
+   "celebrity-photo",
+   "split-layout",
+   "light-weight-headline",
+   "low-contrast-warning",
+   "cta-pair",
+   "floating-banner"
+  ],
+  "score": 3,
+  "shots": {
+   "pc": "www-kaonavi-jp-pc-f2.jpg",
+   "sp": "www-kaonavi-jp-sp.jpg",
+   "scroll": "www-kaonavi-jp-pc-scroll.jpg",
+   "frames": [
+    "www-kaonavi-jp-pc-f0.jpg",
+    "www-kaonavi-jp-pc-f1.jpg",
+    "www-kaonavi-jp-pc-f2.jpg"
+   ]
+  },
+  "agent": "industry-direct"
+ },
+ {
+  "slug": "www-daikin-co-jp",
+  "name": "ダイキン工業",
+  "url": "https://www.daikin.co.jp/",
+  "source": "direct",
+  "industry": "コーポレート",
+  "hero_type": "full-bleed-photo",
+  "layout": "白ヘッダー(ロゴ＋小リンク)とグレーのサブナビの下に、全幅×約495pxの写真スライダー(4枚、左右矢印＋下に丸ドット)。スライド1は緑の丘と青空の屋外で白衣の女性が透明な巨大な『空気の袋』に指を触れ、CO2/O2/℃/H2O/hPa/m/sの丸アイコンが空中に浮かぶ実写＋CG合成。左に細い白字のコピーと『>ENTER』ボタン。",
+  "image_treatment": "空・丘・透明袋の寒色の淡い色調。被写体は中央右、コピーは左の空の淡い領域に載せるのでスクリム不要。実写＋CGで『空気の可視化』を表現。",
+  "typography": "コピーは約40px・細字(Light)・白・字間広め・2行＋サブ約18px。H1(computed)は12pxの別要素で、見出しは画像内の可能性が高い(推定)。",
+  "cta": "淡い青(#4a9fd8系)塗りの角ばった『>ENTER』(約135×42px)を文字の下に配置。",
+  "motion": "f0→f2でファイルサイズが大きく増加（ロード後に文字・アイコンがフェードインして完成と推定）。スライドの自動切替は未確認。スクロールは通常。",
+  "mobile": "写真(上)と、白背景に淡い青の見出し・ボタン(下)に分離する縦積み。『1/4』の数字インジケータ。写真は白っぽく褪せて見えた（フェード途中の可能性、未確認）。",
+  "why_good": "『人×CGで見えないものを見せる』1枚で企業の価値観を伝える世界観が強く、文字を空の領域に置くことでスクリム不要にしている。弱みは、細字×淡色でコントラストが低いことと、SPで文字が写真から分離し一体感が失われること。",
+  "idea_for_telemo": "TELEMOの『声』を可視化する小さなCG/アイコン(波形・通話ステータス)を人物写真の余白に浮かべる案。文字は写真の淡い領域に置く。",
+  "tags": [
+   "full-bleed-photo",
+   "cg-composite",
+   "people-photo",
+   "light-weight-type",
+   "wide-tracking",
+   "carousel",
+   "low-contrast-warning"
+  ],
+  "score": 3,
+  "shots": {
+   "pc": "www-daikin-co-jp-pc-f2.jpg",
+   "sp": "www-daikin-co-jp-sp.jpg",
+   "scroll": "www-daikin-co-jp-pc-scroll.jpg",
+   "frames": [
+    "www-daikin-co-jp-pc-f0.jpg",
+    "www-daikin-co-jp-pc-f1.jpg",
+    "www-daikin-co-jp-pc-f2.jpg"
+   ]
+  },
+  "agent": "industry-direct"
+ },
+ {
+  "slug": "bizrap-jp",
+  "name": "ビジネスラップ produced by ロックオン柳田",
+  "url": "https://bizrap.jp/",
+  "source": "lp.webdesignclip.com",
+  "industry": "B2B プロモーション（ラップ制作）",
+  "hero_type": "full-bleed-video",
+  "layout": "1440×900 の全画面ビデオ。中央に極太の斜体見出し（白＋青＋黄）を2段で大きく置き、周囲に5つの吹き出し（商品PR／展示会／採用活動／企業・店舗プロモーション／周年行事）を散らす。左右端に縦回転のループ文字、左上にロゴ、右上にマゼンタの円ボタン、下部中央に2分割pill CTA。",
+  "image_treatment": "動画に黒の暗めスクリム（約50%）。見出しは白文字＋太い黒縁＋ずらした黒の影、強調語は青(#0050fd)と黄(#fff000)。吹き出しは白地・黒縁・ギザギザ形。",
+  "typography": "meta の h1 はロゴ要素（32px/700）。見出しは約150px・極太斜体ゴシック・2行（SPは4行）。吹き出しは約18px の黒太字。",
+  "cta": "1本の横長pill（約690×64px）に2分割：左=黒地・黄文字『実績を見てみる!』、右=黄地・黒文字『相談してみる!』。画面下部中央に固定され、スクロール後も追従。SP は下端いっぱいの2分割バー。",
+  "motion": "f0(0.8s)は青一色の背景に見出し1行目『あらゆるビジネス』が出現途中（白→青）で動画は未表示。f1(3s)で動画・吹き出し・CTAが出そろう。スクロール(700px)後も下部の2分割CTAが固定表示され、本文は青地に角丸の黒縁カード。",
+  "mobile": "動画は縦長クロップ（別カットのステージ映像）、見出しを4行にして中ほど、吹き出しは非表示、CTAは下端フル幅の2分割バーになる。",
+  "why_good": "見出しの周りに用途を吹き出しで散らし、1画面で『何を』『誰に』『どう動く』を読ませる。CTAを下部固定の2分割にして、押す2択（実績/相談）を常に見せる。",
+  "idea_for_telemo": "TELEMOのユースケース（新規開拓・掘り起こし・アポ取り）を写真の周囲に小さなチップとして散らし、下部固定の2分割CTA（資料請求｜デモ予約）にする。",
+  "tags": [
+   "full-bleed-video",
+   "speech-bubbles",
+   "sticky-bottom-cta",
+   "split-pill-cta",
+   "heavy-type",
+   "intro-type-in",
+   "vertical-marquee"
+  ],
+  "score": 3,
+  "shots": {
+   "pc": "bizrap-jp-pc-f2.jpg",
+   "sp": "bizrap-jp-sp.jpg",
+   "scroll": "bizrap-jp-pc-scroll.jpg",
+   "frames": [
+    "bizrap-jp-pc-f0.jpg",
+    "bizrap-jp-pc-f1.jpg",
+    "bizrap-jp-pc-f2.jpg"
+   ]
+  },
+  "agent": "jp-galleries"
+ },
+ {
+  "slug": "biz-moneyforward-com",
+  "name": "マネーフォワード クラウド",
+  "url": "https://biz.moneyforward.com/",
+  "source": "direct",
+  "industry": "B2B SaaS(会計・バックオフィス)",
+  "hero_type": "device-mockup",
+  "layout": "2段ヘッダーと緑のキャンペーン帯(実質0円)の下に、高さ約670pxの全幅濃青(#0b4aa8系)ベタのヒーロー。左に月桂冠『利用事業者数40万事業者突破!』→H1(2行 白)→注釈。右にデスクトップ+ノート+スマホのデバイスモック（グラフ画面）。下部に吹き出しタブ付きのCTA2つ＋『個人事業主の方はこちら』リンク。",
+  "image_treatment": "写真なし。濃青のフラット背景にドロップシャドウ付きのデバイスモック、金の月桂冠。",
+  "typography": "H1は Noto Sans JP の太字・白・約48px・2行（視覚的な実測。metaのh1はロゴ付近の11px要素を拾っておりヒーロー見出しの値は不明）。",
+  "cta": "白地ピル『サービス資料をダウンロード >』(資料サムネ付き)＋黄(#ffb300)ピル『実際の画面を無料で試す >』(画面サムネ付き)を中央下寄せ。各ボタンの上に吹き出しタブ(紺『いま自社に必要な機能が5分でわかる！』／茶『クレカ登録不要・自動課金なしで1ヶ月使える！』)。",
+  "motion": "f0=f1=f2が完全に一致で静止。スクロールは通常、右下にAIチャット誘導がフロート。",
+  "mobile": "中央揃えの縦積み：H1(約32px)→月桂冠→デバイスモック→CTA2(全幅・吹き出しタブ付き)→個人事業主リンク。",
+  "why_good": "青×黄の強いコントラストと、ボタンごとに『得られる結果/ハードル低下』を書いた吹き出しタブでCTAの行動理由を明示。信頼バッジも見出し前に置く。弱みは、広告バナー・2段ヘッダー・フロートチャットで情報過多なことと、写真が無く人の気配がゼロなこと。",
+  "idea_for_telemo": "TELEMOのCTA(資料請求/お問い合わせ)にも『30秒でわかる』『デモ通話を無料で体験』のような行動理由の吹き出しタブを添える案。",
+  "tags": [
+   "device-mockup",
+   "blue-bg",
+   "cta-label-bubble",
+   "laurel-badges",
+   "campaign-bar",
+   "no-people-photo"
+  ],
+  "score": 3,
+  "shots": {
+   "pc": "biz-moneyforward-com-pc-f2.jpg",
+   "sp": "biz-moneyforward-com-sp.jpg",
+   "scroll": "biz-moneyforward-com-pc-scroll.jpg",
+   "frames": [
+    "biz-moneyforward-com-pc-f0.jpg",
+    "biz-moneyforward-com-pc-f1.jpg",
+    "biz-moneyforward-com-pc-f2.jpg"
+   ]
+  },
+  "agent": "industry-direct"
+ },
+ {
+  "slug": "anthropic-com",
+  "name": "Anthropic",
+  "url": "https://www.anthropic.com/",
+  "source": "direct",
+  "industry": "B2B（AI）",
+  "hero_type": "typographic-with-small-image",
+  "layout": "オフホワイト地。左に太字の見出し3行（research / products に下線リンク）、右に小さなセリフのリード。その下に角丸の大きなカードで最新モデルの告知（イラスト3点 → 『Claude Haiku 5.5』と弧線）。",
+  "image_treatment": "写真・動画は使わず、イラストと線のアニメーション（canvas）。",
+  "typography": "h1 Anthropic Sans 61px/700、色 rgb(20,20,19)。リードは Anthropic Serif。",
+  "cta": "ヒーローにボタンなし（見出し内の下線語がリンク）。カード内に黒の小さなボタン。",
+  "motion": "f0（0.8s）カード内にイラスト3点 → f1（3s）カードの中身が『Claude Haiku 5.5』＋弧線に切替 → f2 同じ。カード内だけが動く。スクロールは通常。",
+  "tech": "meta：canvas 1285×112 と 777×221（線のアニメーション用と推測）、gsap=true、ScrollTrigger=true。video なし。",
+  "mobile": "SPは見出し40px → リード → カードの縦積み。",
+  "why_good": "映像を使わず、カード内の小さな動きだけで『更新されている』感を出す。",
+  "idea_for_telemo": "（参考程度）ヒーローの映像とは別に、直下のカードでお知らせ（導入事例など）を切り替える控えめな動きはB2Bの信頼感を損ねない。",
+  "tags": [
+   "typographic",
+   "card-rotation",
+   "canvas-line",
+   "gsap",
+   "ScrollTrigger",
+   "b2b"
+  ],
+  "score": 2,
+  "shots": {
+   "pc": "anthropic-com-pc-f1.jpg",
+   "sp": "anthropic-com-sp.jpg",
+   "scroll": "anthropic-com-pc-scroll.jpg",
+   "frames": [
+    "anthropic-com-pc-f0.jpg",
+    "anthropic-com-pc-f1.jpg",
+    "anthropic-com-pc-f2.jpg"
+   ]
+  },
+  "agent": "motion-craft"
+ },
+ {
+  "slug": "buildinamsterdam-com",
+  "name": "Build in Amsterdam",
+  "url": "https://www.buildinamsterdam.com/",
+  "source": "direct",
+  "industry": "エージェンシー（EC・ブランド）",
+  "hero_type": "split-text-image",
+  "layout": "左半分が動画領域（計測時は黒）、右半分が白いパネルで、極太コンデンス体の見出し5行『WE BUILD BRANDS & DIGITAL FLAGSHIP STORES』、セリフのリード、四角い枠線ボタン2つ（連結）。左下にオレンジの丸（ショーリール再生ボタンと推測）。",
+  "image_treatment": "動画はHLSで撮影時は再生されず黒。白パネルとの明快な二分割。",
+  "typography": "見出しは Neue Haas Grotesk 系の大文字（目測60px前後）・中央揃え5行、リードは RecklessNeue（セリフ）。",
+  "cta": "『OUR WORK』『CONTACT US』の四角い枠線ボタンを連結して横並び。ほかに『Play showreel』。",
+  "motion": "f0（0.8s）黒地に『BIA | FRONT ROW』ロゴ（プリローダー）→ f1（3s）右に白パネルが入り文字が揃う → f2 変化なし。スクロール700pxでもレイアウトは同じ（scrollY=0、独自スクロールの可能性）。",
+  "tech": "meta：video .m3u8（HLS、1440×900、loop=true、playing=false）。libsはグローバル検出なし。",
+  "mobile": "SPは文字ブロックが先、その下に黒い動画領域。",
+  "why_good": "見出しとCTAを白パネルに隔離し、映像と文字の可読性を完全に分けている。",
+  "idea_for_telemo": "（参考程度）映像に文字を重ねず、左右分割で白パネル側に明朝見出しを置く案もあり得る。ただし現行の重ね構成を変える根拠としては弱い。",
+  "tags": [
+   "split",
+   "preloader",
+   "hls-video",
+   "boxed-buttons"
+  ],
+  "score": 2,
+  "shots": {
+   "pc": "buildinamsterdam-com-pc-f1.jpg",
+   "sp": "buildinamsterdam-com-sp.jpg",
+   "scroll": "buildinamsterdam-com-pc-scroll.jpg",
+   "frames": [
+    "buildinamsterdam-com-pc-f0.jpg",
+    "buildinamsterdam-com-pc-f1.jpg",
+    "buildinamsterdam-com-pc-f2.jpg"
+   ]
+  },
+  "agent": "motion-craft"
+ },
+ {
+  "slug": "karakuri-ai",
+  "name": "KARAKURI（カラクリ）",
+  "url": "https://karakuri.ai/",
+  "source": "direct",
+  "industry": "AI電話 / コンタクトセンター(AIエージェント)",
+  "hero_type": "typographic-with-small-image",
+  "layout": "ほぼ白の背景。左寄り(x=200)に巨大H1→リード3行→CTA2つ。右に『お知らせ／導入事例／セミナー』の新着3件を縦罫つきリストで併置。四隅に薄いミントのノード＆線のネットワーク装飾、右下にマスコットのチャット誘導。",
+  "image_treatment": "写真なし。端に置いた薄いミントのポリゴン/ノード図で『AI』を示すだけで、背景は白。H1の文字にだけ紫→青→ミントのグラデーション。",
+  "typography": "H1は Inter+Noto Sans JP 80px/900、行高96px、字間4px、左揃え2行（『人か、業務か、/AIか。』）。color は transparent（背景クリップのグラデ文字）。リードは約20px・黒・字間広め3行。",
+  "cta": "緑(#1aa67d)塗りピル『診断ガイドをダウンロード ⊙→』＋白地黒枠ピル『まずは相談する ⊙→』を左カラム下に横並び（右端に丸矢印アイコン）。",
+  "motion": "f0→f2の差はごく小さく、ほぼ静止（背景装飾が微動している可能性はあるが実装は未確認）。スクロールは通常。",
+  "mobile": "1カラム：ネット装飾(上)→H1(48px)→リード→CTA2(縦)→お知らせカードの順。",
+  "why_good": "3語の対比コピー『人か、業務か、AIか。』を超大型グラデ文字にして、写真に頼らず選択を迫る問いで引きつける。弱みは、右の新着リストで主役が分散し、人の信頼感を示す要素が無いこと。",
+  "idea_for_telemo": "写真が使えない場面の保険として、見出しのキーワード1語だけをティール系グラデにする程度。TELEMOは人物写真が主役なので、新着リスト併置は避ける。",
+  "tags": [
+   "typographic",
+   "gradient-text",
+   "network-lines",
+   "mascot-chat",
+   "news-list-in-hero"
+  ],
+  "score": 2,
+  "shots": {
+   "pc": "karakuri-ai-pc-f2.jpg",
+   "sp": "karakuri-ai-sp.jpg",
+   "scroll": "karakuri-ai-pc-scroll.jpg",
+   "frames": [
+    "karakuri-ai-pc-f0.jpg",
+    "karakuri-ai-pc-f1.jpg",
+    "karakuri-ai-pc-f2.jpg"
+   ]
+  },
+  "agent": "industry-direct"
+ },
+ {
+  "slug": "shiftbrain-com",
+  "name": "SHIFTBRAIN",
+  "url": "https://shiftbrain.com/",
+  "source": "direct",
+  "industry": "エージェンシー（東京）",
+  "hero_type": "collage-grid",
+  "layout": "白地。上部に50pxの英文ステートメント2行、右にカテゴリフィルタ、下に縦長カードのグリッド（案件のキービジュアル・動画サムネイル）。",
+  "image_treatment": "カードごとに色の強いキービジュアル。角丸なし。",
+  "typography": "h1 TT Norms ExtraLight 50px、字間-1px、色 rgb(18,18,18)。",
+  "cta": "ボタンなし（カードがリンク）。",
+  "motion": "f0（0.8s）黒地に『SHIFT…』の文字が組み上がる途中 → f1（3s）黒地中央にSのロゴマーク → f2（6s）白地のグリッド表示。プリローダーは約3〜6秒。スクロール700pxでもヒーローはほぼ同じ位置（scrollY=0。独自スクロール制御の可能性、推測）。",
+  "tech": "meta：canvas 1440×900、video（540×324のサムネイル用mp4、loop=true、計測時 playing=false）。libsはグローバル検出なし。",
+  "mobile": "SP（3s）はまだロゴのプリローダー。",
+  "why_good": "ローダー→白地の作品グリッドという明快な切替。ヒーロー自体が作品一覧になっている。",
+  "idea_for_telemo": "直接は転用しない（プリローダーで3秒以上待たせる型は営業LPに不向き）。",
+  "tags": [
+   "preloader",
+   "logo-reveal",
+   "grid",
+   "video-thumbnails"
+  ],
+  "score": 2,
+  "shots": {
+   "pc": "shiftbrain-com-pc-f2.jpg",
+   "sp": "shiftbrain-com-sp.jpg",
+   "scroll": "shiftbrain-com-pc-scroll.jpg",
+   "frames": [
+    "shiftbrain-com-pc-f0.jpg",
+    "shiftbrain-com-pc-f1.jpg",
+    "shiftbrain-com-pc-f2.jpg"
+   ]
+  },
+  "agent": "motion-craft"
+ },
+ {
+  "slug": "locomotive-ca",
+  "name": "Locomotive",
+  "url": "https://locomotive.ca/",
+  "source": "direct",
+  "industry": "エージェンシー",
+  "hero_type": "other",
+  "layout": "撮影時はページ最下部（フッター：メニュー・SNS・住所の巨大タイポ）が表示された（scrollY 5698）。本来のヒーローは確認できず。",
+  "image_treatment": "unknown",
+  "typography": "h1 LocomotiveNew 70px（画面外）。フッターの住所をアイコン混じりの大きなセリフ体で組む。",
+  "cta": "『Let's talk』（右上）。",
+  "motion": "f0（0.8s）黒地に『Digital-First Design / Based in Montreal』がランダムな文字から組み上がる（スクランブル/デコード演出）→ f1（3s）灰色の半透明が重なった状態 → f2（6s）白地のフッター表示。",
+  "tech": "meta：video 1440×900（loop、playing=true）、libsはグローバル検出なし。",
+  "mobile": "SPもフッターが表示された。",
+  "why_good": "unknown（ヒーロー本来の状態を確認できていない）。",
+  "idea_for_telemo": "（手法のみ）文字スクランブルはAI感の演出になるが、明朝の日本語見出しには不向き。使うなら英字の小見出し（例：AI CALL CENTER）に限り0.6s以内。",
+  "tags": [
+   "text-scramble",
+   "preloader"
+  ],
+  "score": 1,
+  "shots": {
+   "pc": "locomotive-ca-pc-f2.jpg",
+   "sp": "locomotive-ca-sp.jpg",
+   "scroll": "locomotive-ca-pc-scroll.jpg",
+   "frames": [
+    "locomotive-ca-pc-f0.jpg",
+    "locomotive-ca-pc-f1.jpg",
+    "locomotive-ca-pc-f2.jpg"
+   ]
+  },
+  "agent": "motion-craft"
+ },
+ {
+  "slug": "obys-agency",
+  "name": "Obys Agency",
+  "url": "https://obys.agency/",
+  "source": "direct",
+  "industry": "エージェンシー",
+  "hero_type": "other",
+  "layout": "黒地中央に小さな要素だけ（円形マーク → 小さな画像カード）。6秒時点でヒーローの完成形は確認できず。",
+  "image_treatment": "小さな正方形フレームの中でモノクロ画像が切り替わる。",
+  "typography": "unknown（h1検出なし）。",
+  "cta": "unknown（検出なし）。",
+  "motion": "f0（0.8s）真っ黒 → f1（3s）円形マーク → f2（6s）中央に小さな画像カード → スクロール700pxで小さな画像が縦に積まれる。長いイントロ。",
+  "tech": "meta：canvas 1440×900。video・libsはグローバル検出なし。",
+  "mobile": "SPは黒地に円形マーク（イントロ中）。",
+  "why_good": "unknown（イントロ途中までしか確認できていない）。",
+  "idea_for_telemo": "転用なし。",
+  "tags": [
+   "preloader",
+   "intro-sequence",
+   "canvas"
+  ],
+  "score": 1,
+  "shots": {
+   "pc": "obys-agency-pc-f2.jpg",
+   "sp": "obys-agency-sp.jpg",
+   "scroll": "obys-agency-pc-scroll.jpg",
+   "frames": [
+    "obys-agency-pc-f0.jpg",
+    "obys-agency-pc-f1.jpg",
+    "obys-agency-pc-f2.jpg"
+   ]
+  },
+  "agent": "motion-craft"
+ },
+ {
+  "slug": "unseen-co",
+  "name": "Unseen Studio",
+  "url": "https://unseen.co/",
+  "source": "direct",
+  "industry": "エージェンシー",
+  "hero_type": "illustration",
+  "layout": "ピンクベージュ地の中央に、目のイラスト・社名・説明文・『Enter』ボタン、最下部に『ENTER WITHOUT AUDIO』。入場ゲート型。",
+  "image_treatment": "線画イラストのみ。",
+  "typography": "社名と3行の説明文を中央に小さく。",
+  "cta": "白いピル『Enter』＋下部のテキストリンク『ENTER WITHOUT AUDIO』。",
+  "motion": "f0（0.8s）中央に『N』→ f1（3s）『N』が小さくなる → f2（6s）目のイラスト＋Enterボタンが出現。Enterを押すまで本編に入らない。",
+  "tech": "meta：canvas 1440×900。libsはグローバル検出なし。",
+  "mobile": "同じゲートを縦に配置。",
+  "why_good": "（参考外）",
+  "idea_for_telemo": "転用なし（入場ゲートはB2B LPに不向き）。",
+  "tags": [
+   "enter-gate",
+   "sound",
+   "illustration"
+  ],
+  "score": 1,
+  "shots": {
+   "pc": "unseen-co-pc-f2.jpg",
+   "sp": "unseen-co-sp.jpg",
+   "scroll": "unseen-co-pc-scroll.jpg",
+   "frames": [
+    "unseen-co-pc-f0.jpg",
+    "unseen-co-pc-f1.jpg",
+    "unseen-co-pc-f2.jpg"
+   ]
+  },
+  "agent": "motion-craft"
+ },
+ {
+  "slug": "homunculus-jp",
+  "name": "homunculus",
+  "url": "https://homunculus.jp/",
+  "source": "direct",
+  "industry": "映像・クリエイティブスタジオ（東京）",
+  "hero_type": "other",
+  "layout": "黒地中央に『homunculus Inc.』『Enter / with Sound』、下に『without Sound』。背後に大きな円形のリムライト。入場ゲート型。",
+  "image_treatment": "黒地に円の縁だけが光る。",
+  "typography": "社名を中央に小さく。",
+  "cta": "枠線のピル『Enter』（with Sound）＋テキストリンク『without Sound』。",
+  "motion": "f0（0.8s）黒地に小さなプログレスバー → f1（3s）バー満了 → f2（6s）円形の光の縁が現れ、Enterゲートを表示。",
+  "tech": "meta：canvas 1440×900。video・libsなし。",
+  "mobile": "同じゲートを縦に配置。",
+  "why_good": "（参考外）",
+  "idea_for_telemo": "転用なし（音ありの体験を前提にした入場ゲートは営業LPに不向き）。",
+  "tags": [
+   "enter-gate",
+   "sound",
+   "preloader"
+  ],
+  "score": 1,
+  "shots": {
+   "pc": "homunculus-jp-pc-f2.jpg",
+   "sp": "homunculus-jp-sp.jpg",
+   "scroll": "homunculus-jp-pc-scroll.jpg",
+   "frames": [
+    "homunculus-jp-pc-f0.jpg",
+    "homunculus-jp-pc-f1.jpg",
+    "homunculus-jp-pc-f2.jpg"
+   ]
+  },
+  "agent": "motion-craft"
+ },
+ {
+  "slug": "sony-com-ja-sonyinfo",
+  "name": "ソニーグループポータル",
+  "url": "https://www.sony.com/ja/SonyInfo/",
+  "source": "direct",
+  "industry": "コーポレート",
+  "hero_type": "slider-carousel",
+  "layout": "キービジュアルの横スライダー（中央が大きく、左右の隣スライドが見切れる）、下にキャプションと左右矢印、ドット。",
+  "image_treatment": "各事業の広告ビジュアル（映画・ゲーム）をそのまま使用。",
+  "typography": "見出しは画像内。キャプションは小さめの SST。",
+  "cta": "スライドごとの小さなボタン。",
+  "motion": "f0〜f1 同じスライド → f2（6s）次スライドへ自動送り（左へスライド）。数秒ごとの自動カルーセル。",
+  "tech": "meta：swiper=true。video・canvasなし。",
+  "mobile": "SPはCookie設定画面が全面を覆っており確認できず（unknown）。",
+  "why_good": "（映像表現としては参考外）多事業の告知を並べる実務的な構成。",
+  "idea_for_telemo": "転用なし（自動カルーセルは静かなドキュメンタリー表現と逆方向）。",
+  "tags": [
+   "slider",
+   "swiper",
+   "autoplay-carousel"
+  ],
+  "score": 1,
+  "shots": {
+   "pc": "sony-com-ja-sonyinfo-pc-f0.jpg",
+   "sp": "sony-com-ja-sonyinfo-sp.jpg",
+   "scroll": "sony-com-ja-sonyinfo-pc-scroll.jpg",
+   "frames": [
+    "sony-com-ja-sonyinfo-pc-f0.jpg",
+    "sony-com-ja-sonyinfo-pc-f1.jpg",
+    "sony-com-ja-sonyinfo-pc-f2.jpg"
+   ]
+  },
+  "agent": "motion-craft"
+ }
+]

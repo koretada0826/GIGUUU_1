@@ -1,0 +1,4262 @@
+[
+  {
+    "id": "16-manerepi",
+    "width": 1440,
+    "height": 1000,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 68,
+      "width": 1440,
+      "height": 932,
+      "right": 1440,
+      "bottom": 1000
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 526.137939453125,
+          "y": 277.21331787109375,
+          "width": 384.52044677734375,
+          "height": 125.2230224609375,
+          "right": 910.6583862304688,
+          "bottom": 402.43634033203125
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 531.0238647460938,
+          "y": 417.1280517578125,
+          "width": 382.86602783203125,
+          "height": 77.84564208984375,
+          "right": 913.889892578125,
+          "bottom": 494.97369384765625
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 534.4647216796875,
+          "y": 523.2294921875,
+          "width": 165.78466796875,
+          "height": 59.69061279296875,
+          "right": 700.2493896484375,
+          "bottom": 582.9201049804688
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 722.5247192382812,
+          "y": 523.724365234375,
+          "width": 106.47161865234375,
+          "height": 47.6376953125,
+          "right": 828.996337890625,
+          "bottom": 571.362060546875
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "15-m3e",
+    "width": 1440,
+    "height": 1000,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 68,
+      "width": 1440,
+      "height": 932,
+      "right": 1440,
+      "bottom": 1000
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 734.390625,
+          "y": 238,
+          "width": 411.3125,
+          "height": 120.96875,
+          "right": 1145.703125,
+          "bottom": 358.96875
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 734.390625,
+          "y": 386.96875,
+          "width": 411.3125,
+          "height": 68,
+          "right": 1145.703125,
+          "bottom": 454.96875
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 734.390625,
+          "y": 488.96875,
+          "width": 164,
+          "height": 54,
+          "right": 898.390625,
+          "bottom": 542.96875
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 922.390625,
+          "y": 493.96875,
+          "width": 105,
+          "height": 44,
+          "right": 1027.390625,
+          "bottom": 537.96875
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "16-manerepi",
+    "width": 1280,
+    "height": 900,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 68,
+      "width": 1280,
+      "height": 832,
+      "right": 1280,
+      "bottom": 900
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 446.1379089355469,
+          "y": 277.21331787109375,
+          "width": 384.5204772949219,
+          "height": 125.2230224609375,
+          "right": 830.6583862304688,
+          "bottom": 402.43634033203125
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 451.02386474609375,
+          "y": 417.1280517578125,
+          "width": 382.86602783203125,
+          "height": 77.84564208984375,
+          "right": 833.889892578125,
+          "bottom": 494.97369384765625
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 454.4647216796875,
+          "y": 523.2294921875,
+          "width": 165.78466796875,
+          "height": 59.69061279296875,
+          "right": 620.2493896484375,
+          "bottom": 582.9201049804688
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 642.5247192382812,
+          "y": 523.724365234375,
+          "width": 106.47161865234375,
+          "height": 47.6376953125,
+          "right": 748.996337890625,
+          "bottom": 571.362060546875
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "15-m3e",
+    "width": 1280,
+    "height": 900,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 68,
+      "width": 1280,
+      "height": 832,
+      "right": 1280,
+      "bottom": 900
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 652.796875,
+          "y": 238,
+          "width": 365.609375,
+          "height": 107.53125,
+          "right": 1018.40625,
+          "bottom": 345.53125
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 652.796875,
+          "y": 373.53125,
+          "width": 365.609375,
+          "height": 68,
+          "right": 1018.40625,
+          "bottom": 441.53125
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 652.796875,
+          "y": 475.53125,
+          "width": 164,
+          "height": 54,
+          "right": 816.796875,
+          "bottom": 529.53125
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 840.796875,
+          "y": 480.53125,
+          "width": 105,
+          "height": 44,
+          "right": 945.796875,
+          "bottom": 524.53125
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "16-manerepi",
+    "width": 768,
+    "height": 1024,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 60,
+      "width": 768,
+      "height": 760,
+      "right": 768,
+      "bottom": 820
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 46,
+          "y": 207.390625,
+          "width": 266.59375,
+          "height": 78.375,
+          "right": 312.59375,
+          "bottom": 285.765625
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 46,
+          "y": 307.765625,
+          "width": 266.59375,
+          "height": 57.78125,
+          "right": 312.59375,
+          "bottom": 365.546875
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 46,
+          "y": 391.546875,
+          "width": 133,
+          "height": 50,
+          "right": 179,
+          "bottom": 441.546875
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 191,
+          "y": 394.546875,
+          "width": 98,
+          "height": 44,
+          "right": 289,
+          "bottom": 438.546875
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "15-m3e",
+    "width": 768,
+    "height": 1024,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 60,
+      "width": 768,
+      "height": 760,
+      "right": 768,
+      "bottom": 820
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 22,
+          "y": 444,
+          "width": 285.640625,
+          "height": 84,
+          "right": 307.640625,
+          "bottom": 528
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 22,
+          "y": 550,
+          "width": 285.640625,
+          "height": 61.1875,
+          "right": 307.640625,
+          "bottom": 611.1875
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 22,
+          "y": 637.1875,
+          "width": 141,
+          "height": 50,
+          "right": 163,
+          "bottom": 687.1875
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 181,
+          "y": 640.1875,
+          "width": 98,
+          "height": 44,
+          "right": 279,
+          "bottom": 684.1875
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "15-m3e",
+    "width": 390,
+    "height": 844,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 60,
+      "width": 390,
+      "height": 760,
+      "right": 390,
+      "bottom": 820
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 22,
+          "y": 444,
+          "width": 285.640625,
+          "height": 84,
+          "right": 307.640625,
+          "bottom": 528
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 22,
+          "y": 550,
+          "width": 285.640625,
+          "height": 61.1875,
+          "right": 307.640625,
+          "bottom": 611.1875
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 22,
+          "y": 637.1875,
+          "width": 141,
+          "height": 50,
+          "right": 163,
+          "bottom": 687.1875
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 181,
+          "y": 640.1875,
+          "width": 98,
+          "height": 44,
+          "right": 279,
+          "bottom": 684.1875
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "16-manerepi",
+    "width": 390,
+    "height": 844,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 60,
+      "width": 390,
+      "height": 760,
+      "right": 390,
+      "bottom": 820
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 46,
+          "y": 207.390625,
+          "width": 266.59375,
+          "height": 78.375,
+          "right": 312.59375,
+          "bottom": 285.765625
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 46,
+          "y": 307.765625,
+          "width": 266.59375,
+          "height": 57.78125,
+          "right": 312.59375,
+          "bottom": 365.546875
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 46,
+          "y": 391.546875,
+          "width": 133,
+          "height": 50,
+          "right": 179,
+          "bottom": 441.546875
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 191,
+          "y": 394.546875,
+          "width": 98,
+          "height": 44,
+          "right": 289,
+          "bottom": 438.546875
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "17-tama",
+    "width": 1440,
+    "height": 1000,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 68,
+      "width": 1440,
+      "height": 932,
+      "right": 1440,
+      "bottom": 1000
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 529.578125,
+          "y": 430,
+          "width": 380.84375,
+          "height": 112,
+          "right": 910.421875,
+          "bottom": 542
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 529.578125,
+          "y": 570,
+          "width": 380.84375,
+          "height": 68,
+          "right": 910.421875,
+          "bottom": 638
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 529.578125,
+          "y": 672,
+          "width": 164,
+          "height": 54,
+          "right": 693.578125,
+          "bottom": 726
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 717.578125,
+          "y": 677,
+          "width": 105,
+          "height": 44,
+          "right": 822.578125,
+          "bottom": 721
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "18-chalkliner",
+    "width": 1440,
+    "height": 1000,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 68,
+      "width": 1440,
+      "height": 932,
+      "right": 1440,
+      "bottom": 1000
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 110.578125,
+          "y": 315,
+          "width": 439.890625,
+          "height": 141.59375,
+          "right": 550.46875,
+          "bottom": 456.59375
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 110.578125,
+          "y": 476.59375,
+          "width": 439.890625,
+          "height": 68,
+          "right": 550.46875,
+          "bottom": 544.59375
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 110.578125,
+          "y": 564.59375,
+          "width": 164,
+          "height": 54,
+          "right": 274.578125,
+          "bottom": 618.59375
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 298.578125,
+          "y": 569.59375,
+          "width": 105,
+          "height": 44,
+          "right": 403.578125,
+          "bottom": 613.59375
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "17-tama",
+    "width": 1280,
+    "height": 900,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 68,
+      "width": 1280,
+      "height": 832,
+      "right": 1280,
+      "bottom": 900
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 449.578125,
+          "y": 380,
+          "width": 380.84375,
+          "height": 112,
+          "right": 830.421875,
+          "bottom": 492
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 449.578125,
+          "y": 520,
+          "width": 380.84375,
+          "height": 68,
+          "right": 830.421875,
+          "bottom": 588
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 449.578125,
+          "y": 622,
+          "width": 164,
+          "height": 54,
+          "right": 613.578125,
+          "bottom": 676
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 637.578125,
+          "y": 627,
+          "width": 105,
+          "height": 44,
+          "right": 742.578125,
+          "bottom": 671
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "18-chalkliner",
+    "width": 1280,
+    "height": 900,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 68,
+      "width": 1280,
+      "height": 832,
+      "right": 1280,
+      "bottom": 900
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 98.28125,
+          "y": 315,
+          "width": 439.890625,
+          "height": 141.59375,
+          "right": 538.171875,
+          "bottom": 456.59375
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 98.28125,
+          "y": 476.59375,
+          "width": 439.890625,
+          "height": 68,
+          "right": 538.171875,
+          "bottom": 544.59375
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 98.28125,
+          "y": 564.59375,
+          "width": 164,
+          "height": 54,
+          "right": 262.28125,
+          "bottom": 618.59375
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 286.28125,
+          "y": 569.59375,
+          "width": 105,
+          "height": 44,
+          "right": 391.28125,
+          "bottom": 613.59375
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "17-tama",
+    "width": 768,
+    "height": 1024,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 60,
+      "width": 768,
+      "height": 760,
+      "right": 768,
+      "bottom": 820
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 250.703125,
+          "y": 235.34375,
+          "width": 266.59375,
+          "height": 78.375,
+          "right": 517.296875,
+          "bottom": 313.71875
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 250.703125,
+          "y": 335.71875,
+          "width": 266.59375,
+          "height": 57.78125,
+          "right": 517.296875,
+          "bottom": 393.5
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 260.5,
+          "y": 419.5,
+          "width": 141,
+          "height": 50,
+          "right": 401.5,
+          "bottom": 469.5
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 409.5,
+          "y": 422.5,
+          "width": 98,
+          "height": 44,
+          "right": 507.5,
+          "bottom": 466.5
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "18-chalkliner",
+    "width": 768,
+    "height": 1024,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 60,
+      "width": 768,
+      "height": 830,
+      "right": 768,
+      "bottom": 890
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 28,
+          "y": 426,
+          "width": 281.078125,
+          "height": 95.59375,
+          "right": 309.078125,
+          "bottom": 521.59375
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 28,
+          "y": 541.59375,
+          "width": 281.078125,
+          "height": 57.78125,
+          "right": 309.078125,
+          "bottom": 599.375
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 28,
+          "y": 619.375,
+          "width": 141,
+          "height": 50,
+          "right": 169,
+          "bottom": 669.375
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 28,
+          "y": 677.375,
+          "width": 98,
+          "height": 44,
+          "right": 126,
+          "bottom": 721.375
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "17-tama",
+    "width": 390,
+    "height": 844,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 60,
+      "width": 390,
+      "height": 760,
+      "right": 390,
+      "bottom": 820
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 61.703125,
+          "y": 235.34375,
+          "width": 266.59375,
+          "height": 78.375,
+          "right": 328.296875,
+          "bottom": 313.71875
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 61.703125,
+          "y": 335.71875,
+          "width": 266.59375,
+          "height": 57.78125,
+          "right": 328.296875,
+          "bottom": 393.5
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 71.5,
+          "y": 419.5,
+          "width": 141,
+          "height": 50,
+          "right": 212.5,
+          "bottom": 469.5
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 220.5,
+          "y": 422.5,
+          "width": 98,
+          "height": 44,
+          "right": 318.5,
+          "bottom": 466.5
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "18-chalkliner",
+    "width": 390,
+    "height": 844,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 60,
+      "width": 390,
+      "height": 830,
+      "right": 390,
+      "bottom": 890
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 28,
+          "y": 426,
+          "width": 281.078125,
+          "height": 95.59375,
+          "right": 309.078125,
+          "bottom": 521.59375
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 28,
+          "y": 541.59375,
+          "width": 281.078125,
+          "height": 57.78125,
+          "right": 309.078125,
+          "bottom": 599.375
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 28,
+          "y": 619.375,
+          "width": 141,
+          "height": 50,
+          "right": 169,
+          "bottom": 669.375
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 28,
+          "y": 677.375,
+          "width": 98,
+          "height": 44,
+          "right": 126,
+          "bottom": 721.375
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "20-ubie",
+    "width": 1440,
+    "height": 1000,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 68,
+      "width": 1440,
+      "height": 932,
+      "right": 1440,
+      "bottom": 1000
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 520.046875,
+          "y": 308.5,
+          "width": 399.890625,
+          "height": 117.59375,
+          "right": 919.9375,
+          "bottom": 426.09375
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 520.046875,
+          "y": 454.09375,
+          "width": 399.890625,
+          "height": 68,
+          "right": 919.9375,
+          "bottom": 522.09375
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 573.484375,
+          "y": 556.09375,
+          "width": 164,
+          "height": 54,
+          "right": 737.484375,
+          "bottom": 610.09375
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 761.484375,
+          "y": 561.09375,
+          "width": 105,
+          "height": 44,
+          "right": 866.484375,
+          "bottom": 605.09375
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "19-rentaro",
+    "width": 1440,
+    "height": 1000,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 68,
+      "width": 1440,
+      "height": 932,
+      "right": 1440,
+      "bottom": 1000
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 57.59375,
+          "y": 248,
+          "width": 479.859375,
+          "height": 141.125,
+          "right": 537.453125,
+          "bottom": 389.125
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 57.59375,
+          "y": 417.125,
+          "width": 479.859375,
+          "height": 68,
+          "right": 537.453125,
+          "bottom": 485.125
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 57.59375,
+          "y": 519.125,
+          "width": 164,
+          "height": 54,
+          "right": 221.59375,
+          "bottom": 573.125
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 245.59375,
+          "y": 524.125,
+          "width": 105,
+          "height": 44,
+          "right": 350.59375,
+          "bottom": 568.125
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "20-ubie",
+    "width": 1280,
+    "height": 900,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 68,
+      "width": 1280,
+      "height": 832,
+      "right": 1280,
+      "bottom": 900
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 440.046875,
+          "y": 308.5,
+          "width": 399.890625,
+          "height": 117.59375,
+          "right": 839.9375,
+          "bottom": 426.09375
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 440.046875,
+          "y": 454.09375,
+          "width": 399.890625,
+          "height": 68,
+          "right": 839.9375,
+          "bottom": 522.09375
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 493.484375,
+          "y": 556.09375,
+          "width": 164,
+          "height": 54,
+          "right": 657.484375,
+          "bottom": 610.09375
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 681.484375,
+          "y": 561.09375,
+          "width": 105,
+          "height": 44,
+          "right": 786.484375,
+          "bottom": 605.09375
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "19-rentaro",
+    "width": 1280,
+    "height": 900,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 68,
+      "width": 1280,
+      "height": 832,
+      "right": 1280,
+      "bottom": 900
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 51.1875,
+          "y": 248,
+          "width": 426.546875,
+          "height": 125.40625,
+          "right": 477.734375,
+          "bottom": 373.40625
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 51.1875,
+          "y": 401.40625,
+          "width": 426.546875,
+          "height": 68,
+          "right": 477.734375,
+          "bottom": 469.40625
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 51.1875,
+          "y": 503.40625,
+          "width": 164,
+          "height": 54,
+          "right": 215.1875,
+          "bottom": 557.40625
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 239.1875,
+          "y": 508.40625,
+          "width": 105,
+          "height": 44,
+          "right": 344.1875,
+          "bottom": 552.40625
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "20-ubie",
+    "width": 768,
+    "height": 1024,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 60,
+      "width": 768,
+      "height": 800,
+      "right": 768,
+      "bottom": 860
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 241.171875,
+          "y": 252.6875,
+          "width": 285.640625,
+          "height": 84,
+          "right": 526.8125,
+          "bottom": 336.6875
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 241.171875,
+          "y": 358.6875,
+          "width": 285.640625,
+          "height": 61.1875,
+          "right": 526.8125,
+          "bottom": 419.875
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 255.484375,
+          "y": 445.875,
+          "width": 141,
+          "height": 50,
+          "right": 396.484375,
+          "bottom": 495.875
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 414.484375,
+          "y": 448.875,
+          "width": 98,
+          "height": 44,
+          "right": 512.484375,
+          "bottom": 492.875
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "19-rentaro",
+    "width": 768,
+    "height": 1024,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 60,
+      "width": 768,
+      "height": 790,
+      "right": 768,
+      "bottom": 850
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 22,
+          "y": 446,
+          "width": 285.640625,
+          "height": 84,
+          "right": 307.640625,
+          "bottom": 530
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 22,
+          "y": 552,
+          "width": 285.640625,
+          "height": 61.1875,
+          "right": 307.640625,
+          "bottom": 613.1875
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 22,
+          "y": 639.1875,
+          "width": 141,
+          "height": 50,
+          "right": 163,
+          "bottom": 689.1875
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 181,
+          "y": 642.1875,
+          "width": 98,
+          "height": 44,
+          "right": 279,
+          "bottom": 686.1875
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "20-ubie",
+    "width": 390,
+    "height": 844,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 60,
+      "width": 390,
+      "height": 800,
+      "right": 390,
+      "bottom": 860
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 52.171875,
+          "y": 252.6875,
+          "width": 285.640625,
+          "height": 84,
+          "right": 337.8125,
+          "bottom": 336.6875
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 52.171875,
+          "y": 358.6875,
+          "width": 285.640625,
+          "height": 61.1875,
+          "right": 337.8125,
+          "bottom": 419.875
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 66.484375,
+          "y": 445.875,
+          "width": 141,
+          "height": 50,
+          "right": 207.484375,
+          "bottom": 495.875
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 225.484375,
+          "y": 448.875,
+          "width": 98,
+          "height": 44,
+          "right": 323.484375,
+          "bottom": 492.875
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "19-rentaro",
+    "width": 390,
+    "height": 844,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 60,
+      "width": 390,
+      "height": 790,
+      "right": 390,
+      "bottom": 850
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 22,
+          "y": 446,
+          "width": 285.640625,
+          "height": 84,
+          "right": 307.640625,
+          "bottom": 530
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 22,
+          "y": 552,
+          "width": 285.640625,
+          "height": 61.1875,
+          "right": 307.640625,
+          "bottom": 613.1875
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 22,
+          "y": 639.1875,
+          "width": 141,
+          "height": 50,
+          "right": 163,
+          "bottom": 689.1875
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 181,
+          "y": 642.1875,
+          "width": 98,
+          "height": 44,
+          "right": 279,
+          "bottom": 686.1875
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "21-nectar",
+    "width": 1440,
+    "height": 1000,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 68,
+      "width": 1440,
+      "height": 932,
+      "right": 1440,
+      "bottom": 1000
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 57.59375,
+          "y": 308,
+          "width": 399.890625,
+          "height": 117.59375,
+          "right": 457.484375,
+          "bottom": 425.59375
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 57.59375,
+          "y": 453.59375,
+          "width": 399.890625,
+          "height": 68,
+          "right": 457.484375,
+          "bottom": 521.59375
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 57.59375,
+          "y": 555.59375,
+          "width": 164,
+          "height": 54,
+          "right": 221.59375,
+          "bottom": 609.59375
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 245.59375,
+          "y": 560.59375,
+          "width": 105,
+          "height": 44,
+          "right": 350.59375,
+          "bottom": 604.59375
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "22-fabric",
+    "width": 1440,
+    "height": 1000,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 68,
+      "width": 1440,
+      "height": 932,
+      "right": 1440,
+      "bottom": 1000
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 57.59375,
+          "y": 401.1875,
+          "width": 304.6875,
+          "height": 89.59375,
+          "right": 362.28125,
+          "bottom": 490.78125
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 57.59375,
+          "y": 512.78125,
+          "width": 304.6875,
+          "height": 61.1875,
+          "right": 362.28125,
+          "bottom": 573.96875
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 57.59375,
+          "y": 595.96875,
+          "width": 141,
+          "height": 54,
+          "right": 198.59375,
+          "bottom": 649.96875
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 210.59375,
+          "y": 600.96875,
+          "width": 105,
+          "height": 44,
+          "right": 315.59375,
+          "bottom": 644.96875
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "22-fabric",
+    "width": 1280,
+    "height": 900,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 68,
+      "width": 1280,
+      "height": 832,
+      "right": 1280,
+      "bottom": 900
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 51.1875,
+          "y": 376.875,
+          "width": 304.6875,
+          "height": 89.59375,
+          "right": 355.875,
+          "bottom": 466.46875
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 51.1875,
+          "y": 488.46875,
+          "width": 304.6875,
+          "height": 61.1875,
+          "right": 355.875,
+          "bottom": 549.65625
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 51.1875,
+          "y": 571.65625,
+          "width": 141,
+          "height": 54,
+          "right": 192.1875,
+          "bottom": 625.65625
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 204.1875,
+          "y": 576.65625,
+          "width": 105,
+          "height": 44,
+          "right": 309.1875,
+          "bottom": 620.65625
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "21-nectar",
+    "width": 1280,
+    "height": 900,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 68,
+      "width": 1280,
+      "height": 832,
+      "right": 1280,
+      "bottom": 900
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 51.1875,
+          "y": 308,
+          "width": 399.890625,
+          "height": 117.59375,
+          "right": 451.078125,
+          "bottom": 425.59375
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 51.1875,
+          "y": 453.59375,
+          "width": 399.890625,
+          "height": 68,
+          "right": 451.078125,
+          "bottom": 521.59375
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 51.1875,
+          "y": 555.59375,
+          "width": 164,
+          "height": 54,
+          "right": 215.1875,
+          "bottom": 609.59375
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 239.1875,
+          "y": 560.59375,
+          "width": 105,
+          "height": 44,
+          "right": 344.1875,
+          "bottom": 604.59375
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "21-nectar",
+    "width": 768,
+    "height": 1024,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 60,
+      "width": 768,
+      "height": 830,
+      "right": 768,
+      "bottom": 890
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 22,
+          "y": 490,
+          "width": 285.640625,
+          "height": 84,
+          "right": 307.640625,
+          "bottom": 574
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 22,
+          "y": 596,
+          "width": 285.640625,
+          "height": 61.1875,
+          "right": 307.640625,
+          "bottom": 657.1875
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 22,
+          "y": 683.1875,
+          "width": 141,
+          "height": 50,
+          "right": 163,
+          "bottom": 733.1875
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 181,
+          "y": 686.1875,
+          "width": 98,
+          "height": 44,
+          "right": 279,
+          "bottom": 730.1875
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "22-fabric",
+    "width": 768,
+    "height": 1024,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 60,
+      "width": 768,
+      "height": 1000,
+      "right": 768,
+      "bottom": 1060
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 22,
+          "y": 581.09375,
+          "width": 285.640625,
+          "height": 84,
+          "right": 307.640625,
+          "bottom": 665.09375
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 22,
+          "y": 687.09375,
+          "width": 285.640625,
+          "height": 61.1875,
+          "right": 307.640625,
+          "bottom": 748.28125
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 22,
+          "y": 770.28125,
+          "width": 141,
+          "height": 50,
+          "right": 163,
+          "bottom": 820.28125
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 181,
+          "y": 773.28125,
+          "width": 98,
+          "height": 44,
+          "right": 279,
+          "bottom": 817.28125
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "21-nectar",
+    "width": 390,
+    "height": 844,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 60,
+      "width": 390,
+      "height": 830,
+      "right": 390,
+      "bottom": 890
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 22,
+          "y": 490,
+          "width": 285.640625,
+          "height": 84,
+          "right": 307.640625,
+          "bottom": 574
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 22,
+          "y": 596,
+          "width": 285.640625,
+          "height": 61.1875,
+          "right": 307.640625,
+          "bottom": 657.1875
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 22,
+          "y": 683.1875,
+          "width": 141,
+          "height": 50,
+          "right": 163,
+          "bottom": 733.1875
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 181,
+          "y": 686.1875,
+          "width": 98,
+          "height": 44,
+          "right": 279,
+          "bottom": 730.1875
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "22-fabric",
+    "width": 390,
+    "height": 844,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 60,
+      "width": 390,
+      "height": 1000,
+      "right": 390,
+      "bottom": 1060
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 22,
+          "y": 581.09375,
+          "width": 285.640625,
+          "height": 84,
+          "right": 307.640625,
+          "bottom": 665.09375
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 22,
+          "y": 687.09375,
+          "width": 285.640625,
+          "height": 61.1875,
+          "right": 307.640625,
+          "bottom": 748.28125
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 22,
+          "y": 770.28125,
+          "width": 141,
+          "height": 50,
+          "right": 163,
+          "bottom": 820.28125
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 181,
+          "y": 773.28125,
+          "width": 98,
+          "height": 44,
+          "right": 279,
+          "bottom": 817.28125
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "24-famicom",
+    "width": 1440,
+    "height": 1000,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 68,
+      "width": 1440,
+      "height": 932,
+      "right": 1440,
+      "bottom": 1000
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 505.875,
+          "y": 625,
+          "width": 428.25,
+          "height": 89.59375,
+          "right": 934.125,
+          "bottom": 714.59375
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 505.875,
+          "y": 726.59375,
+          "width": 428.25,
+          "height": 30.59375,
+          "right": 934.125,
+          "bottom": 757.1875
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 573.5,
+          "y": 775.1875,
+          "width": 164,
+          "height": 54,
+          "right": 737.5,
+          "bottom": 829.1875
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 761.5,
+          "y": 780.1875,
+          "width": 105,
+          "height": 44,
+          "right": 866.5,
+          "bottom": 824.1875
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "23-sony",
+    "width": 1440,
+    "height": 1000,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 68,
+      "width": 1440,
+      "height": 932,
+      "right": 1440,
+      "bottom": 1000
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 57.59375,
+          "y": 348,
+          "width": 399.890625,
+          "height": 117.59375,
+          "right": 457.484375,
+          "bottom": 465.59375
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 57.59375,
+          "y": 493.59375,
+          "width": 399.890625,
+          "height": 68,
+          "right": 457.484375,
+          "bottom": 561.59375
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 57.59375,
+          "y": 595.59375,
+          "width": 164,
+          "height": 54,
+          "right": 221.59375,
+          "bottom": 649.59375
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 245.59375,
+          "y": 600.59375,
+          "width": 105,
+          "height": 44,
+          "right": 350.59375,
+          "bottom": 644.59375
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "24-famicom",
+    "width": 1280,
+    "height": 900,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 68,
+      "width": 1280,
+      "height": 832,
+      "right": 1280,
+      "bottom": 900
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 425.875,
+          "y": 625,
+          "width": 428.25,
+          "height": 89.59375,
+          "right": 854.125,
+          "bottom": 714.59375
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 425.875,
+          "y": 726.59375,
+          "width": 428.25,
+          "height": 30.59375,
+          "right": 854.125,
+          "bottom": 757.1875
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 493.5,
+          "y": 775.1875,
+          "width": 164,
+          "height": 54,
+          "right": 657.5,
+          "bottom": 829.1875
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 681.5,
+          "y": 780.1875,
+          "width": 105,
+          "height": 44,
+          "right": 786.5,
+          "bottom": 824.1875
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "23-sony",
+    "width": 1280,
+    "height": 900,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 68,
+      "width": 1280,
+      "height": 832,
+      "right": 1280,
+      "bottom": 900
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 51.1875,
+          "y": 348,
+          "width": 399.890625,
+          "height": 117.59375,
+          "right": 451.078125,
+          "bottom": 465.59375
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 51.1875,
+          "y": 493.59375,
+          "width": 399.890625,
+          "height": 68,
+          "right": 451.078125,
+          "bottom": 561.59375
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 51.1875,
+          "y": 595.59375,
+          "width": 164,
+          "height": 54,
+          "right": 215.1875,
+          "bottom": 649.59375
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 239.1875,
+          "y": 600.59375,
+          "width": 105,
+          "height": 44,
+          "right": 344.1875,
+          "bottom": 644.59375
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "24-famicom",
+    "width": 768,
+    "height": 1024,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 60,
+      "width": 768,
+      "height": 780,
+      "right": 768,
+      "bottom": 840
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 22,
+          "y": 494,
+          "width": 285.640625,
+          "height": 84,
+          "right": 307.640625,
+          "bottom": 578
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 22,
+          "y": 598,
+          "width": 285.640625,
+          "height": 61.1875,
+          "right": 307.640625,
+          "bottom": 659.1875
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 22,
+          "y": 684.1875,
+          "width": 141,
+          "height": 50,
+          "right": 163,
+          "bottom": 734.1875
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 181,
+          "y": 687.1875,
+          "width": 98,
+          "height": 44,
+          "right": 279,
+          "bottom": 731.1875
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "23-sony",
+    "width": 768,
+    "height": 1024,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 60,
+      "width": 768,
+      "height": 830,
+      "right": 768,
+      "bottom": 890
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 22,
+          "y": 470,
+          "width": 285.640625,
+          "height": 84,
+          "right": 307.640625,
+          "bottom": 554
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 22,
+          "y": 576,
+          "width": 285.640625,
+          "height": 61.1875,
+          "right": 307.640625,
+          "bottom": 637.1875
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 22,
+          "y": 663.1875,
+          "width": 141,
+          "height": 50,
+          "right": 163,
+          "bottom": 713.1875
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 181,
+          "y": 666.1875,
+          "width": 98,
+          "height": 44,
+          "right": 279,
+          "bottom": 710.1875
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "24-famicom",
+    "width": 390,
+    "height": 844,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 60,
+      "width": 390,
+      "height": 780,
+      "right": 390,
+      "bottom": 840
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 22,
+          "y": 494,
+          "width": 285.640625,
+          "height": 84,
+          "right": 307.640625,
+          "bottom": 578
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 22,
+          "y": 598,
+          "width": 285.640625,
+          "height": 61.1875,
+          "right": 307.640625,
+          "bottom": 659.1875
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 22,
+          "y": 684.1875,
+          "width": 141,
+          "height": 50,
+          "right": 163,
+          "bottom": 734.1875
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 181,
+          "y": 687.1875,
+          "width": 98,
+          "height": 44,
+          "right": 279,
+          "bottom": 731.1875
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "23-sony",
+    "width": 390,
+    "height": 844,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 60,
+      "width": 390,
+      "height": 830,
+      "right": 390,
+      "bottom": 890
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 22,
+          "y": 470,
+          "width": 285.640625,
+          "height": 84,
+          "right": 307.640625,
+          "bottom": 554
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 22,
+          "y": 576,
+          "width": 285.640625,
+          "height": 61.1875,
+          "right": 307.640625,
+          "bottom": 637.1875
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 22,
+          "y": 663.1875,
+          "width": 141,
+          "height": 50,
+          "right": 163,
+          "bottom": 713.1875
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 181,
+          "y": 666.1875,
+          "width": 98,
+          "height": 44,
+          "right": 279,
+          "bottom": 710.1875
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "25-fancl",
+    "width": 1440,
+    "height": 1000,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 68,
+      "width": 1440,
+      "height": 932,
+      "right": 1440,
+      "bottom": 1000
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 520.046875,
+          "y": 322.5,
+          "width": 399.890625,
+          "height": 117.59375,
+          "right": 919.9375,
+          "bottom": 440.09375
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 520.046875,
+          "y": 468.09375,
+          "width": 399.890625,
+          "height": 68,
+          "right": 919.9375,
+          "bottom": 536.09375
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 573.484375,
+          "y": 570.09375,
+          "width": 164,
+          "height": 54,
+          "right": 737.484375,
+          "bottom": 624.09375
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 761.484375,
+          "y": 575.09375,
+          "width": 105,
+          "height": 44,
+          "right": 866.484375,
+          "bottom": 619.09375
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "26-kirin",
+    "width": 1440,
+    "height": 1000,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 68,
+      "width": 1440,
+      "height": 932,
+      "right": 1440,
+      "bottom": 1000
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 57.59375,
+          "y": 318,
+          "width": 399.890625,
+          "height": 117.59375,
+          "right": 457.484375,
+          "bottom": 435.59375
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 57.59375,
+          "y": 463.59375,
+          "width": 399.890625,
+          "height": 68,
+          "right": 457.484375,
+          "bottom": 531.59375
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 57.59375,
+          "y": 565.59375,
+          "width": 164,
+          "height": 54,
+          "right": 221.59375,
+          "bottom": 619.59375
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 245.59375,
+          "y": 570.59375,
+          "width": 105,
+          "height": 44,
+          "right": 350.59375,
+          "bottom": 614.59375
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "25-fancl",
+    "width": 1280,
+    "height": 900,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 68,
+      "width": 1280,
+      "height": 832,
+      "right": 1280,
+      "bottom": 900
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 440.046875,
+          "y": 322.5,
+          "width": 399.890625,
+          "height": 117.59375,
+          "right": 839.9375,
+          "bottom": 440.09375
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 440.046875,
+          "y": 468.09375,
+          "width": 399.890625,
+          "height": 68,
+          "right": 839.9375,
+          "bottom": 536.09375
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 493.484375,
+          "y": 570.09375,
+          "width": 164,
+          "height": 54,
+          "right": 657.484375,
+          "bottom": 624.09375
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 681.484375,
+          "y": 575.09375,
+          "width": 105,
+          "height": 44,
+          "right": 786.484375,
+          "bottom": 619.09375
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "26-kirin",
+    "width": 1280,
+    "height": 900,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 68,
+      "width": 1280,
+      "height": 832,
+      "right": 1280,
+      "bottom": 900
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 51.1875,
+          "y": 318,
+          "width": 399.890625,
+          "height": 117.59375,
+          "right": 451.078125,
+          "bottom": 435.59375
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 51.1875,
+          "y": 463.59375,
+          "width": 399.890625,
+          "height": 68,
+          "right": 451.078125,
+          "bottom": 531.59375
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 51.1875,
+          "y": 565.59375,
+          "width": 164,
+          "height": 54,
+          "right": 215.1875,
+          "bottom": 619.59375
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 239.1875,
+          "y": 570.59375,
+          "width": 105,
+          "height": 44,
+          "right": 344.1875,
+          "bottom": 614.59375
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "25-fancl",
+    "width": 768,
+    "height": 1024,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 60,
+      "width": 768,
+      "height": 820,
+      "right": 768,
+      "bottom": 880
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 241.171875,
+          "y": 260.796875,
+          "width": 285.640625,
+          "height": 84,
+          "right": 526.8125,
+          "bottom": 344.796875
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 241.171875,
+          "y": 366.796875,
+          "width": 285.640625,
+          "height": 61.1875,
+          "right": 526.8125,
+          "bottom": 427.984375
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 255.484375,
+          "y": 453.984375,
+          "width": 141,
+          "height": 50,
+          "right": 396.484375,
+          "bottom": 503.984375
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 414.484375,
+          "y": 456.984375,
+          "width": 98,
+          "height": 44,
+          "right": 512.484375,
+          "bottom": 500.984375
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "26-kirin",
+    "width": 768,
+    "height": 1024,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 60,
+      "width": 768,
+      "height": 880,
+      "right": 768,
+      "bottom": 940
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 22,
+          "y": 470,
+          "width": 285.640625,
+          "height": 84,
+          "right": 307.640625,
+          "bottom": 554
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 22,
+          "y": 576,
+          "width": 285.640625,
+          "height": 61.1875,
+          "right": 307.640625,
+          "bottom": 637.1875
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 22,
+          "y": 663.1875,
+          "width": 141,
+          "height": 50,
+          "right": 163,
+          "bottom": 713.1875
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 181,
+          "y": 666.1875,
+          "width": 98,
+          "height": 44,
+          "right": 279,
+          "bottom": 710.1875
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "26-kirin",
+    "width": 390,
+    "height": 844,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 60,
+      "width": 390,
+      "height": 880,
+      "right": 390,
+      "bottom": 940
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 22,
+          "y": 470,
+          "width": 285.640625,
+          "height": 84,
+          "right": 307.640625,
+          "bottom": 554
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 22,
+          "y": 576,
+          "width": 285.640625,
+          "height": 61.1875,
+          "right": 307.640625,
+          "bottom": 637.1875
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 22,
+          "y": 663.1875,
+          "width": 141,
+          "height": 50,
+          "right": 163,
+          "bottom": 713.1875
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 181,
+          "y": 666.1875,
+          "width": 98,
+          "height": 44,
+          "right": 279,
+          "bottom": 710.1875
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "25-fancl",
+    "width": 390,
+    "height": 844,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 60,
+      "width": 390,
+      "height": 820,
+      "right": 390,
+      "bottom": 880
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 52.171875,
+          "y": 260.796875,
+          "width": 285.640625,
+          "height": 84,
+          "right": 337.8125,
+          "bottom": 344.796875
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 52.171875,
+          "y": 366.796875,
+          "width": 285.640625,
+          "height": 61.1875,
+          "right": 337.8125,
+          "bottom": 427.984375
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 66.484375,
+          "y": 453.984375,
+          "width": 141,
+          "height": 50,
+          "right": 207.484375,
+          "bottom": 503.984375
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 225.484375,
+          "y": 456.984375,
+          "width": 98,
+          "height": 44,
+          "right": 323.484375,
+          "bottom": 500.984375
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "27-coupy",
+    "width": 1440,
+    "height": 1000,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 68,
+      "width": 1440,
+      "height": 932,
+      "right": 1440,
+      "bottom": 1000
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 529.578125,
+          "y": 360.75,
+          "width": 380.84375,
+          "height": 112,
+          "right": 910.421875,
+          "bottom": 472.75
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 529.578125,
+          "y": 500.75,
+          "width": 380.84375,
+          "height": 68,
+          "right": 910.421875,
+          "bottom": 568.75
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 573.5,
+          "y": 602.75,
+          "width": 164,
+          "height": 54,
+          "right": 737.5,
+          "bottom": 656.75
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 761.5,
+          "y": 607.75,
+          "width": 105,
+          "height": 44,
+          "right": 866.5,
+          "bottom": 651.75
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "28-potapota",
+    "width": 1440,
+    "height": 1000,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 68,
+      "width": 1440,
+      "height": 932,
+      "right": 1440,
+      "bottom": 1000
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 548.609375,
+          "y": 537.890625,
+          "width": 342.765625,
+          "height": 100.78125,
+          "right": 891.375,
+          "bottom": 638.671875
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 548.609375,
+          "y": 658.671875,
+          "width": 342.765625,
+          "height": 64.59375,
+          "right": 891.375,
+          "bottom": 723.265625
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 573.484375,
+          "y": 743.265625,
+          "width": 164,
+          "height": 54,
+          "right": 737.484375,
+          "bottom": 797.265625
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 761.484375,
+          "y": 748.265625,
+          "width": 105,
+          "height": 44,
+          "right": 866.484375,
+          "bottom": 792.265625
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "27-coupy",
+    "width": 1280,
+    "height": 900,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 68,
+      "width": 1280,
+      "height": 832,
+      "right": 1280,
+      "bottom": 900
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 449.578125,
+          "y": 360.75,
+          "width": 380.84375,
+          "height": 112,
+          "right": 830.421875,
+          "bottom": 472.75
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 449.578125,
+          "y": 500.75,
+          "width": 380.84375,
+          "height": 68,
+          "right": 830.421875,
+          "bottom": 568.75
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 493.5,
+          "y": 602.75,
+          "width": 164,
+          "height": 54,
+          "right": 657.5,
+          "bottom": 656.75
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 681.5,
+          "y": 607.75,
+          "width": 105,
+          "height": 44,
+          "right": 786.5,
+          "bottom": 651.75
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "28-potapota",
+    "width": 1280,
+    "height": 900,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 68,
+      "width": 1280,
+      "height": 832,
+      "right": 1280,
+      "bottom": 900
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 468.609375,
+          "y": 537.890625,
+          "width": 342.765625,
+          "height": 100.78125,
+          "right": 811.375,
+          "bottom": 638.671875
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 468.609375,
+          "y": 658.671875,
+          "width": 342.765625,
+          "height": 64.59375,
+          "right": 811.375,
+          "bottom": 723.265625
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 493.484375,
+          "y": 743.265625,
+          "width": 164,
+          "height": 54,
+          "right": 657.484375,
+          "bottom": 797.265625
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 681.484375,
+          "y": 748.265625,
+          "width": 105,
+          "height": 44,
+          "right": 786.484375,
+          "bottom": 792.265625
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "28-potapota",
+    "width": 768,
+    "height": 1024,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 60,
+      "width": 768,
+      "height": 840,
+      "right": 768,
+      "bottom": 900
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 241.171875,
+          "y": 452.84375,
+          "width": 285.640625,
+          "height": 84,
+          "right": 526.8125,
+          "bottom": 536.84375
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 241.171875,
+          "y": 556.84375,
+          "width": 285.640625,
+          "height": 61.1875,
+          "right": 526.8125,
+          "bottom": 618.03125
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 241.171875,
+          "y": 644.03125,
+          "width": 141,
+          "height": 50,
+          "right": 382.171875,
+          "bottom": 694.03125
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 400.171875,
+          "y": 647.03125,
+          "width": 98,
+          "height": 44,
+          "right": 498.171875,
+          "bottom": 691.03125
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "27-coupy",
+    "width": 768,
+    "height": 1024,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 60,
+      "width": 768,
+      "height": 830,
+      "right": 768,
+      "bottom": 890
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 241.171875,
+          "y": 283.390625,
+          "width": 285.640625,
+          "height": 84,
+          "right": 526.8125,
+          "bottom": 367.390625
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 241.171875,
+          "y": 389.390625,
+          "width": 285.640625,
+          "height": 61.1875,
+          "right": 526.8125,
+          "bottom": 450.578125
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 255.484375,
+          "y": 476.578125,
+          "width": 141,
+          "height": 50,
+          "right": 396.484375,
+          "bottom": 526.578125
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 414.484375,
+          "y": 479.578125,
+          "width": 98,
+          "height": 44,
+          "right": 512.484375,
+          "bottom": 523.578125
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "28-potapota",
+    "width": 390,
+    "height": 844,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 60,
+      "width": 390,
+      "height": 840,
+      "right": 390,
+      "bottom": 900
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 52.171875,
+          "y": 452.84375,
+          "width": 285.640625,
+          "height": 84,
+          "right": 337.8125,
+          "bottom": 536.84375
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 52.171875,
+          "y": 556.84375,
+          "width": 285.640625,
+          "height": 61.1875,
+          "right": 337.8125,
+          "bottom": 618.03125
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 52.171875,
+          "y": 644.03125,
+          "width": 141,
+          "height": 50,
+          "right": 193.171875,
+          "bottom": 694.03125
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 211.171875,
+          "y": 647.03125,
+          "width": 98,
+          "height": 44,
+          "right": 309.171875,
+          "bottom": 691.03125
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "27-coupy",
+    "width": 390,
+    "height": 844,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 60,
+      "width": 390,
+      "height": 830,
+      "right": 390,
+      "bottom": 890
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 52.171875,
+          "y": 283.390625,
+          "width": 285.640625,
+          "height": 84,
+          "right": 337.8125,
+          "bottom": 367.390625
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 52.171875,
+          "y": 389.390625,
+          "width": 285.640625,
+          "height": 61.1875,
+          "right": 337.8125,
+          "bottom": 450.578125
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 66.484375,
+          "y": 476.578125,
+          "width": 141,
+          "height": 50,
+          "right": 207.484375,
+          "bottom": 526.578125
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 225.484375,
+          "y": 479.578125,
+          "width": 98,
+          "height": 44,
+          "right": 323.484375,
+          "bottom": 523.578125
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "29-hibikibi",
+    "width": 1440,
+    "height": 1000,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 68,
+      "width": 1440,
+      "height": 932,
+      "right": 1440,
+      "bottom": 1000
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 989.890625,
+          "y": 627.75,
+          "width": 323.71875,
+          "height": 95.1875,
+          "right": 1313.609375,
+          "bottom": 722.9375
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 989.890625,
+          "y": 744.9375,
+          "width": 323.71875,
+          "height": 61.1875,
+          "right": 1313.609375,
+          "bottom": 806.125
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 989.890625,
+          "y": 828.125,
+          "width": 164,
+          "height": 54,
+          "right": 1153.890625,
+          "bottom": 882.125
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 1177.890625,
+          "y": 833.125,
+          "width": 105,
+          "height": 44,
+          "right": 1282.890625,
+          "bottom": 877.125
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "29-hibikibi",
+    "width": 1280,
+    "height": 900,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 68,
+      "width": 1280,
+      "height": 832,
+      "right": 1280,
+      "bottom": 900
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 839.484375,
+          "y": 536.75,
+          "width": 323.71875,
+          "height": 95.1875,
+          "right": 1163.203125,
+          "bottom": 631.9375
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 839.484375,
+          "y": 653.9375,
+          "width": 323.71875,
+          "height": 61.1875,
+          "right": 1163.203125,
+          "bottom": 715.125
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 839.484375,
+          "y": 737.125,
+          "width": 164,
+          "height": 54,
+          "right": 1003.484375,
+          "bottom": 791.125
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 1027.484375,
+          "y": 742.125,
+          "width": 105,
+          "height": 44,
+          "right": 1132.484375,
+          "bottom": 786.125
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "29-hibikibi",
+    "width": 768,
+    "height": 1024,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 60,
+      "width": 768,
+      "height": 890,
+      "right": 768,
+      "bottom": 950
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 44,
+          "y": 526,
+          "width": 680,
+          "height": 78.375,
+          "right": 724,
+          "bottom": 604.375
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 44,
+          "y": 626.375,
+          "width": 680,
+          "height": 57.78125,
+          "right": 724,
+          "bottom": 684.15625
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 44,
+          "y": 706.15625,
+          "width": 133,
+          "height": 50,
+          "right": 177,
+          "bottom": 756.15625
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 187,
+          "y": 709.15625,
+          "width": 98,
+          "height": 44,
+          "right": 285,
+          "bottom": 753.15625
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  },
+  {
+    "id": "29-hibikibi",
+    "width": 390,
+    "height": 844,
+    "overflow": false,
+    "broken": [],
+    "clipping": [],
+    "overlap": [],
+    "headline": "営業電話は、TELEMOがかけます。",
+    "hero": {
+      "x": 0,
+      "y": 60,
+      "width": 390,
+      "height": 890,
+      "right": 390,
+      "bottom": 950
+    },
+    "critical": [
+      {
+        "text": "営業電話は、TELEMOがかけます。",
+        "box": {
+          "x": 44,
+          "y": 526,
+          "width": 302,
+          "height": 78.375,
+          "right": 346,
+          "bottom": 604.375
+        }
+      },
+      {
+        "text": "商品説明から意向確認まで、AIが電話で対応します。",
+        "box": {
+          "x": 44,
+          "y": 626.375,
+          "width": 302,
+          "height": 57.78125,
+          "right": 346,
+          "bottom": 684.15625
+        }
+      },
+      {
+        "text": "音声デモを聴く",
+        "box": {
+          "x": 44,
+          "y": 706.15625,
+          "width": 133,
+          "height": 50,
+          "right": 177,
+          "bottom": 756.15625
+        }
+      },
+      {
+        "text": "導入を相談する",
+        "box": {
+          "x": 187,
+          "y": 709.15625,
+          "width": 98,
+          "height": 44,
+          "right": 285,
+          "bottom": 753.15625
+        }
+      }
+    ],
+    "cta": [
+      "../../../index.html#telemo-listen",
+      "../../../index.html#contact"
+    ],
+    "errors": [],
+    "external": [],
+    "passed": true
+  }
+]

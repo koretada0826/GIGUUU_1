@@ -1,0 +1,119 @@
+{
+ "slug": "furazoa-com-recruit",
+ "url": "https://furazoa.com/recruit/",
+ "capturedAt": "2026-10-12 21:16:39",
+ "files": {
+  "pc_f0": "furazoa-com-recruit-pc-f0.jpg",
+  "pc_f1": "furazoa-com-recruit-pc-f1.jpg",
+  "pc_f2": "furazoa-com-recruit-pc-f2.jpg",
+  "pc_scroll": "furazoa-com-recruit-pc-scroll.jpg",
+  "sp": "furazoa-com-recruit-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://furazoa.com/recruit/",
+  "title": "株式会社FURAZOA 採用特設サイト",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 27321,
+  "h1": "自分を成長させるための 最高の場所です。",
+  "h1Style": {
+   "fontFamily": "\"Noto Sans JP\", 游ゴシック体, YuGothic, \"游ゴシック Medium\", \"Yu Gothic Medium\", 游ゴシック, \"Yu Gothic\", source-han-sans-japanese, -app",
+   "fontSize": "79.5px",
+   "fontWeight": "900",
+   "lineHeight": "111.3px",
+   "letterSpacing": "normal",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 283,
+    "y": 203,
+    "w": 875,
+    "h": 223
+   }
+  },
+  "lead": "FURAZOA×ALTOCOLUMNで、 あなたの力を試してみませんか？",
+  "ctas": [
+   "Entry"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://furazoa.com/recruit/img/iosemoji04.png",
+    "w": 80,
+    "h": 80,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Noto Sans JP"
+  ],
+  "libs": {
+   "gsap": true,
+   "ScrollTrigger": true,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(239, 239, 239)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "自分を 成長させるための 最高の場所です。",
+  "h1Style": {
+   "fontFamily": "\"Noto Sans JP\", 游ゴシック体, YuGothic, \"游ゴシック Medium\", \"Yu Gothic Medium\", 游ゴシック, \"Yu Gothic\", source-han-sans-japanese, -app",
+   "fontSize": "41.6005px",
+   "fontWeight": "900",
+   "lineHeight": "54.0807px",
+   "letterSpacing": "normal",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 17,
+    "y": 157,
+    "w": 357,
+    "h": 162
+   }
+  },
+  "lead": "FURAZOA×ALTOCOLUMNで、 あなたの力を試してみませんか？",
+  "ctas": [
+   "Join",
+   "メッセージ Message",
+   "私たちについて What we do",
+   "ビジネスモデル Business",
+   "社内カルチャー Culture",
+   "制作実績 Projects",
+   "募集要項 Job",
+   "よくある質問 FAQ",
+   "Entry",
+   "Menu"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://furazoa.com/recruit/img/iosemoji01.png",
+    "w": 42,
+    "h": 42,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 26898
+ },
+ "elapsedSec": 12.3
+}

@@ -1,0 +1,7 @@
+/*
+CSS Variables
+*/
+:root {
+    --color-brand: #4ba53a;
+    --z-index-section--cookie: 9999;
+}

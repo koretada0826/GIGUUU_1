@@ -1,0 +1,60 @@
+.diff-matrix { margin-top: 32px; }
+.diff-matrix table { width: 100%; table-layout: fixed; border-collapse: collapse; color: #0a2638; font-size: 16px; }
+.diff-matrix__caption { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+.diff-matrix__process-col { width: 24%; }
+.diff-matrix col:nth-child(2) { width: 35%; }
+.diff-matrix th, .diff-matrix td { padding: 12px 24px; border-bottom: 1px solid #d8e5e9; text-align: left; vertical-align: middle; }
+.diff-matrix thead th { height: 80px; background: #eef2f5; border: 0; font-size: 20px; font-weight: 800; }
+.diff-matrix thead .diff-matrix__other-head { background: #52626e; text-align: center; color: white; font-size: 24px; }
+.diff-matrix thead .diff-matrix__ai-head { background: #008492; text-align: center; color: white; font-size: 30px; letter-spacing: .04em; }
+.diff-matrix small { display: block; margin-top: 3px; font-size: 12px; line-height: 1.45; font-weight: 500; color: #52626e; }
+.diff-matrix thead small { color: inherit; font-size: 12px; }
+.diff-matrix tbody th { background: #f5f7f9; font-size: 17px; font-weight: 800; }
+.diff-matrix__step { float: left; margin: 0 20px 0 0; color: #008492; font: 700 20px/1.5 "Space Grotesk", sans-serif; }
+.diff-matrix tbody th > span:last-child { display: block; overflow: hidden; }
+.diff-matrix__cell { display: flex; align-items: center; gap: 22px; min-height: 39px; }
+.diff-matrix__cell strong { font-weight: 700; font-size: 16px; }
+.diff-matrix__icon { flex: 0 0 32px; width: 32px; height: 32px; object-fit: contain; filter: invert(12%) sepia(22%) saturate(1868%) hue-rotate(157deg) brightness(89%) contrast(99%); }
+.diff-matrix__icon.diff-matrix__status { flex-basis: 25px; width: 25px; height: 25px; filter: invert(67%); }
+.diff-matrix td.diff-matrix__ai { background: #eef9fb; }
+.diff-matrix__ai .diff-matrix__icon { filter: invert(36%) sepia(85%) saturate(902%) hue-rotate(145deg) brightness(88%) contrast(103%); }
+.diff-matrix tfoot th, .diff-matrix tfoot td { border-top: 8px solid white; border-bottom: 0; background: #eef2f5; text-align: center; padding: 13px 16px; font-size: 16px; }
+.diff-matrix tfoot .diff-matrix__ai { color: #008492; }
+.diff-matrix__qualification { margin: 12px 0 0; text-align: right; color: #52626e; font-size: 12px; }
+.diff-matrix__pricing { display: grid; grid-template-columns: 1.1fr 1fr 1fr 1.25fr .8fr; margin-top: 22px; align-items: center; }
+.diff-matrix__pricing p { margin: 0; padding: 0 16px; text-align: center; border-right: 1px solid #bdcdd5; }
+.diff-matrix__pricing p:last-child { border: 0; }
+.diff-matrix__pricing .diff-matrix__pricing-label { align-self: stretch; display: grid; place-content: center; padding: 16px; margin-right: 16px; background: #eef2f5; border: 0; font-weight: 700; }
+.diff-matrix__pricing span, .diff-matrix__pricing small { display: block; font-size: 11px; color: #52626e; line-height: 1.5; }
+.diff-matrix__pricing strong { display: block; white-space: nowrap; font-size: 16px; line-height: 1.3; }
+.diff-matrix__pricing b { font: 700 clamp(26px, 2.7vw, 38px)/1.35 "Space Grotesk", sans-serif; letter-spacing: -.04em; }
+.diff-matrix__teal strong { color: #008492; }
+.page-home #telemo-diff .telemo-diff__answer { margin-top: 32px; }
+@media(max-width: 900px) {
+  .diff-matrix th, .diff-matrix td { padding: 12px; }
+  .diff-matrix__cell { gap: 12px; }
+  .diff-matrix__cell > .diff-matrix__icon:first-child { display: none; }
+  .diff-matrix__step { margin-right: 10px; }
+  .diff-matrix thead .diff-matrix__other-head { font-size: 18px; }
+  .diff-matrix__pricing { grid-template-columns: repeat(4, 1fr); gap: 16px 0; }
+  .diff-matrix__pricing .diff-matrix__pricing-label { grid-column: 1/-1; margin: 0; padding: 12px; }
+}
+@media(max-width: 600px) {
+  .page-home main > #telemo-diff { padding: 56px 16px; }
+  .diff-matrix col:nth-child(2) { width: 31%; }
+  .diff-matrix__process-col { width: 30%; }
+  .diff-matrix thead th { height: 76px; padding: 10px 6px; font-size: 12px; }
+  .diff-matrix thead .diff-matrix__other-head { font-size: 13px; }
+  .diff-matrix thead .diff-matrix__ai-head { font-size: 19px; }
+  .diff-matrix thead small { font-size: 9px; letter-spacing: 0; }
+  .diff-matrix th, .diff-matrix td { padding: 12px 8px; }
+  .diff-matrix tbody th, .diff-matrix__cell strong { font-size: 12px; }
+  .diff-matrix small { font-size: 10px; }
+  .diff-matrix__step { float: none; display: block; margin: 0 0 2px; font-size: 13px; }
+  .diff-matrix__cell { gap: 5px; min-height: 48px; }
+  .diff-matrix__icon.diff-matrix__status { flex-basis: 16px; width: 16px; height: 16px; }
+  .diff-matrix tfoot th, .diff-matrix tfoot td { padding: 12px 6px; font-size: 11px; }
+  .diff-matrix__pricing { grid-template-columns: 1fr 1fr; gap: 20px 0; }
+  .diff-matrix__pricing p:nth-child(3) { border: 0; }
+  .diff-matrix__pricing b { font-size: 30px; }
+}

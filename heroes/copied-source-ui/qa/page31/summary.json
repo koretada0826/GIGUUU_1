@@ -1,0 +1,22 @@
+{
+  "ui_proposals_added": 15,
+  "ui_proposals_total": 29,
+  "layout_cases": 60,
+  "layout_passed": true,
+  "gallery_widths": 4,
+  "reference_viewers_checked": 15,
+  "cta_navigation_passed": true,
+  "taste_reports": 15,
+  "taste_failures": 0,
+  "taste_scope_exceptions": [
+    "few-pictures",
+    "still-page"
+  ],
+  "top_level_sources_unchanged": true,
+  "generated_assets": 6,
+  "source_live_status": {
+    "200": 13,
+    "403": 1,
+    "404": 1
+  }
+}

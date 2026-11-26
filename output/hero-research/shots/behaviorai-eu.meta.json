@@ -1,0 +1,162 @@
+{
+ "slug": "behaviorai-eu",
+ "url": "https://www.behaviorai.eu/",
+ "capturedAt": "2026-10-12 21:26:53",
+ "files": {
+  "pc_f0": "behaviorai-eu-pc-f0.jpg",
+  "pc_f1": "behaviorai-eu-pc-f1.jpg",
+  "pc_f2": "behaviorai-eu-pc-f2.jpg",
+  "pc_scroll": "behaviorai-eu-pc-scroll.jpg",
+  "sp": "behaviorai-eu-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.behaviorai.eu/",
+  "title": "BehaviorAI",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 7628,
+  "h1": "Pattern Library for Human-AI Interaction",
+  "h1Style": {
+   "fontFamily": "\"Geist Variablefont Wght\", Arial, sans-serif",
+   "fontSize": "64px",
+   "fontWeight": "600",
+   "lineHeight": "64px",
+   "letterSpacing": "-1.6px",
+   "color": "rgb(0, 0, 0)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 155,
+    "y": 315,
+    "w": 640,
+    "h": 128
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "Log in",
+   "Join Beta",
+   "Join now"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://cdn.prod.website-files.com/6980802a3bbbf36f28d00df8/69d4bfcbedf72957721c6b33_BAI-logo-icon.png",
+    "w": 48,
+    "h": 48,
+    "alt": "Behaviorai logo"
+   },
+   {
+    "src": "https://cdn.prod.website-files.com/6980802a3bbbf36f28d00df8/6981d57dd2fe0504c7f9f50c_eu.avif",
+    "w": 176,
+    "h": 45,
+    "alt": "European Union Banner"
+   },
+   {
+    "src": "https://imagedelivery.net/xRm6fvl9KZkhB8u8H7YjfQ/39a517c1-9112-4cc5-663e-703983049c00/cover600x396",
+    "w": 790,
+    "h": 519,
+    "alt": "Figma Weave app screenshot"
+   },
+   {
+    "src": "https://imagedelivery.net/xRm6fvl9KZkhB8u8H7YjfQ/73863b25-f1b1-461e-feae-5881d040d200/cover600x396",
+    "w": 790,
+    "h": 519,
+    "alt": "video cover"
+   },
+   {
+    "src": "https://imagedelivery.net/xRm6fvl9KZkhB8u8H7YjfQ/3555714d-90a0-4dd7-1f5a-9dce61001a00/cover600x396",
+    "w": 790,
+    "h": 519,
+    "alt": "video cover"
+   },
+   {
+    "src": "https://cdn.prod.website-files.com/6980802a3bbbf36f28d00df8/69de2a2c08fce3eeeb2aaad0_Grid-cta-hero.avif",
+    "w": 507,
+    "h": 80,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [
+   {
+    "bg": "url(\"https://customer-71jg1134ri509hio.cloudflarestream.com/8da331b6b89076f1712638af9fff1983/thumbnails/thumbnail.jpg?time=1s&height=2000\")",
+    "w": 790,
+    "h": 519
+   },
+   {
+    "bg": "url(\"https://customer-71jg1134ri509hio.cloudflarestream.com/47d91052a4a322ee3916ce4803559941/thumbnails/thumbnail.jpg?time=1s&height=2000\")",
+    "w": 790,
+    "h": 519
+   },
+   {
+    "bg": "url(\"https://customer-71jg1134ri509hio.cloudflarestream.com/3db2b9674ab79c661e5e6dc604e24787/thumbnails/thumbnail.jpg?time=1s&height=2000\")",
+    "w": 790,
+    "h": 519
+   }
+  ],
+  "firstScreenFonts": [
+   "Geist Variablefont Wght"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "Pattern Library for Human-AI Interaction",
+  "h1Style": {
+   "fontFamily": "\"Geist Variablefont Wght\", Arial, sans-serif",
+   "fontSize": "44px",
+   "fontWeight": "600",
+   "lineHeight": "44px",
+   "letterSpacing": "-1.1px",
+   "color": "rgb(0, 0, 0)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 16,
+    "y": 160,
+    "w": 358,
+    "h": 132
+   }
+  },
+  "lead": null,
+  "ctas": [],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://imagedelivery.net/xRm6fvl9KZkhB8u8H7YjfQ/39a517c1-9112-4cc5-663e-703983049c00/cover600x396",
+    "w": 356,
+    "h": 234,
+    "alt": "Figma Weave app screenshot"
+   },
+   {
+    "src": "https://imagedelivery.net/xRm6fvl9KZkhB8u8H7YjfQ/73863b25-f1b1-461e-feae-5881d040d200/cover600x396",
+    "w": 356,
+    "h": 234,
+    "alt": "video cover"
+   }
+  ],
+  "pageHeight": 4771
+ },
+ "elapsedSec": 16.6
+}

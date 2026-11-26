@@ -1,0 +1,708 @@
+[
+  {
+    "page": 14,
+    "title": "MIRAFES",
+    "thumbnail": "https://lp.webdesignclip.com/wp-content/uploads/20250818_01-500x817.jpg",
+    "gallery_url": "https://lp.webdesignclip.com/mirafes/",
+    "url": "https://miraisha.net/mirafes/",
+    "id": 1,
+    "live": {
+      "status": 200,
+      "final_url": "https://miraisha.net/mirafes/",
+      "title": "MIRAFES"
+    },
+    "styles": {
+      "background": "rgb(255, 234, 0)",
+      "font": "\"Noto Sans JP\", -apple-system, \"system-ui\", \"Helvetica Neue\", \"Segoe UI\", \"Noto Sans Japanese\", \"ヒラギノ角ゴ ProN W3\", Meiryo, \"sans-serif\"",
+      "h1": []
+    },
+    "observation": "鋭い破片と大きなロゴで紙面を埋める。掲載画像を構図の基準にした。",
+    "reference_basis": "Web Design Clip掲載画像",
+    "checked_at": "2026-11-04"
+  },
+  {
+    "page": 14,
+    "title": "SI-VIS: The Sound of Heroes",
+    "thumbnail": "https://lp.webdesignclip.com/wp-content/uploads/20250815_01-500x817.jpg",
+    "gallery_url": "https://lp.webdesignclip.com/si-vis-live/",
+    "url": "https://si-vis.live/",
+    "id": 2,
+    "live": {
+      "status": 200,
+      "final_url": "https://si-vis.live/",
+      "title": "『SI-VIS: The Sound of Heroes』 公式サイト"
+    },
+    "styles": {
+      "background": "rgb(243, 252, 255)",
+      "font": "\"Noto Sans JP\", Arial, \"Hiragino Kaku Gothic ProN\", \"Hiragino Sans\", Meiryo, sans-serif",
+      "h1": [
+        {
+          "text": "",
+          "font": "10px"
+        }
+      ]
+    },
+    "observation": "中央の一枚絵、細い縦帯、外側の斜線を重ねる。",
+    "reference_basis": "Web Design Clip掲載画像",
+    "checked_at": "2026-11-04"
+  },
+  {
+    "page": 14,
+    "title": "パイの実｜お口の恋人 ロッテ",
+    "thumbnail": "https://lp.webdesignclip.com/wp-content/uploads/20250814_01-500x817.jpg",
+    "gallery_url": "https://lp.webdesignclip.com/lotte-painomi/",
+    "url": "https://www.lotte.co.jp/products/brand/painomi/",
+    "id": 3,
+    "live": {
+      "status": 200,
+      "final_url": "https://www.lotte.co.jp/products/brand/painomi/",
+      "title": "パイの実（チョコレート パイ）｜チョコレート｜お口の恋人 ロッテ"
+    },
+    "styles": {
+      "background": "rgb(242, 229, 178)",
+      "font": "Roboto, \"Noto Sans JP\", sans-serif",
+      "h1": [
+        {
+          "text": "",
+          "font": "28px"
+        }
+      ]
+    },
+    "observation": "商品とモチーフを白場に散らし、一つの小さな世界をつくる。",
+    "reference_basis": "Web Design Clip掲載画像",
+    "checked_at": "2026-11-04"
+  },
+  {
+    "page": 14,
+    "title": "こどもとかがくとアイパーク | 湘南ヘルスイノベーションパーク (湘南アイパーク)",
+    "thumbnail": "https://lp.webdesignclip.com/wp-content/uploads/20250813_01-500x817.jpg",
+    "gallery_url": "https://lp.webdesignclip.com/shonan-ipark-children/",
+    "url": "https://www.shonan-ipark.com/children/",
+    "id": 4,
+    "live": {
+      "status": 200,
+      "final_url": "https://www.shonan-ipark.com/children/",
+      "title": "こどもとかがくとアイパーク | 湘南ヘルスイノベーションパーク (湘南アイパーク)"
+    },
+    "styles": {
+      "background": "rgb(255, 255, 255)",
+      "font": "\"M PLUS 1p\", sans-serif",
+      "h1": [
+        {
+          "text": "",
+          "font": "20px"
+        }
+      ]
+    },
+    "observation": "短い縦の文字列と平面イラストを交互に配置する。",
+    "reference_basis": "Web Design Clip掲載画像",
+    "checked_at": "2026-11-04"
+  },
+  {
+    "page": 14,
+    "title": "Normal",
+    "thumbnail": "https://lp.webdesignclip.com/wp-content/uploads/20250812_01-500x817.jpg",
+    "gallery_url": "https://lp.webdesignclip.com/normalcomputing/",
+    "url": "https://www.normalcomputing.com/",
+    "id": 5,
+    "live": {
+      "status": 200,
+      "final_url": "https://www.normalcomputing.com/",
+      "title": "Home"
+    },
+    "styles": {
+      "background": "rgb(236, 238, 239)",
+      "font": "Abcdiatype, Arial, sans-serif",
+      "h1": []
+    },
+    "observation": "大きな一枚写真と抑制した文字。現行ページは暗い余白主体へ更新されている。",
+    "reference_basis": "Web Design Clip掲載画像",
+    "checked_at": "2026-11-04"
+  },
+  {
+    "page": 14,
+    "title": "シブヤフードダンジョン | 東急百貨店",
+    "thumbnail": "https://lp.webdesignclip.com/wp-content/uploads/20250811_01-500x817.jpg",
+    "gallery_url": "https://lp.webdesignclip.com/shibuya-food-dungeon/",
+    "url": "https://www.tokyu-dept.co.jp/shibuya-food-dungeon/",
+    "id": 6,
+    "live": {
+      "status": 200,
+      "final_url": "https://www.tokyu-dept.co.jp/shibuya-food-dungeon/",
+      "title": "すとぷり×シブヤフードダンジョン | SHIBUYA FOOD DUNGEON | 渋谷フードダンジョン｜東急百貨店公式ホームページ ｜東急百貨店公式ホームページ"
+    },
+    "styles": {
+      "background": "rgb(255, 237, 242)",
+      "font": "YakuHanJPs, \"Noto Sans JP\", sans-serif",
+      "h1": [
+        {
+          "text": "",
+          "font": "20px"
+        }
+      ]
+    },
+    "observation": "中心のタイトルを切り抜きモチーフが囲む。現行企画は掲載時と異なる。",
+    "reference_basis": "Web Design Clip掲載画像",
+    "checked_at": "2026-11-04"
+  },
+  {
+    "page": 14,
+    "title": "発酵CALPIS PARLOR | カルピス",
+    "thumbnail": "https://lp.webdesignclip.com/wp-content/uploads/20250808_01-500x817.jpg",
+    "gallery_url": "https://lp.webdesignclip.com/hakko-parlor/",
+    "url": "https://www.calpis.info/hakko-parlor/",
+    "id": 7,
+    "live": {
+      "status": 404,
+      "final_url": "https://www.calpis.info/hakko-parlor/",
+      "title": "お探しのページが見つかりません | カラダにピース 「カルピス」"
+    },
+    "styles": {
+      "background": "rgb(255, 255, 255)",
+      "font": "\"ヒラギノ角ゴ Pro W3\", \"Hiragino Kaku Gothic Pro\", メイリオ, Meiryo, Osaka, \"ＭＳ Ｐゴシック\", \"MS PGothic\", sans-serif",
+      "h1": [
+        {
+          "text": "",
+          "font": "14px"
+        }
+      ]
+    },
+    "observation": "小さな商品を中央に置き、広い白場で際立たせる。現行URLは404。",
+    "reference_basis": "Web Design Clip掲載画像",
+    "checked_at": "2026-11-04"
+  },
+  {
+    "page": 14,
+    "title": "Ostermoor",
+    "thumbnail": "https://lp.webdesignclip.com/wp-content/uploads/20250807_01-500x817.jpg",
+    "gallery_url": "https://lp.webdesignclip.com/ostermoor/",
+    "url": "https://ostermoor.com/",
+    "id": 8,
+    "live": {
+      "status": 200,
+      "final_url": "https://ostermoor.com/",
+      "title": "OSTERMOOR | Purveyor of Premium Sleep Essentials Since 1853"
+    },
+    "styles": {
+      "background": "rgb(251, 252, 244)",
+      "font": "\"Untitled Sans\", sans-serif",
+      "h1": [
+        {
+          "text": "Ostermoor",
+          "font": "14px"
+        }
+      ]
+    },
+    "observation": "画面いっぱいの大きなワードマークと素材の接写。",
+    "reference_basis": "Web Design Clip掲載画像",
+    "checked_at": "2026-11-04"
+  },
+  {
+    "page": 14,
+    "title": "映画『ラスト・ブレス』",
+    "thumbnail": "https://lp.webdesignclip.com/wp-content/uploads/20250806_01-500x817.jpg",
+    "gallery_url": "https://lp.webdesignclip.com/lastbreath/",
+    "url": "https://lastbreath.jp/",
+    "id": 9,
+    "live": {
+      "status": 200,
+      "final_url": "https://lastbreath.jp/",
+      "title": "映画『ラスト・ブレス』公式サイト"
+    },
+    "styles": {
+      "background": "rgb(13, 11, 22)",
+      "font": "sans-serif",
+      "h1": []
+    },
+    "observation": "暗い一枚絵、人物や光を一方向に寄せた映画ポスターの構図。",
+    "reference_basis": "Web Design Clip掲載画像",
+    "checked_at": "2026-11-04"
+  },
+  {
+    "page": 14,
+    "title": "雪見だいふく | お口の恋人 ロッテ",
+    "thumbnail": "https://lp.webdesignclip.com/wp-content/uploads/20250805_01-500x817.jpg",
+    "gallery_url": "https://lp.webdesignclip.com/lotte-yukimi/",
+    "url": "https://www.lotte.co.jp/products/brand/yukimi/",
+    "id": 10,
+    "live": {
+      "status": 200,
+      "final_url": "https://www.lotte.co.jp/products/brand/yukimi/",
+      "title": "雪見だいふく | アイス | お口の恋人 ロッテ"
+    },
+    "styles": {
+      "background": "rgb(255, 255, 255)",
+      "font": "tbudrgothic-std, sans-serif",
+      "h1": [
+        {
+          "text": "",
+          "font": "28px"
+        }
+      ]
+    },
+    "observation": "大きな丸い主役と曲線で視線を集める。掲載時と現行の人物・商品配置は異なる。",
+    "reference_basis": "Web Design Clip掲載画像",
+    "checked_at": "2026-11-04"
+  },
+  {
+    "page": 14,
+    "title": "夏の水分補給のススメ | ポカリ、のまなきゃ。",
+    "thumbnail": "https://lp.webdesignclip.com/wp-content/uploads/20250804_01-500x817.jpg",
+    "gallery_url": "https://lp.webdesignclip.com/pocarisweat-summer/",
+    "url": "https://pocarisweat.jp/summer/",
+    "id": 11,
+    "live": {
+      "status": 200,
+      "final_url": "https://pocarisweat.jp/summer/",
+      "title": "夏の水分補給のススメ | ポカリ、のまなきゃ。 | ポカリスエット"
+    },
+    "styles": {
+      "background": "rgb(255, 255, 255)",
+      "font": "\"Noto Sans JP\", \"Helvetica Neue\", Arial, \"Hiragino Kaku Gothic ProN\", \"Hiragino Sans\", Meiryo, sans-serif",
+      "h1": [
+        {
+          "text": "",
+          "font": "16px"
+        }
+      ]
+    },
+    "observation": "不定形の白い窓、文字と写真のサイズ差。",
+    "reference_basis": "Web Design Clip掲載画像",
+    "checked_at": "2026-11-04"
+  },
+  {
+    "page": 14,
+    "title": "モノグラフ10周年 | トンボ鉛筆",
+    "thumbnail": "https://lp.webdesignclip.com/wp-content/uploads/20250801_01-500x817.jpg",
+    "gallery_url": "https://lp.webdesignclip.com/tombow-monograph10th/",
+    "url": "https://www.tombow.com/sp/monograph10th/",
+    "id": 12,
+    "live": {
+      "status": 200,
+      "final_url": "https://www.tombow.com/sp/monograph10th/",
+      "title": "モノグラフ10周年 | トンボ鉛筆"
+    },
+    "styles": {
+      "background": "rgb(255, 255, 255)",
+      "font": "Barlow, \"Noto Sans JP\", sans-serif",
+      "h1": []
+    },
+    "observation": "斜めの製品写真と折り重なる白い面。今回の現行撮影は冒頭ロゴ状態のため掲載画像を参照。",
+    "reference_basis": "Web Design Clip掲載画像",
+    "checked_at": "2026-11-04"
+  },
+  {
+    "page": 14,
+    "title": "映画『ホウセンカ』",
+    "thumbnail": "https://lp.webdesignclip.com/wp-content/uploads/20250731_01-500x817.jpg",
+    "gallery_url": "https://lp.webdesignclip.com/anime-housenka/",
+    "url": "https://anime-housenka.com/",
+    "id": 13,
+    "live": {
+      "status": 200,
+      "final_url": "https://anime-housenka.com/",
+      "title": "映画『ホウセンカ』　2025年10月10日（金）公開"
+    },
+    "styles": {
+      "background": "rgb(68, 75, 97)",
+      "font": "YakuHanMP, \"Zen Old Mincho\", serif",
+      "h1": [
+        {
+          "text": "\n  \n",
+          "font": "14.72px"
+        }
+      ]
+    },
+    "observation": "窓枠の中の一枚絵と、両脇の細い情報欄。",
+    "reference_basis": "Web Design Clip掲載画像",
+    "checked_at": "2026-11-04"
+  },
+  {
+    "page": 14,
+    "title": "完全メシ RAPID SHOT（ラピッド ショット） | 日清食品",
+    "thumbnail": "https://lp.webdesignclip.com/wp-content/uploads/20250730_01-500x817.jpg",
+    "gallery_url": "https://lp.webdesignclip.com/nissinkanzenmeshi/",
+    "url": "https://rapidshot.nissinkanzenmeshi.com/",
+    "id": 14,
+    "live": {
+      "status": 200,
+      "final_url": "https://rapidshot.nissinkanzenmeshi.com/",
+      "title": "完全メシ RAPID SHOT（ラピッド ショット） | 日清食品"
+    },
+    "styles": {
+      "background": "rgba(0, 0, 0, 0)",
+      "font": "Poppins-SemiBold, \"Noto Sans JP\", sans-serif",
+      "h1": []
+    },
+    "observation": "中央の商品一点と、周辺の大きなタイポグラフィ。",
+    "reference_basis": "Web Design Clip掲載画像",
+    "checked_at": "2026-11-04"
+  },
+  {
+    "page": 14,
+    "title": "Daydream 1820",
+    "thumbnail": "https://lp.webdesignclip.com/wp-content/uploads/20250729_01-500x817.jpg",
+    "gallery_url": "https://lp.webdesignclip.com/daydream1820/",
+    "url": "https://daydream1820.com/",
+    "id": 15,
+    "live": {
+      "status": 200,
+      "final_url": "https://daydream1820.com/",
+      "title": "Daydream 1820 – Bougies parfumées naturelles & rituels olfactifs"
+    },
+    "styles": {
+      "background": "rgb(247, 246, 241)",
+      "font": "\"Instrument Sans\", sans-serif",
+      "h1": [
+        {
+          "text": "Bougies parfumées faites à la main en France pour célébrer le quotidien.\nUne bou",
+          "font": "33px"
+        }
+      ]
+    },
+    "observation": "左右で異なる写真のトリミングと、上に重ねる大きな文字。",
+    "reference_basis": "Web Design Clip掲載画像",
+    "checked_at": "2026-11-04"
+  },
+  {
+    "page": 14,
+    "title": "熱狂＆爽快スタジアム｜埼玉西武ライオンズ",
+    "thumbnail": "https://lp.webdesignclip.com/wp-content/uploads/20250728_01-500x817.jpg",
+    "gallery_url": "https://lp.webdesignclip.com/seibulions-summerentertainment/",
+    "url": "https://www.seibulions.jp/special/summerentertainment/",
+    "id": 16,
+    "live": {
+      "status": 200,
+      "final_url": "https://www.seibulions.jp/special/summerentertainment/",
+      "title": "熱狂＆爽快スタジアム｜埼玉西武ライオンズ"
+    },
+    "styles": {
+      "background": "rgb(255, 255, 255)",
+      "font": "\"Helvetica Neue\", Arial, \"Hiragino Kaku Gothic ProN\", \"Hiragino Sans\", \"Noto Sans\", Meiryo, sans-serif",
+      "h1": [
+        {
+          "text": "",
+          "font": "10px"
+        }
+      ]
+    },
+    "observation": "中心の主役を囲む躍動感のあるコラージュ。",
+    "reference_basis": "Web Design Clip掲載画像",
+    "checked_at": "2026-11-04"
+  },
+  {
+    "page": 14,
+    "title": "JINS×Snow Peak(スノーピーク)",
+    "thumbnail": "https://lp.webdesignclip.com/wp-content/uploads/20250725_01-500x817.jpg",
+    "gallery_url": "https://lp.webdesignclip.com/jins-snowpeak/",
+    "url": "https://www.jins.com/jp/collabo/snowpeak/",
+    "id": 17,
+    "live": {
+      "status": 403,
+      "final_url": "https://www.jins.com/jp/collabo/snowpeak/",
+      "title": "Access Denied"
+    },
+    "styles": {
+      "background": "rgba(0, 0, 0, 0)",
+      "font": "\"Hiragino Kaku Gothic ProN\"",
+      "h1": [
+        {
+          "text": "Access Denied",
+          "font": "32px"
+        }
+      ]
+    },
+    "observation": "寄りの写真一枚に短い文字。現行URLはアクセス制限のため掲載画像を参照。",
+    "reference_basis": "Web Design Clip掲載画像",
+    "checked_at": "2026-11-04"
+  },
+  {
+    "page": 14,
+    "title": "未来のレモンサワー | アサヒビール",
+    "thumbnail": "https://lp.webdesignclip.com/wp-content/uploads/20250724_01-500x817.jpg",
+    "gallery_url": "https://lp.webdesignclip.com/osakenomirai/",
+    "url": "https://www.asahibeer.co.jp/osakenomirai/",
+    "id": 18,
+    "live": {
+      "status": 200,
+      "final_url": "https://www.asahibeer.co.jp/brand/osakenomirai/",
+      "title": "未来のレモンサワー ｜ブランドサイト"
+    },
+    "styles": {
+      "background": "rgba(0, 0, 0, 0)",
+      "font": "\"Hiragino Kaku Gothic ProN\"",
+      "h1": [
+        {
+          "text": "",
+          "font": "10px"
+        }
+      ]
+    },
+    "observation": "商品を大きく寄せ、文字を空いた面に置く。現行は別URLへ転送。",
+    "reference_basis": "Web Design Clip掲載画像",
+    "checked_at": "2026-11-04"
+  },
+  {
+    "page": 14,
+    "title": "Infinite Machine",
+    "thumbnail": "https://lp.webdesignclip.com/wp-content/uploads/20250723_01-500x817.jpg",
+    "gallery_url": "https://lp.webdesignclip.com/infinitemachine/",
+    "url": "https://www.infinitemachine.com/",
+    "id": 19,
+    "live": {
+      "status": 200,
+      "final_url": "https://www.infinitemachine.com/",
+      "title": "Infinite Machine"
+    },
+    "styles": {
+      "background": "rgb(255, 255, 255)",
+      "font": "\"Helvetica Now Display\", sans-serif",
+      "h1": []
+    },
+    "observation": "横幅いっぱいのワードマークと、中央に一点の製品。",
+    "reference_basis": "Web Design Clip掲載画像",
+    "checked_at": "2026-11-04"
+  },
+  {
+    "page": 14,
+    "title": "販売管理システム | 信和通信工業株式会社",
+    "thumbnail": "https://lp.webdesignclip.com/wp-content/uploads/20250722_01-500x817.jpg",
+    "gallery_url": "https://lp.webdesignclip.com/shinwatsushin-hanbaikanri/",
+    "url": "https://www.shinwatsushin.com/lp/hanbaikanri",
+    "id": 20,
+    "live": {
+      "status": 200,
+      "final_url": "https://www.shinwatsushin.com/lp/hanbaikanri",
+      "title": "販売管理システム | 信和通信工業株式会社"
+    },
+    "styles": {
+      "background": "rgb(255, 255, 255)",
+      "font": "sans-serif",
+      "h1": []
+    },
+    "observation": "左の説明と右の製品画面を明確に分ける。",
+    "reference_basis": "Web Design Clip掲載画像",
+    "checked_at": "2026-11-04"
+  },
+  {
+    "page": 14,
+    "title": "干支Tee2026午年特設サイト",
+    "thumbnail": "https://lp.webdesignclip.com/wp-content/uploads/20250718_01-500x817.jpg",
+    "gallery_url": "https://lp.webdesignclip.com/dod-special-10/",
+    "url": "https://www.dod.camp/special/10/?utm_source=dodweb&utm_medium=url_link&utm_campaign=gallery",
+    "id": 21,
+    "live": {
+      "status": 200,
+      "final_url": "https://www.dod.camp/special/10/?utm_source=dodweb&utm_medium=url_link&utm_campaign=gallery",
+      "title": "干支Tee2026午年特設サイト | DOD（ディーオーディー）：キャンプ用品ブランド - アウトドアをワクワクするソト遊びに。"
+    },
+    "styles": {
+      "background": "rgb(249, 249, 249)",
+      "font": "\"Noto Sans JP\", sans-serif",
+      "h1": [
+        {
+          "text": "",
+          "font": "16px"
+        }
+      ]
+    },
+    "observation": "写真を敷き詰めたコンタクトシートに、一つの枠を重ねる。",
+    "reference_basis": "Web Design Clip掲載画像",
+    "checked_at": "2026-11-04"
+  },
+  {
+    "page": 14,
+    "title": "wiggle wiggle | niko and …",
+    "thumbnail": "https://lp.webdesignclip.com/wp-content/uploads/20250717_01-500x817.jpg",
+    "gallery_url": "https://lp.webdesignclip.com/nikoand-2025_wigglewiggle/",
+    "url": "https://www.dot-st.com/nikoand/cp/2025_wigglewiggle",
+    "id": 22,
+    "live": {
+      "error": "net::ERR_HTTP2_PROTOCOL_ERROR at https://www.dot-st.com/nikoand/cp/2025_wigglewiggle"
+    },
+    "observation": "単色の大きな面と小さな反復モチーフ。現行ページ取得エラーのため掲載画像を参照。",
+    "reference_basis": "Web Design Clip掲載画像",
+    "checked_at": "2026-11-04"
+  },
+  {
+    "page": 15,
+    "title": "DAYDREAM",
+    "thumbnail": "https://lp.webdesignclip.com/wp-content/uploads/20250716_01-500x817.jpg",
+    "gallery_url": "https://lp.webdesignclip.com/daydreamplayer/",
+    "url": "https://www.daydreamplayer.com/",
+    "id": 23,
+    "live": {
+      "status": 200,
+      "final_url": "https://www.daydreamplayer.com/",
+      "title": "DAYDREAM"
+    },
+    "styles": {
+      "background": "rgb(8, 8, 8)",
+      "font": "\"Hiragino Kaku Gothic ProN\"",
+      "h1": []
+    },
+    "observation": "暗い背景に置く精密な製品写真。現行撮影は導入部のため掲載画像を基準にした。",
+    "reference_basis": "Web Design Clip掲載画像",
+    "checked_at": "2026-11-04"
+  },
+  {
+    "page": 15,
+    "title": "SmartHR 10th Anniversary｜人が、社会が、本当に欲しいもの",
+    "thumbnail": "https://lp.webdesignclip.com/wp-content/uploads/20250715_01-500x817.jpg",
+    "gallery_url": "https://lp.webdesignclip.com/smarthr-10th-anniversary/",
+    "url": "https://smarthr.jp/smarthr-10th-anniversary/",
+    "id": 24,
+    "live": {
+      "status": 200,
+      "final_url": "https://smarthr.jp/smarthr-10th-anniversary/",
+      "title": "SmartHR 10th Anniversary｜人が、社会が、本当に欲しいもの"
+    },
+    "styles": {
+      "background": "rgb(255, 255, 255)",
+      "font": "MFW-PGothicMB101Pr6N-Regular, \"Hiragino Sans\", \"ヒラギノ角ゴ ProN\", \"Hiragino Kaku Gothic ProN\", \"Hiragino Kaku Gothic Pro\", メイリオ, Meiryo, \"MS Pゴシック\", \"MS PGothic\", sans-serif",
+      "h1": [
+        {
+          "text": "",
+          "font": "15.8828px"
+        }
+      ]
+    },
+    "observation": "大きな円と面の交差に縦の文章を置く。現行撮影は導入画面のため掲載画像を参照。",
+    "reference_basis": "Web Design Clip掲載画像",
+    "checked_at": "2026-11-04"
+  },
+  {
+    "page": 15,
+    "title": "KOMEHYO OSAKA SHINSAIBASHI コメ兵",
+    "thumbnail": "https://lp.webdesignclip.com/wp-content/uploads/20250714_01-500x817.jpg",
+    "gallery_url": "https://lp.webdesignclip.com/komehyo-shinsaibashi/",
+    "url": "https://komehyo.jp/p/landing/shinsaibashi/open/",
+    "id": 25,
+    "live": {
+      "status": 200,
+      "final_url": "https://komehyo.jp/p/landing/shinsaibashi/open/",
+      "title": "KOMEHYO OSAKA SHINSAIBASHI コメ兵｜【公式】日本最大級のリユースデパートKOMEHYO"
+    },
+    "styles": {
+      "background": "rgba(0, 0, 0, 0)",
+      "font": "\"Hina Mincho\", serif",
+      "h1": []
+    },
+    "observation": "極端に大きい文字と写真のコラージュ。現行撮影は初期背景のため掲載画像を参照。",
+    "reference_basis": "Web Design Clip掲載画像",
+    "checked_at": "2026-11-04"
+  },
+  {
+    "page": 15,
+    "title": "ZERO（ゼロ）｜ロッテ",
+    "thumbnail": "https://lp.webdesignclip.com/wp-content/uploads/20250711_01-500x817.jpg",
+    "gallery_url": "https://lp.webdesignclip.com/zero%ef%bc%88%e3%82%bc%e3%83%ad%ef%bc%89%ef%bd%9c%e3%83%ad%e3%83%83%e3%83%86/",
+    "url": "https://www.lotte.co.jp/products/brand/zero/",
+    "id": 26,
+    "live": {
+      "status": 200,
+      "final_url": "https://www.lotte.co.jp/products/brand/zero/",
+      "title": "ZERO（ゼロ）｜お口の恋人 ロッテ"
+    },
+    "styles": {
+      "background": "rgba(246, 241, 236, 0.96)",
+      "font": "Roboto, \"Noto Sans JP\", sans-serif",
+      "h1": [
+        {
+          "text": "",
+          "font": "28px"
+        }
+      ]
+    },
+    "observation": "主役を中央に置き、周囲の商品を余白に浮かべる。",
+    "reference_basis": "Web Design Clip掲載画像",
+    "checked_at": "2026-11-04"
+  },
+  {
+    "page": 15,
+    "title": "1/1内定の秘密を解説｜ソマリ",
+    "thumbnail": "https://lp.webdesignclip.com/wp-content/uploads/20250710_01-500x817.jpg",
+    "gallery_url": "https://lp.webdesignclip.com/somali-lp01/",
+    "url": "https://somali.co.jp/lp01/",
+    "id": 27,
+    "live": {
+      "status": 403,
+      "final_url": "https://somali.co.jp/lp01/",
+      "title": "NinjaFirewall 403 Forbidden"
+    },
+    "styles": {
+      "background": "rgb(255, 255, 255)",
+      "font": "sans-serif",
+      "h1": []
+    },
+    "observation": "円形のトリミングと斜めの面で左右の人物をつなぐ。現行URLは403。",
+    "reference_basis": "Web Design Clip掲載画像",
+    "checked_at": "2026-11-04"
+  },
+  {
+    "page": 15,
+    "title": "カゴメ×ハウス トマトピーヤカレー",
+    "thumbnail": "https://lp.webdesignclip.com/wp-content/uploads/20250709_01-500x817.jpg",
+    "gallery_url": "https://lp.webdesignclip.com/tomatopiyacurry/",
+    "url": "https://www.tomatopiyacurry.jp/",
+    "id": 28,
+    "live": {
+      "error": "net::ERR_NAME_NOT_RESOLVED at https://www.tomatopiyacurry.jp/"
+    },
+    "observation": "左右の大きな色面と、勢いのある斜線の集中。現行ドメイン解決不可。",
+    "reference_basis": "Web Design Clip掲載画像",
+    "checked_at": "2026-11-04"
+  },
+  {
+    "page": 15,
+    "title": "Foundation | Real Estate Investment",
+    "thumbnail": "https://lp.webdesignclip.com/wp-content/uploads/20250708_01-500x817.jpg",
+    "gallery_url": "https://lp.webdesignclip.com/thefoundation-house/",
+    "url": "https://www.thefoundation.house/",
+    "id": 29,
+    "live": {
+      "status": 200,
+      "final_url": "https://www.thefoundation.house/",
+      "title": "Foundation | Real Estate Investment"
+    },
+    "styles": {
+      "background": "rgb(255, 255, 255)",
+      "font": "Arial, \"Helvetica Neue\", Helvetica, sans-serif",
+      "h1": [
+        {
+          "text": "Unlocking Smart Capital For Data-Driven Investors",
+          "font": "22.7556px"
+        }
+      ]
+    },
+    "observation": "大きな文字と立体の建築・端末を対置する。",
+    "reference_basis": "Web Design Clip掲載画像",
+    "checked_at": "2026-11-04"
+  },
+  {
+    "page": 15,
+    "title": "OPEN CAMPUS | 大阪電気通信大学 | 大阪電気通信大学",
+    "thumbnail": "https://lp.webdesignclip.com/wp-content/uploads/20250707_01-500x817.jpg",
+    "gallery_url": "https://lp.webdesignclip.com/osakac-opencampus/",
+    "url": "https://www.osakac.ac.jp/admission/opencampus/",
+    "id": 30,
+    "live": {
+      "status": 200,
+      "final_url": "https://www.osakac.ac.jp/admission/opencampus/",
+      "title": "OPEN CAMPUS | 大阪電気通信大学"
+    },
+    "styles": {
+      "background": "rgba(0, 0, 0, 0)",
+      "font": "Oswald, \"Noto Sans JP\", \"Hiragino Kaku Gothic ProN\", \"MS PGothic\", sans-serif",
+      "h1": [
+        {
+          "text": "",
+          "font": "16px"
+        }
+      ]
+    },
+    "observation": "文字自体を立体の主役にし、動くモチーフを周囲に置く。掲載画像の構図を基準にした。",
+    "reference_basis": "Web Design Clip掲載画像",
+    "checked_at": "2026-11-04"
+  }
+]

@@ -1,0 +1,156 @@
+{
+ "slug": "somali-co-jp-lp01",
+ "url": "https://somali.co.jp/lp01/",
+ "capturedAt": "2026-10-12 21:05:53",
+ "files": {
+  "pc_f0": "somali-co-jp-lp01-pc-f0.jpg",
+  "pc_f1": "somali-co-jp-lp01-pc-f1.jpg",
+  "pc_f2": "somali-co-jp-lp01-pc-f2.jpg",
+  "pc_scroll": "somali-co-jp-lp01-pc-scroll.jpg",
+  "sp": "somali-co-jp-lp01-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://somali.co.jp/lp01/",
+  "title": "1/1内定の秘密を解説｜転職エージェントならソマリ｜ハイクラス転職を伴走支援",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 9874,
+  "h1": "",
+  "h1Style": {
+   "fontFamily": "hiragino-kaku-gothic-pron, sans-serif",
+   "fontSize": "15px",
+   "fontWeight": "400",
+   "lineHeight": "30px",
+   "letterSpacing": "0.45px",
+   "color": "rgb(38, 38, 38)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 460,
+    "y": 235,
+    "w": 520,
+    "h": 296
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "ハイクラス転職エージェント",
+   "無料転職相談 無料転職相談"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://somali.co.jp/assets/img/common/logo-somali.png",
+    "w": 183,
+    "h": 53,
+    "alt": "Somali"
+   },
+   {
+    "src": "https://somali.co.jp/assets/img/lp01/img_left_mv_ver2.png",
+    "w": 450,
+    "h": 718,
+    "alt": "1/1で内定を勝ち取る。"
+   },
+   {
+    "src": "https://somali.co.jp/assets/img/lp01/img_right_mv_ver2.png",
+    "w": 450,
+    "h": 742,
+    "alt": "1/1で内定を勝ち取る。"
+   },
+   {
+    "src": "https://somali.co.jp/assets/img/lp01/Badge-main.svg",
+    "w": 200,
+    "h": 200,
+    "alt": "累計ご相談実績 2,500名以上"
+   },
+   {
+    "src": "https://somali.co.jp/assets/img/lp01/ttl_mv_ver2.svg",
+    "w": 520,
+    "h": 296,
+    "alt": "1/1で内定を勝ち取る。"
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "hiragino-kaku-gothic-pron",
+   "Noto Sans JP"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": true,
+   "lottie": false
+  },
+  "bodyBg": "rgb(240, 242, 242)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "",
+  "h1Style": {
+   "fontFamily": "hiragino-kaku-gothic-pron, sans-serif",
+   "fontSize": "15px",
+   "fontWeight": "400",
+   "lineHeight": "26px",
+   "letterSpacing": "0.3px",
+   "color": "rgb(38, 38, 38)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 104,
+    "y": 109,
+    "w": 211,
+    "h": 120
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "ハイクラス転職エージェント",
+   "無料転職相談 無料転職相談",
+   "まずはお気軽にご相談から 無料転職相談"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://somali.co.jp/assets/img/lp01/img_left_mv_ver2.png",
+    "w": 169,
+    "h": 269,
+    "alt": "1/1で内定を勝ち取る。"
+   },
+   {
+    "src": "https://somali.co.jp/assets/img/lp01/img_right_mv_ver2.png",
+    "w": 169,
+    "h": 278,
+    "alt": "1/1で内定を勝ち取る。"
+   },
+   {
+    "src": "https://somali.co.jp/assets/img/lp01/Badge-main.svg",
+    "w": 84,
+    "h": 84,
+    "alt": "累計ご相談実績 2,500名以上"
+   },
+   {
+    "src": "https://somali.co.jp/assets/img/lp01/ttl_mv_ver2.svg",
+    "w": 211,
+    "h": 120,
+    "alt": "1/1で内定を勝ち取る。"
+   }
+  ],
+  "pageHeight": 11000
+ },
+ "elapsedSec": 11.8
+}

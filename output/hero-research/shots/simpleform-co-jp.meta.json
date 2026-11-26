@@ -1,0 +1,76 @@
+{
+ "slug": "simpleform-co-jp",
+ "url": "https://www.simpleform.co.jp/",
+ "capturedAt": "2026-10-12 21:13:00",
+ "files": {
+  "pc_f0": "simpleform-co-jp-pc-f0.jpg",
+  "pc_f1": "simpleform-co-jp-pc-f1.jpg",
+  "pc_f2": "simpleform-co-jp-pc-f2.jpg",
+  "pc_scroll": "simpleform-co-jp-pc-scroll.jpg",
+  "sp": "simpleform-co-jp-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.simpleform.co.jp/",
+  "title": "シンプルフォーム株式会社",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 8188,
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/v7qGR1noOL/s-3326x1898_3d956896-ee71-4211-b0ae-31597f79358a.webp",
+    "w": 1382,
+    "h": 789,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "中ゴシックBBB JIS2004"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/v7qGR1noOL/s-3326x1898_3d956896-ee71-4211-b0ae-31597f79358a.webp",
+    "w": 374,
+    "h": 213,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 7738
+ },
+ "elapsedSec": 11.4
+}

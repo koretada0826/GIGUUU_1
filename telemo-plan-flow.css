@@ -1,0 +1,142 @@
+/* Contract-to-invoice timeline. The six steps keep their existing copy. */
+.telemo-flow {
+  --flow-card-width: clamp(270px, 27vw, 340px);
+  --flow-gap: 36px;
+  --flow-progress: 0;
+  position: relative;
+  scroll-margin-top: var(--flow-top, 108px);
+}
+
+.telemo-flow__pin {
+  padding-bottom: 20px;
+  background: #fff;
+}
+
+.telemo-flow.is-scroll-linked .telemo-flow__pin {
+  position: sticky;
+  top: var(--flow-top, 108px);
+}
+
+.telemo-flow__hint {
+  margin: 18px 0 0;
+  color: #537080;
+  font-size: 13px;
+  text-align: right;
+}
+
+.telemo-flow__viewport {
+  margin-top: 12px;
+  padding-bottom: 12px;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scrollbar-color: #007d8c #eaf8fc;
+  scrollbar-width: thin;
+}
+
+.telemo-flow.is-scroll-linked .telemo-flow__viewport {
+  scrollbar-width: none;
+  touch-action: pan-y;
+}
+
+.telemo-flow.is-scroll-linked .telemo-flow__viewport::-webkit-scrollbar { display: none; }
+
+.telemo-flow .telemo-plan__steps {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(6, var(--flow-card-width));
+  grid-auto-rows: 320px;
+  gap: var(--flow-gap);
+  width: max-content;
+  margin: 0;
+  padding: 36px 2px 4px;
+}
+
+.telemo-flow .telemo-plan__steps::before,
+.telemo-flow .telemo-plan__steps::after {
+  content: "";
+  position: absolute;
+  top: 13px;
+  left: calc(var(--flow-card-width) / 2 + 2px);
+  width: calc(100% - var(--flow-card-width) - 4px);
+  height: 2px;
+  background: #dcecf0;
+}
+
+.telemo-flow .telemo-plan__steps::after {
+  background: #007d8c;
+  transform: scaleX(var(--flow-progress));
+  transform-origin: left;
+}
+
+.telemo-flow .telemo-plan__step {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.telemo-flow .telemo-plan__step::before {
+  content: "";
+  position: absolute;
+  top: -29px;
+  left: calc(50% - 7px);
+  z-index: 1;
+  width: 14px;
+  height: 14px;
+  border: 3px solid #dcecf0;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.telemo-flow .telemo-plan__step.is-current::before,
+.telemo-flow .telemo-plan__step.is-complete::before {
+  border-color: #007d8c;
+  background: #007d8c;
+}
+
+.telemo-flow .telemo-plan__step.is-current { border-color: #007d8c; }
+.telemo-flow .telemo-plan__step::after { display: none !important; }
+
+.telemo-flow .telemo-plan__step-number {
+  display: block;
+  border-radius: 6px 6px 0 0;
+  font-size: 20px;
+}
+
+.telemo-flow .telemo-plan__step-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 18px 16px;
+  text-align: center;
+}
+
+.telemo-flow .telemo-plan__step h5 {
+  justify-content: center;
+  min-height: 3em;
+  font-size: 19px;
+}
+
+.telemo-flow .telemo-plan__step p { margin-top: 12px; font-size: 14px; }
+.telemo-flow .telemo-plan__step-price { width: 100%; margin-top: auto; }
+.telemo-flow .telemo-plan__step-price strong { font-size: 29px; }
+.telemo-flow .telemo-plan__step .telemo-plan__step-footnote { margin-top: auto; font-size: 11px; }
+
+@media (max-width: 767px) {
+  .telemo-flow { --flow-card-width: min(280px, 82vw); --flow-gap: 24px; }
+  .telemo-flow .telemo-plan__steps { grid-auto-rows: 300px; }
+  .telemo-flow .telemo-plan__process-heading h4 { font-size: clamp(25px, 6.5vw, 34px); }
+  .telemo-flow .telemo-plan__process-heading p { font-size: 13px; line-height: 1.7; }
+  .telemo-flow__hint { margin-top: 12px; font-size: 12px; text-align: center; }
+}
+
+@media print {
+  .telemo-flow { height: auto !important; }
+  .telemo-flow.is-scroll-linked .telemo-flow__pin { position: static; }
+  .telemo-flow__viewport { overflow: visible; }
+  .telemo-flow .telemo-plan__steps { grid-template-columns: repeat(3, minmax(0, 1fr)); width: 100%; }
+  .telemo-flow .telemo-plan__steps::before,
+  .telemo-flow .telemo-plan__steps::after,
+  .telemo-flow .telemo-plan__step::before,
+  .telemo-flow__hint { display: none; }
+}

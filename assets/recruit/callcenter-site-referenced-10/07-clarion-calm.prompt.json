@@ -1,0 +1,36 @@
+{
+  "concept_id": 7,
+  "title": "clarion-calm",
+  "prompt": "Use case: ads-marketing.\nAsset: ONE original Japanese call-center recruitment HERO image, wide landscape aspect about 1938:811 (2.39:1). This is a new site-referenced creative direction, not a website screenshot or a clone.\nInput image 1: actual saved website screenshot of Clarion, https://www.clarionhealth.com/. Study its composition, type hierarchy and imagery treatment. Input image 2: our current call-center image, used ONLY for subject context (headsets, operators, call-center equipment), not its repeated anime arrangement.\nObserved reference element: 電話対応している一人の人物と、中央寄せの落ち着いた見出し。安心感と静かな視線誘導。\nDirection: Translate Clarion screenshot's calm single-operator full-bleed portrait and CENTERED text hierarchy into a bright original recruitment hero. A Japanese female call-center operator sits behind a monitor on the RIGHT with a natural listening expression and lightweight boom-mic headset. Airy cool-white office background, no medical content. The LEFT-to-CENTER is mostly white, and the exact two-line headline is CENTER-aligned in this quiet region in refined navy Japanese serif, with subcopy directly below. No cards, no brand logos, no CTA rendered. Very calm, expansive, premium photography; distinctly quieter and more centered than other concepts.\nExact ORIGINAL approved copy: small label \"CALL CENTER RECRUIT\"; headline \"声の向こうに、\" / \"笑顔を届ける。\"; subcopy \"コールセンターで、仲間と働く。\". Use these strings ONLY, plus 電話対応 / 営業 / サポート / チーム if small work labels are needed. Do not copy any text from the attached website screenshot.\nKeep call-center theme recognizable: professional communications headsets worn on heads with natural boom microphones, customer-contact workstation/screens with unreadable interface text, desk telephone or call-script papers. All human foreground staff Japanese adults. Natural proportions and coherent anatomy. Photographic concepts must be photographs; illustrative/sculptural concepts must follow their distinct direction.\nPalette: mostly white, navy, cobalt blue and pale blue/teal, natural skin tones. The attached site's other brand colors are reference context, not output requirements. Keep bright edges that suit a white page, with no full dark rectangular background.\nNO copied company logos, brands, slogans, named people, identity recreation, dates, certifications, customer quotes, salary/benefit promises, numerical claims, header/navigation, website CTA, browser chrome, watermarks or multiple concept thumbnails. No company-specific recruitment conditions. Preserve legibility, avoid cropped lettering or faces. Output exactly one finished opaque hero image, not a full page.",
+  "tool": "image_gen__imagegen (built-in)",
+  "actual_model": null,
+  "attached_references": [
+    {
+      "path": "/Users/matsugirintarou/Desktop/rintaro/giguuu改善/assets/recruit/callcenter-site-referenced-10/references/07-clarionhealth-com.jpg",
+      "role": "actual website screenshot, composition/type/image treatment",
+      "captured_at": "2026-10-12"
+    },
+    {
+      "path": "/Users/matsugirintarou/Desktop/rintaro/giguuu改善/assets/recruit/recruit-callcenter-illustrated-v1.png",
+      "role": "call-center subject context only"
+    }
+  ],
+  "source_site": {
+    "name": "Clarion",
+    "url": "https://www.clarionhealth.com/"
+  },
+  "borrowed_visual_element": "電話対応している一人の人物と、中央寄せの落ち着いた見出し。安心感と静かな視線誘導。",
+  "generated_source_path": "/Users/matsugirintarou/.codex/generated_images/01a13517-3d8c-7100-bfc3-0550c0913d71/exec-0b3db929-a70c-4680-9d8b-4066f5d7badc.png",
+  "saved_path": "/Users/matsugirintarou/Desktop/rintaro/giguuu改善/assets/recruit/callcenter-site-referenced-10/07-clarion-calm.png",
+  "dimensions": [
+    1938,
+    811
+  ],
+  "visual_inspection": {
+    "headline": "exact and readable",
+    "subcopy": "exact and readable",
+    "reference_composition": "center-aligned serif copy in calm whitespace, single operator portrait on right",
+    "callcenter": "correct headset boom microphone and workstation; background operators",
+    "source_brand": "no copied logo, claim, or source copy"
+  }
+}

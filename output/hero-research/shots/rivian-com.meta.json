@@ -1,0 +1,205 @@
+{
+ "slug": "rivian-com",
+ "url": "https://rivian.com/",
+ "capturedAt": "2026-10-12 21:08:09",
+ "files": {
+  "pc_f0": "rivian-com-pc-f0.jpg",
+  "pc_f1": "rivian-com-pc-f1.jpg",
+  "pc_f2": "rivian-com-pc-f2.jpg",
+  "pc_scroll": "rivian-com-pc-scroll.jpg",
+  "sp": "rivian-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://rivian.com/",
+  "title": "Rivian: Electric Vehicles Designed For Adventure",
+  "lang": "en-US",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 17081,
+  "h1": "Find your Rivian",
+  "h1Style": {
+   "fontFamily": "Adventure, HelveticaNeue, \"Helvetica Neue\", Helvetica, Arial, \"sans-serif\"",
+   "fontSize": "72px",
+   "fontWeight": "600",
+   "lineHeight": "72px",
+   "letterSpacing": "-3px",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 4809,
+    "y": 200,
+    "w": 462,
+    "h": 72
+   }
+  },
+  "lead": "Play with colors, interiors and accessories — and view your build in 3D. Design your R1T Design your R1S",
+  "ctas": [
+   "Explore more",
+   "Find a location",
+   "Design yours",
+   "Book a drive",
+   "Explore offers",
+   "Shop now",
+   "Design your R1T",
+   "Design your R1S"
+  ],
+  "videos": [
+   {
+    "src": "https://media.rivian.com/video/upload/c_limit,w_1440/g_auto/f_auto:video/q_auto/hqjn1foilsd7w0u6fwcj?_a=BAVFB+DW0",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 1440,
+    "h": 765,
+    "playing": true
+   },
+   {
+    "src": "https://media.rivian.com/video/upload/c_limit,w_1440/g_auto/f_auto:video/q_auto/hwvvfftsdff5p9n8dlsc?_a=BAVFB+DW0",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 1440,
+    "h": 765,
+    "playing": true
+   }
+  ],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://media.rivian.com/video/upload/c_limit,w_1440,so_0/f_auto:image/q_auto:eco/hqjn1foilsd7w0u6fwcj?_a=BAVFB+DW0",
+    "w": 1440,
+    "h": 765,
+    "alt": ""
+   },
+   {
+    "src": "https://media.rivian.com/video/upload/c_limit,w_1440,so_0/f_auto:image/q_auto:eco/hwvvfftsdff5p9n8dlsc?_a=BAVFB+DW0",
+    "w": 1440,
+    "h": 765,
+    "alt": ""
+   },
+   {
+    "src": "https://media.rivian.com/image/upload/c_limit,w_1440,fl_progressive/f_auto/q_auto/desktop_uqd3sl?_a=BAVFB+DW0",
+    "w": 1440,
+    "h": 765,
+    "alt": "orest Green Rivian R1S electric SUV parked on a dirt path near a lake surrounded"
+   },
+   {
+    "src": "https://media.rivian.com/image/upload/c_limit,w_1440,fl_progressive/f_auto/q_auto/Builder_-_Desktop_mhumyv?_a=BAVFB+DW0",
+    "w": 1440,
+    "h": 765,
+    "alt": "A Rivian R1S electric SUV and R1T electric truck, parked on a dusty side road wi"
+   }
+  ],
+  "backgroundImages": [
+   {
+    "bg": "url(\"data:image/svg+xml,%3Csvg width='56' height='56' viewBox='0 0 56 56' fill='none' xmlns='http://www.w3.org/2000/svg'%3E %3Cg clip-path='url(%23clip0_174_1420)'%3E %3Cg filter='url(%23filter0_d_174",
+    "w": 70,
+    "h": 70
+   }
+  ],
+  "firstScreenFonts": [
+   "Adventure",
+   "Liga"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "Find your Rivian",
+  "h1Style": {
+   "fontFamily": "Adventure, HelveticaNeue, \"Helvetica Neue\", Helvetica, Arial, \"sans-serif\"",
+   "fontSize": "44px",
+   "fontWeight": "600",
+   "lineHeight": "48px",
+   "letterSpacing": "-2px",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 1225,
+    "y": 152,
+    "w": 280,
+    "h": 48
+   }
+  },
+  "lead": "Play with colors, interiors and accessories — and view your build in 3D. Design your R1T Design your R1S",
+  "ctas": [
+   "Explore more",
+   "Find a location",
+   "Design yours",
+   "Book a drive",
+   "Explore offers",
+   "Shop now",
+   "Design your R1T",
+   "Design your R1S"
+  ],
+  "videos": [
+   {
+    "src": "https://media.rivian.com/video/upload/c_limit,w_720/g_auto/f_auto:video/q_auto/fuvrsqmouqva9fdcw9gl?_a=BAVFB+DW0",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 390,
+    "h": 760,
+    "playing": true
+   },
+   {
+    "src": "https://media.rivian.com/video/upload/c_limit,w_720/g_auto/f_auto:video/q_auto/bc0jglnsz5ma7z879p8s?_a=BAVFB+DW0",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 390,
+    "h": 760,
+    "playing": true
+   }
+  ],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://media.rivian.com/video/upload/c_limit,w_393,so_0/f_auto:image/q_auto:eco/fuvrsqmouqva9fdcw9gl?_a=BAVFB+DW0",
+    "w": 390,
+    "h": 760,
+    "alt": ""
+   },
+   {
+    "src": "https://media.rivian.com/video/upload/c_limit,w_393,so_0/f_auto:image/q_auto:eco/bc0jglnsz5ma7z879p8s?_a=BAVFB+DW0",
+    "w": 390,
+    "h": 760,
+    "alt": ""
+   },
+   {
+    "src": "https://media.rivian.com/image/upload/c_limit,w_786,fl_progressive/f_auto/q_auto:eco/mobile_e9hlys?_a=BAVFB+DW0",
+    "w": 390,
+    "h": 760,
+    "alt": "orest Green Rivian R1S electric SUV parked on a dirt path near a lake surrounded"
+   },
+   {
+    "src": "https://media.rivian.com/image/upload/c_limit,w_786,fl_progressive/f_auto/q_auto:eco/Builder_-_Mobile_p1b3ta?_a=BAVFB+DW0",
+    "w": 390,
+    "h": 760,
+    "alt": "A Rivian R1S electric SUV and R1T electric truck, parked on a dusty side road wi"
+   }
+  ],
+  "pageHeight": 12994
+ },
+ "elapsedSec": 14.7
+}

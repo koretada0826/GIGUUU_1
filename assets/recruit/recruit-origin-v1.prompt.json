@@ -1,0 +1,49 @@
+{
+  "tool": "image_gen.imagegen",
+  "mode": "built-in image edit",
+  "input_image": "/Users/matsugirintarou/Desktop/rintaro/ChatGPT 画像 2026年10月13日 18_11_22.png",
+  "output_image": "assets/recruit/recruit-origin-v1.png",
+  "prompt": "Use case: text-localization\nEdit target: the provided Japanese advertisement image. Create exactly one edited image.\nPerform only these two edits, preserving every other aspect as closely as possible:\n1. Recolor ALL saturated red graphic elements to deep teal-blue (#006d82 to #0b4f6c), matching the blue/teal book spine. This includes the small top-left tagline, the very large two-line headline, the bottom-right copy, and its vertical rule. Absolutely no red lettering or red rule remains. Preserve the pink-and-white background unchanged; pink is background, not a red graphic element.\n2. Replace the bottom-right copy with EXACT Japanese text in two lines:\n「一緒に働く仲間を」\n「募集しています」\nUse large bold Japanese lettering in the same deep teal-blue, with the existing vertical line preserved and colored blue. Keep this text in the bottom-right panel, with fitting margins and no clipping. Do not add punctuation to this replacement.\n\nPreserve the original wide aspect ratio 1586:992 (~1.599:1); produce the highest practical native resolution, ideally about 3168x1984. Preserve composition, lighting, paper texture, shadows, three folded paper cards, icons, curled paper ribbon, right-hand book with teal spine, pink/white background, all other wording and text layout. No new elements or cropping.\n\nAll visible Japanese text must be rendered precisely and naturally, with no typo, missing stroke or malformed glyph. Required unchanged wording:\nTop-left (recolor to blue): 「現場の知見を、みんなの力に。」\nLarge headline (recolor to blue), same line break:\n「現場で培った」\n「営業ノウハウを、AIで再現。」\nThree cards, same dark text: 「話し方」 / 「間」 / 「切り返し」\nBook title, same dark text: 「チームの型」\nBook small caption, same dark text with original two-line layout:\n「現場の知見を、」\n「チームの力に。」\nBottom-left paragraph, preserve original dark blue text and small teal underline:\n「話し方、間の取り方、切り返しのタイミング。」\n「トップ営業の “勝ちパターン” を解析し、」\n「チームで再現できる仕組みへ。」\nBottom-right replacement exactly:\n「一緒に働く仲間を」\n「募集しています」\n\nOnly color substitution of red graphics and replacement of bottom-right wording are permitted. Keep the small top-left tagline wording unchanged but make it blue because the instruction requires no red anywhere. No watermark.",
+  "attempts": 1,
+  "self_check": {
+    "method": "生成画像を目視し、日本語の全文と色、構図を確認",
+    "read_text": {
+      "top_left": "現場の知見を、みんなの力に。",
+      "headline": [
+        "現場で培った",
+        "営業ノウハウを、AIで再現。"
+      ],
+      "paper_cards": [
+        "話し方",
+        "間",
+        "切り返し"
+      ],
+      "book_title": "チームの型",
+      "book_caption": [
+        "現場の知見を、",
+        "チームの力に。"
+      ],
+      "bottom_left": [
+        "話し方、間の取り方、切り返しのタイミング。",
+        "トップ営業の “勝ちパターン” を解析し、",
+        "チームで再現できる仕組みへ。"
+      ],
+      "bottom_right": [
+        "一緒に働く仲間を",
+        "募集しています"
+      ]
+    },
+    "japanese_typo_missing_or_malformed_glyphs_detected": false,
+    "red_text_or_red_vertical_rule_remaining": false,
+    "pink_background_preserved": true,
+    "top_left_tagline_recolored_blue": true,
+    "composition_paper_cards_ribbon_book_texture_and_teal_underline_preserved": true,
+    "dimensions": {
+      "width": 1586,
+      "height": 992
+    },
+    "original_aspect_ratio_preserved": true,
+    "resolution_note": "高解像度をプロンプトで要求したが、組み込みツールの実際の出力は元画像と同じ1586×992。拡大加工なし。",
+    "result": "合格。再生成不要。"
+  }
+}

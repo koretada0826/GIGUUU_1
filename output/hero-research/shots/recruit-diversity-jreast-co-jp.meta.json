@@ -1,0 +1,133 @@
+{
+ "slug": "recruit-diversity-jreast-co-jp",
+ "url": "https://recruit-diversity.jreast.co.jp/",
+ "capturedAt": "2026-10-12 21:11:31",
+ "files": {
+  "pc_f0": "recruit-diversity-jreast-co-jp-pc-f0.jpg",
+  "pc_f1": "recruit-diversity-jreast-co-jp-pc-f1.jpg",
+  "pc_f2": "recruit-diversity-jreast-co-jp-pc-f2.jpg",
+  "pc_scroll": "recruit-diversity-jreast-co-jp-pc-scroll.jpg",
+  "sp": "recruit-diversity-jreast-co-jp-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://recruit-diversity.jreast.co.jp/",
+  "title": "いろいろな“わたし”で、どこまでもゆく。 | 障がい者採用 | JR東日本",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 18166,
+  "h1": "いろいろな “わたし”で、 どこまでもゆく。",
+  "h1Style": {
+   "fontFamily": "\"Zen Kaku Gothic New\", sans-serif",
+   "fontSize": "45px",
+   "fontWeight": "900",
+   "lineHeight": "76.5px",
+   "letterSpacing": "-0.45px",
+   "color": "rgb(34, 34, 34)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 180,
+    "y": 621,
+    "w": 810,
+    "h": 230
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "JR東日本 障がい者採用",
+   "働く環境",
+   "社員紹介",
+   "イベント情報",
+   "選考について"
+  ],
+  "videos": [
+   {
+    "src": "https://recruit-diversity.jreast.co.jp/_astro/video-md.DjVMfo7G.webm",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 875,
+    "h": 686,
+    "playing": true
+   }
+  ],
+  "canvases": [],
+  "images": [],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Noto Sans JP Variable",
+   "Zen Kaku Gothic New"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "いろいろな “わたし”で、 どこまでもゆく。",
+  "h1Style": {
+   "fontFamily": "\"Zen Kaku Gothic New\", sans-serif",
+   "fontSize": "26px",
+   "fontWeight": "900",
+   "lineHeight": "41.6px",
+   "letterSpacing": "-0.26px",
+   "color": "rgb(34, 34, 34)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 40,
+    "y": 362,
+    "w": 277,
+    "h": 125
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "JR東日本",
+   "働く環境",
+   "社員紹介",
+   "イベント情報",
+   "選考について",
+   "ENTRY MY PAGE"
+  ],
+  "videos": [
+   {
+    "src": "https://recruit-diversity.jreast.co.jp/_astro/video-sm.D_wSnLOZ.webm",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 350,
+    "h": 298,
+    "playing": true
+   }
+  ],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://recruit-diversity.jreast.co.jp/_astro/illust-02.CNh4kgOT_b46Te.webp",
+    "w": 59,
+    "h": 59,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 20640
+ },
+ "elapsedSec": 12.2
+}

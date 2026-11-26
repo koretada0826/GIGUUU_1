@@ -1,0 +1,309 @@
+/* Source layout and TELEMO copy: docs/design/telemo-benefits-reference.json.
+   Scope the experiment to the core section on the background preview branch. */
+.page-home.background-study main > #telemo-core {
+  padding-block: clamp(64px, 6vw, 96px);
+}
+
+.background-study #telemo-core .telemo-benefits {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(190px, .65fr) minmax(0, 1fr);
+  grid-template-areas:
+    "voice center tree"
+    "analysis center handover"
+    "calls center support";
+  gap: 24px 32px;
+  align-items: stretch;
+}
+
+.telemo-benefits__center {
+  grid-area: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  min-width: 0;
+  text-align: center;
+}
+
+.telemo-benefits__eyebrow {
+  margin: 0 0 24px;
+  color: var(--rf-accent);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.7;
+  letter-spacing: .04em;
+}
+
+.page-home #telemo-core .telemo-benefits__title {
+  display: flex;
+  flex-direction: column;
+  gap: .15em;
+  margin: 0;
+  color: var(--rf-heading);
+  font-family: var(--rf-display);
+  font-size: clamp(36px, 3.45vw, 50px);
+  font-weight: 800;
+  line-height: 1.3;
+  letter-spacing: .02em;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  white-space: nowrap;
+}
+
+.telemo-benefits__title strong {
+  color: var(--rf-accent);
+  font-weight: 900;
+}
+
+.telemo-benefits__character {
+  width: 100%;
+  max-width: 232px;
+  margin-top: 28px;
+}
+
+.telemo-benefits__speech {
+  margin: 0 0 12px;
+  padding: 12px 8px;
+  border: 1px solid var(--rf-border);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--rf-accent);
+  font-size: 13px;
+  font-weight: 800;
+  line-height: 1.6;
+  letter-spacing: 0;
+}
+
+.telemo-benefits__character img {
+  display: block;
+  width: 88%;
+  height: auto;
+  margin-inline: auto;
+}
+
+.telemo-benefits__card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  min-height: 236px;
+  padding: 28px;
+  border: 1px solid var(--rf-border);
+  border-radius: 28px 28px 0 28px;
+  background: #fff;
+}
+
+.telemo-benefits__card--voice { grid-area: voice; margin-left: 20px; }
+.telemo-benefits__card--tree { grid-area: tree; margin-right: 20px; }
+.telemo-benefits__card--analysis { grid-area: analysis; margin-right: 20px; }
+.telemo-benefits__card--handover { grid-area: handover; margin-left: 20px; }
+.telemo-benefits__card--calls { grid-area: calls; margin-left: 20px; }
+.telemo-benefits__card--support { grid-area: support; margin-right: 20px; }
+
+.telemo-benefits__card:nth-of-type(even) {
+  border-radius: 28px 28px 28px 0;
+}
+
+.telemo-benefits__label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 14px;
+  color: var(--rf-text-sub);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: .03em;
+}
+
+.telemo-benefits__label span {
+  color: var(--rf-accent);
+  font: 600 13px/1.5 "Space Grotesk", sans-serif;
+}
+
+.page-home #telemo-core .telemo-benefits__card h3 {
+  margin: 0 0 24px;
+  padding-left: 16px;
+  border-left: 3px solid var(--rf-border);
+  color: var(--rf-accent);
+  font-family: var(--rf-display);
+  font-size: clamp(21px, 1.8vw, 26px);
+  font-weight: 800;
+  line-height: 1.55;
+  letter-spacing: 0;
+  word-break: auto-phrase;
+  overflow-wrap: anywhere;
+}
+
+.telemo-benefits__body {
+  margin: auto 0 0;
+  color: var(--rf-text);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.9;
+  letter-spacing: .02em;
+  text-wrap: pretty;
+}
+
+@media (max-width: 767px) {
+  .telemo-benefits__toggle {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 24px;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+    min-height: 44px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    letter-spacing: inherit;
+    text-align: left;
+    cursor: pointer;
+    touch-action: manipulation;
+  }
+
+  .telemo-benefits__toggle:focus-visible {
+    outline: 2px solid var(--rf-accent);
+    outline-offset: 4px;
+  }
+
+  .telemo-benefits__toggle-indicator {
+    position: relative;
+    width: 24px;
+    height: 24px;
+  }
+
+  .telemo-benefits__toggle-indicator::before,
+  .telemo-benefits__toggle-indicator::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 14px;
+    height: 2px;
+    background: currentColor;
+    transform: translate(-50%, -50%);
+  }
+
+  .telemo-benefits__toggle-indicator::after {
+    transform: translate(-50%, -50%) rotate(90deg);
+  }
+
+  .telemo-benefits__toggle[aria-expanded="true"] .telemo-benefits__toggle-indicator::after {
+    opacity: 0;
+  }
+
+  .page-home #telemo-core .telemo-benefits__card.is-description-collapsed h3 {
+    margin-bottom: 0;
+  }
+}
+
+/* Keep the six strengths and the center guide together on a desktop screen.
+   Content retains its natural height at zoom levels or sizes that need more room. */
+@media (min-width: 1100px) {
+  .page-home.background-study main > #telemo-core {
+    padding-block: clamp(16px, 2.4vh, 28px);
+  }
+
+  .background-study #telemo-core .telemo-benefits {
+    grid-template-columns: minmax(0, 1fr) minmax(160px, .5fr) minmax(0, 1fr);
+    gap: clamp(10px, 1.6vh, 16px) 24px;
+  }
+
+  #telemo-core .telemo-benefits__card {
+    min-height: 0;
+    margin: 0;
+    padding: clamp(12px, 1.6vh, 18px) clamp(16px, 1.4vw, 24px);
+    border-radius: 22px 22px 0 22px;
+  }
+
+  #telemo-core .telemo-benefits__card:nth-of-type(even) {
+    border-radius: 22px 22px 22px 0;
+  }
+
+  #telemo-core .telemo-benefits__label { margin-bottom: 6px; font-size: 11px; }
+
+  .page-home #telemo-core .telemo-benefits__card h3 {
+    margin-bottom: 8px;
+    padding-left: 12px;
+    font-size: clamp(18px, 2.5vh, 22px);
+    line-height: 1.4;
+  }
+
+  #telemo-core .telemo-benefits__body {
+    font-size: clamp(12px, 1.5vh, 14px);
+    line-height: 1.65;
+  }
+
+  #telemo-core .telemo-benefits__eyebrow { margin-bottom: 10px; font-size: 12px; }
+
+  .page-home #telemo-core .telemo-benefits__title {
+    font-size: clamp(26px, 3.4vh, 34px);
+    line-height: 1.2;
+  }
+
+  #telemo-core .telemo-benefits__character { max-width: 160px; margin-top: 14px; }
+}
+
+@media (max-width: 1099px) {
+  .background-study #telemo-core .telemo-benefits {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-areas:
+      "center center"
+      "voice tree"
+      "analysis handover"
+      "calls support";
+    gap: 20px;
+  }
+
+  .telemo-benefits__center {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 160px;
+    align-items: center;
+    gap: 0 32px;
+    margin-bottom: 12px;
+    text-align: left;
+  }
+
+  .telemo-benefits__eyebrow { align-self: end; margin-bottom: 16px; }
+
+  .page-home #telemo-core .telemo-benefits__title {
+    grid-column: 1;
+    gap: 0;
+    align-self: start;
+    font-size: clamp(30px, 4.4vw, 44px);
+    line-height: 1.5;
+    writing-mode: horizontal-tb;
+  }
+
+  .telemo-benefits__character {
+    grid-column: 2;
+    grid-row: 1 / 3;
+    margin-top: 0;
+  }
+
+  .telemo-benefits__speech { padding: 10px; font-size: 12px; text-align: center; }
+  .telemo-benefits__card { min-height: 236px; margin: 0; }
+  .page-home #telemo-core .telemo-benefits__card h3 { font-size: 23px; }
+}
+
+@media (max-width: 600px) {
+  .background-study #telemo-core .telemo-benefits {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas: "center" "voice" "tree" "analysis" "handover" "calls" "support";
+    gap: 16px;
+  }
+
+  .telemo-benefits__center { grid-template-columns: minmax(0, 1fr) 84px; gap: 0 10px; margin-bottom: 16px; }
+  .telemo-benefits__eyebrow { grid-column: 1 / -1; margin-bottom: 18px; font-size: 12px; }
+  .page-home #telemo-core .telemo-benefits__title { font-size: clamp(26px, 6.9vw, 34px); }
+  .telemo-benefits__character { grid-row: 2; }
+  .telemo-benefits__character img { width: 100%; }
+  .telemo-benefits__speech { display: none; }
+  .telemo-benefits__card { min-height: 0; padding: 24px; border-radius: 24px 24px 0 24px; }
+  .telemo-benefits__card:nth-of-type(even) { border-radius: 24px 24px 24px 0; }
+  .telemo-benefits__label { margin-bottom: 12px; }
+  .page-home #telemo-core .telemo-benefits__card h3 { margin-bottom: 18px; padding-left: 12px; font-size: 23px; }
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "workspace",
+    "prompt": "Use case: ads-marketing. Asset: original TELEMO landing page workspace illustration, wide landscape 16:9. A premium editorial photograph-style still life of a bright light-blue and white office desk. A white call-center headset with curved microphone arm stands on a tidy white desk at LEFT, blank white report sheets and a small orange paperclip in foreground, soft airy white curtains behind, morning daylight. Right HALF is an airy, pale almost-white fabric background with quiet space for HTML headings. No people, no hand, no text, no lettering, no symbols resembling writing, no logos, no screens with data, no numbers. Color palette white #ffffff, deep navy #0a2a44, teal #007d8c, small orange #fd8e44. Real materials, soft shadows, no artificial gradient. This image is a concept illustration, not a real company office.",
+    "source_path": "/Users/rintaro/.codex/generated_images/01a1a6df-8ff5-76d1-bf25-972024a66c13/exec-407ce46d-eb87-45c8-9c89-b0b28fd7530c.png",
+    "saved_path": "/Users/rintaro/giguuu改善/heroes/copied-source-ui/assets/page31/workspace.png",
+    "method": "built-in image_gen"
+  },
+  {
+    "id": "chalk",
+    "prompt": "Use case: illustration-story. Asset: original TELEMO hero art. Wide landscape 16:9. Macro editorial photograph of a deep teal classroom chalkboard with an ORIGINAL simple white chalk drawing of a telephone handset attached to a coiled cord, two sheets of paper, and three short sound-wave arcs. Drawing on RIGHT TWO THIRDS. LEFT third mostly clean dark teal with physical chalk dust, to overlay HTML text. No people, hands, school logo, writing, alphabet, numbers, wordmark, pseudo-lettering. Real chalk grain and board scratches, restrained educational mood. Palette dark teal #0a4d55, white chalk, small orange chalk accents. Unbranded. Not a complete UI screenshot.",
+    "source_path": "/Users/rintaro/.codex/generated_images/01a1a6df-8ff5-76d1-bf25-972024a66c13/exec-2ec6467d-e5b5-4152-9895-2f8bde6d6e3a.png",
+    "saved_path": "/Users/rintaro/giguuu改善/heroes/copied-source-ui/assets/page31/chalk.png",
+    "method": "built-in image_gen"
+  },
+  {
+    "id": "phone-loop",
+    "prompt": "Use case: stylized-concept. Asset: TELEMO communications hero art. Wide landscape 16:9, isolated editorial 3D still life on a pure white background. A very large thick upright teal telephone cord formed into an open circular loop at RIGHT CENTER. Beside it a sculptural ivory white telephone handset and a floating blank white paper sheet, with a small orange folder on the floor. Arrangement visually expresses phone calling and handoff. Objects occupy right 60%; left 40% clean white for editable HTML headline. Tactile matte plastic and thick paper, deliberate isometric perspective, soft ground shadow, high-end product art direction. No words, logos, digits, people, app UI, dashboards, graphs, grey bars or decorations unrelated to calling. Palette only white, navy #0a2a44, teal #007d8c, orange #fd8e44 with material shading.",
+    "source_path": "/Users/rintaro/.codex/generated_images/01a1a6df-8ff5-76d1-bf25-972024a66c13/exec-011ab419-a734-4eb3-a5c7-04cf0e628433.png",
+    "saved_path": "/Users/rintaro/giguuu改善/heroes/copied-source-ui/assets/page31/phone-loop.png",
+    "method": "built-in image_gen"
+  },
+  {
+    "id": "headset-dark",
+    "prompt": "Use case: product-mockup. Asset: premium TELEMO product hero conceptual photo. Wide landscape 16:9. A single unbranded sculptural matte white over-ear call-center headset with a precise curved microphone boom, displayed on a low dark navy plinth, photographed at dramatic 3/4 angle. Main headset at RIGHT, occupying 65% height. LEFT 45% is deep navy #0a2a44 quiet empty background for white HTML text. Fine leather ear pad texture, subtle metal structure, editorial soft-box lighting, realistic falloff. Tiny teal detail on boom and a warm orange cable end. No people, no words, no logos, no numbers, no labels, no light trails, no neon, no glow, no artificial gradient. This is concept artwork, not an actual TELEMO hardware product.",
+    "source_path": "/Users/rintaro/.codex/generated_images/01a1a6df-8ff5-76d1-bf25-972024a66c13/exec-7ec66f50-441e-44d3-8691-0a46193d49e3.png",
+    "saved_path": "/Users/rintaro/giguuu改善/heroes/copied-source-ui/assets/page31/headset-dark.png",
+    "method": "built-in image_gen"
+  },
+  {
+    "id": "pixel-office",
+    "prompt": "Use case: illustration-story. Asset: TELEMO website hero reference adaptation. Landscape 16:9 pixel art with intentional 16-bit game visual vocabulary. An original cozy ivory office scene seen straight-on: large blank ivory desk in CENTER, chunky teal desktop telephone and orange file tray, two potted green-teal plants, navy drawers, scattered tiny white envelopes and pixel telephone handsets along perimeter. A wide blank center opening above the desk to overlay an existing mascot and editable HTML text. Warm white backdrop, navy #0a2a44, teal #007d8c, orange #fd8e44. Crisp pixel edges, consistent pixel scale, flat colors, no gradients. NO recognizable videogame characters, console brands, game logos, text, letters, numbers, interface, score, badge or buttons. Do not generate a person.",
+    "source_path": "/Users/rintaro/.codex/generated_images/01a1a6df-8ff5-76d1-bf25-972024a66c13/exec-31f99677-276e-49f6-96f1-ce60bfbf7c17.png",
+    "saved_path": "/Users/rintaro/giguuu改善/heroes/copied-source-ui/assets/page31/pixel-office.png",
+    "method": "built-in image_gen"
+  },
+  {
+    "id": "phone-splash",
+    "prompt": "Use case: ads-marketing. Asset: playful TELEMO calling service hero backdrop. Wide landscape 16:9. A large unbranded white sculptural telephone handset hovering diagonally at RIGHT above a deep teal water splash, frozen droplets, physical studio photography. Small orange translucent glass sphere near lower right, white paper sheets curl around the handset like flowing conversation. Main visual fills right 60%; left 40% clean light cool white space for navy editable HTML text. White, teal #007d8c, navy #0a2a44, tiny orange #fd8e44; realistic detailed surfaces and water. No people, no words, no logos, no digits, no labels, no fake UI, no bubbles containing text, no electric neon glow. Original concept illustration.",
+    "source_path": "/Users/rintaro/.codex/generated_images/01a1a6df-8ff5-76d1-bf25-972024a66c13/exec-b7cadcf0-e737-4421-b925-54dcbc4d90c1.png",
+    "saved_path": "/Users/rintaro/giguuu改善/heroes/copied-source-ui/assets/page31/phone-splash.png",
+    "method": "built-in image_gen"
+  }
+]

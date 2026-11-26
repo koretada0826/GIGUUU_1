@@ -1,0 +1,146 @@
+{
+ "slug": "corporate-iiba-space-career",
+ "url": "https://corporate.iiba.space/career",
+ "capturedAt": "2026-10-12 21:12:08",
+ "files": {
+  "pc_f0": "corporate-iiba-space-career-pc-f0.jpg",
+  "pc_f1": "corporate-iiba-space-career-pc-f1.jpg",
+  "pc_f2": "corporate-iiba-space-career-pc-f2.jpg",
+  "pc_scroll": "corporate-iiba-space-career-pc-scroll.jpg",
+  "sp": "corporate-iiba-space-career-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://corporate.iiba.space/career",
+  "title": "株式会社iiba",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 15176,
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [
+   "Home",
+   "Service arrow_drop_up",
+   "News",
+   "Company",
+   "Careers",
+   "Contact",
+   "Entry"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/nBW2y83Lav/s-808x360_7a427d25-ae7d-407a-a0b7-12882cb17efa.svg",
+    "w": 808,
+    "h": 360,
+    "alt": "子育て領域に、イノベーションを創出する。"
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/8dO8y5drqn/s-600x248_v-fs_webp_6b4adf8c-cceb-46e9-875c-4f29195e85ba_small.webp",
+    "w": 120,
+    "h": 50,
+    "alt": ""
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/nBW2y83Lav/s-801x697_26bd2e24-db0f-4a80-9e87-ec5c4c6d4b46.svg",
+    "w": 800,
+    "h": 696,
+    "alt": ""
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/nBW2y83Lav/s-727x641_34371eeb-0ff9-44cf-a0c3-01c89ec71a71.svg",
+    "w": 726,
+    "h": 640,
+    "alt": ""
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/nBW2y83Lav/s-647x672_aab2858e-ae2c-4255-91de-8789287b6fc5.svg",
+    "w": 643,
+    "h": 668,
+    "alt": ""
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/nBW2y83Lav/s-1078x1076_8d059400-356c-49dc-aa19-7e7033800839.svg",
+    "w": 1077,
+    "h": 1075,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Montserrat",
+   "sans-serif",
+   "ゴシックMB101 B JIS2004"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/nBW2y83Lav/s-356x158_cff26366-f45b-49d0-ad12-96bcef089de3.svg",
+    "w": 346,
+    "h": 154,
+    "alt": "子育て領域に、イノベーションを創出する。"
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/nBW2y83Lav/s-502x468_3e610457-aee9-40a8-be85-e53d1875becd.svg",
+    "w": 502,
+    "h": 468,
+    "alt": ""
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/nBW2y83Lav/s-419x357_32c4adeb-9b6f-4d9e-858f-4f8997691963.svg",
+    "w": 418,
+    "h": 356,
+    "alt": ""
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/nBW2y83Lav/s-437x454_adcbf70d-89f1-4a9a-baf7-97c223bd80d4.svg",
+    "w": 436,
+    "h": 453,
+    "alt": ""
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/nBW2y83Lav/s-444x443_3e804f4e-df12-4d60-b8a9-90bf06a55e4d.svg",
+    "w": 443,
+    "h": 442,
+    "alt": ""
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/nBW2y83Lav/s-364x248_6e419bce-ef60-4c9f-984f-8d57cee129a6.svg",
+    "w": 363,
+    "h": 247,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 14850
+ },
+ "elapsedSec": 11.2
+}

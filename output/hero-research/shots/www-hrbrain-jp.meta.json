@@ -1,0 +1,236 @@
+{
+ "slug": "www-hrbrain-jp",
+ "url": "https://www.hrbrain.jp/",
+ "capturedAt": "2026-10-12 21:09:54",
+ "files": {
+  "pc_f0": "www-hrbrain-jp-pc-f0.jpg",
+  "pc_f1": "www-hrbrain-jp-pc-f1.jpg",
+  "pc_f2": "www-hrbrain-jp-pc-f2.jpg",
+  "pc_scroll": "www-hrbrain-jp-pc-scroll.jpg",
+  "sp": "www-hrbrain-jp-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.hrbrain.jp/",
+  "title": "HRBrain | 顧客満足度No.1のタレントマネジメントシステム",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 9777,
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [
+   "導入事例",
+   "セミナー",
+   "お役立ち資料",
+   "お問い合わせ",
+   "社内版生成AI Brain はこちら",
+   "お問い合わせ",
+   "採用新サービスはこちら",
+   "ご相談だけでもOK お問い合わせ",
+   "実際の画面で操作してみる 無料でお試し",
+   "ご相談だけでもOK お問い合わせ",
+   "実際の画面で操作してみる 無料でお試し",
+   "ご相談だけでもOK お問い合わせ"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.hrbrain.jp/_astro/brain_image.CA9u4149.avif",
+    "w": 474,
+    "h": 474,
+    "alt": "キービジュアル"
+   },
+   {
+    "src": "https://www.hrbrain.jp/_astro/ai_text.Bodo7Y0j.svg",
+    "w": 278,
+    "h": 90,
+    "alt": "人事に、AIというもう一つの脳を。"
+   },
+   {
+    "src": "https://www.hrbrain.jp/_astro/hrbrain_primary.DxFaBojd.svg",
+    "w": 284,
+    "h": 56,
+    "alt": "HRBrain"
+   },
+   {
+    "src": "https://www.hrbrain.jp/_astro/bg_pc.Dakrz-Wo.avif",
+    "w": 1440,
+    "h": 530,
+    "alt": ""
+   },
+   {
+    "src": "https://www.hrbrain.jp/_astro/devices_rm.BONrTU8R.avif",
+    "w": 555,
+    "h": 425,
+    "alt": ""
+   },
+   {
+    "src": "https://www.hrbrain.jp/_astro/bg_pc_rm.7pCCeb3O.avif",
+    "w": 1440,
+    "h": 530,
+    "alt": ""
+   },
+   {
+    "src": "https://www.hrbrain.jp/_astro/devices_tm.CtO9LFSE.avif",
+    "w": 623,
+    "h": 408,
+    "alt": "HRBrain タレントマネジメント"
+   },
+   {
+    "src": "https://www.hrbrain.jp/_astro/bg_pc_tm.D-yZRSmh.avif",
+    "w": 1440,
+    "h": 530,
+    "alt": ""
+   },
+   {
+    "src": "https://www.hrbrain.jp/_astro/devices_ex.b1zIZipe.avif",
+    "w": 623,
+    "h": 408,
+    "alt": "HRBrain 組織診断サーベイ"
+   },
+   {
+    "src": "https://www.hrbrain.jp/_astro/bg_pc_ex.DvMXGH_N.avif",
+    "w": 1440,
+    "h": 530,
+    "alt": ""
+   },
+   {
+    "src": "https://www.hrbrain.jp/_astro/customer_satisfaction_talentmanagement.CnfesnWf.svg",
+    "w": 122,
+    "h": 63,
+    "alt": "タレントマネジメント部門 顧客満足度 No.1"
+   },
+   {
+    "src": "https://www.hrbrain.jp/_astro/customer_satisfaction_evaluation.Swl8V-76.svg",
+    "w": 122,
+    "h": 63,
+    "alt": "人事評価システム部門 顧客満足度 No.1"
+   }
+  ],
+  "backgroundImages": [
+   {
+    "bg": "image-set(url(\"https://www.hrbrain.jp/_astro/company_logo.B-T-W7pj.avif\") 1dppx type(\"image/avif\"), url(\"https://www.hrbrain.jp/_astro/company_logo.DvsGxGAY.webp\") 1dppx type(\"image/webp\"), url(\"https",
+    "w": 1360,
+    "h": 130
+   }
+  ],
+  "firstScreenFonts": [
+   "Noto Sans JP Variable"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [
+   "社内版生成AI Brain はこちら",
+   "お問い合わせ",
+   "採用新サービスはこちら",
+   "ご相談だけでもOK お問い合わせ",
+   "実際の画面で操作してみる 無料でお試し",
+   "ご相談だけでもOK お問い合わせ",
+   "実際の画面で操作してみる 無料でお試し",
+   "ご相談だけでもOK お問い合わせ"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.hrbrain.jp/_astro/brain_image.CA9u4149.avif",
+    "w": 224,
+    "h": 224,
+    "alt": "キービジュアル"
+   },
+   {
+    "src": "https://www.hrbrain.jp/_astro/ai_text.Bodo7Y0j.svg",
+    "w": 164,
+    "h": 53,
+    "alt": "人事に、AIというもう一つの脳を。"
+   },
+   {
+    "src": "https://www.hrbrain.jp/_astro/bg_sp.A-wtmmNI.avif",
+    "w": 390,
+    "h": 560,
+    "alt": ""
+   },
+   {
+    "src": "https://www.hrbrain.jp/_astro/devices_rm.BONrTU8R.avif",
+    "w": 295,
+    "h": 226,
+    "alt": ""
+   },
+   {
+    "src": "https://www.hrbrain.jp/_astro/bg_sp_rm.C3a4Dz5f.avif",
+    "w": 390,
+    "h": 560,
+    "alt": ""
+   },
+   {
+    "src": "https://www.hrbrain.jp/_astro/devices_tm.CtO9LFSE.avif",
+    "w": 327,
+    "h": 214,
+    "alt": "HRBrain タレントマネジメント"
+   },
+   {
+    "src": "https://www.hrbrain.jp/_astro/bg_sp_tm.Eg1K7Tl7.avif",
+    "w": 390,
+    "h": 560,
+    "alt": ""
+   },
+   {
+    "src": "https://www.hrbrain.jp/_astro/devices_ex.b1zIZipe.avif",
+    "w": 327,
+    "h": 214,
+    "alt": "HRBrain 組織診断サーベイ"
+   },
+   {
+    "src": "https://www.hrbrain.jp/_astro/bg_sp_ex.KVKrTmf-.avif",
+    "w": 390,
+    "h": 560,
+    "alt": ""
+   },
+   {
+    "src": "https://www.hrbrain.jp/_astro/customer_satisfaction_talentmanagement.CnfesnWf.svg",
+    "w": 102,
+    "h": 53,
+    "alt": "タレントマネジメント部門 顧客満足度 No.1"
+   },
+   {
+    "src": "https://www.hrbrain.jp/_astro/customer_satisfaction_evaluation.Swl8V-76.svg",
+    "w": 102,
+    "h": 53,
+    "alt": "人事評価システム部門 顧客満足度 No.1"
+   },
+   {
+    "src": "https://www.hrbrain.jp/_astro/customer_satisfaction_ex.B1yS2yxP.svg",
+    "w": 102,
+    "h": 53,
+    "alt": "エンゲージメントサーベイツール部門 顧客満足度 No.1"
+   }
+  ],
+  "pageHeight": 13696
+ },
+ "elapsedSec": 13.6
+}

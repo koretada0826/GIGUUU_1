@@ -1,0 +1,120 @@
+{
+ "meta": {
+  "measuredAt": "2026-10-05",
+  "site": "https://misignal.jp/",
+  "pages": [
+   "/",
+   "/products/scan",
+   "/faq",
+   "/article",
+   "/commitment",
+   "/contact(フォームのみ)"
+  ],
+  "viewports": {
+   "pc": "1440x900 DPR1",
+   "sp": "390x844 DPR2 isMobile iPhone UA"
+  },
+  "note": "computed style は全可視要素から自動集計。weight は text=文字数 / bg=面積px² / その他=要素数。"
+ },
+ "networkImageTypes_home": {
+  "pc image/svg+xml": 44,
+  "pc image/webp": 12,
+  "pc application/octet-stream": 8,
+  "pc image/avif (via /_next/image)": 44,
+  "pc image/jpeg": 1,
+  "pc image/gif": 48,
+  "pc image/png": 3,
+  "pc text/plain": 2,
+  "pc ?": 19,
+  "pc text/html": 4,
+  "pc application/javascript": 1,
+  "pc video/webm": 1,
+  "sp image/svg+xml": 41,
+  "sp application/octet-stream": 8,
+  "sp image/webp": 11,
+  "sp image/png": 6,
+  "sp image/avif (via /_next/image)": 46,
+  "sp image/jpeg": 1,
+  "sp image/gif": 46,
+  "sp text/plain": 7,
+  "sp ?": 15,
+  "sp text/html": 7,
+  "sp application/javascript": 1,
+  "sp video/webm": 1
+ },
+ "inlineSvgSizes": [
+  [
+   "12x6",
+   16
+  ],
+  [
+   "12x12",
+   12
+  ],
+  [
+   "24x19",
+   10
+  ],
+  [
+   "15x12",
+   10
+  ],
+  [
+   "24x24",
+   8
+  ],
+  [
+   "20x21",
+   5
+  ],
+  [
+   "44x44",
+   5
+  ],
+  [
+   "30x16",
+   5
+  ],
+  [
+   "72x72",
+   4
+  ],
+  [
+   "16x16",
+   4
+  ],
+  [
+   "68x78",
+   1
+  ],
+  [
+   "32x32",
+   1
+  ],
+  [
+   "48x58",
+   1
+  ]
+ ],
+ "svgStrokeWidths": {
+  "1.5px round": 70,
+  "1px butt": 4,
+  "1.5px butt": 12,
+  "2px butt": 2,
+  "2px round": 2,
+  "1.33333px butt": 2,
+  "2.66667px round": 2,
+  "0.611px butt": 4
+ },
+ "imgBorderRadius": {
+  "0px": 457,
+  "8px": 10,
+  "50%": 18
+ },
+ "notes": [
+  "アイコンは主に <img src=*.svg>(CDN d1sjb8j5vfrz9p.cloudfront.net / misignal.jp 配下)と一部インライン<svg>(Faq_icon 24x24 等)。",
+  "写真は next/image(/_next/image?url=…&w=…&q=75) 経由で AVIF 配信(Content-Type image/avif)。元は png/webp/jpg。",
+  "静的CDN素材は webp(ロゴ・パッケージ写真等)と avif(hero-1512.avif / hero-3024.avif 1x/2x)。",
+  "video: webm(video/webm) + Vimeo player(player.vimeo.com)。"
+ ]
+}

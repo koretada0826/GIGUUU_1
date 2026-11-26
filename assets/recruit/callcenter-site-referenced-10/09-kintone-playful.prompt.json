@@ -1,0 +1,39 @@
+{
+  "concept_id": 9,
+  "title": "kintone-playful",
+  "prompt": "Use case: ads-marketing.\nAsset: ONE original Japanese call-center recruitment HERO image, wide landscape aspect about 1938:811 (2.39:1). This is a new site-referenced creative direction, not a website screenshot or a clone.\nInput image 1: actual saved website screenshot of サイボウズ kintone, https://kintone.cybozu.co.jp/. Study its composition, type hierarchy and imagery treatment. Input image 2: our current call-center image, used ONLY for subject context (headsets, operators, call-center equipment), not its repeated anime arrangement.\nObserved reference element: 親しみやすい図形と丸いモチーフ、少数の要素で仕事を説明するイラスト。\nDirection: Translate the kintone screenshot's friendly flat visual islands and rounded service-symbol world into white/pale-BLUE call-center recruitment. LEFT confident rounded navy Japanese headline. RIGHT a playful yet polished flat illustration of two young headset operators at a simple white-and-blue desk, surrounded by three large pale-blue round icon islands for a telephone, speech bubble and call-script paper. Gentle broad pale-blue arc along bottom, clean limited shapes and crisp vector-like editorial illustration. No yellow/orange, software product logos, generic fake app UI or cloned source icon geometry. This should read simpler, friendlier and less photographic than Sansan.\nExact ORIGINAL approved copy: small label \"CALL CENTER RECRUIT\"; headline \"話すことから、\" / \"一緒にはじめよう。\"; subcopy \"声を届ける仕事を、一緒に。\". Use these strings ONLY, plus 電話対応 / 営業 / サポート / チーム if small work labels are needed. Do not copy any text from the attached website screenshot.\nKeep call-center theme recognizable: professional communications headsets worn on heads with natural boom microphones, customer-contact workstation/screens with unreadable interface text, desk telephone or call-script papers. All human foreground staff Japanese adults. Natural proportions and coherent anatomy. Photographic concepts must be photographs; illustrative/sculptural concepts must follow their distinct direction.\nPalette: mostly white, navy, cobalt blue and pale blue/teal, natural skin tones. The attached site's other brand colors are reference context, not output requirements. Keep bright edges that suit a white page, with no full dark rectangular background.\nNO copied company logos, brands, slogans, named people, identity recreation, dates, certifications, customer quotes, salary/benefit promises, numerical claims, header/navigation, website CTA, browser chrome, watermarks or multiple concept thumbnails. No company-specific recruitment conditions. Preserve legibility, avoid cropped lettering or faces. Output exactly one finished opaque hero image, not a full page.\nTARGETED STYLE CORRECTION: The previous attempt failed because it copied anime character rendering from image 2. Do not use anime, manga, realistic eyes, shaded skin or photographic office depth. Draw the two operators as SIMPLE FLAT EDITORIAL VECTOR-LIKE PEOPLE: small dot eyes, clean rounded geometric silhouettes, flat two-color clothes, thin navy outlines, minimal facial features, no textured brushwork. Large floating pale-blue round symbols and bottom arc from image 1 remain primary visual reference. Exactly TWO simple flat operators at a simple desk, no extra background crowd. Headsets with boom microphones must remain recognizable. Text stays exact and fully readable.",
+  "base_prompt": "Use case: ads-marketing.\nAsset: ONE original Japanese call-center recruitment HERO image, wide landscape aspect about 1938:811 (2.39:1). This is a new site-referenced creative direction, not a website screenshot or a clone.\nInput image 1: actual saved website screenshot of サイボウズ kintone, https://kintone.cybozu.co.jp/. Study its composition, type hierarchy and imagery treatment. Input image 2: our current call-center image, used ONLY for subject context (headsets, operators, call-center equipment), not its repeated anime arrangement.\nObserved reference element: 親しみやすい図形と丸いモチーフ、少数の要素で仕事を説明するイラスト。\nDirection: Translate the kintone screenshot's friendly flat visual islands and rounded service-symbol world into white/pale-BLUE call-center recruitment. LEFT confident rounded navy Japanese headline. RIGHT a playful yet polished flat illustration of two young headset operators at a simple white-and-blue desk, surrounded by three large pale-blue round icon islands for a telephone, speech bubble and call-script paper. Gentle broad pale-blue arc along bottom, clean limited shapes and crisp vector-like editorial illustration. No yellow/orange, software product logos, generic fake app UI or cloned source icon geometry. This should read simpler, friendlier and less photographic than Sansan.\nExact ORIGINAL approved copy: small label \"CALL CENTER RECRUIT\"; headline \"話すことから、\" / \"一緒にはじめよう。\"; subcopy \"声を届ける仕事を、一緒に。\". Use these strings ONLY, plus 電話対応 / 営業 / サポート / チーム if small work labels are needed. Do not copy any text from the attached website screenshot.\nKeep call-center theme recognizable: professional communications headsets worn on heads with natural boom microphones, customer-contact workstation/screens with unreadable interface text, desk telephone or call-script papers. All human foreground staff Japanese adults. Natural proportions and coherent anatomy. Photographic concepts must be photographs; illustrative/sculptural concepts must follow their distinct direction.\nPalette: mostly white, navy, cobalt blue and pale blue/teal, natural skin tones. The attached site's other brand colors are reference context, not output requirements. Keep bright edges that suit a white page, with no full dark rectangular background.\nNO copied company logos, brands, slogans, named people, identity recreation, dates, certifications, customer quotes, salary/benefit promises, numerical claims, header/navigation, website CTA, browser chrome, watermarks or multiple concept thumbnails. No company-specific recruitment conditions. Preserve legibility, avoid cropped lettering or faces. Output exactly one finished opaque hero image, not a full page.",
+  "attempt": 2,
+  "tool": "image_gen__imagegen (built-in)",
+  "actual_model": null,
+  "attached_references": [
+    {
+      "path": "/Users/matsugirintarou/Desktop/rintaro/giguuu改善/assets/recruit/callcenter-site-referenced-10/references/09-kintone-cybozu-co-jp.jpg",
+      "role": "actual website screenshot, composition/type/image treatment",
+      "captured_at": "2026-10-12"
+    },
+    {
+      "path": "/Users/matsugirintarou/Desktop/rintaro/giguuu改善/assets/recruit/recruit-callcenter-illustrated-v1.png",
+      "role": "call-center subject context only"
+    }
+  ],
+  "source_site": {
+    "name": "サイボウズ kintone",
+    "url": "https://kintone.cybozu.co.jp/"
+  },
+  "borrowed_visual_element": "親しみやすい図形と丸いモチーフ、少数の要素で仕事を説明するイラスト。",
+  "generated_source_path": "/Users/matsugirintarou/.codex/generated_images/01a13517-3d8c-7100-bfc3-0550c0913d71/exec-80cdc7fa-a160-4416-9469-9c18220d1a4a.png",
+  "saved_path": "/Users/matsugirintarou/Desktop/rintaro/giguuu改善/assets/recruit/callcenter-site-referenced-10/09-kintone-playful.png",
+  "dimensions": [
+    1938,
+    811
+  ],
+  "visual_inspection": {
+    "headline": "exact and readable",
+    "subcopy": "exact and readable",
+    "reference_composition": "round pale-blue icon islands and bottom arc translated to original recruitment scene",
+    "callcenter": "two simple operators wear headsets with boom microphones; monitors, desk telephone and papers",
+    "source_brand": "no copied source logo or claims",
+    "style": "simple flat editorial characters and minimal desk"
+  }
+}

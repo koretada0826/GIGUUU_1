@@ -1,0 +1,832 @@
+{
+ "meta": {
+  "measuredAt": "2026-10-05",
+  "site": "https://misignal.jp/",
+  "pages": [
+   "/",
+   "/products/scan",
+   "/faq",
+   "/article",
+   "/commitment",
+   "/contact(フォームのみ)"
+  ],
+  "viewports": {
+   "pc": "1440x900 DPR1",
+   "sp": "390x844 DPR2 isMobile iPhone UA"
+  },
+  "note": "computed style は全可視要素から自動集計。weight は text=文字数 / bg=面積px² / その他=要素数。"
+ },
+ "scope": "5ページで読み込まれた配信CSS 59ファイル(player.css=Vimeo埋め込みは除外)。ページ別チャンクが重複を含むため rules は水増し。files=その条件を含むCSSファイル数",
+ "queries": [
+  {
+   "query": "only screen and (max-width:768px)",
+   "count": 1508,
+   "files": 44
+  },
+  {
+   "query": "only screen and (max-width:1099px)",
+   "count": 779,
+   "files": 28
+  },
+  {
+   "query": "only screen and (max-width:1000px)",
+   "count": 608,
+   "files": 31
+  },
+  {
+   "query": "screen and (max-width:768px)",
+   "count": 56,
+   "files": 1
+  },
+  {
+   "query": "only screen and (max-width:1200px)",
+   "count": 51,
+   "files": 10
+  },
+  {
+   "query": "(hover:hover)",
+   "count": 37,
+   "files": 8
+  },
+  {
+   "query": "(min-width:600px)",
+   "count": 33,
+   "files": 5
+  },
+  {
+   "query": "only screen and (max-width:1300px)",
+   "count": 30,
+   "files": 6
+  },
+  {
+   "query": "only screen and (max-width:400px)",
+   "count": 29,
+   "files": 12
+  },
+  {
+   "query": "only screen and (max-width:500px)",
+   "count": 28,
+   "files": 9
+  },
+  {
+   "query": "screen and (max-width:1300px)",
+   "count": 22,
+   "files": 2
+  },
+  {
+   "query": "(prefers-reduced-motion:reduce)",
+   "count": 19,
+   "files": 5
+  },
+  {
+   "query": "print",
+   "count": 15,
+   "files": 6
+  },
+  {
+   "query": "(min-width:768px)",
+   "count": 14,
+   "files": 2
+  },
+  {
+   "query": "(min-width:1200px)",
+   "count": 13,
+   "files": 1
+  },
+  {
+   "query": "only screen and (max-width:932px)and (orientation:landscape)and (max-height:600px)",
+   "count": 12,
+   "files": 1
+  },
+  {
+   "query": "(min-width:744px)",
+   "count": 12,
+   "files": 4
+  },
+  {
+   "query": "(max-width:768px)",
+   "count": 11,
+   "files": 2
+  },
+  {
+   "query": "screen and (min-width:1301px)",
+   "count": 11,
+   "files": 2
+  },
+  {
+   "query": "screen and (min-width:600px)",
+   "count": 7,
+   "files": 2
+  },
+  {
+   "query": "screen and (max-width:599px)",
+   "count": 7,
+   "files": 1
+  },
+  {
+   "query": "(max-width:599px)",
+   "count": 5,
+   "files": 3
+  },
+  {
+   "query": "screen and (max-width:380px)",
+   "count": 4,
+   "files": 2
+  },
+  {
+   "query": "screen and (min-width:1024px)",
+   "count": 4,
+   "files": 1
+  },
+  {
+   "query": "only screen and (max-width:380px)",
+   "count": 4,
+   "files": 3
+  },
+  {
+   "query": "screen and (-ms-high-contrast:none)",
+   "count": 4,
+   "files": 2
+  },
+  {
+   "query": "only screen and (max-width:1400px)",
+   "count": 3,
+   "files": 1
+  },
+  {
+   "query": "screen",
+   "count": 3,
+   "files": 1
+  },
+  {
+   "query": "(min-width:1100px)",
+   "count": 2,
+   "files": 1
+  },
+  {
+   "query": "(max-width:575.98px)",
+   "count": 2,
+   "files": 1
+  },
+  {
+   "query": "(max-width:767.98px)",
+   "count": 2,
+   "files": 1
+  },
+  {
+   "query": "(max-width:991.98px)",
+   "count": 2,
+   "files": 1
+  },
+  {
+   "query": "(max-width:1199.98px)",
+   "count": 2,
+   "files": 1
+  },
+  {
+   "query": "(max-width:1399.98px)",
+   "count": 2,
+   "files": 1
+  },
+  {
+   "query": "(min-width:576px)",
+   "count": 2,
+   "files": 1
+  },
+  {
+   "query": "(min-width:992px)",
+   "count": 2,
+   "files": 1
+  },
+  {
+   "query": "screen and (max-width:767px)",
+   "count": 2,
+   "files": 2
+  },
+  {
+   "query": "(min-width:768px)and (hover:hover)",
+   "count": 2,
+   "files": 1
+  },
+  {
+   "query": "(min-width:376px)",
+   "count": 2,
+   "files": 1
+  },
+  {
+   "query": "only screen and (max-width:1300px)and (max-width:400px)",
+   "count": 2,
+   "files": 1
+  },
+  {
+   "query": "screen and (min-width:480px)",
+   "count": 2,
+   "files": 1
+  },
+  {
+   "query": "(min-width:1400px)",
+   "count": 1,
+   "files": 1
+  },
+  {
+   "query": "(max-width:1099px)",
+   "count": 1,
+   "files": 1
+  },
+  {
+   "query": "(hover:hover)and (min-width:768px)",
+   "count": 1,
+   "files": 1
+  },
+  {
+   "query": "(max-width:640px)",
+   "count": 1,
+   "files": 1
+  },
+  {
+   "query": "screen and (max-width:425px)",
+   "count": 1,
+   "files": 1
+  },
+  {
+   "query": "screen and (max-width:992px)",
+   "count": 1,
+   "files": 1
+  },
+  {
+   "query": "screen and (max-width:1080px)",
+   "count": 1,
+   "files": 1
+  },
+  {
+   "query": "screen and (min-width:1300px)",
+   "count": 1,
+   "files": 1
+  },
+  {
+   "query": "only screen and (max-width:1000px)and (max-width:768px)",
+   "count": 1,
+   "files": 1
+  },
+  {
+   "query": "only screen and (max-width:1500px)",
+   "count": 1,
+   "files": 1
+  },
+  {
+   "query": "only screen and (max-width:360px)",
+   "count": 1,
+   "files": 1
+  },
+  {
+   "query": "only screen and (max-width:768px)and (max-width:389px)",
+   "count": 1,
+   "files": 1
+  },
+  {
+   "query": "screen and (max-width:574px)",
+   "count": 1,
+   "files": 1
+  },
+  {
+   "query": "only screen and (max-width:599px)",
+   "count": 1,
+   "files": 1
+  },
+  {
+   "query": "(max-width:367px)",
+   "count": 1,
+   "files": 1
+  }
+ ],
+ "widthBreakpoints": [
+  {
+   "cond": "max-width:768px",
+   "rules": 1577,
+   "filesSum": 49
+  },
+  {
+   "cond": "max-width:1099px",
+   "rules": 780,
+   "filesSum": 29
+  },
+  {
+   "cond": "max-width:1000px",
+   "rules": 609,
+   "filesSum": 32
+  },
+  {
+   "cond": "max-width:1300px",
+   "rules": 54,
+   "filesSum": 9
+  },
+  {
+   "cond": "max-width:1200px",
+   "rules": 51,
+   "filesSum": 10
+  },
+  {
+   "cond": "min-width:600px",
+   "rules": 40,
+   "filesSum": 7
+  },
+  {
+   "cond": "max-width:400px",
+   "rules": 31,
+   "filesSum": 13
+  },
+  {
+   "cond": "max-width:500px",
+   "rules": 28,
+   "filesSum": 9
+  },
+  {
+   "cond": "min-width:768px",
+   "rules": 17,
+   "filesSum": 4
+  },
+  {
+   "cond": "min-width:1200px",
+   "rules": 13,
+   "filesSum": 1
+  },
+  {
+   "cond": "max-width:599px",
+   "rules": 13,
+   "filesSum": 5
+  },
+  {
+   "cond": "max-width:932px",
+   "rules": 12,
+   "filesSum": 1
+  },
+  {
+   "cond": "min-width:744px",
+   "rules": 12,
+   "filesSum": 4
+  },
+  {
+   "cond": "min-width:1301px",
+   "rules": 11,
+   "filesSum": 2
+  },
+  {
+   "cond": "max-width:380px",
+   "rules": 8,
+   "filesSum": 5
+  },
+  {
+   "cond": "min-width:1024px",
+   "rules": 4,
+   "filesSum": 1
+  },
+  {
+   "cond": "max-width:1400px",
+   "rules": 3,
+   "filesSum": 1
+  },
+  {
+   "cond": "min-width:1100px",
+   "rules": 2,
+   "filesSum": 1
+  },
+  {
+   "cond": "max-width:575.98px",
+   "rules": 2,
+   "filesSum": 1
+  },
+  {
+   "cond": "max-width:767.98px",
+   "rules": 2,
+   "filesSum": 1
+  },
+  {
+   "cond": "max-width:991.98px",
+   "rules": 2,
+   "filesSum": 1
+  },
+  {
+   "cond": "max-width:1199.98px",
+   "rules": 2,
+   "filesSum": 1
+  },
+  {
+   "cond": "max-width:1399.98px",
+   "rules": 2,
+   "filesSum": 1
+  },
+  {
+   "cond": "min-width:576px",
+   "rules": 2,
+   "filesSum": 1
+  },
+  {
+   "cond": "min-width:992px",
+   "rules": 2,
+   "filesSum": 1
+  },
+  {
+   "cond": "max-width:767px",
+   "rules": 2,
+   "filesSum": 2
+  },
+  {
+   "cond": "min-width:376px",
+   "rules": 2,
+   "filesSum": 1
+  },
+  {
+   "cond": "min-width:480px",
+   "rules": 2,
+   "filesSum": 1
+  },
+  {
+   "cond": "min-width:1400px",
+   "rules": 1,
+   "filesSum": 1
+  },
+  {
+   "cond": "max-width:640px",
+   "rules": 1,
+   "filesSum": 1
+  },
+  {
+   "cond": "max-width:425px",
+   "rules": 1,
+   "filesSum": 1
+  },
+  {
+   "cond": "max-width:992px",
+   "rules": 1,
+   "filesSum": 1
+  },
+  {
+   "cond": "max-width:1080px",
+   "rules": 1,
+   "filesSum": 1
+  },
+  {
+   "cond": "min-width:1300px",
+   "rules": 1,
+   "filesSum": 1
+  },
+  {
+   "cond": "max-width:1500px",
+   "rules": 1,
+   "filesSum": 1
+  },
+  {
+   "cond": "max-width:360px",
+   "rules": 1,
+   "filesSum": 1
+  },
+  {
+   "cond": "max-width:389px",
+   "rules": 1,
+   "filesSum": 1
+  },
+  {
+   "cond": "max-width:574px",
+   "rules": 1,
+   "filesSum": 1
+  },
+  {
+   "cond": "max-width:367px",
+   "rules": 1,
+   "filesSum": 1
+  }
+ ],
+ "runtimeFindings": {
+  "headerPC_hamburger": "≥1301px: PCナビ(幅648px)表示 / ≤1300px: ハンバーガー(幅70px)",
+  "headerHeight": "≥1001px: 110px / ≤1000px: 68px",
+  "hamburgerWidth": "769〜1300px: 70px / ≤768px: 50px(実測)",
+  "mainPaddingTop": "実測 main の padding-top: ≥1001px=140px / 769〜1000px=103px / ≤768px=108px",
+  "homeLayoutSwitch": "トップ(/)はビューポート幅では PC⇄SP が切り替わらない(幅600でも PCレイアウト min-width≈1320px→横スクロール)。SPはサーバー側 UA 判定で別コンポーネント群(Kv_/Cta_/AboutPart1_ 等)を配信",
+  "responsivePages": "/products/scan, /faq, /article, /commitment は CSS @media で追従(幅800でも横スクロールなし)",
+  "rawBp": [
+   {
+    "w": 1500,
+    "hdrH": 110,
+    "hdrPad": "40px",
+    "hamburger": 0,
+    "pcNav": 648,
+    "hero": true,
+    "kv": false,
+    "faqPT": "128px",
+    "faqPL": "0px",
+    "faqInnerW": 992,
+    "faqTitle": "28px",
+    "faqItemPad": "48px",
+    "mainPT": "140px",
+    "footerPad": "80px",
+    "docW": 1500
+   },
+   {
+    "w": 1440,
+    "hdrH": 110,
+    "hdrPad": "40px",
+    "hamburger": 0,
+    "pcNav": 648,
+    "hero": true,
+    "kv": false,
+    "faqPT": "128px",
+    "faqPL": "0px",
+    "faqInnerW": 992,
+    "faqTitle": "28px",
+    "faqItemPad": "48px",
+    "mainPT": "140px",
+    "footerPad": "80px",
+    "docW": 1440
+   },
+   {
+    "w": 1301,
+    "hdrH": 110,
+    "hdrPad": "40px",
+    "hamburger": 0,
+    "pcNav": 648,
+    "hero": true,
+    "kv": false,
+    "faqPT": "128px",
+    "faqPL": "0px",
+    "faqInnerW": 992,
+    "faqTitle": "28px",
+    "faqItemPad": "48px",
+    "mainPT": "140px",
+    "footerPad": "80px",
+    "docW": 1320
+   },
+   {
+    "w": 1300,
+    "hdrH": 110,
+    "hdrPad": "20px",
+    "hamburger": 70,
+    "pcNav": 0,
+    "hero": true,
+    "kv": false,
+    "faqPT": "128px",
+    "faqPL": "0px",
+    "faqInnerW": 992,
+    "faqTitle": "28px",
+    "faqItemPad": "48px",
+    "mainPT": "140px",
+    "footerPad": "20px",
+    "docW": 1320
+   },
+   {
+    "w": 1200,
+    "hdrH": 110,
+    "hdrPad": "20px",
+    "hamburger": 70,
+    "pcNav": 0,
+    "hero": true,
+    "kv": false,
+    "faqPT": "128px",
+    "faqPL": "0px",
+    "faqInnerW": 992,
+    "faqTitle": "28px",
+    "faqItemPad": "48px",
+    "mainPT": "140px",
+    "footerPad": "20px",
+    "docW": 1320
+   },
+   {
+    "w": 1100,
+    "hdrH": 110,
+    "hdrPad": "20px",
+    "hamburger": 70,
+    "pcNav": 0,
+    "hero": true,
+    "kv": false,
+    "faqPT": "128px",
+    "faqPL": "0px",
+    "faqInnerW": 992,
+    "faqTitle": "28px",
+    "faqItemPad": "48px",
+    "mainPT": "140px",
+    "footerPad": "20px",
+    "docW": 1320
+   },
+   {
+    "w": 1099,
+    "hdrH": 110,
+    "hdrPad": "20px",
+    "hamburger": 70,
+    "pcNav": 0,
+    "hero": true,
+    "kv": false,
+    "faqPT": "128px",
+    "faqPL": "0px",
+    "faqInnerW": 992,
+    "faqTitle": "28px",
+    "faqItemPad": "48px",
+    "mainPT": "140px",
+    "footerPad": "20px",
+    "docW": 1320
+   },
+   {
+    "w": 1001,
+    "hdrH": 110,
+    "hdrPad": "20px",
+    "hamburger": 70,
+    "pcNav": 0,
+    "hero": true,
+    "kv": false,
+    "faqPT": "128px",
+    "faqPL": "0px",
+    "faqInnerW": 992,
+    "faqTitle": "28px",
+    "faqItemPad": "48px",
+    "mainPT": "140px",
+    "footerPad": "20px",
+    "docW": 1320
+   },
+   {
+    "w": 1000,
+    "hdrH": 68,
+    "hdrPad": "20px",
+    "hamburger": 70,
+    "pcNav": 0,
+    "hero": true,
+    "kv": false,
+    "faqPT": "128px",
+    "faqPL": "0px",
+    "faqInnerW": 992,
+    "faqTitle": "28px",
+    "faqItemPad": "48px",
+    "mainPT": "103px",
+    "footerPad": "20px",
+    "docW": 1320
+   },
+   {
+    "w": 992,
+    "hdrH": 68,
+    "hdrPad": "20px",
+    "hamburger": 70,
+    "pcNav": 0,
+    "hero": true,
+    "kv": false,
+    "faqPT": "128px",
+    "faqPL": "0px",
+    "faqInnerW": 992,
+    "faqTitle": "28px",
+    "faqItemPad": "48px",
+    "mainPT": "103px",
+    "footerPad": "20px",
+    "docW": 1320
+   },
+   {
+    "w": 769,
+    "hdrH": 68,
+    "hdrPad": "20px",
+    "hamburger": 70,
+    "pcNav": 0,
+    "hero": true,
+    "kv": false,
+    "faqPT": "128px",
+    "faqPL": "0px",
+    "faqInnerW": 992,
+    "faqTitle": "28px",
+    "faqItemPad": "48px",
+    "mainPT": "103px",
+    "footerPad": "20px",
+    "docW": 1320
+   },
+   {
+    "w": 768,
+    "hdrH": 68,
+    "hdrPad": "20px",
+    "hamburger": 50,
+    "pcNav": 0,
+    "hero": true,
+    "kv": false,
+    "faqPT": "128px",
+    "faqPL": "0px",
+    "faqInnerW": 992,
+    "faqTitle": "28px",
+    "faqItemPad": "48px",
+    "mainPT": "108px",
+    "footerPad": "20px",
+    "docW": 1320
+   },
+   {
+    "w": 767,
+    "hdrH": 68,
+    "hdrPad": "20px",
+    "hamburger": 50,
+    "pcNav": 0,
+    "hero": true,
+    "kv": false,
+    "faqPT": "128px",
+    "faqPL": "0px",
+    "faqInnerW": 992,
+    "faqTitle": "28px",
+    "faqItemPad": "48px",
+    "mainPT": "108px",
+    "footerPad": "20px",
+    "docW": 1320
+   },
+   {
+    "w": 600,
+    "hdrH": 68,
+    "hdrPad": "20px",
+    "hamburger": 50,
+    "pcNav": 0,
+    "hero": true,
+    "kv": false,
+    "faqPT": "128px",
+    "faqPL": "0px",
+    "faqInnerW": 992,
+    "faqTitle": "28px",
+    "faqItemPad": "48px",
+    "mainPT": "108px",
+    "footerPad": "20px",
+    "docW": 1320
+   },
+   {
+    "w": 500,
+    "hdrH": 68,
+    "hdrPad": "20px",
+    "hamburger": 50,
+    "pcNav": 0,
+    "hero": true,
+    "kv": false,
+    "faqPT": "128px",
+    "faqPL": "0px",
+    "faqInnerW": 992,
+    "faqTitle": "28px",
+    "faqItemPad": "48px",
+    "mainPT": "108px",
+    "footerPad": "20px",
+    "docW": 1320
+   },
+   {
+    "w": 400,
+    "hdrH": 68,
+    "hdrPad": "8px",
+    "hamburger": 50,
+    "pcNav": 0,
+    "hero": true,
+    "kv": false,
+    "faqPT": "128px",
+    "faqPL": "0px",
+    "faqInnerW": 992,
+    "faqTitle": "28px",
+    "faqItemPad": "48px",
+    "mainPT": "108px",
+    "footerPad": "20px",
+    "docW": 1320
+   },
+   {
+    "w": 390,
+    "hdrH": 68,
+    "hdrPad": "8px",
+    "hamburger": 50,
+    "pcNav": 0,
+    "hero": true,
+    "kv": false,
+    "faqPT": "128px",
+    "faqPL": "0px",
+    "faqInnerW": 992,
+    "faqTitle": "28px",
+    "faqItemPad": "48px",
+    "mainPT": "108px",
+    "footerPad": "20px",
+    "docW": 1320
+   },
+   {
+    "w": 375,
+    "hdrH": 68,
+    "hdrPad": "8px",
+    "hamburger": 50,
+    "pcNav": 0,
+    "hero": true,
+    "kv": false,
+    "faqPT": "128px",
+    "faqPL": "0px",
+    "faqInnerW": 992,
+    "faqTitle": "28px",
+    "faqItemPad": "48px",
+    "mainPT": "108px",
+    "footerPad": "20px",
+    "docW": 1320
+   },
+   {
+    "w": 360,
+    "hdrH": 68,
+    "hdrPad": "7.5px",
+    "hamburger": 50,
+    "pcNav": 0,
+    "hero": true,
+    "kv": false,
+    "faqPT": "128px",
+    "faqPL": "0px",
+    "faqInnerW": 992,
+    "faqTitle": "28px",
+    "faqItemPad": "48px",
+    "mainPT": "108px",
+    "footerPad": "20px",
+    "docW": 1320
+   }
+  ]
+ }
+}

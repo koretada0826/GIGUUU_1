@@ -1,0 +1,124 @@
+{
+ "slug": "oxide-computer",
+ "url": "https://oxide.computer/",
+ "capturedAt": "2026-10-12 21:12:44",
+ "files": {
+  "pc_f0": "oxide-computer-pc-f0.jpg",
+  "pc_f1": "oxide-computer-pc-f1.jpg",
+  "pc_f2": "oxide-computer-pc-f2.jpg",
+  "pc_scroll": "oxide-computer-pc-scroll.jpg",
+  "sp": "oxide-computer-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": "button:has-text('Accept')",
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://oxide.computer/",
+  "title": "Oxide Computer Company",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 9794,
+  "h1": "On-prem that feels like the public cloud",
+  "h1Style": {
+   "fontFamily": "SuisseIntl, -apple-system, \"system-ui\", Helvetica, Arial, sans-serif",
+   "fontSize": "65px",
+   "fontWeight": "400",
+   "lineHeight": "65px",
+   "letterSpacing": "-1.625px",
+   "color": "oklch(0.9 0.0001 260)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 40,
+    "y": 560,
+    "w": 720,
+    "h": 130
+   }
+  },
+  "lead": null,
+  "ctas": [],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://oxide.computer/img/home/rack-triple-shadows.svg",
+    "w": 684,
+    "h": 232,
+    "alt": ""
+   },
+   {
+    "src": "https://oxide.computer/_vercel/image?url=%2Fimg%2Fhome%2Fhero-triple-rack.webp&w=1080&q=90",
+    "w": 570,
+    "h": 678,
+    "alt": "Three Oxide racks, side by side"
+   }
+  ],
+  "backgroundImages": [
+   {
+    "bg": "url(\"https://oxide.computer/img/ascii-pattern.svg\")",
+    "w": 1432,
+    "h": 694
+   }
+  ],
+  "firstScreenFonts": [
+   "SuisseIntl"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "oklch(0.162 0.01 260)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "On-prem that feels like the public cloud",
+  "h1Style": {
+   "fontFamily": "SuisseIntl, -apple-system, \"system-ui\", Helvetica, Arial, sans-serif",
+   "fontSize": "36px",
+   "fontWeight": "400",
+   "lineHeight": "36px",
+   "letterSpacing": "-0.468px",
+   "color": "oklch(0.9 0.0001 260)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 19,
+    "y": 92,
+    "w": 352,
+    "h": 72
+   }
+  },
+  "lead": null,
+  "ctas": [],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://oxide.computer/img/home/rack-triple-shadows.svg",
+    "w": 436,
+    "h": 148,
+    "alt": ""
+   },
+   {
+    "src": "https://oxide.computer/_vercel/image?url=%2Fimg%2Fhome%2Fhero-triple-rack.webp&w=1920&q=90",
+    "w": 334,
+    "h": 397,
+    "alt": "Three Oxide racks, side by side"
+   }
+  ],
+  "pageHeight": 13629
+ },
+ "elapsedSec": 11.9
+}

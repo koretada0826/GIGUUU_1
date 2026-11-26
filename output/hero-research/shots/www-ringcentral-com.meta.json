@@ -1,0 +1,209 @@
+{
+ "slug": "www-ringcentral-com",
+ "url": "https://www.ringcentral.com/",
+ "capturedAt": "2026-10-12 21:08:22",
+ "files": {
+  "pc_f0": "www-ringcentral-com-pc-f0.jpg",
+  "pc_f1": "www-ringcentral-com-pc-f1.jpg",
+  "pc_f2": "www-ringcentral-com-pc-f2.jpg",
+  "pc_scroll": "www-ringcentral-com-pc-scroll.jpg",
+  "sp": "www-ringcentral-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": "button:has-text('Accept')",
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.ringcentral.com/",
+  "title": "RingCentral: The Voice of Your Business",
+  "lang": "en-US",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 13718,
+  "h1": "The Agentic Voice AI platform to drive customer outcomes",
+  "h1Style": {
+   "fontFamily": "NeueHaasGroteskDisplayPro, Helvetica, Arial, sans-serif",
+   "fontSize": "60px",
+   "fontWeight": "500",
+   "lineHeight": "63.6px",
+   "letterSpacing": "-0.32px",
+   "color": "rgb(43, 41, 38)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 76,
+    "y": 271,
+    "w": 604,
+    "h": 191
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "Products",
+   "Solutions",
+   "Plans & Pricing",
+   "Partners",
+   "Resources",
+   "Company",
+   "View demo",
+   "See pricing",
+   "Contact sales"
+  ],
+  "videos": [
+   {
+    "src": "https://www.ringcentral.com/content/dam/rc-www/en_us/images/content/ab-tests/homepages/home_x/video/hero-updated.webm",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 634,
+    "h": 469,
+    "playing": true
+   }
+  ],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.ringcentral.com/content/dam/rc-www/en_us/images/svg/logo/dark/SanDiegoSymphony.svg",
+    "w": 128,
+    "h": 45,
+    "alt": "San Diego Symphony logo"
+   },
+   {
+    "src": "https://www.ringcentral.com/content/dam/rc-www/en_us/images/svg/logo/dark/SanDiegoSymphony.svg",
+    "w": 128,
+    "h": 45,
+    "alt": "San Diego Symphony logo"
+   },
+   {
+    "src": "https://www.ringcentral.com/content/dam/rc-www/en_us/images/svg/logo/dark/SanDiegoSymphony.svg",
+    "w": 128,
+    "h": 45,
+    "alt": "San Diego Symphony logo"
+   },
+   {
+    "src": "https://www.ringcentral.com/content/dam/rc-www/en_us/images/svg/logo/dark/SanDiegoSymphony.svg",
+    "w": 128,
+    "h": 45,
+    "alt": "San Diego Symphony logo"
+   },
+   {
+    "src": "https://www.ringcentral.com/content/dam/rc-www/en_us/images/svg/logo/dark/SanDiegoSymphony.svg",
+    "w": 128,
+    "h": 45,
+    "alt": "San Diego Symphony logo"
+   },
+   {
+    "src": "https://www.ringcentral.com/content/dam/rc-www/en_us/images/svg/logo/dark/SanDiegoSymphony.svg",
+    "w": 128,
+    "h": 45,
+    "alt": "San Diego Symphony logo"
+   },
+   {
+    "src": "https://www.ringcentral.com/content/dam/rc-www/en_us/images/content/ab-tests/homepages/medium-chat-popup/jessica-avatar-png-rendition.webp",
+    "w": 64,
+    "h": 64,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "NeueHaasGroteskDisplayPro"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "The Agentic Voice AI platform to drive customer outcomes",
+  "h1Style": {
+   "fontFamily": "NeueHaasGroteskDisplayPro, Helvetica, Arial, sans-serif",
+   "fontSize": "39px",
+   "fontWeight": "500",
+   "lineHeight": "46.8px",
+   "letterSpacing": "-0.32px",
+   "color": "rgb(43, 41, 38)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 28,
+    "y": 249,
+    "w": 334,
+    "h": 187
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "Australia En",
+   "Bulgaria Bg",
+   "Canada En",
+   "China Zh",
+   "France Fr",
+   "Germany De",
+   "Ireland En",
+   "Italy It",
+   "Mexico Es",
+   "Netherlands En",
+   "Products",
+   "Business Phone +"
+  ],
+  "videos": [
+   {
+    "src": "https://www.ringcentral.com/content/dam/rc-www/en_us/images/content/ab-tests/homepages/home_x/video/hero-updated.webm",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 316,
+    "h": 234,
+    "playing": true
+   }
+  ],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.ringcentral.com/content/dam/rc-www/en_us/images/svg/phoenix/rc-app-grey.svg",
+    "w": 48,
+    "h": 48,
+    "alt": "Access your calls, messages, and meetings."
+   },
+   {
+    "src": "https://www.ringcentral.com/content/dam/rc-www/en_us/images/svg/phoenix/events-grey.svg",
+    "w": 48,
+    "h": 48,
+    "alt": "Access your account and plan your next event."
+   },
+   {
+    "src": "https://www.ringcentral.com/content/dam/rc-www/en_us/images/svg/phoenix/gear-grey.svg",
+    "w": 48,
+    "h": 48,
+    "alt": "Access your account settings."
+   },
+   {
+    "src": "https://www.ringcentral.com/content/dam/rc-www/en_us/images/svg/phoenix/billing.svg",
+    "w": 48,
+    "h": 48,
+    "alt": "Billing Portal"
+   },
+   {
+    "src": "https://www.ringcentral.com/content/dam/rc-www/en_us/images/content/ab-tests/homepages/medium-chat-popup/jessica-avatar-png-rendition.webp",
+    "w": 64,
+    "h": 64,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 18021
+ },
+ "elapsedSec": 13.7
+}

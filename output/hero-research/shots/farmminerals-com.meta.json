@@ -1,0 +1,121 @@
+{
+ "slug": "farmminerals-com",
+ "url": "https://www.farmminerals.com/",
+ "capturedAt": "2026-10-12 21:14:34",
+ "files": {
+  "pc_f0": "farmminerals-com-pc-f0.jpg",
+  "pc_f1": "farmminerals-com-pc-f1.jpg",
+  "pc_f2": "farmminerals-com-pc-f2.jpg",
+  "pc_scroll": "farmminerals-com-pc-scroll.jpg",
+  "sp": "farmminerals-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.farmminerals.com/",
+  "title": "Farm Minerals | Low-Carbon, Acre-Rate Crop Nutrition",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 10556,
+  "h1": "Fertilizer, Reinvented.",
+  "h1Style": {
+   "fontFamily": "Aeonik, Arial, sans-serif",
+   "fontSize": "86.4px",
+   "fontWeight": "400",
+   "lineHeight": "82.08px",
+   "letterSpacing": "normal",
+   "color": "rgb(244, 237, 230)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 26,
+    "y": 78,
+    "w": 470,
+    "h": 164
+   }
+  },
+  "lead": null,
+  "ctas": [],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://cdn.prod.website-files.com/68b5b8542c5c0a63b1d91b3b/68b94bde63c0321ac7dc4bfc_tablet_new.avif",
+    "w": 316,
+    "h": 302,
+    "alt": "CropTab™ NPK fertilizer tablet — Farm Minerals"
+   },
+   {
+    "src": "https://cdn.prod.website-files.com/68b5b8542c5c0a63b1d91b3b/68c2a5d546bf825d7fca94d4_ezgif-6a9414d8402168.avif",
+    "w": 1576,
+    "h": 1272,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Arial",
+   "Aeonik"
+  ],
+  "libs": {
+   "gsap": true,
+   "ScrollTrigger": true,
+   "three": false,
+   "lenis": true,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(244, 237, 230)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "Fertilizer, Reinvented.",
+  "h1Style": {
+   "fontFamily": "Aeonik, Arial, sans-serif",
+   "fontSize": "48.828px",
+   "fontWeight": "400",
+   "lineHeight": "46.3866px",
+   "letterSpacing": "-0.48828px",
+   "color": "rgb(244, 237, 230)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 16,
+    "y": 78,
+    "w": 252,
+    "h": 93
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "EXPLORE PRODUCTS"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://cdn.prod.website-files.com/68b5b8542c5c0a63b1d91b3b/68b94bde63c0321ac7dc4bfc_tablet_new.avif",
+    "w": 189,
+    "h": 180,
+    "alt": "CropTab™ NPK fertilizer tablet — Farm Minerals"
+   },
+   {
+    "src": "https://cdn.prod.website-files.com/68b5b8542c5c0a63b1d91b3b/68cc66c2b616f1163c0b70ec_fm_Mobile.avif",
+    "w": 421,
+    "h": 912,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 13101
+ },
+ "elapsedSec": 12.8
+}

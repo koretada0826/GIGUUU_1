@@ -1,0 +1,221 @@
+/* User-selected blue accompaniment design, 2026-10-13.
+   Scoped to the replacement panel; all copy remains editable HTML. */
+.telemo-support-redesign {
+  --support-ink: #0a2a44;
+  --support-blue: #007d8c;
+  --support-pale: #eaf6f8;
+  --support-line: #cce4e8;
+  container-type: inline-size;
+  isolation: isolate;
+  margin-top: 72px;
+  background: #fff;
+  color: var(--support-ink);
+  font-family: "Noto Sans JP", "Hiragino Sans", sans-serif;
+  font-feature-settings: "palt";
+  letter-spacing: 0;
+  scroll-margin-top: 96px;
+}
+.telemo-support-redesign *,
+.telemo-support-redesign *::before,
+.telemo-support-redesign *::after { box-sizing: border-box; }
+.telemo-support-redesign__stage { position: relative; height: 46.38cqw; background: #f5fafb; border-radius: 24px; overflow: hidden; }
+.telemo-support-redesign__message {
+  position: absolute;
+  z-index: 2;
+  inset: 5.85cqw auto auto 4.4cqw;
+  width: 44cqw;
+}
+.telemo-support-redesign__pre {
+  margin: 0 0 1.7cqw;
+  padding-left: 1.45cqw;
+  border-left: 3px solid var(--support-blue);
+  color: var(--support-ink);
+  font-size: 1.6cqw;
+  font-weight: 700;
+  line-height: 1.6;
+  letter-spacing: .13em;
+}
+.page-home .telemo-support-redesign__copy {
+  margin: 0;
+  color: var(--support-ink);
+  font-size: 3.55cqw;
+  font-weight: 900;
+  line-height: 1.4;
+  letter-spacing: -.03em;
+}
+.telemo-support-redesign__copy > span { display: block; white-space: nowrap; }
+.telemo-support-redesign__copy em { color: var(--support-blue); font-style: normal; }
+.telemo-support-redesign__body {
+  margin: 1.75cqw 0 0;
+  color: var(--support-ink);
+  font-size: 1.48cqw;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: .025em;
+}
+.telemo-support-redesign__tagline {
+  margin: 3.05cqw 0 0;
+  color: #58818a;
+  font-size: .76cqw;
+  line-height: 1.7;
+  letter-spacing: .35em;
+}
+.telemo-support-redesign__tagline::before {
+  content: "";
+  display: block;
+  width: 5cqw;
+  margin-bottom: .75cqw;
+  border-top: 1px solid var(--support-line);
+}
+.telemo-support-redesign__photo {
+  position: absolute;
+  inset: 2cqw 2cqw auto auto;
+  width: 53cqw;
+  height: 25cqw;
+  margin: 0;
+  border-radius: 18px;
+  overflow: hidden;
+  background: var(--support-pale);
+}
+.telemo-support-redesign__photo > img {
+  display: block; width: 100%; height: 100%; object-fit: cover;
+  filter: saturate(.65) contrast(.92);
+}
+.telemo-support-redesign__photo figcaption { display: none; }
+.telemo-support-redesign__photo figcaption {
+  position: absolute;
+  top: 4.3cqw;
+  right: 1.5cqw;
+  color: #608ad0;
+  font-size: .7cqw;
+  font-weight: 400;
+  line-height: 2.2;
+  letter-spacing: .24em;
+}
+.telemo-support-redesign__support {
+  position: absolute;
+  inset: 28.7cqw 0 0 auto;
+  width: 63.85cqw;
+  padding: 2.05cqw 4.15cqw 1.65cqw 3.5cqw;
+  border-radius: 24px 0 0 0;
+  background: var(--support-pale);
+}
+.page-home .telemo-support-redesign__label {
+  display: flex;
+  align-items: center;
+  gap: 1.4cqw;
+  margin: 0;
+  padding-left: 1.35cqw;
+  border-left: 3px solid var(--support-blue);
+  color: var(--support-ink);
+  font-size: 1.6cqw;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: .05em;
+}
+.telemo-support-redesign__label::after { content: ""; flex: 1; border-top: 1px solid var(--support-line); }
+.telemo-support-redesign__items {
+  display: grid;
+  grid-template-columns: 1fr 1.08fr;
+  gap: .9cqw 3.1cqw;
+  margin: 1.35cqw 0 0;
+  padding: 0;
+  list-style: none;
+}
+.telemo-support-redesign__items li {
+  display: grid;
+  grid-template-columns: 4.8cqw minmax(0, 1fr);
+  align-items: center;
+  gap: 1.3cqw;
+  min-width: 0;
+  color: var(--support-ink);
+  font-size: 1.28cqw;
+  font-weight: 700;
+  line-height: 1.6;
+}
+.telemo-support-redesign__items li > span:last-child { display: flex; align-items: center; min-height: 5.15cqw; }
+.telemo-support-redesign__items li:nth-child(-n+2) > span:last-child { border-bottom: 1px solid var(--support-line); }
+.telemo-support-redesign__icon { display: grid; place-items: center; width: 4.8cqw; height: 4.8cqw; border-radius: 50%; background: #fff; }
+.telemo-support-redesign__icon img { display: block; width: 2.6cqw; height: 2.6cqw; }
+.telemo-support-redesign__footer {
+  display: grid;
+  grid-template-columns: 25.5cqw minmax(0, 1fr);
+  align-items: center;
+  gap: 4.6cqw;
+  min-height: 6.38cqw;
+  padding: 1.35cqw 4cqw;
+  background: #0b3768 url("./assets/telemo-support/redesign/support-footer-background-v1.png") right bottom / cover no-repeat;
+  color: #fff;
+}
+.telemo-support-redesign__brand { display: flex; align-items: center; gap: 1.5cqw; margin: 0; color: #fff; white-space: nowrap; }
+.telemo-support-redesign__brand > span { font-size: 1.72cqw; font-weight: 900; letter-spacing: .065em; }
+.telemo-support-redesign__brand small { padding-left: 1.45cqw; border-left: 1px solid #92b5dd; font-size: .72cqw; font-weight: 400; letter-spacing: .3em; }
+.telemo-support-redesign__closing { display: flex; align-items: center; gap: 2cqw; margin: 0; color: #fff; font-size: 2.25cqw; font-weight: 700; line-height: 1.4; letter-spacing: .025em; white-space: nowrap; }
+.telemo-support-redesign__closing::before,
+.telemo-support-redesign__closing::after { content: ""; width: 5cqw; flex-shrink: 0; border-top: 1px solid #739bc7; }
+.telemo-support-redesign__closing::before { margin-left: -4.6cqw; }
+
+@media (min-width: 1921px) {
+  .telemo-support-redesign { max-width: 1920px; margin-inline: auto; }
+}
+@media (max-width: 1050px) {
+  .telemo-support-redesign__stage { height: auto; display: grid; grid-template-columns: 1fr 1fr; }
+  .telemo-support-redesign__message { position: relative; inset: auto; grid-column: 1; grid-row: 1; width: auto; padding: 48px 0 36px 28px; }
+  .telemo-support-redesign__pre { margin-bottom: 22px; padding-left: 16px; font-size: 17px; }
+  .page-home .telemo-support-redesign__copy { font-size: clamp(25px, 3.3vw, 35px); }
+  .telemo-support-redesign__body { margin-top: 24px; font-size: 16px; }
+  .telemo-support-redesign__body br { display: none; }
+  .telemo-support-redesign__tagline { margin-top: 28px; font-size: 11px; }
+  .telemo-support-redesign__tagline::before { width: 64px; margin-bottom: 12px; }
+  .telemo-support-redesign__photo { position: relative; inset: auto; grid-column: 2; grid-row: 1; width: auto; height: auto; margin: 24px 24px 24px 12px; }
+  .telemo-support-redesign__photo > img { object-fit: cover; object-position: 45% center; }
+  .telemo-support-redesign__photo figcaption { display: none; } /* 狭い幅では人物に被るため非表示 */
+  .telemo-support-redesign__support { position: relative; inset: auto; grid-column: 1 / -1; width: auto; padding: 32px 28px; border-radius: 0; }
+  .page-home .telemo-support-redesign__label { gap: 24px; padding-left: 18px; font-size: 22px; }
+  .telemo-support-redesign__items { gap: 16px 28px; margin-top: 24px; }
+  .telemo-support-redesign__items li { grid-template-columns: 60px minmax(0, 1fr); gap: 18px; font-size: 16px; }
+  .telemo-support-redesign__items li > span:last-child { min-height: 76px; }
+  .telemo-support-redesign__icon { width: 60px; height: 60px; }
+  .telemo-support-redesign__icon img { width: 34px; height: 34px; }
+  .telemo-support-redesign__footer { grid-template-columns: 1fr; gap: 20px; padding: 28px; text-align: center; }
+  .telemo-support-redesign__brand { justify-content: center; gap: 18px; }
+  .telemo-support-redesign__brand > span { font-size: 22px; }
+  .telemo-support-redesign__brand small { padding-left: 18px; font-size: 10px; }
+  .telemo-support-redesign__closing { grid-row: 1; justify-content: center; gap: 20px; font-size: clamp(21px, 3vw, 30px); }
+  .telemo-support-redesign__closing::before { margin-left: 0; }
+  .telemo-support-redesign__closing::before,
+  .telemo-support-redesign__closing::after { width: 40px; }
+}
+@media (max-width: 640px) {
+  .telemo-support-redesign { margin-top: 48px; }
+  .telemo-support-redesign__stage { display: flex; flex-direction: column; }
+  .telemo-support-redesign__message { padding: 32px 22px 24px; }
+  .telemo-support-redesign__pre { font-size: 16px; letter-spacing: .1em; }
+  .page-home .telemo-support-redesign__copy { font-size: clamp(23px, 6.2vw, 38px); line-height: 1.5; }
+  .telemo-support-redesign__body { font-size: 16px; line-height: 1.9; letter-spacing: 0; }
+  .telemo-support-redesign__tagline { display: none; }
+  .telemo-support-redesign__photo { width: auto; height: auto; margin: 0 22px 24px; aspect-ratio: 1.8; }
+  .telemo-support-redesign__photo > img { object-fit: cover; object-position: center; }
+  .telemo-support-redesign__photo figcaption { font-size: 9px; line-height: 1.9; }
+  .telemo-support-redesign__support { padding: 28px 22px 32px; }
+  .page-home .telemo-support-redesign__label { gap: 16px; font-size: 20px; }
+  .telemo-support-redesign__items { grid-template-columns: 1fr; gap: 0; margin-top: 20px; }
+  .telemo-support-redesign__items li { grid-template-columns: 54px minmax(0, 1fr); gap: 16px; padding-block: 12px; font-size: 15px; }
+  .telemo-support-redesign__items li > span:last-child { min-height: 54px; border: 0; }
+  .telemo-support-redesign__items li + li { border-top: 1px solid var(--support-line); }
+  .telemo-support-redesign__icon { width: 54px; height: 54px; }
+  .telemo-support-redesign__icon img { width: 32px; height: 32px; }
+  .telemo-support-redesign__footer { gap: 18px; padding: 28px 16px; }
+  .telemo-support-redesign__closing { display: block; font-size: clamp(17px, 4.7vw, 24px); white-space: normal; }
+  .telemo-support-redesign__closing::before,
+  .telemo-support-redesign__closing::after { display: none; }
+  .telemo-support-redesign__brand { gap: 12px; }
+  .telemo-support-redesign__brand > span { font-size: 20px; }
+  .telemo-support-redesign__brand small { padding-left: 12px; font-size: 9px; letter-spacing: .2em; }
+}
+@media (max-width: 359px) {
+  .telemo-support-redesign__message,
+  .telemo-support-redesign__support { padding-inline: 18px; }
+  .page-home .telemo-support-redesign__copy { font-size: 21px; }
+  .telemo-support-redesign__items li { gap: 12px; font-size: 14px; }
+}

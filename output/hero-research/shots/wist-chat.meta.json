@@ -1,0 +1,93 @@
+{
+ "slug": "wist-chat",
+ "url": "https://www.wist.chat/",
+ "capturedAt": "2026-10-12 21:26:40",
+ "files": {
+  "pc_f0": "wist-chat-pc-f0.jpg",
+  "pc_f1": "wist-chat-pc-f1.jpg",
+  "pc_f2": "wist-chat-pc-f2.jpg",
+  "pc_scroll": "wist-chat-pc-scroll.jpg",
+  "sp": "wist-chat-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.wist.chat/",
+  "title": "Wist: AI Live Chat Agents for Customer Support",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 12038,
+  "h1": "AI Live Chat With a Brain.",
+  "h1Style": {
+   "fontFamily": "LyonText, system-ui, sans-serif",
+   "fontSize": "74px",
+   "fontWeight": "400",
+   "lineHeight": "78px",
+   "letterSpacing": "-3px",
+   "color": "oklch(0.145 0 0)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 856,
+    "y": 356,
+    "w": 381,
+    "h": 156
+   }
+  },
+  "lead": "{\"@context\":\"https://schema.org\",\"@type\":\"SoftwareApplication\",\"name\":\"Wist\",\"applicationCategory\":\"BusinessApplication\",\"operatingSystem\":\"All\",\"offers\":{\"@type\":\"Offer\",\"price\":\"0\",\"priceCurrency\":\"USD\"},\"description\":\"Wist is the best and most affordable way to embed an AI live chat experience on",
+  "ctas": [],
+  "videos": [],
+  "canvases": [],
+  "images": [],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "LyonText",
+   "InterVariable"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "oklch(1 0 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "AI Live Chat With a Brain.",
+  "h1Style": {
+   "fontFamily": "LyonText, system-ui, sans-serif",
+   "fontSize": "51px",
+   "fontWeight": "400",
+   "lineHeight": "55px",
+   "letterSpacing": "-2px",
+   "color": "oklch(0.145 0 0)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 63,
+    "y": 149,
+    "w": 264,
+    "h": 110
+   }
+  },
+  "lead": "{\"@context\":\"https://schema.org\",\"@type\":\"SoftwareApplication\",\"name\":\"Wist\",\"applicationCategory\":\"BusinessApplication\",\"operatingSystem\":\"All\",\"offers\":{\"@type\":\"Offer\",\"price\":\"0\",\"priceCurrency\":\"USD\"},\"description\":\"Wist is the best and most affordable way to embed an AI live chat experience on",
+  "ctas": [],
+  "videos": [],
+  "canvases": [],
+  "images": [],
+  "pageHeight": 17610
+ },
+ "elapsedSec": 13.6
+}

@@ -1,0 +1,105 @@
+{
+ "slug": "unifygtm-com",
+ "url": "https://www.unifygtm.com/",
+ "capturedAt": "2026-10-12 21:22:58",
+ "files": {
+  "pc_f0": "unifygtm-com-pc-f0.jpg",
+  "pc_f1": "unifygtm-com-pc-f1.jpg",
+  "pc_f2": "unifygtm-com-pc-f2.jpg",
+  "pc_scroll": "unifygtm-com-pc-scroll.jpg",
+  "sp": "unifygtm-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.unifygtm.com/",
+  "title": "Unify | Outbound agents for every rep",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 7797,
+  "h1": "Outbound agents for every rep",
+  "h1Style": {
+   "fontFamily": "\"Feature Text\", \"Trebuchet MS\", sans-serif",
+   "fontSize": "90px",
+   "fontWeight": "700",
+   "lineHeight": "90px",
+   "letterSpacing": "-3.6px",
+   "color": "rgb(36, 30, 32)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 100,
+    "y": 170,
+    "w": 1240,
+    "h": 89
+   }
+  },
+  "lead": "Find the best ways for me to use my network to sell to Stripe Write personalized notes to the CEOs of Pylon, Coalesce.io and Unify based on LinkedIn posts in the last few weeks. Also find their contact info",
+  "ctas": [
+   "Read the report: The Path to AE",
+   "Book a Demo",
+   "Try for free"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [],
+  "backgroundImages": [
+   {
+    "bg": "url(\"https://cdn.prod.website-files.com/69ab6e0360675acdbd1f014f/6a3cf57dd0a79ff4dcd90a7e_unify-hero.avif\")",
+    "w": 1240,
+    "h": 640
+   }
+  ],
+  "firstScreenFonts": [
+   "Saans",
+   "Feature Text"
+  ],
+  "libs": {
+   "gsap": true,
+   "ScrollTrigger": true,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 249)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "Outbound agents for every rep",
+  "h1Style": {
+   "fontFamily": "\"Feature Text\", \"Trebuchet MS\", sans-serif",
+   "fontSize": "48px",
+   "fontWeight": "700",
+   "lineHeight": "48px",
+   "letterSpacing": "-1.92px",
+   "color": "rgb(36, 30, 32)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 20,
+    "y": 143,
+    "w": 350,
+    "h": 96
+   }
+  },
+  "lead": "Find 10 top-rated catering companies in San Francisco and their owners Write personalized notes to the CEOs of Pylon, Coalesce.io and Unify based on LinkedIn posts in the last few weeks. Also find their contact info",
+  "ctas": [
+   "Try for free"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [],
+  "pageHeight": 9694
+ },
+ "elapsedSec": 11.8
+}

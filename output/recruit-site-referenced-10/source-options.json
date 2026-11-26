@@ -1,0 +1,9 @@
+{
+  "preset": "detail-review",
+  "title": "参照サイトと取り入れたデザイン要素（2026-10-12のキャプチャ）",
+  "minTileWidth": 520,
+  "showCaptions": true,
+  "showControls": false,
+  "showPrompts": false,
+  "output": "source-board.html"
+}

@@ -1,0 +1,20 @@
+{
+  "source": "https://www.rideradian.com/",
+  "final_url": "https://www.rideradian.com/",
+  "captured_at": "2026-10-12 15:46",
+  "tool": "mirror_browser.py (static DOM snapshot)",
+  "assets_saved": 177,
+  "bytes_saved": 19918371,
+  "notes": [
+    "clicked button:has-text('Accept All')",
+    "1 canvas element(s) replaced with screenshots",
+    "videos: 4 kept, 4 replaced by a poster frame",
+    "3 pinned scroll element(s) returned to normal flow"
+  ],
+  "failed": {
+    "https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg": "HTTP 403"
+  },
+  "skipped": {
+    "https://vz-6299e355-e25.b-cdn.net/79155e06-0ac6-4fd0-b2f2-baed1610df1a/playlist.m3u8": 5137246
+  }
+}

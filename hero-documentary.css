@@ -1,0 +1,252 @@
+/* =========================================================
+   hero-documentary.css — トップページの最初の画面（ドキュメンタリー調）
+   コールセンターの写真1枚（焼き込みの文字を消したもの）を Blender で奥行きのある 12 秒のループ映像にし、<video> で流す。
+   見出し・ボタンは実HTMLで重ねる。telemo-kinetic-hero.css の代わりに読み込む。
+     - 映像: assets/hero/callcenter-hero.webm / .mp4、ポスター -poster.jpg。作り方は scripts/build_hero_callcenter_video.py
+       （写真を人物・机・奥の壁の板に投影し、カメラの前進・横移動の視差、ピント送り、呼吸程度の微小な動き）
+     - 再生の制御（画面外・タブ非表示で一時停止、prefers-reduced-motion で先頭の静止画）とスクロールの奥行きは hero-documentary.js
+     - フィルムグレイン（assets/hero/grain.png）と露出の揺らぎは CSS。prefers-reduced-motion では止めて静止表示
+     - 画面外では hero-documentary.js が is-offscreen を付け、CSS の動きも止める
+   ========================================================= */
+
+/* ---------- 枠 ---------- */
+.page-home.concept-08 .hero.doc-hero {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr); /* concept-08.css の 46%/54% 指定を打ち消す */
+  align-content: center;
+  width: 100%;
+  max-width: none;
+  height: auto;
+  min-height: 640px;
+  min-height: clamp(600px, 92svh, 920px);
+  margin: 0;
+  padding: calc(var(--nav-height) + 24px) 0 clamp(56px, 8vh, 96px);
+  overflow: hidden;
+  isolation: isolate;
+  background: #1c1e22;
+  color: #fff;
+}
+
+/* ---------- 映像レイヤー ---------- */
+.doc-hero__media {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  background: #1c1e22;
+  animation: doc-hero-fade 1400ms ease-out both;
+}
+/* スクロール中に 0.1 倍だけ下へ遅らせる（hero-documentary.js）。その分、上に 10% はみ出させておく */
+.doc-hero__parallax {
+  position: absolute;
+  inset: -10% 0 0 0;
+  will-change: transform;
+}
+/* 映像の枠。カメラの動きは映像に入っているので、はみ出しは要らない */
+.doc-hero__camera {
+  position: absolute;
+  inset: 0;
+}
+.doc-hero.is-offscreen .doc-hero__grain,
+.doc-hero.is-offscreen .doc-hero__breathe { animation-play-state: paused; }
+.doc-hero__video {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 62% 40%;
+}
+
+/* 露出のゆらぎ：黒い面の不透明度を 0〜4% で往復させるだけ（brightness フィルターは使わない） */
+.doc-hero__breathe {
+  position: absolute;
+  inset: 0;
+  background: #000;
+  opacity: 0;
+  animation: doc-hero-breathe 7s ease-in-out infinite;
+}
+/* フィルムグレイン：ノイズのタイルを 1.5 倍の面に敷き、コマ送りでずらす */
+.doc-hero__grain {
+  position: absolute;
+  inset: -25%;
+  background: url("./assets/hero/grain.png") repeat;
+  background-size: 160px 160px;
+  opacity: .085;
+  mix-blend-mode: overlay;
+  pointer-events: none;
+  will-change: transform;
+  animation: doc-hero-grain .9s steps(9) infinite;
+}
+/* 文字を読むための暗幕と、レンズの周辺減光。色は足さない */
+.doc-hero__scrim {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(120% 95% at 50% 45%, rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, .34) 100%),
+    linear-gradient(90deg, rgba(18, 20, 24, .82) 0%, rgba(18, 20, 24, .62) 30%, rgba(18, 20, 24, .18) 58%, rgba(18, 20, 24, 0) 76%),
+    linear-gradient(180deg, rgba(18, 20, 24, .42) 0%, rgba(18, 20, 24, 0) 30%, rgba(18, 20, 24, .16) 100%);
+}
+
+/* ---------- 文字 ---------- */
+.doc-hero__inner {
+  position: relative;
+  z-index: 2;
+  width: min(var(--page-width), calc(100% - var(--page-padding) * 2));
+  margin-inline: auto;
+}
+.page-home .doc-hero__title {
+  max-width: 12em;
+  margin: 0 0 clamp(20px, 2.6vw, 32px);
+  color: #fff;
+  font-family: "Hiragino Mincho ProN", "Yu Mincho", "YuMincho", "Noto Serif JP", serif;
+  font-size: clamp(36px, 5.2vw, 78px);
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: .02em;
+  text-shadow: 0 2px 24px rgba(0, 0, 0, .28);
+  animation: doc-hero-rise 1000ms cubic-bezier(.22, 1, .36, 1) 260ms both;
+}
+.doc-hero__title span { display: block; white-space: nowrap; }
+.doc-hero__lead {
+  max-width: 34em;
+  margin: 0 0 clamp(28px, 3.4vw, 44px);
+  color: rgba(255, 255, 255, .92);
+  font-size: clamp(14px, 1.15vw, 17px);
+  font-weight: 500;
+  line-height: 2;
+  letter-spacing: .06em;
+  text-shadow: 0 1px 12px rgba(0, 0, 0, .3);
+  text-wrap: pretty;
+  animation: doc-hero-rise 1000ms cubic-bezier(.22, 1, .36, 1) 480ms both;
+}
+.doc-hero__lead span { display: block; text-wrap: balance; word-break: auto-phrase; } /* 折り返す幅では 2 行を均等にし、文節で折る */
+
+/* ---------- ボタン ---------- */
+.doc-hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 14px 18px;
+  animation: doc-hero-rise 1000ms cubic-bezier(.22, 1, .36, 1) 660ms both;
+}
+.page-home.concept-08 .doc-hero .btn {
+  min-height: 60px;
+  padding: 0 28px;
+  border-radius: 999px;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .08em;
+  box-shadow: none;
+  transition: background-color var(--dur-fast), border-color var(--dur-fast), color var(--dur-fast);
+}
+.page-home.concept-08 .doc-hero .btn--primary {
+  min-width: 252px;
+  justify-content: space-between;
+  gap: 32px;
+  padding: 0 10px 0 40px;
+  background: #fd8e44;
+  color: #1b1b1b;
+}
+.page-home.concept-08 .doc-hero .btn--primary:hover,
+.page-home.concept-08 .doc-hero .btn--primary:focus-visible { background: #ed7c32; color: #1b1b1b; }
+.page-home.concept-08 .doc-hero .btn__arrow {
+  display: inline-grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgba(27, 27, 27, .45);
+  border-radius: 50%;
+  font-size: 18px;
+  line-height: 1;
+  transition: transform 220ms ease;
+}
+.page-home.concept-08 .doc-hero .btn:hover .btn__arrow { transform: translateX(4px); }
+.page-home.concept-08 .doc-hero .btn--ghost {
+  min-width: 208px;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, .72);
+  background: transparent;
+  color: #fff;
+  text-decoration: none;
+}
+.page-home.concept-08 .doc-hero .btn--ghost:hover,
+.page-home.concept-08 .doc-hero .btn--ghost:focus-visible { border-color: #fff; background: rgba(255, 255, 255, .12); color: #fff; }
+.page-home.concept-08 .doc-hero .btn:focus-visible { outline: 2px solid #fff; outline-offset: 3px; }
+
+/* ---------- 写真の上に重なるヘッダー：最上部では文字を白にする（スマホはヘッダーが白地なので対象外） ---------- */
+@media (min-width: 768px) {
+  body:has(.doc-hero):not(.menu-open) header.ggh:not(.is-scrolled) .ggh__logo { color: #fff; }
+  body:has(.doc-hero):not(.menu-open) header.ggh:not(.is-scrolled) .ggh__primary a { color: rgba(255, 255, 255, .88); }
+  body:has(.doc-hero):not(.menu-open) header.ggh:not(.is-scrolled) .ggh__primary a:hover,
+  body:has(.doc-hero):not(.menu-open) header.ggh:not(.is-scrolled) .ggh__primary a.is-active { color: #fff; }
+}
+
+/* ---------- 動き ---------- */
+@keyframes doc-hero-fade {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@keyframes doc-hero-rise {
+  from { opacity: 0; transform: translate3d(0, 20px, 0); }
+  to   { opacity: 1; transform: none; }
+}
+@keyframes doc-hero-breathe {
+  0%, 100% { opacity: 0; }
+  50%      { opacity: .04; }
+}
+@keyframes doc-hero-grain {
+  0%   { transform: translate3d(0, 0, 0); }
+  11%  { transform: translate3d(-6%, -4%, 0); }
+  22%  { transform: translate3d(4%, -8%, 0); }
+  33%  { transform: translate3d(-8%, 5%, 0); }
+  44%  { transform: translate3d(7%, 3%, 0); }
+  55%  { transform: translate3d(-3%, 9%, 0); }
+  66%  { transform: translate3d(9%, -6%, 0); }
+  77%  { transform: translate3d(-5%, -9%, 0); }
+  88%  { transform: translate3d(2%, 7%, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .doc-hero__media,
+  .doc-hero__grain,
+  .doc-hero__breathe,
+  .page-home .doc-hero__title,
+  .doc-hero__lead,
+  .doc-hero__actions { animation: none; }
+  .doc-hero__parallax { transform: none !important; }
+  .page-home.concept-08 .doc-hero .btn__arrow { transition: none; }
+}
+
+/* ---------- タブレット ---------- */
+@media (max-width: 1100px) {
+  .page-home.concept-08 .hero.doc-hero { min-height: clamp(560px, 86svh, 800px); }
+}
+
+/* ---------- スマホ：ヘッダーは白地で上に乗らないので、上の余白を詰める ---------- */
+@media (max-width: 767px) {
+  .page-home.concept-08 .hero.doc-hero {
+    align-content: end; /* 写真の主役を上に、文字を下に分ける */
+    min-height: 600px;
+    min-height: clamp(600px, 88svh, 760px);
+    padding: 120px 0 40px;
+  }
+  .doc-hero__video { object-position: 72% 30%; } /* 右の男性の顔を入れる */
+  .doc-hero__scrim {
+    background:
+      linear-gradient(180deg, rgba(18, 20, 24, .18) 0%, rgba(18, 20, 24, .3) 45%, rgba(18, 20, 24, .78) 100%),
+      linear-gradient(90deg, rgba(18, 20, 24, .5) 0%, rgba(18, 20, 24, .1) 70%);
+  }
+  .doc-hero__inner { width: calc(100% - 40px); }
+  .page-home .doc-hero__title { margin-bottom: 18px; font-size: clamp(32px, 9.4vw, 40px); line-height: 1.34; }
+  .doc-hero__lead { margin-bottom: 26px; font-size: 14px; line-height: 1.9; letter-spacing: .04em; }
+  .doc-hero__actions { gap: 12px; }
+  .page-home.concept-08 .doc-hero .btn { width: 100%; min-height: 54px; }
+  .page-home.concept-08 .doc-hero .btn--primary { min-width: 0; }
+  .page-home.concept-08 .doc-hero .btn--ghost { min-width: 0; }
+}
+@media (max-width: 359px) {
+  .page-home .doc-hero__title { font-size: 30px; }
+}

@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="360" viewBox="0 0 360 360">
+  <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.018" numOctaves="2" stitchTiles="stitch"/></filter>
+  <rect width="360" height="360" filter="url(#grain)" opacity="0.045"/>
+</svg>

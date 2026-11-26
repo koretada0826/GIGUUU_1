@@ -1,0 +1,51 @@
+{
+  "sources": [
+    "https://whill.inc/jp/model-c2",
+    "https://www.haagen-dazs.co.jp/"
+  ],
+  "mode": "built-in image generation",
+  "count": 10,
+  "common_prompt": "Create ONE independent, production-quality Japanese desktop homepage UI mockup for GIGUUU. This is a NEW ROUND because the user rejected the previous 10 proposals, which all looked too similar: mainly huge left-aligned headline, large clover/logo rays, identical orange pill CTA and ABOUT below. Change the visual hierarchy radically. Do not copy any of those earlier compositions. References: image 1 is WHILL Model C2 screenshot; borrow its cinematic product-first staging, clear overlay copy, gallery-quality product presentation, and spacious specification rhythm; NEVER show wheelchair or mobility hardware or imply GIGUUU sells one. Image 2 is Häagen-Dazs screenshot; borrow its hero-scale material close-up, rich tactile focal subject and disciplined white navigation; NEVER show food, ice cream, packaging or its brand. Image 3 is actual GIGUUU logo; display at small authentic size in header, but do not make the clover or rays the large hero image. Ignore all browser chrome in reference screenshots.\nFlat front-on desktop webpage screenshot 1440px wide x approximately 1500px high, full header, one complete bold hero, and the beginning of the ABOUT section below the fold. It is ONE design direction, no browser UI, device frame, presentation label, option number or watermark. White or off-white is the dominant base (at least 65% of page), near-black #0B1220 text, brand blue #5B9BFF with deep-blue readable type #225FB9, action orange #FF8A3D. The authentic small logo can retain its original colors. The focal visual MUST be a photo-free, bespoke abstract visual about voice, conversation, sales knowledge or technology, staged with WHILL/Häagen-Dazs confidence and materiality. This is clearly a visual metaphor, not a real TELEMO product image, app screenshot or invented business offering. No humans, photos, wheelchair, food, robots, buildings, fake software UI, fake data, statistics, awards, customer logos, testimonials, decorative extra slogans, generic neon AI spheres, glowing purple gradients or generic SaaS cards. Avoid giant clover hero and oversized default two-line left-aligned headline. High typographic and layout quality; real Japanese text legible; no more than two font families.\nBusiness context: GIGUUU is an AI company originating in sales operations. The visitor should understand its approach and reach business details or contact. Use ONLY exact copy from the existing GIGUUU site. Do not invent copy. Show the following exact text in natural layouts, preserving words and punctuation:\nHeader: small authentic logo, 'GIGUUU 株式会社'; nav 'GIGUUUとは', '会社情報', '事業紹介', 'TELEMO', 'お問い合わせ'.\nHero main statement '人の限界を、技術で超えていく'.\nHero paragraph '現場を知る、AIの会社。営業会社発のテクノロジーで、属人化していた“勝ちパターン”を、誰もが使える仕組みに変える。'\nHero actions: orange '事業を見る' and a secondary 'お問い合わせ'. Existing hero supporting text can be used once where it helps: 'AI ×営業', '現場発の技術', '04 DOMAINS 事業領域'.\nStart of following ABOUT section: '01 ABOUT US', '現場を知る、AIの会社。' You may show its opening actual paragraph as it fits: '私たちGIGUUUは、エンジニア発ではなく営業会社発のAIカンパニーです。数百万件を超えるコールデータと、現場で磨かれた営業ノウハウ。その両方を知るからこそ、机上ではない“効く”AIをつくれる。'\nThe full site continues below this screenshot. Any text visible MUST be one of these exact source strings. No invented English decoration. Do not put text on the art object if that risks illegibility. Keep the visual art and readable content separate.\nDistinct art direction for this proposal: ",
+  "concepts": [
+    {
+      "slug": "cinematic-signal-studio",
+      "direction": "Cinematic signal studio. Adapt WHILL's full-bleed hero video composition into an ultra-wide off-white studio shot featuring ONE monumental, non-device physical waveform: an engineered ribbon of matte blue anodized material crossing the image horizontally, with subtle orange edge light. The visual dominates 75% of hero. Place the main Japanese line centered on a white foreground aperture, NOT big left-aligned black/blue two-line type. Small CTA below, restrained chrome. Start ABOUT with a thin dark separator and compact type. Strong photographic realism without being an actual photograph of a product."
+    },
+    {
+      "slug": "precision-conversation-cutaway",
+      "direction": "Precision conversation cutaway. WHILL product cutout aesthetic, but show an obviously abstract sculptural conversation metaphor: two clean crescent-like blue bands meeting at a small orange point in open white space, with subtle material grain, like a physical design study. Large sculptural visual on LEFT 60%, copy on RIGHT in a narrow editorial column and sharp compact CTA. Headline medium-size one balanced block, not a huge page-wide two-line headline. Hero facts set as plain one-line labels along bottom, no cards. ABOUT begins in broad pale-gray band."
+    },
+    {
+      "slug": "macro-fiber-current",
+      "direction": "Macro fiber current. Inspired by Häagen-Dazs close-up tabletop hero: extreme macro view of layered cobalt blue threads or ribbons flowing from a precise knot, evoking many sales conversations structured into one pattern. This is abstract fiber art on white, no food. Visual forms an upper full-width panorama with generous crop; all Japanese hero copy is BELOW the image in a clean 3-column magazine arrangement, headline center, paragraph right, actions left. ABOUT begins below a generous whitespace pause."
+    },
+    {
+      "slug": "floating-gallery-plate",
+      "direction": "Floating gallery plate. A single large, nearly edge-to-edge white display plinth viewed front-on, with an abstract orange-to-blue transparent acrylic call trajectory suspended over it as the visual subject. Borrow WHILL's product-shoot lighting and Häagen-Dazs's hero material impact. Put compact headline and paragraph in a legible white band at bottom of stage, CTA nested beside copy. Do not turn it into a card or fake product. Header and ABOUT with impeccable restrained editorial spacing."
+    },
+    {
+      "slug": "wide-motion-trail",
+      "direction": "Wide motion trail. Horizontal full-viewport moving-image still: three broad pale-blue curved motion trails travel from far left toward a small vivid orange focal point at right, suggesting repeated interactions becoming a clear next step. WHILL's cinematic movement framing, with crisp neutral studio-white background and visible paper-like light. Headline is deliberately small and BLACK at upper right, hero paragraph immediately below, orange CTA against white. Include no logo rays or four-leaf hero. ABOUT starts in an asymmetrical text-only section."
+    },
+    {
+      "slug": "tactile-blue-sheets",
+      "direction": "Tactile blue sheets. Häagen-Dazs-style close up of premium physical material, reimagined as layered translucent blue vellum sheets with one orange underlayer, their edges creating a precise waveform silhouette. The material image is a large upper-right cropped photo-real abstract still life on a neutral warm-white surface. Hero copy runs down the LEFT in refined small-to-medium Japanese typography, with big white negative space between sections. Place actions as understated flat button/arrow, no giant orange pill. ABOUT begins on plain white with a tiny blue rule."
+    },
+    {
+      "slug": "signal-window-crop",
+      "direction": "Signal window crop. The hero is a full-width rectangular image window BELOW an airy top text row; within the window an abstract hand-crafted blue acoustic ring is cropped boldly so its scale feels monumental like Häagen-Dazs product close-up. Text row ABOVE has headline aligned left, paragraph aligned center, CTA far right, each calm and readable. No text over busy imagery. Below the window, ABOUT begins immediately with a clear black headline. Strong horizontal information architecture, significantly different from previous proposals."
+    },
+    {
+      "slug": "telemos-typographic-object",
+      "direction": "Typographic object stage. Use the REAL existing word 'TELEMO' as a single giant three-dimensional physical lettering artwork photographed in a white studio, with blue enamel faces and orange edge detail. This is a typographic brand metaphor, not a screenshot or new product. WHILL-like centered object stage; headline small and anchored at lower left below the artwork, paragraph and CTA in adjacent right column. Do not use giant clover. The small actual GIGUUU logo is only in header. ABOUT begins below as a quiet editorial section."
+    },
+    {
+      "slug": "paired-material-dialogue",
+      "direction": "Paired material dialogue. Two contrasting tactile abstract materials—soft translucent blue sheet and precise matte graphite band—interlock once at one orange junction, suggesting AI and sales in dialogue. Dramatic Häagen-Dazs macro still-life scale but zero food. Entire visual occupies RIGHT 70% of the hero in an unusual off-center crop. Headline runs as one compact line at LEFT upper third; paragraph far lower left, action tucked to bottom-left. No large blue headline or clover motif. ABOUT begins as light neutral second scene."
+    },
+    {
+      "slug": "layered-business-panorama",
+      "direction": "Layered business panorama. WHILL long-form product storytelling adapted to an AI company's homepage: hero has a striking wide image of four separate abstract blue material trajectories resolving into ONE orange connection point, without implying that the four logo leaves symbolize anything. Use no extra labels or invented features. Headline is centered in a restrained horizontal white overlay across lower image, paragraph and orange action underneath on one clean line. Visible ABOUT start below with generous whitespace. Very polished, contemporary, brave visual hierarchy, no previous giant typographic left block."
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "source": "https://www.manypeople-k.com/recruit/",
+  "final_url": "https://www.manypeople-k.com/recruit/",
+  "assets_saved": 869,
+  "bytes_saved": 19850985,
+  "failed": {
+    "https://www.manypeople-k.com/assets/img/common/logo.svg": "HTTP Error 404: Not Found",
+    "https://www.manypeople-k.com/recruit/wp-content/themes/resource/assets/img/common/icon-search.svg": "HTTP Error 404: Not Found"
+  }
+}

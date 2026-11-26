@@ -1,0 +1,11 @@
+{
+ "slug": "ha-labo-co-jp",
+ "url": "https://ha-labo.co.jp/",
+ "capturedAt": "2026-10-12 21:13:40",
+ "files": {},
+ "errors": [
+  "pc: Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://ha-labo.co.jp/\nCall log:\n  - navigating to \"https://ha-labo.co.jp/\", waiting until \"domcontentloaded\"\n",
+  "sp: Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://ha-labo.co.jp/\nCall log:\n  - navigating to \"https://ha-labo.co.jp/\", waiting until \"domcontentloaded\"\n"
+ ],
+ "elapsedSec": 0.3
+}

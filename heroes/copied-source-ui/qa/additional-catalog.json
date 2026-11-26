@@ -1,0 +1,56 @@
+[
+  {
+    "name": "reference",
+    "width": 1440,
+    "count": 14,
+    "overflow": false,
+    "broken": [],
+    "errors": [],
+    "passed": true
+  },
+  {
+    "name": "reference",
+    "width": 1280,
+    "count": 14,
+    "overflow": false,
+    "broken": [],
+    "errors": [],
+    "passed": true
+  },
+  {
+    "name": "reference",
+    "width": 390,
+    "count": 14,
+    "overflow": false,
+    "broken": [],
+    "errors": [],
+    "passed": true
+  },
+  {
+    "name": "comparison",
+    "width": 1440,
+    "count": 14,
+    "overflow": false,
+    "broken": [],
+    "errors": [],
+    "passed": true
+  },
+  {
+    "name": "comparison",
+    "width": 1280,
+    "count": 14,
+    "overflow": false,
+    "broken": [],
+    "errors": [],
+    "passed": true
+  },
+  {
+    "name": "comparison",
+    "width": 390,
+    "count": 14,
+    "overflow": false,
+    "broken": [],
+    "errors": [],
+    "passed": true
+  }
+]

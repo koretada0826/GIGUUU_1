@@ -1,0 +1,161 @@
+{
+ "slug": "jcdc-co-jp-recruit",
+ "url": "https://jcdc.co.jp/recruit/01/",
+ "capturedAt": "2026-10-12 21:15:35",
+ "files": {
+  "pc_f0": "jcdc-co-jp-recruit-pc-f0.jpg",
+  "pc_f1": "jcdc-co-jp-recruit-pc-f1.jpg",
+  "pc_f2": "jcdc-co-jp-recruit-pc-f2.jpg",
+  "pc_scroll": "jcdc-co-jp-recruit-pc-scroll.jpg",
+  "sp": "jcdc-co-jp-recruit-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://jcdc.co.jp/recruit/01/",
+  "title": "未経験者歓迎！自由が丘クリニックで美容業界デビュー＆高収入を実現",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 17641,
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [
+   "エントリーはこちら"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://jcdc.co.jp/recruit/lp_new_assets/images/logo.svg",
+    "w": 210,
+    "h": 60,
+    "alt": "自由が丘ドクターズコスメティック"
+   },
+   {
+    "src": "https://jcdc.co.jp/recruit/lp_new_assets/images/hero-title2.svg",
+    "w": 630,
+    "h": 629,
+    "alt": "ルート営業"
+   },
+   {
+    "src": "https://jcdc.co.jp/recruit/lp_new_assets/images/hero-visual.png.webp",
+    "w": 730,
+    "h": 713,
+    "alt": "MV"
+   },
+   {
+    "src": "https://jcdc.co.jp/recruit/lp_new_assets/images/hero-title1.svg",
+    "w": 630,
+    "h": 629,
+    "alt": "募集"
+   },
+   {
+    "src": "https://jcdc.co.jp/recruit/lp_new_assets/images/hero-label.svg",
+    "w": 359,
+    "h": 193,
+    "alt": "スキンケア化粧品・美容サロン・代理店"
+   },
+   {
+    "src": "https://jcdc.co.jp/recruit/lp_new_assets/images/hero-circle.svg",
+    "w": 209,
+    "h": 209,
+    "alt": "circles"
+   }
+  ],
+  "backgroundImages": [
+   {
+    "bg": "url(\"https://jcdc.co.jp/recruit/lp_new_assets/images/g.svg\")",
+    "w": 717,
+    "h": 717
+   },
+   {
+    "bg": "url(\"https://jcdc.co.jp/recruit/lp_new_assets/images/g.svg\")",
+    "w": 717,
+    "h": 717
+   },
+   {
+    "bg": "url(\"https://jcdc.co.jp/recruit/lp_new_assets/images/g.svg\")",
+    "w": 717,
+    "h": 717
+   },
+   {
+    "bg": "url(\"https://jcdc.co.jp/recruit/lp_new_assets/images/g.svg\")",
+    "w": 717,
+    "h": 717
+   },
+   {
+    "bg": "url(\"https://jcdc.co.jp/recruit/lp_new_assets/images/g.svg\")",
+    "w": 717,
+    "h": 717
+   }
+  ],
+  "firstScreenFonts": [
+   "YakuHanJP_Noto"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(243, 243, 243)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [
+   "LINEから予約する",
+   "エントリーはこちら"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://jcdc.co.jp/recruit/lp_new_assets/images/logo.svg",
+    "w": 210,
+    "h": 60,
+    "alt": "自由が丘ドクターズコスメティック"
+   },
+   {
+    "src": "https://jcdc.co.jp/recruit/lp_new_assets/images/hero-title2_sp.svg",
+    "w": 97,
+    "h": 470,
+    "alt": "ルート営業"
+   },
+   {
+    "src": "https://jcdc.co.jp/recruit/lp_new_assets/images/hero-visual_sp.png.webp",
+    "w": 359,
+    "h": 521,
+    "alt": "MV"
+   },
+   {
+    "src": "https://jcdc.co.jp/recruit/lp_new_assets/images/hero-title1_sp.svg",
+    "w": 100,
+    "h": 205,
+    "alt": "募集"
+   },
+   {
+    "src": "https://jcdc.co.jp/recruit/lp_new_assets/images/hero-label.svg",
+    "w": 244,
+    "h": 131,
+    "alt": "スキンケア化粧品・美容サロン・代理店"
+   }
+  ],
+  "pageHeight": 17946
+ },
+ "elapsedSec": 12.5
+}

@@ -1,0 +1,127 @@
+{
+ "slug": "www-twilio-com",
+ "url": "https://www.twilio.com/",
+ "capturedAt": "2026-10-12 21:08:45",
+ "files": {
+  "pc_f0": "www-twilio-com-pc-f0.jpg",
+  "pc_f1": "www-twilio-com-pc-f1.jpg",
+  "pc_f2": "www-twilio-com-pc-f2.jpg",
+  "pc_scroll": "www-twilio-com-pc-scroll.jpg",
+  "sp": "www-twilio-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": "button:has-text('OK')",
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.twilio.com/en-us",
+  "title": "Conversational AI and APIs for SMS, Email, Voice | Twilio",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 6477,
+  "h1": "The platform for conversations in the AI era",
+  "h1Style": {
+   "fontFamily": "\"Whitney SSm\", helvetica, arial, sans-serif",
+   "fontSize": "56px",
+   "fontWeight": "700",
+   "lineHeight": "66px",
+   "letterSpacing": "-1.68px",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 120,
+    "y": 207,
+    "w": 576,
+    "h": 198
+   }
+  },
+  "lead": "The Twilio platform empowers humans and AI agents to work together, coordinate across channels, and pick up every customer conversation where the last one left off.",
+  "ctas": [
+   "Products",
+   "Solutions",
+   "Why Twilio",
+   "Resources",
+   "Pricing"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [],
+  "backgroundImages": [
+   {
+    "bg": "url(\"\")",
+    "w": 1440,
+    "h": 598
+   },
+   {
+    "bg": "url(\"\")",
+    "w": 1200,
+    "h": 470
+   },
+   {
+    "bg": "url(\"\")",
+    "w": 1440,
+    "h": 284
+   },
+   {
+    "bg": "url(\"\")",
+    "w": 1200,
+    "h": 220
+   },
+   {
+    "bg": "url(\"\")",
+    "w": 864,
+    "h": 156
+   }
+  ],
+  "firstScreenFonts": [
+   "Whitney SSm"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "The platform for conversations in the AI era",
+  "h1Style": {
+   "fontFamily": "\"Whitney SSm\", helvetica, arial, sans-serif",
+   "fontSize": "34px",
+   "fontWeight": "700",
+   "lineHeight": "40px",
+   "letterSpacing": "-1.02px",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 32,
+    "y": 187,
+    "w": 326,
+    "h": 120
+   }
+  },
+  "lead": "The Twilio platform empowers humans and AI agents to work together, coordinate across channels, and pick up every customer conversation where the last one left off.",
+  "ctas": [
+   "English",
+   "Login"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [],
+  "pageHeight": 13655
+ },
+ "elapsedSec": 15.1
+}

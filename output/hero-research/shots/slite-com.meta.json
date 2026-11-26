@@ -1,0 +1,129 @@
+{
+ "slug": "slite-com",
+ "url": "https://slite.com/",
+ "capturedAt": "2026-10-12 21:16:15",
+ "files": {
+  "pc_f0": "slite-com-pc-f0.jpg",
+  "pc_f1": "slite-com-pc-f1.jpg",
+  "pc_f2": "slite-com-pc-f2.jpg",
+  "pc_scroll": "slite-com-pc-scroll.jpg",
+  "sp": "slite-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://slite.com/",
+  "title": "Slite | Self-maintaining AI knowledge base",
+  "lang": "en-US",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 11606,
+  "h1": "Verified knowledge, kept in sync with reality",
+  "h1Style": {
+   "fontFamily": "Garnett, FixEmoji, sans-serif",
+   "fontSize": "64px",
+   "fontWeight": "500",
+   "lineHeight": "76.8px",
+   "letterSpacing": "normal",
+   "color": "rgb(63, 67, 74)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 335,
+    "y": 144,
+    "w": 770,
+    "h": 154
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "Keep your docs up to date"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://slite.com/assets/static/round-sketch.NDNlCo1C.svg",
+    "w": 308,
+    "h": 103,
+    "alt": ""
+   },
+   {
+    "src": "https://slite.com/assets/static/compliance-logos.BW50FLof.svg",
+    "w": 200,
+    "h": 62,
+    "alt": "AICPA SOC 2 logo"
+   },
+   {
+    "src": "https://slite.com/assets/static/bubble-sketch.mHHt6lWE.svg",
+    "w": 150,
+    "h": 133,
+    "alt": ""
+   },
+   {
+    "src": "https://slite.com/assets/static/list-sketch.D1U-KoCX.svg",
+    "w": 142,
+    "h": 128,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "UniversalSans",
+   "Garnett"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(253, 253, 253)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "Verified knowledge, kept in sync with reality",
+  "h1Style": {
+   "fontFamily": "Garnett, FixEmoji, sans-serif",
+   "fontSize": "64px",
+   "fontWeight": "500",
+   "lineHeight": "76.8px",
+   "letterSpacing": "normal",
+   "color": "rgb(63, 67, 74)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "Keep your docs up to date"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://slite.com/assets/static/compliance-logos.BW50FLof.svg",
+    "w": 180,
+    "h": 56,
+    "alt": "AICPA SOC 2 logo"
+   }
+  ],
+  "pageHeight": 17159
+ },
+ "elapsedSec": 14.8
+}

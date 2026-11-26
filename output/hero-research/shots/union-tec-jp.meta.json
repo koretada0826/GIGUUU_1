@@ -1,0 +1,361 @@
+{
+ "slug": "union-tec-jp",
+ "url": "https://www.union-tec.jp/",
+ "capturedAt": "2026-10-12 21:11:18",
+ "files": {
+  "pc_f0": "union-tec-jp-pc-f0.jpg",
+  "pc_f1": "union-tec-jp-pc-f1.jpg",
+  "pc_f2": "union-tec-jp-pc-f2.jpg",
+  "pc_scroll": "union-tec-jp-pc-scroll.jpg",
+  "sp": "union-tec-jp-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.union-tec.jp/",
+  "title": "UNION TEC | 人類に意義ある空間を",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 10621,
+  "h1": "UNION TEC",
+  "h1Style": {
+   "fontFamily": "helvetica-lt-pro, MFW-PGothicMB101Pr6N-Regular, sans-serif",
+   "fontSize": "16px",
+   "fontWeight": "400",
+   "lineHeight": "24px",
+   "letterSpacing": "normal",
+   "color": "rgb(0, 0, 0)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 23,
+    "y": 882,
+    "w": 1,
+    "h": 1
+   }
+  },
+  "lead": "人類に意義ある空間を 人 類 に 意 義 あ る 空 間 を",
+  "ctas": [
+   "Contact"
+  ],
+  "videos": [
+   {
+    "src": "https://www.union-tec.jp/wp-content/themes/union-tec/assets/videos/home/1-3_pc.mp4",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 1710,
+    "h": 1080,
+    "playing": false
+   },
+   {
+    "src": "https://www.union-tec.jp/wp-content/themes/union-tec/assets/videos/home/1-4_pc.mp4",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 1710,
+    "h": 1080,
+    "playing": false
+   },
+   {
+    "src": "https://www.union-tec.jp/wp-content/themes/union-tec/assets/videos/home/2-4_pc.mp4",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 1710,
+    "h": 1080,
+    "playing": false
+   },
+   {
+    "src": "https://www.union-tec.jp/wp-content/themes/union-tec/assets/videos/home/3-1_pc.mp4",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 1710,
+    "h": 1080,
+    "playing": false
+   },
+   {
+    "src": "https://www.union-tec.jp/wp-content/themes/union-tec/assets/videos/home/4-3_pc.mp4",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 1710,
+    "h": 1080,
+    "playing": false
+   }
+  ],
+  "canvases": [
+   {
+    "w": 1425,
+    "h": 900
+   },
+   {
+    "w": 1425,
+    "h": 900
+   },
+   {
+    "w": 1425,
+    "h": 900
+   }
+  ],
+  "images": [
+   {
+    "src": "https://www.union-tec.jp/wp-content/themes/union-tec/assets/images/home/1-1_pc.webp",
+    "w": 1710,
+    "h": 1080,
+    "alt": ""
+   },
+   {
+    "src": "https://www.union-tec.jp/wp-content/themes/union-tec/assets/images/home/1-2_pc.webp",
+    "w": 1429,
+    "h": 902,
+    "alt": ""
+   },
+   {
+    "src": "https://www.union-tec.jp/wp-content/themes/union-tec/assets/images/home/2-1_pc.webp",
+    "w": 1710,
+    "h": 1080,
+    "alt": ""
+   },
+   {
+    "src": "https://www.union-tec.jp/wp-content/themes/union-tec/assets/images/home/2-2_pc.webp",
+    "w": 1710,
+    "h": 1080,
+    "alt": ""
+   },
+   {
+    "src": "https://www.union-tec.jp/wp-content/uploads/2026/06/2-3_cms_pc.jpg",
+    "w": 1710,
+    "h": 1080,
+    "alt": ""
+   },
+   {
+    "src": "https://www.union-tec.jp/wp-content/themes/union-tec/assets/images/home/3-2_pc.webp",
+    "w": 1710,
+    "h": 1080,
+    "alt": ""
+   },
+   {
+    "src": "https://www.union-tec.jp/wp-content/themes/union-tec/assets/images/home/3-3_pc.webp",
+    "w": 1710,
+    "h": 1080,
+    "alt": ""
+   },
+   {
+    "src": "https://www.union-tec.jp/wp-content/themes/union-tec/assets/images/home/3-4_pc.webp",
+    "w": 1710,
+    "h": 1080,
+    "alt": ""
+   },
+   {
+    "src": "https://www.union-tec.jp/wp-content/themes/union-tec/assets/images/home/4-1_pc.webp",
+    "w": 1710,
+    "h": 1080,
+    "alt": ""
+   },
+   {
+    "src": "https://www.union-tec.jp/wp-content/themes/union-tec/assets/images/home/4-2_pc.webp",
+    "w": 1710,
+    "h": 1080,
+    "alt": ""
+   },
+   {
+    "src": "https://www.union-tec.jp/wp-content/uploads/2026/06/3-4_cms_pc.jpg",
+    "w": 1710,
+    "h": 1080,
+    "alt": ""
+   },
+   {
+    "src": "https://www.union-tec.jp/wp-content/themes/union-tec/assets/images/home/fv-message-1_pc.webp",
+    "w": 1425,
+    "h": 891,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "MFW-PGothicMB101Pr6N-DeBold",
+   "helvetica-lt-pro"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": true,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "UNION TEC",
+  "h1Style": {
+   "fontFamily": "helvetica-lt-pro, MFW-PGothicMB101Pr6N-Regular, sans-serif",
+   "fontSize": "16px",
+   "fontWeight": "400",
+   "lineHeight": "24px",
+   "letterSpacing": "normal",
+   "color": "rgb(0, 0, 0)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 15,
+    "y": 825,
+    "w": 1,
+    "h": 1
+   }
+  },
+  "lead": "人類に意義ある空間を 人 類 に 意 義 あ る 空 間 を",
+  "ctas": [
+   "Contact"
+  ],
+  "videos": [
+   {
+    "src": "https://www.union-tec.jp/wp-content/themes/union-tec/assets/videos/home/1-3.mp4",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 468,
+    "h": 1085,
+    "playing": false
+   },
+   {
+    "src": "https://www.union-tec.jp/wp-content/themes/union-tec/assets/videos/home/1-4.mp4",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 468,
+    "h": 1085,
+    "playing": false
+   },
+   {
+    "src": "https://www.union-tec.jp/wp-content/themes/union-tec/assets/videos/home/2-4.mp4",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 468,
+    "h": 1085,
+    "playing": false
+   },
+   {
+    "src": "https://www.union-tec.jp/wp-content/themes/union-tec/assets/videos/home/3-1.mp4",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 468,
+    "h": 1085,
+    "playing": false
+   },
+   {
+    "src": "https://www.union-tec.jp/wp-content/themes/union-tec/assets/videos/home/4-3.mp4",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 468,
+    "h": 1085,
+    "playing": false
+   }
+  ],
+  "canvases": [
+   {
+    "w": 390,
+    "h": 844
+   },
+   {
+    "w": 390,
+    "h": 844
+   },
+   {
+    "w": 390,
+    "h": 844
+   }
+  ],
+  "images": [
+   {
+    "src": "https://www.union-tec.jp/wp-content/themes/union-tec/assets/images/home/1-1.webp",
+    "w": 390,
+    "h": 904,
+    "alt": ""
+   },
+   {
+    "src": "https://www.union-tec.jp/wp-content/themes/union-tec/assets/images/home/1-2.webp",
+    "w": 468,
+    "h": 1085,
+    "alt": ""
+   },
+   {
+    "src": "https://www.union-tec.jp/wp-content/themes/union-tec/assets/images/home/2-1.webp",
+    "w": 468,
+    "h": 1085,
+    "alt": ""
+   },
+   {
+    "src": "https://www.union-tec.jp/wp-content/themes/union-tec/assets/images/home/2-2.webp",
+    "w": 468,
+    "h": 1085,
+    "alt": ""
+   },
+   {
+    "src": "https://www.union-tec.jp/wp-content/uploads/2026/06/2-3_cms.jpg",
+    "w": 468,
+    "h": 1085,
+    "alt": ""
+   },
+   {
+    "src": "https://www.union-tec.jp/wp-content/themes/union-tec/assets/images/home/3-2.webp",
+    "w": 468,
+    "h": 1085,
+    "alt": ""
+   },
+   {
+    "src": "https://www.union-tec.jp/wp-content/themes/union-tec/assets/images/home/3-3.webp",
+    "w": 468,
+    "h": 1085,
+    "alt": ""
+   },
+   {
+    "src": "https://www.union-tec.jp/wp-content/themes/union-tec/assets/images/home/3-4.webp",
+    "w": 468,
+    "h": 1085,
+    "alt": ""
+   },
+   {
+    "src": "https://www.union-tec.jp/wp-content/themes/union-tec/assets/images/home/4-1.webp",
+    "w": 468,
+    "h": 1085,
+    "alt": ""
+   },
+   {
+    "src": "https://www.union-tec.jp/wp-content/themes/union-tec/assets/images/home/4-2.webp",
+    "w": 468,
+    "h": 1085,
+    "alt": ""
+   },
+   {
+    "src": "https://www.union-tec.jp/wp-content/uploads/2026/06/3-4_cms-1.jpg",
+    "w": 468,
+    "h": 1085,
+    "alt": ""
+   },
+   {
+    "src": "https://www.union-tec.jp/wp-content/themes/union-tec/assets/images/home/company-office-access-bg.webp",
+    "w": 390,
+    "h": 904,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 10436
+ },
+ "elapsedSec": 13.8
+}

@@ -1,0 +1,33 @@
+/* Onboarding timeline */
+#telemo-flow.lpsr-flow-overview { color: #173e49; font-family: "Noto Sans JP", sans-serif; }
+#telemo-flow.lpsr-flow-overview .telemo-plan__process-heading h4 { color: #173e49; font-size: clamp(32px, 4vw, 56px); font-weight: 700; letter-spacing: 0; line-height: 1.3; }
+#telemo-flow.lpsr-flow-overview .telemo-plan__process-heading h4::after { content: ""; display: block; width: 72px; height: 4px; margin: 20px auto 0; border-radius: 4px; background: #00889a; }
+#telemo-flow.lpsr-flow-overview .telemo-plan__process-heading p { max-width: none; color: #4d626d; font-size: clamp(15px, 1.45vw, 19px); }
+#telemo-flow.lpsr-flow-overview .telemo-flow__viewport { margin-top: 46px; }
+#telemo-flow.lpsr-flow-overview .telemo-plan__steps { position: relative; display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 12px; padding-top: 120px; counter-reset: none; }
+#telemo-flow.lpsr-flow-overview .telemo-plan__steps::before { content: ""; display: block; position: absolute; top: 18px; left: 0; width: 100%; height: 38px; border-radius: 30px; background: #ddf0f1; }
+#telemo-flow.lpsr-flow-overview .telemo-plan__step { position: relative; display: flex; flex-direction: column; min-width: 0; min-height: 380px; padding: 20px; border: 1px solid #c1d3d9; border-radius: 8px; background: #fff; box-shadow: none; }
+#telemo-flow.lpsr-flow-overview .telemo-plan__step::before { content: ""; display: block; position: absolute; top: -72px; left: 50%; width: 1px; height: 72px; background: #c1d3d9; border: 0; transform: none; }
+#telemo-flow.lpsr-flow-overview .flow-timeline-number { position: absolute; z-index: 1; top: -120px; left: 50%; display: grid; place-items: center; width: 74px; height: 74px; border-radius: 50%; background: #00889a; color: #fff; font: 500 32px/1 "Noto Sans JP", sans-serif; transform: translateX(-50%); }
+#telemo-flow.lpsr-flow-overview .lpsr-flow-catalog__visual { display: block; width: auto; height: auto; margin: 0; padding: 0; background: transparent; border: 0; box-shadow: none; }
+#telemo-flow.lpsr-flow-overview .telemo-plan__step-number { position: static; display: flex; flex-direction: row; align-items: baseline; justify-content: flex-start; gap: 8px; width: auto; height: auto; background: transparent; }
+#telemo-flow.lpsr-flow-overview .lpsr-flow-refined__step-label { color: #536d79; font-size: 12px; letter-spacing: .14em; }
+#telemo-flow.lpsr-flow-overview .lpsr-flow-refined__number { color: #00889a; font: 500 28px/1 "Noto Sans JP", sans-serif; letter-spacing: 0; }
+#telemo-flow.lpsr-flow-overview .telemo-plan__step-body { display: flex; flex: 1; flex-direction: column; padding: 20px 0 0; }
+#telemo-flow.lpsr-flow-overview .telemo-plan__step h5 { min-height: 2.9em; color: #173e49; font-size: clamp(16px, 1.35vw, 21px); line-height: 1.45; font-weight: 700; letter-spacing: 0; overflow-wrap: normal; }
+#telemo-flow.lpsr-flow-overview .telemo-plan__step p { margin: 18px 0 24px; color: #4d626d; font-size: 14px; line-height: 1.8; overflow-wrap: anywhere; }
+#telemo-flow.lpsr-flow-overview .telemo-plan__step-price { min-height: 0; margin-top: auto; padding-top: 16px; border-color: #c1d3d9; color: #173e49; }
+#telemo-flow.lpsr-flow-overview .telemo-plan__step-price span { color: #536d79; font-size: 13px; }
+#telemo-flow.lpsr-flow-overview .telemo-plan__step-price strong { color: #173e49; font-size: clamp(20px, 2vw, 32px); font-weight: 700; letter-spacing: -.04em; white-space: nowrap; }
+#telemo-flow.lpsr-flow-overview .telemo-plan__step-price small { font-size: .55em; }
+#telemo-flow.lpsr-flow-overview .telemo-plan__step .telemo-plan__step-footnote { min-height: 0; margin: auto 0 0; padding-top: 16px; border-top: 1px solid #c1d3d9; color: #536d79; font-size: 12px; }
+@media (max-width: 900px) {
+  #telemo-flow.lpsr-flow-overview .telemo-plan__steps { grid-template-columns: minmax(0, 1fr); gap: 16px; padding: 0 0 0 72px; }
+  #telemo-flow.lpsr-flow-overview .telemo-plan__steps::before { top: 0; bottom: 0; left: 20px; width: 28px; height: auto; }
+  #telemo-flow.lpsr-flow-overview .telemo-plan__step { min-height: 0; padding: 20px; }
+  #telemo-flow.lpsr-flow-overview .telemo-plan__step::before { top: 32px; left: -38px; width: 38px; height: 1px; }
+  #telemo-flow.lpsr-flow-overview .flow-timeline-number { top: 7px; left: -72px; width: 54px; height: 54px; font-size: 23px; transform: none; }
+  #telemo-flow.lpsr-flow-overview .telemo-plan__step h5 { min-height: 0; font-size: 19px; }
+  #telemo-flow.lpsr-flow-overview .telemo-plan__step p { margin: 12px 0 18px; }
+  #telemo-flow.lpsr-flow-overview .telemo-plan__step-price strong { font-size: 28px; }
+}

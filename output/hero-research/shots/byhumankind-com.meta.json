@@ -1,0 +1,94 @@
+{
+ "slug": "byhumankind-com",
+ "url": "https://byhumankind.com/",
+ "capturedAt": "2026-10-12 21:24:21",
+ "files": {
+  "pc_f0": "byhumankind-com-pc-f0.jpg",
+  "pc_f1": "byhumankind-com-pc-f1.jpg",
+  "pc_f2": "byhumankind-com-pc-f2.jpg",
+  "pc_scroll": "byhumankind-com-pc-scroll.jpg",
+  "sp": "byhumankind-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://byhumankind.com/",
+  "title": "Store unavailable",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 900,
+  "h1": "This store is currently unavailable.",
+  "h1Style": {
+   "fontFamily": "\"Shopify Sans Regular\", -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+   "fontSize": "59.76px",
+   "fontWeight": "400",
+   "lineHeight": "62.748px",
+   "letterSpacing": "-3.2868px",
+   "color": "rgb(246, 247, 246)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 270,
+    "y": 196,
+    "w": 900,
+    "h": 63
+   }
+  },
+  "lead": null,
+  "ctas": [],
+  "videos": [],
+  "canvases": [],
+  "images": [],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Shopify Sans Regular"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(0, 15, 13)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 0,
+ "sp": {
+  "h1": "This store is currently unavailable.",
+  "h1Style": {
+   "fontFamily": "\"Shopify Sans Regular\", -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+   "fontSize": "38px",
+   "fontWeight": "400",
+   "lineHeight": "41.04px",
+   "letterSpacing": "-1.71px",
+   "color": "rgb(246, 247, 246)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 16,
+    "y": 122,
+    "w": 358,
+    "h": 82
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "forgot your store"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [],
+  "pageHeight": 844
+ },
+ "elapsedSec": 11.3
+}

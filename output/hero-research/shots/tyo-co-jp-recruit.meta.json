@@ -1,0 +1,236 @@
+{
+ "slug": "tyo-co-jp-recruit",
+ "url": "https://tyo.co.jp/recruit/",
+ "capturedAt": "2026-10-12 21:14:02",
+ "files": {
+  "pc_f0": "tyo-co-jp-recruit-pc-f0.jpg",
+  "pc_f1": "tyo-co-jp-recruit-pc-f1.jpg",
+  "pc_f2": "tyo-co-jp-recruit-pc-f2.jpg",
+  "pc_scroll": "tyo-co-jp-recruit-pc-scroll.jpg",
+  "sp": "tyo-co-jp-recruit-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://tyo.co.jp/recruit/",
+  "title": "採用情報 - TYO",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 11963,
+  "h1": "Recruit Site",
+  "h1Style": {
+   "fontFamily": "\"DM Sans\", sans-serif",
+   "fontSize": "16px",
+   "fontWeight": "400",
+   "lineHeight": "16px",
+   "letterSpacing": "normal",
+   "color": "rgb(75, 24, 0)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 30,
+    "y": 34,
+    "w": 128,
+    "h": 40
+   }
+  },
+  "lead": "Interview Interview WhatWeDo WhatWeDo 仕事の全体像 職種紹介 ピックアップ事例 Culture Culture TYOの挑戦 数字で見るTYO 研修制度 福利厚生 JobInformation JobInformation 採用フロー 募集要項 FAQ Entry Entry",
+  "ctas": [
+   "Entry Entry",
+   "詳しく見る"
+  ],
+  "videos": [
+   {
+    "src": "https://cdn.tyo.co.jp/wp-content/uploads/01_intro_PC_2.mp4#t=0.001",
+    "autoplay": false,
+    "loop": false,
+    "muted": true,
+    "w": 1454,
+    "h": 909,
+    "playing": true
+   },
+   {
+    "src": "https://cdn.tyo.co.jp/wp-content/uploads/02_KV_loop_PC_2.mp4#t=0.001",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 1454,
+    "h": 909,
+    "playing": false
+   },
+   {
+    "src": "https://cdn.tyo.co.jp/wp-content/uploads/03_KV-2nd_PC_2.mp4#t=0.001",
+    "autoplay": false,
+    "loop": false,
+    "muted": true,
+    "w": 1454,
+    "h": 909,
+    "playing": false
+   },
+   {
+    "src": "https://cdn.tyo.co.jp/wp-content/uploads/04_2nd_loop_PC_2.mp4#t=0.001",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 1454,
+    "h": 909,
+    "playing": false
+   },
+   {
+    "src": "https://cdn.tyo.co.jp/wp-content/uploads/05_3nd-whatwedo_PC_2.mp4#t=0.001",
+    "autoplay": false,
+    "loop": false,
+    "muted": true,
+    "w": 1454,
+    "h": 909,
+    "playing": false
+   },
+   {
+    "src": "https://cdn.tyo.co.jp/wp-content/uploads/06_whatwedo_loop_PC_2.mp4#t=0.001",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 1454,
+    "h": 909,
+    "playing": false
+   }
+  ],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://tyo.co.jp/wp-content/uploads/assets/images//b-card.png",
+    "w": 846,
+    "h": 540,
+    "alt": "TYO学生MOVIE AWARD"
+   }
+  ],
+  "backgroundImages": [
+   {
+    "bg": "url(\"https://cdn.tyo.co.jp/wp-content/uploads/00_alert_sp.png\")",
+    "w": 1440,
+    "h": 900
+   }
+  ],
+  "firstScreenFonts": [
+   "Bricolage Grotesque",
+   "YakuHanJP",
+   "Noto Sans JP"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(241, 236, 232)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "Recruit Site",
+  "h1Style": {
+   "fontFamily": "\"DM Sans\", sans-serif",
+   "fontSize": "16px",
+   "fontWeight": "400",
+   "lineHeight": "16px",
+   "letterSpacing": "normal",
+   "color": "rgb(75, 24, 0)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 21,
+    "y": 26,
+    "w": 134,
+    "h": 42
+   }
+  },
+  "lead": "Entry Entry",
+  "ctas": [
+   "Recruit Site",
+   "Entry Entry"
+  ],
+  "videos": [
+   {
+    "src": "https://cdn.tyo.co.jp/wp-content/uploads/sp/01_intro_SP_2.mp4#t=0.001",
+    "autoplay": false,
+    "loop": false,
+    "muted": true,
+    "w": 394,
+    "h": 852,
+    "playing": true
+   },
+   {
+    "src": "https://cdn.tyo.co.jp/wp-content/uploads/sp/02_KV_loop_SP_2.mp4#t=0.001",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 394,
+    "h": 852,
+    "playing": false
+   },
+   {
+    "src": "https://cdn.tyo.co.jp/wp-content/uploads/sp/03_KV-2nd_SP_2.mp4#t=0.001",
+    "autoplay": false,
+    "loop": false,
+    "muted": true,
+    "w": 394,
+    "h": 852,
+    "playing": false
+   },
+   {
+    "src": "https://cdn.tyo.co.jp/wp-content/uploads/sp/04_2nd-loop_SP_2.mp4#t=0.001",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 394,
+    "h": 852,
+    "playing": false
+   },
+   {
+    "src": "https://cdn.tyo.co.jp/wp-content/uploads/sp/05_3nd-whatwedo_SP_4.mp4#t=0.001",
+    "autoplay": false,
+    "loop": false,
+    "muted": true,
+    "w": 394,
+    "h": 852,
+    "playing": false
+   },
+   {
+    "src": "https://cdn.tyo.co.jp/wp-content/uploads/sp/06_whatwedo_loop_SP_4.mp4#t=0.001",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 394,
+    "h": 852,
+    "playing": false
+   }
+  ],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://tyo.co.jp/images/c-navi_logo_tyo.svg",
+    "w": 42,
+    "h": 42,
+    "alt": "TYO"
+   },
+   {
+    "src": "https://tyo.co.jp/wp-content/uploads/assets/images//b-card_sp.png",
+    "w": 306,
+    "h": 419,
+    "alt": "TYO学生MOVIE AWARD"
+   }
+  ],
+  "pageHeight": 12195
+ },
+ "elapsedSec": 15.9
+}

@@ -1,0 +1,168 @@
+{
+ "slug": "unrep-jp",
+ "url": "https://unrep.jp/",
+ "capturedAt": "2026-10-12 21:12:45",
+ "files": {
+  "pc_f0": "unrep-jp-pc-f0.jpg",
+  "pc_f1": "unrep-jp-pc-f1.jpg",
+  "pc_f2": "unrep-jp-pc-f2.jpg",
+  "pc_scroll": "unrep-jp-pc-scroll.jpg",
+  "sp": "unrep-jp-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://unrep.jp/",
+  "title": "【Unrep / アンレップ】WEB制作者向けのWordPressテーマ",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 10406,
+  "h1": "Web制作会社の 現場から生まれた WordPressテーマ アンレップ",
+  "h1Style": {
+   "fontFamily": "\"Noto Sans JP\", sans-serif",
+   "fontSize": "57.6px",
+   "fontWeight": "900",
+   "lineHeight": "74.88px",
+   "letterSpacing": "normal",
+   "color": "rgb(32, 31, 29)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 115,
+    "y": 202,
+    "w": 1210,
+    "h": 325
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "テーマ一覧",
+   "ADOPT",
+   "STRIVE",
+   "umi"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://unrep.jp/wp-content/themes/unrep/assets/images/home/mv_logo.svg",
+    "w": 216,
+    "h": 64,
+    "alt": "Unrep（アンレップ）"
+   },
+   {
+    "src": "https://unrep.jp/wp-content/themes/unrep/assets/images/home/mv_icon01.png",
+    "w": 259,
+    "h": 89,
+    "alt": "コレ、解決できます"
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Noto Sans JP",
+   "all-round-gothic"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(235, 233, 230)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "Web制作会社の 現場から生まれた WordPressテーマ アンレップ",
+  "h1Style": {
+   "fontFamily": "\"Noto Sans JP\", sans-serif",
+   "fontSize": "31.2px",
+   "fontWeight": "900",
+   "lineHeight": "39px",
+   "letterSpacing": "normal",
+   "color": "rgb(32, 31, 29)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 31,
+    "y": 139,
+    "w": 328,
+    "h": 175
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "STRIVE コーポレートサイト",
+   "ADOPT 採用サイト",
+   "umi 飲食店サイト",
+   "STRIVE コーポレートサイト",
+   "ADOPT 採用サイト",
+   "umi 飲食店サイト",
+   "STRIVE コーポレートサイト"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://unrep.jp/wp-content/themes/unrep/assets/images/home/mv_icon01.png",
+    "w": 183,
+    "h": 63,
+    "alt": "コレ、解決できます"
+   },
+   {
+    "src": "https://unrep.jp/wp-content/themes/unrep/assets/images/common/strive01.png",
+    "w": 261,
+    "h": 337,
+    "alt": "STRIVE"
+   },
+   {
+    "src": "https://unrep.jp/wp-content/themes/unrep/assets/images/common/adopt01.png",
+    "w": 261,
+    "h": 337,
+    "alt": "ADOPT"
+   },
+   {
+    "src": "https://unrep.jp/wp-content/themes/unrep/assets/images/common/umi01.png",
+    "w": 261,
+    "h": 337,
+    "alt": "STRIVE"
+   },
+   {
+    "src": "https://unrep.jp/wp-content/themes/unrep/assets/images/common/strive01.png",
+    "w": 261,
+    "h": 337,
+    "alt": "STRIVE"
+   },
+   {
+    "src": "https://unrep.jp/wp-content/themes/unrep/assets/images/common/adopt01.png",
+    "w": 261,
+    "h": 337,
+    "alt": "ADOPT"
+   },
+   {
+    "src": "https://unrep.jp/wp-content/themes/unrep/assets/images/common/umi01.png",
+    "w": 261,
+    "h": 337,
+    "alt": "STRIVE"
+   },
+   {
+    "src": "https://unrep.jp/wp-content/themes/unrep/assets/images/common/strive01.png",
+    "w": 261,
+    "h": 337,
+    "alt": "STRIVE"
+   }
+  ],
+  "pageHeight": 11777
+ },
+ "elapsedSec": 12.3
+}

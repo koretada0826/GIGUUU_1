@@ -1,0 +1,157 @@
+{
+ "slug": "global-toyota-jp",
+ "url": "https://global.toyota/jp/",
+ "capturedAt": "2026-10-12 21:09:08",
+ "files": {
+  "pc_f0": "global-toyota-jp-pc-f0.jpg",
+  "pc_f1": "global-toyota-jp-pc-f1.jpg",
+  "pc_f2": "global-toyota-jp-pc-f2.jpg",
+  "pc_scroll": "global-toyota-jp-pc-scroll.jpg",
+  "sp": "global-toyota-jp-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://global.toyota/jp/",
+  "title": "トヨタ自動車株式会社 公式企業サイト",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 2773,
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [
+   "ページのトップへ"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://global.toyota/pages/contents/image/bnr_virtualplanttour.png",
+    "w": 203,
+    "h": 101,
+    "alt": "トヨタバーチャル工場見学"
+   },
+   {
+    "src": "https://global.toyota/pages/contents/image/bnr_kids.png",
+    "w": 203,
+    "h": 101,
+    "alt": "クルマこどもサイト"
+   },
+   {
+    "src": "https://global.toyota/pages/contents/image/bnr_lexusmeets.png",
+    "w": 203,
+    "h": 101,
+    "alt": "LEXUS MEETS…"
+   },
+   {
+    "src": "https://global.toyota/pages/contents/image/bnr_marine.png",
+    "w": 260,
+    "h": 130,
+    "alt": "TOYOTA MARINE"
+   },
+   {
+    "src": "https://global.toyota/pages/contents/image/bnr_joby_s4.png",
+    "w": 260,
+    "h": 130,
+    "alt": "空のモビリティ Joby S4"
+   },
+   {
+    "src": "https://global.toyota/pages/contents/image/bnr_disability-support.png",
+    "w": 260,
+    "h": 130,
+    "alt": "福祉領域の取り組み"
+   },
+   {
+    "src": "https://global.toyota/pages/contents/image/bnr_be-creation.png",
+    "w": 260,
+    "h": 130,
+    "alt": "新事業創出スキーム BE creation"
+   },
+   {
+    "src": "https://global.toyota/pages/global_toyota/home/pickup/2026/05/28/001_pc.jpg",
+    "w": 1440,
+    "h": 550,
+    "alt": "新型「ハイラックス」を発売"
+   },
+   {
+    "src": "https://global.toyota/pages/news/images/2026/09/24/toyotatimes_01/20260924_02_t_w960_jp.jpg",
+    "w": 720,
+    "h": 480,
+    "alt": "豊田会長、米国自動車殿堂入り 仲間と受けた栄誉、共に未来へ"
+   },
+   {
+    "src": "https://global.toyota/pages/global_toyota/home/pickup/2026/08/31/002_sp.jpg",
+    "w": 720,
+    "h": 480,
+    "alt": "「熱狂しよう！」愛知・名古屋2026 開幕直前 トヨタグループ合同アスリート取材会"
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "YuGothic"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [
+   "企業情報",
+   "ニュースルーム",
+   "モビリティ",
+   "サステナビリティ",
+   "投資家情報",
+   "採用情報",
+   "商品",
+   "EN",
+   "トヨタブランド",
+   "レクサスブランド",
+   "GAZOO Racing",
+   "ページのトップへ"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://global.toyota/pages/global_toyota/home/pickup/2026/05/28/001_sp.jpg",
+    "w": 390,
+    "h": 260,
+    "alt": "新型「ハイラックス」を発売"
+   },
+   {
+    "src": "https://global.toyota/pages/news/images/2026/09/24/toyotatimes_01/20260924_02_t_w960_jp.jpg",
+    "w": 390,
+    "h": 260,
+    "alt": "豊田会長、米国自動車殿堂入り 仲間と受けた栄誉、共に未来へ"
+   },
+   {
+    "src": "https://global.toyota/pages/global_toyota/home/pickup/2026/08/31/002_sp.jpg",
+    "w": 390,
+    "h": 260,
+    "alt": "「熱狂しよう！」愛知・名古屋2026 開幕直前 トヨタグループ合同アスリート取材会"
+   }
+  ],
+  "pageHeight": 4046
+ },
+ "elapsedSec": 12.3
+}

@@ -1,0 +1,115 @@
+{
+ "slug": "factory-ai",
+ "url": "https://factory.ai/",
+ "capturedAt": "2026-10-12 21:12:33",
+ "files": {
+  "pc_f0": "factory-ai-pc-f0.jpg",
+  "pc_f1": "factory-ai-pc-f1.jpg",
+  "pc_f2": "factory-ai-pc-f2.jpg",
+  "pc_scroll": "factory-ai-pc-scroll.jpg",
+  "sp": "factory-ai-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://factory.com/",
+  "title": "Factory | Agent-Native Software Development",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 9108,
+  "h1": "MAKE YOUR SOFTWARE IMPROVE ITSELF",
+  "h1Style": {
+   "fontFamily": "Geist, \"Geist Fallback\", sans-serif",
+   "fontSize": "60.48px",
+   "fontWeight": "500",
+   "lineHeight": "60.48px",
+   "letterSpacing": "-2.4192px",
+   "color": "rgb(2, 2, 2)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 392,
+    "y": 282,
+    "w": 656,
+    "h": 121
+   }
+  },
+  "lead": "BUILD YOUR AUTONOMOUS SOFTWARE FACTORY",
+  "ctas": [
+   "Product",
+   "Enterprise"
+  ],
+  "videos": [
+   {
+    "src": "https://factory.com/videos/desktop-overview.mp4",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 1390,
+    "h": 781,
+    "playing": true
+   }
+  ],
+  "canvases": [],
+  "images": [],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Geist"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(245, 245, 245)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "MAKE YOUR SOFTWARE IMPROVE ITSELF",
+  "h1Style": {
+   "fontFamily": "Geist, \"Geist Fallback\", sans-serif",
+   "fontSize": "32px",
+   "fontWeight": "500",
+   "lineHeight": "32px",
+   "letterSpacing": "-1.28px",
+   "color": "rgb(2, 2, 2)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 21,
+    "y": 123,
+    "w": 347,
+    "h": 64
+   }
+  },
+  "lead": "BUILD YOUR AUTONOMOUS SOFTWARE FACTORY",
+  "ctas": [],
+  "videos": [
+   {
+    "src": "https://factory.com/videos/desktop-overview.mp4",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 356,
+    "h": 199,
+    "playing": true
+   }
+  ],
+  "canvases": [],
+  "images": [],
+  "pageHeight": 11541
+ },
+ "elapsedSec": 11.4
+}

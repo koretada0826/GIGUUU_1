@@ -1,0 +1,230 @@
+{
+ "slug": "www-altius-link-com",
+ "url": "https://www.altius-link.com/",
+ "capturedAt": "2026-10-12 21:08:38",
+ "files": {
+  "pc_f0": "www-altius-link-com-pc-f0.jpg",
+  "pc_f1": "www-altius-link-com-pc-f1.jpg",
+  "pc_f2": "www-altius-link-com-pc-f2.jpg",
+  "pc_scroll": "www-altius-link-com-pc-scroll.jpg",
+  "sp": "www-altius-link-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.altius-link.com/",
+  "title": "【公式】アルティウスリンク株式会社",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 7023,
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [
+   "サービス",
+   "支援事例",
+   "採用情報",
+   "企業情報",
+   "サステナビリティ",
+   "ニュース",
+   "EN",
+   "一覧",
+   "アウトソーシング",
+   "システム導入・活用支援",
+   "アセスメント・コンサルティング"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.altius-link.com/assets/20250407/images/A-3.jpg",
+    "w": 1440,
+    "h": 520,
+    "alt": "Altius Link Purpose Movie（一言メッセージ）"
+   },
+   {
+    "src": "https://www.altius-link.com/assets/20260821/images/kv_home_slider_corp_pc_outsourcing-report-accounting-and-finance-department.png",
+    "w": 1440,
+    "h": 520,
+    "alt": "アウトソーシング活用実態レポート 経理・財務部門編"
+   },
+   {
+    "src": "https://www.altius-link.com/assets/20260729/images/Cop_mv_linkto_pc.png",
+    "w": 1440,
+    "h": 520,
+    "alt": "LiNKto"
+   },
+   {
+    "src": "https://www.altius-link.com/assets/20260722/images/kv_home_slider_corp_pc_outsourcing-report-hr.png",
+    "w": 1440,
+    "h": 520,
+    "alt": "アウトソーシング活用実態レポート 人事部門編"
+   },
+   {
+    "src": "https://www.altius-link.com/assets/20260602/images/kv_home_slider_corp_pc_mail_line_trends2026.png",
+    "w": 1440,
+    "h": 520,
+    "alt": "メルマガ･LINE公式アカウントなどの購読実態調査"
+   },
+   {
+    "src": "https://www.altius-link.com/assets/20260324/images/kv_home_slider_corp_pc_chat_support2025.png",
+    "w": 1440,
+    "h": 520,
+    "alt": "お客様窓口におけるイライラ実態調査"
+   },
+   {
+    "src": "https://www.altius-link.com/assets/20251028/images/kv_home_slider_servicesite_pc.jpg",
+    "w": 1440,
+    "h": 520,
+    "alt": "コンタクトセンターBPOサービス"
+   },
+   {
+    "src": "https://www.altius-link.com/assets/20250407/images/A-3.jpg",
+    "w": 1440,
+    "h": 520,
+    "alt": "Altius Link Purpose Movie（一言メッセージ）"
+   },
+   {
+    "src": "https://www.altius-link.com/assets/20260821/images/kv_home_slider_corp_pc_outsourcing-report-accounting-and-finance-department.png",
+    "w": 1440,
+    "h": 520,
+    "alt": "アウトソーシング活用実態レポート 経理・財務部門編"
+   },
+   {
+    "src": "https://www.altius-link.com/images/solution-01.jpg",
+    "w": 353,
+    "h": 127,
+    "alt": ""
+   },
+   {
+    "src": "https://www.altius-link.com/images/solution-02.jpg",
+    "w": 353,
+    "h": 129,
+    "alt": ""
+   },
+   {
+    "src": "https://www.altius-link.com/images/solution-03.jpg",
+    "w": 353,
+    "h": 131,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [
+   {
+    "bg": "url(\"https://www.altius-link.com/common/images/header/bg_header.png\")",
+    "w": 1440,
+    "h": 64
+   },
+   {
+    "bg": "url(\"https://www.altius-link.com/common/images/header/bg_search-form.png\")",
+    "w": 443,
+    "h": 63
+   }
+  ],
+  "firstScreenFonts": [
+   "\\\\30E1イリオ",
+   "Noto Sans JP",
+   "Oswald"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [
+   "アウトソーシング",
+   "システム導入・活用支援"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.altius-link.com/assets/20250407/images/A-sp.jpg",
+    "w": 390,
+    "h": 260,
+    "alt": "Altius Link Purpose Movie（一言メッセージ）"
+   },
+   {
+    "src": "https://www.altius-link.com/assets/20260821/images/kv_home_slider_corp_sp_outsourcing-report-accounting-and-finance-department.png",
+    "w": 390,
+    "h": 260,
+    "alt": "アウトソーシング活用実態レポート 経理・財務部門編"
+   },
+   {
+    "src": "https://www.altius-link.com/assets/20260729/images/Cop_mv_linkto_sp.png",
+    "w": 390,
+    "h": 260,
+    "alt": "LiNKto"
+   },
+   {
+    "src": "https://www.altius-link.com/assets/20260722/images/kv_home_slider_corp_sp_outsourcing-report-hr.png",
+    "w": 390,
+    "h": 260,
+    "alt": "アウトソーシング活用実態レポート 人事部門編"
+   },
+   {
+    "src": "https://www.altius-link.com/assets/20260602/images/kv_home_slider_corp_sp_mail_line_trends2026.png",
+    "w": 390,
+    "h": 260,
+    "alt": "メルマガ･LINE公式アカウントなどの購読実態調査"
+   },
+   {
+    "src": "https://www.altius-link.com/assets/20260324/images/kv_home_slider_corp_sp_chat_support2025.png",
+    "w": 390,
+    "h": 260,
+    "alt": "お客様窓口におけるイライラ実態調査"
+   },
+   {
+    "src": "https://www.altius-link.com/assets/20251028/images/kv_home_slider_servicesite_sp.jpg",
+    "w": 390,
+    "h": 260,
+    "alt": "コンタクトセンターBPOサービス"
+   },
+   {
+    "src": "https://www.altius-link.com/assets/20250407/images/A-sp.jpg",
+    "w": 390,
+    "h": 260,
+    "alt": "Altius Link Purpose Movie（一言メッセージ）"
+   },
+   {
+    "src": "https://www.altius-link.com/assets/20260821/images/kv_home_slider_corp_sp_outsourcing-report-accounting-and-finance-department.png",
+    "w": 390,
+    "h": 260,
+    "alt": "アウトソーシング活用実態レポート 経理・財務部門編"
+   },
+   {
+    "src": "https://www.altius-link.com/images/solution-01.jpg",
+    "w": 348,
+    "h": 125,
+    "alt": ""
+   },
+   {
+    "src": "https://www.altius-link.com/images/solution-02.jpg",
+    "w": 348,
+    "h": 127,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 7499
+ },
+ "elapsedSec": 13.0
+}

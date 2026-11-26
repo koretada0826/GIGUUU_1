@@ -1,0 +1,119 @@
+{
+ "slug": "reevo-ai",
+ "url": "https://reevo.ai/",
+ "capturedAt": "2026-10-12 21:12:56",
+ "files": {
+  "pc_f0": "reevo-ai-pc-f0.jpg",
+  "pc_f1": "reevo-ai-pc-f1.jpg",
+  "pc_f2": "reevo-ai-pc-f2.jpg",
+  "pc_scroll": "reevo-ai-pc-scroll.jpg",
+  "sp": "reevo-ai-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://reevo.ai/",
+  "title": "Reevo | The AI-Native Sales Platform",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 12153,
+  "h1": "YOUR SALES TOOLS ARE GUESSING. REEVO ACTUALLY KNOWS.",
+  "h1Style": {
+   "fontFamily": "Metrify, sans-serif",
+   "fontSize": "113.208px",
+   "fontWeight": "900",
+   "lineHeight": "90.5664px",
+   "letterSpacing": "-1.13208px",
+   "color": "rgb(18, 18, 18)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 105,
+    "y": 181,
+    "w": 1231,
+    "h": 181
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "Get started",
+   "See Reevo"
+  ],
+  "videos": [
+   {
+    "src": "https://reevo.ai/assets/videos/promo-teaser.mp4",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 1344,
+    "h": 756,
+    "playing": true
+   }
+  ],
+  "canvases": [],
+  "images": [],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Metrify",
+   "Haltung"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "YOUR SALES TOOLS ARE GUESSING. REEVO ACTUALLY KNOWS.",
+  "h1Style": {
+   "fontFamily": "Metrify, sans-serif",
+   "fontSize": "57.5024px",
+   "fontWeight": "900",
+   "lineHeight": "46.0019px",
+   "letterSpacing": "-0.575024px",
+   "color": "rgb(18, 18, 18)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 24,
+    "y": 145,
+    "w": 342,
+    "h": 184
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "Get started",
+   "See Reevo"
+  ],
+  "videos": [
+   {
+    "src": "https://reevo.ai/assets/videos/promo-teaser.mp4",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 342,
+    "h": 192,
+    "playing": true
+   }
+  ],
+  "canvases": [],
+  "images": [],
+  "pageHeight": 10176
+ },
+ "elapsedSec": 13.7
+}

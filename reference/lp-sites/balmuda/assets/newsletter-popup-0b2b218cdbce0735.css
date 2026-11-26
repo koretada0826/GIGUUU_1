@@ -1,0 +1,209 @@
+.newsletter-popup {
+    box-sizing: border-box;
+    position: fixed;
+    right: 49px;
+    bottom: 25px;
+    z-index: 10000;
+    width: 300px;
+    height: 175px;
+    padding: 17px 19px 24px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 4px 8px 2px rgba(0, 0, 0, .18);
+    color: #000;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(calc(100% + 60px));
+    transition: opacity .45s ease, visibility .45s ease, transform .45s ease;
+}
+
+.newsletter-popup.__visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+}
+
+.newsletter-popup *,
+.newsletter-popup *::before,
+.newsletter-popup *::after {
+    box-sizing: border-box;
+}
+
+.newsletter-popup__close {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+.newsletter-popup__close::before,
+.newsletter-popup__close::after {
+    content: "";
+    position: absolute;
+    top: 9px;
+    left: 5px;
+    width: 10px;
+    height: 1px;
+    background: #333;
+}
+
+.newsletter-popup__close::before {
+    transform: rotate(45deg);
+}
+
+.newsletter-popup__close::after {
+    transform: rotate(-45deg);
+}
+
+.newsletter-popup__title {
+    margin: 0;
+    font-family: "bodoni-pt-variable", sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: .7px;
+    font-weight: 600;
+}
+
+.newsletter-popup__text {
+    margin: 8px 0 10px;
+    font-family: "Hiragino Kaku Gothic Pro", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 16px;
+}
+
+.newsletter-popup__form {
+    display: flex;
+    width: 100%;
+    height: 25px;
+    margin: 0 auto;
+    border-radius: 5px;
+    overflow: hidden;
+    background: #f5f5f5;
+}
+
+.newsletter-popup__input {
+    display: block;
+    flex: 1 1 auto;
+    min-width: 0;
+    height: 25px;
+    padding: 0 12px;
+    border: 0;
+    background: #f5f5f5;
+    color: #000;
+    font-family: "Open Sans", "YuGothic_Family", "YuGothic", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    font-size: 11px;
+    line-height: 25px;
+    outline: none;
+}
+
+.newsletter-popup__input::placeholder {
+    color: #ccc;
+    opacity: 1;
+}
+
+.newsletter-popup__submit {
+    position: relative;
+    flex: 0 0 25px;
+    width: 25px;
+    height: 25px;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background: #000;
+    cursor: pointer;
+}
+
+.newsletter-popup__submit::before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 7px;
+    width: 8px;
+    height: 8px;
+    border-top: 1px solid #fff;
+    border-right: 1px solid #fff;
+    transform: rotate(45deg);
+}
+
+@media screen and (min-width: 780px) {
+    .newsletter-popup {
+        transform: translateX(calc(100% + 60px)) scale(1.2);
+        transform-origin: right bottom;
+    }
+
+    .newsletter-popup.__visible {
+        transform: translateX(0) scale(1.2);
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .newsletter-popup {
+        right: calc((100vw - 320px) / 2);
+        width: 320px;
+        bottom: 25px;
+    }
+
+    .newsletter-popup__title {
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .newsletter-popup__text {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .newsletter-popup__close {
+        position: absolute;
+        top: 8px;
+        right: 0;
+        width: 30px;
+        height: 30px;
+        padding: 0;
+        border: 0;
+        border-radius: 0;
+        background: transparent;
+        cursor: pointer;
+    }
+
+    .newsletter-popup__close::before,
+    .newsletter-popup__close::after {
+        content: "";
+        position: absolute;
+        top: 6px;
+        left: 8px;
+        width: 14px;
+        height: 1px;
+        background: #333;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .newsletter-popup {
+        right: 10px;
+        width: calc(100vw - 20px);
+    }
+
+    .newsletter-popup__form {
+        width: 100%;
+    }
+}
+
+.__note {
+    font-size: 9px;
+    color: #828282;
+    margin-top: 12px;
+
+    a {
+        color: #828282 !important;
+        text-decoration: underline;
+    }
+}

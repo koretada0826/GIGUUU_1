@@ -1,0 +1,210 @@
+{
+ "slug": "nsl-jp",
+ "url": "https://www.nsl-jp.com/",
+ "capturedAt": "2026-10-12 21:13:11",
+ "files": {
+  "pc_f0": "nsl-jp-pc-f0.jpg",
+  "pc_f1": "nsl-jp-pc-f1.jpg",
+  "pc_f2": "nsl-jp-pc-f2.jpg",
+  "pc_scroll": "nsl-jp-pc-scroll.jpg",
+  "sp": "nsl-jp-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.nsl-jp.com/",
+  "title": "エヌ・エス・エル｜音響効果・楽曲制作",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 6523,
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [
+   "M+NA エムナ 音の演出をもっと手軽に"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/nBW25nnKav/s-1441x641_v-fms_6cdfe9d0-5866-4bc6-b1c3-858d8525762d.webp",
+    "w": 1440,
+    "h": 641,
+    "alt": ""
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/nBW25nnKav/s-570x450_4c2e29ae-b97e-49b3-953d-06a3cc4f1422.gif",
+    "w": 194,
+    "h": 153,
+    "alt": ""
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/nBW25nnKav/s-2880x1840_v-frms_webp_528116fb-a2e3-4007-a70d-a0c74143f100_regular.webp",
+    "w": 1440,
+    "h": 920,
+    "alt": ""
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/nBW25nnKav/s-947x441_v-fs_webp_af3fd1d6-9ec9-4ad5-99b9-3f78781abaea_small.webp",
+    "w": 473,
+    "h": 220,
+    "alt": ""
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/nBW25nnKav/s-946x839_3334e970-c012-4b37-b7c9-7a97e383cdf0.gif",
+    "w": 473,
+    "h": 420,
+    "alt": ""
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/nBW25nnKav/s-946x840_96630fa9-0e12-4c04-bc5c-f5bac65645d0.gif",
+    "w": 473,
+    "h": 420,
+    "alt": ""
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/nBW25nnKav/s-771x121_v-fs_webp_6e28c31e-bbcb-4ded-a581-c5ee3cf135e3_small.webp",
+    "w": 385,
+    "h": 60,
+    "alt": ""
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/nBW25nnKav/s-1150x593_e5d7b1e8-4b52-4b7e-b19f-7ce0eeb79e66.gif",
+    "w": 574,
+    "h": 296,
+    "alt": ""
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/nBW25nnKav/s-1150x650_6b1392d2-7ebf-40b2-abea-366d10172498.gif",
+    "w": 574,
+    "h": 324,
+    "alt": ""
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/nBW25nnKav/s-925x231_v-fs_webp_75a7d182-e1b0-4b7e-8a65-48012151ad00_small.webp",
+    "w": 462,
+    "h": 115,
+    "alt": ""
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/nBW25nnKav/s-924x911_801ee4eb-f26b-4bb5-bc87-3d9d04dfe142.gif",
+    "w": 462,
+    "h": 455,
+    "alt": ""
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/nBW25nnKav/s-924x909_91baed57-ffa3-4a86-a719-ce57c2a958d8.gif",
+    "w": 462,
+    "h": 452,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "sans-serif"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(237, 177, 65)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/nBW25nnKav/s-841x610_v-fs_webp_be245131-9e9b-49a3-a4fd-a6c9e7a32acc.webp",
+    "w": 390,
+    "h": 283,
+    "alt": ""
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/nBW25nnKav/s-570x450_4c2e29ae-b97e-49b3-953d-06a3cc4f1422.gif",
+    "w": 156,
+    "h": 123,
+    "alt": ""
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/nBW25nnKav/s-840x1208_v-fms_webp_79e69620-b618-4280-a0f8-60d58646f70c_middle.webp",
+    "w": 390,
+    "h": 561,
+    "alt": ""
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/nBW25nnKav/s-285x361_webp_2e1a24f4-d757-4737-94ba-bf6b941c2514.webp",
+    "w": 138,
+    "h": 175,
+    "alt": ""
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/nBW25nnKav/s-447x472_a11fcbe2-8f6c-4c3d-8132-cc73f1515ec4.gif",
+    "w": 138,
+    "h": 132,
+    "alt": ""
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/nBW25nnKav/s-447x346_43011690-446a-4029-9c28-f3243ed0d2a8.gif",
+    "w": 138,
+    "h": 96,
+    "alt": ""
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/nBW25nnKav/s-237x151_webp_dec55eff-dc3c-4037-b4d6-0a9ca46c0e15.webp",
+    "w": 115,
+    "h": 73,
+    "alt": ""
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/nBW25nnKav/s-850x567_f6d3bb5b-c288-4032-947f-653d17786c5a.gif",
+    "w": 263,
+    "h": 158,
+    "alt": ""
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/nBW25nnKav/s-645x614_8bae90d7-c406-4a9d-85e0-bac6abf790cd.gif",
+    "w": 200,
+    "h": 171,
+    "alt": ""
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/nBW25nnKav/s-281x201_webp_dbee1339-c7dc-43a3-9eaa-8f525bbc9cd0.webp",
+    "w": 137,
+    "h": 98,
+    "alt": ""
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/nBW25nnKav/s-441x252_18656208-7350-4016-8b40-aa3fdbad3804.gif",
+    "w": 137,
+    "h": 70,
+    "alt": ""
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/nBW25nnKav/s-441x567_ccdf7781-abba-4ca5-8c12-7af01b485e4d.gif",
+    "w": 137,
+    "h": 158,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 6747
+ },
+ "elapsedSec": 11.3
+}

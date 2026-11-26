@@ -1,0 +1,101 @@
+{
+ "slug": "shinwatsushin-com-lp-hanbaikanri",
+ "url": "https://www.shinwatsushin.com/lp/hanbaikanri",
+ "capturedAt": "2026-10-12 21:18:23",
+ "files": {
+  "pc_f0": "shinwatsushin-com-lp-hanbaikanri-pc-f0.jpg",
+  "pc_f1": "shinwatsushin-com-lp-hanbaikanri-pc-f1.jpg",
+  "pc_f2": "shinwatsushin-com-lp-hanbaikanri-pc-f2.jpg",
+  "pc_scroll": "shinwatsushin-com-lp-hanbaikanri-pc-scroll.jpg",
+  "sp": "shinwatsushin-com-lp-hanbaikanri-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.shinwatsushin.com/lp/hanbaikanri",
+  "title": "販売管理システム | 信和通信工業株式会社",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 12400,
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [
+   "お問い合わせ",
+   "お問い合わせはこちら"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/91aPJN7xOl/s-1048x550_b33be25c-84f0-4311-a802-12d794b008fb.webp",
+    "w": 524,
+    "h": 275,
+    "alt": ""
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/91aPJN7xOl/s-2080x360_e06d031a-b99b-4f56-a1da-dcb29e16383b.webp",
+    "w": 1040,
+    "h": 180,
+    "alt": "IT導入補助金の活用で、販売管理システムの導入が最大50%補助されます。今こそお得に業務をアップデートできるチャンスです！"
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "sans-serif",
+   "Noto Sans JP"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [
+   "お問い合わせ",
+   "お問い合わせはこちら"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/91aPJN7xOl/s-1048x550_b33be25c-84f0-4311-a802-12d794b008fb.webp",
+    "w": 340,
+    "h": 178,
+    "alt": ""
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/91aPJN7xOl/s-2080x360_e06d031a-b99b-4f56-a1da-dcb29e16383b.webp",
+    "w": 350,
+    "h": 61,
+    "alt": "IT導入補助金の活用で、販売管理システムの導入が最大50%補助されます。今こそお得に業務をアップデートできるチャンスです！"
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/91aPJN7xOl/s-1300x202_55c8aff6-72b5-4335-8e83-fe50ec451a88.webp",
+    "w": 350,
+    "h": 54,
+    "alt": "日々追われる「売上管理」「仕入れ管理」「在庫管理」「受発注管理」などで、こんなことにお困りではないですか？"
+   }
+  ],
+  "pageHeight": 14294
+ },
+ "elapsedSec": 11.8
+}

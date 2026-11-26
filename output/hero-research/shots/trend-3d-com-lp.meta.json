@@ -1,0 +1,194 @@
+{
+ "slug": "trend-3d-com-lp",
+ "url": "https://trend-3d.com/lp/",
+ "capturedAt": "2026-10-12 21:06:31",
+ "files": {
+  "pc_f0": "trend-3d-com-lp-pc-f0.jpg",
+  "pc_f1": "trend-3d-com-lp-pc-f1.jpg",
+  "pc_f2": "trend-3d-com-lp-pc-f2.jpg",
+  "pc_scroll": "trend-3d-com-lp-pc-scroll.jpg",
+  "sp": "trend-3d-com-lp-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://trend-3d.com/lp/",
+  "title": "フルカラー3DプリントならTrend 3D｜写真・画像から3Dフィギュア制作【公式LP】",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 25053,
+  "h1": "",
+  "h1Style": {
+   "fontFamily": "\"Noto Sans JP\", sans-serif",
+   "fontSize": "32px",
+   "fontWeight": "700",
+   "lineHeight": "48px",
+   "letterSpacing": "normal",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 479,
+    "y": 422,
+    "w": 483,
+    "h": 58
+   }
+  },
+  "lead": "フルカラー3Dプリントで、新たなカルチャーを。",
+  "ctas": [
+   "FullMovie",
+   "Full Movie"
+  ],
+  "videos": [
+   {
+    "src": "https://trend-3d.com/lp/movie/short.mp4",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 1440,
+    "h": 900,
+    "playing": true
+   }
+  ],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://trend-3d.com/lp/images/common/drawer-img.jpg",
+    "w": 720,
+    "h": 900,
+    "alt": ""
+   },
+   {
+    "src": "https://trend-3d.com/lp/images/fv/fv_movie_thumb.png",
+    "w": 113,
+    "h": 64,
+    "alt": ""
+   },
+   {
+    "src": "https://trend-3d.com/lp/images/movie/thumb.jpg",
+    "w": 1440,
+    "h": 900,
+    "alt": ""
+   },
+   {
+    "src": "https://trend-3d.com/lp/images/fv/fv_headcopy.svg",
+    "w": 483,
+    "h": 58,
+    "alt": "FULL COLOR 3D PRINT"
+   },
+   {
+    "src": "https://trend-3d.com/lp/images/fv/fv_movie_thumb.png",
+    "w": 113,
+    "h": 64,
+    "alt": "ムービーサムネイル"
+   },
+   {
+    "src": "https://trend-3d.com/lp/images/intro/intro_icon_hamburger.svg",
+    "w": 48,
+    "h": 48,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Noto Sans JP"
+  ],
+  "libs": {
+   "gsap": true,
+   "ScrollTrigger": true,
+   "three": false,
+   "lenis": false,
+   "swiper": true,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "",
+  "h1Style": {
+   "fontFamily": "\"Noto Sans JP\", sans-serif",
+   "fontSize": "32px",
+   "fontWeight": "700",
+   "lineHeight": "48px",
+   "letterSpacing": "normal",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 92,
+    "y": 312,
+    "w": 206,
+    "h": 158
+   }
+  },
+  "lead": "フルカラー3Dプリントで、 新たなカルチャーを。",
+  "ctas": [
+   "REQUEST",
+   "CONTACT",
+   "FullMovie",
+   "Full Movie"
+  ],
+  "videos": [
+   {
+    "src": "https://trend-3d.com/lp/movie/short.mp4",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 390,
+    "h": 844,
+    "playing": true
+   }
+  ],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://trend-3d.com/lp/images/intro/intro_icon_hamburger.svg",
+    "w": 48,
+    "h": 48,
+    "alt": ""
+   },
+   {
+    "src": "https://trend-3d.com/lp/images/common/drawer-img-sp.png",
+    "w": 220,
+    "h": 200,
+    "alt": ""
+   },
+   {
+    "src": "https://trend-3d.com/lp/images/fv/fv_movie_thumb.png",
+    "w": 113,
+    "h": 64,
+    "alt": ""
+   },
+   {
+    "src": "https://trend-3d.com/lp/images/movie/thumb.jpg",
+    "w": 390,
+    "h": 844,
+    "alt": ""
+   },
+   {
+    "src": "https://trend-3d.com/lp/images/fv/fv_headcopy_sp.svg",
+    "w": 206,
+    "h": 158,
+    "alt": "FULL COLOR 3D PRINT"
+   },
+   {
+    "src": "https://trend-3d.com/lp/images/fv/fv_movie_thumb.png",
+    "w": 113,
+    "h": 64,
+    "alt": "ムービーサムネイル"
+   }
+  ],
+  "pageHeight": 25848
+ },
+ "elapsedSec": 14.4
+}

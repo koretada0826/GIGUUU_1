@@ -1,0 +1,261 @@
+{
+ "slug": "go-chatwork-com-ja",
+ "url": "https://go.chatwork.com/ja/",
+ "capturedAt": "2026-10-12 21:09:42",
+ "files": {
+  "pc_f0": "go-chatwork-com-ja-pc-f0.jpg",
+  "pc_f1": "go-chatwork-com-ja-pc-f1.jpg",
+  "pc_f2": "go-chatwork-com-ja-pc-f2.jpg",
+  "pc_scroll": "go-chatwork-com-ja-pc-scroll.jpg",
+  "sp": "go-chatwork-com-ja-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://go.chatwork.com/ja/",
+  "title": "ビジネスチャットならChatwork（チャットワーク）【国内利用者数No.1】",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 8859,
+  "h1": "国内利用者数No.1 ※1 中小企業向けビジネスチャット Chatwork",
+  "h1Style": {
+   "fontFamily": "\"Chatwork Sans B\", \"Hiragino Sans\", ヒラギノ角ゴシック, \"ヒラギノ角ゴ Pro\", \"Hiragino Kaku Gothic Pro\", \"Hiragino Kaku Gothic ProN\", \"ヒ",
+   "fontSize": "34px",
+   "fontWeight": "700",
+   "lineHeight": "54.4px",
+   "letterSpacing": "normal",
+   "color": "rgb(25, 25, 25)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 40,
+    "y": 112,
+    "w": 457,
+    "h": 188
+   }
+  },
+  "lead": "無料ではじめる Androidアプリダウンロード 説明資料のダウンロードはこちら",
+  "ctas": [
+   "Chatwork",
+   "無料登録して使う",
+   "説明資料ダウンロード",
+   "無料ダウンロード"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://go.chatwork.com/ja/image/top/logo_customer_01.png",
+    "w": 200,
+    "h": 72,
+    "alt": "伊藤会計事務所"
+   },
+   {
+    "src": "https://go.chatwork.com/ja/image/top/logo_customer_02.png",
+    "w": 216,
+    "h": 72,
+    "alt": "株式会社関東エレベーターシステム"
+   },
+   {
+    "src": "https://go.chatwork.com/ja/image/top/logo_customer_03.png",
+    "w": 204,
+    "h": 72,
+    "alt": "株式会社モリチュウ"
+   },
+   {
+    "src": "https://go.chatwork.com/ja/image/top/logo_customer_04.png",
+    "w": 208,
+    "h": 72,
+    "alt": "シマコーポレーション"
+   },
+   {
+    "src": "https://go.chatwork.com/ja/image/top/logo_customer_05.png",
+    "w": 126,
+    "h": 72,
+    "alt": "DNP"
+   },
+   {
+    "src": "https://go.chatwork.com/ja/image/top/logo_customer_06.png",
+    "w": 136,
+    "h": 72,
+    "alt": "GMO"
+   },
+   {
+    "src": "https://go.chatwork.com/ja/image/top/logo_customer_07.png",
+    "w": 110,
+    "h": 72,
+    "alt": "KDDI"
+   },
+   {
+    "src": "https://go.chatwork.com/ja/image/top/logo_customer_08.png",
+    "w": 212,
+    "h": 72,
+    "alt": "Money Forward"
+   },
+   {
+    "src": "https://go.chatwork.com/ja/image/top/logo_customer_09.png",
+    "w": 168,
+    "h": 72,
+    "alt": "大和証券"
+   },
+   {
+    "src": "https://go.chatwork.com/ja/image/top/logo_customer_10.png",
+    "w": 222,
+    "h": 72,
+    "alt": "SMBCベンチャーキャピタル"
+   },
+   {
+    "src": "https://go.chatwork.com/ja/image/top/logo_customer_11.png",
+    "w": 120,
+    "h": 72,
+    "alt": "友愛病院"
+   },
+   {
+    "src": "https://go.chatwork.com/ja/image/top/logo_customer_12.png",
+    "w": 170,
+    "h": 72,
+    "alt": "とうこう"
+   }
+  ],
+  "backgroundImages": [
+   {
+    "bg": "url(\"https://go.chatwork.com/ja/image/common/cw_logo_hz_color.svg\")",
+    "w": 200,
+    "h": 50
+   },
+   {
+    "bg": "url(\"https://go.chatwork.com/ja/image/top/kv_img_pcimg_full.png?v=20250321\")",
+    "w": 883,
+    "h": 400
+   }
+  ],
+  "firstScreenFonts": [
+   "Chatwork Sans R",
+   "Chatwork Sans B",
+   "Helvetica"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(245, 245, 244)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "国内利用者数No.1 ※1 中小企業向けビジネスチャット Chatwork",
+  "h1Style": {
+   "fontFamily": "\"Chatwork Sans B\", \"Hiragino Sans\", ヒラギノ角ゴシック, \"ヒラギノ角ゴ Pro\", \"Hiragino Kaku Gothic Pro\", \"Hiragino Kaku Gothic ProN\", \"ヒ",
+   "fontSize": "24.18px",
+   "fontWeight": "700",
+   "lineHeight": "38.688px",
+   "letterSpacing": "normal",
+   "color": "rgb(25, 25, 25)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 35,
+    "y": 70,
+    "w": 320,
+    "h": 142
+   }
+  },
+  "lead": "無料ではじめる 説明資料のダウンロードはこちら",
+  "ctas": [
+   "Chatwork",
+   "無料ではじめる",
+   "無料ではじめる",
+   "説明資料のダウンロードはこちら"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://go.chatwork.com/ja/image/top/logo_customer_01.png",
+    "w": 156,
+    "h": 56,
+    "alt": "伊藤会計事務所"
+   },
+   {
+    "src": "https://go.chatwork.com/ja/image/top/logo_customer_02.png",
+    "w": 168,
+    "h": 56,
+    "alt": "株式会社関東エレベーターシステム"
+   },
+   {
+    "src": "https://go.chatwork.com/ja/image/top/logo_customer_03.png",
+    "w": 159,
+    "h": 56,
+    "alt": "株式会社モリチュウ"
+   },
+   {
+    "src": "https://go.chatwork.com/ja/image/top/logo_customer_04.png",
+    "w": 162,
+    "h": 56,
+    "alt": "シマコーポレーション"
+   },
+   {
+    "src": "https://go.chatwork.com/ja/image/top/logo_customer_05.png",
+    "w": 98,
+    "h": 56,
+    "alt": "DNP"
+   },
+   {
+    "src": "https://go.chatwork.com/ja/image/top/logo_customer_06.png",
+    "w": 106,
+    "h": 56,
+    "alt": "GMO"
+   },
+   {
+    "src": "https://go.chatwork.com/ja/image/top/logo_customer_07.png",
+    "w": 86,
+    "h": 56,
+    "alt": "KDDI"
+   },
+   {
+    "src": "https://go.chatwork.com/ja/image/top/logo_customer_08.png",
+    "w": 165,
+    "h": 56,
+    "alt": "Money Forward"
+   },
+   {
+    "src": "https://go.chatwork.com/ja/image/top/logo_customer_09.png",
+    "w": 131,
+    "h": 56,
+    "alt": "大和証券"
+   },
+   {
+    "src": "https://go.chatwork.com/ja/image/top/logo_customer_10.png",
+    "w": 173,
+    "h": 56,
+    "alt": "SMBCベンチャーキャピタル"
+   },
+   {
+    "src": "https://go.chatwork.com/ja/image/top/logo_customer_11.png",
+    "w": 93,
+    "h": 56,
+    "alt": "友愛病院"
+   },
+   {
+    "src": "https://go.chatwork.com/ja/image/top/logo_customer_12.png",
+    "w": 132,
+    "h": 56,
+    "alt": "とうこう"
+   }
+  ],
+  "pageHeight": 10863
+ },
+ "elapsedSec": 12.5
+}

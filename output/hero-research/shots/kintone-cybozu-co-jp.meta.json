@@ -1,0 +1,106 @@
+{
+ "slug": "kintone-cybozu-co-jp",
+ "url": "https://kintone.cybozu.co.jp/",
+ "capturedAt": "2026-10-12 21:09:20",
+ "files": {
+  "pc_f0": "kintone-cybozu-co-jp-pc-f0.jpg",
+  "pc_f1": "kintone-cybozu-co-jp-pc-f1.jpg",
+  "pc_f2": "kintone-cybozu-co-jp-pc-f2.jpg",
+  "pc_scroll": "kintone-cybozu-co-jp-pc-scroll.jpg",
+  "sp": "kintone-cybozu-co-jp-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://kintone.cybozu.co.jp/",
+  "title": "kintone（キントーン） | みんな、つかえる。業務アプリがつくれるサイボウズのノーコード・ローコードツール",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 13916,
+  "h1": "",
+  "h1Style": {
+   "fontFamily": "Roboto, \"Noto Sans JP\", \"Helvetica Neue\", Arial, \"Hiragino Kaku Gothic ProN\", \"Hiragino Sans\", Meiryo, sans-serif",
+   "fontSize": "16px",
+   "fontWeight": "700",
+   "lineHeight": "27px",
+   "letterSpacing": "0.8px",
+   "color": "rgb(35, 18, 0)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 40,
+    "y": 35,
+    "w": 180,
+    "h": 31
+   }
+  },
+  "lead": "エンタープライズ企業の方 ご利用中の方 ログイン キントーンについて 活用方法 機能 事例 料金 さくっと体験 無料お試し",
+  "ctas": [
+   "さくっと体験",
+   "無料お試し",
+   "アプリ作成体験",
+   "セミナー"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://kintone.cybozu.co.jp/assets_2025/img/common/icon/menu.svg",
+    "w": 41,
+    "h": 46,
+    "alt": "menu"
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Roboto"
+  ],
+  "libs": {
+   "gsap": true,
+   "ScrollTrigger": true,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": true
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "",
+  "h1Style": {
+   "fontFamily": "Roboto, \"Noto Sans JP\", \"Helvetica Neue\", Arial, \"Hiragino Kaku Gothic ProN\", \"Hiragino Sans\", Meiryo, sans-serif",
+   "fontSize": "16px",
+   "fontWeight": "700",
+   "lineHeight": "27px",
+   "letterSpacing": "0.8px",
+   "color": "rgb(35, 18, 0)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 20,
+    "y": 19,
+    "w": 132,
+    "h": 23
+   }
+  },
+  "lead": "エンタープライズ企業の方 ご利用中の方 ログイン キントーンについて kintoneとは データプラットフォームとは ノーコードツールとは ブランドストーリー 市民開発とガバナンス 活用方法 用途から探す 部署から探す 業種から探す 用途別トップ 顧客・案件管理 脱エクセル ワークフロー（申請業務） 日報・報告書 受発注管理 プロジェクト・タスク管理 ファイル管理 売上管理 業務の見える化 社内ポータル 基幹データの入力・活用 問い合わせ管理 ナレッジ管理 企業間のやりとり アンケート・調査 FAQ管理 採用管理 DX人材育成 グローバル活用 部署別トップ 全社の業務基盤 営業・セールス 総務",
+  "ctas": [
+   "セミナー"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [],
+  "pageHeight": 15336
+ },
+ "elapsedSec": 14.0
+}

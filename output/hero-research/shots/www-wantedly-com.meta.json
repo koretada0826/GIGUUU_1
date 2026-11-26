@@ -1,0 +1,142 @@
+{
+ "slug": "www-wantedly-com",
+ "url": "https://www.wantedly.com/",
+ "capturedAt": "2026-10-12 21:09:29",
+ "files": {
+  "pc_f0": "www-wantedly-com-pc-f0.jpg",
+  "pc_f1": "www-wantedly-com-pc-f1.jpg",
+  "pc_f2": "www-wantedly-com-pc-f2.jpg",
+  "pc_scroll": "www-wantedly-com-pc-scroll.jpg",
+  "sp": "www-wantedly-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.wantedly.com/",
+  "title": "Wantedly（ウォンテッドリー）共感でつながるビジネスSNS",
+  "lang": "ja-JP",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 4587,
+  "h1": "",
+  "h1Style": {
+   "fontFamily": "Poppins, \"Helvetica Neue\", Helvetica, Arial, \"Hiragino Sans\", ヒラギノ角ゴシック, \"Hiragino Kaku Gothic ProN\", \"ヒラギノ角ゴ Pro W3\", \"",
+   "fontSize": "28px",
+   "fontWeight": "400",
+   "lineHeight": "42px",
+   "letterSpacing": "normal",
+   "color": "rgb(36, 40, 42)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 38,
+    "y": 179,
+    "w": 680,
+    "h": 217
+   }
+  },
+  "lead": "Wantedlyは、450万人のユーザーと40,000社が利用するビジネスSNS。 共感を軸にした新しい挑戦との出会いや、学びの発信など 組織の枠を超えた「つながり」が広がっていきます。 あなただけのキャリア実績の記録をつくり、夢中になれる未来へと動き出そう。",
+  "ctas": [
+   "Facebook",
+   "Google",
+   "Apple"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://dubpy8abnqmkw.cloudfront.net/images/about-root/bg-hero.png",
+    "w": 1440,
+    "h": 924,
+    "alt": ""
+   },
+   {
+    "src": "https://wantedly-assets.wantedly.com/static/about/root/banner-for-recruiter.png",
+    "w": 264,
+    "h": 96,
+    "alt": ""
+   },
+   {
+    "src": "https://wantedly-assets.wantedly.com/static/logo/logo-color-LightBG.svg",
+    "w": 177,
+    "h": 48,
+    "alt": "Wantedly"
+   },
+   {
+    "src": "https://wantedly-assets.wantedly.com/static/about/root/catch-copy-desktop.svg",
+    "w": 642,
+    "h": 205,
+    "alt": "共感でつながるビジネスSNS"
+   },
+   {
+    "src": "https://wantedly-assets.wantedly.com/static/logo/app/new_visit_app_logo.svg",
+    "w": 48,
+    "h": 48,
+    "alt": "Wantedly"
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Poppins"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "",
+  "h1Style": {
+   "fontFamily": "Poppins, \"Helvetica Neue\", Helvetica, Arial, \"Hiragino Sans\", ヒラギノ角ゴシック, \"Hiragino Kaku Gothic ProN\", \"ヒラギノ角ゴ Pro W3\", R",
+   "fontSize": "14px",
+   "fontWeight": "600",
+   "lineHeight": "21px",
+   "letterSpacing": "normal",
+   "color": "rgb(69, 73, 75)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 16,
+    "y": 221,
+    "w": 358,
+    "h": 101
+   }
+  },
+  "lead": "Wantedlyは、450万人のユーザーと40,000社が利用するビジネスSNS。共感を軸にした新しい挑戦との出会いや、学びの発信など組織の枠を超えた「つながり」が広がっていきます。あなただけのキャリア実績の記録をつくり、夢中になれる未来へと動き出そう。",
+  "ctas": [
+   "無料で登録・ログイン"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://dubpy8abnqmkw.cloudfront.net/images/about-root/bg-hero.png",
+    "w": 390,
+    "h": 702,
+    "alt": "WorkDrivesPassion"
+   },
+   {
+    "src": "https://wantedly-assets.wantedly.com/static/about/root/catch-copy-mobile.svg",
+    "w": 319,
+    "h": 101,
+    "alt": "共感でつながるビジネスSNS"
+   }
+  ],
+  "pageHeight": 3874
+ },
+ "elapsedSec": 12.6
+}

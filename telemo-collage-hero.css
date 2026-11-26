@@ -1,0 +1,231 @@
+/* A miniature collage inspired by the supplied reference, using TELEMO's
+   existing cyan/teal palette and live copy. All rules stay inside #hero.
+   Separate grid cells keep text, brand, artwork and vertical copy apart. */
+.page-home.concept-08 #hero.lpsr-hero-collage {
+  height: min(calc(100svh - var(--lpsr-campaign-band-height)), 1040px);
+  min-height: 620px;
+  overflow: clip;
+}
+
+#hero.lpsr-hero-collage .lpsr-campaign-hero__visual {
+  width: min(100%, 1800px);
+}
+
+#hero.lpsr-hero-collage .lpsr-campaign-hero__canvas {
+  display: grid;
+  grid-template-columns: minmax(0, .87fr) minmax(0, 1.25fr) auto;
+  align-items: center;
+  gap: clamp(16px, 1.7vw, 30px);
+  width: 100%;
+  height: 100%;
+  padding: 18px 4% 8px;
+  aspect-ratio: auto;
+  isolation: isolate;
+}
+
+#hero.lpsr-hero-collage .lpsr-hero-collage__art {
+  position: static;
+  grid-column: 2;
+  grid-row: 1;
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+  max-width: 100%;
+  object-fit: contain;
+  pointer-events: none;
+}
+
+#hero.lpsr-hero-collage .lpsr-hero-collage__copy {
+  grid-column: 1;
+  grid-row: 1;
+  display: flex;
+  flex-direction: column;
+  gap: clamp(18px, 2vw, 32px);
+  min-width: 0;
+}
+
+#hero.lpsr-hero-collage .lpsr-campaign-hero__title {
+  position: static;
+  width: 100%;
+  line-height: 1.4;
+  white-space: normal;
+  text-shadow: 0 2px 16px rgba(0, 67, 85, .12);
+}
+
+#hero.lpsr-hero-collage .lpsr-campaign-hero__headline {
+  font-size: clamp(30px, 3.2cqw, 57px);
+}
+
+#hero.lpsr-hero-collage .lpsr-campaign-hero__subheadline {
+  margin-top: .65em;
+  font-size: clamp(19px, 1.95cqw, 35px);
+}
+
+#hero.lpsr-hero-collage .lpsr-campaign-hero__mobile-break {
+  display: initial;
+}
+
+#hero.lpsr-hero-collage .lpsr-campaign-hero__ending {
+  display: block;
+  font-size: 3.2cqw;
+}
+
+#hero.lpsr-hero-collage .lpsr-campaign-hero__wordmark {
+  position: static;
+  width: 100%;
+}
+
+#hero.lpsr-hero-collage .lpsr-hero-collage__message {
+  position: static;
+  grid-column: 3;
+  grid-row: 1;
+  align-self: start;
+  margin: 32px 0 0;
+  color: #0a2a44;
+  font-family: var(--rf-display);
+  font-size: clamp(19px, 1.65cqw, 30px);
+  font-weight: 800;
+  letter-spacing: .14em;
+  line-height: 1.9;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}
+
+#hero.lpsr-hero-collage .lpsr-hero-collage__message > span {
+  display: block;
+  white-space: nowrap;
+}
+
+#hero.lpsr-hero-collage .lpsr-campaign-hero__actions {
+  justify-content: flex-start;
+  width: min(92%, 1656px);
+  margin: 12px auto 24px;
+}
+
+.page-home #hero.lpsr-hero-collage .lpsr-campaign-hero__president {
+  right: max(24px, calc((100% - 1800px) / 2 + 24px), env(safe-area-inset-right));
+  bottom: 30px;
+  width: clamp(88px, 7.5vw, 136px);
+}
+
+#hero.lpsr-hero-collage .hero__scroll {
+  display: none;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  #hero.lpsr-hero-collage .lpsr-campaign-hero__canvas {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr) auto;
+    gap: 12px;
+  }
+
+  #hero.lpsr-hero-collage .lpsr-campaign-hero__headline,
+  #hero.lpsr-hero-collage .lpsr-campaign-hero__ending {
+    font-size: 3.5cqw;
+  }
+
+  #hero.lpsr-hero-collage .lpsr-campaign-hero__subheadline {
+    font-size: 1.95cqw;
+  }
+
+  #hero.lpsr-hero-collage .lpsr-hero-collage__message {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 767px) {
+  .page-home.concept-08 #hero.lpsr-hero-collage {
+    height: auto;
+    min-height: 0;
+    padding-top: var(--nav-height);
+  }
+
+  #hero.lpsr-hero-collage .lpsr-campaign-hero__visual {
+    width: min(100%, 560px);
+    height: auto;
+  }
+
+  #hero.lpsr-hero-collage .lpsr-campaign-hero__canvas {
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 18px 10px;
+    height: auto;
+    padding: 22px 6% 8px;
+    aspect-ratio: auto;
+  }
+
+  #hero.lpsr-hero-collage .lpsr-hero-collage__art {
+    grid-column: 1;
+    grid-row: 1;
+    height: auto;
+  }
+
+  #hero.lpsr-hero-collage .lpsr-hero-collage__message {
+    grid-column: 2;
+    grid-row: 1;
+    align-self: center;
+    margin: 0;
+    font-size: clamp(14px, 3.7cqw, 20px);
+    line-height: 1.6;
+    letter-spacing: .08em;
+  }
+
+  #hero.lpsr-hero-collage .lpsr-hero-collage__copy {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    gap: 12px;
+  }
+
+  #hero.lpsr-hero-collage .lpsr-campaign-hero__title {
+    width: 100%;
+    line-height: 1.45;
+  }
+
+  #hero.lpsr-hero-collage .lpsr-campaign-hero__headline {
+    font-size: 5.9cqw;
+  }
+
+  #hero.lpsr-hero-collage .lpsr-campaign-hero__subheadline {
+    margin-top: .2em;
+    font-size: 4.25cqw;
+  }
+
+  #hero.lpsr-hero-collage .lpsr-campaign-hero__mobile-break {
+    display: none;
+  }
+
+  #hero.lpsr-hero-collage .lpsr-campaign-hero__ending {
+    display: inline;
+    font-size: inherit;
+  }
+
+  #hero.lpsr-hero-collage .lpsr-campaign-hero__wordmark {
+    width: 90%;
+  }
+
+  #hero.lpsr-hero-collage .lpsr-campaign-hero__actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: 88%;
+    margin: 12px auto 26px;
+  }
+
+  .page-home.concept-08 #hero.lpsr-hero-collage .btn {
+    min-height: 52px;
+    padding: 10px 16px;
+    font-size: 13px;
+  }
+
+  .page-home #hero.lpsr-hero-collage .lpsr-campaign-hero__president {
+    right: max(10px, env(safe-area-inset-right));
+    bottom: 100px;
+    width: 70px;
+  }
+}
+
+@media print {
+  .page-home.concept-08 #hero.lpsr-hero-collage {
+    min-height: 700px;
+  }
+}

@@ -1,0 +1,154 @@
+{
+ "slug": "campaign-facilo-jp-series-b",
+ "url": "https://campaign.facilo.jp/series-b/",
+ "capturedAt": "2026-10-12 21:11:56",
+ "files": {
+  "pc_f0": "campaign-facilo-jp-series-b-pc-f0.jpg",
+  "pc_f1": "campaign-facilo-jp-series-b-pc-f1.jpg",
+  "pc_f2": "campaign-facilo-jp-series-b-pc-f2.jpg",
+  "pc_scroll": "campaign-facilo-jp-series-b-pc-scroll.jpg",
+  "sp": "campaign-facilo-jp-series-b-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://campaign.facilo.jp/series-b/",
+  "title": "Facilo｜不動産の未来を、みんなでひらく",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 900,
+  "h1": "Facilo",
+  "h1Style": {
+   "fontFamily": "ncpm, HelveticaNowText-Regular, NewCezannePro-M, sans-serif",
+   "fontSize": "1px",
+   "fontWeight": "400",
+   "lineHeight": "1.15px",
+   "letterSpacing": "normal",
+   "color": "rgb(51, 51, 51)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 0,
+    "y": 804,
+    "w": 1440,
+    "h": 0
+   }
+  },
+  "lead": null,
+  "ctas": [],
+  "videos": [
+   {
+    "src": "https://campaign.facilo.jp/series-b/assets/video/top/fv_pc.mp4",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 1440,
+    "h": 900,
+    "playing": false
+   }
+  ],
+  "canvases": [
+   {
+    "w": 1440,
+    "h": 900
+   },
+   {
+    "w": 1440,
+    "h": 900
+   },
+   {
+    "w": 1440,
+    "h": 900
+   },
+   {
+    "w": 186,
+    "h": 186
+   },
+   {
+    "w": 352,
+    "h": 352
+   }
+  ],
+  "images": [],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "ncpm"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 58,
+ "sp": {
+  "h1": "Facilo",
+  "h1Style": {
+   "fontFamily": "ncpm, HelveticaNowText-Regular, NewCezannePro-M, sans-serif",
+   "fontSize": "1.01562px",
+   "fontWeight": "400",
+   "lineHeight": "1.16797px",
+   "letterSpacing": "normal",
+   "color": "rgb(51, 51, 51)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 0,
+    "y": 763,
+    "w": 390,
+    "h": 0
+   }
+  },
+  "lead": null,
+  "ctas": [],
+  "videos": [
+   {
+    "src": "https://campaign.facilo.jp/series-b/assets/video/top/fv_sp.mp4",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 390,
+    "h": 844,
+    "playing": false
+   }
+  ],
+  "canvases": [
+   {
+    "w": 390,
+    "h": 844
+   },
+   {
+    "w": 390,
+    "h": 844
+   },
+   {
+    "w": 390,
+    "h": 844
+   },
+   {
+    "w": 144,
+    "h": 144
+   },
+   {
+    "w": 192,
+    "h": 192
+   }
+  ],
+  "images": [],
+  "pageHeight": 844
+ },
+ "elapsedSec": 12.1
+}

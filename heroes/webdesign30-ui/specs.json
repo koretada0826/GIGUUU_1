@@ -1,0 +1,132 @@
+[
+  {
+    "id": "01-cut-paper-poster",
+    "title": "角のある文字ポスター",
+    "refs": [
+      1,
+      6,
+      28
+    ],
+    "layout": "band",
+    "desc": "オレンジの紙面と鋭い切り抜き。下段にコピーと導線をまとめる。",
+    "scene": "Flat screenprinted typographic poster, giant TELEMO navy letters moving diagonally across orange paper, angular white paper-cut rays, sharp notched edges. Minimal intentional Japanese graphic design, tactile ink grain, ONLY one word TELEMO, no other text. The word occupies entire image width; no rounded bubbles or mascot. Mostly flat 2D; extremely confident asymmetric composition.",
+    "prompt": "Use case: ads-marketing. Asset type: original TELEMO Japanese landing page hero artwork, landscape 16:9. Create one polished finished image, NOT a screenshot, NOT a mockup of a browser. Flat screenprinted typographic poster, giant TELEMO navy letters moving diagonally across orange paper, angular white paper-cut rays, sharp notched edges. Minimal intentional Japanese graphic design, tactile ink grain, ONLY one word TELEMO, no other text. The word occupies entire image width; no rounded bubbles or mascot. Mostly flat 2D; extremely confident asymmetric composition. Brand palette locked: white #ffffff, navy #0a2a44, teal #007d8c, orange #fd8e44, with physical lighting tonal variation only. No other brand colors, no purple or blue gradients, no glow effects, no emoji, no fake data, no testimonials, no logos belonging to other companies, no Japanese copy or buttons. Do not generate a person: an existing fixed mini-president image will be overlaid later in HTML. Typography must read exactly T E L E M O, six letters in that order. No TELEM0, TELMO or TELEMMO. This is bespoke art direction inspired only by composition principles, not a reproduction of any existing brand artwork."
+  },
+  {
+    "id": "02-paper-theatre",
+    "title": "紙でつくる小さな舞台",
+    "refs": [
+      3,
+      4,
+      10
+    ],
+    "layout": "split",
+    "desc": "白い紙の立体とティールの文字。小さな物語を右側に集める。",
+    "scene": "Exquisite photographed paper theatre on white background. Huge TELEMO letters cut from teal cardstock stand on layered white stepped paper. A single orange folded telephone handset motif, thin navy botanical paper stems at edges, arched white paper window backdrop. Highly crafted tangible paper not digital clay, generous negative space, composition fills a landscape panel, no characters. Six letters TELEMO readable fully.",
+    "prompt": "Use case: ads-marketing. Asset type: original TELEMO Japanese landing page hero artwork, landscape 16:9. Create one polished finished image, NOT a screenshot, NOT a mockup of a browser. Exquisite photographed paper theatre on white background. Huge TELEMO letters cut from teal cardstock stand on layered white stepped paper. A single orange folded telephone handset motif, thin navy botanical paper stems at edges, arched white paper window backdrop. Highly crafted tangible paper not digital clay, generous negative space, composition fills a landscape panel, no characters. Six letters TELEMO readable fully. Brand palette locked: white #ffffff, navy #0a2a44, teal #007d8c, orange #fd8e44, with physical lighting tonal variation only. No other brand colors, no purple or blue gradients, no glow effects, no emoji, no fake data, no testimonials, no logos belonging to other companies, no Japanese copy or buttons. Do not generate a person: an existing fixed mini-president image will be overlaid later in HTML. Typography must read exactly T E L E M O, six letters in that order. No TELEM0, TELMO or TELEMMO. This is bespoke art direction inspired only by composition principles, not a reproduction of any existing brand artwork."
+  },
+  {
+    "id": "03-precision-navy",
+    "title": "濃紺の精密な物撮り",
+    "refs": [
+      5,
+      19,
+      23
+    ],
+    "layout": "dark-mirror",
+    "desc": "紺の大きな面に、精密な文字造形を一点だけ置く。",
+    "scene": "Premium industrial macro photograph, a single physical TELEMO wordmark machined in brushed navy metal with teal engraved faces on a navy surface. Large sculptural six letters TELEMO from low three-quarter angle, sharp milled edges, white edge reflections, one small orange inlay. Extremely restrained directional studio light, deep navy shadows not black. No glow no neon no gradients as graphic effects, no vapor. Object anchored lower center with full word in frame, 60% image object, dark premium product photography.",
+    "prompt": "Use case: ads-marketing. Asset type: original TELEMO Japanese landing page hero artwork, landscape 16:9. Create one polished finished image, NOT a screenshot, NOT a mockup of a browser. Premium industrial macro photograph, a single physical TELEMO wordmark machined in brushed navy metal with teal engraved faces on a navy surface. Large sculptural six letters TELEMO from low three-quarter angle, sharp milled edges, white edge reflections, one small orange inlay. Extremely restrained directional studio light, deep navy shadows not black. No glow no neon no gradients as graphic effects, no vapor. Object anchored lower center with full word in frame, 60% image object, dark premium product photography. Brand palette locked: white #ffffff, navy #0a2a44, teal #007d8c, orange #fd8e44, with physical lighting tonal variation only. No other brand colors, no purple or blue gradients, no glow effects, no emoji, no fake data, no testimonials, no logos belonging to other companies, no Japanese copy or buttons. Do not generate a person: an existing fixed mini-president image will be overlaid later in HTML. Typography must read exactly T E L E M O, six letters in that order. No TELEM0, TELMO or TELEMMO. This is bespoke art direction inspired only by composition principles, not a reproduction of any existing brand artwork."
+  },
+  {
+    "id": "04-contact-sheet",
+    "title": "手触りを並べる写真編集",
+    "refs": [
+      8,
+      15,
+      21
+    ],
+    "layout": "editorial",
+    "desc": "布・紙・印刷の質感を写真の組み合わせで見せる。",
+    "scene": "A carefully art-directed editorial contact sheet of four tightly arranged rectangular photographs with thin white gutters, no frames or rounded cards. Each photograph shows part of the SAME TELEMO physical lettering: navy embroidery on white striped cotton, teal ink letterpress on white paper, orange woven textile letter detail, and a full TELEMO word in navy stitched onto folded white canvas. Rich close tactile photography, white navy teal orange only. Cropped details alternate with one complete readable TELEMO. No people, no scenery, no other writing.",
+    "prompt": "Use case: ads-marketing. Asset type: original TELEMO Japanese landing page hero artwork, landscape 16:9. Create one polished finished image, NOT a screenshot, NOT a mockup of a browser. A carefully art-directed editorial contact sheet of four tightly arranged rectangular photographs with thin white gutters, no frames or rounded cards. Each photograph shows part of the SAME TELEMO physical lettering: navy embroidery on white striped cotton, teal ink letterpress on white paper, orange woven textile letter detail, and a full TELEMO word in navy stitched onto folded white canvas. Rich close tactile photography, white navy teal orange only. Cropped details alternate with one complete readable TELEMO. No people, no scenery, no other writing. Brand palette locked: white #ffffff, navy #0a2a44, teal #007d8c, orange #fd8e44, with physical lighting tonal variation only. No other brand colors, no purple or blue gradients, no glow effects, no emoji, no fake data, no testimonials, no logos belonging to other companies, no Japanese copy or buttons. Do not generate a person: an existing fixed mini-president image will be overlaid later in HTML. Typography must read exactly T E L E M O, six letters in that order. No TELEM0, TELMO or TELEMMO. This is bespoke art direction inspired only by composition principles, not a reproduction of any existing brand artwork."
+  },
+  {
+    "id": "05-cinematic-window",
+    "title": "窓の奥に広がる文字",
+    "refs": [
+      2,
+      9,
+      13
+    ],
+    "layout": "cinema",
+    "desc": "映画の一場面のような奥行き。細いコピー欄と大きな一枚絵。",
+    "scene": "Beautiful hand-painted cinematic illustration of an empty architectural studio, large tall window grid, navy architectural shadows and white light, a monumental teal TELEMO word sculpture across the lower middle floor, one small orange desk lamp to the side. Restrained painterly Japanese animated-film background craft, precise geometry, subtle grain. No people or characters. Dramatic crop of window panels, landscape image, word TELEMO fully readable. Only white navy teal orange pigments and their shadows; no purple, no cyan glow, no outdoor landscape.",
+    "prompt": "Use case: ads-marketing. Asset type: original TELEMO Japanese landing page hero artwork, landscape 16:9. Create one polished finished image, NOT a screenshot, NOT a mockup of a browser. Beautiful hand-painted cinematic illustration of an empty architectural studio, large tall window grid, navy architectural shadows and white light, a monumental teal TELEMO word sculpture across the lower middle floor, one small orange desk lamp to the side. Restrained painterly Japanese animated-film background craft, precise geometry, subtle grain. No people or characters. Dramatic crop of window panels, landscape image, word TELEMO fully readable. Only white navy teal orange pigments and their shadows; no purple, no cyan glow, no outdoor landscape. Brand palette locked: white #ffffff, navy #0a2a44, teal #007d8c, orange #fd8e44, with physical lighting tonal variation only. No other brand colors, no purple or blue gradients, no glow effects, no emoji, no fake data, no testimonials, no logos belonging to other companies, no Japanese copy or buttons. Do not generate a person: an existing fixed mini-president image will be overlaid later in HTML. Typography must read exactly T E L E M O, six letters in that order. No TELEM0, TELMO or TELEMMO. This is bespoke art direction inspired only by composition principles, not a reproduction of any existing brand artwork."
+  },
+  {
+    "id": "06-diagonal-product",
+    "title": "白地を横切るプロダクト",
+    "refs": [
+      7,
+      12,
+      18
+    ],
+    "layout": "diagonal",
+    "desc": "斜めの文字造形と広い白場。製品広告のように一点を見せる。",
+    "scene": "High-end white-on-white product advertisement. Long elegant physical TELEMO typographic object made of translucent teal acrylic and matte white extrusion, six letters TELEMO readable on a single baseline, placed diagonally rising from lower left to upper right. A crisp diagonal white paper plane behind it casts a delicate navy-tinted shadow. One orange narrow accent tab at left. Extremely bright white studio, precise and quiet, no gradients graphic, no glow. Object fills lower 75% of frame, keep upper 20% pure white. No numbers, no pens or other branded products.",
+    "prompt": "Use case: ads-marketing. Asset type: original TELEMO Japanese landing page hero artwork, landscape 16:9. Create one polished finished image, NOT a screenshot, NOT a mockup of a browser. High-end white-on-white product advertisement. Long elegant physical TELEMO typographic object made of translucent teal acrylic and matte white extrusion, six letters TELEMO readable on a single baseline, placed diagonally rising from lower left to upper right. A crisp diagonal white paper plane behind it casts a delicate navy-tinted shadow. One orange narrow accent tab at left. Extremely bright white studio, precise and quiet, no gradients graphic, no glow. Object fills lower 75% of frame, keep upper 20% pure white. No numbers, no pens or other branded products. Brand palette locked: white #ffffff, navy #0a2a44, teal #007d8c, orange #fd8e44, with physical lighting tonal variation only. No other brand colors, no purple or blue gradients, no glow effects, no emoji, no fake data, no testimonials, no logos belonging to other companies, no Japanese copy or buttons. Do not generate a person: an existing fixed mini-president image will be overlaid later in HTML. Typography must read exactly T E L E M O, six letters in that order. No TELEM0, TELMO or TELEMMO. This is bespoke art direction inspired only by composition principles, not a reproduction of any existing brand artwork."
+  },
+  {
+    "id": "07-orbit-letterplay",
+    "title": "文字を囲む軌道",
+    "refs": [
+      14,
+      16,
+      30
+    ],
+    "layout": "orange",
+    "desc": "オレンジの面に白い文字を浮かべ、紺の線で動きをつくる。",
+    "scene": "Sculptural playful editorial composition on solid orange #fd8e44 background. Enormous matte white TELEMO letters on a gently curved single readable baseline, surrounded by one thin navy ribbon sweeping behind in a large elliptical orbit, teal rectangular paper confetti ONLY three pieces. Word centered, strong dimensional shadow with no gloss, no blobs, no emoji, no people. Six letters spelled TELEMO, generous composition with full word and orbit visible, joyous but sophisticated. No stacked letters, no teal background.",
+    "prompt": "Use case: ads-marketing. Asset type: original TELEMO Japanese landing page hero artwork, landscape 16:9. Create one polished finished image, NOT a screenshot, NOT a mockup of a browser. Sculptural playful editorial composition on solid orange #fd8e44 background. Enormous matte white TELEMO letters on a gently curved single readable baseline, surrounded by one thin navy ribbon sweeping behind in a large elliptical orbit, teal rectangular paper confetti ONLY three pieces. Word centered, strong dimensional shadow with no gloss, no blobs, no emoji, no people. Six letters spelled TELEMO, generous composition with full word and orbit visible, joyous but sophisticated. No stacked letters, no teal background. Brand palette locked: white #ffffff, navy #0a2a44, teal #007d8c, orange #fd8e44, with physical lighting tonal variation only. No other brand colors, no purple or blue gradients, no glow effects, no emoji, no fake data, no testimonials, no logos belonging to other companies, no Japanese copy or buttons. Do not generate a person: an existing fixed mini-president image will be overlaid later in HTML. Typography must read exactly T E L E M O, six letters in that order. No TELEM0, TELMO or TELEMMO. This is bespoke art direction inspired only by composition principles, not a reproduction of any existing brand artwork."
+  },
+  {
+    "id": "08-architectural-voice",
+    "title": "会話の流れを建築にする",
+    "refs": [
+      20,
+      27,
+      29
+    ],
+    "layout": "diagram",
+    "desc": "声の線を建築模型のように。図解として読める俯瞰構図。",
+    "scene": "Precise architectural isometric model photograph on plain white: six large teal letter blocks spelling TELEMO on a low white stepped plinth, connected by one continuous thin navy cable leading to an orange sculptural telephone receiver at left. Tiny white architectural steps and clean right-angle circulation paths. No people, no screen UI, no fake dashboards or numbers. Off-axis top view, material matte painted wood and white card, technical yet welcoming. Full word visible in landscape composition, lower right kept relatively empty.",
+    "prompt": "Use case: ads-marketing. Asset type: original TELEMO Japanese landing page hero artwork, landscape 16:9. Create one polished finished image, NOT a screenshot, NOT a mockup of a browser. Precise architectural isometric model photograph on plain white: six large teal letter blocks spelling TELEMO on a low white stepped plinth, connected by one continuous thin navy cable leading to an orange sculptural telephone receiver at left. Tiny white architectural steps and clean right-angle circulation paths. No people, no screen UI, no fake dashboards or numbers. Off-axis top view, material matte painted wood and white card, technical yet welcoming. Full word visible in landscape composition, lower right kept relatively empty. Brand palette locked: white #ffffff, navy #0a2a44, teal #007d8c, orange #fd8e44, with physical lighting tonal variation only. No other brand colors, no purple or blue gradients, no glow effects, no emoji, no fake data, no testimonials, no logos belonging to other companies, no Japanese copy or buttons. Do not generate a person: an existing fixed mini-president image will be overlaid later in HTML. Typography must read exactly T E L E M O, six letters in that order. No TELEM0, TELMO or TELEMMO. This is bespoke art direction inspired only by composition principles, not a reproduction of any existing brand artwork."
+  },
+  {
+    "id": "09-overlapping-circles",
+    "title": "重なる円と一列の文字",
+    "refs": [
+      22,
+      24,
+      26
+    ],
+    "layout": "circles",
+    "desc": "平面の円と文字だけで構成。柔らかさと読みやすさを両立。",
+    "scene": "Pure flat Swiss-Japanese graphic poster, white backdrop, one oversized solid teal circle partially cropped at right and one smaller solid orange circle lower left, navy TELEMO heavy geometric typography aligned across horizontal middle in front of circles, white section of lettering where it crosses teal if needed. Crisp simple vector-like edges, editorial negative space, no gradients no texture no shadows no 3D, no nested cards or icons. Exact six letters TELEMO in one line. Composition occupies landscape width, substantial blank upper third.",
+    "prompt": "Use case: ads-marketing. Asset type: original TELEMO Japanese landing page hero artwork, landscape 16:9. Create one polished finished image, NOT a screenshot, NOT a mockup of a browser. Pure flat Swiss-Japanese graphic poster, white backdrop, one oversized solid teal circle partially cropped at right and one smaller solid orange circle lower left, navy TELEMO heavy geometric typography aligned across horizontal middle in front of circles, white section of lettering where it crosses teal if needed. Crisp simple vector-like edges, editorial negative space, no gradients no texture no shadows no 3D, no nested cards or icons. Exact six letters TELEMO in one line. Composition occupies landscape width, substantial blank upper third. Brand palette locked: white #ffffff, navy #0a2a44, teal #007d8c, orange #fd8e44, with physical lighting tonal variation only. No other brand colors, no purple or blue gradients, no glow effects, no emoji, no fake data, no testimonials, no logos belonging to other companies, no Japanese copy or buttons. Do not generate a person: an existing fixed mini-president image will be overlaid later in HTML. Typography must read exactly T E L E M O, six letters in that order. No TELEM0, TELMO or TELEMMO. This is bespoke art direction inspired only by composition principles, not a reproduction of any existing brand artwork."
+  },
+  {
+    "id": "10-typographic-closeup",
+    "title": "極端な寄りで見せる文字",
+    "refs": [
+      11,
+      17,
+      25
+    ],
+    "layout": "closeup",
+    "desc": "TELEMOの文字を大きく切り取り、細い余白でコピーを支える。",
+    "scene": "Contemporary fashion editorial art direction, an extreme macro photograph of oversized typographic TELEMO letters printed in navy on folded white heavyweight paper. Large typography cropped at image edges but the complete exact word TELEMO is ALSO visible once in smaller teal print along the paper lower edge. Orange rectangular paper strip interrupts baseline. Close tactile fibers, very graphic hard crop, straight horizontal and vertical fold lines, white background, navy and teal ink only with orange accent. No people, no landscape, no decorative objects. Image appears like an art magazine cover detail without any other text.",
+    "prompt": "Use case: ads-marketing. Asset type: original TELEMO Japanese landing page hero artwork, landscape 16:9. Create one polished finished image, NOT a screenshot, NOT a mockup of a browser. Contemporary fashion editorial art direction, an extreme macro photograph of oversized typographic TELEMO letters printed in navy on folded white heavyweight paper. Large typography cropped at image edges but the complete exact word TELEMO is ALSO visible once in smaller teal print along the paper lower edge. Orange rectangular paper strip interrupts baseline. Close tactile fibers, very graphic hard crop, straight horizontal and vertical fold lines, white background, navy and teal ink only with orange accent. No people, no landscape, no decorative objects. Image appears like an art magazine cover detail without any other text. Brand palette locked: white #ffffff, navy #0a2a44, teal #007d8c, orange #fd8e44, with physical lighting tonal variation only. No other brand colors, no purple or blue gradients, no glow effects, no emoji, no fake data, no testimonials, no logos belonging to other companies, no Japanese copy or buttons. Do not generate a person: an existing fixed mini-president image will be overlaid later in HTML. Typography must read exactly T E L E M O, six letters in that order. No TELEM0, TELMO or TELEMMO. This is bespoke art direction inspired only by composition principles, not a reproduction of any existing brand artwork."
+  }
+]

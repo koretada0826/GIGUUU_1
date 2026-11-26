@@ -1,0 +1,139 @@
+{
+ "slug": "upforward-co-jp",
+ "url": "https://upforward.co.jp/",
+ "capturedAt": "2026-10-12 21:10:06",
+ "files": {
+  "pc_f0": "upforward-co-jp-pc-f0.jpg",
+  "pc_f1": "upforward-co-jp-pc-f1.jpg",
+  "pc_f2": "upforward-co-jp-pc-f2.jpg",
+  "pc_scroll": "upforward-co-jp-pc-scroll.jpg",
+  "sp": "upforward-co-jp-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://upforward.co.jp/",
+  "title": "株式会社UP Forward｜事業推進パートナー",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 16639,
+  "h1": "事業推進パートナー",
+  "h1Style": {
+   "fontFamily": "\"Shippori Antique B1\"",
+   "fontSize": "36px",
+   "fontWeight": "400",
+   "lineHeight": "54px",
+   "letterSpacing": "1.44px",
+   "color": "rgb(35, 35, 35)",
+   "textAlign": "left",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 88,
+    "y": 664,
+    "w": 337,
+    "h": 54
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "相談してみる 相談してみる"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/BmqMj2xwaX/s-230x2181_v-frms_25b7cbb7-dbc7-4d23-b246-d508d10d39b8.webp",
+    "w": 43,
+    "h": 410,
+    "alt": "現場に、推進力を。"
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/BmqMj2xwaX/s-229x1913_v-frms_97326455-ec0a-45f5-a71a-3288e4047952.webp",
+    "w": 43,
+    "h": 361,
+    "alt": "制度に、個性を。"
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/BmqMj2xwaX/s-1392x1395_v-fms_9f64a8b7-e43a-4e24-b3c3-62ab863d896f_small.webp",
+    "w": 443,
+    "h": 444,
+    "alt": ""
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/BmqMj2xwaX/s-2181x390_v-frms_a2be4e0d-1ba9-46a5-97a0-811bf791f64b.webp",
+    "w": 727,
+    "h": 130,
+    "alt": "UP Forward"
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/BmqMj2xwaX/s-2880x1470_v-frms_c7f69683-a1d1-4d22-86cc-9d3d3fb1f380_regular.webp",
+    "w": 1440,
+    "h": 734,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "sans-serif",
+   "Shippori Antique B1"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(247, 247, 247)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "事業推進パートナー",
+  "h1Style": {
+   "fontFamily": "\"Shippori Antique B1\"",
+   "fontSize": "28px",
+   "fontWeight": "400",
+   "lineHeight": "42px",
+   "letterSpacing": "1.12px",
+   "color": "rgb(35, 35, 35)",
+   "textAlign": "left",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 52,
+    "y": 733,
+    "w": 262,
+    "h": 112
+   }
+  },
+  "lead": null,
+  "ctas": [],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/BmqMj2xwaX/s-1392x1395_v-fms_9f64a8b7-e43a-4e24-b3c3-62ab863d896f_small.webp",
+    "w": 219,
+    "h": 220,
+    "alt": ""
+   },
+   {
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/BmqMj2xwaX/s-2181x390_v-frms_a2be4e0d-1ba9-46a5-97a0-811bf791f64b_small.webp",
+    "w": 287,
+    "h": 128,
+    "alt": "UP Forward"
+   }
+  ],
+  "pageHeight": 13680
+ },
+ "elapsedSec": 11.4
+}

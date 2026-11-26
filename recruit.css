@@ -1,0 +1,384 @@
+/* =========================================================
+   recruit.css — 採用情報ページ(recruit.html)
+   ヘッダー・フッター・.recruit・.btn は index.html と同じ CSS を使い、ここではページ固有の部品だけを書く。
+   白基調 / 強調ティール #007D8C / 見出し #0A2A44 / 帯は #EAF6F8 の単色。濃い面・グラデーションは使わない。
+   ========================================================= */
+
+.page-recruit { background: #fff; overflow-x: clip; }
+.page-recruit .rc {
+  --rc-pad: max(var(--page-padding), calc((100% - var(--rf-content)) / 2));
+  display: block;
+}
+
+/* ---------- 導入 ---------- */
+.rc-firstview { display: flex; flex-direction: column; min-height: 100svh; }
+.rc-intro {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  padding: calc(var(--nav-height) + 20px) var(--rc-pad) 24px;
+}
+.rc-intro > .recruit { width: 100%; }
+.rc-intro__head { margin-bottom: 12px; text-align: center; }
+.rc-intro__en,
+.rc-job__en,
+.rc-toc__en {
+  display: block;
+  color: var(--rf-accent);
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: .22em;
+}
+.page-recruit .rc-intro h1 {
+  margin: 12px 0 0;
+  color: var(--rf-heading);
+  font-family: var(--rf-display);
+  font-size: clamp(32px, 4vw, 56px);
+  font-weight: 800;
+  line-height: 1.3;
+  letter-spacing: .02em;
+}
+.page-recruit .rc-intro__copy {
+  margin: 0 0 24px;
+  font-family: var(--rf-display);
+  font-size: clamp(24px, 2.6vw, 36px);
+  font-weight: 800;
+  line-height: 1.45;
+  letter-spacing: .01em;
+}
+.page-recruit .recruit__body p { line-height: 1.9; }
+.page-recruit .recruit .tags { justify-content: center; margin-block: 12px 0; }
+.page-recruit .tag { color: var(--rf-accent); font-weight: 700; }
+.page-recruit .recruit__side { border-left-color: var(--rf-accent); }
+
+/* ---------- 目次(参照サイトのアコーディオン風の4区分) ---------- */
+.rc-toc {
+  flex-shrink: 0;
+  padding: 16px var(--rc-pad);
+  background: var(--rf-surface-tint);
+}
+.rc-toc__list {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.rc-toc__item {
+  position: relative;
+  display: grid;
+  gap: 6px;
+  min-height: 100%;
+  padding: 14px 48px 14px 20px;
+  border: 1px solid var(--rf-border);
+  border-radius: 8px;
+  background: #fff;
+  color: var(--rf-heading);
+  text-decoration: none;
+  transition: border-color var(--dur-fast), color var(--dur-fast);
+}
+.rc-toc__en { font-size: 11px; letter-spacing: .16em; }
+.rc-toc__ja {
+  font-family: var(--rf-display);
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: .04em;
+}
+.rc-toc__icon {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  display: grid;
+  place-items: center;
+  width: 26px;
+  height: 26px;
+  border: 1px solid var(--rf-accent);
+  border-radius: 50%;
+  color: var(--rf-accent);
+  font-family: sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 1;
+  transform: translateY(-50%);
+}
+.rc-toc__item:hover { border-color: var(--rf-accent); color: var(--rf-accent); }
+
+/* ---------- 募集要項 ---------- */
+.rc-jobs { padding: 0 var(--rc-pad) 128px; }
+.rc-job {
+  padding-top: 96px;
+  scroll-margin-top: calc(var(--nav-height) - 40px);
+}
+.rc-job:first-child { padding-top: 28px; }
+.rc-job__head {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: baseline;
+  column-gap: 16px;
+  row-gap: 4px;
+  margin-bottom: 32px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid var(--rf-accent);
+}
+.rc-job__no {
+  grid-row: span 2;
+  color: var(--rf-accent);
+  font-family: "Space Grotesk", sans-serif;
+  font-size: clamp(36px, 4vw, 52px);
+  font-weight: 700;
+  line-height: 1;
+}
+.page-recruit .rc-job__head h2 {
+  margin: 0;
+  color: var(--rf-heading);
+  font-family: var(--rf-display);
+  font-size: clamp(24px, 2.6vw, 34px);
+  font-weight: 800;
+  line-height: 1.35;
+  letter-spacing: .03em;
+}
+
+.rc-job__table { margin: 0; border-top: 1px solid var(--rf-border); }
+.rc-job__row {
+  display: grid;
+  grid-template-columns: 220px minmax(0, 1fr);
+  border-bottom: 1px solid var(--rf-border);
+}
+.rc-job__row dt {
+  padding: 24px 28px;
+  background: var(--rf-surface-tint);
+  color: var(--rf-heading);
+  font-weight: 700;
+  letter-spacing: .06em;
+}
+.rc-job__row dd {
+  margin: 0;
+  padding: 24px 28px;
+  color: var(--rf-text);
+  line-height: 1.8;
+  letter-spacing: .04em;
+}
+
+.rc-flow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 36px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.rc-flow li {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--rf-heading);
+  font-weight: 700;
+}
+.rc-flow li + li::before {
+  content: "→";
+  position: absolute;
+  left: -26px;
+  color: var(--rf-accent);
+  font-family: sans-serif;
+  font-weight: 400;
+}
+.rc-flow__no { color: var(--rf-accent); font-size: 1.15em; }
+
+.rc-job__cta { margin-top: 40px; text-align: center; }
+.page-recruit .rc-job__cta .btn { min-width: 280px; letter-spacing: .16em; }
+
+/* ---------- ページ上部へ戻る(ミニ社長) ---------- */
+.rc-top {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 90;
+  display: grid;
+  justify-items: center;
+  width: 96px;
+  text-decoration: none;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(12px);
+  transition: opacity 240ms ease, transform 240ms ease, visibility 0s linear 240ms;
+}
+.rc-top.is-visible {
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+  transition: opacity 240ms ease, transform 240ms ease, visibility 0s;
+}
+.rc-top__bubble {
+  position: relative;
+  margin-bottom: 8px;
+  padding: 4px 14px;
+  border: 2px solid var(--rf-accent);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--rf-accent);
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: .12em;
+  line-height: 1.4;
+}
+.rc-top__bubble::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -7px;
+  width: 10px;
+  height: 10px;
+  border-right: 2px solid var(--rf-accent);
+  border-bottom: 2px solid var(--rf-accent);
+  background: #fff;
+  transform: translateX(-50%) rotate(45deg);
+}
+.rc-top__president { display: block; width: 100%; height: auto; transition: transform var(--dur-fast); }
+.rc-top:hover .rc-top__president { transform: translateY(-4px); }
+.rc-top:focus-visible { outline: 2px solid var(--rf-accent-hover); outline-offset: 4px; }
+
+/* ---------- レスポンシブ ---------- */
+@media (max-width: 1100px) {
+  .rc-toc__list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 760px) {
+  .rc-intro { padding-top: calc(var(--nav-height) + 12px); padding-bottom: 20px; }
+  .rc-intro__head { margin-bottom: 10px; }
+  .rc-toc { padding-block: 12px; }
+  .rc-toc__list { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+  .rc-toc__item { padding: 12px 34px 12px 12px; }
+  .rc-toc__ja { font-size: 16px; letter-spacing: 0; }
+  .rc-toc__en { font-size: 10px; letter-spacing: .1em; }
+  .rc-toc__icon { right: 10px; width: 20px; height: 20px; font-size: 15px; }
+  .page-recruit .recruit .tags { gap: 6px 12px; }
+  .rc-jobs { padding-bottom: 96px; }
+  .rc-job { padding-top: 64px; }
+  .rc-job:first-child { padding-top: 24px; }
+  .rc-job__row { grid-template-columns: minmax(0, 1fr); }
+  .rc-job__row dt { padding: 12px 16px; }
+  .rc-job__row dd { padding: 16px; }
+  .rc-flow { flex-direction: column; gap: 8px; }
+  .rc-flow li + li::before { display: none; }
+  .page-recruit .rc-job__cta .btn { width: 100%; min-width: 0; }
+  .rc-top { right: 12px; bottom: 12px; width: 72px; }
+  .rc-top__bubble { font-size: 12px; padding: 3px 10px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .rc-top, .rc-top.is-visible, .rc-top__president { transition: none; }
+}
+.page-recruit .rc-intro__copy .grad { display: inline-block; white-space: nowrap; }
+.page-recruit .rc-job__row dd { line-break: strict; word-break: auto-phrase; }
+
+/* 採用ページ冒頭のビジュアル(2026-10-13 追加) */
+.rc-intro__visual { max-width: var(--ref-content, 1240px); margin: 0 auto 48px; }
+.rc-intro__visual img { display: block; width: 100%; height: auto; border-radius: 8px; }
+@media (max-width: 768px) { .rc-intro__visual { margin-bottom: 32px; } .rc-intro__visual img { border-radius: 4px; } }
+
+/* 採用メッセージ画像(テキストブロックの置き換え、2026-10-13) */
+.rc-intro__message { display: flex; justify-content: center; margin: 0 0 12px; background: #fff; }
+.rc-intro__message img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: clamp(96px, calc(100svh - 320px), 400px);
+  object-fit: contain;
+  border-radius: 0;
+}
+.rc-intro .recruit { grid-template-columns: 1fr; } /* 画像化に伴い1カラムで全幅に */
+
+@media (max-width: 1100px) and (min-width: 761px) {
+  .rc-intro__message img { max-height: clamp(96px, calc(100svh - 400px), 320px); }
+}
+@media (max-width: 760px) {
+  .rc-intro__message img { max-height: clamp(96px, calc(100svh - 360px), 260px); }
+}
+
+/* 選択された青いコールセンターイラスト版。
+   文章・応募ボタン・採用区分は実際のHTMLで組む。 */
+.page-recruit header.ggh { margin-bottom: 0; background: #fff; }
+.rc-firstview--illustrated {
+  --rc-blue: #164fea;
+  --rc-blue-ink: #092a52;
+  --rc-blue-pale: #eaf6ff;
+  min-height: 0; /* 2026-10-14: トップ画像を削除したため全画面の高さ指定を解除 */
+}
+.rc-firstview--illustrated .rc-intro { padding: 24px 0 0; justify-content: flex-start; }
+.page-recruit .rc-illustrated__title { margin: 0 0 16px; color: var(--rc-blue-ink); font-family: var(--rf-display); font-size: clamp(24px, 2.6vw, 36px); font-weight: 800; line-height: 1.3; letter-spacing: .02em; }
+.rc-illustrated__title span { display: inline-block; } /* 句点単位で改行 */
+.rc-illustrated__art {
+  position: relative;
+  align-self: center;
+  width: min(100%, max(320px, calc((100svh - var(--nav-height) - 340px) * 2.389)));
+  aspect-ratio: 1938 / 811;
+  flex-shrink: 0;
+  overflow: hidden;
+  margin: 0;
+}
+.rc-illustrated__art img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.rc-illustrated__message {
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+  align-items: center;
+  gap: 36px;
+  padding: 24px var(--rc-pad);
+  background: #fff;
+  color: var(--rc-blue-ink);
+}
+.rc-illustrated__text p { margin: 0; font-size: clamp(13px, 1.05vw, 17px); font-weight: 500; line-height: 1.85; letter-spacing: .01em; }
+.rc-illustrated__roles { display: flex; flex-wrap: wrap; gap: 8px; margin: 14px 0 0; padding: 0; list-style: none; }
+.rc-illustrated__roles li { padding: 6px 20px; border-radius: 999px; background: var(--rc-blue-pale); color: #086b9f; font-size: 14px; font-weight: 700; line-height: 1.4; }
+.rc-illustrated__cta { display: flex; justify-content: center; align-items: center; gap: 24px; min-height: 64px; padding: 16px 24px; border-radius: 999px; background: var(--rf-accent); color: #fff; font-size: clamp(17px, 1.8vw, 28px); font-weight: 700; letter-spacing: .02em; text-decoration: none; transition: background-color 180ms ease; }
+.rc-illustrated__cta svg { display: block; flex-shrink: 0; }
+.rc-illustrated__cta:hover,
+.rc-illustrated__cta:active { background: var(--rf-accent-hover); }
+.rc-illustrated__cta:focus-visible { outline: 3px solid var(--rf-accent-hover); outline-offset: 4px; }
+.rc-firstview--illustrated .rc-toc__item:focus-visible { outline: 3px solid var(--rc-blue); outline-offset: 4px; }
+.rc-firstview--illustrated .rc-toc { padding: 24px var(--rc-pad); background: var(--rc-blue-pale); }
+.rc-firstview--illustrated .rc-toc__list { gap: 0; }
+.rc-firstview--illustrated .rc-toc__list > li + li { border-left: 1px solid #a8d5fc; }
+.rc-firstview--illustrated .rc-toc__item { min-height: 84px; padding: 12px 62px 12px 28px; border: 0; border-radius: 0; background: transparent; color: var(--rc-blue-ink); }
+.rc-firstview--illustrated .rc-toc__list > li:first-child .rc-toc__item { padding-left: 0; }
+.rc-firstview--illustrated .rc-toc__en { color: #1787db; font-size: 11px; }
+.rc-firstview--illustrated .rc-toc__ja { font-size: clamp(18px, 1.8vw, 28px); letter-spacing: .01em; }
+.rc-firstview--illustrated .rc-toc__icon { right: 16px; width: 44px; height: 44px; border: 0; background: var(--rc-blue); color: #fff; }
+.rc-firstview--illustrated .rc-toc__icon img { display: block; width: 24px; height: 24px; }
+.rc-firstview--illustrated .rc-toc__item:hover { color: var(--rc-blue); background: #deefff; }
+@media (max-width: 1100px) {
+  .rc-firstview--illustrated .rc-toc__list { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .rc-firstview--illustrated .rc-toc__item { padding-left: 16px; padding-right: 48px; }
+  .rc-firstview--illustrated .rc-toc__icon { right: 8px; width: 34px; height: 34px; }
+  .rc-firstview--illustrated .rc-toc__icon img { width: 21px; height: 21px; }
+  .rc-illustrated__message { gap: 20px; padding-block: 18px; }
+  .rc-illustrated__roles li { padding-inline: 12px; font-size: 12px; }
+}
+@media (max-width: 760px) {
+  .rc-firstview--illustrated .rc-intro { justify-content: flex-start; }
+  .page-recruit .rc-illustrated__title { font-size: 24px; margin-bottom: 12px; }
+  .rc-illustrated__art { width: 100%; }
+  .rc-illustrated__message { grid-template-columns: 1fr; gap: 16px; padding: 20px var(--rc-pad); }
+  .rc-illustrated__text p { font-size: 14px; line-height: 1.75; }
+  .rc-illustrated__roles { gap: 6px; margin-top: 12px; }
+  .rc-illustrated__roles li { padding: 5px 10px; font-size: 12px; }
+  .rc-illustrated__cta { gap: 18px; min-height: 48px; padding: 12px 20px; font-size: 18px; }
+  .rc-illustrated__cta svg { width: 22px; height: 22px; }
+  .rc-firstview--illustrated .rc-toc { padding-block: 12px; }
+  .rc-firstview--illustrated .rc-toc__list { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px 0; }
+  .rc-firstview--illustrated .rc-toc__list > li:nth-child(odd) { border-left: 0; }
+  .rc-firstview--illustrated .rc-toc__item,
+  .rc-firstview--illustrated .rc-toc__list > li:first-child .rc-toc__item { min-height: 62px; padding: 8px 44px 8px 12px; }
+  .rc-firstview--illustrated .rc-toc__ja { font-size: 16px; }
+  .rc-firstview--illustrated .rc-toc__en { font-size: 10px; letter-spacing: .08em; }
+  .rc-firstview--illustrated .rc-toc__icon { right: 6px; width: 30px; height: 30px; }
+}
+
+/* トップ画像を外し、見出しと案内を自然な高さで表示する。 */
+.rc-firstview--illustrated { min-height: 0; }
+.rc-firstview--illustrated .rc-intro { flex: none; justify-content: flex-start; }
+.rc-intro__heading { margin: 0; padding: 56px var(--rc-pad) 16px; color: var(--rc-blue-ink); font-size: clamp(26px, 3.6vw, 48px); font-weight: 800; line-height: 1.5; }
+@media (max-width: 760px) { .rc-intro__heading { padding-top: 32px; } }

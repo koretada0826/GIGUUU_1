@@ -1,0 +1,3 @@
+@media (max-width: 400px) {
+  .hero__stats { flex-direction: column; }
+}

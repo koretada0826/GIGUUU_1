@@ -1,0 +1,1060 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GIGUUU株式会社 ｜ 人の限界を、技術で超えていく</title>
+    <meta
+      name="description"
+      content="GIGUUU株式会社 公式サイト。現場を知る、AIの会社。営業ノウハウをAIで再現するSaaS営業支援『TELEMO』を提供。人の可能性を、AIで拡張する。"
+    />
+    <script>document.documentElement.classList.add("tw-js");</script>
+
+    <!-- フォント：見出し(M PLUS Rounded 1c) + 本文(Noto Sans JP) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700;800;900&family=Noto+Sans+JP:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./telemo-lp.css" />
+  </head>
+
+  <body id="top">
+    <a class="tw-skip" href="#main">本文へスキップ</a>
+
+    <!-- 共通SVG（自作のアイコン・ロボット・雲） -->
+    <svg class="tw-sprite" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <!-- TODO: 先方素材（TELEMO公式ロボットマスコット）に差し替え -->
+        <symbol id="tw-robot" viewBox="0 0 200 232">
+          <path d="M100 46V20" fill="none" stroke="#0d2240" stroke-width="6" stroke-linecap="round" />
+          <circle cx="100" cy="15" r="10" fill="#2ed16b" stroke="#0d2240" stroke-width="5" />
+          <rect x="14" y="82" width="22" height="44" rx="11" fill="#36b3be" stroke="#0d2240" stroke-width="5" />
+          <rect x="164" y="82" width="22" height="44" rx="11" fill="#36b3be" stroke="#0d2240" stroke-width="5" />
+          <rect x="30" y="46" width="140" height="116" rx="34" fill="#ffffff" stroke="#0d2240" stroke-width="6" />
+          <rect x="50" y="68" width="100" height="70" rx="22" fill="#0d2240" />
+          <circle class="tw-robot-eye" cx="78" cy="98" r="9" fill="#7ef0b5" />
+          <circle class="tw-robot-eye" cx="122" cy="98" r="9" fill="#7ef0b5" />
+          <path d="M88 119q12 9 24 0" fill="none" stroke="#7ef0b5" stroke-width="5" stroke-linecap="round" />
+          <path d="M25 124c0 24 12 36 38 37" fill="none" stroke="#0d2240" stroke-width="5" stroke-linecap="round" />
+          <rect x="60" y="153" width="20" height="15" rx="7.5" fill="#2ed16b" stroke="#0d2240" stroke-width="4" />
+          <rect x="88" y="160" width="24" height="12" fill="#0d2240" />
+          <rect x="62" y="170" width="76" height="56" rx="20" fill="#36b3be" stroke="#0d2240" stroke-width="6" />
+          <circle cx="100" cy="198" r="9" fill="#2ed16b" stroke="#0d2240" stroke-width="4" />
+        </symbol>
+        <symbol id="tw-cloud" viewBox="0 0 300 140">
+          <rect x="60" y="0" width="240" height="40" rx="20" />
+          <rect x="0" y="50" width="230" height="40" rx="20" />
+          <rect x="90" y="100" width="190" height="40" rx="20" />
+        </symbol>
+        <symbol id="tw-i-arrow" viewBox="0 0 18 18"><path d="M6.5 3.5 12 9l-5.5 5.5" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+        <symbol id="tw-i-about" viewBox="0 0 18 18"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="9" cy="9" r="7.2" /><path d="M9 8.2v4.6M9 5.4v.1" /></g></symbol>
+        <symbol id="tw-i-phone" viewBox="0 0 18 18"><path d="M5 2.5h2.6l1.3 3.2-1.7 1.2a8.6 8.6 0 0 0 3.9 3.9l1.2-1.7 3.2 1.3v2.6a1.6 1.6 0 0 1-1.7 1.6A12.4 12.4 0 0 1 3.4 4.2 1.6 1.6 0 0 1 5 2.5z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" /></symbol>
+        <symbol id="tw-i-yen" viewBox="0 0 18 18"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="9" r="7.2" /><path d="M6.2 5.4 9 8.8l2.8-3.4M9 8.8v4.4M6.6 9.6h4.8M6.6 11.6h4.8" /></g></symbol>
+        <symbol id="tw-i-steps" viewBox="0 0 18 18"><path d="M2.5 15h4v-4h4V7h5V3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+        <symbol id="tw-i-bag" viewBox="0 0 18 18"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="2.4" y="5.4" width="13.2" height="10" rx="2" /><path d="M6.6 5.4V4a1.4 1.4 0 0 1 1.4-1.4h2A1.4 1.4 0 0 1 11.4 4v1.4M2.4 10h13.2" /></g></symbol>
+        <symbol id="tw-i-faq" viewBox="0 0 18 18"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3h12a1 1 0 0 1 1 1v7.4a1 1 0 0 1-1 1H8.2L4.6 15.4v-3H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z" /><path d="M7.3 6.3a1.8 1.8 0 1 1 2.5 1.7c-.5.2-.8.6-.8 1.1M9 10.6v.1" /></g></symbol>
+        <symbol id="tw-i-building" viewBox="0 0 18 18"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3.4" y="2.4" width="11.2" height="13.2" rx="1.2" /><path d="M6.6 5.6h1M10.4 5.6h1M6.6 8.6h1M10.4 8.6h1M7.6 15.6v-3h2.8v3" /></g></symbol>
+        <symbol id="tw-i-mail" viewBox="0 0 18 18"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3.8" width="14" height="10.4" rx="2" /><path d="m2.6 5 6.4 5 6.4-5" /></g></symbol>
+        <symbol id="tw-i-play" viewBox="0 0 24 24"><path d="M6 3.8v16.4a1 1 0 0 0 1.5.9l13.2-8.2a1 1 0 0 0 0-1.7L7.5 2.9A1 1 0 0 0 6 3.8z" /></symbol>
+      </defs>
+    </svg>
+
+    <!-- ============ 1. ヘッダー ============ -->
+    <header class="tw-header" id="tw-header">
+      <div class="tw-header-top">
+        <a class="tw-header-logo" href="#top">
+          <span class="tw-logo-mark"><img src="giguuu-logo.png" alt="GIGUUU株式会社 ロゴ" width="842" height="595" /></span>
+          <span class="tw-logo-text">GIGUUU<span class="tw-logo-sub">株式会社</span></span>
+        </a>
+        <div class="tw-header-util">
+          <a class="tw-header-textlink" href="#company">会社情報</a>
+          <a class="tw-header-cta" href="#contact">
+            <span class="tw-header-cta-ico"><svg class="tw-ico" aria-hidden="true"><use href="#tw-i-mail" /></svg></span>
+            <span class="tw-header-cta-label">お問い合わせ</span>
+            <svg class="tw-ico" aria-hidden="true"><use href="#tw-i-arrow" /></svg>
+          </a>
+        </div>
+        <button class="tw-menu-btn" id="tw-menu-btn" type="button" aria-expanded="false" aria-controls="tw-menu" aria-label="メニューを開く">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+      <nav class="tw-gnav" id="tw-menu" aria-label="グローバルナビゲーション">
+        <ul class="tw-gnav-list">
+          <li><a href="#about"><svg class="tw-ico" aria-hidden="true"><use href="#tw-i-about" /></svg>GIGUUUとは<span class="tw-gnav-chev"><svg class="tw-ico" aria-hidden="true"><use href="#tw-i-arrow" /></svg></span></a></li>
+          <li><a href="#telemo"><svg class="tw-ico" aria-hidden="true"><use href="#tw-i-phone" /></svg>TELEMO<span class="tw-gnav-chev"><svg class="tw-ico" aria-hidden="true"><use href="#tw-i-arrow" /></svg></span></a></li>
+          <li><a href="#pricing"><svg class="tw-ico" aria-hidden="true"><use href="#tw-i-yen" /></svg>料金<span class="tw-gnav-chev"><svg class="tw-ico" aria-hidden="true"><use href="#tw-i-arrow" /></svg></span></a></li>
+          <li><a href="#flow"><svg class="tw-ico" aria-hidden="true"><use href="#tw-i-steps" /></svg>導入の流れ<span class="tw-gnav-chev"><svg class="tw-ico" aria-hidden="true"><use href="#tw-i-arrow" /></svg></span></a></li>
+          <li><a href="business.html"><svg class="tw-ico" aria-hidden="true"><use href="#tw-i-bag" /></svg>事業紹介<span class="tw-gnav-chev"><svg class="tw-ico" aria-hidden="true"><use href="#tw-i-arrow" /></svg></span></a></li>
+          <li><a href="#faq"><svg class="tw-ico" aria-hidden="true"><use href="#tw-i-faq" /></svg>よくある質問<span class="tw-gnav-chev"><svg class="tw-ico" aria-hidden="true"><use href="#tw-i-arrow" /></svg></span></a></li>
+          <li class="tw-gnav-sp"><a href="#company"><svg class="tw-ico" aria-hidden="true"><use href="#tw-i-building" /></svg>会社情報<span class="tw-gnav-chev"><svg class="tw-ico" aria-hidden="true"><use href="#tw-i-arrow" /></svg></span></a></li>
+          <li class="tw-gnav-sp tw-gnav-cta"><a href="#contact"><svg class="tw-ico" aria-hidden="true"><use href="#tw-i-mail" /></svg>お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main">
+      <!-- ============ 2. HERO ============ -->
+      <section class="tw-hero" id="hero" aria-labelledby="tw-hero-title">
+        <!-- TODO: 先方素材（キービジュアル画像・動画）。現在は空のグラデーション＋自作の雲・ロボットで代替 -->
+        <div class="tw-hero-kv" aria-hidden="true">
+          <svg class="tw-hero-cloud tw-hero-cloud--1" viewBox="0 0 300 140"><use href="#tw-cloud" /></svg>
+          <svg class="tw-hero-cloud tw-hero-cloud--2" viewBox="0 0 300 140"><use href="#tw-cloud" /></svg>
+          <svg class="tw-hero-cloud tw-hero-cloud--3" viewBox="0 0 300 140"><use href="#tw-cloud" /></svg>
+        </div>
+        <div class="tw-hero-inner">
+          <p class="tw-hero-en" lang="en">AI SALES AUTOMATION<span aria-hidden="true">/</span><br class="tw-sp-br" />FOR A BETTER TOMORROW</p>
+          <p class="tw-hero-catch">営業を、人から『仕組み』へ。</p>
+          <h1 class="tw-hero-title reveal" id="tw-hero-title"><span>結果が出ない営業代行に、</span><span class="tw-hero-accent">もう払わなくていい。</span></h1>
+          <p class="tw-hero-sub reveal">月<strong>22,000</strong>コール。<span class="tw-ib">月額<strong>35万円</strong><small>（税別）</small>。</span><span class="tw-ib">全ログを開示。</span></p>
+          <div class="tw-hero-actions reveal">
+            <a class="tw-btn tw-btn--primary" href="#contact"><span>無料で相談する</span><span class="tw-btn-arrow"><svg aria-hidden="true"><use href="#tw-i-arrow" /></svg></span></a>
+            <!-- TODO: 要確認 資料ダウンロード先（PDF等）が未提供のため #contact に仮設定 -->
+            <a class="tw-btn tw-btn--ghost" href="#contact"><span>資料をダウンロード</span><span class="tw-btn-arrow"><svg aria-hidden="true"><use href="#tw-i-arrow" /></svg></span></a>
+          </div>
+        </div>
+        <div class="tw-hero-play">
+          <!-- TODO: 先方素材（デモ音声ファイル）。音源受領後に再生処理を実装 -->
+          <button class="tw-play" id="tw-demo-btn" type="button" aria-describedby="tw-demo-note">
+            <svg class="tw-ring-text tw-spin" viewBox="0 0 200 200" aria-hidden="true">
+              <defs><path id="tw-ring-hero" d="M100 100m-86 0a86 86 0 1 1 172 0a86 86 0 1 1-172 0" /></defs>
+              <text font-size="15"><textPath href="#tw-ring-hero" textLength="532" lengthAdjust="spacing">TELEMO SALES VOICE DEMO ・ TELEMO SALES VOICE DEMO ・</textPath></text>
+            </svg>
+            <span class="tw-play-core"><svg aria-hidden="true"><use href="#tw-i-play" /></svg></span>
+            <span class="tw-vh">TELEMOの営業音声デモを再生</span>
+          </button>
+          <p class="tw-hero-play-label">説明するより、まず聴いていただくのが一番早い。</p>
+          <p class="tw-demo-note" id="tw-demo-note" role="status" aria-live="polite"></p>
+        </div>
+        <a class="tw-hero-badge" href="#scale">
+          <span class="tw-hero-badge-tag">人1人分のコストで</span>
+          <span class="tw-hero-badge-circle">
+            <span class="tw-hero-badge-num"><small>約</small>5倍</span>
+            <span class="tw-hero-badge-txt">の営業機会</span>
+          </span>
+        </a>
+        <div class="tw-hero-robot" aria-hidden="true">
+          <!-- TODO: 先方素材（TELEMO公式ロボットマスコット）に差し替え -->
+          <svg class="tw-hop" viewBox="0 0 200 232"><use href="#tw-robot" /></svg>
+        </div>
+        <svg class="tw-hero-hills" viewBox="0 0 1440 240" preserveAspectRatio="none" aria-hidden="true">
+          <path d="M0 118C190 52 410 44 640 98s470 92 800-30V240H0Z" fill="#a6ebc2" />
+          <path d="M0 168c250-58 520-52 770-10s450 40 670-26V240H0Z" fill="#6ddc98" />
+          <path d="M0 214c300-38 610-34 900-10 230 19 400 12 540-12V240H0Z" fill="#2ed16b" />
+        </svg>
+      </section>
+
+      <!-- ============ 3. 実績帯 ============ -->
+      <section class="tw-proof" id="proof" aria-label="TELEMOの数字">
+        <!-- TODO: 先方確認 リピート率97%・決裁者商談率88%・最高アポ率15%（資料に記載なし）-->
+        <div class="tw-wrap">
+          <ul class="tw-proof-list">
+            <li class="tw-proof-item reveal tw-pop">
+              <span class="tw-proof-label">AI自動架電</span>
+              <strong class="tw-proof-num">22,000<small>コール/月</small></strong>
+              <span class="tw-proof-note">24時間自動架電</span>
+            </li>
+            <li class="tw-proof-item reveal tw-pop">
+              <span class="tw-proof-label">月額（1ID）</span>
+              <strong class="tw-proof-num">35<small>万円（税別）</small></strong>
+              <span class="tw-proof-note">1コールあたり約15.9円</span>
+            </li>
+            <li class="tw-proof-item reveal tw-pop">
+              <span class="tw-proof-label">人1人分のコストで</span>
+              <strong class="tw-proof-num"><small>約</small>5<small>倍</small></strong>
+              <span class="tw-proof-note">の営業機会</span>
+            </li>
+          </ul>
+        </div>
+        <svg class="tw-divider tw-divider--bottom" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+          <path d="M0 64c170-40 360-52 560-20s420 70 620 34c110-20 190-46 260-58V120H0Z" fill="#1f9aa6" />
+        </svg>
+      </section>
+
+      <!-- ============ 4. TELEMO（導入） ============ -->
+      <section class="tw-story tw-on-dark" id="telemo" aria-labelledby="tw-story-title">
+        <div class="tw-story-bg" aria-hidden="true">
+          <svg class="tw-story-cloud tw-story-cloud--1" viewBox="0 0 300 140"><use href="#tw-cloud" /></svg>
+          <svg class="tw-story-cloud tw-story-cloud--2" viewBox="0 0 300 140"><use href="#tw-cloud" /></svg>
+        </div>
+        <div class="tw-wrap tw-story-grid">
+          <div class="tw-story-visual reveal tw-from-left" aria-hidden="true">
+            <div class="tw-story-orbit">
+              <svg class="tw-ring-text tw-spin" viewBox="0 0 200 200">
+                <defs><path id="tw-ring-story" d="M100 100m-92 0a92 92 0 1 1 184 0a92 92 0 1 1-184 0" /></defs>
+                <text font-size="9.5"><textPath href="#tw-ring-story" textLength="576" lengthAdjust="spacing">AI SALES AUTOMATION ・ TELEMO ・ AI SALES AUTOMATION ・ TELEMO ・</textPath></text>
+              </svg>
+              <div class="tw-story-core">
+                <!-- TODO: 先方素材（TELEMO公式ロボットマスコット）に差し替え -->
+                <svg class="tw-story-robot tw-sway" viewBox="0 0 200 232"><use href="#tw-robot" /></svg>
+              </div>
+              <span class="tw-story-ai">AI</span>
+            </div>
+            <ul class="tw-story-nodes">
+              <li>自動コール</li>
+              <li>トーク分岐</li>
+              <li>商談獲得</li>
+              <li>解析</li>
+            </ul>
+          </div>
+          <div class="tw-story-copy">
+            <h2 class="tw-story-logo reveal" id="tw-story-title" lang="en">TELEMO</h2>
+            <p class="tw-story-en reveal"><span>SaaS 営業支援</span></p>
+            <p class="tw-story-catch reveal">
+              現場で培った営業ノウハウを<br /><span class="grad">AIで再現します。</span>
+            </p>
+            <p class="tw-story-text reveal">
+              トップ営業の話し方・分岐・タイミングを仕組み化し、<br class="tw-pc-br" />属人化していた“勝ちパターン”を、<br class="tw-pc-br" />誰もが使える形にします。
+            </p>
+            <div class="tw-tags tw-story-tags reveal">
+              <span class="tw-tag">#AI自動コール</span>
+              <span class="tw-tag">#トーク設計</span>
+              <span class="tw-tag">#商談獲得</span>
+            </div>
+            <div class="tw-story-cta reveal">
+              <a class="tw-btn tw-btn--primary" href="#contact"><span>導入を相談する</span><span class="tw-btn-arrow"><svg aria-hidden="true"><use href="#tw-i-arrow" /></svg></span></a>
+            </div>
+          </div>
+        </div>
+        <svg class="tw-divider tw-divider--bottom" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+          <path d="M0 40c220 50 470 70 720 44S1180 6 1440 30V120H0Z" fill="#0b5a32" />
+        </svg>
+      </section>
+
+      <!-- ============ 5. 5倍の営業機会 ============ -->
+      <section class="tw-zone-green tw-feat tw-on-dark" id="scale" aria-labelledby="tw-scale-title">
+        <div class="tw-zone-deco" aria-hidden="true">
+          <svg class="tw-kasumi tw-kasumi--r" viewBox="0 0 300 140"><use href="#tw-cloud" /></svg>
+        </div>
+        <div class="tw-wrap">
+          <div class="tw-lead tw-lead--light reveal">
+            <p class="tw-lead-sub">人1人分のコストで</p>
+            <h2 class="tw-lead-title" id="tw-scale-title">約5倍の営業機会</h2>
+            <span class="tw-lead-en" lang="en">SALES OPPORTUNITIES</span>
+          </div>
+
+          <div class="tw-cards">
+            <article class="tw-card tw-card--r reveal tw-from-right">
+              <div class="tw-card-ring">
+                <svg class="tw-ring-text tw-spin" viewBox="0 0 200 200" aria-hidden="true">
+                  <defs><path id="tw-ring-c1" d="M100 100m-88 0a88 88 0 1 1 176 0a88 88 0 1 1-176 0" /></defs>
+                  <text font-size="12"><textPath href="#tw-ring-c1" textLength="548" lengthAdjust="spacing">HUMAN SALES ・ 4,400 CALLS ・ HUMAN SALES ・ 4,400 CALLS ・</textPath></text>
+                </svg>
+                <p class="tw-card-ring-num"><strong>4,400</strong><span>コール/月</span></p>
+              </div>
+              <div class="tw-card-body">
+                <p class="tw-card-kicker">人による営業</p>
+                <h3 class="tw-card-title">1人 約40万円/月</h3>
+                <p class="tw-card-text">1時間 約25コール、1日 約200コール、22日稼働で月4,400コール。</p>
+              </div>
+              <ul class="tw-stickers" aria-label="人による営業の内訳">
+                <li><span>1時間</span>約25</li>
+                <li><span>1日</span>約200</li>
+                <li><span>稼働</span>22日</li>
+              </ul>
+            </article>
+
+            <article class="tw-card tw-card--l tw-card--robot reveal tw-from-left">
+              <div class="tw-card-ring">
+                <svg class="tw-ring-text tw-spin" viewBox="0 0 200 200" aria-hidden="true">
+                  <defs><path id="tw-ring-c2" d="M100 100m-88 0a88 88 0 1 1 176 0a88 88 0 1 1-176 0" /></defs>
+                  <text font-size="12"><textPath href="#tw-ring-c2" textLength="548" lengthAdjust="spacing">TELEMO ・ 22,000 CALLS ・ TELEMO ・ 22,000 CALLS ・</textPath></text>
+                </svg>
+                <p class="tw-card-ring-num"><strong>22,000</strong><span>コール/月</span></p>
+              </div>
+              <div class="tw-card-figure" aria-hidden="true">
+                <!-- TODO: 先方素材（TELEMO公式ロボットマスコット）に差し替え -->
+                <svg class="tw-hop" viewBox="0 0 200 232"><use href="#tw-robot" /></svg>
+              </div>
+              <div class="tw-card-body">
+                <p class="tw-card-kicker">TELEMO</p>
+                <h3 class="tw-card-title">1ID 35万円/月<small>（税別）</small></h3>
+                <p class="tw-card-text">24時間自動架電で月22,000コール。人1人分のコストで約5倍の営業機会。</p>
+              </div>
+              <div class="tw-bubble tw-bubble--card" style="--tw-rot: 7deg"><p class="tw-bubble-in">24時間<br />自動架電</p></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ 6. 他社AIとの違い ============ -->
+      <section class="tw-zone-green tw-feat tw-feat--diff tw-on-dark" id="difference" aria-labelledby="tw-diff-title">
+        <div class="tw-zone-deco" aria-hidden="true">
+          <svg class="tw-kasumi tw-kasumi--l" viewBox="0 0 300 140"><use href="#tw-cloud" /></svg>
+        </div>
+        <div class="tw-wrap">
+          <div class="tw-lead tw-lead--light reveal">
+            <p class="tw-lead-sub">どこまで営業できるか</p>
+            <h2 class="tw-lead-title" id="tw-diff-title">他社AIとの違い</h2>
+            <span class="tw-lead-en" lang="en">DIFFERENCE</span>
+          </div>
+
+          <div class="tw-cards">
+            <article class="tw-card tw-card--r reveal tw-from-right">
+              <div class="tw-card-ring">
+                <svg class="tw-ring-text tw-spin" viewBox="0 0 200 200" aria-hidden="true">
+                  <defs><path id="tw-ring-c3" d="M100 100m-88 0a88 88 0 1 1 176 0a88 88 0 1 1-176 0" /></defs>
+                  <text font-size="12"><textPath href="#tw-ring-c3" textLength="548" lengthAdjust="spacing">OTHER AI SALES ・ OTHER AI SALES ・ OTHER AI SALES ・</textPath></text>
+                </svg>
+                <p class="tw-card-ring-num"><strong>約20円</strong><span>/コール（相場）</span></p>
+              </div>
+              <div class="tw-card-body">
+                <p class="tw-card-kicker tw-card-kicker--muted">他社AI営業</p>
+                <h3 class="tw-card-title">担当者につなぐまでがAI、<br class="tw-pc-br" />以降は人。</h3>
+                <ol class="tw-chain" aria-label="他社AI営業の範囲">
+                  <li class="is-ai">架電</li>
+                  <li class="is-ai">担当者接続</li>
+                  <li class="is-human">以降は人</li>
+                </ol>
+              </div>
+            </article>
+
+            <article class="tw-card tw-card--l tw-card--robot reveal tw-from-left">
+              <div class="tw-card-ring">
+                <svg class="tw-ring-text tw-spin" viewBox="0 0 200 200" aria-hidden="true">
+                  <defs><path id="tw-ring-c4" d="M100 100m-88 0a88 88 0 1 1 176 0a88 88 0 1 1-176 0" /></defs>
+                  <text font-size="12"><textPath href="#tw-ring-c4" textLength="548" lengthAdjust="spacing">TELEMO ・ AI SALES ・ TELEMO ・ AI SALES ・</textPath></text>
+                </svg>
+                <p class="tw-card-ring-num"><strong>約15.9円</strong><span>/コール</span></p>
+              </div>
+              <div class="tw-card-figure" aria-hidden="true">
+                <!-- TODO: 先方素材（TELEMO公式ロボットマスコット）に差し替え -->
+                <svg class="tw-sway" viewBox="0 0 200 232"><use href="#tw-robot" /></svg>
+              </div>
+              <div class="tw-card-body">
+                <p class="tw-card-kicker">TELEMO</p>
+                <h3 class="tw-card-title">受注まで、AIが実行。</h3>
+                <ol class="tw-chain" aria-label="TELEMOがAIで実行する範囲">
+                  <li class="is-ai">架電</li>
+                  <li class="is-ai">担当者接続</li>
+                  <li class="is-ai">営業トーク</li>
+                  <li class="is-ai">アウト返し</li>
+                  <li class="is-ai">デスクロ</li>
+                  <li class="is-ai">デスクでクロージング</li>
+                  <li class="is-ai">受注</li>
+                </ol>
+                <p class="tw-card-note">必要に応じ人へトスアップ</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="tw-msgs">
+            <figure class="tw-msg reveal tw-pop">
+              <blockquote><p>違いは4.1円ではありません。<br />『どこまで営業できるか』です</p></blockquote>
+            </figure>
+            <figure class="tw-msg tw-msg--r reveal tw-pop">
+              <blockquote><p>5倍電話できることが価値ではない。<br />22,000回の営業活動を改善し続けられることが価値</p></blockquote>
+            </figure>
+          </div>
+          <p class="tw-formula reveal">
+            <span class="tw-formula-item">22,000コール</span><span class="tw-formula-op">×</span>
+            <span class="tw-formula-item">営業設計</span><span class="tw-formula-op">×</span>
+            <span class="tw-formula-item">運用改善</span><span class="tw-formula-op">×</span>
+            <span class="tw-formula-item">伴走支援</span><span class="tw-formula-op">=</span>
+            <span class="tw-formula-item tw-formula-item--total">月額35万円<small>（税別）</small></span>
+          </p>
+        </div>
+        <svg class="tw-divider tw-divider--bottom" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+          <path d="M0 58c180-36 400-50 640-18s520 66 800 8V120H0Z" fill="#127f8c" />
+        </svg>
+      </section>
+
+      <!-- ============ 7. 対象シーン ============ -->
+      <section class="tw-scenes tw-on-dark" id="scenes" aria-labelledby="tw-scenes-title">
+        <div class="tw-zone-deco" aria-hidden="true">
+          <svg class="tw-scenes-cloud tw-scenes-cloud--1" viewBox="0 0 300 140"><use href="#tw-cloud" /></svg>
+          <svg class="tw-scenes-cloud tw-scenes-cloud--2" viewBox="0 0 300 140"><use href="#tw-cloud" /></svg>
+        </div>
+        <div class="tw-wrap">
+          <div class="tw-lead tw-lead--light reveal">
+            <p class="tw-lead-sub">こんな営業に</p>
+            <h2 class="tw-lead-title" id="tw-scenes-title">TELEMOの対象シーン</h2>
+            <span class="tw-lead-en" lang="en">8 SCENES</span>
+            <div class="tw-bubble tw-bubble--scenes tw-bubble--r" style="--tw-rot: 8deg" aria-hidden="true"><p class="tw-bubble-in">8つの<br />シーン</p></div>
+          </div>
+          <ol class="tw-scene-list">
+            <li class="tw-scene reveal tw-from-left"><span class="tw-scene-ring" aria-hidden="true"><svg class="tw-ring-text tw-spin" viewBox="0 0 200 200"><defs><path id="tw-ring-s1" d="M100 100m-84 0a84 84 0 1 1 168 0a84 84 0 1 1-168 0" /></defs><text font-size="22"><textPath href="#tw-ring-s1" textLength="524" lengthAdjust="spacing">SCENE ・ TELEMO ・ SCENE ・ TELEMO ・</textPath></text></svg></span><span class="tw-scene-no">01</span><p class="tw-scene-text">新規法人営業</p></li>
+            <li class="tw-scene reveal tw-from-right"><span class="tw-scene-ring" aria-hidden="true"><svg class="tw-ring-text tw-spin" viewBox="0 0 200 200"><defs><path id="tw-ring-s2" d="M100 100m-84 0a84 84 0 1 1 168 0a84 84 0 1 1-168 0" /></defs><text font-size="22"><textPath href="#tw-ring-s2" textLength="524" lengthAdjust="spacing">SCENE ・ TELEMO ・ SCENE ・ TELEMO ・</textPath></text></svg></span><span class="tw-scene-no">02</span><p class="tw-scene-text">大量リストへのアプローチ</p></li>
+            <li class="tw-scene reveal tw-from-left"><span class="tw-scene-ring" aria-hidden="true"><svg class="tw-ring-text tw-spin" viewBox="0 0 200 200"><defs><path id="tw-ring-s3" d="M100 100m-84 0a84 84 0 1 1 168 0a84 84 0 1 1-168 0" /></defs><text font-size="22"><textPath href="#tw-ring-s3" textLength="524" lengthAdjust="spacing">SCENE ・ TELEMO ・ SCENE ・ TELEMO ・</textPath></text></svg></span><span class="tw-scene-no">03</span><p class="tw-scene-text">テレアポ</p></li>
+            <li class="tw-scene reveal tw-from-right"><span class="tw-scene-ring" aria-hidden="true"><svg class="tw-ring-text tw-spin" viewBox="0 0 200 200"><defs><path id="tw-ring-s4" d="M100 100m-84 0a84 84 0 1 1 168 0a84 84 0 1 1-168 0" /></defs><text font-size="22"><textPath href="#tw-ring-s4" textLength="524" lengthAdjust="spacing">SCENE ・ TELEMO ・ SCENE ・ TELEMO ・</textPath></text></svg></span><span class="tw-scene-no">04</span><p class="tw-scene-text">営業代行を利用している</p></li>
+            <li class="tw-scene reveal tw-from-left"><span class="tw-scene-ring" aria-hidden="true"><svg class="tw-ring-text tw-spin" viewBox="0 0 200 200"><defs><path id="tw-ring-s5" d="M100 100m-84 0a84 84 0 1 1 168 0a84 84 0 1 1-168 0" /></defs><text font-size="22"><textPath href="#tw-ring-s5" textLength="524" lengthAdjust="spacing">SCENE ・ TELEMO ・ SCENE ・ TELEMO ・</textPath></text></svg></span><span class="tw-scene-no">05</span><p class="tw-scene-text">休眠顧客の掘り起こし</p></li>
+            <li class="tw-scene reveal tw-from-right"><span class="tw-scene-ring" aria-hidden="true"><svg class="tw-ring-text tw-spin" viewBox="0 0 200 200"><defs><path id="tw-ring-s6" d="M100 100m-84 0a84 84 0 1 1 168 0a84 84 0 1 1-168 0" /></defs><text font-size="22"><textPath href="#tw-ring-s6" textLength="524" lengthAdjust="spacing">SCENE ・ TELEMO ・ SCENE ・ TELEMO ・</textPath></text></svg></span><span class="tw-scene-no">06</span><p class="tw-scene-text">見込み顧客への再アプローチ</p></li>
+            <li class="tw-scene reveal tw-from-left"><span class="tw-scene-ring" aria-hidden="true"><svg class="tw-ring-text tw-spin" viewBox="0 0 200 200"><defs><path id="tw-ring-s7" d="M100 100m-84 0a84 84 0 1 1 168 0a84 84 0 1 1-168 0" /></defs><text font-size="22"><textPath href="#tw-ring-s7" textLength="524" lengthAdjust="spacing">SCENE ・ TELEMO ・ SCENE ・ TELEMO ・</textPath></text></svg></span><span class="tw-scene-no">07</span><p class="tw-scene-text">営業人員の採用・教育に悩んでいる</p></li>
+            <li class="tw-scene reveal tw-from-right"><span class="tw-scene-ring" aria-hidden="true"><svg class="tw-ring-text tw-spin" viewBox="0 0 200 200"><defs><path id="tw-ring-s8" d="M100 100m-84 0a84 84 0 1 1 168 0a84 84 0 1 1-168 0" /></defs><text font-size="22"><textPath href="#tw-ring-s8" textLength="524" lengthAdjust="spacing">SCENE ・ TELEMO ・ SCENE ・ TELEMO ・</textPath></text></svg></span><span class="tw-scene-no">08</span><p class="tw-scene-text">トップ営業のやり方を組織に残したい</p></li>
+          </ol>
+        </div>
+        <svg class="tw-divider tw-divider--bottom" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+          <path d="M0 70c240-46 500-60 760-26 250 32 460 40 680 0V120H0Z" fill="#0d2240" />
+        </svg>
+      </section>
+
+      <!-- ============ 8. つくった人 ／ 導入事例 ============ -->
+      <section class="tw-maker tw-on-dark" id="maker" aria-labelledby="tw-maker-title">
+        <div class="tw-wrap">
+          <div class="tw-lead tw-lead--light reveal">
+            <p class="tw-lead-sub">営業を知っている人が</p>
+            <h2 class="tw-lead-title" id="tw-maker-title">つくった人</h2>
+            <span class="tw-lead-en" lang="en">MAKER</span>
+          </div>
+          <div class="tw-maker-grid">
+            <figure class="tw-maker-person reveal tw-from-left">
+              <!-- TODO: 先方素材（青木 一平 氏の人物写真） -->
+              <div class="tw-maker-photo" aria-hidden="true">
+                <svg viewBox="0 0 120 120"><circle cx="60" cy="46" r="22" /><path d="M20 112c4-24 20-38 40-38s36 14 40 38Z" /></svg>
+                <span lang="en">PHOTO</span>
+              </div>
+              <figcaption class="tw-maker-name">
+                <span>株式会社Everエフォート 代表</span>
+                <strong>青木 一平</strong>
+              </figcaption>
+            </figure>
+            <div class="tw-maker-body">
+              <blockquote class="tw-maker-quote reveal tw-pop">
+                <p>『AIを知っている人』ではなく<br />『営業を知っている人』が、<br />AIを使って営業を仕組みにした</p>
+              </blockquote>
+              <p class="tw-maker-career reveal">25歳で光通信入社、個人営業・責任者・統括部長。<br class="tw-pc-br" />現在も自社コールセンター運営。</p>
+              <div class="tw-maker-results reveal">
+                <p class="tw-maker-results-title">単月実績</p>
+                <ul>
+                  <li><span>電子電話帳営業（フレッツ光）</span><strong>1,500<small>件</small></strong></li>
+                  <li><span>アライアンス営業（フレッツ光）</span><strong>2,000<small>件</small></strong></li>
+                  <li><span>CRM営業（U-NEXT）</span><strong>1,500<small>件</small></strong></li>
+                  <li><span>CRM営業（WiMAX）</span><strong>2,000<small>件</small></strong></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="tw-cases" aria-labelledby="tw-cases-title">
+            <h3 class="tw-cases-title reveal" id="tw-cases-title">導入事例／お客様の声</h3>
+            <ul class="tw-cases-list">
+              <li class="tw-case reveal">
+                <!-- TODO: 先方素材（導入事例・お客様の声 1件目：企業名・課題・導入後の変化・コメント） -->
+                <span class="tw-case-label" lang="en">CASE 01</span>
+                <span class="tw-case-skel" aria-hidden="true"><i></i><i></i><i></i></span>
+              </li>
+              <li class="tw-case reveal">
+                <!-- TODO: 先方素材（導入事例・お客様の声 2件目） -->
+                <span class="tw-case-label" lang="en">CASE 02</span>
+                <span class="tw-case-skel" aria-hidden="true"><i></i><i></i><i></i></span>
+              </li>
+              <li class="tw-case reveal">
+                <!-- TODO: 先方素材（導入事例・お客様の声 3件目） -->
+                <span class="tw-case-label" lang="en">CASE 03</span>
+                <span class="tw-case-skel" aria-hidden="true"><i></i><i></i><i></i></span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <svg class="tw-divider tw-divider--bottom" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+          <path d="M0 50c230 46 470 62 730 30S1190 4 1440 26V120H0Z" fill="#f3ecdf" />
+        </svg>
+      </section>
+
+      <!-- ============ 9. 料金 ============ -->
+      <section class="tw-price" id="pricing" aria-labelledby="tw-price-title">
+        <div class="tw-wrap">
+          <div class="tw-price-head reveal">
+            <p class="tw-price-tag">追加費用なし</p>
+            <h2 class="tw-price-title" id="tw-price-title">料金</h2>
+            <span class="tw-lead-en" lang="en">PRICE</span>
+          </div>
+
+          <div class="tw-price-items">
+            <article class="tw-price-item reveal">
+              <h3 class="tw-price-label">初期費用</h3>
+              <p class="tw-price-num">200,000<small>円（税別）</small></p>
+              <p class="tw-price-desc">トーク設計・シナリオ構築・初期設定・環境構築</p>
+            </article>
+            <article class="tw-price-item tw-price-item--main reveal">
+              <h3 class="tw-price-label">月額</h3>
+              <p class="tw-price-num">350,000<small>円（税別）</small></p>
+              <ul class="tw-price-points">
+                <li>月間22,000コール</li>
+                <li>1コールあたり約15.9円</li>
+              </ul>
+              <p class="tw-price-desc">※月間22,000コールは2026年10月利用分より</p>
+            </article>
+          </div>
+
+          <div class="tw-price-incl">
+            <h3 class="tw-price-subtitle reveal">月額に含むもの</h3>
+            <ul class="tw-price-incl-list">
+              <li class="reveal tw-pop"><span class="tw-price-ico" aria-hidden="true"><svg viewBox="0 0 18 18"><use href="#tw-i-phone" /></svg></span><span class="tw-price-incl-txt">AI自動架電<small>（22,000コール/月）</small></span></li>
+              <li class="reveal tw-pop"><span class="tw-price-ico" aria-hidden="true"><svg viewBox="0 0 18 18"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="3.6" r="1.8" /><circle cx="4" cy="14.2" r="1.8" /><circle cx="14" cy="14.2" r="1.8" /><path d="M9 5.4v3.8M9 9.2H4v3.2M9 9.2h5v3.2" /></g></svg></span><span class="tw-price-incl-txt">トークツリー設計・改善</span></li>
+              <li class="reveal tw-pop"><span class="tw-price-ico" aria-hidden="true"><svg viewBox="0 0 18 18"><path d="M2.6 15.2h12.8M5 12.4V8.6M9 12.4V4.4M13 12.4V9.6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" /></svg></span><span class="tw-price-incl-txt">通話データ分析・レポート</span></li>
+              <li class="reveal tw-pop"><span class="tw-price-ico" aria-hidden="true"><svg viewBox="0 0 18 18"><path d="M2.4 9h1.4M5.4 6.2v5.6M8.4 3.4v11.2M11.4 6.2v5.6M14.4 8v2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" /></svg></span><span class="tw-price-incl-txt">実際の音声確認・課題抽出</span></li>
+              <li class="reveal tw-pop"><span class="tw-price-ico" aria-hidden="true"><svg viewBox="0 0 18 18"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="6.6" cy="6.4" r="2.6" /><path d="M2.4 15.4c.6-2.9 2.2-4.4 4.2-4.4s3.6 1.5 4.2 4.4" /><path d="M11.6 3h4.2v3.2h-1.9l-1.3 1.2V6.2h-1z" /></g></svg></span><span class="tw-price-incl-txt">営業コンサルタントの伴走</span></li>
+              <li class="reveal tw-pop"><span class="tw-price-ico" aria-hidden="true"><svg viewBox="0 0 18 18"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><rect x="3" y="2.8" width="12" height="5.2" rx="1.6" /><rect x="3" y="10" width="12" height="5.2" rx="1.6" /><path d="M6 5.4h.1M6 12.6h.1" /></g></svg></span><span class="tw-price-incl-txt">システム利用料・通信費<small>（6万円分込み）</small></span></li>
+            </ul>
+          </div>
+
+          <ul class="tw-price-terms">
+            <li class="reveal"><strong>追加費用なし</strong></li>
+            <li class="reveal"><strong>未消化コールは翌月繰り越し</strong><span>（翌月最大32,000コール）</span></li>
+            <li class="reveal"><strong>契約期間6ヶ月</strong><span>以降6ヶ月ごと自動更新</span></li>
+          </ul>
+
+          <p class="tw-formula tw-formula--paper reveal">
+            <span class="tw-formula-item">22,000コール</span><span class="tw-formula-op">×</span>
+            <span class="tw-formula-item">営業設計</span><span class="tw-formula-op">×</span>
+            <span class="tw-formula-item">運用改善</span><span class="tw-formula-op">×</span>
+            <span class="tw-formula-item">伴走支援</span><span class="tw-formula-op">=</span>
+            <span class="tw-formula-item tw-formula-item--total">月額35万円<small>（税別）</small></span>
+          </p>
+
+          <div class="tw-price-cta reveal">
+            <a class="tw-btn tw-btn--primary tw-btn--xl" href="#contact"><span>無料で相談する</span><span class="tw-btn-arrow"><svg aria-hidden="true"><use href="#tw-i-arrow" /></svg></span></a>
+          </div>
+        </div>
+        <svg class="tw-divider tw-divider--bottom" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+          <path d="M0 96c200-58 420-84 680-60s520 54 760-6V120H0Z" fill="#0b5a32" />
+        </svg>
+      </section>
+
+      <!-- ============ 10. 導入の流れ ============ -->
+      <section class="tw-flow tw-on-dark" id="flow" aria-labelledby="tw-flow-title">
+        <div class="tw-zone-deco" aria-hidden="true">
+          <svg class="tw-kasumi tw-kasumi--r tw-flow-kasumi" viewBox="0 0 300 140"><use href="#tw-cloud" /></svg>
+        </div>
+        <div class="tw-wrap">
+          <div class="tw-lead tw-lead--light reveal">
+            <p class="tw-lead-sub">6つのステップ</p>
+            <h2 class="tw-lead-title" id="tw-flow-title">導入の流れ</h2>
+            <span class="tw-lead-en" lang="en">FLOW</span>
+          </div>
+
+          <div class="tw-flow-stage" id="tw-flow-stage">
+            <div class="tw-flow-robot" aria-hidden="true">
+              <!-- TODO: 先方素材（TELEMO公式ロボットマスコット）に差し替え -->
+              <svg class="tw-sway" viewBox="0 0 200 232"><use href="#tw-robot" /></svg>
+            </div>
+            <div class="tw-flow-main">
+              <button class="tw-flow-start" id="tw-flow-start" type="button" hidden>
+                <span lang="en">START</span>
+                <span class="tw-vh">導入の流れをステップ表示で見る</span>
+              </button>
+              <ol class="tw-flow-list" id="tw-flow-list" tabindex="-1">
+                <li class="tw-flow-step"><p class="tw-flow-no" lang="en">STEP<span>1</span></p><p class="tw-flow-text">6ヶ月の利用意思決定</p></li>
+                <li class="tw-flow-step"><p class="tw-flow-no" lang="en">STEP<span>2</span></p><p class="tw-flow-text">第1回トークツリーMTG<small>（初期費用）</small></p></li>
+                <li class="tw-flow-step"><p class="tw-flow-no" lang="en">STEP<span>3</span></p><p class="tw-flow-text">トークツリー制作</p></li>
+                <li class="tw-flow-step"><p class="tw-flow-no" lang="en">STEP<span>4</span></p><p class="tw-flow-text">約10営業日で納品</p></li>
+                <li class="tw-flow-step"><p class="tw-flow-no" lang="en">STEP<span>5</span></p><p class="tw-flow-text">納品・運用開始<small>（月額）</small></p></li>
+                <li class="tw-flow-step"><p class="tw-flow-no" lang="en">STEP<span>6</span></p><p class="tw-flow-text">毎月請求</p></li>
+              </ol>
+              <div class="tw-flow-progress" id="tw-flow-progress" aria-hidden="true" hidden></div>
+              <div class="tw-flow-nav" id="tw-flow-nav" hidden>
+                <button class="tw-flow-btn tw-flow-btn--round" id="tw-flow-prev" type="button"><span aria-hidden="true">‹</span>前へ</button>
+                <button class="tw-flow-btn tw-flow-btn--line" id="tw-flow-skip" type="button">スキップ<span class="tw-flow-btn-sub">（一覧で見る）</span></button>
+                <button class="tw-flow-btn tw-flow-btn--round" id="tw-flow-next" type="button">次へ<span aria-hidden="true">›</span></button>
+                <button class="tw-flow-btn tw-flow-btn--line" id="tw-flow-reset" type="button" hidden>最初に戻る</button>
+              </div>
+              <p class="tw-vh" id="tw-flow-live" aria-live="polite"></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ 11. TELEMO川柳 ============ -->
+      <section class="tw-senryu-sec" id="senryu" aria-labelledby="tw-senryu-title">
+        <div class="tw-march" aria-hidden="true">
+          <svg class="tw-march-hill" viewBox="0 0 1440 120" preserveAspectRatio="none"><path d="M0 0h1440v58c-220 34-470 48-730 30S220 34 0 66Z" fill="#0b5a32" /></svg>
+          <!-- TODO: 先方素材（TELEMO公式ロボットマスコット）に差し替え -->
+          <div class="tw-march-track">
+            <div class="tw-march-group">
+                <svg class="tw-march-bot" viewBox="0 0 200 232"><use href="#tw-robot" /></svg>
+                <svg class="tw-march-bot" viewBox="0 0 200 232"><use href="#tw-robot" /></svg>
+                <svg class="tw-march-bot" viewBox="0 0 200 232"><use href="#tw-robot" /></svg>
+                <svg class="tw-march-bot" viewBox="0 0 200 232"><use href="#tw-robot" /></svg>
+                <svg class="tw-march-bot" viewBox="0 0 200 232"><use href="#tw-robot" /></svg>
+                <svg class="tw-march-bot" viewBox="0 0 200 232"><use href="#tw-robot" /></svg>
+                <svg class="tw-march-bot" viewBox="0 0 200 232"><use href="#tw-robot" /></svg>
+                <svg class="tw-march-bot" viewBox="0 0 200 232"><use href="#tw-robot" /></svg>
+                <svg class="tw-march-bot" viewBox="0 0 200 232"><use href="#tw-robot" /></svg>
+                <svg class="tw-march-bot" viewBox="0 0 200 232"><use href="#tw-robot" /></svg>
+                <svg class="tw-march-bot" viewBox="0 0 200 232"><use href="#tw-robot" /></svg>
+                <svg class="tw-march-bot" viewBox="0 0 200 232"><use href="#tw-robot" /></svg>
+            </div>
+            <div class="tw-march-group">
+                <svg class="tw-march-bot" viewBox="0 0 200 232"><use href="#tw-robot" /></svg>
+                <svg class="tw-march-bot" viewBox="0 0 200 232"><use href="#tw-robot" /></svg>
+                <svg class="tw-march-bot" viewBox="0 0 200 232"><use href="#tw-robot" /></svg>
+                <svg class="tw-march-bot" viewBox="0 0 200 232"><use href="#tw-robot" /></svg>
+                <svg class="tw-march-bot" viewBox="0 0 200 232"><use href="#tw-robot" /></svg>
+                <svg class="tw-march-bot" viewBox="0 0 200 232"><use href="#tw-robot" /></svg>
+                <svg class="tw-march-bot" viewBox="0 0 200 232"><use href="#tw-robot" /></svg>
+                <svg class="tw-march-bot" viewBox="0 0 200 232"><use href="#tw-robot" /></svg>
+                <svg class="tw-march-bot" viewBox="0 0 200 232"><use href="#tw-robot" /></svg>
+                <svg class="tw-march-bot" viewBox="0 0 200 232"><use href="#tw-robot" /></svg>
+                <svg class="tw-march-bot" viewBox="0 0 200 232"><use href="#tw-robot" /></svg>
+                <svg class="tw-march-bot" viewBox="0 0 200 232"><use href="#tw-robot" /></svg>
+            </div>
+          </div>
+        </div>
+        <div class="tw-senryu-deco" aria-hidden="true">
+          <svg class="tw-senryu-cloud tw-senryu-cloud--1" viewBox="0 0 300 140"><use href="#tw-cloud" /></svg>
+          <svg class="tw-senryu-cloud tw-senryu-cloud--2" viewBox="0 0 300 140"><use href="#tw-cloud" /></svg>
+        </div>
+        <div class="tw-wrap">
+          <div class="tw-lead tw-lead--navy reveal">
+            <p class="tw-lead-sub">全11句</p>
+            <h2 class="tw-lead-title" id="tw-senryu-title">TELEMO川柳</h2>
+            <span class="tw-lead-en" lang="en">TELEMO SENRYU</span>
+          </div>
+        </div>
+        <div class="tw-marquees" id="tw-marquees">
+          <div class="tw-marquee">
+            <div class="tw-marquee-track">
+                <ul class="tw-marquee-group">
+                  <li class="tw-senryu"><span class="tw-senryu-no" lang="en">No.01</span><p class="tw-senryu-text"><span>電話せず</span> / <span>売れる仕組みを</span> / <span>電話で作る</span></p></li>
+                  <li class="tw-senryu"><span class="tw-senryu-no" lang="en">No.02</span><p class="tw-senryu-text"><span>売れぬなら</span> / <span>話を変えろ</span> / <span>また回せ</span></p></li>
+                  <li class="tw-senryu"><span class="tw-senryu-no" lang="en">No.03</span><p class="tw-senryu-text"><span>人が売る</span> / <span>その前までは</span> / <span>テレモやる</span></p></li>
+                  <li class="tw-senryu"><span class="tw-senryu-no" lang="en">No.04</span><p class="tw-senryu-text"><span>営業は</span> / <span>根性よりも</span> / <span>再現性</span></p></li>
+                  <li class="tw-senryu"><span class="tw-senryu-no" lang="en">No.05</span><p class="tw-senryu-text"><span>数を打ち</span> / <span>無駄を削って</span> / <span>見込み出す</span></p></li>
+                  <li class="tw-senryu"><span class="tw-senryu-no" lang="en">No.06</span><p class="tw-senryu-text"><span>二万二千</span> / <span>かければ見える</span> / <span>勝ちパターン</span></p></li>
+                </ul>
+                <ul class="tw-marquee-group tw-marquee-group--dup" aria-hidden="true">
+                  <li class="tw-senryu"><span class="tw-senryu-no" lang="en">No.01</span><p class="tw-senryu-text"><span>電話せず</span> / <span>売れる仕組みを</span> / <span>電話で作る</span></p></li>
+                  <li class="tw-senryu"><span class="tw-senryu-no" lang="en">No.02</span><p class="tw-senryu-text"><span>売れぬなら</span> / <span>話を変えろ</span> / <span>また回せ</span></p></li>
+                  <li class="tw-senryu"><span class="tw-senryu-no" lang="en">No.03</span><p class="tw-senryu-text"><span>人が売る</span> / <span>その前までは</span> / <span>テレモやる</span></p></li>
+                  <li class="tw-senryu"><span class="tw-senryu-no" lang="en">No.04</span><p class="tw-senryu-text"><span>営業は</span> / <span>根性よりも</span> / <span>再現性</span></p></li>
+                  <li class="tw-senryu"><span class="tw-senryu-no" lang="en">No.05</span><p class="tw-senryu-text"><span>数を打ち</span> / <span>無駄を削って</span> / <span>見込み出す</span></p></li>
+                  <li class="tw-senryu"><span class="tw-senryu-no" lang="en">No.06</span><p class="tw-senryu-text"><span>二万二千</span> / <span>かければ見える</span> / <span>勝ちパターン</span></p></li>
+                </ul>
+            </div>
+          </div>
+          <div class="tw-marquee tw-marquee--rev">
+            <div class="tw-marquee-track">
+                <ul class="tw-marquee-group">
+                  <li class="tw-senryu"><span class="tw-senryu-no" lang="en">No.07</span><p class="tw-senryu-text"><span>売れるまで</span> / <span>回して直す</span> / <span>それテレモ</span></p></li>
+                  <li class="tw-senryu"><span class="tw-senryu-no" lang="en">No.08</span><p class="tw-senryu-text"><span>出ない客</span> / <span>追うのはテレモ</span> / <span>人は売れ</span></p></li>
+                  <li class="tw-senryu"><span class="tw-senryu-no" lang="en">No.09</span><p class="tw-senryu-text"><span>電話出る</span> / <span>それだけだって</span> / <span>価値がある</span></p></li>
+                  <li class="tw-senryu"><span class="tw-senryu-no" lang="en">No.10</span><p class="tw-senryu-text"><span>人がやる</span> / <span>仕事をもっと</span> / <span>選ぼうよ</span></p></li>
+                  <li class="tw-senryu"><span class="tw-senryu-no" lang="en">No.11</span><p class="tw-senryu-text"><span>売れる型</span> / <span>できた瞬間</span> / <span>量産だ</span></p></li>
+                </ul>
+                <ul class="tw-marquee-group tw-marquee-group--dup" aria-hidden="true">
+                  <li class="tw-senryu"><span class="tw-senryu-no" lang="en">No.07</span><p class="tw-senryu-text"><span>売れるまで</span> / <span>回して直す</span> / <span>それテレモ</span></p></li>
+                  <li class="tw-senryu"><span class="tw-senryu-no" lang="en">No.08</span><p class="tw-senryu-text"><span>出ない客</span> / <span>追うのはテレモ</span> / <span>人は売れ</span></p></li>
+                  <li class="tw-senryu"><span class="tw-senryu-no" lang="en">No.09</span><p class="tw-senryu-text"><span>電話出る</span> / <span>それだけだって</span> / <span>価値がある</span></p></li>
+                  <li class="tw-senryu"><span class="tw-senryu-no" lang="en">No.10</span><p class="tw-senryu-text"><span>人がやる</span> / <span>仕事をもっと</span> / <span>選ぼうよ</span></p></li>
+                  <li class="tw-senryu"><span class="tw-senryu-no" lang="en">No.11</span><p class="tw-senryu-text"><span>売れる型</span> / <span>できた瞬間</span> / <span>量産だ</span></p></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+        <div class="tw-wrap tw-marquee-ctrl">
+          <button class="tw-marquee-pause" id="tw-marquee-pause" type="button" aria-controls="tw-marquees" aria-pressed="false">
+            <span class="tw-marquee-pause-ico" aria-hidden="true"></span><span class="tw-marquee-pause-label">流れを一時停止</span>
+          </button>
+        </div>
+        <svg class="tw-divider tw-divider--bottom" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+          <path d="M0 74c210-40 460-56 720-28s500 50 720 4V120H0Z" fill="#f2fbfb" />
+        </svg>
+      </section>
+
+      <!-- ============ 01 ABOUT US ============ -->
+      <section class="tw-co tw-co--sky" id="about" aria-labelledby="tw-about-title">
+        <div class="tw-wrap">
+          <div class="tw-sechead reveal">
+            <span class="tw-sechead-no">01</span>
+            <h2 class="tw-sechead-title" id="tw-about-title">ABOUT US</h2>
+          </div>
+          <div class="tw-about-card reveal">
+            <h3 class="tw-about-lead">現場を知る、<br /><span class="grad">AIの会社。</span></h3>
+            <div class="tw-about-body">
+              <p>私たちGIGUUUは、エンジニア発ではなく<strong>営業会社発</strong>のAIカンパニーです。数百万件を超えるコールデータと現場で磨かれた営業ノウハウの両方を知るからこそ、机上の理論ではなく実際の成果につながるAIをつくれる。</p>
+              <p>GIGUUUの出発点は、技術のための技術ではなく、現場の課題から逆算したプロダクトです。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="tw-mv">
+        <!-- ============ 02 MISSION ============ -->
+        <section class="tw-mv-item" id="mission" aria-labelledby="tw-mission-title">
+          <div class="tw-sechead tw-sechead--sm reveal">
+            <span class="tw-sechead-no">02</span>
+            <h2 class="tw-sechead-title" id="tw-mission-title">MISSION</h2>
+          </div>
+          <div class="tw-statement reveal tw-pop">
+            <h3 class="tw-statement-main">人の可能性を、<br /><span class="tw-mark">AIで拡張する</span></h3>
+            <p class="tw-statement-sub">AIは人を置き換えるためではなく、人が本質的な仕事に集中するためにある。繰り返しは機械に、創造は人に任せる。私たちは、機械と人の役割の境界を引き直します。</p>
+          </div>
+        </section>
+
+        <!-- ============ 03 VISION ============ -->
+        <section class="tw-mv-item" id="vision" aria-labelledby="tw-vision-title">
+          <div class="tw-sechead tw-sechead--sm reveal">
+            <span class="tw-sechead-no">03</span>
+            <h2 class="tw-sechead-title" id="tw-vision-title">VISION</h2>
+          </div>
+          <div class="tw-statement reveal tw-pop">
+            <h3 class="tw-statement-main">誰もが、挑戦できる<br /><span class="tw-mark">社会をつくる</span></h3>
+            <p class="tw-statement-sub">才能や環境の差を技術で埋める。規模や経歴に関わらず、挑戦する人がフェアに勝てる世界を目指す。</p>
+          </div>
+        </section>
+        <svg class="tw-divider tw-divider--bottom" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+          <path d="M0 62c240-44 490-58 740-24s480 52 700 4V120H0Z" fill="#0b5a32" />
+        </svg>
+      </div>
+
+      <!-- ============ 04 VALUE ============ -->
+      <section class="tw-co tw-co--green tw-on-dark" id="value" aria-labelledby="tw-value-title">
+        <div class="tw-wrap">
+          <div class="tw-sechead tw-sechead--light reveal">
+            <span class="tw-sechead-no">04</span>
+            <h2 class="tw-sechead-title" id="tw-value-title">VALUE</h2>
+          </div>
+          <div class="tw-domains">
+            <article class="tw-domain reveal tw-from-left">
+              <span class="tw-domain-num">01</span>
+              <span class="tw-domain-tag">CHALLENGE ／ 前例がない＝伸びしろ</span>
+              <h3 class="tw-domain-title"><span class="tw-domain-lead">挑戦を</span><span class="tw-domain-box">止めない</span></h3>
+              <p class="tw-domain-desc">失敗を恐れず挑戦する。誰もやっていないからこそ、私たちがやる意味がある。前例がないことにこそ、本当の価値がある。</p>
+            </article>
+            <article class="tw-domain reveal tw-from-right">
+              <span class="tw-domain-num">02</span>
+              <span class="tw-domain-tag">QUESTION ／ その当たり前、本当に正しい？</span>
+              <h3 class="tw-domain-title"><span class="tw-domain-lead">常識を</span><span class="tw-domain-box">疑う</span></h3>
+              <p class="tw-domain-desc">今までのやり方に縛られない。「当たり前」を一度立ち止まって疑い、机上の空論ではなく、現場で起きている事実から考える。</p>
+            </article>
+            <article class="tw-domain reveal tw-from-left">
+              <span class="tw-domain-num">03</span>
+              <span class="tw-domain-tag">VALUE ／ 技術のためのAIは、作らない</span>
+              <h3 class="tw-domain-title"><span class="tw-domain-lead">技術を</span><span class="tw-domain-box">価値に変える</span></h3>
+              <p class="tw-domain-desc">AIは目的ではなく、課題解決の手段。流行を追うのではなく、現場で本当に使われ、成果につながる形まで徹底して磨き上げる。</p>
+            </article>
+            <article class="tw-domain reveal tw-from-right">
+              <span class="tw-domain-num">04</span>
+              <span class="tw-domain-tag">PEOPLE ／ AIの主役は、いつも人</span>
+              <h3 class="tw-domain-title"><span class="tw-domain-lead">人を</span><span class="tw-domain-box">主役にする</span></h3>
+              <p class="tw-domain-desc">テクノロジーの先にいるのは、いつも人。まず動き、改善しながら進化する。人の可能性を広げるためにこそ、技術を使う。</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ 05 OUR STORY ============ -->
+      <section class="tw-co tw-co--green tw-co--story tw-on-dark" id="story" aria-labelledby="tw-ourstory-title">
+        <div class="tw-wrap">
+          <div class="tw-sechead tw-sechead--light reveal">
+            <span class="tw-sechead-no">05</span>
+            <h2 class="tw-sechead-title" id="tw-ourstory-title">OUR STORY</h2>
+          </div>
+          <div class="tw-ourstory reveal">
+            <blockquote class="tw-ourstory-quote">
+              「営業は才能ではない。<span class="grad">仕組みです。</span>」
+            </blockquote>
+            <p class="tw-ourstory-text">トップ営業の話し方、間の取り方、切り返しのタイミング。一部の優秀な営業の頭の中にしかなかった“勝ちパターン”を、AIで解析し再現する。属人化を仕組みに変えるために、私たちは<strong>TELEMO</strong>を生み出しました。</p>
+          </div>
+        </div>
+        <svg class="tw-divider tw-divider--bottom" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+          <path d="M0 40c230 54 480 72 740 42S1200 8 1440 34V120H0Z" fill="#127f8c" />
+        </svg>
+      </section>
+      <!-- ============ 06 BUSINESS ============ -->
+      <section class="tw-co tw-co--teal tw-on-dark" id="business" aria-labelledby="tw-business-title">
+        <div class="tw-wrap">
+          <div class="tw-sechead tw-sechead--light reveal">
+            <span class="tw-sechead-no">06</span>
+            <h2 class="tw-sechead-title" id="tw-business-title">BUSINESS</h2>
+          </div>
+          <div class="tw-domains">
+            <article class="tw-domain reveal tw-from-left">
+              <span class="tw-domain-num">01</span>
+              <span class="tw-domain-tag">AI自動応答 ／ ボイスボット ／ 問い合わせ対応</span>
+              <h3 class="tw-domain-title"><span class="tw-domain-lead">人と人をつなぐ</span><span class="tw-domain-box">AI Communication</span></h3>
+              <p class="tw-domain-desc">電話・チャット・音声をAIが担い、人と企業の接点をなめらかにする。「伝わらない」「届かない」をなくす。</p>
+            </article>
+            <article class="tw-domain tw-domain--flag reveal tw-from-right">
+              <span class="tw-domain-num">02</span>
+              <span class="tw-domain-flag" lang="en">FLAGSHIP</span>
+              <span class="tw-domain-tag">AI自動コール ／ トーク設計 ／ 商談獲得</span>
+              <h3 class="tw-domain-title"><span class="tw-domain-lead">営業を仕組み化する</span><span class="tw-domain-box">AI Sales ／ TELEMO</span></h3>
+              <p class="tw-domain-desc">トップ営業の話し方・分岐・タイミングを再現するSaaS。属人化した“勝ちパターン”を、誰もが使える武器にする。</p>
+            </article>
+            <article class="tw-domain reveal tw-from-left">
+              <span class="tw-domain-num">03</span>
+              <span class="tw-domain-tag">業務自動化 ／ データ抽出 ／ ワークフロー連携</span>
+              <h3 class="tw-domain-title"><span class="tw-domain-lead">人を創造的な仕事に戻す</span><span class="tw-domain-box">AI Automation</span></h3>
+              <p class="tw-domain-desc">繰り返しの業務をAIが引き受け、人は判断と創造に集中する。時間という資源を取り戻す。</p>
+            </article>
+            <article class="tw-domain reveal tw-from-right">
+              <span class="tw-domain-num">04</span>
+              <span class="tw-domain-tag">データ基盤 ／ 新規事業創出 ／ 働き方改革</span>
+              <h3 class="tw-domain-title"><span class="tw-domain-lead">成長を支える</span><span class="tw-domain-box">AI Platform</span></h3>
+              <p class="tw-domain-desc">蓄積したデータとAIを基盤化し、単発で終わらせない。継続的に成長できる土台をつくる。</p>
+            </article>
+          </div>
+          <div class="tw-co-cta reveal">
+            <a class="tw-btn tw-btn--primary tw-btn--xl" href="business.html"><span>事業紹介を詳しく見る</span><span class="tw-btn-arrow"><svg aria-hidden="true"><use href="#tw-i-arrow" /></svg></span></a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ 07 MESSAGE ============ -->
+      <section class="tw-co tw-co--teal tw-co--message tw-on-dark" id="message" aria-labelledby="tw-message-title">
+        <div class="tw-wrap">
+          <div class="tw-sechead tw-sechead--light reveal">
+            <span class="tw-sechead-no">07</span>
+            <h2 class="tw-sechead-title" id="tw-message-title">MESSAGE</h2>
+          </div>
+          <div class="tw-statement tw-statement--wide reveal tw-pop">
+            <h3 class="tw-statement-main tw-statement-main--sm">技術が目的ではなく、<br /><span class="tw-mark">課題解決こそが目的である</span></h3>
+            <p class="tw-statement-sub">私たちが見ているのは最新の技術トレンドではなく、目の前の現場の課題。解くべき問題から始めるという原則を、これからも変えません。</p>
+          </div>
+        </div>
+        <svg class="tw-divider tw-divider--bottom" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+          <path d="M0 72c220-42 470-58 730-26s500 50 710 2V120H0Z" fill="#f3ecdf" />
+        </svg>
+      </section>
+
+      <!-- ============ 08 NEWS ============ -->
+      <section class="tw-co tw-co--paper" id="news" aria-labelledby="tw-news-title">
+        <div class="tw-wrap">
+          <div class="tw-sechead reveal">
+            <span class="tw-sechead-no">08</span>
+            <h2 class="tw-sechead-title" id="tw-news-title">NEWS</h2>
+          </div>
+          <div class="tw-news reveal">
+            <a class="tw-news-item" href="#company">
+              <span class="tw-news-date">2021.12</span>
+              <span class="tw-news-cat" lang="en">INFO</span>
+              <span class="tw-news-title">GIGUUU株式会社を設立しました。</span>
+              <span class="tw-news-arrow" aria-hidden="true"><svg><use href="#tw-i-arrow" /></svg></span>
+            </a>
+            <a class="tw-news-item" href="business.html">
+              <span class="tw-news-date" lang="en">TOPIC</span>
+              <span class="tw-news-cat" lang="en">SERVICE</span>
+              <span class="tw-news-title">SaaS営業支援「TELEMO」を提供しています。</span>
+              <span class="tw-news-arrow" aria-hidden="true"><svg><use href="#tw-i-arrow" /></svg></span>
+            </a>
+            <a class="tw-news-item" href="#recruit">
+              <span class="tw-news-date" lang="en">TOPIC</span>
+              <span class="tw-news-cat" lang="en">RECRUIT</span>
+              <span class="tw-news-title">挑戦する仲間を募集しています。</span>
+              <span class="tw-news-arrow" aria-hidden="true"><svg><use href="#tw-i-arrow" /></svg></span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ 09 RECRUIT ============ -->
+      <section class="tw-co tw-co--paper" id="recruit" aria-labelledby="tw-recruit-title">
+        <div class="tw-wrap">
+          <div class="tw-sechead reveal">
+            <span class="tw-sechead-no">09</span>
+            <h2 class="tw-sechead-title" id="tw-recruit-title">RECRUIT</h2>
+          </div>
+          <div class="tw-recruit reveal">
+            <div class="tw-recruit-body">
+              <h3 class="tw-recruit-title">挑戦する仲間を<span class="grad">募集しています。</span></h3>
+              <p>「営業は才能ではなく、仕組み」だと信じ、AIで人の可能性を広げる。前例のない挑戦を一緒に楽しめる仲間を探しています。職種・経験は問いません。まずは“話を聞きにくる”感覚で、気軽にご連絡ください。</p>
+              <div class="tw-tags tw-recruit-tags">
+                <span class="tw-tag">#エンジニア</span>
+                <span class="tw-tag">#セールス</span>
+                <span class="tw-tag">#AIプランナー</span>
+                <span class="tw-tag">#コーポレート</span>
+              </div>
+              <a class="tw-btn tw-btn--primary" href="#contact"><span>カジュアルに話を聞く</span><span class="tw-btn-arrow"><svg aria-hidden="true"><use href="#tw-i-arrow" /></svg></span></a>
+            </div>
+            <div class="tw-recruit-side">
+              <div class="tw-recruit-chip">挑戦を止めない</div>
+              <div class="tw-recruit-chip">常識を疑う</div>
+              <div class="tw-recruit-chip">技術を価値に変える</div>
+              <div class="tw-recruit-chip">人を主役にする</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ 10 会社情報 ============ -->
+      <section class="tw-co tw-co--paper" id="company" aria-labelledby="tw-company-title">
+        <div class="tw-wrap">
+          <div class="tw-sechead reveal">
+            <span class="tw-sechead-no">10</span>
+            <h2 class="tw-sechead-title" id="tw-company-title">COMPANY</h2>
+          </div>
+          <div class="tw-company reveal">
+            <table class="tw-info">
+              <tbody>
+                <tr><th scope="row">会社名</th><td>GIGUUU株式会社</td></tr>
+                <tr><th scope="row">設立</th><td>2021年12月</td></tr>
+                <tr><th scope="row">代表者</th><td>青木 一平</td></tr>
+                <tr><th scope="row">所在地</th><td>東京都豊島区東池袋1-34-5</td></tr>
+                <tr><th scope="row">連絡先</th><td><a href="tel:0343661687">03-4366-1687</a></td></tr>
+                <tr><th scope="row">事業内容</th><td>プラットフォーム事業<br />代理店事業</td></tr>
+                <tr><th scope="row">代表サービス</th><td>SaaS営業支援「<a href="business.html">TELEMO</a>」</td></tr>
+                <tr><th scope="row">お問い合わせ</th><td><a href="#contact">お問い合わせフォームへ →</a></td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ 11 各種ポリシー ============ -->
+      <section class="tw-co tw-co--paper tw-co--last" id="policy" aria-labelledby="tw-policy-title">
+        <div class="tw-wrap">
+          <div class="tw-sechead reveal">
+            <span class="tw-sechead-no">11</span>
+            <h2 class="tw-sechead-title" id="tw-policy-title">POLICY</h2>
+          </div>
+          <div class="tw-policy reveal">
+            <a class="tw-policy-item" href="#"><span class="tw-dot" aria-hidden="true"><svg><use href="#tw-i-arrow" /></svg></span>プライバシーポリシー</a>
+            <a class="tw-policy-item" href="#"><span class="tw-dot" aria-hidden="true"><svg><use href="#tw-i-arrow" /></svg></span>利用規約</a>
+            <a class="tw-policy-item" href="#"><span class="tw-dot" aria-hidden="true"><svg><use href="#tw-i-arrow" /></svg></span>情報セキュリティ方針</a>
+            <a class="tw-policy-item" href="#"><span class="tw-dot" aria-hidden="true"><svg><use href="#tw-i-arrow" /></svg></span>特定商取引法に基づく表記</a>
+          </div>
+        </div>
+        <svg class="tw-divider tw-divider--bottom" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+          <path d="M0 52c240 44 500 60 760 30s480-50 680-16V120H0Z" fill="#d9f4f5" />
+        </svg>
+      </section>
+
+      <!-- ============ 12 FAQ ============ -->
+      <section class="tw-faq" id="faq" aria-labelledby="tw-faq-title">
+        <div class="tw-wrap">
+          <div class="tw-sechead reveal">
+            <span class="tw-sechead-no">12</span>
+            <h2 class="tw-sechead-title" id="tw-faq-title">FAQ</h2>
+          </div>
+          <div class="tw-faq-list reveal">
+            <details class="tw-faq-item">
+              <summary class="tw-faq-q"><span class="tw-faq-mark" aria-hidden="true">Q</span><span class="tw-faq-qtext">本当に月間22,000コールされますか？</span><span class="tw-faq-icon" aria-hidden="true"></span></summary>
+              <div class="tw-faq-a"><span class="tw-faq-mark tw-faq-mark--a" aria-hidden="true">A</span><p>はい。TELEMOは月22,000コールを標準稼働として設計しています。24時間365日、同じ品質で稼働し続けます。</p></div>
+            </details>
+            <details class="tw-faq-item">
+              <summary class="tw-faq-q"><span class="tw-faq-mark" aria-hidden="true">Q</span><span class="tw-faq-qtext">どのくらいで成果が出ますか？</span><span class="tw-faq-icon" aria-hidden="true"></span></summary>
+              <!-- TODO: 要確認 成果が出るまでの期間の目安（FACTS.md の記載は導入の流れ「約10営業日で納品」のみ） -->
+              <div class="tw-faq-a"><span class="tw-faq-mark tw-faq-mark--a" aria-hidden="true">A</span><p>テストコールで反応データを見ながらチューニングし、本稼働後も全ログを基に継続改善します。トークツリーは約10営業日で納品し、納品後に運用を開始します。</p></div>
+            </details>
+            <details class="tw-faq-item">
+              <summary class="tw-faq-q"><span class="tw-faq-mark" aria-hidden="true">Q</span><span class="tw-faq-qtext">契約期間はどのくらいですか？</span><span class="tw-faq-icon" aria-hidden="true"></span></summary>
+              <!-- TODO: 要確認 解約条件（FACTS.md の記載は「契約期間6ヶ月、以降6ヶ月ごと自動更新」のみ） -->
+              <div class="tw-faq-a"><span class="tw-faq-mark tw-faq-mark--a" aria-hidden="true">A</span><p>契約期間は6ヶ月です。以降は6ヶ月ごとの自動更新となります。</p></div>
+            </details>
+          </div>
+        </div>
+        <svg class="tw-divider tw-divider--bottom" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+          <path d="M0 84c180-50 400-72 660-50s540 52 780-14V120H0Z" fill="#2ed16b" />
+        </svg>
+      </section>
+
+      <!-- ============ 最終CTA ============ -->
+      <section class="tw-final" id="final-cta" aria-labelledby="tw-final-title">
+        <div class="tw-zone-deco" aria-hidden="true">
+          <svg class="tw-kasumi tw-final-kasumi" viewBox="0 0 300 140"><use href="#tw-cloud" /></svg>
+        </div>
+        <div class="tw-wrap tw-final-inner">
+          <p class="tw-final-logo reveal" lang="en">TELEMO</p>
+          <h2 class="tw-final-title reveal" id="tw-final-title">まずは、<span class="grad">あなたの営業課題から。</span></h2>
+          <p class="tw-final-text reveal">現状の営業コストと比較した“削減インパクト”を、その場で算出します。</p>
+          <div class="tw-final-cta reveal">
+            <div class="tw-final-robots" aria-hidden="true">
+              <!-- TODO: 先方素材（TELEMO公式ロボットマスコット）に差し替え -->
+              <svg class="tw-hop" viewBox="0 0 200 232"><use href="#tw-robot" /></svg>
+              <svg class="tw-hop tw-final-robot--mid" viewBox="0 0 200 232"><use href="#tw-robot" /></svg>
+              <svg class="tw-hop" viewBox="0 0 200 232"><use href="#tw-robot" /></svg>
+            </div>
+            <a class="tw-btn tw-btn--white tw-btn--xl" href="#contact"><span>無料で相談する</span><span class="tw-btn-arrow"><svg aria-hidden="true"><use href="#tw-i-arrow" /></svg></span></a>
+          </div>
+          <div class="tw-final-sub reveal">
+            <!-- TODO: 要確認 資料ダウンロード先（PDF等）が未提供のため #contact に仮設定 -->
+            <a class="tw-btn tw-btn--navyline" href="#contact"><span>資料をダウンロード</span><span class="tw-btn-arrow"><svg aria-hidden="true"><use href="#tw-i-arrow" /></svg></span></a>
+          </div>
+          <p class="tw-final-meta reveal">所要時間：10〜15分 ／ 費用：無料 ／ 売り込み：なし</p>
+        </div>
+        <svg class="tw-divider tw-divider--bottom" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+          <path d="M0 40c260 56 520 74 780 44s460-60 660-36V120H0Z" fill="#0b5a32" />
+        </svg>
+      </section>
+
+      <!-- ============ 13 お問い合わせ ============ -->
+      <section class="tw-contact tw-on-dark" id="contact" aria-labelledby="tw-contact-title">
+        <div class="tw-zone-deco" aria-hidden="true">
+          <svg class="tw-kasumi tw-kasumi--l tw-contact-kasumi" viewBox="0 0 300 140"><use href="#tw-cloud" /></svg>
+        </div>
+        <div class="tw-wrap">
+          <div class="tw-sechead tw-sechead--light reveal">
+            <span class="tw-sechead-no">13</span>
+            <h2 class="tw-sechead-title" id="tw-contact-title">CONTACT</h2>
+          </div>
+          <div class="tw-contact-card reveal">
+            <p class="tw-contact-lead">事業・採用・TELEMO導入のご相談など、お気軽にお問い合わせください。</p>
+            <form class="tw-form" id="contactForm" action="https://api.web3forms.com/submit" method="POST" novalidate>
+              <input type="hidden" name="access_key" value="31d3749e-b24f-4268-aee5-bcdd79a86b36" />
+              <input type="hidden" name="subject" value="【GIGUUU】お問い合わせがありました" />
+              <input type="hidden" name="from_name" value="GIGUUU お問い合わせフォーム" />
+              <input type="checkbox" name="botcheck" style="display: none" tabindex="-1" autocomplete="off" />
+              <div class="tw-field">
+                <label for="tw-f-name">お名前<span class="tw-req">必須</span></label>
+                <input id="tw-f-name" type="text" name="name" placeholder="山田 太郎" required />
+              </div>
+              <div class="tw-field">
+                <label for="tw-f-company">会社名</label>
+                <input id="tw-f-company" type="text" name="company" placeholder="株式会社○○" />
+              </div>
+              <div class="tw-field">
+                <label for="tw-f-email">メールアドレス<span class="tw-req">必須</span></label>
+                <input id="tw-f-email" type="email" name="email" placeholder="you@example.com" required />
+              </div>
+              <div class="tw-field">
+                <label for="tw-f-tel">電話番号</label>
+                <input id="tw-f-tel" type="tel" name="tel" placeholder="03-1234-5678" />
+              </div>
+              <div class="tw-field tw-field--full">
+                <label for="tw-f-message">お問い合わせ内容<span class="tw-req">必須</span></label>
+                <textarea id="tw-f-message" name="message" rows="4" placeholder="ご相談内容をご記入ください" required></textarea>
+              </div>
+              <div class="tw-field--full tw-form-submit">
+                <button type="submit" class="tw-btn tw-btn--primary tw-btn--xl"><span>送信する</span><span class="tw-btn-arrow"><svg aria-hidden="true"><use href="#tw-i-arrow" /></svg></span></button>
+              </div>
+              <p class="tw-form-status" id="formStatus" role="status"></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ============ フッター ============ -->
+    <footer class="tw-footer">
+      <a class="tw-pagetop" href="#top"><span class="tw-pagetop-ico" aria-hidden="true"></span><span lang="en">PAGE TOP</span></a>
+      <div class="tw-footer-top">
+        <div class="tw-footer-brand">
+          <a class="tw-footer-logo" href="#top">
+            <span class="tw-logo-mark tw-logo-mark--lg"><img src="giguuu-logo.png" alt="GIGUUU株式会社 ロゴ" width="842" height="595" /></span>
+            <span class="tw-logo-text">GIGUUU<span class="tw-logo-sub">株式会社</span></span>
+          </a>
+          <p class="tw-footer-tag">人の限界を、技術で超えていく</p>
+          <div class="tw-footer-social">
+            <a href="#" aria-label="Twitter / X" class="tw-soc">X</a>
+            <a href="#" aria-label="Facebook" class="tw-soc">f</a>
+            <a href="#" aria-label="Instagram" class="tw-soc">◎</a>
+          </div>
+        </div>
+        <nav class="tw-footer-nav" aria-label="フッターナビゲーション">
+          <a href="#about"><span class="tw-dot" aria-hidden="true"><svg><use href="#tw-i-arrow" /></svg></span>GIGUUUとは</a>
+          <a href="#company"><span class="tw-dot" aria-hidden="true"><svg><use href="#tw-i-arrow" /></svg></span>会社情報</a>
+          <a href="business.html"><span class="tw-dot" aria-hidden="true"><svg><use href="#tw-i-arrow" /></svg></span>事業紹介</a>
+          <a href="#telemo"><span class="tw-dot" aria-hidden="true"><svg><use href="#tw-i-arrow" /></svg></span>TELEMO</a>
+          <a href="#news"><span class="tw-dot" aria-hidden="true"><svg><use href="#tw-i-arrow" /></svg></span>お知らせ</a>
+          <a href="#recruit"><span class="tw-dot" aria-hidden="true"><svg><use href="#tw-i-arrow" /></svg></span>採用情報</a>
+          <a href="#policy"><span class="tw-dot" aria-hidden="true"><svg><use href="#tw-i-arrow" /></svg></span>各種ポリシー</a>
+        </nav>
+        <a class="tw-header-cta tw-footer-cta" href="#contact">
+          <span class="tw-header-cta-ico"><svg class="tw-ico" aria-hidden="true"><use href="#tw-i-mail" /></svg></span>
+          <span class="tw-header-cta-label">お問い合わせ</span>
+          <svg class="tw-ico" aria-hidden="true"><use href="#tw-i-arrow" /></svg>
+        </a>
+      </div>
+      <div class="tw-footer-bottom">
+        <span>© 2026 GIGUUU Inc. All rights reserved.</span>
+        <span class="tw-footer-build">SYSTEM ONLINE ● v2.0</span>
+      </div>
+    </footer>
+
+    <script src="./site.js" defer></script>
+    <script src="./telemo-lp.js" defer></script>
+  </body>
+</html>

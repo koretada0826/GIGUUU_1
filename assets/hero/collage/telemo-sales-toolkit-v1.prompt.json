@@ -1,0 +1,21 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "created": "2026-10-30",
+  "transparent_background": true,
+  "reference_roles": [
+    {
+      "path": "/Users/rintaro/Desktop/スクリーンショット 2026-10-30 19.47.10.png",
+      "role": "composition reference only; no source copy/logo/palette"
+    },
+    {
+      "path": "assets/telemo-comparison/telemo-robot.webp",
+      "role": "existing robot identity/style"
+    }
+  ],
+  "prompt": "Use case: ads-marketing.\nAsset type: transparent cutout foreground artwork for a Japanese AI outbound phone service's cyan website hero.\nPrimary request: Adapt the reference's beautifully art-directed photoreal miniature collage composition, replacing the travel/autumn objects with the tangible world of outbound calling and AI. Create one richly detailed central sculptural still life, no text.\nInput images: Image 1 is COMPOSITION REFERENCE ONLY (Sunshine City website). Borrow the layered central open case, dramatic object scale, realistic cutouts, inviting tiny people, whimsical depth. Do NOT borrow its yellow, red, autumn themes, copy or logo. Image 2 is the brand's existing robot STYLE/IDENTITY reference: use a recognizable small silver-white rounded robot with black glass face and cyan eyes and a discreet headset.\nSubject: An open sophisticated deep teal business equipment case, viewed from slightly above, packed with an oversized teal telephone receiver, a beautifully realistic call-center headset, a silver slim laptop displaying only abstract teal soundwave and conversation lines (no letters or numbers), a few ivory conversation bubble sculptures, neatly stacked dark teal notebooks, a small friendly silver robot. The case is the central base. Three or four very tiny realistic Japanese office workers in white shirts and navy trousers stand or sit around this oversized sales toolkit, one with a headset. A few soft ivory cloud cutouts behind it add breathing room. The objects should look photographed rather than like flat vector icons. Human-scale contrasts and precise contact shadows make an elegant miniature diorama.\nComposition: landscape 3:2 cutout, entire grouping visible inside generous transparent margins, cohesive asymmetric pyramid built from a base at lower center toward a tall headset at upper middle, lots of detail and layered overlap. No rounded UI cards or floating dashboard panels. No text areas baked into artwork; live website typography will be separate.\nLighting: editorial campaign still-life photography, crisp tactile materials, soft directional studio daylight from upper left, convincing contact shadows, restrained highlights, premium but approachable.\nPalette: Preserve the website palette: cyan #60cde7, deep teal #007d8c, white and cool silver, dark navy accents. All large colored objects in teal. Tiny accents can be pale aqua. No yellow/red/orange objects.\nBackdrop: fully transparent alpha, no solid rectangle, no checkerboard baked in, no horizon or scenery. Preserve soft contact shadow under case and individual objects.\nConstraints: original creative adaptation, no source logo, no words, no letters, no numbers, no watermark; no pumpkins/leaves/suitcase travel stickers/moon. Render a complete cohesive still-life, not a website screenshot.",
+  "source_image": "/Users/rintaro/.codex/generated_images/01a17791-df36-7b50-bbb2-0fee8593f75b/exec-f05aedfb-5e6c-4525-a182-6078956a3e0b.png",
+  "saved_files": [
+    "telemo-sales-toolkit-v1.png",
+    "telemo-sales-toolkit-v1.webp"
+  ]
+}

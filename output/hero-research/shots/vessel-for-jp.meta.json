@@ -1,0 +1,219 @@
+{
+ "slug": "vessel-for-jp",
+ "url": "https://vessel-for.jp/",
+ "capturedAt": "2026-10-12 21:11:05",
+ "files": {
+  "pc_f0": "vessel-for-jp-pc-f0.jpg",
+  "pc_f1": "vessel-for-jp-pc-f1.jpg",
+  "pc_f2": "vessel-for-jp-pc-f2.jpg",
+  "pc_scroll": "vessel-for-jp-pc-scroll.jpg",
+  "sp": "vessel-for-jp-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://vessel-for.jp/",
+  "title": "人生に、選択肢という自由を。ヴェゼル株式会社",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 6785,
+  "h1": "",
+  "h1Style": {
+   "fontFamily": "\"Noto Sans JP\", \"Hiragino Kaku Gothic Pro\", \"ヒラギノ角ゴ Pro W3\", \"MS PGothic\", \"MS Pゴシック\", sans-serif",
+   "fontSize": "10px",
+   "fontWeight": "400",
+   "lineHeight": "10px",
+   "letterSpacing": "normal",
+   "color": "rgb(0, 0, 0)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 42,
+    "y": 38,
+    "w": 189,
+    "h": 43
+   }
+  },
+  "lead": "About us Statement Service Recruit Journal Contact",
+  "ctas": [
+   "VESSEL FORRE:CHOICE 5 Things",
+   "VESSEL FOR RE:CHOICE"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://vessel-for.jp/assets/img/common/foot_btn_choice.svg",
+    "w": 300,
+    "h": 300,
+    "alt": "VESSEL FOR RE:CHOICE - 5 Things"
+   },
+   {
+    "src": "https://vessel-for.jp/assets/img/common/head_copy_en.svg",
+    "w": 1026,
+    "h": 243,
+    "alt": "VESSEL FOR RE:CHOICE"
+   },
+   {
+    "src": "https://vessel-for.jp/assets/img/common/head_copy_ja.svg",
+    "w": 216,
+    "h": 125,
+    "alt": "選ぶ、をつくる"
+   },
+   {
+    "src": "https://vessel-for.jp/assets/img/top/kv_slide02.jpg",
+    "w": 1245,
+    "h": 870,
+    "alt": ""
+   },
+   {
+    "src": "https://vessel-for.jp/assets/img/top/kv_slide03.jpg",
+    "w": 1245,
+    "h": 870,
+    "alt": ""
+   },
+   {
+    "src": "https://vessel-for.jp/assets/img/top/kv_slide01.jpg",
+    "w": 1245,
+    "h": 870,
+    "alt": ""
+   },
+   {
+    "src": "https://vessel-for.jp/assets/img/top/kv_slide02.jpg",
+    "w": 1245,
+    "h": 870,
+    "alt": ""
+   },
+   {
+    "src": "https://vessel-for.jp/assets/img/top/kv_slide03.jpg",
+    "w": 1245,
+    "h": 870,
+    "alt": ""
+   },
+   {
+    "src": "https://vessel-for.jp/assets/img/top/kv_slide01.jpg",
+    "w": 1245,
+    "h": 870,
+    "alt": ""
+   },
+   {
+    "src": "https://vessel-for.jp/assets/img/common/cmn_chara01.svg",
+    "w": 51,
+    "h": 52,
+    "alt": ""
+   },
+   {
+    "src": "https://vessel-for.jp/assets/img/common/cmn_chara02.svg",
+    "w": 51,
+    "h": 51,
+    "alt": ""
+   },
+   {
+    "src": "https://vessel-for.jp/assets/img/common/cmn_chara03.svg",
+    "w": 51,
+    "h": 51,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Noto Sans JP"
+  ],
+  "libs": {
+   "gsap": true,
+   "ScrollTrigger": true,
+   "three": false,
+   "lenis": false,
+   "swiper": true,
+   "lottie": false
+  },
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "",
+  "h1Style": {
+   "fontFamily": "\"Noto Sans JP\", \"Hiragino Kaku Gothic Pro\", \"ヒラギノ角ゴ Pro W3\", \"MS PGothic\", \"MS Pゴシック\", sans-serif",
+   "fontSize": "10.023px",
+   "fontWeight": "400",
+   "lineHeight": "10.023px",
+   "letterSpacing": "normal",
+   "color": "rgb(0, 0, 0)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 18,
+    "y": 16,
+    "w": 118,
+    "h": 27
+   }
+  },
+  "lead": "About us Statement Service Recruit Journal Contact",
+  "ctas": [
+   "VESSEL FORRE:CHOICE 5 Things"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://vessel-for.jp/assets/img/common/foot_btn_choice.svg",
+    "w": 214,
+    "h": 214,
+    "alt": "VESSEL FOR RE:CHOICE - 5 Things"
+   },
+   {
+    "src": "https://vessel-for.jp/assets/img/common/head_copy_en_sp.svg",
+    "w": 351,
+    "h": 120,
+    "alt": "VESSEL FOR RE:CHOICE"
+   },
+   {
+    "src": "https://vessel-for.jp/assets/img/top/kv_slide02.jpg",
+    "w": 390,
+    "h": 734,
+    "alt": ""
+   },
+   {
+    "src": "https://vessel-for.jp/assets/img/top/kv_slide03.jpg",
+    "w": 390,
+    "h": 734,
+    "alt": ""
+   },
+   {
+    "src": "https://vessel-for.jp/assets/img/top/kv_slide01.jpg",
+    "w": 390,
+    "h": 734,
+    "alt": ""
+   },
+   {
+    "src": "https://vessel-for.jp/assets/img/top/kv_slide02.jpg",
+    "w": 390,
+    "h": 734,
+    "alt": ""
+   },
+   {
+    "src": "https://vessel-for.jp/assets/img/top/kv_slide03.jpg",
+    "w": 390,
+    "h": 734,
+    "alt": ""
+   },
+   {
+    "src": "https://vessel-for.jp/assets/img/top/kv_slide01.jpg",
+    "w": 390,
+    "h": 734,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 5862
+ },
+ "elapsedSec": 12.1
+}

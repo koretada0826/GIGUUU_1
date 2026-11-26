@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Model Viewer Demo</title>
+    <link rel="stylesheet" href="./model-viewer.css" />
+    <style>
+      body { margin: 0; font-family: system-ui, sans-serif; color: #1b2330;
+        background: linear-gradient(180deg, #f6f7f9 0%, #e9edf3 100%); }
+      .dummy { min-height: 120vh; display: grid; place-items: center; padding: 24px;
+        background: repeating-linear-gradient(45deg, #eef1f5 0 24px, #e3e8ef 24px 48px); }
+      .stage { padding: 48px 16px; background: radial-gradient(circle at 30% 40%, #ffe7a8, transparent 40%), #fff; }
+      .stage p { text-align: center; color: #667; font-size: 13px; }
+    </style>
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "./reference/vendor/three/build/three.module.js",
+          "three/addons/": "./reference/vendor/three/examples/jsm/"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <section class="dummy" id="top"><p>ダミーコンテンツ（上）— スクロールしてください</p></section>
+    <section class="stage">
+      <div class="model-viewer" data-model-viewer data-src="./assets/models/telemo.glb"
+           data-label="TELEMO の立体ロゴ" data-poster="./assets/telemo-blender/telemo-poster.jpg"></div>
+      <p>ドラッグで回転 / ←→ キーでも回せます</p>
+    </section>
+    <section class="dummy" id="bottom"><p>ダミーコンテンツ（下）</p></section>
+    <script type="module" src="./model-viewer.js"></script>
+  </body>
+</html>

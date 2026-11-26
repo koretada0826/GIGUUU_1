@@ -1,0 +1,59 @@
+{
+  "task": "recruitment-image-color-integration",
+  "created_at": "2026-10-13",
+  "tool": "image_gen__imagegen (built-in)",
+  "actual_model": null,
+  "source": "assets/recruit/recruit-message-v1.png",
+  "generated_source_path": "/Users/matsugirintarou/.codex/generated_images/01a13497-c959-7152-b19b-baab50d22b1e/exec-926b81c2-250d-4483-9ed3-d6f25b15c962.png",
+  "output": "assets/recruit/recruit-message-v2-blended.png",
+  "dimensions": {
+    "width": 1586,
+    "height": 992
+  },
+  "transparent_background": false,
+  "website_palette": {
+    "background": "#FFFFFF",
+    "accent": "#007D8C",
+    "heading": "#0A2A44",
+    "tint": "#EAF6F8"
+  },
+  "changes": [
+    "青空を白に近い淡いティール背景へ",
+    "鮮やかな緑の植物を淡いセージへ",
+    "黄色の小物とアクセントをティールへ",
+    "画像周囲を白に溶け込む明るい処理に",
+    "表示時の角丸を解除"
+  ],
+  "preserved": [
+    "4人の人物と表情",
+    "見出しと全コピー",
+    "3人の手描きキャラクター",
+    "写真の構図",
+    "元画像と縦横比"
+  ],
+  "prompt": "Use case: precise-object-edit.\nAsset type: existing recruitment-page hero image, integrated into a white website.\nInput image 1 is the edit target, not a loose style reference. Perform a tightly constrained COLOR AND BACKGROUND INTEGRATION edit of this exact supplied image. Preserve its composition, every person's identity and natural skin color, facial expression, hair, poses, clothing, all lettering and the three drawn mascots, devices, props, and wide 1586:992 framing.\n\nThe website has a pure-white background (#FFFFFF), dark blue-green headings (#0A2A44), teal brand accents (#007D8C), pale teal surfaces (#EAF6F8), and thin borders (#D8E8EC). The current photo has a blue sky and strong yellow-green plants, giving it a separate bright rectangular-poster appearance. Make it harmonize with the website through this exact color treatment:\n1. Change the saturated sky-blue office/window backdrop to a very bright, near-white neutral office background with only faint pale teal #EAF6F8 hints. Keep windows and distant architecture recognizable but much lighter, softer and lower-contrast. Preserve white space behind the headline. No new graphics, rectangular colored panels or solid colored bands.\n2. Desaturate strong green plants into subtle pale sage/gray-teal foliage, with soft brighter highlights. Recolor yellow graphic marks and sticky-note accents into restrained pale teal or teal, keeping their positions and shapes. Remove the conspicuous yellow and cyan accent colors.\n3. Harmonize the headline to the website's deep teal (#007D8C, with natural hand-painted darker tonal variation), and supporting Japanese lettering/mascot outlines to dark navy-blue-green (#0A2A44). Preserve the exact letter shapes, brush strokes, all copy and layout. Clothing remains its existing navy, white and light-blue appearance, with only gentle neutral color grading. People must look natural, not green tinted or monochrome.\n4. The canvas should blend seamlessly into a white webpage. Make all four OUTER image edges naturally dissolve into pure white through a soft high-key photographic edge treatment. Keep the central people and the headline fully sharp and legible. Do not fade or erase text, faces, hands, speech bubbles or mascot details. The four corners and unused background edge areas should reach pure white (#FFFFFF), with no visible hard rectangular boundary, border, shadow or colored frame. Keep complete subjects and props, retaining a clean high-key office image, not a transparent cutout. Smooth edge transitions must be painted into the raster, not a new box or panel.\n5. Preserve every original readable string verbatim:\nHeadline in two lines: 「挑戦する仲間を、」 / 「募集しています。」\nSupporting copy: 「職種・経験は問いません。」\nSmall note: 「まずは、話を聞きに来てください。」\nSpeech bubbles: 「話し方!」 / 「間の取り方!」 / 「切り返し!」\nNo added words, missing punctuation, misspellings or warped lettering.\n\nOnly recolor and soften backdrop/edges; do not redesign or rearrange. Preserve smiling four-person meeting, laptop, headset, notebooks, and the three original cartoon colleagues. No extra people, no distorted fingers, no watercolor replacement of the people, no new logo, no watermark. Generate exactly one opaque edited image, original aspect ratio, with clean white edges.",
+  "self_check": {
+    "method": "Edited raster opened and visually inspected against original",
+    "headline": [
+      "挑戦する仲間を、",
+      "募集しています。"
+    ],
+    "subcopy": "職種・経験は問いません。",
+    "note": "まずは、話を聞きに来てください。",
+    "speech_bubbles": [
+      "話し方!",
+      "間の取り方!",
+      "切り返し!"
+    ],
+    "copy_matches": true,
+    "natural_skin_colors": true,
+    "saturated_sky_and_yellow_graphic_accents_removed": true,
+    "original_file_preserved": true
+  },
+  "implementation": {
+    "html": "recruit.html",
+    "css": "recruit.css",
+    "selector": ".rc-intro__message",
+    "asset_reference_updated": true
+  }
+}

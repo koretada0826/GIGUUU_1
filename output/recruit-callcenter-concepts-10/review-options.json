@@ -1,0 +1,9 @@
+{
+  "preset": "selector-board",
+  "title": "コールセンター採用ビジュアル 10案",
+  "minTileWidth": 520,
+  "showCaptions": true,
+  "showControls": true,
+  "showPrompts": false,
+  "output": "review-board.html"
+}

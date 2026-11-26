@@ -1,0 +1,177 @@
+{
+ "slug": "basec-co-jp-recruit-support",
+ "url": "https://www.basec.co.jp/recruit-support/",
+ "capturedAt": "2026-10-12 21:05:41",
+ "files": {
+  "pc_f0": "basec-co-jp-recruit-support-pc-f0.jpg",
+  "pc_f1": "basec-co-jp-recruit-support-pc-f1.jpg",
+  "pc_f2": "basec-co-jp-recruit-support-pc-f2.jpg",
+  "pc_scroll": "basec-co-jp-recruit-support-pc-scroll.jpg",
+  "sp": "basec-co-jp-recruit-support-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.basec.co.jp/recruit-support/",
+  "title": "採用支援×採用サイト制作で採用プロモーションを成功へ｜株式会社ベースシー",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 15953,
+  "h1": "理想の人材採用を実現！",
+  "h1Style": {
+   "fontFamily": "Montserrat, \"Zen Kaku Gothic New\", sans-serif",
+   "fontSize": "32px",
+   "fontWeight": "700",
+   "lineHeight": "56px",
+   "letterSpacing": "1.6px",
+   "color": "rgb(35, 74, 150)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 530,
+    "y": 126,
+    "w": 370,
+    "h": 56
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "お問い合わせ"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.basec.co.jp/wordpress/wp-content/themes/base-c1.0/img/recruit-support/image_mv-list_1.png",
+    "w": 750,
+    "h": 430,
+    "alt": ""
+   },
+   {
+    "src": "https://www.basec.co.jp/wordpress/wp-content/themes/base-c1.0/img/recruit-support/image_mv-list_2.png",
+    "w": 750,
+    "h": 430,
+    "alt": ""
+   },
+   {
+    "src": "https://www.basec.co.jp/wordpress/wp-content/themes/base-c1.0/img/recruit-support/image_mv-list_treat.png",
+    "w": 750,
+    "h": 430,
+    "alt": ""
+   },
+   {
+    "src": "https://www.basec.co.jp/wordpress/wp-content/themes/base-c1.0/img/recruit-support/image_mv-illust_1.svg",
+    "w": 246,
+    "h": 220,
+    "alt": ""
+   },
+   {
+    "src": "https://www.basec.co.jp/wordpress/wp-content/themes/base-c1.0/img/recruit-support/image_mv-illust_2.svg",
+    "w": 246,
+    "h": 220,
+    "alt": ""
+   },
+   {
+    "src": "https://www.basec.co.jp/wordpress/wp-content/themes/base-c1.0/img/recruit-support/image_mv-illust_3.svg",
+    "w": 246,
+    "h": 220,
+    "alt": ""
+   },
+   {
+    "src": "https://www.basec.co.jp/wordpress/wp-content/themes/base-c1.0/img/recruit-support/image_mv-illust_4.svg",
+    "w": 246,
+    "h": 220,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Zen Kaku Gothic New",
+   "Montserrat"
+  ],
+  "libs": {
+   "gsap": true,
+   "ScrollTrigger": true,
+   "three": false,
+   "lenis": false,
+   "swiper": true,
+   "lottie": false
+  },
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "理想の人材採用を実現！",
+  "h1Style": {
+   "fontFamily": "Montserrat, \"Zen Kaku Gothic New\", sans-serif",
+   "fontSize": "20.8px",
+   "fontWeight": "700",
+   "lineHeight": "36.4px",
+   "letterSpacing": "1.6px",
+   "color": "rgb(35, 74, 150)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 10,
+    "y": 72,
+    "w": 369,
+    "h": 36
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "メニューを開く"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.basec.co.jp/wordpress/wp-content/themes/base-c1.0/img/recruit-support/image_mv-list_1_sp.png",
+    "w": 364,
+    "h": 213,
+    "alt": ""
+   },
+   {
+    "src": "https://www.basec.co.jp/wordpress/wp-content/themes/base-c1.0/img/recruit-support/image_mv-list_2_sp.png",
+    "w": 364,
+    "h": 213,
+    "alt": ""
+   },
+   {
+    "src": "https://www.basec.co.jp/wordpress/wp-content/themes/base-c1.0/img/recruit-support/image_mv-list_treat_sp.png",
+    "w": 364,
+    "h": 213,
+    "alt": ""
+   },
+   {
+    "src": "https://www.basec.co.jp/wordpress/wp-content/themes/base-c1.0/img/recruit-support/image_mv-illust_2.svg",
+    "w": 128,
+    "h": 114,
+    "alt": ""
+   },
+   {
+    "src": "https://www.basec.co.jp/wordpress/wp-content/themes/base-c1.0/img/recruit-support/image_mv-illust_3.svg",
+    "w": 128,
+    "h": 114,
+    "alt": ""
+   },
+   {
+    "src": "https://www.basec.co.jp/wordpress/wp-content/themes/base-c1.0/img/recruit-support/image_mv-illust_4.svg",
+    "w": 128,
+    "h": 114,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 16178
+ },
+ "elapsedSec": 12.1
+}

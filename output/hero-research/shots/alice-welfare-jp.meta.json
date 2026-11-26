@@ -1,0 +1,11 @@
+{
+ "slug": "alice-welfare-jp",
+ "url": "https://alice-welfare.jp/",
+ "capturedAt": "2026-10-12 21:17:05",
+ "files": {},
+ "errors": [
+  "pc: Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://alice-welfare.jp/\nCall log:\n  - navigating to \"https://alice-welfare.jp/\", waiting until \"domcontentloaded\"\n",
+  "sp: Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://alice-welfare.jp/\nCall log:\n  - navigating to \"https://alice-welfare.jp/\", waiting until \"domcontentloaded\"\n"
+ ],
+ "elapsedSec": 0.2
+}

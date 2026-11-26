@@ -1,0 +1,1 @@
+!function(){"use strict";window.include=function(n){var t=document.currentScript.parentNode;$.ajax({url:n,cache:!1,success:function(n){t.innerHTML=n}}),function(){if(document.currentScript)return document.currentScript;var n=document.getElementsByTagName("script");n[n.length-1]}()}}();

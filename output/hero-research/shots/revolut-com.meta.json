@@ -1,0 +1,167 @@
+{
+ "slug": "revolut-com",
+ "url": "https://www.revolut.com/",
+ "capturedAt": "2026-10-12 21:14:47",
+ "files": {
+  "pc_f0": "revolut-com-pc-f0.jpg",
+  "pc_f1": "revolut-com-pc-f1.jpg",
+  "pc_f2": "revolut-com-pc-f2.jpg",
+  "pc_scroll": "revolut-com-pc-scroll.jpg",
+  "sp": "revolut-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": "button:has-text('Accept')",
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.revolut.com/",
+  "title": "Banking & Beyond | Revolut United Kingdom",
+  "lang": "en-GB",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 8727,
+  "h1": "Banking & Beyond",
+  "h1Style": {
+   "fontFamily": "\"Aeonik Pro\", sans-serif",
+   "fontSize": "87.5733px",
+   "fontWeight": "500",
+   "lineHeight": "87.5733px",
+   "letterSpacing": "-2.08px",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 220,
+    "y": 185,
+    "w": 1000,
+    "h": 88
+   }
+  },
+  "lead": "This is your bank, redefined. Get powerful daily banking and global freedom. Sign up for free in a tap.",
+  "ctas": [
+   "Log in",
+   "Sign up",
+   "Download the app"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://assets.revolut.com/published-assets-v3/4bcf4f81-c0b1-4bde-82f5-0b4cd2ddd2ef/f94bbcee-b4a0-49f2-8043-c472b47d0ac7.png",
+    "w": 2520,
+    "h": 1575,
+    "alt": ""
+   },
+   {
+    "src": "https://assets.revolut.com/published-assets-v3/c1d9d317-7303-4f79-8756-937632237bb5/0eb1515a-91e8-4d4e-8e19-ff7c82de5410.png",
+    "w": 1985,
+    "h": 1103,
+    "alt": ""
+   },
+   {
+    "src": "https://assets.revolut.com/published-assets-v3/d6d0bfe6-bc41-44db-8dde-dd3665b3c359/e306c6b0-8d4e-4b03-ae84-c2e6c4da0904.png",
+    "w": 402,
+    "h": 567,
+    "alt": ""
+   },
+   {
+    "src": "https://assets.revolut.com/published-assets-v3/4bcf4f81-c0b1-4bde-82f5-0b4cd2ddd2ef/f94bbcee-b4a0-49f2-8043-c472b47d0ac7.png",
+    "w": 2520,
+    "h": 1575,
+    "alt": ""
+   },
+   {
+    "src": "https://assets.revolut.com/published-assets-v3/c1d9d317-7303-4f79-8756-937632237bb5/0eb1515a-91e8-4d4e-8e19-ff7c82de5410.png",
+    "w": 1985,
+    "h": 1103,
+    "alt": ""
+   },
+   {
+    "src": "https://assets.revolut.com/published-assets-v3/1b17207f-8c44-4e67-9637-2ed365bfb5a1/8fb2616d-e499-4546-8288-9db34a2e881f.png",
+    "w": 446,
+    "h": 630,
+    "alt": ""
+   },
+   {
+    "src": "https://assets.revolut.com/published-assets-v3/af2fd3c8-cfef-40f0-a673-4a2c9fa85d69/e0cd59b6-e3e1-4084-b269-a736c0ce8f78.png",
+    "w": 402,
+    "h": 567,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "-apple-system",
+   "Aeonik Pro"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "Banking & Beyond",
+  "h1Style": {
+   "fontFamily": "\"Aeonik Pro\", sans-serif",
+   "fontSize": "48px",
+   "fontWeight": "500",
+   "lineHeight": "48px",
+   "letterSpacing": "normal",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 20,
+    "y": 275,
+    "w": 350,
+    "h": 96
+   }
+  },
+  "lead": "This is your bank, redefined. Get powerful daily banking and global freedom. Sign up for free in a tap.",
+  "ctas": [
+   "Download the app"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://assets.revolut.com/published-assets-v3/4bcf4f81-c0b1-4bde-82f5-0b4cd2ddd2ef/2f242895-e89a-44d3-9f8a-fb78b32d80c5.png",
+    "w": 683,
+    "h": 1626,
+    "alt": ""
+   },
+   {
+    "src": "https://assets.revolut.com/published-assets-v3/c1d9d317-7303-4f79-8756-937632237bb5/2442a1d3-8d03-44b9-a046-db33242f100a.png",
+    "w": 1702,
+    "h": 945,
+    "alt": ""
+   },
+   {
+    "src": "https://assets.revolut.com/published-assets-v3/1b17207f-8c44-4e67-9637-2ed365bfb5a1/8fb2616d-e499-4546-8288-9db34a2e881f.png",
+    "w": 344,
+    "h": 485,
+    "alt": ""
+   },
+   {
+    "src": "https://assets.revolut.com/published-assets-v3/4bcf4f81-c0b1-4bde-82f5-0b4cd2ddd2ef/2f242895-e89a-44d3-9f8a-fb78b32d80c5.png",
+    "w": 683,
+    "h": 1477,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 10881
+ },
+ "elapsedSec": 15.1
+}

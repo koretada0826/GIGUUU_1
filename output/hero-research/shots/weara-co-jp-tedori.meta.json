@@ -1,0 +1,119 @@
+{
+ "slug": "weara-co-jp-tedori",
+ "url": "https://www.weara.co.jp/tedori/",
+ "capturedAt": "2026-10-12 21:07:09",
+ "files": {
+  "pc_f0": "weara-co-jp-tedori-pc-f0.jpg",
+  "pc_f1": "weara-co-jp-tedori-pc-f1.jpg",
+  "pc_f2": "weara-co-jp-tedori-pc-f2.jpg",
+  "pc_scroll": "weara-co-jp-tedori-pc-scroll.jpg",
+  "sp": "weara-co-jp-tedori-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.weara.co.jp/tedori/",
+  "title": "ユニフォームレンタルのウェアラ",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 10409,
+  "h1": "洗濯の負担をゼロに！",
+  "h1Style": {
+   "fontFamily": "ff-market-web, sans-serif",
+   "fontSize": "76.5px",
+   "fontWeight": "700",
+   "lineHeight": "91.8px",
+   "letterSpacing": "0.8px",
+   "color": "rgb(25, 25, 25)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 0,
+    "y": 406,
+    "w": 764,
+    "h": 92
+   }
+  },
+  "lead": null,
+  "ctas": [],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.weara.co.jp/tedori/assets/img/common/logo.svg",
+    "w": 190,
+    "h": 68,
+    "alt": ""
+   },
+   {
+    "src": "https://www.weara.co.jp/tedori/assets/img/mv/pc/image-1.jpg",
+    "w": 1440,
+    "h": 900,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "noto-sans-cjk-jp",
+   "ff-market-web"
+  ],
+  "libs": {
+   "gsap": true,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "洗濯の負担をゼロに！",
+  "h1Style": {
+   "fontFamily": "ff-market-web, sans-serif",
+   "fontSize": "31px",
+   "fontWeight": "700",
+   "lineHeight": "37.2px",
+   "letterSpacing": "0.5px",
+   "color": "rgb(25, 25, 25)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 0,
+    "y": 676,
+    "w": 313,
+    "h": 40
+   }
+  },
+  "lead": null,
+  "ctas": [],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.weara.co.jp/tedori/assets/img/common/logo.svg",
+    "w": 120,
+    "h": 43,
+    "alt": ""
+   },
+   {
+    "src": "https://www.weara.co.jp/tedori/assets/img/mv/sp/image-1.jpg",
+    "w": 390,
+    "h": 844,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 10416
+ },
+ "elapsedSec": 11.9
+}

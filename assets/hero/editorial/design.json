@@ -1,0 +1,34 @@
+{
+  "design_name": "Blue Sculptural TELEMO",
+  "reference": "https://goodpatch.com/ja",
+  "brand": "TELEMO",
+  "headline": [
+    "現場を知り尽くした、",
+    "コールセンター経営者が",
+    "つくったAI"
+  ],
+  "layout": {
+    "type": "full_bleed_abstract_background",
+    "image": "blue-phone-hero-v1.jpg",
+    "copy": "existing TELEMO headline in white HTML"
+  },
+  "theme": {
+    "background": "#FCFBF8",
+    "primary_text": "#111111",
+    "accent": "#FFC845",
+    "heading": "Noto Serif JP",
+    "body": "Noto Sans JP"
+  },
+  "asset_prompts": [
+    "office-callcenter-v1.prompt.json",
+    "woman-callcenter-v1.prompt.json"
+  ],
+  "motion": {
+    "duration_seconds": 8,
+    "scale": 1.025,
+    "horizontal_drift_percent": -0.35,
+    "reduced_motion": "static",
+    "slideshow": false
+  },
+  "replacement_asset": "office-callcenter-v2.jpg"
+}

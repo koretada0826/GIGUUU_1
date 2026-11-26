@@ -1,0 +1,421 @@
+/* TELEMO sections below the preserved homepage first view. */
+.page-home #telemo-cases { background: var(--rf-surface-gray); }
+.telemo-story__eyebrow {
+  margin: 0 0 16px;
+  font: 700 12px/1.4 "Space Grotesk", sans-serif;
+  letter-spacing: .18em;
+  color: var(--rf-accent);
+}
+.telemo-cases__intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 410px);
+  column-gap: 72px;
+  align-items: end;
+}
+.telemo-cases__intro .telemo-story__eyebrow { grid-column: 1 / -1; }
+.telemo-cases__intro h3 {
+  margin: 0;
+  font-family: var(--rf-display);
+  font-size: clamp(32px, 3.7vw, 52px);
+  font-weight: 800;
+  line-height: 1.4;
+  color: var(--rf-heading);
+}
+.telemo-cases__intro > p:last-child {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.95;
+  color: var(--rf-text-sub);
+}
+.telemo-cases__grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 64px;
+}
+.telemo-cases__grid article {
+  min-height: 200px;
+  padding: 26px 24px;
+  background: #fff;
+  box-shadow: var(--rf-sh-card);
+}
+.telemo-cases__grid article > span {
+  font: 700 12px/1.4 "Space Grotesk", sans-serif;
+  letter-spacing: .12em;
+  color: var(--rf-accent);
+}
+.telemo-cases__grid h4 { margin: 38px 0 12px; font-size: 18px; line-height: 1.4; color: var(--rf-heading); }
+.telemo-cases__grid p { margin: 0; font-size: 14px; line-height: 1.8; color: var(--rf-text-sub); }
+@media (max-width: 959px) {
+  .telemo-cases__intro { column-gap: 32px; }
+  .telemo-cases__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 767px) {
+  .telemo-cases__intro { display: block; }
+  .telemo-cases__intro h3 { font-size: clamp(30px, 8vw, 42px); }
+  .telemo-cases__intro > p:last-child { margin-top: 24px; font-size: 15px; }
+  .telemo-cases__grid { margin-top: 40px; gap: 12px; }
+  .telemo-cases__grid article { min-height: 180px; padding: 20px 18px; }
+  .telemo-cases__grid h4 { margin-top: 24px; font-size: 16px; }
+}
+@media (max-width: 540px) {
+  .telemo-cases__grid { grid-template-columns: 1fr; }
+  .telemo-cases__grid article { min-height: 0; }
+}
+
+/* Reference layout: seven stage sales process and simple pricing. */
+.page-home #telemo-how { background: linear-gradient(180deg, #fff, #f5fbfd); }
+.telemo-how__intro { display: block; }
+.telemo-how__intro h3 {
+  margin: 0;
+  font-family: var(--font-body), sans-serif;
+  font-size: clamp(31px, 4.1vw, 51px); /* 上限 51px：本文幅 1120px に「営業の入口から、…にする。」(約 21.6em) が 1 行で収まる大きさ */
+  font-weight: 800;
+  line-height: 1.35;
+  letter-spacing: -.05em;
+  color: #071525;
+  word-break: auto-phrase;
+  text-wrap: balance;
+}
+.telemo-how__intro h3 span { display: inline-block; color: #007d8c; }
+.telemo-how__intro > p:last-child {
+  max-width: 1400px;
+  margin-top: 20px;
+  font-size: clamp(15px, 1.25vw, 20px);
+  line-height: 1.8;
+  font-weight: 600;
+  text-wrap: balance; /* 2 行に折れたとき末尾に「す。」だけ残さない */
+}
+.telemo-how__grid {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 68px;
+  padding: 0;
+  background: none;
+  list-style: none;
+}
+.telemo-how__grid li {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 0;
+  min-height: 340px;
+  padding: 42px 13px 22px;
+  border: 0;
+  border-radius: 8px;
+  background: #eaf8fc;
+  text-align: center;
+}
+.telemo-how__grid li:last-child { background: #ddfbf4; }
+.telemo-how__grid li:not(:last-child)::after {
+  content: '›';
+  position: absolute;
+  z-index: 2;
+  top: 44%;
+  right: -17px;
+  font: 500 42px/1 sans-serif;
+  color: #071525;
+}
+.telemo-how__number {
+  position: absolute;
+  top: -28px;
+  left: 50%;
+  display: grid;
+  place-items: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #005b6c;
+  color: #fff !important;
+  font: 700 23px/1 "Space Grotesk", sans-serif !important;
+  letter-spacing: 0 !important;
+  transform: translateX(-50%);
+}
+.telemo-how__grid h4 {
+  min-height: 3.1em;
+  margin: 0;
+  font-size: clamp(14px, 1.12vw, 21px);
+  font-weight: 800;
+  line-height: 1.55;
+  color: #004e61;
+}
+.telemo-how__icon {
+  display: grid;
+  place-items: center;
+  min-height: 98px;
+  font: 500 clamp(48px, 5vw, 78px)/1 sans-serif !important;
+  letter-spacing: 0 !important;
+  color: #006878 !important;
+}
+.telemo-how__icon svg {
+  display: block;
+  width: clamp(54px, 5vw, 78px);
+  height: clamp(54px, 5vw, 78px);
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.telemo-how__grid p {
+  margin: auto 0 0;
+  font-size: clamp(12px, .9vw, 15px);
+  font-weight: 500;
+  line-height: 1.7;
+  color: #41505c;
+  text-wrap: pretty; /* 末尾に「す。」だけ残さない */
+}
+
+.page-home #telemo-plan { background: #fff; color: #071525; }
+.page-home #telemo-plan .sec__title,
+.page-home #telemo-plan .telemo-plan__intro h3 { color: #071525; }
+.page-home #telemo-plan .sec__no,
+.page-home #telemo-plan .telemo-story__eyebrow { color: #007d8c; }
+.page-home #telemo-plan .sec__line { background: var(--rf-border); }
+.page-home #telemo-plan :focus-visible { outline-color: #006878; }
+.telemo-plan__intro { display: block; text-align: center; }
+.telemo-plan__intro h3 {
+  margin: 0;
+  font-family: var(--font-body), sans-serif;
+  font-size: clamp(40px, 5.6vw, 76px);
+  font-weight: 800;
+  line-height: 1.25;
+  letter-spacing: -.06em;
+}
+.telemo-plan__intro h3 span { color: #007d8c; }
+.telemo-plan__intro > p:last-child {
+  margin-top: 10px;
+  font-size: clamp(15px, 1.4vw, 21px);
+  line-height: 1.7;
+  color: #4b5965;
+  text-wrap: balance;
+}
+.telemo-plan__pricing {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1.45fr);
+  gap: 14px;
+  margin-top: 30px;
+  border: 0;
+}
+.telemo-plan__pricing > div {
+  min-width: 0;
+  min-height: 370px;
+  padding: 0;
+  border: 1px solid #d8edf1 !important;
+  border-radius: 9px;
+  overflow: hidden;
+  background-color: #fff;
+}
+.telemo-plan__price-card { padding: 26px 24px 18px !important; text-align: center; }
+.telemo-plan__price-card h4 { margin: 0; font-size: clamp(18px, 1.55vw, 25px); line-height: 1.4; color: #071525; }
+.telemo-plan__price-card h4 small { font-size: .7em; }
+.telemo-plan__price-card > strong {
+  display: block;
+  margin-top: 14px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #a4b8c1;
+  font: 700 clamp(42px, 4vw, 60px)/1.2 "Space Grotesk", sans-serif;
+  letter-spacing: -.045em;
+  color: #006878;
+  white-space: nowrap;
+}
+.telemo-plan__price-card > strong small { margin-left: 3px; font: 700 .4em/1 var(--font-body); }
+.telemo-plan__price-card > p { margin-top: 22px; font-size: clamp(16px, 1.4vw, 23px); font-weight: 600; line-height: 1.5; color: #273541; }
+.telemo-plan__price-card > p b { font: 700 1.55em/1 "Space Grotesk", sans-serif; color: #008b9a; }
+.telemo-plan__card-symbol { display: block; margin-top: 14px; font-size: 58px; line-height: 1; color: #005b6c; }
+.telemo-plan__unit { margin-top: 15px; padding: 12px 8px 9px; border-radius: 9px; background: #e5f9fc; font-size: 15px; color: #344653; }
+.telemo-plan__unit strong { display: block; margin: 0; font: 700 clamp(40px, 3.4vw, 60px)/1.1 "Space Grotesk", sans-serif; color: #008b9a; }
+.telemo-plan__unit strong small { font: 700 .45em/1 var(--font-body); }
+.telemo-plan__pricing .telemo-plan__included {
+  grid-column: auto;
+  display: block;
+  background: linear-gradient(90deg, #fff 0%, #fff 58%, rgba(255,255,255,.8) 74%, rgba(255,255,255,.1) 100%), url('assets/telemo-pricing/headset.png') right center / auto 100% no-repeat;
+}
+.telemo-plan__included h4 { margin: 0; padding: 15px 26px; background: #006878; font-size: clamp(18px, 1.5vw, 24px); color: #fff; }
+.telemo-plan__included ul { max-width: 96%; margin: 17px 0 0; padding: 0 20px 16px 23px; list-style: none; }
+.telemo-plan__included li { position: relative; min-height: 37px; padding: 3px 0 3px 42px; font-size: clamp(13px, 1vw, 17px); font-weight: 600; line-height: 1.55; color: #263541; }
+.telemo-plan__included li::before { content: '✓'; position: absolute; top: 1px; left: 0; display: grid; place-items: center; width: 28px; height: 28px; border-radius: 50%; background: #006878; color: #fff; font: 700 19px/1 sans-serif; }
+.telemo-plan__benefits { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin-top: 16px; }
+.telemo-plan__benefits > div { display: grid; grid-template-columns: 64px 1fr; column-gap: 12px; align-content: center; min-height: 118px; padding: 18px 15px; border: 1px solid #d8edf1; border-radius: 8px; background: #f6fcfd; }
+.telemo-plan__benefits span { grid-row: span 2; align-self: center; text-align: center; font: 700 52px/1 sans-serif; color: #006878; }
+.telemo-plan__benefits h4 { margin: 0; font-size: 17px; line-height: 1.5; color: #005b6c; }
+.telemo-plan__benefits p { margin: 3px 0 0; font-size: 13px; line-height: 1.5; color: #41505c; text-wrap: pretty; }
+.telemo-plan__effective { margin: 12px 0 0; font-size: 12px; color: #64717c; text-wrap: pretty; }
+.telemo-plan__banner { display: flex; align-items: center; justify-content: space-between; min-height: 190px; margin-top: 18px; padding: 28px 5%; background: linear-gradient(90deg, rgba(0,55,72,.98), rgba(0,60,76,.95) 40%, rgba(0,60,76,.32)), url('assets/telemo-pricing/skyline.png') center / cover no-repeat; color: #fff; }
+.telemo-plan__banner div { border-left: 5px solid #00dbe0; padding-left: 26px; }
+.telemo-plan__banner p { margin: 0; font-size: clamp(20px, 2.4vw, 35px); line-height: 1.4; color: #fff; }
+.telemo-plan__banner strong { display: block; font-size: clamp(25px, 3vw, 43px); line-height: 1.4; color: #00dbe0; word-break: auto-phrase; text-wrap: balance; }
+.telemo-plan__banner > span { font-family: "Klee", "Hiragino Mincho ProN", "Yu Mincho", serif; font-size: clamp(19px, 2.3vw, 34px); font-style: italic; line-height: 1.4; transform: rotate(-5deg); }
+.telemo-plan__process { margin-top: 66px; }
+.telemo-plan__process-heading { text-align: center; }
+.telemo-plan__process-heading h4 {
+  margin: 0;
+  font-size: clamp(30px, 4.2vw, 58px);
+  font-weight: 800;
+  line-height: 1.3;
+  letter-spacing: -.055em;
+  color: #071525;
+  word-break: auto-phrase;
+  text-wrap: balance;
+}
+.telemo-plan__process-heading h4 span { color: #007d8c; }
+.telemo-plan__process-heading p { margin: 7px 0 0; font-size: clamp(14px, 1.35vw, 20px); line-height: 1.6; color: #4b5965; }
+.telemo-plan__steps {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-auto-rows: 300px;
+  gap: 28px;
+  margin: 34px 0 0;
+  padding: 0;
+  list-style: none;
+}
+.telemo-plan__step {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  min-height: 0;
+  border: 1px solid #dcecf0;
+  border-radius: 7px;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0, 59, 75, .04);
+}
+.telemo-plan__step:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  top: 42%;
+  right: -19px;
+  width: 0;
+  height: 0;
+  border-top: 14px solid transparent;
+  border-bottom: 14px solid transparent;
+  border-left: 13px solid #7290a2;
+}
+.telemo-plan__step-number {
+  display: block;
+  padding: 8px 5px;
+  border-radius: 6px 6px 0 0;
+  background: #006d82;
+  color: #fff;
+  text-align: center;
+  font: 700 clamp(15px, 1.45vw, 22px)/1.25 "Space Grotesk", sans-serif;
+  letter-spacing: .01em;
+}
+.telemo-plan__step-body { display: grid; flex: 1; grid-template-rows: 3.6em 1fr auto; justify-items: center; min-height: 0; padding: 24px 8px 12px; text-align: center; }
+.telemo-plan__step h5 { display: flex; align-items: center; justify-content: center; margin: 0; font-size: clamp(15px, 1.2vw, 17px); font-weight: 800; line-height: 1.35; color: #00556b; word-break: auto-phrase; }
+.telemo-plan__step p { align-self: start; margin: 12px 0 0; font-size: clamp(11px, .9vw, 14px); font-weight: 500; line-height: 1.6; color: #4b5965; text-wrap: pretty; }
+.telemo-plan__step-price { width: 100%; padding: 10px 4px 5px; border-radius: 5px; background: #eaf8fc; color: #00556b; }
+.telemo-plan__step-price span { display: block; font-size: clamp(11px, .9vw, 14px); font-weight: 700; }
+.telemo-plan__step-price strong { display: block; font: 700 clamp(19px, 2.2vw, 32px)/1.25 "Space Grotesk", sans-serif; letter-spacing: -.04em; white-space: nowrap; }
+.telemo-plan__step-price small { margin-left: 2px; font: 700 .52em/1 var(--font-body); }
+.telemo-plan__step .telemo-plan__step-footnote { align-self: end; margin: 0; font-size: 11px; color: #537080; }
+.telemo-plan__carryover { display: grid; grid-template-columns: .9fr 1.1fr; gap: 18px; margin-top: 14px; }
+.telemo-plan__carryover-intro, .telemo-plan__carryover-example { min-width: 0; padding: 20px 24px; border: 1px solid #dcecf0; border-radius: 7px; background: #effaff; }
+.telemo-plan__carryover-intro { display: flex; flex-direction: column; justify-content: center; }
+.telemo-plan__carryover-intro h5 { margin: 0; font-size: clamp(18px, 2vw, 27px); line-height: 1.4; color: #00556b; text-wrap: balance; /* 320px で「し」だけ落ちるのを防ぎ 7/7 文字で折る */ }
+.telemo-plan__carryover-intro p { max-width: 32em; margin: 12px 0 0; font-size: clamp(13px, 1.15vw, 17px); line-height: 1.6; color: #4b5965; }
+.telemo-plan__carryover-example { background: #fff; }
+.telemo-plan__carryover-example > p { margin: 0 0 10px; font-size: clamp(14px, 1.4vw, 20px); font-weight: 700; color: #263541; }
+.telemo-plan__carryover-example > p span { display: inline-block; margin-right: 8px; padding: 2px 10px; border-radius: 20px; background: #006d82; font-size: .8em; color: #fff; }
+.telemo-plan__carryover-math { display: grid; grid-template-columns: 1fr auto 1fr auto 1.1fr; gap: 10px; align-items: center; text-align: center; }
+.telemo-plan__carryover-math > div { min-width: 0; }
+.telemo-plan__carryover-math small { display: block; font-size: clamp(11px, 1vw, 15px); color: #4b5965; }
+.telemo-plan__carryover-math strong { display: block; font: 700 clamp(21px, 2.1vw, 30px)/1.2 "Space Grotesk", sans-serif; letter-spacing: -.04em; color: #00556b; white-space: nowrap; }
+.telemo-plan__carryover-math em { margin-left: 2px; font: 700 .48em/1 var(--font-body); font-style: normal; letter-spacing: 0; }
+.telemo-plan__carryover-math b { font: 700 clamp(20px, 2.4vw, 34px)/1 sans-serif; color: #8ba0b5; }
+.telemo-plan__carryover-result { padding: 10px 3px; border-radius: 5px; background: #eaf8fc; }
+.telemo-plan__carryover-result span { display: block; font-size: clamp(11px, 1vw, 15px); font-weight: 700; color: #00556b; }
+.telemo-plan__process-notes { margin: 14px 0 0; padding: 0; list-style: none; color: #64717c; }
+.telemo-plan__process-notes li { font-size: 12px; line-height: 1.6; }
+.telemo-plan__process-notes li::before { content: '※ '; }
+.telemo-plan__actions { display: flex; flex-wrap: wrap; align-items: center; gap: 28px; margin-top: 36px; }
+.telemo-plan__detail { padding-block: 12px; border-bottom: 1px solid #007d8c; font-size: 14px; font-weight: 700; color: #006878; }
+.telemo-plan__detail:hover { color: #004d5e; border-color: #004d5e; }
+
+@media (max-width: 1300px) {
+  .telemo-plan__steps { grid-template-columns: repeat(3, minmax(0, 1fr)); grid-auto-rows: 280px; row-gap: 20px; }
+  .telemo-plan__step:nth-child(3)::after { display: none; }
+  .telemo-plan__step-number { font-size: 20px; }
+  .telemo-plan__step h5 { font-size: 20px; }
+  .telemo-plan__step p { font-size: 14px; }
+  .telemo-plan__step-price strong { font-size: 29px; }
+}
+@media (max-width: 1150px) {
+  .telemo-how__grid { grid-template-columns: repeat(4, minmax(0, 1fr)); row-gap: 46px; }
+  .telemo-how__grid li:nth-child(4)::after { display: none; }
+  .telemo-plan__pricing { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .telemo-plan__pricing .telemo-plan__included { grid-column: 1 / -1; min-height: 300px; }
+  .telemo-plan__benefits { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 950px) {
+  .telemo-plan__steps { grid-template-columns: 1fr; grid-auto-rows: auto; gap: 10px; }
+  .telemo-plan__step { display: grid; grid-template-columns: 112px minmax(0, 1fr); min-height: 116px; }
+  .telemo-plan__step::after { display: none !important; }
+  .telemo-plan__step-number { display: grid; place-items: center; border-radius: 6px 0 0 6px; }
+  .telemo-plan__step-body { grid-template-columns: minmax(145px, .8fr) minmax(0, 1.2fr); grid-template-rows: auto auto; justify-items: start; align-content: center; column-gap: 16px; row-gap: 8px; padding: 14px 20px; text-align: left; }
+  .telemo-plan__step h5 { justify-content: flex-start; font-size: 18px; }
+  .telemo-plan__step p { align-self: center; margin: 0; font-size: 14px; }
+  .telemo-plan__step-price { grid-column: 2; width: min(100%, 210px); padding: 5px 10px; text-align: center; }
+  .telemo-plan__step-price span { font-size: 11px; }
+  .telemo-plan__step-price strong { font-size: 23px; }
+  .telemo-plan__step .telemo-plan__step-footnote { grid-column: 2; justify-self: start; }
+  .telemo-plan__carryover { grid-template-columns: 1fr; }
+}
+@media (max-width: 767px) {
+  .telemo-plan__process { margin-top: 48px; }
+  .telemo-how__intro h3 { font-size: clamp(30px, 7vw, 48px); }
+  .telemo-how__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top: 58px; gap: 40px 12px; }
+  .telemo-how__grid li { min-height: 275px; padding: 36px 16px 18px; }
+  .telemo-how__grid li::after { display: none; }
+  .telemo-how__grid h4 { font-size: 17px; }
+  .telemo-how__icon { min-height: 78px; font-size: 56px !important; }
+  .telemo-how__grid p { font-size: 13px; }
+  .telemo-plan__pricing { margin-top: 26px; }
+  .telemo-plan__price-card { padding-inline: 15px !important; }
+  .telemo-plan__price-card > strong { font-size: clamp(34px, 5.4vw, 50px); }
+  .telemo-plan__price-card > p { font-size: 16px; }
+  .telemo-plan__benefits > div { grid-template-columns: 48px 1fr; }
+  .telemo-plan__benefits span { font-size: 42px; }
+  .telemo-plan__banner { min-height: 170px; }
+  .telemo-plan__banner > span { display: none; }
+}
+@media (max-width: 700px) {
+  .telemo-plan__steps { gap: 12px; }
+  .telemo-plan__step { display: flex; flex-direction: column; min-height: 0; }
+  .telemo-plan__step-number { display: block; border-radius: 6px 6px 0 0; }
+  .telemo-plan__step-body { display: flex; flex-direction: column; align-items: center; padding: 18px 18px 20px; text-align: center; }
+  .telemo-plan__step h5 { justify-content: center; font-size: 19px; }
+  .telemo-plan__step p { margin-top: 8px; }
+  .telemo-plan__step-price { width: min(100%, 260px); margin-top: 14px; }
+  .telemo-plan__step .telemo-plan__step-footnote { margin-top: 10px; }
+}
+@media (max-width: 540px) {
+  .telemo-plan__process-heading h4 { font-size: clamp(27px, 7vw, 35px); }
+  .telemo-plan__steps { margin-top: 26px; }
+  .telemo-plan__carryover-intro, .telemo-plan__carryover-example { padding: 18px; }
+  .telemo-plan__carryover-math { grid-template-columns: 1fr auto 1fr; row-gap: 14px; }
+  .telemo-plan__carryover-math > b:nth-of-type(2) { display: none; }
+  .telemo-plan__carryover-result { grid-column: 1 / -1; }
+  .telemo-how__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 36px 10px; }
+  .telemo-how__grid li { min-height: 0; padding: 34px 10px 18px; }
+  .telemo-how__grid h4 { font-size: 15px; }
+  .telemo-how__grid p { font-size: 12px; word-break: auto-phrase; }
+  .telemo-how__grid h4 { min-height: 0; }
+  .telemo-how__icon { min-height: 75px; }
+  .telemo-how__grid p { margin-top: 0; }
+  .telemo-plan__pricing,
+  .telemo-plan__benefits { grid-template-columns: 1fr; }
+  .telemo-plan__pricing > div { min-height: 0; }
+  .telemo-plan__price-card { padding: 24px 18px !important; }
+  .telemo-plan__price-card > strong { font-size: clamp(42px, 11vw, 58px); }
+  .telemo-plan__pricing .telemo-plan__included { grid-column: auto; }
+  .telemo-plan__included ul { padding-right: 10px; }
+  .telemo-plan__banner { padding: 24px 16px; }
+  .telemo-plan__banner div { padding-left: 16px; }
+}
+@media (max-width: 359px) {
+  /* 「TELEMOについて相談する」が「相談 / する」と折れないよう、ボタン文字を 1 段小さく */
+  .telemo-plan__actions .btn { font-size: 14px; }
+}

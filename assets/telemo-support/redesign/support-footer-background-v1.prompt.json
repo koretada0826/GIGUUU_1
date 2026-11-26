@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "asset": "support-footer-background-v1.png",
+  "use_case": "ads-marketing",
+  "generator": {
+    "mode": "built-in image_gen",
+    "model": "tool default; no model selector provided",
+    "source_path": "/Users/matsugirintarou/.codex/generated_images/01a134a6-229a-7d60-9c6c-15ab30a9edd4/exec-1a378daa-4fc8-4da0-84d3-70d6bf2b1d43.png"
+  },
+  "reference_image": "/Users/matsugirintarou/Desktop/rintaro/ChatGPT 画像 2026年10月13日 18_40_31.png",
+  "reference_region": {
+    "x": 0,
+    "y": 801,
+    "width": 1727,
+    "height": 110
+  },
+  "prompt": "Use case: ads-marketing\nAsset type: raster decorative background for the TELEMO website footer.\nInput image: reference only, use ONLY its bottom navy footer background at x0 y801 width1727 height110. Ignore ALL text and other page content.\nPrimary request: recreate that footer background as a clean panoramic banner with a uniform deep navy blue #0B3768 field. Only at the far bottom right, add two very subtle translucent medium-blue sweeping curved arc segments with one fine pale blue arc outline, matching the reference footer's restrained elegant blue geometry. The left 80% must be uninterrupted deep navy.\nComposition/framing: extremely wide horizontal banner, preferred about 1727x110. If a broader image ratio is required, use a 3:1 landscape canvas; keep the top 40% navy and put the arcs ONLY into the far bottom right, intended to be cropped to the bottom 19% in a 15:1 footer. Arcs must stay at the very right edge, never invade central text-safe space.\nStyle/medium: polished flat raster brand backdrop, very low contrast subtle blue geometry, clean crisp edges.\nConstraints: background only. NO text, NO letters, NO logo, NO motto, NO horizontal separators, NO people, NO icons, NO white area, NO gradients across the main navy field, NO watermark. Output one image.",
+  "transparent_background": false,
+  "css_crop_advice": "Use background-size: cover; background-position: right bottom. For a 15:1 footer, visible source height is approximately 148px of 708px, anchored to bottom. To retain full arc shape, use the image stretched as background-size: 100% 100%."
+}

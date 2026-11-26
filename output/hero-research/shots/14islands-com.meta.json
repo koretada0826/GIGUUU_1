@@ -1,0 +1,130 @@
+{
+ "slug": "14islands-com",
+ "url": "https://14islands.com/",
+ "capturedAt": "2026-10-12 21:08:36",
+ "files": {
+  "pc_f0": "14islands-com-pc-f0.jpg",
+  "pc_f1": "14islands-com-pc-f1.jpg",
+  "pc_f2": "14islands-com-pc-f2.jpg",
+  "pc_scroll": "14islands-com-pc-scroll.jpg",
+  "sp": "14islands-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.14islands.com/",
+  "title": "14islands | Creative design & technology agency",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 10304,
+  "h1": "DesignTechnology&",
+  "h1Style": {
+   "fontFamily": "BentonSans, sans-serif",
+   "fontSize": "16px",
+   "fontWeight": "400",
+   "lineHeight": "normal",
+   "letterSpacing": "normal",
+   "color": "rgb(7, 7, 7)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 54,
+    "y": 455,
+    "w": 1332,
+    "h": 355
+   }
+  },
+  "lead": null,
+  "ctas": [],
+  "videos": [
+   {
+    "src": "https://cdn.sanity.io/files/f3tpxs09/production/f7c533514e697633ae912646f5b296ee600340a9.mp4",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 1332,
+    "h": 749,
+    "playing": true
+   }
+  ],
+  "canvases": [
+   {
+    "w": 1440,
+    "h": 900
+   }
+  ],
+  "images": [],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "BentonSans",
+   "AftenScreen"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "Design Technology &",
+  "h1Style": {
+   "fontFamily": "BentonSans, sans-serif",
+   "fontSize": "16px",
+   "fontWeight": "400",
+   "lineHeight": "normal",
+   "letterSpacing": "normal",
+   "color": "rgb(7, 7, 7)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 15,
+    "y": 486,
+    "w": 360,
+    "h": 140
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "Work",
+   "Services",
+   "Culture",
+   "Journal",
+   "AI",
+   "Contact"
+  ],
+  "videos": [
+   {
+    "src": "https://cdn.sanity.io/files/f3tpxs09/production/f7c533514e697633ae912646f5b296ee600340a9.mp4",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 390,
+    "h": 219,
+    "playing": true
+   }
+  ],
+  "canvases": [
+   {
+    "w": 390,
+    "h": 844
+   }
+  ],
+  "images": [],
+  "pageHeight": 9148
+ },
+ "elapsedSec": 13.3
+}

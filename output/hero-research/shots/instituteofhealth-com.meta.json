@@ -1,0 +1,125 @@
+{
+ "slug": "instituteofhealth-com",
+ "url": "https://www.instituteofhealth.com/",
+ "capturedAt": "2026-10-12 21:12:58",
+ "files": {
+  "pc_f0": "instituteofhealth-com-pc-f0.jpg",
+  "pc_f1": "instituteofhealth-com-pc-f1.jpg",
+  "pc_f2": "instituteofhealth-com-pc-f2.jpg",
+  "pc_scroll": "instituteofhealth-com-pc-scroll.jpg",
+  "sp": "instituteofhealth-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.instituteofhealth.com/",
+  "title": "Institute of Health",
+  "lang": "en-AU",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 11987,
+  "h1": "Global leaders in functional medicine and nutrition",
+  "h1Style": {
+   "fontFamily": "\"Lay Grotesk\", Arial, sans-serif",
+   "fontSize": "57.6px",
+   "fontWeight": "500",
+   "lineHeight": "57.6px",
+   "letterSpacing": "-0.216px",
+   "color": "rgb(241, 241, 241)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 32,
+    "y": 635,
+    "w": 564,
+    "h": 173
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "Student Login",
+   "Learn More"
+  ],
+  "videos": [
+   {
+    "src": "https://cdn.prod.website-files.com/69014633b3494c3d0ef793fc%2F6939a16cb78d37d4b631caeb_hero-video%20%28comp%29_mp4.mp4",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 1440,
+    "h": 900,
+    "playing": true
+   }
+  ],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://cdn.prod.website-files.com/69014633b3494c3d0ef793fc/690673943f2464c805ad9a3c_d36f80ea84af77c938ea25597093de6a_logo.png",
+    "w": 52,
+    "h": 46,
+    "alt": "Insitute of Health, logo, white, png"
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Lay Grotesk"
+  ],
+  "libs": {
+   "gsap": true,
+   "ScrollTrigger": true,
+   "three": false,
+   "lenis": true,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(230, 230, 230)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 48,
+ "sp": {
+  "h1": "Global leaders in functional medicine and nutrition",
+  "h1Style": {
+   "fontFamily": "\"Lay Grotesk\", Arial, sans-serif",
+   "fontSize": "39.78px",
+   "fontWeight": "500",
+   "lineHeight": "43.758px",
+   "letterSpacing": "-0.0585px",
+   "color": "rgb(241, 241, 241)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 16,
+    "y": 477,
+    "w": 358,
+    "h": 131
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "Student Login",
+   "Learn More"
+  ],
+  "videos": [
+   {
+    "src": "https://cdn.prod.website-files.com/69014633b3494c3d0ef793fc%2F6939a16cb78d37d4b631caeb_hero-video%20%28comp%29_mp4.mp4",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 390,
+    "h": 844,
+    "playing": true
+   }
+  ],
+  "canvases": [],
+  "images": [],
+  "pageHeight": 11131
+ },
+ "elapsedSec": 13.6
+}

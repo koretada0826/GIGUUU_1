@@ -1,0 +1,132 @@
+{
+ "slug": "www-five9-com",
+ "url": "https://www.five9.com/",
+ "capturedAt": "2026-10-12 21:07:43",
+ "files": {
+  "pc_f0": "www-five9-com-pc-f0.jpg",
+  "pc_f1": "www-five9-com-pc-f1.jpg",
+  "pc_f2": "www-five9-com-pc-f2.jpg",
+  "pc_scroll": "www-five9-com-pc-scroll.jpg",
+  "sp": "www-five9-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.five9.com/",
+  "title": "Call & Contact Center As A Service (CCaaS) Provider | Five9",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 6921,
+  "h1": "Containment rate looks good, but CSAT tells a different story?",
+  "h1Style": {
+   "fontFamily": "Silka, sans-serif",
+   "fontSize": "60px",
+   "fontWeight": "700",
+   "lineHeight": "67px",
+   "letterSpacing": "normal",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 65,
+    "y": 291,
+    "w": 643,
+    "h": 268
+   }
+  },
+  "lead": "Containment measures how many customers stopped. CSAT measures whether they wanted to. The gap between them is your AI problem.",
+  "ctas": [
+   "Products",
+   "Solutions",
+   "Services",
+   "Customers",
+   "Partners",
+   "Resources",
+   "About Us",
+   "Meet the AI that closes the gap"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.five9.com/sites/default/files/2025-02/five9-logo.svg",
+    "w": 100,
+    "h": 53,
+    "alt": "Five9 Logo"
+   },
+   {
+    "src": "https://www.five9.com/sites/default/files/styles/eager/public/2026-06/ace8aea4a488191d4f0ce33e578e9f05ce5a06b4.png.webp?itok=1pTWbZgP",
+    "w": 1440,
+    "h": 803,
+    "alt": "Abstract blue and green digital audio waveform."
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Silka"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "Containment rate looks good, but CSAT tells a different story?",
+  "h1Style": {
+   "fontFamily": "Silka, sans-serif",
+   "fontSize": "40px",
+   "fontWeight": "700",
+   "lineHeight": "48px",
+   "letterSpacing": "normal",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 12,
+    "y": 247,
+    "w": 366,
+    "h": 192
+   }
+  },
+  "lead": "Containment measures how many customers stopped. CSAT measures whether they wanted to. The gap between them is your AI problem.",
+  "ctas": [
+   "Meet the AI that closes the gap",
+   "See how it works",
+   "View Demo",
+   "Get a Quote"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.five9.com/sites/default/files/2025-02/five9-logo.svg",
+    "w": 80,
+    "h": 42,
+    "alt": "Five9 Logo"
+   },
+   {
+    "src": "https://www.five9.com/sites/default/files/styles/eager/public/2026-06/ace8aea4a488191d4f0ce33e578e9f05ce5a06b4.png.webp?itok=1pTWbZgP",
+    "w": 390,
+    "h": 684,
+    "alt": "Abstract blue and green digital audio waveform."
+   }
+  ],
+  "pageHeight": 16266
+ },
+ "elapsedSec": 13.2
+}

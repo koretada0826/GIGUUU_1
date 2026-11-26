@@ -1,0 +1,201 @@
+{
+ "slug": "lightshiprv-com",
+ "url": "https://www.lightshiprv.com/",
+ "capturedAt": "2026-10-12 21:15:35",
+ "files": {
+  "pc_f0": "lightshiprv-com-pc-f0.jpg",
+  "pc_f1": "lightshiprv-com-pc-f1.jpg",
+  "pc_f2": "lightshiprv-com-pc-f2.jpg",
+  "pc_scroll": "lightshiprv-com-pc-scroll.jpg",
+  "sp": "lightshiprv-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.lightshiprv.com/",
+  "title": "Home — Lightship",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 12501,
+  "h1": "Born for Adventure. Born for Adventure. Built in America. Built in America.",
+  "h1Style": {
+   "fontFamily": "F37Bolton, sans-serif",
+   "fontSize": "72.0022px",
+   "fontWeight": "400",
+   "lineHeight": "72.0022px",
+   "letterSpacing": "-3.60011px",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 28,
+    "y": 414,
+    "w": 1384,
+    "h": 72
+   }
+  },
+  "lead": "Born for Adventure. Built in America.",
+  "ctas": [
+   "Open / Close menu",
+   "AE.1",
+   "Technology",
+   "Specs",
+   "Homepage",
+   "Experience",
+   "Build yours",
+   "AE.1",
+   "Technology",
+   "Experience",
+   "Build yours"
+  ],
+  "videos": [
+   {
+    "src": "blob:https://www.lightshiprv.com/100b544f-ff13-41de-bafe-b0367057aacc",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 1424,
+    "h": 884,
+    "playing": true
+   }
+  ],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.lightshiprv.com/assets/images/temp/newsletter-cover.jpg",
+    "w": 690,
+    "h": 150,
+    "alt": "Get the latest from Lightship"
+   },
+   {
+    "src": "https://lightshiprv.com/uploads/SRC_251008_3912_WEB_ONLY_%281%29-1200x000.jpg",
+    "w": 458,
+    "h": 678,
+    "alt": ""
+   },
+   {
+    "src": "https://lightshiprv.com/uploads/products/Atmos/2795_ATMOS_PANOS_SH014_Tech_Stills_Power_Systems_001-1200x000.jpg",
+    "w": 342,
+    "h": 337,
+    "alt": ""
+   },
+   {
+    "src": "https://lightshiprv.com/uploads/DSC01610-1200x000.jpg",
+    "w": 342,
+    "h": 337,
+    "alt": ""
+   },
+   {
+    "src": "https://www.lightshiprv.com/uploads/DSC01378.jpg",
+    "w": 392,
+    "h": 235,
+    "alt": ""
+   },
+   {
+    "src": "https://www.lightshiprv.com/uploads/DSC01833.jpg",
+    "w": 292,
+    "h": 219,
+    "alt": ""
+   },
+   {
+    "src": "https://www.lightshiprv.com/uploads/pages/Homepage/Grid/DSC03416-Enhanced-NR.jpg",
+    "w": 292,
+    "h": 219,
+    "alt": ""
+   },
+   {
+    "src": "https://www.lightshiprv.com/uploads/pages/Homepage/Grid/SRC_251008_6118_WEB_ONLY_%281%29.jpg",
+    "w": 392,
+    "h": 235,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "F37Bolton"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "Born for Adventure. Born for Adventure. Built in America. Built in America.",
+  "h1Style": {
+   "fontFamily": "F37Bolton, sans-serif",
+   "fontSize": "40.1256px",
+   "fontWeight": "400",
+   "lineHeight": "40.1256px",
+   "letterSpacing": "-2.00628px",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 28,
+    "y": 411,
+    "w": 334,
+    "h": 80
+   }
+  },
+  "lead": "Born for Adventure. Built in America.",
+  "ctas": [
+   "Open / Close menu",
+   "AE.1",
+   "Homepage",
+   "Build yours",
+   "AE.1",
+   "Technology",
+   "Experience",
+   "Build yours"
+  ],
+  "videos": [
+   {
+    "src": "blob:https://www.lightshiprv.com/2b00f49b-691b-4269-a46b-b9e2a14c19c2",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 374,
+    "h": 770,
+    "playing": true
+   }
+  ],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.lightshiprv.com/assets/images/temp/newsletter-cover.jpg",
+    "w": 358,
+    "h": 78,
+    "alt": "Get the latest from Lightship"
+   },
+   {
+    "src": "https://lightshiprv.com/uploads/SRC_251008_3912_WEB_ONLY_%281%29-1200x000.jpg",
+    "w": 342,
+    "h": 214,
+    "alt": ""
+   },
+   {
+    "src": "https://lightshiprv.com/uploads/products/Atmos/2795_ATMOS_PANOS_SH014_Tech_Stills_Power_Systems_001-1200x000.jpg",
+    "w": 342,
+    "h": 214,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 8626
+ },
+ "elapsedSec": 14.4
+}

@@ -1,0 +1,178 @@
+{
+ "slug": "recruit-kyushokuou-com",
+ "url": "https://recruit.kyushokuou.com/",
+ "capturedAt": "2026-10-12 21:15:48",
+ "files": {
+  "pc_f0": "recruit-kyushokuou-com-pc-f0.jpg",
+  "pc_f1": "recruit-kyushokuou-com-pc-f1.jpg",
+  "pc_f2": "recruit-kyushokuou-com-pc-f2.jpg",
+  "pc_scroll": "recruit-kyushokuou-com-pc-scroll.jpg",
+  "sp": "recruit-kyushokuou-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://recruit.kyushokuou.com/",
+  "title": "給食・お弁当の調理・盛付・配送の求人募集｜給食王グループ",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 5361,
+  "h1": "",
+  "h1Style": {
+   "fontFamily": "\"Noto Sans JP\", sans-serif",
+   "fontSize": "0px",
+   "fontWeight": "400",
+   "lineHeight": "0px",
+   "letterSpacing": "0.425px",
+   "color": "rgb(0, 0, 0)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 644,
+    "y": 0,
+    "w": 151,
+    "h": 121
+   }
+  },
+  "lead": null,
+  "ctas": [],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://recruit.kyushokuou.com/wordpress/wp-content/uploads/2024/06/logo_kyushokuo-1.svg",
+    "w": 151,
+    "h": 121,
+    "alt": "給食王グループ｜求人サイト"
+   },
+   {
+    "src": "https://recruit.kyushokuou.com/wordpress/wp-content/uploads/2024/06/promo_txt.svg",
+    "w": 547,
+    "h": 326,
+    "alt": "食で未来を彩れ!!\n次の主人公は貴方だ!!"
+   },
+   {
+    "src": "https://recruit.kyushokuou.com/wordpress/wp-content/uploads/2024/06/about_subttl.png",
+    "w": 493,
+    "h": 78,
+    "alt": "食を通じて世界を動かす"
+   },
+   {
+    "src": "https://recruit.kyushokuou.com/wordpress/wp-content/uploads/2024/08/about_img.jpg",
+    "w": 709,
+    "h": 603,
+    "alt": "味覚だけじゃない、感情も煮込む！！"
+   },
+   {
+    "src": "https://recruit.kyushokuou.com/wordpress/wp-content/uploads/2024/06/logo_kyushokuo_w-2.svg",
+    "w": 180,
+    "h": 115,
+    "alt": "給食王GROUP RECRUIT SITE"
+   }
+  ],
+  "backgroundImages": [
+   {
+    "bg": "url(\"https://recruit.kyushokuou.com/wordpress/wp-content/uploads/2024/08/promo_bg-1.jpg\")",
+    "w": 1354,
+    "h": 580
+   },
+   {
+    "bg": "url(\"https://recruit.kyushokuou.com/wordpress/wp-content/uploads/2024/06/about_en.png\")",
+    "w": 1440,
+    "h": 850
+   }
+  ],
+  "firstScreenFonts": [
+   "Noto Sans JP",
+   "Oswald"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "",
+  "h1Style": {
+   "fontFamily": "\"Noto Sans JP\", sans-serif",
+   "fontSize": "0px",
+   "fontWeight": "400",
+   "lineHeight": "0px",
+   "letterSpacing": "0.4px",
+   "color": "rgb(0, 0, 0)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "Menu",
+   "Close",
+   "トップページ",
+   "採用メッセージ",
+   "求人情報",
+   "企業紹介",
+   "お仕事紹介",
+   "よくある質問",
+   "ブログ",
+   "運営会社",
+   "お問い合わせ"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://recruit.kyushokuou.com/wordpress/wp-content/uploads/2024/06/logo_kyushokuo-1.svg",
+    "w": 114,
+    "h": 90,
+    "alt": "給食王グループ｜求人サイト"
+   },
+   {
+    "src": "https://recruit.kyushokuou.com/wordpress/wp-content/uploads/2024/06/promo_txt.svg",
+    "w": 310,
+    "h": 185,
+    "alt": "食で未来を彩れ!!\n次の主人公は貴方だ!!"
+   },
+   {
+    "src": "https://recruit.kyushokuou.com/wordpress/wp-content/uploads/2024/06/about_subttl.png",
+    "w": 315,
+    "h": 50,
+    "alt": "食を通じて世界を動かす"
+   },
+   {
+    "src": "https://recruit.kyushokuou.com/wordpress/wp-content/uploads/2024/08/about_img.jpg",
+    "w": 375,
+    "h": 319,
+    "alt": "味覚だけじゃない、感情も煮込む！！"
+   },
+   {
+    "src": "https://recruit.kyushokuou.com/wordpress/wp-content/uploads/2024/06/logo_kyushokuo_w-2.svg",
+    "w": 120,
+    "h": 77,
+    "alt": "給食王GROUP RECRUIT SITE"
+   }
+  ],
+  "pageHeight": 4421
+ },
+ "elapsedSec": 13.1
+}

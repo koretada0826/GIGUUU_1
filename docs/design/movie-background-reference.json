@@ -1,0 +1,85 @@
+{
+  "reference": "https://menkyohenno-movie.com/",
+  "retrieved_at": "2026-10-22T08:48:11.230304+00:00",
+  "http_status": 200,
+  "source_css": {
+    "url": "https://menkyohenno-movie.com/assets/css/style.css?260408",
+    "sha256": "25e48f71dd58cb2246c4067d0228d41f7e169ba4d96880eda60da1a190af218b"
+  },
+  "observed_viewports": [
+    {
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "width": 390,
+      "height": 900
+    }
+  ],
+  "observations": [
+    {
+      "reference": ".p-index__cast and .p-index__theme-song",
+      "observed": "Fine square grid repeated behind content; about 20px desktop and 19px mobile.",
+      "adaptation": "Original 32px grid on desktop, 24px mobile, with a low-opacity teal stroke on the existing pale gray / teal surfaces.",
+      "targets": [
+        "#telemo-listen",
+        "#telemo-core",
+        "#telemo-plan",
+        "#company"
+      ]
+    },
+    {
+      "reference": ".p-index__intro__cont and .p-index__staff__cont",
+      "observed": "Light paper-shaped content backgrounds use diagonal, irregular edges against solid chapter colors.",
+      "adaptation": "Shallow polygon cuts on decorative layers; content itself is never clipped. White paper is layered over the pale pricing chapter.",
+      "targets": [
+        "#telemo-listen",
+        "#founder",
+        "#telemo-how",
+        "#telemo-plan",
+        "#contact"
+      ]
+    },
+    {
+      "reference": ".p-index__vs",
+      "observed": "Concentric framing in the main visual.",
+      "adaptation": "Three original low-opacity teal circle outlines, cropped at the desktop benefits background corner. Mobile keeps only the grid.",
+      "targets": [
+        "#telemo-core"
+      ]
+    },
+    {
+      "reference": "Section background changes",
+      "observed": "Distinct solid colors mark chapter transitions.",
+      "adaptation": "Retain the established white, #eaf6f8 and #f4f6f8 palette; alternate plain, faceted and patterned surfaces without changing section order.",
+      "targets": [
+        "#telemo-listen",
+        "#founder",
+        "#telemo-how",
+        "#telemo-core",
+        "#telemo-plan",
+        "#company",
+        "#contact"
+      ]
+    }
+  ],
+  "constraints": {
+    "content_and_links": "unchanged",
+    "typography_and_layout": "unchanged",
+    "existing_character_animation_and_comments": "unchanged",
+    "new_background_motion": false,
+    "gradients": false,
+    "reference_images_fonts_or_copy_reused": false,
+    "external_runtime_requests_added": false
+  },
+  "implementation": {
+    "branch": "design/movie-background",
+    "base_commit": "dc5d355",
+    "preview": "http://localhost:8002/",
+    "stylesheet": "telemo-movie-background.css",
+    "original_svg_assets": [
+      "assets/backgrounds/telemo-grid.svg",
+      "assets/backgrounds/telemo-orbits.svg"
+    ]
+  }
+}

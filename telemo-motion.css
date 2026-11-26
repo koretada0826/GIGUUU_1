@@ -1,0 +1,154 @@
+/* ===== 登場の動き =====
+   telemo-motion.js が html に付けるクラスがあるときだけ効く。
+   JS が動かない環境と reduced motion では、ここで隠すものは何もない。 */
+@media screen and (prefers-reduced-motion: no-preference) {
+  /* 再生前は透明にするだけ。位置は変えないので、アンカーの着地に影響しない。 */
+  html.lpsr-motion-ready .lpsr-motion-armed { opacity: 0; }
+  /* 左右から入るカードで、横スクロールを出さない。 */
+  html.lpsr-motion-ready #telemo-compare { overflow-x: clip; }
+}
+/* ホバーはカードの小さな持ち上がりだけ。既存の .telemo-how__grid li.reveal:hover の拡大はそのまま。 */
+@media screen and (hover: hover) and (prefers-reduced-motion: no-preference) {
+  html.lpsr-motion-ready #telemo-cases .telemo-cases__card,
+  html.lpsr-motion-ready .telemo-benefits__card { transition: translate .25s cubic-bezier(.22, 1, .36, 1); }
+  html.lpsr-motion-ready #telemo-cases .telemo-cases__card:hover,
+  html.lpsr-motion-ready .telemo-benefits__card:hover { translate: 0 -4px; }
+}
+
+/* ===== カードの配置 =====
+   配置だけを上書きする。文言、配色、カードの枠はそのまま。
+   大きさを行で変える、段違いにする、一部を重ねる、の 3 つで単調な並びを崩す。 */
+
+/* 創業者: 名前の札を写真に重ね、本文を一段下げる */
+@media (min-width: 1200px) {
+  .page-home #founder .founder__grid { grid-template-columns: minmax(0, 400px) minmax(0, 1fr); }
+  .page-home #founder .founder__body { margin-top: 52px; }
+}
+@media (min-width: 768px) {
+  .page-home #founder .founder__meta {
+    position: relative;
+    z-index: 1;
+    margin: -52px 0 0 56px;
+    padding: 16px 0 0 20px;
+    background: #fff;
+  }
+}
+@media (max-width: 767px) {
+  .page-home #founder .founder__photo { width: 80%; }
+  .page-home #founder .founder__meta {
+    position: relative;
+    z-index: 1;
+    margin: -40px 0 0 22%;
+    padding: 14px 0 0 16px;
+    background: #fff;
+  }
+}
+
+/* 導入の流れ: 入口から成果へ、階段状に上がる */
+@media (min-width: 1151px) {
+  .page-home .telemo-how__grid li:nth-child(1) { margin-top: 84px; }
+  .page-home .telemo-how__grid li:nth-child(2) { margin-top: 70px; margin-bottom: 14px; }
+  .page-home .telemo-how__grid li:nth-child(3) { margin-top: 56px; margin-bottom: 28px; }
+  .page-home .telemo-how__grid li:nth-child(4) { margin-top: 42px; margin-bottom: 42px; }
+  .page-home .telemo-how__grid li:nth-child(5) { margin-top: 28px; margin-bottom: 56px; }
+  .page-home .telemo-how__grid li:nth-child(6) { margin-top: 14px; margin-bottom: 70px; }
+  .page-home .telemo-how__grid li:nth-child(7) { margin-bottom: 84px; }
+}
+@media (max-width: 950px) {
+  .page-home .telemo-how__grid li:nth-child(even) { margin-top: 36px; }
+  .page-home .telemo-how__grid li:nth-child(odd) { margin-bottom: 36px; }
+}
+
+/* 活用シーン: 3-2-3 で行ごとに大きさを変える。中段は写真と文を横に組み、左右を入れ替える。
+   通常グリッド専用。横スクロールにはカードの配置を適用しない。 */
+@media (min-width: 1101px) {
+  .page-home #telemo-cases .telemo-cases__grid:not(.lpsr-cases-scroll) { grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 18px 14px; }
+  .page-home #telemo-cases .telemo-cases__grid:not(.lpsr-cases-scroll) > .telemo-cases__card { grid-column: span 4; }
+  .page-home #telemo-cases .telemo-cases__grid:not(.lpsr-cases-scroll) > .telemo-cases__card:nth-child(2),
+  .page-home #telemo-cases .telemo-cases__grid:not(.lpsr-cases-scroll) > .telemo-cases__card:nth-child(6),
+  .page-home #telemo-cases .telemo-cases__grid:not(.lpsr-cases-scroll) > .telemo-cases__card:nth-child(8) { margin-top: 22px; }
+  .page-home #telemo-cases .telemo-cases__grid:not(.lpsr-cases-scroll) > .telemo-cases__card:nth-child(1),
+  .page-home #telemo-cases .telemo-cases__grid:not(.lpsr-cases-scroll) > .telemo-cases__card:nth-child(3),
+  .page-home #telemo-cases .telemo-cases__grid:not(.lpsr-cases-scroll) > .telemo-cases__card:nth-child(7) { margin-bottom: 22px; }
+  .page-home #telemo-cases .telemo-cases__grid:not(.lpsr-cases-scroll) > .telemo-cases__card:nth-child(4),
+  .page-home #telemo-cases .telemo-cases__grid:not(.lpsr-cases-scroll) > .telemo-cases__card:nth-child(5) {
+    grid-column: span 6;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr);
+    grid-template-rows: auto 1fr;
+    column-gap: 6px;
+  }
+  .page-home #telemo-cases .telemo-cases__grid:not(.lpsr-cases-scroll) > .telemo-cases__card:nth-child(4) img,
+  .page-home #telemo-cases .telemo-cases__grid:not(.lpsr-cases-scroll) > .telemo-cases__card:nth-child(5) img {
+    grid-row: 1 / 3;
+    height: 100%;
+    aspect-ratio: auto;
+  }
+  .page-home #telemo-cases .telemo-cases__grid:not(.lpsr-cases-scroll) > .telemo-cases__card:nth-child(4) img { grid-column: 2; }
+  .page-home #telemo-cases .telemo-cases__grid:not(.lpsr-cases-scroll) > .telemo-cases__card:nth-child(4) :is(.telemo-cases__card-head, p) { grid-column: 1; }
+  .page-home #telemo-cases .telemo-cases__grid:not(.lpsr-cases-scroll) > .telemo-cases__card:nth-child(5) img { grid-column: 1; }
+  .page-home #telemo-cases .telemo-cases__grid:not(.lpsr-cases-scroll) > .telemo-cases__card:nth-child(5) :is(.telemo-cases__card-head, p) { grid-column: 2; }
+}
+@media (min-width: 601px) and (max-width: 1100px) {
+  .page-home #telemo-cases .telemo-cases__grid:not(.lpsr-cases-scroll) > .telemo-cases__card:nth-child(even) { margin-top: 24px; }
+  .page-home #telemo-cases .telemo-cases__grid:not(.lpsr-cases-scroll) > .telemo-cases__card:nth-child(odd) { margin-bottom: 24px; }
+}
+
+/* 比較: TELEMO の方を大きくし、人の方を一段下げる。スマホはカード内の重なりを避けてそのまま。 */
+@media (min-width: 1161px) {
+  .page-home .telemo-compare__grid { grid-template-columns: minmax(0, .88fr) 150px minmax(0, 1.12fr); gap: 8px; }
+  .page-home .telemo-compare__card--human { align-self: end; margin-top: 40px; }
+}
+
+/* 6つの仕組み: 左右を半段ずらしてかみ合わせる。中央の見出しと社長はそのまま。 */
+@media (min-width: 1100px) {
+  .background-study #telemo-core .telemo-benefits {
+    grid-template-areas:
+      "voice center ."
+      "voice center tree"
+      "analysis center tree"
+      "analysis center handover"
+      "calls center handover"
+      "calls center support"
+      ". center support";
+  }
+  .page-home #telemo-core .telemo-benefits__card--voice,
+  .page-home #telemo-core .telemo-benefits__card--calls,
+  .page-home #telemo-core .telemo-benefits__card--handover { margin-left: 52px; margin-right: 0; }
+  .page-home #telemo-core .telemo-benefits__card--analysis,
+  .page-home #telemo-core .telemo-benefits__card--tree,
+  .page-home #telemo-core .telemo-benefits__card--support { margin-left: 0; margin-right: 52px; }
+}
+@media (min-width: 601px) and (max-width: 1099px) {
+  .page-home #telemo-core .telemo-benefits__card:nth-of-type(even) { margin-top: 32px; }
+  .page-home #telemo-core .telemo-benefits__card:nth-of-type(odd) { margin-bottom: 32px; }
+}
+/* 改善サイクル: 上下に振る */
+@media (min-width: 960px) {
+  .page-home .telemo-support__step:nth-child(odd) { margin-top: 24px; }
+  .page-home .telemo-support__step:nth-child(even) { margin-bottom: 24px; }
+}
+@media (max-width: 959px) {
+  .page-home .telemo-support__step:nth-child(even) { margin-top: 20px; }
+  .page-home .telemo-support__step:nth-child(odd) { margin-bottom: 20px; }
+}
+
+/* 料金: 価格カードを段違いにし、繰り越しの説明を例に重ねる */
+@media (min-width: 1151px) {
+  .page-home .telemo-plan__pricing .telemo-plan__price-card:first-child { margin-bottom: 26px; }
+  .page-home .telemo-plan__pricing .telemo-plan__price-card:nth-child(2) { margin-top: 26px; }
+  .page-home .telemo-plan__benefits > div:nth-child(even) { margin-top: 14px; }
+  .page-home .telemo-plan__benefits > div:nth-child(odd) { margin-bottom: 14px; }
+  .page-home .telemo-plan__steps { grid-auto-rows: 318px; }
+  .page-home .telemo-plan__step:nth-child(even) { margin-top: 18px; }
+  .page-home .telemo-plan__step:nth-child(odd) { margin-bottom: 18px; }
+  .page-home .telemo-plan__carryover { grid-template-columns: .8fr 1.2fr; }
+  .page-home .telemo-plan__carryover-intro { position: relative; z-index: 1; margin: 22px -30px 22px 0; }
+  .page-home .telemo-plan__carryover-example { padding-left: 54px; }
+}
+@media (max-width: 700px) {
+  .page-home .telemo-plan__pricing .telemo-plan__price-card:first-child { margin-right: 18px; }
+  .page-home .telemo-plan__pricing .telemo-plan__price-card:nth-child(2) { margin-left: 18px; }
+  .page-home .telemo-plan__benefits > div:nth-child(odd) { margin-right: 18px; }
+  .page-home .telemo-plan__benefits > div:nth-child(even) { margin-left: 18px; }
+}

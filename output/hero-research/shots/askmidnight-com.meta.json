@@ -1,0 +1,102 @@
+{
+ "slug": "askmidnight-com",
+ "url": "https://www.askmidnight.com/",
+ "capturedAt": "2026-10-12 21:12:11",
+ "files": {
+  "pc_f0": "askmidnight-com-pc-f0.jpg",
+  "pc_f1": "askmidnight-com-pc-f1.jpg",
+  "pc_f2": "askmidnight-com-pc-f2.jpg",
+  "pc_scroll": "askmidnight-com-pc-scroll.jpg",
+  "sp": "askmidnight-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.askmidnight.com/",
+  "title": "Midnight | An AI voice advisor for founders",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 7575,
+  "h1": "Stop going in circles",
+  "h1Style": {
+   "fontFamily": "\"Public Sans\", \"Public Sans Fallback\", ui-sans-serif, system-ui, sans-serif",
+   "fontSize": "48px",
+   "fontWeight": "500",
+   "lineHeight": "48px",
+   "letterSpacing": "-1.92px",
+   "color": "rgb(244, 241, 233)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 108,
+    "y": 381,
+    "w": 414,
+    "h": 48
+   }
+  },
+  "lead": null,
+  "ctas": [],
+  "videos": [],
+  "canvases": [
+   {
+    "w": 1440,
+    "h": 810
+   }
+  ],
+  "images": [],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Public Sans"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(7, 23, 42)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "Stop going in circles",
+  "h1Style": {
+   "fontFamily": "\"Public Sans\", \"Public Sans Fallback\", ui-sans-serif, system-ui, sans-serif",
+   "fontSize": "36px",
+   "fontWeight": "500",
+   "lineHeight": "40px",
+   "letterSpacing": "-1.44px",
+   "color": "rgb(244, 241, 233)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 68,
+    "y": 292,
+    "w": 302,
+    "h": 80
+   }
+  },
+  "lead": null,
+  "ctas": [],
+  "videos": [],
+  "canvases": [
+   {
+    "w": 390,
+    "h": 760
+   }
+  ],
+  "images": [],
+  "pageHeight": 7914
+ },
+ "elapsedSec": 11.3
+}

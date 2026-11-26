@@ -1,0 +1,296 @@
+{
+ "slug": "recruit-dac-co-jp",
+ "url": "https://recruit.dac.co.jp/",
+ "capturedAt": "2026-10-12 21:11:36",
+ "files": {
+  "pc_f0": "recruit-dac-co-jp-pc-f0.jpg",
+  "pc_f1": "recruit-dac-co-jp-pc-f1.jpg",
+  "pc_f2": "recruit-dac-co-jp-pc-f2.jpg",
+  "pc_scroll": "recruit-dac-co-jp-pc-scroll.jpg",
+  "sp": "recruit-dac-co-jp-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://recruit.hakuhodody-one.co.jp/",
+  "title": "Hakuhodo DY ONE RECRUIT SITE",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 5041,
+  "h1": "",
+  "h1Style": {
+   "fontFamily": "\"Noto Sans JP\", sans-serif",
+   "fontSize": "14px",
+   "fontWeight": "400",
+   "lineHeight": "24.5px",
+   "letterSpacing": "0.56px",
+   "color": "rgb(0, 0, 0)",
+   "textAlign": "left",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 26,
+    "y": 0,
+    "w": 480,
+    "h": 100
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "COMPANY",
+   "BUSINESS",
+   "PEOPLE",
+   "RECRUIT",
+   "WORK-LIFE",
+   "SPECIAL CONTENTS"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://recruit.hakuhodody-one.co.jp/wp-content/themes/theme_dyone_v3.4/nmdata/images/logo_01.svg",
+    "w": 480,
+    "h": 59,
+    "alt": "Hakuhodo DY ONE RECRUIT SITE"
+   },
+   {
+    "src": "https://recruit.hakuhodody-one.co.jp/wp-content/themes/theme_dyone_v3.4/nmdata/images/top_txt_01.svg",
+    "w": 1406,
+    "h": 169,
+    "alt": "キミの好奇心が、デジタルを塗り替える。"
+   },
+   {
+    "src": "https://recruit.hakuhodody-one.co.jp/wp-content/themes/theme_dyone_v3.4/nmdata/images/mv/p_l_17.jpg",
+    "w": 331,
+    "h": 331,
+    "alt": ""
+   },
+   {
+    "src": "https://recruit.hakuhodody-one.co.jp/wp-content/themes/theme_dyone_v3.4/nmdata/images/mv/p_l_17_t.svg",
+    "w": 331,
+    "h": 331,
+    "alt": ""
+   },
+   {
+    "src": "https://recruit.hakuhodody-one.co.jp/wp-content/themes/theme_dyone_v3.4/nmdata/images/mv/p_s_09.jpg",
+    "w": 222,
+    "h": 331,
+    "alt": ""
+   },
+   {
+    "src": "https://recruit.hakuhodody-one.co.jp/wp-content/themes/theme_dyone_v3.4/nmdata/images/mv/p_s_09_t.svg",
+    "w": 222,
+    "h": 331,
+    "alt": ""
+   },
+   {
+    "src": "https://recruit.hakuhodody-one.co.jp/wp-content/themes/theme_dyone_v3.4/nmdata/images/mv/p_l_08.jpg",
+    "w": 331,
+    "h": 331,
+    "alt": ""
+   },
+   {
+    "src": "https://recruit.hakuhodody-one.co.jp/wp-content/themes/theme_dyone_v3.4/nmdata/images/mv/p_l_08_t.svg",
+    "w": 331,
+    "h": 331,
+    "alt": ""
+   },
+   {
+    "src": "https://recruit.hakuhodody-one.co.jp/wp-content/themes/theme_dyone_v3.4/nmdata/images/mv/p_s_10.jpg",
+    "w": 222,
+    "h": 331,
+    "alt": ""
+   },
+   {
+    "src": "https://recruit.hakuhodody-one.co.jp/wp-content/themes/theme_dyone_v3.4/nmdata/images/mv/p_s_10_t.svg",
+    "w": 222,
+    "h": 331,
+    "alt": ""
+   },
+   {
+    "src": "https://recruit.hakuhodody-one.co.jp/wp-content/themes/theme_dyone_v3.4/nmdata/images/mv/p_l_18.jpg",
+    "w": 331,
+    "h": 331,
+    "alt": ""
+   },
+   {
+    "src": "https://recruit.hakuhodody-one.co.jp/wp-content/themes/theme_dyone_v3.4/nmdata/images/mv/p_l_18_t.svg",
+    "w": 331,
+    "h": 331,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [
+   {
+    "bg": "url(\"https://recruit.hakuhodody-one.co.jp/wp-content/themes/theme_dyone_v3.4/nmdata/images/mv/p_l_17.jpg\")",
+    "w": 331,
+    "h": 331
+   },
+   {
+    "bg": "url(\"https://recruit.hakuhodody-one.co.jp/wp-content/themes/theme_dyone_v3.4/nmdata/images/mv/p_l_17.jpg\")",
+    "w": 331,
+    "h": 331
+   },
+   {
+    "bg": "url(\"https://recruit.hakuhodody-one.co.jp/wp-content/themes/theme_dyone_v3.4/nmdata/images/mv/p_l_17.jpg\")",
+    "w": 331,
+    "h": 331
+   },
+   {
+    "bg": "url(\"https://recruit.hakuhodody-one.co.jp/wp-content/themes/theme_dyone_v3.4/nmdata/images/mv/p_s_09.jpg\")",
+    "w": 222,
+    "h": 331
+   },
+   {
+    "bg": "url(\"https://recruit.hakuhodody-one.co.jp/wp-content/themes/theme_dyone_v3.4/nmdata/images/mv/p_s_09.jpg\")",
+    "w": 222,
+    "h": 331
+   },
+   {
+    "bg": "url(\"https://recruit.hakuhodody-one.co.jp/wp-content/themes/theme_dyone_v3.4/nmdata/images/mv/p_s_09.jpg\")",
+    "w": 222,
+    "h": 331
+   },
+   {
+    "bg": "url(\"https://recruit.hakuhodody-one.co.jp/wp-content/themes/theme_dyone_v3.4/nmdata/images/mv/p_l_08.jpg\")",
+    "w": 331,
+    "h": 331
+   },
+   {
+    "bg": "url(\"https://recruit.hakuhodody-one.co.jp/wp-content/themes/theme_dyone_v3.4/nmdata/images/mv/p_l_08.jpg\")",
+    "w": 331,
+    "h": 331
+   }
+  ],
+  "firstScreenFonts": [
+   "Noto Sans JP"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "",
+  "h1Style": {
+   "fontFamily": "\"Noto Sans JP\", sans-serif",
+   "fontSize": "14px",
+   "fontWeight": "400",
+   "lineHeight": "24.5px",
+   "letterSpacing": "0.56px",
+   "color": "rgb(0, 0, 0)",
+   "textAlign": "left",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 16,
+    "y": 0,
+    "w": 179,
+    "h": 60
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "RECRUIT ENTRY 新卒採⽤",
+   "INTERNSHIP ENTRY インターン採⽤",
+   "COMPANY 会社情報",
+   "BUSINESS 事業・サービス",
+   "JOB 職種⼀覧",
+   "PEOPLE 社員紹介",
+   "RECRUIT 選考概要・⼈事メッセージ",
+   "WORK-LIFE 働く環境",
+   "SPECIAL CONTENTS スペシャルコンテンツ"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://recruit.hakuhodody-one.co.jp/wp-content/themes/theme_dyone_v3.4/nmdata/images/top_txt_01.svg",
+    "w": 1365,
+    "h": 164,
+    "alt": "キミの好奇心が、デジタルを塗り替える。"
+   },
+   {
+    "src": "https://recruit.hakuhodody-one.co.jp/wp-content/themes/theme_dyone_v3.4/nmdata/images/mv/p_l_08.jpg",
+    "w": 323,
+    "h": 323,
+    "alt": ""
+   },
+   {
+    "src": "https://recruit.hakuhodody-one.co.jp/wp-content/themes/theme_dyone_v3.4/nmdata/images/mv/p_l_08_t.svg",
+    "w": 323,
+    "h": 323,
+    "alt": ""
+   },
+   {
+    "src": "https://recruit.hakuhodody-one.co.jp/wp-content/themes/theme_dyone_v3.4/nmdata/images/mv/p_s_10.jpg",
+    "w": 217,
+    "h": 323,
+    "alt": ""
+   },
+   {
+    "src": "https://recruit.hakuhodody-one.co.jp/wp-content/themes/theme_dyone_v3.4/nmdata/images/mv/p_s_10_t.svg",
+    "w": 217,
+    "h": 323,
+    "alt": ""
+   },
+   {
+    "src": "https://recruit.hakuhodody-one.co.jp/wp-content/themes/theme_dyone_v3.4/nmdata/images/mv/p_l_18.jpg",
+    "w": 323,
+    "h": 323,
+    "alt": ""
+   },
+   {
+    "src": "https://recruit.hakuhodody-one.co.jp/wp-content/themes/theme_dyone_v3.4/nmdata/images/mv/p_l_18_t.svg",
+    "w": 323,
+    "h": 323,
+    "alt": ""
+   },
+   {
+    "src": "https://recruit.hakuhodody-one.co.jp/wp-content/themes/theme_dyone_v3.4/nmdata/images/mv/p_s_18.jpg",
+    "w": 217,
+    "h": 323,
+    "alt": ""
+   },
+   {
+    "src": "https://recruit.hakuhodody-one.co.jp/wp-content/themes/theme_dyone_v3.4/nmdata/images/mv/p_s_18_t.svg",
+    "w": 217,
+    "h": 323,
+    "alt": ""
+   },
+   {
+    "src": "https://recruit.hakuhodody-one.co.jp/wp-content/themes/theme_dyone_v3.4/nmdata/images/mv/p_l_12.jpg",
+    "w": 323,
+    "h": 323,
+    "alt": ""
+   },
+   {
+    "src": "https://recruit.hakuhodody-one.co.jp/wp-content/themes/theme_dyone_v3.4/nmdata/images/mv/p_l_12_t.svg",
+    "w": 323,
+    "h": 323,
+    "alt": ""
+   },
+   {
+    "src": "https://recruit.hakuhodody-one.co.jp/wp-content/themes/theme_dyone_v3.4/nmdata/images/mv/p_s_14.jpg",
+    "w": 217,
+    "h": 323,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 3829
+ },
+ "elapsedSec": 12.5
+}

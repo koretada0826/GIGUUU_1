@@ -1,0 +1,130 @@
+{
+ "slug": "agent-kikkake-cc",
+ "url": "https://agent.kikkake.cc/",
+ "capturedAt": "2026-10-12 21:17:05",
+ "files": {
+  "pc_f0": "agent-kikkake-cc-pc-f0.jpg",
+  "pc_f1": "agent-kikkake-cc-pc-f1.jpg",
+  "pc_f2": "agent-kikkake-cc-pc-f2.jpg",
+  "pc_scroll": "agent-kikkake-cc-pc-scroll.jpg",
+  "sp": "agent-kikkake-cc-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://agent.kikkake.cc/",
+  "title": "Career Kikkake | 採用目線で20代の転職を成功に導く転職エージェント",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 7621,
+  "h1": "あなたの転職を、 採用目線 で成功に導く。",
+  "h1Style": {
+   "fontFamily": "Inter, Roboto, sans-serif",
+   "fontSize": "72px",
+   "fontWeight": "900",
+   "lineHeight": "72px",
+   "letterSpacing": "7.2px",
+   "color": "rgb(17, 24, 39)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 112,
+    "y": 278,
+    "w": 1024,
+    "h": 144
+   }
+  },
+  "lead": "書類・面接・企業選びまで、元人事が戦略的にサポートします。",
+  "ctas": [
+   "無料カウンセリングに申し込む",
+   "無料カウンセリングに申し込む"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://agent.kikkake.cc/__l5e/assets-v1/482cd4fb-be3d-4410-883f-c2f957e2c08b/career-kikkake-logo-seeker.png",
+    "w": 106,
+    "h": 48,
+    "alt": "Career Kikkake キャリア支援"
+   },
+   {
+    "src": "https://agent.kikkake.cc/hero-bg.webp",
+    "w": 1440,
+    "h": 820,
+    "alt": ""
+   },
+   {
+    "src": "https://agent.kikkake.cc/hero-handwritten-cropped.webp",
+    "w": 550,
+    "h": 108,
+    "alt": "採用する側も知る、元人事が味方です。"
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Inter"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "あなたの転職を、 採用目線 で成功に導く。",
+  "h1Style": {
+   "fontFamily": "Inter, Roboto, sans-serif",
+   "fontSize": "28px",
+   "fontWeight": "900",
+   "lineHeight": "56px",
+   "letterSpacing": "normal",
+   "color": "rgb(17, 24, 39)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 16,
+    "y": 242,
+    "w": 358,
+    "h": 112
+   }
+  },
+  "lead": "書類・面接・企業選びまで、 元人事が戦略的にサポートします。",
+  "ctas": [
+   "無料カウンセリングに申し込む",
+   "無料カウンセリングに申し込む"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://agent.kikkake.cc/hero-bg.webp",
+    "w": 390,
+    "h": 780,
+    "alt": ""
+   },
+   {
+    "src": "https://agent.kikkake.cc/hero-handwritten-cropped.webp",
+    "w": 340,
+    "h": 67,
+    "alt": "採用する側も知る、元人事が味方です。"
+   }
+  ],
+  "pageHeight": 12559
+ },
+ "elapsedSec": 14.8
+}

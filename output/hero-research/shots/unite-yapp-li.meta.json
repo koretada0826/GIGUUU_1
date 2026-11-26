@@ -1,0 +1,161 @@
+{
+ "slug": "unite-yapp-li",
+ "url": "https://unite.yapp.li/",
+ "capturedAt": "2026-10-12 21:18:06",
+ "files": {
+  "pc_f0": "unite-yapp-li-pc-f0.jpg",
+  "pc_f1": "unite-yapp-li-pc-f1.jpg",
+  "pc_f2": "unite-yapp-li-pc-f2.jpg",
+  "pc_scroll": "unite-yapp-li-pc-scroll.jpg",
+  "sp": "unite-yapp-li-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://unite.yapp.li/",
+  "title": "UNITE by Yappli（ユナイト）｜社内エンゲージメントアプリでイキイキとした組織へ",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 15049,
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [
+   "お問い合わせ",
+   "資料ダウンロード",
+   "3 分 でわかる! 資料ダウンロード"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://media.yappli.com/assets/yappli/files/01K5DKFE3J5952VZCAA32G4PY0.png",
+    "w": 100,
+    "h": 86,
+    "alt": ""
+   },
+   {
+    "src": "https://media.yappli.com/assets/yappli/files/01K7P03FHS3MC35C29F62PB9Z6.png",
+    "w": 112,
+    "h": 122,
+    "alt": ""
+   },
+   {
+    "src": "https://media.yappli.com/assets/yappli/files/01K6MGSQMA7HSZFD7SWR7F2RD0.png",
+    "w": 373,
+    "h": 370,
+    "alt": ""
+   },
+   {
+    "src": "https://media.yappli.com/assets/yappli/files/01K6MCKVQY9N7EFQNRE2XH2HDW.png",
+    "w": 70,
+    "h": 50,
+    "alt": ""
+   },
+   {
+    "src": "https://media.yappli.com/assets/yappli/files/01K6MAZBYVGW9Q6TRGMVAFN3X2.png",
+    "w": 48,
+    "h": 48,
+    "alt": ""
+   },
+   {
+    "src": "https://media.yappli.com/assets/yappli/files/01K6MCKVQY9N7EFQNRE2XH2HDW.png",
+    "w": 70,
+    "h": 50,
+    "alt": ""
+   },
+   {
+    "src": "https://media.yappli.com/assets/yappli/files/01K6MAZBYVGW9Q6TRGMVAFN3X2.png",
+    "w": 48,
+    "h": 48,
+    "alt": ""
+   },
+   {
+    "src": "https://media.yappli.com/assets/yappli/files/01K5DRX2DADJE3NGX57B18ESD0.svg",
+    "w": 950,
+    "h": 210,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Yu Gothic UI"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [
+   "資料ダウンロード",
+   "3 分 でわかる! 資料ダウンロード"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://media.yappli.com/assets/yappli/files/01K5DKFE3J5952VZCAA32G4PY0.png",
+    "w": 110,
+    "h": 94,
+    "alt": ""
+   },
+   {
+    "src": "https://media.yappli.com/assets/yappli/files/01K71F6MB0CCS6C3C1C2QHD4CT.png",
+    "w": 394,
+    "h": 391,
+    "alt": ""
+   },
+   {
+    "src": "https://media.yappli.com/assets/yappli/files/01K7P03FHS3MC35C29F62PB9Z6.png",
+    "w": 84,
+    "h": 92,
+    "alt": ""
+   },
+   {
+    "src": "https://media.yappli.com/assets/yappli/files/01K6MCKVQY9N7EFQNRE2XH2HDW.png",
+    "w": 70,
+    "h": 50,
+    "alt": ""
+   },
+   {
+    "src": "https://media.yappli.com/assets/yappli/files/01K6MAZBYVGW9Q6TRGMVAFN3X2.png",
+    "w": 48,
+    "h": 48,
+    "alt": ""
+   },
+   {
+    "src": "https://media.yappli.com/assets/yappli/files/01K6MCKVQY9N7EFQNRE2XH2HDW.png",
+    "w": 70,
+    "h": 50,
+    "alt": ""
+   },
+   {
+    "src": "https://media.yappli.com/assets/yappli/files/01K6MAZBYVGW9Q6TRGMVAFN3X2.png",
+    "w": 48,
+    "h": 48,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 15920
+ },
+ "elapsedSec": 17.2
+}

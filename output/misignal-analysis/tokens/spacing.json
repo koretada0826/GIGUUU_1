@@ -1,0 +1,4415 @@
+{
+ "meta": {
+  "measuredAt": "2026-10-05",
+  "site": "https://misignal.jp/",
+  "pages": [
+   "/",
+   "/products/scan",
+   "/faq",
+   "/article",
+   "/commitment",
+   "/contact(フォームのみ)"
+  ],
+  "viewports": {
+   "pc": "1440x900 DPR1",
+   "sp": "390x844 DPR2 isMobile iPhone UA"
+  },
+  "note": "computed style は全可視要素から自動集計。weight は text=文字数 / bg=面積px² / その他=要素数。"
+ },
+ "sections": {
+  "pc": {
+   "home": [
+    {
+     "el": "section.Hero_hero",
+     "y": 140,
+     "h": 552,
+     "w": 1440,
+     "pt": "0px",
+     "pb": "0px",
+     "pl": "0px",
+     "pr": "0px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": null,
+     "bgImg": null
+    },
+    {
+     "el": "section.Achievements_root",
+     "y": 692,
+     "h": 147,
+     "w": 1440,
+     "pt": "32px",
+     "pb": "32px",
+     "pl": "260px",
+     "pr": "260px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": "#0F1B43",
+     "bgImg": null
+    },
+    {
+     "el": "section.KwSection_root",
+     "y": 839,
+     "h": 1119,
+     "w": 1440,
+     "pt": "96px",
+     "pb": "96px",
+     "pl": "0px",
+     "pr": "0px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": null,
+     "bgImg": "linear-gradient(rgb(24, 41, 99), rgb(15, 27, 67))"
+    },
+    {
+     "el": "section.Message_root",
+     "y": 1958,
+     "h": 641,
+     "w": 1440,
+     "pt": "0px",
+     "pb": "0px",
+     "pl": "0px",
+     "pr": "0px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": null,
+     "bgImg": null
+    },
+    {
+     "el": "section.EarlyDetectionCases_section",
+     "y": 2599,
+     "h": 806,
+     "w": 1440,
+     "pt": "128px",
+     "pb": "128px",
+     "pl": "0px",
+     "pr": "0px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": "#FFFFFF",
+     "bgImg": null
+    },
+    {
+     "el": "section.ScanCtaCompact_root",
+     "y": 3406,
+     "h": 485,
+     "w": 1440,
+     "pt": "48px",
+     "pb": "0px",
+     "pl": "0px",
+     "pr": "0px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": "#FFFFFF",
+     "bgImg": null
+    },
+    {
+     "el": "section.About_about",
+     "y": 3891,
+     "h": 4782,
+     "w": 1440,
+     "pt": "0px",
+     "pb": "0px",
+     "pl": "0px",
+     "pr": "0px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": "#E9F6FF",
+     "bgImg": "linear-gradient(rgba(233, 246, 255, 0.5), rgba(233, 246, 255, 0.5)), url(\"https:"
+    },
+    {
+     "el": "section.Benefits_section",
+     "y": 8673,
+     "h": 1675,
+     "w": 1440,
+     "pt": "128px",
+     "pb": "128px",
+     "pl": "0px",
+     "pr": "0px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": null,
+     "bgImg": "linear-gradient(rgb(255, 255, 255), rgb(238, 243, 246))"
+    },
+    {
+     "el": "section.Doctors_section",
+     "y": 10348,
+     "h": 895,
+     "w": 1440,
+     "pt": "128px",
+     "pb": "128px",
+     "pl": "0px",
+     "pr": "0px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": "#E1EBF2",
+     "bgImg": null
+    },
+    {
+     "el": "section.PurchaseCta_root",
+     "y": 11243,
+     "h": 1305,
+     "w": 1440,
+     "pt": "0px",
+     "pb": "0px",
+     "pl": "0px",
+     "pr": "0px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": null,
+     "bgImg": null
+    },
+    {
+     "el": "section.CustomerSupport_root",
+     "y": 12548,
+     "h": 146,
+     "w": 1440,
+     "pt": "24px",
+     "pb": "24px",
+     "pl": "48px",
+     "pr": "48px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": "#FFFFFF",
+     "bgImg": null
+    },
+    {
+     "el": "section.InspectionFlow_root",
+     "y": 12694,
+     "h": 771,
+     "w": 1440,
+     "pt": "128px",
+     "pb": "64px",
+     "pl": "0px",
+     "pr": "0px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": null,
+     "bgImg": "linear-gradient(135deg, rgb(245, 245, 245), rgb(224, 224, 224))"
+    },
+    {
+     "el": "section.Stores_root",
+     "y": 13465,
+     "h": 1055,
+     "w": 1440,
+     "pt": "128px",
+     "pb": "128px",
+     "pl": "0px",
+     "pr": "0px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": "#FFFFFF",
+     "bgImg": null
+    },
+    {
+     "el": "section.Media_root",
+     "y": 14520,
+     "h": 974,
+     "w": 1440,
+     "pt": "0px",
+     "pb": "128px",
+     "pl": "224px",
+     "pr": "224px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": "#FFFFFF",
+     "bgImg": null
+    },
+    {
+     "el": "section.Promise_root",
+     "y": 15494,
+     "h": 1207,
+     "w": 1440,
+     "pt": "128px",
+     "pb": "128px",
+     "pl": "0px",
+     "pr": "0px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": null,
+     "bgImg": "linear-gradient(135deg, rgb(205, 224, 236), rgb(221, 226, 240))"
+    },
+    {
+     "el": "section.Faq_root",
+     "y": 16701,
+     "h": 816,
+     "w": 1440,
+     "pt": "128px",
+     "pb": "128px",
+     "pl": "0px",
+     "pr": "0px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": "#F5F5F5",
+     "bgImg": null
+    },
+    {
+     "el": "section.News_root",
+     "y": 17517,
+     "h": 1108,
+     "w": 1440,
+     "pt": "120px",
+     "pb": "120px",
+     "pl": "224px",
+     "pr": "224px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": "#F5F5F5",
+     "bgImg": null
+    },
+    {
+     "el": "section.Column_root",
+     "y": 18626,
+     "h": 974,
+     "w": 1440,
+     "pt": "120px",
+     "pb": "120px",
+     "pl": "224px",
+     "pr": "224px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": "#F5F5F5",
+     "bgImg": null
+    },
+    {
+     "el": "section.Consider_root",
+     "y": 19599,
+     "h": 815,
+     "w": 1440,
+     "pt": "128px",
+     "pb": "128px",
+     "pl": "0px",
+     "pr": "0px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": "#FFFFFF",
+     "bgImg": null
+    },
+    {
+     "el": "section.ProductPageFooterV2_ctaSection",
+     "y": 20414,
+     "h": 332,
+     "w": 1440,
+     "pt": "40px",
+     "pb": "40px",
+     "pl": "24px",
+     "pr": "24px",
+     "mt": "0px",
+     "mb": "-1px",
+     "bg": "#3B5DB3",
+     "bgImg": null
+    },
+    {
+     "el": "footer.footer_body footer_bodyProduct",
+     "y": 20745,
+     "h": 853,
+     "w": 1440,
+     "pt": "80px",
+     "pb": "40px",
+     "pl": "80px",
+     "pr": "80px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": "#2B4A99",
+     "bgImg": null
+    }
+   ],
+   "scan": [
+    {
+     "el": "section.Section_container page_scan_description_container",
+     "y": 719,
+     "h": 507,
+     "w": 1440,
+     "pt": "80px",
+     "pb": "120px",
+     "pl": "0px",
+     "pr": "0px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": "#EFF6FA",
+     "bgImg": null
+    },
+    {
+     "el": "section.Section_container page_photo_description_container",
+     "y": 1106,
+     "h": 2830,
+     "w": 1440,
+     "pt": "160px",
+     "pb": "160px",
+     "pl": "0px",
+     "pr": "0px",
+     "mt": "-120px",
+     "mb": "0px",
+     "bg": null,
+     "bgImg": null
+    },
+    {
+     "el": "section.Section_container page_scan_reason_section",
+     "y": 3936,
+     "h": 554,
+     "w": 1440,
+     "pt": "120px",
+     "pb": "120px",
+     "pl": "0px",
+     "pr": "0px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": null,
+     "bgImg": null
+    },
+    {
+     "el": "section.Section_container Section_light_gray",
+     "y": 4490,
+     "h": 458,
+     "w": 1440,
+     "pt": "80px",
+     "pb": "80px",
+     "pl": "0px",
+     "pr": "0px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": "#F5F5F5",
+     "bgImg": null
+    },
+    {
+     "el": "section.Section_container Section_dark_blue_gradient",
+     "y": 4948,
+     "h": 1550,
+     "w": 1440,
+     "pt": "120px",
+     "pb": "120px",
+     "pl": "20px",
+     "pr": "20px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": null,
+     "bgImg": "linear-gradient(rgb(0, 46, 107), rgb(46, 94, 159))"
+    },
+    {
+     "el": "section.Section_container SharedLPComponent8_clinic_map_section",
+     "y": 7134,
+     "h": 1933,
+     "w": 1440,
+     "pt": "120px",
+     "pb": "120px",
+     "pl": "0px",
+     "pr": "0px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": "#EDF9F6",
+     "bgImg": null
+    },
+    {
+     "el": "section.Section_container Section_white",
+     "y": 9067,
+     "h": 824,
+     "w": 1440,
+     "pt": "120px",
+     "pb": "120px",
+     "pl": "54px",
+     "pr": "54px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": "#FFFFFF",
+     "bgImg": null
+    },
+    {
+     "el": "section.Section_container Section_light_gray",
+     "y": 11196,
+     "h": 1071,
+     "w": 1440,
+     "pt": "160px",
+     "pb": "160px",
+     "pl": "0px",
+     "pr": "0px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": "#F5F5F5",
+     "bgImg": null
+    },
+    {
+     "el": "section.ProductPageFooterV2_ctaSection",
+     "y": 13065,
+     "h": 332,
+     "w": 1440,
+     "pt": "40px",
+     "pb": "40px",
+     "pl": "24px",
+     "pr": "24px",
+     "mt": "0px",
+     "mb": "-1px",
+     "bg": "#3B5DB3",
+     "bgImg": null
+    },
+    {
+     "el": "footer.footer_body footer_bodyProduct",
+     "y": 13396,
+     "h": 973,
+     "w": 1440,
+     "pt": "80px",
+     "pb": "40px",
+     "pl": "80px",
+     "pr": "80px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": "#2B4A99",
+     "bgImg": null
+    }
+   ],
+   "faq": [
+    {
+     "el": "nav.StaticBreadcrumb_breadcrumb page_breadcrumb",
+     "y": 218,
+     "h": 58,
+     "w": 1440,
+     "pt": "20px",
+     "pb": "20px",
+     "pl": "40px",
+     "pr": "40px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": null,
+     "bgImg": null
+    },
+    {
+     "el": "nav.FaqSidebar_nav",
+     "y": 544,
+     "h": 492,
+     "w": 213,
+     "pt": "0px",
+     "pb": "0px",
+     "pl": "0px",
+     "pr": "0px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": null,
+     "bgImg": null
+    },
+    {
+     "el": "nav.StaticBreadcrumb_breadcrumb page_breadcrumb",
+     "y": 4649,
+     "h": 58,
+     "w": 1440,
+     "pt": "20px",
+     "pb": "20px",
+     "pl": "40px",
+     "pr": "40px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": null,
+     "bgImg": null
+    },
+    {
+     "el": "section.ProductPageFooterV2_ctaSection",
+     "y": 4707,
+     "h": 332,
+     "w": 1440,
+     "pt": "40px",
+     "pb": "40px",
+     "pl": "24px",
+     "pr": "24px",
+     "mt": "0px",
+     "mb": "-1px",
+     "bg": "#3B5DB3",
+     "bgImg": null
+    },
+    {
+     "el": "footer.footer_body footer_bodyProduct",
+     "y": 5038,
+     "h": 973,
+     "w": 1440,
+     "pt": "80px",
+     "pb": "40px",
+     "pl": "80px",
+     "pr": "80px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": "#2B4A99",
+     "bgImg": null
+    }
+   ],
+   "article": [
+    {
+     "el": "section.Section_container",
+     "y": 554,
+     "h": 2127,
+     "w": 1440,
+     "pt": "160px",
+     "pb": "160px",
+     "pl": "0px",
+     "pr": "0px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": null,
+     "bgImg": null
+    },
+    {
+     "el": "section.ProductPageFooterV2_ctaSection",
+     "y": 2681,
+     "h": 332,
+     "w": 1440,
+     "pt": "40px",
+     "pb": "40px",
+     "pl": "24px",
+     "pr": "24px",
+     "mt": "0px",
+     "mb": "-1px",
+     "bg": "#3B5DB3",
+     "bgImg": null
+    },
+    {
+     "el": "footer.footer_body footer_bodyProduct",
+     "y": 3012,
+     "h": 973,
+     "w": 1440,
+     "pt": "80px",
+     "pb": "40px",
+     "pl": "80px",
+     "pr": "80px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": "#2B4A99",
+     "bgImg": null
+    }
+   ],
+   "commitment": [
+    {
+     "el": "section.Section_container Section_is_section_body_full_width",
+     "y": 971,
+     "h": 5218,
+     "w": 1440,
+     "pt": "160px",
+     "pb": "160px",
+     "pl": "0px",
+     "pr": "0px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": null,
+     "bgImg": null
+    },
+    {
+     "el": "section.ProductPageFooterV2_ctaSection",
+     "y": 7492,
+     "h": 332,
+     "w": 1440,
+     "pt": "40px",
+     "pb": "40px",
+     "pl": "24px",
+     "pr": "24px",
+     "mt": "0px",
+     "mb": "-1px",
+     "bg": "#3B5DB3",
+     "bgImg": null
+    },
+    {
+     "el": "footer.footer_body footer_bodyProduct",
+     "y": 7823,
+     "h": 973,
+     "w": 1440,
+     "pt": "80px",
+     "pb": "40px",
+     "pl": "80px",
+     "pr": "80px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": "#2B4A99",
+     "bgImg": null
+    }
+   ]
+  },
+  "sp": {
+   "home": [
+    {
+     "el": "section.Kv_kv",
+     "y": 108,
+     "h": 416,
+     "w": 390,
+     "pt": "0px",
+     "pb": "0px",
+     "pl": "0px",
+     "pr": "0px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": null,
+     "bgImg": null
+    },
+    {
+     "el": "section.Achievements_root",
+     "y": 524,
+     "h": 164,
+     "w": 390,
+     "pt": "16px",
+     "pb": "16px",
+     "pl": "16px",
+     "pr": "16px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": "#0C2050",
+     "bgImg": null
+    },
+    {
+     "el": "section.KwSection_wrapper",
+     "y": 688,
+     "h": 817,
+     "w": 390,
+     "pt": "0px",
+     "pb": "0px",
+     "pl": "0px",
+     "pr": "0px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": null,
+     "bgImg": null
+    },
+    {
+     "el": "section.Message_root",
+     "y": 1505,
+     "h": 710,
+     "w": 390,
+     "pt": "0px",
+     "pb": "0px",
+     "pl": "0px",
+     "pr": "0px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": null,
+     "bgImg": null
+    },
+    {
+     "el": "section.EarlyDetectionCases_section",
+     "y": 2215,
+     "h": 610,
+     "w": 390,
+     "pt": "80px",
+     "pb": "80px",
+     "pl": "0px",
+     "pr": "0px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": "#FFFFFF",
+     "bgImg": null
+    },
+    {
+     "el": "section.Cta_root",
+     "y": 2825,
+     "h": 577,
+     "w": 390,
+     "pt": "0px",
+     "pb": "0px",
+     "pl": "16px",
+     "pr": "16px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": "#FFFFFF",
+     "bgImg": null
+    },
+    {
+     "el": "section.Benefits_root",
+     "y": 8368,
+     "h": 1847,
+     "w": 390,
+     "pt": "80px",
+     "pb": "80px",
+     "pl": "16px",
+     "pr": "16px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": null,
+     "bgImg": "linear-gradient(rgb(255, 255, 255), rgb(238, 243, 246))"
+    },
+    {
+     "el": "section.Doctors_root",
+     "y": 10214,
+     "h": 780,
+     "w": 390,
+     "pt": "80px",
+     "pb": "80px",
+     "pl": "16px",
+     "pr": "16px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": "#E1EBF2",
+     "bgImg": null
+    },
+    {
+     "el": "section.PurchaseCta_root",
+     "y": 10994,
+     "h": 1135,
+     "w": 390,
+     "pt": "0px",
+     "pb": "0px",
+     "pl": "0px",
+     "pr": "0px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": null,
+     "bgImg": null
+    },
+    {
+     "el": "section.CustomerSupport_root",
+     "y": 12130,
+     "h": 268,
+     "w": 390,
+     "pt": "24px",
+     "pb": "24px",
+     "pl": "16px",
+     "pr": "16px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": "#FFFFFF",
+     "bgImg": null
+    },
+    {
+     "el": "section.InspectionFlow_root",
+     "y": 12398,
+     "h": 1638,
+     "w": 390,
+     "pt": "80px",
+     "pb": "80px",
+     "pl": "24px",
+     "pr": "24px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": null,
+     "bgImg": "linear-gradient(135deg, rgb(245, 245, 245), rgb(224, 224, 224))"
+    },
+    {
+     "el": "section.Stores_root",
+     "y": 14036,
+     "h": 1644,
+     "w": 390,
+     "pt": "80px",
+     "pb": "80px",
+     "pl": "24px",
+     "pr": "24px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": "#FFFFFF",
+     "bgImg": null
+    },
+    {
+     "el": "section.Media_root",
+     "y": 15679,
+     "h": 832,
+     "w": 390,
+     "pt": "0px",
+     "pb": "80px",
+     "pl": "16px",
+     "pr": "16px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": "#FFFFFF",
+     "bgImg": null
+    },
+    {
+     "el": "section.Promise_root",
+     "y": 16511,
+     "h": 1349,
+     "w": 390,
+     "pt": "240px",
+     "pb": "80px",
+     "pl": "16px",
+     "pr": "16px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": null,
+     "bgImg": "linear-gradient(135deg, rgb(205, 224, 236), rgb(221, 226, 240))"
+    },
+    {
+     "el": "section.Faq_root",
+     "y": 17860,
+     "h": 674,
+     "w": 390,
+     "pt": "80px",
+     "pb": "80px",
+     "pl": "16px",
+     "pr": "16px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": "#F5F5F5",
+     "bgImg": null
+    },
+    {
+     "el": "section.News_root",
+     "y": 18534,
+     "h": 1382,
+     "w": 390,
+     "pt": "80px",
+     "pb": "80px",
+     "pl": "16px",
+     "pr": "16px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": "#F5F5F5",
+     "bgImg": null
+    },
+    {
+     "el": "section.Column_root",
+     "y": 19915,
+     "h": 1743,
+     "w": 390,
+     "pt": "80px",
+     "pb": "80px",
+     "pl": "16px",
+     "pr": "16px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": "#F5F5F5",
+     "bgImg": null
+    },
+    {
+     "el": "section.Consider_root",
+     "y": 21659,
+     "h": 895,
+     "w": 390,
+     "pt": "80px",
+     "pb": "80px",
+     "pl": "16px",
+     "pr": "16px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": "#FFFFFF",
+     "bgImg": null
+    },
+    {
+     "el": "section.ProductPageFooterV2_ctaSection",
+     "y": 22553,
+     "h": 626,
+     "w": 390,
+     "pt": "40px",
+     "pb": "40px",
+     "pl": "24px",
+     "pr": "24px",
+     "mt": "0px",
+     "mb": "-1px",
+     "bg": "#3B5DB3",
+     "bgImg": null
+    },
+    {
+     "el": "footer.footer_body footer_bodyProduct",
+     "y": 23178,
+     "h": 1849,
+     "w": 390,
+     "pt": "40px",
+     "pb": "40px",
+     "pl": "20px",
+     "pr": "20px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": "#2B4A99",
+     "bgImg": null
+    }
+   ],
+   "scan": [
+    {
+     "el": "section.Section_container page_scan_description_container",
+     "y": 856,
+     "h": 1242,
+     "w": 390,
+     "pt": "40px",
+     "pb": "120px",
+     "pl": "20px",
+     "pr": "20px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": "#EFF6FA",
+     "bgImg": null
+    },
+    {
+     "el": "section.Section_container page_photo_description_container",
+     "y": 2057,
+     "h": 3266,
+     "w": 335,
+     "pt": "80px",
+     "pb": "80px",
+     "pl": "0px",
+     "pr": "0px",
+     "mt": "-41px",
+     "mb": "0px",
+     "bg": null,
+     "bgImg": null
+    },
+    {
+     "el": "section.Section_container page_scan_reason_section",
+     "y": 5323,
+     "h": 970,
+     "w": 390,
+     "pt": "80px",
+     "pb": "80px",
+     "pl": "20px",
+     "pr": "20px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": null,
+     "bgImg": null
+    },
+    {
+     "el": "section.Section_container Section_light_gray",
+     "y": 6293,
+     "h": 928,
+     "w": 390,
+     "pt": "80px",
+     "pb": "80px",
+     "pl": "20px",
+     "pr": "20px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": "#F5F5F5",
+     "bgImg": null
+    },
+    {
+     "el": "section.Section_container Section_dark_blue_gradient",
+     "y": 7222,
+     "h": 1626,
+     "w": 390,
+     "pt": "80px",
+     "pb": "80px",
+     "pl": "0px",
+     "pr": "0px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": null,
+     "bgImg": "linear-gradient(rgb(0, 46, 107), rgb(46, 94, 159))"
+    },
+    {
+     "el": "section.Section_container SharedLPComponent8_clinic_map_section",
+     "y": 9714,
+     "h": 2026,
+     "w": 390,
+     "pt": "120px",
+     "pb": "120px",
+     "pl": "0px",
+     "pr": "0px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": "#EDF9F6",
+     "bgImg": null
+    },
+    {
+     "el": "section.Section_container Section_white",
+     "y": 11740,
+     "h": 1320,
+     "w": 390,
+     "pt": "80px",
+     "pb": "80px",
+     "pl": "30px",
+     "pr": "30px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": "#FFFFFF",
+     "bgImg": null
+    },
+    {
+     "el": "section.Section_container Section_light_gray",
+     "y": 14196,
+     "h": 995,
+     "w": 390,
+     "pt": "80px",
+     "pb": "80px",
+     "pl": "30px",
+     "pr": "30px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": "#F5F5F5",
+     "bgImg": null
+    },
+    {
+     "el": "section.ProductPageFooterV2_ctaSection",
+     "y": 16035,
+     "h": 626,
+     "w": 390,
+     "pt": "40px",
+     "pb": "40px",
+     "pl": "24px",
+     "pr": "24px",
+     "mt": "0px",
+     "mb": "-1px",
+     "bg": "#3B5DB3",
+     "bgImg": null
+    },
+    {
+     "el": "footer.footer_body footer_bodyProduct",
+     "y": 16660,
+     "h": 1849,
+     "w": 390,
+     "pt": "40px",
+     "pb": "40px",
+     "pl": "20px",
+     "pr": "20px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": "#2B4A99",
+     "bgImg": null
+    }
+   ],
+   "faq": [
+    {
+     "el": "nav.StaticBreadcrumb_breadcrumb page_breadcrumb",
+     "y": 167,
+     "h": 58,
+     "w": 390,
+     "pt": "20px",
+     "pb": "20px",
+     "pl": "20px",
+     "pr": "20px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": null,
+     "bgImg": null
+    },
+    {
+     "el": "nav.FaqSidebar_nav",
+     "y": 4594,
+     "h": 464,
+     "w": 350,
+     "pt": "0px",
+     "pb": "0px",
+     "pl": "0px",
+     "pr": "0px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": null,
+     "bgImg": null
+    },
+    {
+     "el": "nav.StaticBreadcrumb_breadcrumb page_breadcrumb",
+     "y": 5231,
+     "h": 58,
+     "w": 390,
+     "pt": "20px",
+     "pb": "20px",
+     "pl": "20px",
+     "pr": "20px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": null,
+     "bgImg": null
+    },
+    {
+     "el": "section.ProductPageFooterV2_ctaSection",
+     "y": 5289,
+     "h": 626,
+     "w": 390,
+     "pt": "40px",
+     "pb": "40px",
+     "pl": "24px",
+     "pr": "24px",
+     "mt": "0px",
+     "mb": "-1px",
+     "bg": "#3B5DB3",
+     "bgImg": null
+    },
+    {
+     "el": "footer.footer_body footer_bodyProduct",
+     "y": 5914,
+     "h": 1549,
+     "w": 390,
+     "pt": "40px",
+     "pb": "40px",
+     "pl": "20px",
+     "pr": "20px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": "#2B4A99",
+     "bgImg": null
+    }
+   ],
+   "article": [
+    {
+     "el": "section.Section_container",
+     "y": 270,
+     "h": 4793,
+     "w": 390,
+     "pt": "80px",
+     "pb": "80px",
+     "pl": "30px",
+     "pr": "30px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": null,
+     "bgImg": null
+    },
+    {
+     "el": "section.ProductPageFooterV2_ctaSection",
+     "y": 5063,
+     "h": 626,
+     "w": 390,
+     "pt": "40px",
+     "pb": "40px",
+     "pl": "24px",
+     "pr": "24px",
+     "mt": "0px",
+     "mb": "-1px",
+     "bg": "#3B5DB3",
+     "bgImg": null
+    },
+    {
+     "el": "footer.footer_body footer_bodyProduct",
+     "y": 5688,
+     "h": 1849,
+     "w": 390,
+     "pt": "40px",
+     "pb": "40px",
+     "pl": "20px",
+     "pr": "20px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": "#2B4A99",
+     "bgImg": null
+    }
+   ],
+   "commitment": [
+    {
+     "el": "section.Section_container Section_is_section_body_full_width",
+     "y": 1292,
+     "h": 6549,
+     "w": 390,
+     "pt": "80px",
+     "pb": "80px",
+     "pl": "0px",
+     "pr": "0px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": null,
+     "bgImg": null
+    },
+    {
+     "el": "section.ProductPageFooterV2_ctaSection",
+     "y": 8974,
+     "h": 626,
+     "w": 390,
+     "pt": "40px",
+     "pb": "40px",
+     "pl": "24px",
+     "pr": "24px",
+     "mt": "0px",
+     "mb": "-1px",
+     "bg": "#3B5DB3",
+     "bgImg": null
+    },
+    {
+     "el": "footer.footer_body footer_bodyProduct",
+     "y": 9599,
+     "h": 1849,
+     "w": 390,
+     "pt": "40px",
+     "pb": "40px",
+     "pl": "20px",
+     "pr": "20px",
+     "mt": "0px",
+     "mb": "0px",
+     "bg": "#2B4A99",
+     "bgImg": null
+    }
+   ]
+  }
+ },
+ "containers": {
+  "pc": {
+   "home": [
+    [
+     "max-width:992px width:992 pl:0px pr:0px",
+     3
+    ],
+    [
+     "max-width:100% width:408 pl:0px pr:0px",
+     2
+    ],
+    [
+     "max-width:100% width:393 pl:0px pr:0px",
+     1
+    ],
+    [
+     "max-width:100% width:734 pl:0px pr:0px",
+     1
+    ],
+    [
+     "max-width:100% width:536 pl:0px pr:0px",
+     1
+    ],
+    [
+     "max-width:1352px width:1280 pl:0px pr:0px",
+     1
+    ]
+   ],
+   "scan": [
+    [
+     "max-width:992px width:992 pl:0px pr:0px",
+     14
+    ],
+    [
+     "max-width:304px width:304 pl:0px pr:0px",
+     9
+    ],
+    [
+     "max-width:830px width:830 pl:0px pr:0px",
+     9
+    ],
+    [
+     "max-width:482px width:482 pl:0px pr:0px",
+     3
+    ],
+    [
+     "max-width:310px width:310 pl:0px pr:0px",
+     3
+    ],
+    [
+     "max-width:1200px width:1200 pl:0px pr:0px",
+     2
+    ],
+    [
+     "max-width:880px width:880 pl:0px pr:0px",
+     2
+    ],
+    [
+     "max-width:100% width:408 pl:0px pr:0px",
+     2
+    ],
+    [
+     "max-width:1200px width:1200 pl:0px pr:20px",
+     1
+    ],
+    [
+     "max-width:580px width:560 pl:0px pr:0px",
+     1
+    ],
+    [
+     "max-width:100% width:1440 pl:0px pr:0px",
+     1
+    ],
+    [
+     "max-width:407px width:407 pl:0px pr:0px",
+     1
+    ],
+    [
+     "max-width:346px width:346 pl:0px pr:0px",
+     1
+    ],
+    [
+     "max-width:600px width:600 pl:20px pr:20px",
+     1
+    ],
+    [
+     "max-width:354px width:354 pl:0px pr:0px",
+     1
+    ]
+   ],
+   "faq": [
+    [
+     "max-width:992px width:992 pl:0px pr:0px",
+     3
+    ],
+    [
+     "max-width:100% width:992 pl:0px pr:0px",
+     2
+    ],
+    [
+     "max-width:1352px width:1280 pl:0px pr:0px",
+     1
+    ]
+   ],
+   "article": [
+    [
+     "max-width:310px width:310 pl:0px pr:0px",
+     9
+    ],
+    [
+     "max-width:992px width:992 pl:0px pr:0px",
+     4
+    ],
+    [
+     "max-width:1200px width:1200 pl:0px pr:20px",
+     1
+    ],
+    [
+     "max-width:1352px width:1280 pl:0px pr:0px",
+     1
+    ]
+   ],
+   "commitment": [
+    [
+     "max-width:482px width:482 pl:0px pr:0px",
+     8
+    ],
+    [
+     "max-width:992px width:992 pl:0px pr:0px",
+     2
+    ],
+    [
+     "max-width:100% width:408 pl:0px pr:0px",
+     2
+    ],
+    [
+     "max-width:1200px width:1200 pl:0px pr:20px",
+     1
+    ],
+    [
+     "max-width:100% width:1440 pl:0px pr:0px",
+     1
+    ],
+    [
+     "max-width:1352px width:1280 pl:0px pr:0px",
+     1
+    ]
+   ]
+  },
+  "sp": {
+   "home": [
+    [
+     "max-width:100% width:310 pl:0px pr:0px",
+     5
+    ],
+    [
+     "max-width:100% width:320 pl:0px pr:0px",
+     3
+    ],
+    [
+     "max-width:100% width:295 pl:0px pr:0px",
+     2
+    ],
+    [
+     "max-width:648px width:342 pl:0px pr:0px",
+     2
+    ],
+    [
+     "max-width:100% width:358 pl:0px pr:0px",
+     1
+    ],
+    [
+     "max-width:343px width:343 pl:0px pr:0px",
+     1
+    ],
+    [
+     "max-width:311px width:310 pl:0px pr:0px",
+     1
+    ],
+    [
+     "max-width:100% width:283 pl:0px pr:0px",
+     1
+    ],
+    [
+     "max-width:331px width:331 pl:0px pr:0px",
+     1
+    ],
+    [
+     "max-width:100% width:318 pl:0px pr:0px",
+     1
+    ],
+    [
+     "max-width:100% width:390 pl:0px pr:0px",
+     1
+    ],
+    [
+     "max-width:992px width:342 pl:0px pr:0px",
+     1
+    ],
+    [
+     "max-width:1330px width:350 pl:0px pr:0px",
+     1
+    ]
+   ],
+   "scan": [
+    [
+     "max-width:290px width:290 pl:0px pr:0px",
+     10
+    ],
+    [
+     "max-width:335px width:335 pl:0px pr:0px",
+     6
+    ],
+    [
+     "max-width:100% width:335 pl:0px pr:0px",
+     4
+    ],
+    [
+     "max-width:304px width:304 pl:0px pr:0px",
+     4
+    ],
+    [
+     "max-width:100% width:350 pl:0px pr:0px",
+     3
+    ],
+    [
+     "max-width:335px width:304 pl:0px pr:0px",
+     3
+    ],
+    [
+     "max-width:858px width:390 pl:0px pr:0px",
+     2
+    ],
+    [
+     "max-width:100% width:390 pl:0px pr:0px",
+     2
+    ],
+    [
+     "max-width:330px width:330 pl:0px pr:0px",
+     2
+    ],
+    [
+     "max-width:100% width:310 pl:0px pr:0px",
+     2
+    ],
+    [
+     "max-width:100% width:330 pl:0px pr:0px",
+     2
+    ],
+    [
+     "max-width:100% width:390 pl:20px pr:0px",
+     1
+    ],
+    [
+     "max-width:580px width:335 pl:0px pr:0px",
+     1
+    ],
+    [
+     "max-width:992px width:335 pl:0px pr:0px",
+     1
+    ],
+    [
+     "max-width:100% width:335 pl:30px pr:30px",
+     1
+    ]
+   ],
+   "faq": [
+    [
+     "max-width:992px width:358 pl:0px pr:0px",
+     1
+    ],
+    [
+     "max-width:992px width:390 pl:16px pr:16px",
+     1
+    ],
+    [
+     "max-width:100% width:358 pl:0px pr:0px",
+     1
+    ],
+    [
+     "max-width:100% width:350 pl:0px pr:0px",
+     1
+    ],
+    [
+     "max-width:992px width:342 pl:0px pr:0px",
+     1
+    ],
+    [
+     "max-width:1330px width:350 pl:0px pr:0px",
+     1
+    ]
+   ],
+   "article": [
+    [
+     "max-width:310px width:310 pl:0px pr:0px",
+     9
+    ],
+    [
+     "max-width:100% width:330 pl:0px pr:0px",
+     2
+    ],
+    [
+     "max-width:100% width:390 pl:20px pr:0px",
+     1
+    ],
+    [
+     "max-width:992px width:330 pl:0px pr:0px",
+     1
+    ],
+    [
+     "max-width:992px width:342 pl:0px pr:0px",
+     1
+    ],
+    [
+     "max-width:1330px width:350 pl:0px pr:0px",
+     1
+    ]
+   ],
+   "commitment": [
+    [
+     "max-width:100% width:330 pl:0px pr:0px",
+     8
+    ],
+    [
+     "max-width:100% width:310 pl:0px pr:0px",
+     2
+    ],
+    [
+     "max-width:100% width:390 pl:20px pr:0px",
+     1
+    ],
+    [
+     "max-width:640px width:390 pl:24px pr:24px",
+     1
+    ],
+    [
+     "max-width:100% width:390 pl:0px pr:0px",
+     1
+    ],
+    [
+     "max-width:992px width:342 pl:0px pr:0px",
+     1
+    ],
+    [
+     "max-width:1330px width:350 pl:0px pr:0px",
+     1
+    ]
+   ]
+  }
+ },
+ "histograms": {
+  "pc": {
+   "padding": [
+    [
+     "6px",
+     120
+    ],
+    [
+     "32px",
+     117
+    ],
+    [
+     "16px",
+     106
+    ],
+    [
+     "48px",
+     99
+    ],
+    [
+     "40px",
+     97
+    ],
+    [
+     "4px",
+     76
+    ],
+    [
+     "20px",
+     71
+    ],
+    [
+     "24px",
+     65
+    ],
+    [
+     "15px",
+     54
+    ],
+    [
+     "12px",
+     53
+    ],
+    [
+     "14px",
+     50
+    ],
+    [
+     "8px",
+     38
+    ],
+    [
+     "7px",
+     30
+    ],
+    [
+     "128px",
+     29
+    ],
+    [
+     "2px",
+     28
+    ],
+    [
+     "80px",
+     21
+    ],
+    [
+     "30px",
+     19
+    ],
+    [
+     "64px",
+     15
+    ],
+    [
+     "120px",
+     15
+    ],
+    [
+     "18px",
+     14
+    ],
+    [
+     "160px",
+     10
+    ],
+    [
+     "3.6px",
+     8
+    ],
+    [
+     "22.5px",
+     8
+    ],
+    [
+     "5px",
+     6
+    ],
+    [
+     "224px",
+     6
+    ],
+    [
+     "10px",
+     6
+    ],
+    [
+     "140px",
+     5
+    ],
+    [
+     "50px",
+     4
+    ],
+    [
+     "1px",
+     4
+    ],
+    [
+     "260px",
+     2
+    ],
+    [
+     "96px",
+     2
+    ],
+    [
+     "210px",
+     2
+    ],
+    [
+     "54px",
+     2
+    ],
+    [
+     "180px",
+     2
+    ],
+    [
+     "21px",
+     2
+    ],
+    [
+     "144px",
+     1
+    ],
+    [
+     "81px",
+     1
+    ],
+    [
+     "90px",
+     1
+    ],
+    [
+     "78px",
+     1
+    ]
+   ],
+   "margin": [
+    [
+     "20px",
+     43
+    ],
+    [
+     "3px",
+     35
+    ],
+    [
+     "8px",
+     24
+    ],
+    [
+     "30px",
+     24
+    ],
+    [
+     "10px",
+     12
+    ],
+    [
+     "80px",
+     11
+    ],
+    [
+     "200px",
+     10
+    ],
+    [
+     "60px",
+     10
+    ],
+    [
+     "24px",
+     9
+    ],
+    [
+     "4px",
+     8
+    ],
+    [
+     "40px",
+     7
+    ],
+    [
+     "224px",
+     6
+    ],
+    [
+     "16px",
+     6
+    ],
+    [
+     "18px",
+     5
+    ],
+    [
+     "72px",
+     5
+    ],
+    [
+     "920px",
+     2
+    ],
+    [
+     "131.141px",
+     2
+    ],
+    [
+     "142.688px",
+     2
+    ],
+    [
+     "32px",
+     2
+    ],
+    [
+     "37.5px",
+     2
+    ],
+    [
+     "141px",
+     2
+    ],
+    [
+     "149.906px",
+     2
+    ],
+    [
+     "25px",
+     2
+    ],
+    [
+     "11.5px",
+     2
+    ],
+    [
+     "6px",
+     2
+    ],
+    [
+     "5.5px",
+     1
+    ],
+    [
+     "37px",
+     1
+    ],
+    [
+     "125.094px",
+     1
+    ],
+    [
+     "125.078px",
+     1
+    ],
+    [
+     "15.59px",
+     1
+    ],
+    [
+     "67px",
+     1
+    ],
+    [
+     "31.5px",
+     1
+    ]
+   ],
+   "gap": [
+    [
+     "8px",
+     199
+    ],
+    [
+     "10px",
+     123
+    ],
+    [
+     "24px",
+     80
+    ],
+    [
+     "20px",
+     52
+    ],
+    [
+     "16px",
+     50
+    ],
+    [
+     "4px",
+     39
+    ],
+    [
+     "40px",
+     37
+    ],
+    [
+     "64px",
+     34
+    ],
+    [
+     "32px",
+     33
+    ],
+    [
+     "30px",
+     27
+    ],
+    [
+     "48px",
+     24
+    ],
+    [
+     "2px",
+     23
+    ],
+    [
+     "0px",
+     13
+    ],
+    [
+     "80px",
+     12
+    ],
+    [
+     "12px",
+     10
+    ],
+    [
+     "6px",
+     10
+    ],
+    [
+     "5px",
+     10
+    ],
+    [
+     "31px",
+     5
+    ],
+    [
+     "9.6px",
+     5
+    ],
+    [
+     "41px",
+     5
+    ],
+    [
+     "11.2px",
+     4
+    ],
+    [
+     "9px",
+     2
+    ],
+    [
+     "11.25px",
+     2
+    ],
+    [
+     "160px",
+     2
+    ],
+    [
+     "128px",
+     2
+    ],
+    [
+     "60px",
+     2
+    ],
+    [
+     "150px",
+     2
+    ],
+    [
+     "7.37096px",
+     1
+    ],
+    [
+     "96px",
+     1
+    ],
+    [
+     "17.76px",
+     1
+    ],
+    [
+     "34px",
+     1
+    ],
+    [
+     "7.3px",
+     1
+    ],
+    [
+     "18px",
+     1
+    ]
+   ]
+  },
+  "sp": {
+   "padding": [
+    [
+     "16px",
+     160
+    ],
+    [
+     "24px",
+     154
+    ],
+    [
+     "32px",
+     134
+    ],
+    [
+     "20px",
+     92
+    ],
+    [
+     "4px",
+     90
+    ],
+    [
+     "30px",
+     81
+    ],
+    [
+     "12px",
+     52
+    ],
+    [
+     "8px",
+     48
+    ],
+    [
+     "40px",
+     45
+    ],
+    [
+     "80px",
+     42
+    ],
+    [
+     "6px",
+     41
+    ],
+    [
+     "2px",
+     38
+    ],
+    [
+     "7px",
+     30
+    ],
+    [
+     "14px",
+     30
+    ],
+    [
+     "18px",
+     22
+    ],
+    [
+     "13.5px",
+     16
+    ],
+    [
+     "48px",
+     14
+    ],
+    [
+     "0.916667px",
+     12
+    ],
+    [
+     "10px",
+     12
+    ],
+    [
+     "2.8px",
+     8
+    ],
+    [
+     "5px",
+     6
+    ],
+    [
+     "108px",
+     5
+    ],
+    [
+     "64px",
+     4
+    ],
+    [
+     "0.785714px",
+     4
+    ],
+    [
+     "4.28571px",
+     4
+    ],
+    [
+     "1px",
+     4
+    ],
+    [
+     "120px",
+     3
+    ],
+    [
+     "12.5px",
+     2
+    ],
+    [
+     "23px",
+     2
+    ],
+    [
+     "15px",
+     2
+    ],
+    [
+     "9px",
+     2
+    ],
+    [
+     "200px",
+     1
+    ],
+    [
+     "1.57143px",
+     1
+    ],
+    [
+     "240px",
+     1
+    ],
+    [
+     "59px",
+     1
+    ]
+   ],
+   "margin": [
+    [
+     "30px",
+     52
+    ],
+    [
+     "20px",
+     49
+    ],
+    [
+     "16px",
+     27
+    ],
+    [
+     "3px",
+     21
+    ],
+    [
+     "8px",
+     19
+    ],
+    [
+     "10px",
+     14
+    ],
+    [
+     "4px",
+     14
+    ],
+    [
+     "24px",
+     14
+    ],
+    [
+     "80px",
+     13
+    ],
+    [
+     "60px",
+     10
+    ],
+    [
+     "70px",
+     9
+    ],
+    [
+     "7.5px",
+     6
+    ],
+    [
+     "36px",
+     5
+    ],
+    [
+     "40px",
+     4
+    ],
+    [
+     "6.8px",
+     3
+    ],
+    [
+     "5.5px",
+     2
+    ],
+    [
+     "68.1406px",
+     2
+    ],
+    [
+     "79.6875px",
+     2
+    ],
+    [
+     "27.5px",
+     2
+    ],
+    [
+     "3.5px",
+     2
+    ],
+    [
+     "67.5px",
+     2
+    ],
+    [
+     "50px",
+     2
+    ],
+    [
+     "15px",
+     2
+    ],
+    [
+     "13px",
+     2
+    ],
+    [
+     "6px",
+     2
+    ],
+    [
+     "62.0938px",
+     1
+    ],
+    [
+     "62.0781px",
+     1
+    ],
+    [
+     "15.59px",
+     1
+    ],
+    [
+     "61px",
+     1
+    ]
+   ],
+   "gap": [
+    [
+     "8px",
+     164
+    ],
+    [
+     "10px",
+     106
+    ],
+    [
+     "16px",
+     77
+    ],
+    [
+     "4px",
+     54
+    ],
+    [
+     "24px",
+     54
+    ],
+    [
+     "20px",
+     39
+    ],
+    [
+     "40px",
+     25
+    ],
+    [
+     "0px",
+     24
+    ],
+    [
+     "48px",
+     20
+    ],
+    [
+     "6px",
+     18
+    ],
+    [
+     "12px",
+     16
+    ],
+    [
+     "2px",
+     12
+    ],
+    [
+     "32px",
+     12
+    ],
+    [
+     "4.28571px",
+     12
+    ],
+    [
+     "5px",
+     10
+    ],
+    [
+     "7.2px",
+     5
+    ],
+    [
+     "30px",
+     5
+    ],
+    [
+     "36px",
+     5
+    ],
+    [
+     "30px / 40px",
+     5
+    ],
+    [
+     "64px",
+     4
+    ],
+    [
+     "4.71761px",
+     3
+    ],
+    [
+     "7px",
+     3
+    ],
+    [
+     "31px",
+     3
+    ],
+    [
+     "4px / 16px",
+     3
+    ],
+    [
+     "9px",
+     2
+    ],
+    [
+     "23.5px",
+     2
+    ],
+    [
+     "80px",
+     1
+    ],
+    [
+     "6.28571px",
+     1
+    ],
+    [
+     "17.7632px",
+     1
+    ],
+    [
+     "5.14286px",
+     1
+    ],
+    [
+     "25px",
+     1
+    ],
+    [
+     "18px",
+     1
+    ],
+    [
+     "50px",
+     1
+    ]
+   ]
+  }
+ },
+ "layoutRhythm": {
+  "pc": [
+   {
+    "section": "Hero_hero",
+    "secH": 552,
+    "inner": "Hero_hero",
+    "innerW": 1440,
+    "innerGap": "normal",
+    "innerPad": "0px",
+    "innerDisplay": "block row",
+    "rows": []
+   },
+   {
+    "section": "Achievements_root",
+    "secH": 147,
+    "inner": "Achievements_inner",
+    "innerW": 922,
+    "innerGap": "40px",
+    "innerPad": "0px",
+    "innerDisplay": "flex row",
+    "rows": [
+     {
+      "el": "Achievements_stats",
+      "tag": "div",
+      "top": 724,
+      "h": 83,
+      "w": 526,
+      "gapPrev": 32
+     },
+     {
+      "el": "Achievements_button",
+      "tag": "button",
+      "top": 740,
+      "h": 52,
+      "w": 356,
+      "gapPrev": -67
+     }
+    ]
+   },
+   {
+    "section": "KwSection_root",
+    "secH": 1119,
+    "inner": "KwSection_container",
+    "innerW": 992,
+    "innerGap": "64px",
+    "innerPad": "0px",
+    "innerDisplay": "flex column",
+    "rows": [
+     {
+      "el": "KwSection_cm",
+      "tag": "div",
+      "top": 935,
+      "h": 653,
+      "w": 992,
+      "gapPrev": 96
+     },
+     {
+      "el": "KwSection_special",
+      "tag": "div",
+      "top": 1652,
+      "h": 210,
+      "w": 992,
+      "gapPrev": 64
+     }
+    ]
+   },
+   {
+    "section": "Message_root",
+    "secH": 641,
+    "inner": "Message_root",
+    "innerW": 1440,
+    "innerGap": "normal",
+    "innerPad": "0px",
+    "innerDisplay": "block row",
+    "rows": []
+   },
+   {
+    "section": "EarlyDetectionCases_section",
+    "secH": 806,
+    "inner": "EarlyDetectionCases_inner",
+    "innerW": 992,
+    "innerGap": "32px",
+    "innerPad": "0px",
+    "innerDisplay": "flex column",
+    "rows": [
+     {
+      "el": "EarlyDetectionCases_title",
+      "tag": "h2",
+      "top": 2727,
+      "h": 123,
+      "w": 517,
+      "gapPrev": 128
+     },
+     {
+      "el": "EarlyDetectionCases_board",
+      "tag": "div",
+      "top": 2882,
+      "h": 293,
+      "w": 996,
+      "gapPrev": 32
+     },
+     {
+      "el": "EarlyDetectionCases_footer",
+      "tag": "div",
+      "top": 3207,
+      "h": 70,
+      "w": 689,
+      "gapPrev": 32
+     }
+    ]
+   },
+   {
+    "section": "ScanCtaCompact_root",
+    "secH": 485,
+    "inner": "ScanCtaCompact_content",
+    "innerW": 1120,
+    "innerGap": "normal",
+    "innerPad": "0px",
+    "innerDisplay": "flex column",
+    "rows": [
+     {
+      "el": "ScanCtaCompact_card",
+      "tag": "div",
+      "top": 3454,
+      "h": 387,
+      "w": 1120,
+      "gapPrev": 48
+     },
+     {
+      "el": "ScanCtaCompact_support",
+      "tag": "div",
+      "top": 3745,
+      "h": 146,
+      "w": 864,
+      "gapPrev": -96
+     }
+    ]
+   },
+   {
+    "section": "About_about",
+    "secH": 4782,
+    "inner": "About_container",
+    "innerW": 992,
+    "innerGap": "160px",
+    "innerPad": "0px",
+    "innerDisplay": "flex column",
+    "rows": [
+     {
+      "el": "About_blocks",
+      "tag": "div",
+      "top": 4051,
+      "h": 3627,
+      "w": 992,
+      "gapPrev": 160
+     },
+     {
+      "el": "About_AfterSupport_root",
+      "tag": "div",
+      "top": 7838,
+      "h": 675,
+      "w": 992,
+      "gapPrev": 160
+     }
+    ]
+   },
+   {
+    "section": "Benefits_section",
+    "secH": 1675,
+    "inner": "Benefits_container",
+    "innerW": 992,
+    "innerGap": "128px",
+    "innerPad": "0px",
+    "innerDisplay": "flex column",
+    "rows": [
+     {
+      "el": "Benefits_top",
+      "tag": "div",
+      "top": 8801,
+      "h": 534,
+      "w": 992,
+      "gapPrev": 128
+     },
+     {
+      "el": "Benefits_closing",
+      "tag": "div",
+      "top": 9463,
+      "h": 757,
+      "w": 992,
+      "gapPrev": 128
+     }
+    ]
+   },
+   {
+    "section": "Doctors_section",
+    "secH": 895,
+    "inner": "Doctors_container",
+    "innerW": 992,
+    "innerGap": "64px",
+    "innerPad": "0px",
+    "innerDisplay": "flex column",
+    "rows": [
+     {
+      "el": "Doctors_titleWrap",
+      "tag": "div",
+      "top": 10476,
+      "h": 71,
+      "w": 280,
+      "gapPrev": 128
+     },
+     {
+      "el": "Doctors_sliderWrap",
+      "tag": "div",
+      "top": 10611,
+      "h": 504,
+      "w": 992,
+      "gapPrev": 64
+     }
+    ]
+   },
+   {
+    "section": "PurchaseCta_root",
+    "secH": 1305,
+    "inner": "PurchaseCta_scanBlock",
+    "innerW": 1440,
+    "innerGap": "normal",
+    "innerPad": "0px",
+    "innerDisplay": "block row",
+    "rows": []
+   },
+   {
+    "section": "CustomerSupport_root",
+    "secH": 146,
+    "inner": "CustomerSupport_root",
+    "innerW": 1440,
+    "innerGap": "48px",
+    "innerPad": "24px 48px",
+    "innerDisplay": "flex row",
+    "rows": [
+     {
+      "el": "CustomerSupport_Block_tel",
+      "tag": "div",
+      "top": 12572,
+      "h": 98,
+      "w": 320,
+      "gapPrev": 24
+     },
+     {
+      "el": "CustomerSupport_Block_divider",
+      "tag": "div",
+      "top": 12572,
+      "h": 98,
+      "w": 1,
+      "gapPrev": -98
+     },
+     {
+      "el": "CustomerSupport_Block_line",
+      "tag": "div",
+      "top": 12572,
+      "h": 98,
+      "w": 320,
+      "gapPrev": -98
+     }
+    ]
+   },
+   {
+    "section": "InspectionFlow_root",
+    "secH": 771,
+    "inner": "InspectionFlow_inner",
+    "innerW": 992,
+    "innerGap": "64px",
+    "innerPad": "0px",
+    "innerDisplay": "flex column",
+    "rows": [
+     {
+      "el": "InspectionFlow_heading",
+      "tag": "div",
+      "top": 12822,
+      "h": 71,
+      "w": 280,
+      "gapPrev": 128
+     },
+     {
+      "el": "InspectionFlow_cards",
+      "tag": "div",
+      "top": 12957,
+      "h": 444,
+      "w": 992,
+      "gapPrev": 64
+     }
+    ]
+   },
+   {
+    "section": "Stores_root",
+    "secH": 1055,
+    "inner": "Stores_inner",
+    "innerW": 992,
+    "innerGap": "64px",
+    "innerPad": "0px",
+    "innerDisplay": "flex column",
+    "rows": [
+     {
+      "el": "Stores_heading",
+      "tag": "div",
+      "top": 13593,
+      "h": 71,
+      "w": 365,
+      "gapPrev": 128
+     },
+     {
+      "el": "Stores_content",
+      "tag": "div",
+      "top": 13728,
+      "h": 664,
+      "w": 992,
+      "gapPrev": 64
+     }
+    ]
+   },
+   {
+    "section": "Media_root",
+    "secH": 974,
+    "inner": "Media_inner",
+    "innerW": 992,
+    "innerGap": "64px",
+    "innerPad": "0px",
+    "innerDisplay": "flex column",
+    "rows": [
+     {
+      "el": "Media_heading",
+      "tag": "div",
+      "top": 14520,
+      "h": 71,
+      "w": 323,
+      "gapPrev": 0
+     },
+     {
+      "el": "Media_AwardSlider_slider",
+      "tag": "div",
+      "top": 14655,
+      "h": 371,
+      "w": 992,
+      "gapPrev": 64
+     },
+     {
+      "el": "Media_LogoGrid_grid",
+      "tag": "div",
+      "top": 15090,
+      "h": 276,
+      "w": 992,
+      "gapPrev": 64
+     }
+    ]
+   },
+   {
+    "section": "Promise_root",
+    "secH": 1207,
+    "inner": "Promise_stack",
+    "innerW": 1440,
+    "innerGap": "normal",
+    "innerPad": "0px",
+    "innerDisplay": "flex column",
+    "rows": [
+     {
+      "el": "Promise_photoFrame",
+      "tag": "div",
+      "top": 15622,
+      "h": 499,
+      "w": 1120,
+      "gapPrev": 128
+     },
+     {
+      "el": "Promise_card",
+      "tag": "div",
+      "top": 15993,
+      "h": 580,
+      "w": 992,
+      "gapPrev": -128
+     }
+    ]
+   },
+   {
+    "section": "Faq_root",
+    "secH": 816,
+    "inner": "Faq_inner",
+    "innerW": 992,
+    "innerGap": "64px",
+    "innerPad": "0px",
+    "innerDisplay": "flex column",
+    "rows": [
+     {
+      "el": "Faq_heading",
+      "tag": "div",
+      "top": 16829,
+      "h": 71,
+      "w": 280,
+      "gapPrev": 128
+     },
+     {
+      "el": "Faq_list",
+      "tag": "div",
+      "top": 16964,
+      "h": 304,
+      "w": 992,
+      "gapPrev": 64
+     },
+     {
+      "el": "SecondaryButton_button",
+      "tag": "a",
+      "top": 17332,
+      "h": 58,
+      "w": 323,
+      "gapPrev": 64
+     }
+    ]
+   },
+   {
+    "section": "News_root",
+    "secH": 1108,
+    "inner": "News_inner",
+    "innerW": 992,
+    "innerGap": "64px",
+    "innerPad": "0px",
+    "innerDisplay": "flex column",
+    "rows": [
+     {
+      "el": "News_heading",
+      "tag": "div",
+      "top": 17637,
+      "h": 71,
+      "w": 280,
+      "gapPrev": 120
+     },
+     {
+      "el": "News_list",
+      "tag": "div",
+      "top": 17772,
+      "h": 612,
+      "w": 992,
+      "gapPrev": 64
+     },
+     {
+      "el": "SecondaryButton_button",
+      "tag": "a",
+      "top": 18448,
+      "h": 58,
+      "w": 279,
+      "gapPrev": 64
+     }
+    ]
+   },
+   {
+    "section": "Column_root",
+    "secH": 974,
+    "inner": "Column_inner",
+    "innerW": 992,
+    "innerGap": "64px",
+    "innerPad": "0px",
+    "innerDisplay": "flex column",
+    "rows": [
+     {
+      "el": "Column_heading",
+      "tag": "div",
+      "top": 18746,
+      "h": 71,
+      "w": 280,
+      "gapPrev": 120
+     },
+     {
+      "el": "Column_list",
+      "tag": "div",
+      "top": 18880,
+      "h": 478,
+      "w": 992,
+      "gapPrev": 64
+     },
+     {
+      "el": "SecondaryButton_button",
+      "tag": "a",
+      "top": 19422,
+      "h": 58,
+      "w": 255,
+      "gapPrev": 64
+     }
+    ]
+   },
+   {
+    "section": "Consider_root",
+    "secH": 815,
+    "inner": "Consider_inner",
+    "innerW": 992,
+    "innerGap": "64px",
+    "innerPad": "0px",
+    "innerDisplay": "flex column",
+    "rows": [
+     {
+      "el": "Consider_heading",
+      "tag": "div",
+      "top": 19727,
+      "h": 71,
+      "w": 288,
+      "gapPrev": 128
+     },
+     {
+      "el": "Consider_grid",
+      "tag": "div",
+      "top": 19862,
+      "h": 424,
+      "w": 992,
+      "gapPrev": 64
+     }
+    ]
+   },
+   {
+    "headingBlocks": [
+     {
+      "el": "About_Intro_heading",
+      "w": 280,
+      "h": 71,
+      "display": "flex column",
+      "gap": "32px",
+      "kids": [
+       "About_Intro_headingText:38h@0",
+       "About_Intro_headingLine:1h@70"
+      ]
+     },
+     {
+      "el": "About_TenCancers_headingBox",
+      "w": 800,
+      "h": 144,
+      "display": "block row",
+      "gap": "normal",
+      "kids": [
+       "About_TenCancers_underline1:22h@51",
+       "About_TenCancers_underline2:22h@122",
+       "About_TenCancers_heading:144h@0"
+      ]
+     },
+     {
+      "el": "About_TenCancers_heading",
+      "w": 782,
+      "h": 144,
+      "display": "block row",
+      "gap": "normal",
+      "kids": [
+       "About_TenCancers_wide:64h@16",
+       "About_TenCancers_big:105h@-17",
+       "About_TenCancers_wide:64h@16",
+       "About_TenCancers_sup:29h@34",
+       ":64h@16",
+       "About_TenCancers_big1:105h@55",
+       "About_TenCancers_big:105h@55",
+       "About_TenCancers_wide:64h@88",
+       "About_TenCancers_sup:29h@106",
+       "About_TenCancers_wide:64h@88"
+      ]
+     },
+     {
+      "el": "About_Pancreas_headingBox",
+      "w": 802,
+      "h": 170,
+      "display": "block row",
+      "gap": "normal",
+      "kids": [
+       "About_Pancreas_headingUnderline:32h@49",
+       "About_Pancreas_heading:170h@0"
+      ]
+     },
+     {
+      "el": "About_Pancreas_heading",
+      "w": 802,
+      "h": 170,
+      "display": "block row",
+      "gap": "normal",
+      "kids": [
+       "About_Pancreas_headingEm:81h@-2",
+       "About_Pancreas_headingBreak:52h@21"
+      ]
+     },
+     {
+      "el": "About_Sensitivity_heading",
+      "w": 536,
+      "h": 107,
+      "display": "block row",
+      "gap": "normal",
+      "kids": [
+       ":0h@-7052"
+      ]
+     },
+     {
+      "el": "About_AfterSupport_heading",
+      "w": 302,
+      "h": 71,
+      "display": "flex column",
+      "gap": "32px",
+      "kids": [
+       "About_AfterSupport_headingText:38h@0",
+       "About_AfterSupport_headingLine:1h@70"
+      ]
+     },
+     {
+      "el": "Benefits_titleWrap",
+      "w": 379,
+      "h": 71,
+      "display": "flex column",
+      "gap": "32px",
+      "kids": [
+       "Benefits_title:38h@0",
+       "Benefits_titleLine:1h@70"
+      ]
+     },
+     {
+      "el": "Doctors_titleWrap",
+      "w": 280,
+      "h": 71,
+      "display": "flex column",
+      "gap": "32px",
+      "kids": [
+       "Doctors_title:38h@0",
+       "Doctors_titleLine:1h@70"
+      ]
+     },
+     {
+      "el": "Doctors_heading",
+      "w": 380,
+      "h": 24,
+      "display": "block row",
+      "gap": "normal",
+      "kids": []
+     },
+     {
+      "el": "Doctors_heading",
+      "w": 380,
+      "h": 24,
+      "display": "block row",
+      "gap": "normal",
+      "kids": []
+     },
+     {
+      "el": "Doctors_heading",
+      "w": 380,
+      "h": 24,
+      "display": "block row",
+      "gap": "normal",
+      "kids": []
+     },
+     {
+      "el": "Doctors_heading",
+      "w": 380,
+      "h": 24,
+      "display": "block row",
+      "gap": "normal",
+      "kids": []
+     },
+     {
+      "el": "Doctors_heading",
+      "w": 380,
+      "h": 24,
+      "display": "block row",
+      "gap": "normal",
+      "kids": []
+     },
+     {
+      "el": "Doctors_heading",
+      "w": 380,
+      "h": 24,
+      "display": "block row",
+      "gap": "normal",
+      "kids": []
+     },
+     {
+      "el": "InspectionFlow_heading",
+      "w": 280,
+      "h": 71,
+      "display": "flex column",
+      "gap": "32px",
+      "kids": [
+       "InspectionFlow_title:38h@0",
+       "InspectionFlow_rule:1h@70"
+      ]
+     },
+     {
+      "el": "Stores_heading",
+      "w": 365,
+      "h": 71,
+      "display": "flex column",
+      "gap": "32px",
+      "kids": [
+       "Stores_title:38h@0",
+       "Stores_rule:1h@70"
+      ]
+     },
+     {
+      "el": "Media_heading",
+      "w": 323,
+      "h": 71,
+      "display": "flex column",
+      "gap": "32px",
+      "kids": [
+       "Media_title:38h@0",
+       "Media_line:1h@70"
+      ]
+     },
+     {
+      "el": "Faq_heading",
+      "w": 280,
+      "h": 71,
+      "display": "flex column",
+      "gap": "32px",
+      "kids": [
+       "Faq_title:38h@0",
+       "Faq_line:1h@70"
+      ]
+     },
+     {
+      "el": "News_heading",
+      "w": 280,
+      "h": 71,
+      "display": "flex column",
+      "gap": "32px",
+      "kids": [
+       "News_title:38h@0",
+       "News_line:1h@70"
+      ]
+     },
+     {
+      "el": "Column_heading",
+      "w": 280,
+      "h": 71,
+      "display": "flex column",
+      "gap": "32px",
+      "kids": [
+       "Column_title:38h@0",
+       "Column_line:1h@70"
+      ]
+     },
+     {
+      "el": "Consider_heading",
+      "w": 288,
+      "h": 71,
+      "display": "flex column",
+      "gap": "32px",
+      "kids": [
+       "Consider_title:38h@0",
+       "Consider_line:1h@70"
+      ]
+     }
+    ]
+   }
+  ],
+  "sp": [
+   {
+    "section": "Kv_kv",
+    "secH": 416,
+    "inner": "Kv_kv",
+    "innerW": 390,
+    "innerGap": "normal",
+    "innerPad": "0px",
+    "innerDisplay": "block row",
+    "rows": []
+   },
+   {
+    "section": "Achievements_root",
+    "secH": 164,
+    "inner": "Achievements_inner",
+    "innerW": 358,
+    "innerGap": "16px",
+    "innerPad": "0px",
+    "innerDisplay": "flex column",
+    "rows": [
+     {
+      "el": "Achievements_statRow",
+      "tag": "div",
+      "top": 540,
+      "h": 41,
+      "w": 344,
+      "gapPrev": 16
+     },
+     {
+      "el": "Achievements_button",
+      "tag": "button",
+      "top": 597,
+      "h": 45,
+      "w": 358,
+      "gapPrev": 16
+     },
+     {
+      "el": "Achievements_note",
+      "tag": "p",
+      "top": 658,
+      "h": 14,
+      "w": 358,
+      "gapPrev": 16
+     }
+    ]
+   },
+   {
+    "section": "KwSection_wrapper",
+    "secH": 817,
+    "inner": "KwSection_wrapper",
+    "innerW": 390,
+    "innerGap": "normal",
+    "innerPad": "0px",
+    "innerDisplay": "flex column",
+    "rows": []
+   },
+   {
+    "section": "Message_root",
+    "secH": 710,
+    "inner": "Message_root",
+    "innerW": 390,
+    "innerGap": "normal",
+    "innerPad": "0px",
+    "innerDisplay": "block row",
+    "rows": []
+   },
+   {
+    "section": "EarlyDetectionCases_section",
+    "secH": 610,
+    "inner": "EarlyDetectionCases_inner",
+    "innerW": 476,
+    "innerGap": "24px",
+    "innerPad": "0px",
+    "innerDisplay": "flex column",
+    "rows": [
+     {
+      "el": "EarlyDetectionCases_title",
+      "tag": "h2",
+      "top": 2295,
+      "h": 67,
+      "w": 282,
+      "gapPrev": 80
+     },
+     {
+      "el": "EarlyDetectionCases_board",
+      "tag": "div",
+      "top": 2387,
+      "h": 242,
+      "w": 476,
+      "gapPrev": 24
+     },
+     {
+      "el": "EarlyDetectionCases_description",
+      "tag": "p",
+      "top": 2652,
+      "h": 56,
+      "w": 335,
+      "gapPrev": 24
+     },
+     {
+      "el": "EarlyDetectionCases_link",
+      "tag": "a",
+      "top": 2732,
+      "h": 13,
+      "w": 84,
+      "gapPrev": 24
+     }
+    ]
+   },
+   {
+    "section": "Cta_root",
+    "secH": 577,
+    "inner": "Cta_content",
+    "innerW": 335,
+    "innerGap": "normal",
+    "innerPad": "0px",
+    "innerDisplay": "flex column",
+    "rows": [
+     {
+      "el": "Cta_card",
+      "tag": "div",
+      "top": 2825,
+      "h": 504,
+      "w": 335,
+      "gapPrev": 0
+     },
+     {
+      "el": "Cta_support",
+      "tag": "div",
+      "top": 3150,
+      "h": 252,
+      "w": 303,
+      "gapPrev": -180
+     }
+    ]
+   },
+   {
+    "section": "Benefits_root",
+    "secH": 1847,
+    "inner": "Benefits_inner",
+    "innerW": 358,
+    "innerGap": "48px",
+    "innerPad": "0px",
+    "innerDisplay": "flex column",
+    "rows": [
+     {
+      "el": "Benefits_top",
+      "tag": "div",
+      "top": 8448,
+      "h": 981,
+      "w": 358,
+      "gapPrev": 80
+     },
+     {
+      "el": "Benefits_summary",
+      "tag": "div",
+      "top": 9476,
+      "h": 658,
+      "w": 358,
+      "gapPrev": 48
+     }
+    ]
+   },
+   {
+    "section": "Doctors_root",
+    "secH": 780,
+    "inner": "Doctors_inner",
+    "innerW": 358,
+    "innerGap": "48px",
+    "innerPad": "0px",
+    "innerDisplay": "flex column",
+    "rows": [
+     {
+      "el": "Doctors_sectionHeading",
+      "tag": "div",
+      "top": 10294,
+      "h": 55,
+      "w": 200,
+      "gapPrev": 80
+     },
+     {
+      "el": "Doctors_sliderWrap",
+      "tag": "div",
+      "top": 10397,
+      "h": 517,
+      "w": 320,
+      "gapPrev": 48
+     }
+    ]
+   },
+   {
+    "section": "PurchaseCta_root",
+    "secH": 1135,
+    "inner": "PurchaseCta_root",
+    "innerW": 390,
+    "innerGap": "normal",
+    "innerPad": "0px",
+    "innerDisplay": "flex column",
+    "rows": [
+     {
+      "el": "PurchaseCta_pkg",
+      "tag": "div",
+      "top": 10994,
+      "h": 314,
+      "w": 390,
+      "gapPrev": 0
+     },
+     {
+      "el": "PurchaseCta_product",
+      "tag": "div",
+      "top": 11307,
+      "h": 822,
+      "w": 390,
+      "gapPrev": -1
+     }
+    ]
+   },
+   {
+    "section": "CustomerSupport_root",
+    "secH": 268,
+    "inner": "CustomerSupport_inner",
+    "innerW": 358,
+    "innerGap": "24px",
+    "innerPad": "0px",
+    "innerDisplay": "flex column",
+    "rows": [
+     {
+      "el": "CustomerSupport_Block_tel",
+      "tag": "div",
+      "top": 12154,
+      "h": 82,
+      "w": 358,
+      "gapPrev": 24
+     },
+     {
+      "el": "CustomerSupport_Block_divider",
+      "tag": "div",
+      "top": 12259,
+      "h": 1,
+      "w": 99,
+      "gapPrev": 24
+     },
+     {
+      "el": "CustomerSupport_Block_line",
+      "tag": "div",
+      "top": 12284,
+      "h": 90,
+      "w": 358,
+      "gapPrev": 24
+     }
+    ]
+   },
+   {
+    "section": "InspectionFlow_root",
+    "secH": 1638,
+    "inner": "InspectionFlow_inner",
+    "innerW": 342,
+    "innerGap": "48px",
+    "innerPad": "0px",
+    "innerDisplay": "flex column",
+    "rows": [
+     {
+      "el": "InspectionFlow_heading",
+      "tag": "div",
+      "top": 12478,
+      "h": 55,
+      "w": 200,
+      "gapPrev": 80
+     },
+     {
+      "el": "InspectionFlow_steps",
+      "tag": "div",
+      "top": 12581,
+      "h": 1375,
+      "w": 342,
+      "gapPrev": 48
+     }
+    ]
+   },
+   {
+    "section": "Stores_root",
+    "secH": 1644,
+    "inner": "Stores_inner",
+    "innerW": 342,
+    "innerGap": "48px",
+    "innerPad": "0px",
+    "innerDisplay": "flex column",
+    "rows": [
+     {
+      "el": "Stores_heading",
+      "tag": "div",
+      "top": 14116,
+      "h": 55,
+      "w": 287,
+      "gapPrev": 80
+     },
+     {
+      "el": "Stores_cardsOuter",
+      "tag": "div",
+      "top": 14218,
+      "h": 1381,
+      "w": 342,
+      "gapPrev": 48
+     }
+    ]
+   },
+   {
+    "section": "Media_root",
+    "secH": 832,
+    "inner": "Media_root",
+    "innerW": 390,
+    "innerGap": "48px",
+    "innerPad": "0px 16px 80px",
+    "innerDisplay": "flex column",
+    "rows": [
+     {
+      "el": "Media_inner",
+      "tag": "div",
+      "top": 15679,
+      "h": 544,
+      "w": 358,
+      "gapPrev": 0
+     },
+     {
+      "el": "Media_LogoGrid_grid",
+      "tag": "div",
+      "top": 16272,
+      "h": 159,
+      "w": 318,
+      "gapPrev": 48
+     }
+    ]
+   },
+   {
+    "section": "Promise_root",
+    "secH": 1349,
+    "inner": "Promise_card",
+    "innerW": 358,
+    "innerGap": "24px",
+    "innerPad": "32px 24px",
+    "innerDisplay": "flex column",
+    "rows": [
+     {
+      "el": "Promise_title",
+      "tag": "h2",
+      "top": 16783,
+      "h": 33,
+      "w": 310,
+      "gapPrev": 272
+     },
+     {
+      "el": "Promise_boxes",
+      "tag": "div",
+      "top": 16840,
+      "h": 908,
+      "w": 310,
+      "gapPrev": 24
+     }
+    ]
+   },
+   {
+    "section": "Faq_root",
+    "secH": 674,
+    "inner": "Faq_inner",
+    "innerW": 358,
+    "innerGap": "48px",
+    "innerPad": "0px",
+    "innerDisplay": "flex column",
+    "rows": [
+     {
+      "el": "Faq_heading",
+      "tag": "div",
+      "top": 17940,
+      "h": 63,
+      "w": 200,
+      "gapPrev": 80
+     },
+     {
+      "el": "Faq_list",
+      "tag": "div",
+      "top": 18051,
+      "h": 301,
+      "w": 358,
+      "gapPrev": 48
+     },
+     {
+      "el": "SecondaryButton_button",
+      "tag": "a",
+      "top": 18400,
+      "h": 54,
+      "w": 250,
+      "gapPrev": 48
+     }
+    ]
+   },
+   {
+    "section": "News_root",
+    "secH": 1382,
+    "inner": "News_inner",
+    "innerW": 358,
+    "innerGap": "48px",
+    "innerPad": "0px",
+    "innerDisplay": "flex column",
+    "rows": [
+     {
+      "el": "News_heading",
+      "tag": "div",
+      "top": 18614,
+      "h": 55,
+      "w": 200,
+      "gapPrev": 80
+     },
+     {
+      "el": "News_list",
+      "tag": "div",
+      "top": 18716,
+      "h": 1017,
+      "w": 358,
+      "gapPrev": 48
+     },
+     {
+      "el": "SecondaryButton_button",
+      "tag": "a",
+      "top": 19781,
+      "h": 54,
+      "w": 211,
+      "gapPrev": 48
+     }
+    ]
+   },
+   {
+    "section": "Column_root",
+    "secH": 1743,
+    "inner": "Column_inner",
+    "innerW": 358,
+    "innerGap": "48px",
+    "innerPad": "0px",
+    "innerDisplay": "flex column",
+    "rows": [
+     {
+      "el": "Column_heading",
+      "tag": "div",
+      "top": 19995,
+      "h": 55,
+      "w": 200,
+      "gapPrev": 80
+     },
+     {
+      "el": "Column_list",
+      "tag": "div",
+      "top": 20098,
+      "h": 1375,
+      "w": 358,
+      "gapPrev": 48
+     },
+     {
+      "el": "SecondaryButton_button",
+      "tag": "a",
+      "top": 21521,
+      "h": 58,
+      "w": 255,
+      "gapPrev": 48
+     }
+    ]
+   },
+   {
+    "section": "Consider_root",
+    "secH": 895,
+    "inner": "Consider_inner",
+    "innerW": 358,
+    "innerGap": "48px",
+    "innerPad": "0px",
+    "innerDisplay": "flex column",
+    "rows": [
+     {
+      "el": "Consider_heading",
+      "tag": "div",
+      "top": 21739,
+      "h": 55,
+      "w": 226,
+      "gapPrev": 80
+     },
+     {
+      "el": "Consider_grid",
+      "tag": "div",
+      "top": 21841,
+      "h": 632,
+      "w": 358,
+      "gapPrev": 48
+     }
+    ]
+   },
+   {
+    "headingBlocks": [
+     {
+      "el": "AboutPart1_Intro_heading",
+      "w": 200,
+      "h": 55,
+      "display": "flex column",
+      "gap": "24px",
+      "kids": [
+       "AboutPart1_Intro_headingText:30h@0",
+       "AboutPart1_Intro_headingLine:1h@54"
+      ]
+     },
+     {
+      "el": "AboutPart2_Pancreas_headingBox",
+      "w": 310,
+      "h": 128,
+      "display": "flex column",
+      "gap": "16px",
+      "kids": [
+       "AboutPart2_Pancreas_headingFrame:128h@0"
+      ]
+     },
+     {
+      "el": "AboutPart2_Sensitivity_heading",
+      "w": 295,
+      "h": 92,
+      "display": "block row",
+      "gap": "normal",
+      "kids": [
+       ":0h@-6475"
+      ]
+     },
+     {
+      "el": "AboutPart2_AfterSupport_heading",
+      "w": 238,
+      "h": 55,
+      "display": "flex column",
+      "gap": "24px",
+      "kids": [
+       "AboutPart2_AfterSupport_headingText:30h@0",
+       "AboutPart2_AfterSupport_headingLine:1h@54"
+      ]
+     },
+     {
+      "el": "Benefits_heading",
+      "w": 358,
+      "h": 55,
+      "display": "flex column",
+      "gap": "24px",
+      "kids": [
+       "Benefits_title:30h@0",
+       "Benefits_line:1h@54"
+      ]
+     },
+     {
+      "el": "Doctors_heading",
+      "w": 251,
+      "h": 43,
+      "display": "block row",
+      "gap": "normal",
+      "kids": []
+     },
+     {
+      "el": "Doctors_heading",
+      "w": 251,
+      "h": 43,
+      "display": "block row",
+      "gap": "normal",
+      "kids": []
+     },
+     {
+      "el": "Doctors_heading",
+      "w": 251,
+      "h": 43,
+      "display": "block row",
+      "gap": "normal",
+      "kids": []
+     },
+     {
+      "el": "Doctors_heading",
+      "w": 251,
+      "h": 43,
+      "display": "block row",
+      "gap": "normal",
+      "kids": []
+     },
+     {
+      "el": "Doctors_heading",
+      "w": 251,
+      "h": 43,
+      "display": "block row",
+      "gap": "normal",
+      "kids": []
+     },
+     {
+      "el": "Doctors_heading",
+      "w": 251,
+      "h": 43,
+      "display": "block row",
+      "gap": "normal",
+      "kids": []
+     },
+     {
+      "el": "InspectionFlow_heading",
+      "w": 200,
+      "h": 55,
+      "display": "flex column",
+      "gap": "24px",
+      "kids": [
+       "InspectionFlow_title:30h@0",
+       "InspectionFlow_line:1h@54"
+      ]
+     },
+     {
+      "el": "Stores_heading",
+      "w": 287,
+      "h": 55,
+      "display": "flex column",
+      "gap": "24px",
+      "kids": [
+       "Stores_sectionTitle:30h@0",
+       "Stores_line:1h@54"
+      ]
+     },
+     {
+      "el": "Media_heading",
+      "w": 280,
+      "h": 55,
+      "display": "flex column",
+      "gap": "24px",
+      "kids": [
+       "Media_title:30h@0",
+       "Media_line:1h@54"
+      ]
+     },
+     {
+      "el": "Faq_heading",
+      "w": 200,
+      "h": 63,
+      "display": "flex column",
+      "gap": "32px",
+      "kids": [
+       "Faq_title:30h@0",
+       "Faq_line:1h@62"
+      ]
+     },
+     {
+      "el": "News_heading",
+      "w": 200,
+      "h": 55,
+      "display": "flex column",
+      "gap": "24px",
+      "kids": [
+       "News_title:30h@0",
+       "News_line:1h@54"
+      ]
+     },
+     {
+      "el": "Column_heading",
+      "w": 200,
+      "h": 55,
+      "display": "flex column",
+      "gap": "24px",
+      "kids": [
+       "Column_title:30h@0",
+       "Column_line:1h@54"
+      ]
+     },
+     {
+      "el": "Consider_heading",
+      "w": 226,
+      "h": 55,
+      "display": "flex column",
+      "gap": "24px",
+      "kids": [
+       "Consider_title:30h@0",
+       "Consider_line:1h@54"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "bpRows": [
+  {
+   "w": 1500,
+   "hdrH": 110,
+   "hdrPad": "40px",
+   "hamburger": 0,
+   "pcNav": 648,
+   "hero": true,
+   "kv": false,
+   "faqPT": "128px",
+   "faqPL": "0px",
+   "faqInnerW": 992,
+   "faqTitle": "28px",
+   "faqItemPad": "48px",
+   "mainPT": "140px",
+   "footerPad": "80px",
+   "docW": 1500
+  },
+  {
+   "w": 1440,
+   "hdrH": 110,
+   "hdrPad": "40px",
+   "hamburger": 0,
+   "pcNav": 648,
+   "hero": true,
+   "kv": false,
+   "faqPT": "128px",
+   "faqPL": "0px",
+   "faqInnerW": 992,
+   "faqTitle": "28px",
+   "faqItemPad": "48px",
+   "mainPT": "140px",
+   "footerPad": "80px",
+   "docW": 1440
+  },
+  {
+   "w": 1301,
+   "hdrH": 110,
+   "hdrPad": "40px",
+   "hamburger": 0,
+   "pcNav": 648,
+   "hero": true,
+   "kv": false,
+   "faqPT": "128px",
+   "faqPL": "0px",
+   "faqInnerW": 992,
+   "faqTitle": "28px",
+   "faqItemPad": "48px",
+   "mainPT": "140px",
+   "footerPad": "80px",
+   "docW": 1320
+  },
+  {
+   "w": 1300,
+   "hdrH": 110,
+   "hdrPad": "20px",
+   "hamburger": 70,
+   "pcNav": 0,
+   "hero": true,
+   "kv": false,
+   "faqPT": "128px",
+   "faqPL": "0px",
+   "faqInnerW": 992,
+   "faqTitle": "28px",
+   "faqItemPad": "48px",
+   "mainPT": "140px",
+   "footerPad": "20px",
+   "docW": 1320
+  },
+  {
+   "w": 1200,
+   "hdrH": 110,
+   "hdrPad": "20px",
+   "hamburger": 70,
+   "pcNav": 0,
+   "hero": true,
+   "kv": false,
+   "faqPT": "128px",
+   "faqPL": "0px",
+   "faqInnerW": 992,
+   "faqTitle": "28px",
+   "faqItemPad": "48px",
+   "mainPT": "140px",
+   "footerPad": "20px",
+   "docW": 1320
+  },
+  {
+   "w": 1100,
+   "hdrH": 110,
+   "hdrPad": "20px",
+   "hamburger": 70,
+   "pcNav": 0,
+   "hero": true,
+   "kv": false,
+   "faqPT": "128px",
+   "faqPL": "0px",
+   "faqInnerW": 992,
+   "faqTitle": "28px",
+   "faqItemPad": "48px",
+   "mainPT": "140px",
+   "footerPad": "20px",
+   "docW": 1320
+  },
+  {
+   "w": 1099,
+   "hdrH": 110,
+   "hdrPad": "20px",
+   "hamburger": 70,
+   "pcNav": 0,
+   "hero": true,
+   "kv": false,
+   "faqPT": "128px",
+   "faqPL": "0px",
+   "faqInnerW": 992,
+   "faqTitle": "28px",
+   "faqItemPad": "48px",
+   "mainPT": "140px",
+   "footerPad": "20px",
+   "docW": 1320
+  },
+  {
+   "w": 1001,
+   "hdrH": 110,
+   "hdrPad": "20px",
+   "hamburger": 70,
+   "pcNav": 0,
+   "hero": true,
+   "kv": false,
+   "faqPT": "128px",
+   "faqPL": "0px",
+   "faqInnerW": 992,
+   "faqTitle": "28px",
+   "faqItemPad": "48px",
+   "mainPT": "140px",
+   "footerPad": "20px",
+   "docW": 1320
+  },
+  {
+   "w": 1000,
+   "hdrH": 68,
+   "hdrPad": "20px",
+   "hamburger": 70,
+   "pcNav": 0,
+   "hero": true,
+   "kv": false,
+   "faqPT": "128px",
+   "faqPL": "0px",
+   "faqInnerW": 992,
+   "faqTitle": "28px",
+   "faqItemPad": "48px",
+   "mainPT": "103px",
+   "footerPad": "20px",
+   "docW": 1320
+  },
+  {
+   "w": 992,
+   "hdrH": 68,
+   "hdrPad": "20px",
+   "hamburger": 70,
+   "pcNav": 0,
+   "hero": true,
+   "kv": false,
+   "faqPT": "128px",
+   "faqPL": "0px",
+   "faqInnerW": 992,
+   "faqTitle": "28px",
+   "faqItemPad": "48px",
+   "mainPT": "103px",
+   "footerPad": "20px",
+   "docW": 1320
+  },
+  {
+   "w": 769,
+   "hdrH": 68,
+   "hdrPad": "20px",
+   "hamburger": 70,
+   "pcNav": 0,
+   "hero": true,
+   "kv": false,
+   "faqPT": "128px",
+   "faqPL": "0px",
+   "faqInnerW": 992,
+   "faqTitle": "28px",
+   "faqItemPad": "48px",
+   "mainPT": "103px",
+   "footerPad": "20px",
+   "docW": 1320
+  },
+  {
+   "w": 768,
+   "hdrH": 68,
+   "hdrPad": "20px",
+   "hamburger": 50,
+   "pcNav": 0,
+   "hero": true,
+   "kv": false,
+   "faqPT": "128px",
+   "faqPL": "0px",
+   "faqInnerW": 992,
+   "faqTitle": "28px",
+   "faqItemPad": "48px",
+   "mainPT": "108px",
+   "footerPad": "20px",
+   "docW": 1320
+  },
+  {
+   "w": 767,
+   "hdrH": 68,
+   "hdrPad": "20px",
+   "hamburger": 50,
+   "pcNav": 0,
+   "hero": true,
+   "kv": false,
+   "faqPT": "128px",
+   "faqPL": "0px",
+   "faqInnerW": 992,
+   "faqTitle": "28px",
+   "faqItemPad": "48px",
+   "mainPT": "108px",
+   "footerPad": "20px",
+   "docW": 1320
+  },
+  {
+   "w": 600,
+   "hdrH": 68,
+   "hdrPad": "20px",
+   "hamburger": 50,
+   "pcNav": 0,
+   "hero": true,
+   "kv": false,
+   "faqPT": "128px",
+   "faqPL": "0px",
+   "faqInnerW": 992,
+   "faqTitle": "28px",
+   "faqItemPad": "48px",
+   "mainPT": "108px",
+   "footerPad": "20px",
+   "docW": 1320
+  },
+  {
+   "w": 500,
+   "hdrH": 68,
+   "hdrPad": "20px",
+   "hamburger": 50,
+   "pcNav": 0,
+   "hero": true,
+   "kv": false,
+   "faqPT": "128px",
+   "faqPL": "0px",
+   "faqInnerW": 992,
+   "faqTitle": "28px",
+   "faqItemPad": "48px",
+   "mainPT": "108px",
+   "footerPad": "20px",
+   "docW": 1320
+  },
+  {
+   "w": 400,
+   "hdrH": 68,
+   "hdrPad": "8px",
+   "hamburger": 50,
+   "pcNav": 0,
+   "hero": true,
+   "kv": false,
+   "faqPT": "128px",
+   "faqPL": "0px",
+   "faqInnerW": 992,
+   "faqTitle": "28px",
+   "faqItemPad": "48px",
+   "mainPT": "108px",
+   "footerPad": "20px",
+   "docW": 1320
+  },
+  {
+   "w": 390,
+   "hdrH": 68,
+   "hdrPad": "8px",
+   "hamburger": 50,
+   "pcNav": 0,
+   "hero": true,
+   "kv": false,
+   "faqPT": "128px",
+   "faqPL": "0px",
+   "faqInnerW": 992,
+   "faqTitle": "28px",
+   "faqItemPad": "48px",
+   "mainPT": "108px",
+   "footerPad": "20px",
+   "docW": 1320
+  },
+  {
+   "w": 375,
+   "hdrH": 68,
+   "hdrPad": "8px",
+   "hamburger": 50,
+   "pcNav": 0,
+   "hero": true,
+   "kv": false,
+   "faqPT": "128px",
+   "faqPL": "0px",
+   "faqInnerW": 992,
+   "faqTitle": "28px",
+   "faqItemPad": "48px",
+   "mainPT": "108px",
+   "footerPad": "20px",
+   "docW": 1320
+  },
+  {
+   "w": 360,
+   "hdrH": 68,
+   "hdrPad": "7.5px",
+   "hamburger": 50,
+   "pcNav": 0,
+   "hero": true,
+   "kv": false,
+   "faqPT": "128px",
+   "faqPL": "0px",
+   "faqInnerW": 992,
+   "faqTitle": "28px",
+   "faqItemPad": "48px",
+   "mainPT": "108px",
+   "footerPad": "20px",
+   "docW": 1320
+  }
+ ],
+ "listGapsAndSpMenu": {
+  "pc": {
+   "Benefits_statCards": {
+    "display": "flex",
+    "dir": "row",
+    "gap": "31px / 31px",
+    "gtc": "none",
+    "n": 3,
+    "w": 992,
+    "pitchX": 31,
+    "pitchY": -270
+   },
+   "InspectionFlow_cards": {
+    "display": "flex",
+    "dir": "row",
+    "gap": "normal / normal",
+    "gtc": "none",
+    "n": 5,
+    "w": 992,
+    "pitchX": 10,
+    "pitchY": -444
+   },
+   "Stores_cards": {
+    "display": "flex",
+    "dir": "column",
+    "gap": "32px / 32px",
+    "gtc": "none",
+    "n": 3,
+    "w": 992,
+    "pitchX": -992,
+    "pitchY": 32
+   },
+   "Column_list": {
+    "display": "flex",
+    "dir": "row",
+    "gap": "31px / 31px",
+    "gtc": "none",
+    "n": 3,
+    "w": 992,
+    "pitchX": 31,
+    "pitchY": -477
+   },
+   "Consider_grid": {
+    "display": "flex",
+    "dir": "column",
+    "gap": "24px / 24px",
+    "gtc": "none",
+    "n": 2,
+    "w": 992,
+    "pitchX": -992,
+    "pitchY": 24
+   },
+   "Consider_row": {
+    "display": "flex",
+    "dir": "row",
+    "gap": "24px / 24px",
+    "gtc": "none",
+    "n": 2,
+    "w": 992,
+    "pitchX": 24,
+    "pitchY": -200
+   },
+   "News_list": {
+    "display": "flex",
+    "dir": "column",
+    "gap": "normal / normal",
+    "gtc": "none",
+    "n": 5,
+    "w": 992,
+    "pitchX": -992,
+    "pitchY": 0
+   },
+   "Faq_list": {
+    "display": "flex",
+    "dir": "column",
+    "gap": "8px / 8px",
+    "gtc": "none",
+    "n": 3,
+    "w": 992,
+    "pitchX": -992,
+    "pitchY": 8
+   },
+   "EarlyDetectionCases_cards": {
+    "display": "flex",
+    "dir": "row",
+    "gap": "8px / 8px",
+    "gtc": "none",
+    "n": 4,
+    "w": 992,
+    "pitchX": 8,
+    "pitchY": -182
+   },
+   "Doctors_slider": {
+    "display": "flex",
+    "dir": "row",
+    "gap": "32px / 32px",
+    "gtc": "none",
+    "n": 7,
+    "w": 992,
+    "pitchX": 32,
+    "pitchY": -468
+   },
+   "Promise_boxes": {
+    "display": "flex",
+    "dir": "row",
+    "gap": "48px / 48px",
+    "gtc": "none",
+    "n": 3,
+    "w": 864,
+    "pitchX": 48,
+    "pitchY": -358
+   },
+   "Media_LogoGrid_grid": {
+    "display": "grid",
+    "dir": "row",
+    "gap": "12px / 12px",
+    "gtc": "239px 239px 239px 239px",
+    "n": 12,
+    "w": 992,
+    "pitchX": 12,
+    "pitchY": -84
+   },
+   "About_AfterSupport_cards": {
+    "display": "flex",
+    "dir": "row",
+    "gap": "96px / 96px",
+    "gtc": "none",
+    "n": 2,
+    "w": 992,
+    "pitchX": 96,
+    "pitchY": -405
+   },
+   "ProductPageFooterV2_ctaCards": {
+    "display": "flex",
+    "dir": "row",
+    "gap": "8px / 8px",
+    "gtc": "none",
+    "n": 2,
+    "w": 992,
+    "pitchX": 8,
+    "pitchY": -196
+   },
+   "_spMenu": {
+    "up1": "ProductPageHeader_container | none | rgb(255, 255, 255) | 0x0",
+    "up2": "client_sp_menu_inner | linear-gradient(91.545deg, rgb(31, 123, 184) 12.75%, rgb(76, 149, 198) 87.25%) | rgba(0, 0, 0, 0) | 0x0",
+    "up3": "layout_sp_menu | none | rgba(0, 0, 0, 0) | 1440x0",
+    "up4": "font-noto-sans-jp | none | rgb(255, 255, 255) | 1440x21598",
+    "up5": "webp | none | rgba(0, 0, 0, 0) | 1440x21598"
+   }
+  },
+  "sp": {
+   "Benefits_cards": {
+    "display": "flex",
+    "dir": "column",
+    "gap": "31px / 31px",
+    "gtc": "none",
+    "n": 3,
+    "w": 310,
+    "pitchX": -310,
+    "pitchY": 31
+   },
+   "InspectionFlow_steps": {
+    "display": "flex",
+    "dir": "column",
+    "gap": "8px / 8px",
+    "gtc": "none",
+    "n": 5,
+    "w": 342,
+    "pitchX": -342,
+    "pitchY": 8
+   },
+   "Stores_cards": {
+    "display": "flex",
+    "dir": "column",
+    "gap": "32px / 32px",
+    "gtc": "none",
+    "n": 3,
+    "w": 342,
+    "pitchX": -342,
+    "pitchY": 32
+   },
+   "Column_list": {
+    "display": "flex",
+    "dir": "row",
+    "gap": "16px / 16px",
+    "gtc": "none",
+    "n": 3,
+    "w": 358,
+    "pitchX": -310,
+    "pitchY": 16
+   },
+   "Consider_grid": {
+    "display": "flex",
+    "dir": "column",
+    "gap": "16px / 16px",
+    "gtc": "none",
+    "n": 3,
+    "w": 358,
+    "pitchX": -358,
+    "pitchY": 16
+   },
+   "Consider_row": {
+    "display": "flex",
+    "dir": "row",
+    "gap": "24px / 24px",
+    "gtc": "none",
+    "n": 1,
+    "w": 358,
+    "pitchX": null,
+    "pitchY": null
+   },
+   "News_list": {
+    "display": "flex",
+    "dir": "column",
+    "gap": "normal / normal",
+    "gtc": "none",
+    "n": 5,
+    "w": 358,
+    "pitchX": -358,
+    "pitchY": 0
+   },
+   "Faq_list": {
+    "display": "flex",
+    "dir": "column",
+    "gap": "8px / 8px",
+    "gtc": "none",
+    "n": 3,
+    "w": 358,
+    "pitchX": -358,
+    "pitchY": 8
+   },
+   "Doctors_slider": {
+    "display": "flex",
+    "dir": "row",
+    "gap": "16px / 16px",
+    "gtc": "none",
+    "n": 7,
+    "w": 320,
+    "pitchX": 16,
+    "pitchY": -483
+   },
+   "Promise_boxes": {
+    "display": "flex",
+    "dir": "column",
+    "gap": "24px / 24px",
+    "gtc": "none",
+    "n": 3,
+    "w": 310,
+    "pitchX": -310,
+    "pitchY": 24
+   },
+   "Media_LogoGrid_grid": {
+    "display": "grid",
+    "dir": "row",
+    "gap": "5.14286px / 5.14286px",
+    "gtc": "102.438px 102.438px 102.438px",
+    "n": 12,
+    "w": 318,
+    "pitchX": 5,
+    "pitchY": -36
+   },
+   "ProductPageFooterV2_ctaCards": {
+    "display": "flex",
+    "dir": "column",
+    "gap": "8px / 8px",
+    "gtc": "none",
+    "n": 2,
+    "w": 342,
+    "pitchX": -342,
+    "pitchY": 8
+   },
+   "_spMenu": {
+    "up1": "ProductPageHeader_container | none | rgba(0, 0, 0, 0) | 0x0",
+    "up2": "client_sp_menu_inner | linear-gradient(91.545deg, rgb(31, 123, 184) 12.75%, rgb(76, 149, 198) 87.25%) | rgba(0, 0, 0, 0) | 0x0",
+    "up3": "layout_sp_menu | none | rgba(0, 0, 0, 0) | 0x0",
+    "up4": "font-noto-sans-jp | none | rgb(255, 255, 255) | 390x24727",
+    "up5": "webp | none | rgba(0, 0, 0, 0) | 390x24727"
+   }
+  },
+  "spMenu": {
+   "client_sp_menu_inner": "linear-gradient(91.545deg, rgb(31, 123, 184) 12.75%, rgb(76, 149, 198) 87.25%) | rgba(0, 0, 0, 0) | 390x844 | 0px | 0px",
+   "ProductPageHeaderSpMenuV2_sp_menu_divider": "none | rgba(255, 255, 255, 0.1) | 330x1 | 0px | 0px",
+   "ProductPageHeaderSpMenuV2_sp_menu_login_badge": "none | rgb(86, 157, 214) | 99x26 | 4px | 4px 8px",
+   "ProductPageHeaderSpMenuV2_sp_menu_btn_filled": "none | rgba(255, 255, 255, 0.3) | 222x38 | 6px | 6px 16px 7px"
+  }
+ }
+}

@@ -1,0 +1,119 @@
+{
+ "slug": "garden-eight-com",
+ "url": "https://garden-eight.com/",
+ "capturedAt": "2026-10-12 21:08:17",
+ "files": {
+  "pc_f0": "garden-eight-com-pc-f0.jpg",
+  "pc_f1": "garden-eight-com-pc-f1.jpg",
+  "pc_f2": "garden-eight-com-pc-f2.jpg",
+  "pc_scroll": "garden-eight-com-pc-scroll.jpg",
+  "sp": "garden-eight-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://garden-eight.com/",
+  "title": "Garden Eight",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 900,
+  "h1": "GARDEN EIGHT",
+  "h1Style": {
+   "fontFamily": "lausanne, sans-serif",
+   "fontSize": "14.9904px",
+   "fontWeight": "400",
+   "lineHeight": "21.2864px",
+   "letterSpacing": "normal",
+   "color": "rgb(30, 31, 31)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 45,
+    "y": 38,
+    "w": 110,
+    "h": 15
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "GARDEN EIGHT",
+   "CASES",
+   "ABOUT",
+   "ARCHIVES",
+   "CONTACT",
+   "Scroll"
+  ],
+  "videos": [],
+  "canvases": [
+   {
+    "w": 1440,
+    "h": 900
+   }
+  ],
+  "images": [],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "lausanne"
+  ],
+  "libs": {
+   "gsap": true,
+   "ScrollTrigger": false,
+   "three": true,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 0,
+ "sp": {
+  "h1": "GARDEN EIGHT",
+  "h1Style": {
+   "fontFamily": "lausanne, sans-serif",
+   "fontSize": "15px",
+   "fontWeight": "400",
+   "lineHeight": "21.3px",
+   "letterSpacing": "normal",
+   "color": "rgb(30, 31, 31)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 20,
+    "y": 23,
+    "w": 110,
+    "h": 15
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "GARDEN EIGHT",
+   "CLOSE MENU",
+   "HOME",
+   "CASES",
+   "ABOUT",
+   "ARCHIVES",
+   "CONTACT",
+   "AI",
+   "Scroll"
+  ],
+  "videos": [],
+  "canvases": [
+   {
+    "w": 390,
+    "h": 844
+   }
+  ],
+  "images": [],
+  "pageHeight": 844
+ },
+ "elapsedSec": 12.5
+}

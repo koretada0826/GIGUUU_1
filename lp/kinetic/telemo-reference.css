@@ -1,0 +1,407 @@
+/* =========================================================
+   telemo-reference.css — 提案資料（提案資料0910.pdf）の見た目に寄せる最終レイヤー
+     - 見出し: 太いゴシック。強調語だけティール（--rf-accent）
+     - カード: 白地 + 淡いティールの罫線、角丸 8px
+     - 資料の濃い帯は、白基調を保つため淡いティールの単色の帯に置き換える
+     - グラデーション・写真に色を重ねる表現は使わない
+   既存 CSS の後に読み込む。
+   ========================================================= */
+
+:root {
+  --color-brand: var(--rf-accent);
+  --color-brand-ink: var(--rf-accent-hover);
+  --ref-ink: #071525;
+  --ref-line: #d8e8ec;
+  --ref-content: 1240px;
+}
+
+/* ---------- 共通：改行の品質 ---------- */
+/* 行頭禁則を strict にする：長音「ー」や小書き仮名（っ・ゃ など）が行頭に来ない */
+.page-home { line-break: strict; }
+/* 数字＋単位など、途中で折りたくない語句を囲む汎用クラス（index.html の <span class="nobr">） */
+.nobr { white-space: nowrap; }
+
+/* ---------- 共通：資料の見出し（中央揃え・太いゴシック・強調語ティール） ---------- */
+.ref-head { text-align: center; }
+.page-home .ref-head h2 {
+  margin: 0;
+  color: var(--ref-ink);
+  font-family: var(--rf-display);
+  font-size: clamp(30px, 4vw, 58px);
+  font-weight: 800;
+  line-height: 1.3;
+  letter-spacing: -.04em;
+  word-break: auto-phrase;
+  text-wrap: balance;
+}
+.page-home .ref-head h2 span { color: var(--rf-accent); }
+.ref-head > p {
+  margin: 12px 0 0;
+  color: var(--rf-text-sub);
+  font-size: clamp(14px, 1.3vw, 18px);
+  font-weight: 500;
+  line-height: 1.7;
+  text-wrap: balance; /* 折り返すときは行の長さをそろえ、末尾に「す。」だけ残さない */
+}
+
+/* ---------- 共通：締めの帯（資料の濃い帯を淡いティールの単色で） ---------- */
+.ref-band {
+  display: grid;
+  gap: 6px;
+  margin-top: 56px;
+  padding: 32px 40px;
+  border-left: 4px solid var(--rf-accent);
+  background: var(--rf-surface-tint);
+}
+.ref-band p { margin: 0; }
+.ref-band__pre { color: var(--rf-text-sub); font-size: clamp(15px, 1.4vw, 20px); font-weight: 700; letter-spacing: .04em; }
+.ref-band__copy { color: var(--ref-ink); font-size: clamp(26px, 3vw, 44px); font-weight: 900; line-height: 1.35; letter-spacing: -.02em; }
+.ref-band__copy em { font-style: normal; color: var(--rf-accent); }
+.ref-band__en { color: var(--rf-text-sub); font: 500 12px/1.7 "Space Grotesk", sans-serif; letter-spacing: .16em; }
+.ref-band--center { justify-items: center; border-left: 0; border-top: 1px solid var(--ref-line); border-bottom: 1px solid var(--ref-line); text-align: center; }
+
+/* 新しい 3 セクションの幅と余白（既存の TELEMO セクションと同じ 1240） */
+.page-home main > #telemo-diff,
+.page-home main > #telemo-core {
+  padding: 96px max(var(--page-padding), calc((100% - var(--ref-content)) / 2));
+  background: #fff;
+}
+.page-home main > #telemo-core { background: var(--rf-surface-gray); }
+
+/* ---------- 他社AI営業との違い（p.3） ---------- */
+.telemo-diff__grid {
+  display: grid;
+  grid-template-columns: minmax(0, 38fr) minmax(0, 62fr);
+  gap: 24px;
+  margin-top: 48px;
+}
+.telemo-diff__card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--ref-line);
+  border-radius: 8px;
+  overflow: hidden;
+  background: #fff;
+}
+.telemo-diff__card--other { background: #f6f7f8; border-color: #e1e4e7; }
+.telemo-diff__card-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 16px;
+  padding: 16px 20px;
+  background: #5b6670;
+  color: #fff;
+}
+.telemo-diff__card--telemo .telemo-diff__card-head { background: var(--rf-accent); }
+.page-home .telemo-diff__card-head h3 { margin: 0; color: #fff; font-size: clamp(20px, 1.9vw, 28px); font-weight: 800; letter-spacing: .02em; }
+.telemo-diff__card-head span { font-size: 12px; font-weight: 600; letter-spacing: .08em; opacity: .85; }
+
+.telemo-diff__flow {
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+  margin: 0;
+  padding: 32px 20px 0;
+  list-style: none;
+}
+.telemo-diff__flow li {
+  position: relative;
+  flex: 1 1 0;
+  min-width: 0;
+  color: var(--ref-ink);
+  font-size: clamp(12px, 1vw, 15px);
+  font-weight: 700;
+  line-height: 1.45;
+  text-align: center;
+}
+.telemo-diff__flow li small { display: block; margin-top: 2px; color: var(--rf-text-sub); font-size: 11px; font-weight: 500; }
+.telemo-diff__flow li:not(:last-child)::after {
+  content: "→";
+  position: absolute;
+  top: 0;
+  right: -18px;
+  color: #9aa6b1;
+  font-weight: 400;
+}
+.telemo-diff__card--telemo .telemo-diff__flow li { font-size: clamp(12px, .95vw, 14px); word-break: keep-all; }
+.telemo-diff__card--telemo .telemo-diff__flow li:not(:last-child)::after { color: var(--rf-accent); }
+.telemo-diff__card--telemo .telemo-diff__flow li:last-child { color: var(--rf-accent); }
+
+.telemo-diff__aside {
+  align-self: flex-end;
+  margin: 16px 20px 0;
+  padding: 4px 12px;
+  border: 1px solid var(--rf-accent);
+  border-radius: 4px;
+  color: var(--rf-accent-hover);
+  font-size: 12px;
+  font-weight: 700;
+}
+.telemo-diff__note {
+  margin: 20px 20px 0;
+  padding: 16px 20px;
+  border-radius: 4px;
+  background: #eceef0;
+  color: var(--rf-text);
+  font-size: 14px;
+  line-height: 1.8;
+}
+.telemo-diff__card--telemo .telemo-diff__note { background: var(--rf-surface-tint); }
+.telemo-diff__prices {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(0, 1fr);
+  gap: 8px;
+  margin: auto 20px 20px;
+  padding-top: 16px;
+}
+.telemo-diff__price {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: center;
+  gap: 2px 8px;
+  margin: 0;
+  padding: 14px 12px;
+  border: 1px solid #c9ced3;
+  border-radius: 4px;
+  color: var(--rf-text);
+  font-size: 14px;
+  font-weight: 700;
+}
+.telemo-diff__card--telemo .telemo-diff__price { border-color: var(--rf-accent); color: var(--ref-ink); }
+.telemo-diff__price strong { font-size: 18px; }
+.telemo-diff__price b { margin-inline: 2px; font: 700 clamp(28px, 2.6vw, 38px)/1 "Space Grotesk", sans-serif; letter-spacing: -.02em; }
+.telemo-diff__card--telemo .telemo-diff__price b { color: var(--rf-accent); }
+.telemo-diff__price small { flex-basis: 100%; color: var(--rf-text-sub); font-size: 11px; font-weight: 500; text-align: center; }
+.telemo-diff__card--other .telemo-diff__price small { flex-basis: auto; }
+
+.telemo-diff__answer { margin-top: 56px; text-align: center; }
+.telemo-diff__answer p { margin: 0; color: var(--ref-ink); font-size: clamp(20px, 2.2vw, 32px); font-weight: 800; }
+/* 7.2vw の上限は、375px / 320px でも「どこまで営業できるか」です。が 1 行に収まる大きさ（約 11.9em） */
+.telemo-diff__answer-main { margin-top: 4px !important; font-size: min(clamp(28px, 3.8vw, 54px), 7.2vw) !important; font-weight: 900 !important; letter-spacing: -.03em; }
+.telemo-diff__answer-main span { color: var(--rf-accent); }
+
+.telemo-diff__formula {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
+  gap: 12px 36px;
+  margin: 32px 0 0;
+  padding: 0;
+  list-style: none;
+}
+.telemo-diff__formula li {
+  position: relative;
+  display: grid;
+  align-content: center;
+  color: var(--rf-text-sub);
+  font-size: 13px;
+  line-height: 1.5;
+}
+.telemo-diff__formula li strong { color: var(--ref-ink); font-size: 17px; }
+.telemo-diff__formula li:not(:last-child)::after {
+  content: "×";
+  position: absolute;
+  top: 50%;
+  right: -24px;
+  color: var(--rf-text-sub);
+  font-size: 22px;
+  transform: translateY(-50%);
+}
+.telemo-diff__formula li:nth-last-child(2)::after { content: "="; color: var(--ref-ink); }
+.telemo-diff__total {
+  display: flex !important;
+  align-items: baseline;
+  padding: 12px 28px;
+  border-radius: 4px;
+  background: var(--rf-accent);
+  color: #fff !important;
+  font-size: 18px !important;
+  font-weight: 700;
+}
+.telemo-diff__total b { margin-inline: 4px; font: 700 34px/1 "Space Grotesk", sans-serif; }
+
+/* ---------- 量だけではない4つの仕組み（p.6） ---------- */
+.telemo-core__grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 48px;
+}
+.telemo-core__card {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 22px 20px;
+  border: 1px solid var(--ref-line);
+  border-radius: 8px;
+  background: #fff;
+}
+.page-home .telemo-core__card h3 {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 0;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--ref-line);
+  color: var(--ref-ink);
+  font-size: clamp(18px, 1.6vw, 22px);
+  font-weight: 800;
+  line-height: 1.3;
+}
+.telemo-core__card h3 > span {
+  flex: none; /* 番号「03」が縦に「0/3」と割れないようにする（h1-h4 の overflow-wrap: anywhere 対策） */
+  white-space: nowrap;
+  padding-right: 14px;
+  border-right: 1px solid var(--ref-line);
+  color: var(--rf-accent);
+  font: 700 clamp(24px, 2.2vw, 32px)/1 "Space Grotesk", sans-serif;
+}
+.telemo-core__card h3 small { font-size: .7em; font-weight: 700; }
+.telemo-core__text { flex: 1; margin: 18px 0 20px; color: var(--rf-text); font-size: 15px; line-height: 1.85; text-wrap: pretty; }
+.telemo-core__point {
+  display: grid;
+  grid-template-columns: 36px minmax(0, 1fr);
+  align-items: center;
+  gap: 14px;
+  margin: 0;
+  padding: 14px 16px;
+  border-radius: 4px;
+  background: var(--rf-surface-tint);
+  color: var(--rf-accent-hover);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.55;
+}
+.telemo-core__point svg {
+  width: 36px;
+  height: 36px;
+  fill: none;
+  stroke: var(--rf-accent);
+  stroke-width: 2.4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+/* 4 列のまま幅が詰まる 1024〜1100px：見出しと番号を少し縮めて 1 行に収める（例「03 データ分析・改善」） */
+@media (min-width: 1024px) and (max-width: 1100px) {
+  .page-home .telemo-core__card h3 { font-size: 15px; gap: 10px; }
+  .telemo-core__card h3 > span { font-size: 20px; padding-right: 10px; }
+  /* 下のひとことも同じ幅で窮屈になるので、<br> をやめて自然に流す */
+  .telemo-core__point { font-size: 13px; }
+  .telemo-core__point br { display: none; }
+  .telemo-core__point span { word-break: auto-phrase; text-wrap: pretty; }
+}
+
+/* ---------- 既存の TELEMO セクション：グラデーションと濃い帯をなくす ---------- */
+.page-home #telemo-how,
+.page-home main > #telemo-cases,
+.page-home main > #telemo-compare { background: #fff; }
+.page-home main > #telemo-cases { background: var(--rf-surface-gray); }
+
+/* 比較カード */
+.telemo-compare__card--ai .telemo-compare__card-header { background: var(--rf-accent); }
+.telemo-compare__card-body { background: #eef0f2; }
+.telemo-compare__card--ai .telemo-compare__card-body { background: var(--rf-surface-tint); }
+.telemo-compare__arrow { background: #cdeef2; color: var(--rf-accent-hover); }
+
+/* 「導入して終わりではない」のステップと下の帯 */
+.telemo-support__step { background: var(--rf-surface-tint); border-color: var(--ref-line); }
+.telemo-support__band {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 380px);
+  margin-inline: max(var(--page-padding), calc((100% - var(--ref-content)) / 2));
+  padding: 48px;
+  border-left: 4px solid var(--rf-accent);
+  background: var(--rf-surface-tint);
+  color: var(--ref-ink);
+}
+.telemo-support__photo { display: none; }
+.telemo-support__message { grid-column: 1; }
+.telemo-support__support { grid-column: 2; }
+.telemo-support__pre { color: var(--rf-text-sub); }
+.telemo-support__copy { color: var(--ref-ink); }
+.telemo-support__copy em,
+.telemo-support__closing em { color: var(--rf-accent); }
+.telemo-support__body { color: var(--rf-text); }
+.telemo-support__label { border-color: var(--rf-accent); background: #fff; color: var(--rf-accent-hover); }
+.telemo-support__items li { color: var(--ref-ink); }
+.telemo-support__icon { stroke: var(--rf-accent); }
+.telemo-support__footer {
+  margin-inline: max(var(--page-padding), calc((100% - var(--ref-content)) / 2));
+  padding-inline: 0;
+  border-bottom: 1px solid var(--ref-line);
+  background: transparent;
+  color: var(--ref-ink);
+}
+.telemo-support__closing { color: var(--ref-ink); }
+.telemo-support__closing::before,
+.telemo-support__closing::after { background: var(--ref-line); }
+.telemo-support__footer,
+.telemo-support__footer * { color: inherit; }
+.telemo-support__footer .telemo-support__closing em { color: var(--rf-accent); }
+
+/* 料金の下の帯 */
+.telemo-plan__pricing .telemo-plan__included { background: #fff; }
+.telemo-plan__banner {
+  min-height: 0;
+  padding: 32px 40px;
+  background: var(--rf-surface-tint);
+  color: var(--ref-ink);
+}
+.telemo-plan__banner div { border-left-color: var(--rf-accent); }
+.telemo-plan__banner p { color: var(--ref-ink); }
+.telemo-plan__banner strong { color: var(--rf-accent); }
+.telemo-plan__banner > span { color: var(--rf-accent-hover); }
+
+/* ---------- タブレット ---------- */
+/* 2 枚並べると TELEMO の 7 ステップが詰まる幅では縦に積む */
+@media (max-width: 1180px) {
+  .telemo-diff__grid { grid-template-columns: minmax(0, 1fr); }
+}
+
+@media (max-width: 1023px) {
+  .telemo-core__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .telemo-support__band {
+    grid-template-columns: minmax(0, 1fr);
+    row-gap: 32px;
+    margin-inline: var(--page-padding);
+    padding: 40px 32px;
+  }
+  .telemo-support__message { grid-row: 1; margin-top: 0; }
+  .telemo-support__support { grid-column: 1; grid-row: 2; }
+}
+
+/* ---------- SP ---------- */
+@media (max-width: 767px) {
+  .page-home main > #telemo-diff,
+  .page-home main > #telemo-core { padding-block: 72px; }
+  .ref-head > p { text-align: left; }
+  .ref-band { margin-top: 40px; padding: 24px 20px; }
+
+  .telemo-diff__card-head { flex-wrap: wrap; gap: 2px 12px; padding: 14px 16px; }
+  .page-home .telemo-diff__card-head h3 { font-size: 20px; white-space: nowrap; }
+  .telemo-diff__flow { flex-direction: column; gap: 22px; padding: 24px 20px 0; }
+  .telemo-diff__flow li br { display: none; }
+  .telemo-diff__flow li:not(:last-child)::after,
+  .telemo-diff__card--telemo .telemo-diff__flow li:not(:last-child)::after { content: "↓"; top: auto; right: 50%; bottom: -21px; transform: translateX(50%); }
+  .telemo-diff__aside { align-self: center; }
+  .telemo-diff__note { margin-inline: 16px; padding: 14px 16px; }
+  .telemo-diff__note br { display: none; }
+  .telemo-diff__prices { grid-auto-flow: row; margin-inline: 16px; }
+  .telemo-diff__formula { flex-direction: column; align-items: center; gap: 28px; text-align: center; }
+  .telemo-diff__formula li:not(:last-child)::after { top: auto; right: 50%; bottom: -26px; transform: translateX(50%); font-size: 18px; }
+
+  .telemo-core__grid { grid-template-columns: minmax(0, 1fr); }
+
+  .telemo-support__band { margin-inline: 0; padding: 32px 20px; }
+  .telemo-support__footer { margin-inline: var(--page-padding); }
+  .telemo-plan__banner { padding: 24px 20px; }
+}
+
+/* ---------- 320px 級 ---------- */
+@media (max-width: 359px) {
+  /* 「これが、TELEMOです。」を 1 行に（帯の内側 236px に対して 26px では「す。」が落ちる） */
+  .ref-band__copy { font-size: 24px; }
+}

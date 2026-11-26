@@ -1,0 +1,110 @@
+{
+ "slug": "www-dialpad-com",
+ "url": "https://www.dialpad.com/",
+ "capturedAt": "2026-10-12 21:06:45",
+ "files": {
+  "pc_f0": "www-dialpad-com-pc-f0.jpg",
+  "pc_f1": "www-dialpad-com-pc-f1.jpg",
+  "pc_f2": "www-dialpad-com-pc-f2.jpg",
+  "pc_scroll": "www-dialpad-com-pc-scroll.jpg",
+  "sp": "www-dialpad-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.dialpad.com/jp/",
+  "title": "Dialpad - AI搭載の顧客コミュニケーションプラットフォーム | Dialpad",
+  "lang": "ja-JP",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 7211,
+  "h1": "リアルタイム AI の進化",
+  "h1Style": {
+   "fontFamily": "seasonVFSans, \"seasonVFSans Fallback\"",
+   "fontSize": "48px",
+   "fontWeight": "600",
+   "lineHeight": "52.8px",
+   "letterSpacing": "-0.16px",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 477,
+    "y": 237,
+    "w": 487,
+    "h": 53
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "プラットフォームについて"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://images.ctfassets.net/r6vlh4dr9f5y/55y1dSg2545Ok6N7N6ooyD/5ecf7860e126943b2f05af40adfa0d8d/JP_HP_Hero_Desktop.png?fit=fill&f=center&q=50&w=2176&h=&fm=avif",
+    "w": 900,
+    "h": 427,
+    "alt": "Homepage-banner"
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "seasonVFSans"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "リアルタイム AI の進化",
+  "h1Style": {
+   "fontFamily": "seasonVFSans, \"seasonVFSans Fallback\"",
+   "fontSize": "35px",
+   "fontWeight": "600",
+   "lineHeight": "43.75px",
+   "letterSpacing": "-0.16px",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 18,
+    "y": 228,
+    "w": 354,
+    "h": 44
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "プラットフォームについて"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://images.ctfassets.net/r6vlh4dr9f5y/4r6seEwM0vqtYs2LLMhUCK/47b8dfcaa0386a19495c7f31b6ed6523/JP_HP_Hero_Mobile.png?fit=fill&f=center&q=50&w=750&h=&fm=avif",
+    "w": 326,
+    "h": 326,
+    "alt": "Homepage-banner"
+   }
+  ],
+  "pageHeight": 7747
+ },
+ "elapsedSec": 11.9
+}

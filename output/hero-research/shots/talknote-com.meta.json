@@ -1,0 +1,214 @@
+{
+ "slug": "talknote-com",
+ "url": "https://talknote.com/",
+ "capturedAt": "2026-10-12 21:12:20",
+ "files": {
+  "pc_f0": "talknote-com-pc-f0.jpg",
+  "pc_f1": "talknote-com-pc-f1.jpg",
+  "pc_f2": "talknote-com-pc-f2.jpg",
+  "pc_scroll": "talknote-com-pc-scroll.jpg",
+  "sp": "talknote-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://talknote.com/",
+  "title": "情報共有プラットフォーム「Talknote」",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 13215,
+  "h1": "",
+  "h1Style": {
+   "fontFamily": "\"Noto Sans JP\", sans-serif",
+   "fontSize": "0px",
+   "fontWeight": "700",
+   "lineHeight": "0px",
+   "letterSpacing": "normal",
+   "color": "rgb(242, 234, 236)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 0,
+    "y": 0,
+    "w": 274,
+    "h": 118
+   }
+  },
+  "lead": "Talknoteについて 機能紹介 料金プラン 導入事例 お役立ち資料 お知らせ お問い合わせ LOGIN",
+  "ctas": [
+   "資料ダウンロード",
+   "資料ダウンロード",
+   "無料メルマガ登録",
+   "3分でわかる！ 資料ダウンロード",
+   "まずは14日間！ 無料トライアル"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://talknote.com/wp2/wp-content/themes/talknote2022/common/images/top/mv_img_mock_pc.png",
+    "w": 717,
+    "h": 419,
+    "alt": "Talknote PC UI "
+   },
+   {
+    "src": "https://talknote.com/wp2/wp-content/themes/talknote2022/common/images/top/mv_img_mock_sp.png",
+    "w": 158,
+    "h": 314,
+    "alt": "Talknote スマホ UI "
+   },
+   {
+    "src": "https://talknote.com/wp2/wp-content/themes/talknote2022/common/images/top/about_layer_04.png",
+    "w": 646,
+    "h": 766,
+    "alt": ""
+   },
+   {
+    "src": "https://talknote.com/wp2/wp-content/themes/talknote2022/common/images/top/about_layer_03.png",
+    "w": 615,
+    "h": 751,
+    "alt": ""
+   },
+   {
+    "src": "https://talknote.com/wp2/wp-content/themes/talknote2022/common/images/top/about_layer_02.png",
+    "w": 115,
+    "h": 368,
+    "alt": ""
+   },
+   {
+    "src": "https://talknote.com/wp2/wp-content/themes/talknote2022/common/images/top/about_layer_01.png",
+    "w": 628,
+    "h": 115,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Noto Sans JP"
+  ],
+  "libs": {
+   "gsap": true,
+   "ScrollTrigger": true,
+   "three": false,
+   "lenis": false,
+   "swiper": true,
+   "lottie": false
+  },
+  "bodyBg": "rgb(22, 66, 227)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "",
+  "h1Style": {
+   "fontFamily": "\"Noto Sans JP\", sans-serif",
+   "fontSize": "0px",
+   "fontWeight": "700",
+   "lineHeight": "0px",
+   "letterSpacing": "normal",
+   "color": "rgb(242, 234, 236)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 0,
+    "y": 0,
+    "w": 163,
+    "h": 66
+   }
+  },
+  "lead": "LOGIN",
+  "ctas": [
+   "資料ダウンロード",
+   "資料ダウンロード",
+   "無料メルマガ登録",
+   "3分でわかる！ 資料ダウンロード",
+   "まずは14日間！ 無料トライアル"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://talknote.com/wp2/wp-content/themes/talknote2022/common/images/top/mv_img_mock_pc.png",
+    "w": 320,
+    "h": 187,
+    "alt": "Talknote PC UI "
+   },
+   {
+    "src": "https://talknote.com/wp2/wp-content/themes/talknote2022/common/images/top/mv_img_mock_sp.png",
+    "w": 75,
+    "h": 150,
+    "alt": "Talknote スマホ UI "
+   },
+   {
+    "src": "https://talknote.com/wp2/wp-content/uploads/company-25_01.png",
+    "w": 69,
+    "h": 46,
+    "alt": ""
+   },
+   {
+    "src": "https://talknote.com/wp2/wp-content/uploads/company-25_02.png",
+    "w": 69,
+    "h": 46,
+    "alt": ""
+   },
+   {
+    "src": "https://talknote.com/wp2/wp-content/uploads/company-25_03.png",
+    "w": 69,
+    "h": 46,
+    "alt": ""
+   },
+   {
+    "src": "https://talknote.com/wp2/wp-content/uploads/company-25_04.png",
+    "w": 69,
+    "h": 46,
+    "alt": ""
+   },
+   {
+    "src": "https://talknote.com/wp2/wp-content/uploads/company-25_05.png",
+    "w": 69,
+    "h": 46,
+    "alt": ""
+   },
+   {
+    "src": "https://talknote.com/wp2/wp-content/uploads/company-25_06.png",
+    "w": 69,
+    "h": 46,
+    "alt": ""
+   },
+   {
+    "src": "https://talknote.com/wp2/wp-content/uploads/company-25_07.png",
+    "w": 69,
+    "h": 46,
+    "alt": ""
+   },
+   {
+    "src": "https://talknote.com/wp2/wp-content/uploads/company-25_08.png",
+    "w": 69,
+    "h": 46,
+    "alt": ""
+   },
+   {
+    "src": "https://talknote.com/wp2/wp-content/uploads/company-25_09.png",
+    "w": 69,
+    "h": 46,
+    "alt": ""
+   },
+   {
+    "src": "https://talknote.com/wp2/wp-content/uploads/company-25_10.png",
+    "w": 69,
+    "h": 46,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 12686
+ },
+ "elapsedSec": 13.9
+}

@@ -1,0 +1,28 @@
+[
+ {
+  "shape": "Narrative Workflow",
+  "theme": "coral",
+  "axes": "light/grotesk-sans/warm",
+  "hero": "Settled",
+  "nav": "floating pill",
+  "footer": "mast",
+  "imagery": "existing mini-president cutout and real TELEMO demo audio",
+  "photos": [],
+  "entry": "2026-11-04 TELEMO Japanese LP",
+  "fingerprint": "Hanging|Two-column asymmetric|Hairline|Solid|Margin-aligned cutout|Staggered entrance|Rising next panel",
+  "sections": [
+   "Hero mini-president speech",
+   "List registration",
+   "Live call samples",
+   "Human handoff",
+   "Contact mast"
+  ],
+  "signature": "staggered mini-president speech and natural-scroll panel rise, adapted from the Kio BDS motion reference",
+  "waived": [],
+  "prompt": "Japanese TELEMO landing page, sales leaders, contact action, calm polite voice, static HTML and CSS",
+  "draw": "f50f01",
+  "swap": "Index hero to Settled because no user-supplied price or project photos",
+  "date": "2026-11-03",
+  "mode": "build"
+ }
+]

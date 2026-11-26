@@ -1,0 +1,31 @@
+{
+  "asset": "telemo-campaign-mobile-v1.png",
+  "use_case": "ads-marketing",
+  "mode": "built-in image_gen",
+  "intent": "recompose",
+  "transparent_background": false,
+  "requested_dimensions": {
+    "width": 1024,
+    "height": 1280
+  },
+  "actual_dimensions": {
+    "width": 1122,
+    "height": 1402
+  },
+  "aspect_ratio": "approximately 4:5",
+  "prompt": "Use case: ads-marketing\nAsset type: Final production MOBILE portrait companion hero artwork, exactly 1024x1280 if possible, aspect ratio 4:5.\nPrimary request: Recompose the selected desktop TELEMO hero art from image 1 into a portrait mobile campaign hero. DO NOT crop the desktop. Retain its visual language, palette, texture, 3D typography and president identity with an intentionally redesigned mobile layout.\nInput images: Image 1 is the selected TELEMO desktop art and full style/content reference; preserve its pale teal paper background, navy rounded heavy Japanese gothic headline, freestanding teal/white 3D TELEMO wordmark and white teal-outlined speech balloon. Image 2 is supporting identity reference for the ONLY allowed human subject. Preserve exact face, brown hair, smile, earring, white T-shirt, navy trousers and oversized head / small stylized body.\nScene/backdrop: Flat pale teal #eaf6f8 / off-white fine paper texture, bright and soft with light natural subject shadows. No dark backgrounds, no colored gradient, no grid, no new decorative content.\nComposition/framing: Generous safe edges. Exact four-line Japanese headline near the top, x7%-93%, y5%-31%, heavy navy #0a2a44 rounded gothic font. Keep all four lines extremely legible when rendered at a phone width of390px. First two headline lines can be larger; third line slightly smaller if necessary to preserve exact characters on one line.\nAcross the middle x7%-93%,y37%-55%, place the large horizontal freestanding 3D TELEMO wordmark: all SIX letters T E L E M O readable, deep teal front faces, thick white side faces, soft natural shadows, same material as desktop. Do not crop or cover any letter.\nAt lower-right x64%-94%,y53%-93%, place the friendly mini president with exact original face, oversized realistic head, small stylized body, white T-shirt, navy trousers and white sneakers. He smiles and gestures open palm toward the lettering, same identity as both references, no face substitution. Keep face unobstructed.\nAt lower-left x5%-73%,y68%-92%, place the large white rounded organic speech balloon with teal outline, two lines of large bold teal text. Tail points toward president. Balloon may sit in front of the lower body edge but must NOT obscure his face or the TELEMO lettering.\nText (verbatim, NO other words): headline line1 「本当の現場を」; line2 「知り尽くした、」; line3 「コールセンター経営者が」; line4 「つくったAI」. Wordmark 「TELEMO」. Speech balloon line1 「現場の知見を、」; line2 「AIの力に。」.\nTypography: Exact Japanese characters and punctuation. Large, rounded, bold, clear, professional Japanese gothic. Navy headline, teal balloon copy. No repeated or omitted phrases.\nConstraints: This is hero ART only. No UI, navigation, browser chrome, buttons, URLs, statistics or claims, additional names/logos or characters. No beverage, source brand, source actors, red/yellow badge, decorative text or watermarks. Maintain mobile portrait4:5 ratio; do not deliver landscape art. Recompose the selected desktop, do not alter the selected desktop file.",
+  "referenced_image_paths": [
+    "/Users/rintaro/giguuu-campaign-hero-preview/assets/hero/campaign/telemo-campaign-desktop-v1.png",
+    "/Users/rintaro/giguuu-campaign-hero-preview/assets/concierge/president-mini-v1.png"
+  ],
+  "source_output_path": "/Users/rintaro/.codex/generated_images/01a162fa-fd10-74b3-8085-9f718ce020ab/exec-697c9be5-8d88-4c68-b315-1675cf1c5ff8.png",
+  "inspection": {
+    "headline_exact": true,
+    "headline_four_lines": true,
+    "speech_balloon_exact": true,
+    "telemo_spelling_exact": true,
+    "president_identity_preserved": true,
+    "source_brand_elements_absent": true,
+    "notes": "Mobile composition generated directly, not a crop of desktop. All text legible; all six TELEMO letters readable. President hair slightly overlaps lower-right edge of O; glyph remains clear. No raster edits applied."
+  }
+}

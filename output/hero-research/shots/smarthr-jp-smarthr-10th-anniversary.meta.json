@@ -1,0 +1,234 @@
+{
+ "slug": "smarthr-jp-smarthr-10th-anniversary",
+ "url": "https://smarthr.jp/smarthr-10th-anniversary/",
+ "capturedAt": "2026-10-12 21:05:27",
+ "files": {
+  "pc_f0": "smarthr-jp-smarthr-10th-anniversary-pc-f0.jpg",
+  "pc_f1": "smarthr-jp-smarthr-10th-anniversary-pc-f1.jpg",
+  "pc_f2": "smarthr-jp-smarthr-10th-anniversary-pc-f2.jpg",
+  "pc_scroll": "smarthr-jp-smarthr-10th-anniversary-pc-scroll.jpg",
+  "sp": "smarthr-jp-smarthr-10th-anniversary-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://smarthr.jp/smarthr-10th-anniversary/",
+  "title": "SmartHR 10th Anniversary｜人が、社会が、本当に欲しいもの",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 900,
+  "h1": "0→1→10 SmartHR 10th Anniversary 0→1→10 SmartHR 10th Anniversary",
+  "h1Style": {
+   "fontFamily": "MFW-PGothicMB101Pr6N-Regular, \"Hiragino Sans\", \"ヒラギノ角ゴ ProN\", \"Hiragino Kaku Gothic ProN\", \"Hiragino Kaku Gothic Pro\", メ",
+   "fontSize": "16.2254px",
+   "fontWeight": "400",
+   "lineHeight": "29.2056px",
+   "letterSpacing": "0.811268px",
+   "color": "rgb(0, 0, 0)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 41,
+    "y": 36,
+    "w": 485,
+    "h": 61
+   }
+  },
+  "lead": "これまでの10年 これからの10年",
+  "ctas": [
+   "これまでの10年",
+   "これからの10年",
+   "SmartHR サービスサイト"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://smarthr.jp/_astro/graphic-b.D7jfnL6Z.avif",
+    "w": 162,
+    "h": 162,
+    "alt": ""
+   },
+   {
+    "src": "https://smarthr.jp/_astro/graphic-c.7_OpeWRG.avif",
+    "w": 203,
+    "h": 99,
+    "alt": ""
+   },
+   {
+    "src": "https://smarthr.jp/_astro/graphic-d.dGW-e6gu.avif",
+    "w": 203,
+    "h": 124,
+    "alt": ""
+   },
+   {
+    "src": "https://smarthr.jp/_astro/graphic-e.DWONT6UI.avif",
+    "w": 203,
+    "h": 178,
+    "alt": ""
+   },
+   {
+    "src": "https://smarthr.jp/_astro/graphic-f.Bdq75y6o.avif",
+    "w": 162,
+    "h": 156,
+    "alt": ""
+   },
+   {
+    "src": "https://smarthr.jp/_astro/graphic-a-3.CNofC-jU.avif",
+    "w": 988,
+    "h": 649,
+    "alt": ""
+   },
+   {
+    "src": "https://smarthr.jp/_astro/graphic-a-1.BRfP5WRQ.avif",
+    "w": 629,
+    "h": 629,
+    "alt": ""
+   },
+   {
+    "src": "https://smarthr.jp/_astro/graphic-a-2.CcrSGnGq.avif",
+    "w": 207,
+    "h": 207,
+    "alt": ""
+   },
+   {
+    "src": "https://smarthr.jp/_astro/graphic-a.ByO_M3R_.avif",
+    "w": 1947,
+    "h": 892,
+    "alt": ""
+   },
+   {
+    "src": "https://smarthr.jp/_astro/tagline.DFph8CzX.svg",
+    "w": 345,
+    "h": 558,
+    "alt": "人が、社会が、本当に欲しいもの"
+   },
+   {
+    "src": "https://smarthr.jp/_astro/img-pickup.BCIkTbha.avif",
+    "w": 122,
+    "h": 81,
+    "alt": "今井 翔太の写真"
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "MFW-PGothicMB101Pr6N-Regular",
+   "MFW-PGothicMB101Pr6N-DeBold"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 0,
+ "sp": {
+  "h1": "0→1→10 SmartHR 10th Anniversary 0→1→10 SmartHR 10th Anniversary",
+  "h1Style": {
+   "fontFamily": "MFW-PGothicMB101Pr6N-Regular, \"Hiragino Sans\", \"ヒラギノ角ゴ ProN\", \"Hiragino Kaku Gothic ProN\", \"Hiragino Kaku Gothic Pro\", メ",
+   "fontSize": "15.0298px",
+   "fontWeight": "400",
+   "lineHeight": "27.0536px",
+   "letterSpacing": "0.751489px",
+   "color": "rgb(0, 0, 0)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 19,
+    "y": 9,
+    "w": 96,
+    "h": 31
+   }
+  },
+  "lead": "これまでの10年 これからの10年",
+  "ctas": [
+   "これまでの10年",
+   "これからの10年"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://smarthr.jp/_astro/graphic-b.D7jfnL6Z.avif",
+    "w": 81,
+    "h": 81,
+    "alt": ""
+   },
+   {
+    "src": "https://smarthr.jp/_astro/graphic-c.7_OpeWRG.avif",
+    "w": 101,
+    "h": 49,
+    "alt": ""
+   },
+   {
+    "src": "https://smarthr.jp/_astro/graphic-d.dGW-e6gu.avif",
+    "w": 101,
+    "h": 62,
+    "alt": ""
+   },
+   {
+    "src": "https://smarthr.jp/_astro/graphic-e.DWONT6UI.avif",
+    "w": 101,
+    "h": 89,
+    "alt": ""
+   },
+   {
+    "src": "https://smarthr.jp/_astro/graphic-f.Bdq75y6o.avif",
+    "w": 81,
+    "h": 78,
+    "alt": ""
+   },
+   {
+    "src": "https://smarthr.jp/_astro/graphic-a-3.CNofC-jU.avif",
+    "w": 275,
+    "h": 180,
+    "alt": ""
+   },
+   {
+    "src": "https://smarthr.jp/_astro/graphic-a-1.BRfP5WRQ.avif",
+    "w": 158,
+    "h": 158,
+    "alt": ""
+   },
+   {
+    "src": "https://smarthr.jp/_astro/graphic-a-2.CcrSGnGq.avif",
+    "w": 57,
+    "h": 57,
+    "alt": ""
+   },
+   {
+    "src": "https://smarthr.jp/_astro/graphic-a.ByO_M3R_.avif",
+    "w": 997,
+    "h": 457,
+    "alt": ""
+   },
+   {
+    "src": "https://smarthr.jp/_astro/tagline.DFph8CzX.svg",
+    "w": 191,
+    "h": 309,
+    "alt": "人が、社会が、本当に欲しいもの"
+   },
+   {
+    "src": "https://smarthr.jp/_astro/img-pickup.BCIkTbha.avif",
+    "w": 90,
+    "h": 60,
+    "alt": "今井 翔太の写真"
+   }
+  ],
+  "pageHeight": 844
+ },
+ "elapsedSec": 14.2
+}

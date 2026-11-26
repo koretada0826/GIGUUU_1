@@ -1,0 +1,15 @@
+{
+  "source": "https://flite.bike/",
+  "final_url": "https://flite.bike/",
+  "captured_at": "2026-10-12 15:35",
+  "tool": "mirror_browser.py (static DOM snapshot)",
+  "assets_saved": 171,
+  "bytes_saved": 26107729,
+  "notes": [
+    "videos: 2 kept, 1 replaced by a poster frame"
+  ],
+  "failed": {},
+  "skipped": {
+    "https://cdn.shopify.com/videos/c/o/v/87220c65931845adbf18c19c727ecc4c.mp4": 28524291
+  }
+}

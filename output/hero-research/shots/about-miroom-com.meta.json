@@ -1,0 +1,130 @@
+{
+ "slug": "about-miroom-com",
+ "url": "https://about.miroom.com/",
+ "capturedAt": "2026-10-12 21:08:53",
+ "files": {
+  "pc_f0": "about-miroom-com-pc-f0.jpg",
+  "pc_f1": "about-miroom-com-pc-f1.jpg",
+  "pc_f2": "about-miroom-com-pc-f2.jpg",
+  "pc_scroll": "about-miroom-com-pc-scroll.jpg",
+  "sp": "about-miroom-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://about.miroom.com/",
+  "title": "ミルーム株式会社",
+  "lang": "ja-JP",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 6297,
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://framerusercontent.com/images/GihivJvvF8YG9hle9yHYUS5LWyE.png?scale-down-to=512&width=648&height=648",
+    "w": 219,
+    "h": 219,
+    "alt": ""
+   },
+   {
+    "src": "https://framerusercontent.com/images/x9uhJMVt1Hz34PSpQXmjSck16Q.png?width=216&height=648",
+    "w": 73,
+    "h": 219,
+    "alt": ""
+   },
+   {
+    "src": "https://framerusercontent.com/images/x4IX9MtAo1QVSmQd0Ckzab3bEA4.png?width=432&height=648",
+    "w": 146,
+    "h": 219,
+    "alt": ""
+   },
+   {
+    "src": "https://framerusercontent.com/images/guDonobx3Vxl9A6P1l1dew75g.png?width=432&height=648",
+    "w": 146,
+    "h": 219,
+    "alt": ""
+   },
+   {
+    "src": "https://framerusercontent.com/images/guDonobx3Vxl9A6P1l1dew75g.png?width=432&height=648",
+    "w": 146,
+    "h": 219,
+    "alt": ""
+   },
+   {
+    "src": "https://framerusercontent.com/images/GihivJvvF8YG9hle9yHYUS5LWyE.png?scale-down-to=512&width=648&height=648",
+    "w": 219,
+    "h": 219,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Poppins"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": true,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://framerusercontent.com/images/GihivJvvF8YG9hle9yHYUS5LWyE.png?scale-down-to=512&width=648&height=648",
+    "w": 77,
+    "h": 77,
+    "alt": ""
+   },
+   {
+    "src": "https://framerusercontent.com/images/x4IX9MtAo1QVSmQd0Ckzab3bEA4.png?width=432&height=648",
+    "w": 51,
+    "h": 77,
+    "alt": ""
+   },
+   {
+    "src": "https://framerusercontent.com/images/guDonobx3Vxl9A6P1l1dew75g.png?width=432&height=648",
+    "w": 51,
+    "h": 77,
+    "alt": ""
+   },
+   {
+    "src": "https://framerusercontent.com/images/guDonobx3Vxl9A6P1l1dew75g.png?width=432&height=648",
+    "w": 51,
+    "h": 77,
+    "alt": ""
+   },
+   {
+    "src": "https://framerusercontent.com/images/GihivJvvF8YG9hle9yHYUS5LWyE.png?scale-down-to=512&width=648&height=648",
+    "w": 77,
+    "h": 77,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 4840
+ },
+ "elapsedSec": 11.8
+}

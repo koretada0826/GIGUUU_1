@@ -1,0 +1,173 @@
+{
+ "slug": "www-recruit-co-jp",
+ "url": "https://www.recruit.co.jp/",
+ "capturedAt": "2026-10-12 21:08:08",
+ "files": {
+  "pc_f0": "www-recruit-co-jp-pc-f0.jpg",
+  "pc_f1": "www-recruit-co-jp-pc-f1.jpg",
+  "pc_f2": "www-recruit-co-jp-pc-f2.jpg",
+  "pc_scroll": "www-recruit-co-jp-pc-scroll.jpg",
+  "sp": "www-recruit-co-jp-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.recruit.co.jp/",
+  "title": "株式会社リクルート",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 7543,
+  "h1": "",
+  "h1Style": {
+   "fontFamily": "\"Noto Sans JP\", sans-serif",
+   "fontSize": "10px",
+   "fontWeight": "400",
+   "lineHeight": "15px",
+   "letterSpacing": "normal",
+   "color": "rgb(45, 49, 51)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 40,
+    "y": 59,
+    "w": 234,
+    "h": 58
+   }
+  },
+  "lead": "新規タブで開く リクルートホールディングスのサイトはこちら リクルートホールディングスのサイトはこちら サイト内検索 サイト内検索 企業情報 サービス サステナビリティ 人的資本経営 採用情報 ブログ ニュース お問い合わせ",
+  "ctas": [
+   "企業情報",
+   "経営理念 経営理念",
+   "まだ、ここにない、出会い。 まだ、ここにない、出会い。",
+   "社長メッセージ 社長メッセージ",
+   "事業概要 事業概要",
+   "会社概要 会社概要",
+   "役員一覧 役員一覧",
+   "事業所一覧 事業所一覧",
+   "沿革・歴史 沿革・歴史",
+   "企業活動の重要な基盤 企業活動の重要な基盤",
+   "サービス",
+   "住まい"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.recruit.co.jp/wp-content/uploads/2025/06/20250402_pc01.webp",
+    "w": 1440,
+    "h": 610,
+    "alt": "まだ、ここにない、出会い。"
+   },
+   {
+    "src": "https://www.recruit.co.jp/wp-content/uploads/2025/10/202510_pc03.webp",
+    "w": 1440,
+    "h": 610,
+    "alt": "企業情報"
+   },
+   {
+    "src": "https://www.recruit.co.jp/wp-content/uploads/2025/10/202510_pc01.webp",
+    "w": 1440,
+    "h": 610,
+    "alt": "コーポレートブログ"
+   }
+  ],
+  "backgroundImages": [
+   {
+    "bg": "url(\"https://www.recruit.co.jp/assets/top/fv/parts/arrow.png\")",
+    "w": 493,
+    "h": 104
+   },
+   {
+    "bg": "url(\"https://www.recruit.co.jp/assets/top/fv/parts/arrow.png\")",
+    "w": 464,
+    "h": 134
+   },
+   {
+    "bg": "url(\"https://www.recruit.co.jp/assets/top/fv/parts/arrow.png\")",
+    "w": 384,
+    "h": 134
+   }
+  ],
+  "firstScreenFonts": [
+   "Noto Sans JP",
+   "Graphik Web"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": true,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "",
+  "h1Style": {
+   "fontFamily": "\"Noto Sans JP\", sans-serif",
+   "fontSize": "9.75px",
+   "fontWeight": "400",
+   "lineHeight": "14.625px",
+   "letterSpacing": "normal",
+   "color": "rgb(45, 49, 51)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 21,
+    "y": 29,
+    "w": 190,
+    "h": 44
+   }
+  },
+  "lead": "新規タブで開く リクルートホールディングスのサイトはこちら リクルートホールディングスのサイトはこちら サイト内検索 サイト内検索 キーワードで探す 企業情報 企業情報 View more 経営理念 経営理念 まだ、ここにない、出会い。 まだ、ここにない、出会い。 社長メッセージ 社長メッセージ 事業概要 事業概要 会社概要 会社概要 役員一覧 役員一覧 事業所一覧 事業所一覧 沿革・歴史 沿革・歴史 企業活動の重要な基盤 企業活動の重要な基盤 サービス サービス View more 住まい 飲食 美容 旅行 結婚 クルマ まなび 業務・経営支援 新規事業・R&D その他 調査・研究機関 サス",
+  "ctas": [
+   "ホーム",
+   "企業情報",
+   "企業情報TOP",
+   "経営理念",
+   "まだ、ここにない、出会い。",
+   "社長メッセージ",
+   "事業概要",
+   "会社概要",
+   "役員一覧",
+   "事業所一覧",
+   "沿革・歴史",
+   "企業活動の重要な基盤"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.recruit.co.jp/wp-content/uploads/2025/06/20250402_sp01.webp",
+    "w": 390,
+    "h": 525,
+    "alt": "まだ、ここにない、出会い。"
+   },
+   {
+    "src": "https://www.recruit.co.jp/wp-content/uploads/2025/10/202510_sp03.webp",
+    "w": 390,
+    "h": 525,
+    "alt": "企業情報"
+   },
+   {
+    "src": "https://www.recruit.co.jp/wp-content/uploads/2025/10/202510_sp01_b.webp",
+    "w": 390,
+    "h": 525,
+    "alt": "コーポレートブログ"
+   }
+  ],
+  "pageHeight": 6908
+ },
+ "elapsedSec": 13.1
+}

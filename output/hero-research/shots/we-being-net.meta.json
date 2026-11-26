@@ -1,0 +1,257 @@
+{
+ "slug": "we-being-net",
+ "url": "https://we-being.net/",
+ "capturedAt": "2026-10-12 21:10:42",
+ "files": {
+  "pc_f0": "we-being-net-pc-f0.jpg",
+  "pc_f1": "we-being-net-pc-f1.jpg",
+  "pc_f2": "we-being-net-pc-f2.jpg",
+  "pc_scroll": "we-being-net-pc-scroll.jpg",
+  "sp": "we-being-net-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://we-being.net/",
+  "title": "We-Being Project｜KOKUYO",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 4557,
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [
+   "We-chanと話す"
+  ],
+  "videos": [
+   {
+    "src": "https://we-being.net/videos/intro.webm",
+    "autoplay": false,
+    "loop": false,
+    "muted": true,
+    "w": 1440,
+    "h": 900,
+    "playing": false
+   },
+   {
+    "src": "https://we-being.net/videos/intro-loop.webm",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 1440,
+    "h": 900,
+    "playing": true
+   },
+   {
+    "src": "https://we-being.net/videos/Kokuyo_BG_vertical_pc.webm",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 1642,
+    "h": 4925,
+    "playing": false
+   }
+  ],
+  "canvases": [
+   {
+    "w": 1440,
+    "h": 900
+   }
+  ],
+  "images": [
+   {
+    "src": "https://we-being.net/videos/intro-poster.jpg",
+    "w": 1512,
+    "h": 945,
+    "alt": ""
+   },
+   {
+    "src": "https://we-being.net/images/logo/we-being-logo-tagline.svg",
+    "w": 420,
+    "h": 114,
+    "alt": "We-Being 幸せは、あいだにある"
+   },
+   {
+    "src": "https://we-being.net/videos/we-chan-emote/poster.webp",
+    "w": 120,
+    "h": 120,
+    "alt": ""
+   },
+   {
+    "src": "https://we-being.net/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fball.3ov6d-2hf05p0.png&w=256&q=75&dpl=9d6d381d-94f4-43ee-9fc1-f16623112cec",
+    "w": 72,
+    "h": 72,
+    "alt": ""
+   },
+   {
+    "src": "https://we-being.net/videos/we-chan-emote/poster.webp",
+    "w": 190,
+    "h": 179,
+    "alt": ""
+   },
+   {
+    "src": "https://we-being.net/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fball.3ov6d-2hf05p0.png&w=256&q=75&dpl=9d6d381d-94f4-43ee-9fc1-f16623112cec",
+    "w": 72,
+    "h": 72,
+    "alt": ""
+   },
+   {
+    "src": "https://we-being.net/_next/static/media/icon-close.18nljgs93eq1f.svg?dpl=9d6d381d-94f4-43ee-9fc1-f16623112cec",
+    "w": 50,
+    "h": 50,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [
+   {
+    "bg": "url(\"https://we-being.net/grain/pc/grain01.webp\")",
+    "w": 1440,
+    "h": 1150
+   },
+   {
+    "bg": "url(\"https://we-being.net/grain/pc/grain02.webp\")",
+    "w": 1440,
+    "h": 1150
+   },
+   {
+    "bg": "url(\"https://we-being.net/grain/pc/grain03.webp\")",
+    "w": 1440,
+    "h": 1150
+   },
+   {
+    "bg": "url(\"https://we-being.net/grain/pc/grain04.webp\")",
+    "w": 1440,
+    "h": 1150
+   },
+   {
+    "bg": "url(\"https://we-being.net/grain/pc/grain05.webp\")",
+    "w": 1440,
+    "h": 1150
+   },
+   {
+    "bg": "url(\"https://we-being.net/grain/sp/grain01.webp\")",
+    "w": 1440,
+    "h": 1150
+   },
+   {
+    "bg": "url(\"https://we-being.net/grain/sp/grain02.webp\")",
+    "w": 1440,
+    "h": 1150
+   },
+   {
+    "bg": "url(\"https://we-being.net/grain/sp/grain03.webp\")",
+    "w": 1440,
+    "h": 1150
+   }
+  ],
+  "firstScreenFonts": [
+   "A+mfCv-AXIS Font ベーシック M ProN",
+   "Outfit"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(112, 167, 190)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 0,
+ "sp": {
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [
+   "We-chanと話す"
+  ],
+  "videos": [
+   {
+    "src": "https://we-being.net/videos/intro.webm",
+    "autoplay": false,
+    "loop": false,
+    "muted": true,
+    "w": 390,
+    "h": 844,
+    "playing": false
+   },
+   {
+    "src": "https://we-being.net/videos/Kokuyo_BG_vertical_sp.webm",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 452,
+    "h": 1810,
+    "playing": false
+   }
+  ],
+  "canvases": [
+   {
+    "w": 390,
+    "h": 844
+   }
+  ],
+  "images": [
+   {
+    "src": "blob:https://we-being.net/1a0e40ae-0ede-41a5-b1b5-46abfa46c63b",
+    "w": 390,
+    "h": 844,
+    "alt": ""
+   },
+   {
+    "src": "https://we-being.net/videos/intro-poster.jpg",
+    "w": 410,
+    "h": 886,
+    "alt": ""
+   },
+   {
+    "src": "https://we-being.net/images/logo/we-being-logo-tagline.svg",
+    "w": 252,
+    "h": 68,
+    "alt": "We-Being 幸せは、あいだにある"
+   },
+   {
+    "src": "https://we-being.net/videos/we-chan-emote/poster.webp",
+    "w": 104,
+    "h": 104,
+    "alt": ""
+   },
+   {
+    "src": "https://we-being.net/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fball.3ov6d-2hf05p0.png&w=384&q=75&dpl=9d6d381d-94f4-43ee-9fc1-f16623112cec",
+    "w": 64,
+    "h": 64,
+    "alt": ""
+   },
+   {
+    "src": "https://we-being.net/videos/we-chan-emote/poster.webp",
+    "w": 194,
+    "h": 194,
+    "alt": ""
+   },
+   {
+    "src": "https://we-being.net/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fball.3ov6d-2hf05p0.png&w=384&q=75&dpl=9d6d381d-94f4-43ee-9fc1-f16623112cec",
+    "w": 72,
+    "h": 72,
+    "alt": ""
+   },
+   {
+    "src": "https://we-being.net/_next/static/media/icon-close.18nljgs93eq1f.svg?dpl=9d6d381d-94f4-43ee-9fc1-f16623112cec",
+    "w": 50,
+    "h": 50,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 5281
+ },
+ "elapsedSec": 11.2
+}

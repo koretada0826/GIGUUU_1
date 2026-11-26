@@ -1,0 +1,68 @@
+{
+  "sources": [
+    "https://whill.inc/jp/model-c2",
+    "https://www.haagen-dazs.co.jp/"
+  ],
+  "images": [
+    {
+      "number": 1,
+      "slug": "cinematic-signal-studio",
+      "file": "01-cinematic-signal-studio.png",
+      "source": "/Users/rintaro/.codex/generated_images/01a0f605-38f7-76b1-8832-824e69b416d0/exec-00ea2fe6-60db-4b76-ab4d-a61839be48f6.png"
+    },
+    {
+      "number": 2,
+      "slug": "precision-conversation-cutaway",
+      "file": "02-precision-conversation-cutaway.png",
+      "source": "/Users/rintaro/.codex/generated_images/01a0f605-38f7-76b1-8832-824e69b416d0/exec-c8fa7767-ce60-4f3c-b979-833375d2b362.png"
+    },
+    {
+      "number": 3,
+      "slug": "macro-fiber-current",
+      "file": "03-macro-fiber-current.png",
+      "source": "/Users/rintaro/.codex/generated_images/01a0f605-38f7-76b1-8832-824e69b416d0/exec-eb97f244-99bb-4581-9367-51008973dfa2.png"
+    },
+    {
+      "number": 4,
+      "slug": "floating-gallery-plate",
+      "file": "04-floating-gallery-plate.png",
+      "source": "/Users/rintaro/.codex/generated_images/01a0f605-38f7-76b1-8832-824e69b416d0/exec-ac9280da-c940-47c1-88fe-2ea69340e706.png"
+    },
+    {
+      "number": 5,
+      "slug": "wide-motion-trail",
+      "file": "05-wide-motion-trail.png",
+      "source": "/Users/rintaro/.codex/generated_images/01a0f605-38f7-76b1-8832-824e69b416d0/exec-cbb673ac-ffe9-4908-82fa-c8a8212edf09.png"
+    },
+    {
+      "number": 6,
+      "slug": "tactile-blue-sheets",
+      "file": "06-tactile-blue-sheets.png",
+      "source": "/Users/rintaro/.codex/generated_images/01a0f605-38f7-76b1-8832-824e69b416d0/exec-0da04a3d-00f4-45d2-8b60-d05ec9b52016.png"
+    },
+    {
+      "number": 7,
+      "slug": "signal-window-crop",
+      "file": "07-signal-window-crop.png",
+      "source": "/Users/rintaro/.codex/generated_images/01a0f605-38f7-76b1-8832-824e69b416d0/exec-32a11ccb-f85c-465e-9cf7-b0f926235c4b.png"
+    },
+    {
+      "number": 8,
+      "slug": "telemos-typographic-object",
+      "file": "08-telemos-typographic-object.png",
+      "source": "/Users/rintaro/.codex/generated_images/01a0f605-38f7-76b1-8832-824e69b416d0/exec-a47ec8c2-8c8b-4e62-b80b-48034efd78c4.png"
+    },
+    {
+      "number": 9,
+      "slug": "paired-material-dialogue",
+      "file": "09-paired-material-dialogue.png",
+      "source": "/Users/rintaro/.codex/generated_images/01a0f605-38f7-76b1-8832-824e69b416d0/exec-bfcec62f-45a3-4747-957a-af9f2f74d34e.png"
+    },
+    {
+      "number": 10,
+      "slug": "layered-business-panorama",
+      "file": "10-layered-business-panorama.png",
+      "source": "/Users/rintaro/.codex/generated_images/01a0f605-38f7-76b1-8832-824e69b416d0/exec-55a42fab-e701-4239-9b1c-a4a93af7139d.png"
+    }
+  ]
+}

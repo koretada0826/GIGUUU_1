@@ -1,0 +1,115 @@
+{
+ "slug": "clarionhealth-com",
+ "url": "https://www.clarionhealth.com/",
+ "capturedAt": "2026-10-12 21:12:44",
+ "files": {
+  "pc_f0": "clarionhealth-com-pc-f0.jpg",
+  "pc_f1": "clarionhealth-com-pc-f1.jpg",
+  "pc_f2": "clarionhealth-com-pc-f2.jpg",
+  "pc_scroll": "clarionhealth-com-pc-scroll.jpg",
+  "sp": "clarionhealth-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.clarionhealth.com/",
+  "title": "Home",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 8239,
+  "h1": "The front office that runs itself.",
+  "h1Style": {
+   "fontFamily": "\"Bpmf Zihi Kai Std\", sans-serif",
+   "fontSize": "61.696px",
+   "fontWeight": "500",
+   "lineHeight": "67.8656px",
+   "letterSpacing": "-1.85088px",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 465,
+    "y": 445,
+    "w": 509,
+    "h": 136
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "Try it out",
+   "Schedule a demo",
+   "Try it out"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://cdn.prod.website-files.com/672129b642cb0117f4c53944/6a873cfd9d0479860c9f27aa_9b52c8a077b49d4316e51c386b2e9b2d_clarion-p-1600.avif",
+    "w": 1440,
+    "h": 855,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Geist",
+   "Bpmf Zihi Kai Std"
+  ],
+  "libs": {
+   "gsap": true,
+   "ScrollTrigger": true,
+   "three": false,
+   "lenis": false,
+   "swiper": true,
+   "lottie": false
+  },
+  "bodyBg": "rgb(251, 250, 248)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "The front office that runs itself.",
+  "h1Style": {
+   "fontFamily": "\"Bpmf Zihi Kai Std\", sans-serif",
+   "fontSize": "40px",
+   "fontWeight": "500",
+   "lineHeight": "44px",
+   "letterSpacing": "-1.2px",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 23,
+    "y": 271,
+    "w": 343,
+    "h": 88
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "Try it out",
+   "Schedule a demo",
+   "Try it out"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://cdn.prod.website-files.com/672129b642cb0117f4c53944/6a873cfd9d0479860c9f27aa_9b52c8a077b49d4316e51c386b2e9b2d_clarion-p-800.avif",
+    "w": 390,
+    "h": 720,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 10032
+ },
+ "elapsedSec": 13.7
+}

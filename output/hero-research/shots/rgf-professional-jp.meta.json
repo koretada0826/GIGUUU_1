@@ -1,0 +1,165 @@
+{
+ "slug": "rgf-professional-jp",
+ "url": "https://www.rgf-professional.jp/",
+ "capturedAt": "2026-10-12 21:14:18",
+ "files": {
+  "pc_f0": "rgf-professional-jp-pc-f0.jpg",
+  "pc_f1": "rgf-professional-jp-pc-f1.jpg",
+  "pc_f2": "rgf-professional-jp-pc-f2.jpg",
+  "pc_scroll": "rgf-professional-jp-pc-scroll.jpg",
+  "sp": "rgf-professional-jp-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.rgf-professional.jp/",
+  "title": "RGFプロフェッショナルリクルートメントジャパン｜可能性と機会をつなぐ、ハイクラス・プロフェッショナルのための転職エージェント",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 13030,
+  "h1": "of Clients, Candidates, and Ourselves.",
+  "h1Style": {
+   "fontFamily": "mfw-paotogothicstdn-medium, \"A P-OTF Aoto Gothic StdN\", sans-serif, serif",
+   "fontSize": "16px",
+   "fontWeight": "400",
+   "lineHeight": "24px",
+   "letterSpacing": "normal",
+   "color": "rgb(0, 0, 0)",
+   "textAlign": "right",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 595,
+    "y": 737,
+    "w": 830,
+    "h": 136
+   }
+  },
+  "lead": "{\"horizontal\":[\"https://www.rgf-professional.jp/wp-content/themes/theme/assets/images/webgl/img-horizontal/horizontal-1.jpg\",\"https://www.rgf-professional.jp/wp-content/themes/theme/assets/images/webgl/img-horizontal/horizontal-1.jpg.webp\",\"https://www.rgf-professional.jp/wp-content/themes/theme/ass",
+  "ctas": [
+   "求人情報を見る 求人情報を見る",
+   "転職を相談する 転職を相談する"
+  ],
+  "videos": [
+   {
+    "src": "https://www.rgf-professional.jp/wp-content/themes/theme/assets/images/pages/home/figure-specialized.mp4",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 165,
+    "h": 165,
+    "playing": false
+   },
+   {
+    "src": "https://www.rgf-professional.jp/wp-content/themes/theme/assets/images/pages/home/figure-human-powered.mp4",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 165,
+    "h": 165,
+    "playing": false
+   },
+   {
+    "src": "https://www.rgf-professional.jp/wp-content/themes/theme/assets/images/pages/home/figure-global-talent.mp4",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 165,
+    "h": 164,
+    "playing": false
+   }
+  ],
+  "canvases": [
+   {
+    "w": 1440,
+    "h": 900
+   }
+  ],
+  "images": [
+   {
+    "src": "https://www.rgf-professional.jp/wp-content/themes/theme/assets/images/pages/home/gradation-circle.png",
+    "w": 373,
+    "h": 373,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [
+   {
+    "bg": "url(\"https://www.rgf-professional.jp/wp-content/themes/theme/assets/images/common/gradations/hover-gradation.png\")",
+    "w": 224,
+    "h": 120
+   },
+   {
+    "bg": "url(\"https://www.rgf-professional.jp/wp-content/themes/theme/assets/images/common/gradations/hover-gradation.png\")",
+    "w": 224,
+    "h": 120
+   },
+   {
+    "bg": "url(\"https://www.rgf-professional.jp/wp-content/themes/theme/assets/images/common/gradations/hover-gradation.png\")",
+    "w": 224,
+    "h": 120
+   },
+   {
+    "bg": "url(\"https://www.rgf-professional.jp/wp-content/themes/theme/assets/images/common/gradations/hover-gradation.png\")",
+    "w": 224,
+    "h": 120
+   }
+  ],
+  "firstScreenFonts": [
+   "mfw-paotogothicstdn-medium"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 0,
+ "sp": {
+  "h1": "of Clients, Candidates, and Ourselves.",
+  "h1Style": {
+   "fontFamily": "mfw-paotogothicstdn-medium, \"A P-OTF Aoto Gothic StdN\", sans-serif, serif",
+   "fontSize": "16px",
+   "fontWeight": "400",
+   "lineHeight": "24px",
+   "letterSpacing": "normal",
+   "color": "rgb(0, 0, 0)",
+   "textAlign": "right",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 58,
+    "y": 628,
+    "w": 332,
+    "h": 189
+   }
+  },
+  "lead": "{\"horizontal\":[\"https://www.rgf-professional.jp/wp-content/themes/theme/assets/images/webgl/img-horizontal/horizontal-1.jpg\",\"https://www.rgf-professional.jp/wp-content/themes/theme/assets/images/webgl/img-horizontal/horizontal-1.jpg.webp\",\"https://www.rgf-professional.jp/wp-content/themes/theme/ass",
+  "ctas": [
+   "Menu",
+   "求人情報を見る 求人情報を見る",
+   "転職を相談する 転職を相談する"
+  ],
+  "videos": [],
+  "canvases": [
+   {
+    "w": 390,
+    "h": 844
+   }
+  ],
+  "images": [],
+  "pageHeight": 13555
+ },
+ "elapsedSec": 12.6
+}

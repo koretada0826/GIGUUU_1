@@ -1,0 +1,130 @@
+{
+ "slug": "lusion-co",
+ "url": "https://lusion.co/",
+ "capturedAt": "2026-10-12 21:07:56",
+ "files": {
+  "pc_f0": "lusion-co-pc-f0.jpg",
+  "pc_f1": "lusion-co-pc-f1.jpg",
+  "pc_f2": "lusion-co-pc-f2.jpg",
+  "pc_scroll": "lusion-co-pc-scroll.jpg",
+  "sp": "lusion-co-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://lusion.co/",
+  "title": "Lusion - Award Winning 3D and Interactive Web Studio",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 900,
+  "h1": "We create 3D visual storytelling and interactive web experiences that help brands stand out",
+  "h1Style": {
+   "fontFamily": "Aeonik",
+   "fontSize": "36px",
+   "fontWeight": "400",
+   "lineHeight": "39.6px",
+   "letterSpacing": "normal",
+   "color": "rgb(0, 0, 0)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 403,
+    "y": 50,
+    "w": 523,
+    "h": 119
+   }
+  },
+  "lead": "SCROLL TO EXPLORE",
+  "ctas": [
+   "LET'S TALK",
+   "MENU CLOSE",
+   "HOME HOME",
+   "ABOUT US ABOUT US",
+   "PROJECTS PROJECTS",
+   "CONTACT CONTACT",
+   "LABS LABS"
+  ],
+  "videos": [],
+  "canvases": [
+   {
+    "w": 1440,
+    "h": 900
+   },
+   {
+    "w": 45,
+    "h": 45
+   },
+   {
+    "w": 1442,
+    "h": 902
+   }
+  ],
+  "images": [],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Aeonik"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 0,
+ "sp": {
+  "h1": "We create 3D visual storytelling and interactive web experiences that help brands stand out",
+  "h1Style": {
+   "fontFamily": "Aeonik",
+   "fontSize": "23.4px",
+   "fontWeight": "400",
+   "lineHeight": "25.74px",
+   "letterSpacing": "normal",
+   "color": "rgb(0, 0, 0)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 15,
+    "y": 62,
+    "w": 360,
+    "h": 77
+   }
+  },
+  "lead": "SCROLL TO EXPLORE",
+  "ctas": [
+   "Menu Close",
+   "HOME HOME",
+   "ABOUT US ABOUT US",
+   "PROJECTS PROJECTS",
+   "CONTACT CONTACT",
+   "LET'S TALK",
+   "LABS LABS"
+  ],
+  "videos": [],
+  "canvases": [
+   {
+    "w": 390,
+    "h": 844
+   },
+   {
+    "w": 392,
+    "h": 846
+   }
+  ],
+  "images": [],
+  "pageHeight": 844
+ },
+ "elapsedSec": 13.0
+}

@@ -1,0 +1,106 @@
+{
+ "slug": "quinngtl-com",
+ "url": "https://www.quinngtl.com/",
+ "capturedAt": "2026-10-12 21:14:22",
+ "files": {
+  "pc_f0": "quinngtl-com-pc-f0.jpg",
+  "pc_f1": "quinngtl-com-pc-f1.jpg",
+  "pc_f2": "quinngtl-com-pc-f2.jpg",
+  "pc_scroll": "quinngtl-com-pc-scroll.jpg",
+  "sp": "quinngtl-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.quinngtl.com/",
+  "title": "Quinn Global Tax Law | International Tax & Legal Advisory Firm",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 5103,
+  "h1": "We live in tax law so you don’t get lost in it.",
+  "h1Style": {
+   "fontFamily": "Seasonmix, Arial, sans-serif",
+   "fontSize": "83.8261px",
+   "fontWeight": "400",
+   "lineHeight": "75.4435px",
+   "letterSpacing": "-1px",
+   "color": "rgb(123, 61, 44)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 48,
+    "y": 536,
+    "w": 776,
+    "h": 151
+   }
+  },
+  "lead": null,
+  "ctas": [],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://cdn.prod.website-files.com/68eee3b7aa1d9628fd1f8ee0/690135a6e3fe32bf7ace98a3_Quinn_Chicago_InsightsJPEG-300-c-p-1600.jpg",
+    "w": 1445,
+    "h": 882,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Seasonmix"
+  ],
+  "libs": {
+   "gsap": true,
+   "ScrollTrigger": true,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(242, 235, 227)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "We live in tax law so you don’t get lost in it.",
+  "h1Style": {
+   "fontFamily": "Seasonmix, Arial, sans-serif",
+   "fontSize": "48px",
+   "fontWeight": "400",
+   "lineHeight": "43.2px",
+   "letterSpacing": "-1px",
+   "color": "rgb(123, 61, 44)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 16,
+    "y": 363,
+    "w": 350,
+    "h": 130
+   }
+  },
+  "lead": null,
+  "ctas": [],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://cdn.prod.website-files.com/68eee3b7aa1d9628fd1f8ee0/690135a6e3fe32bf7ace98a3_Quinn_Chicago_InsightsJPEG-300-c-p-800.jpg",
+    "w": 390,
+    "h": 810,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 6681
+ },
+ "elapsedSec": 12.2
+}

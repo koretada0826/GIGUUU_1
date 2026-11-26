@@ -1,0 +1,18 @@
+{
+  "separate_html": "heroes/portrait-remix-28/index.html",
+  "combined_proposals": [
+    28,
+    19,
+    16
+  ],
+  "backgrounds": 2,
+  "render_cases": 6,
+  "all_render_cases_passed": true,
+  "cta_navigation_passed": true,
+  "taste_failures": 0,
+  "taste_scope_exceptions": [
+    "few-pictures",
+    "still-page"
+  ],
+  "existing_files_changed": []
+}

@@ -1,0 +1,36 @@
+{
+  "concept_id": 4,
+  "title": "nesco-frames",
+  "prompt": "Use case: ads-marketing.\nAsset: ONE original Japanese call-center recruitment HERO image, wide landscape aspect about 1938:811 (2.39:1). This is a new site-referenced creative direction, not a website screenshot or a clone.\nInput image 1: actual saved website screenshot of JR西日本電気システム 採用, https://www.j-nesco.com/recruit/. Study its composition, type hierarchy and imagery treatment. Input image 2: our current call-center image, used ONLY for subject context (headsets, operators, call-center equipment), not its repeated anime arrangement.\nObserved reference element: 角を落とした写真フレーム、白地の細いグリッド、主張と複数の現場写真をつなぐ配置。\nDirection: Use the NESCO screenshot's clipped polygon photo apertures and subtle technical line grid as a design grammar. On white background, LEFT lower area contains bold navy Japanese headline. RIGHT has two large connected chamfered hexagonal editorial photographic windows: upper window shows an original Japanese operator on a headset call; lower-right window shows two colleagues reviewing an unreadable customer-contact screen and call scripts. One unified finished advertising layout, not a contact sheet or separate alternative panels. Pale blue abstract diagram lines and tiny handset symbols subtly in the white field. No trains, construction uniforms, source company logos or orange brand accents.\nExact ORIGINAL approved copy: small label \"CALL CENTER RECRUIT\"; headline \"会話の先に、\" / \"チームの仕事。\"; subcopy \"声を届ける現場を、一緒につくる。\". Use these strings ONLY, plus 電話対応 / 営業 / サポート / チーム if small work labels are needed. Do not copy any text from the attached website screenshot.\nKeep call-center theme recognizable: professional communications headsets worn on heads with natural boom microphones, customer-contact workstation/screens with unreadable interface text, desk telephone or call-script papers. All human foreground staff Japanese adults. Natural proportions and coherent anatomy. Photographic concepts must be photographs; illustrative/sculptural concepts must follow their distinct direction.\nPalette: mostly white, navy, cobalt blue and pale blue/teal, natural skin tones. The attached site's other brand colors are reference context, not output requirements. Keep bright edges that suit a white page, with no full dark rectangular background.\nNO copied company logos, brands, slogans, named people, identity recreation, dates, certifications, customer quotes, salary/benefit promises, numerical claims, header/navigation, website CTA, browser chrome, watermarks or multiple concept thumbnails. No company-specific recruitment conditions. Preserve legibility, avoid cropped lettering or faces. Output exactly one finished opaque hero image, not a full page.",
+  "tool": "built-in image_gen__imagegen",
+  "actual_model": null,
+  "attached_images": [
+    {
+      "path": "/Users/matsugirintarou/Desktop/rintaro/giguuu改善/assets/recruit/callcenter-site-referenced-10/references/04-j-nesco-com-recruit.jpg",
+      "role": "actual website screenshot; visual composition reference",
+      "site": "JR西日本電気システム 採用",
+      "url": "https://www.j-nesco.com/recruit/",
+      "captured_at": "2026-10-12"
+    },
+    {
+      "path": "/Users/matsugirintarou/Desktop/rintaro/giguuu改善/assets/recruit/recruit-callcenter-illustrated-v1.png",
+      "role": "call-center subject context only"
+    }
+  ],
+  "borrowed_visual_element": "角を落とした写真フレーム、白地の細いグリッド、主張と複数の現場写真をつなぐ配置。",
+  "generated_source_path": "/Users/matsugirintarou/.codex/generated_images/01a134a6-229a-7d60-9c6c-15ab30a9edd4/exec-e6fc831c-7df6-4307-8b16-4403c326263e.png",
+  "saved_path": "/Users/matsugirintarou/Desktop/rintaro/giguuu改善/assets/recruit/callcenter-site-referenced-10/04-nesco-frames.png",
+  "dimensions": {
+    "width": 1938,
+    "height": 811
+  },
+  "attempt": 1,
+  "visual_inspection": {
+    "headline": "Exact and readable: 会話の先に、 / チームの仕事。",
+    "subcopy": "Exact and readable: 声を届ける現場を、一緒につくる。",
+    "reference_composition": "Two connected chamfered hexagonal photography windows, white technical grid and headline lower left reproduce observed design grammar.",
+    "call_center": "All foreground staff have headsets with boom microphones; workstation and call-script review shown.",
+    "source_identity": "No source logo, people identity, company text, stats or claims copied.",
+    "issues": []
+  }
+}

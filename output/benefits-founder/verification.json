@@ -1,0 +1,124 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "width": 1440,
+      "height": 1100,
+      "passed": true,
+      "sinksBeforeArrival": true,
+      "centerRisesFromBelow": true,
+      "noDuplicate": true,
+      "staysCentered": true,
+      "keyboardReplay": true,
+      "restartWhilePlaying": true,
+      "guideRestores": true,
+      "rapidScrollCancels": true,
+      "overflow": false,
+      "errors": [],
+      "missing": []
+    },
+    {
+      "width": 1920,
+      "height": 900,
+      "passed": true,
+      "sinksBeforeArrival": true,
+      "centerRisesFromBelow": true,
+      "noDuplicate": true,
+      "staysCentered": true,
+      "keyboardReplay": true,
+      "restartWhilePlaying": true,
+      "guideRestores": true,
+      "rapidScrollCancels": true,
+      "overflow": false,
+      "errors": [],
+      "missing": []
+    },
+    {
+      "width": 768,
+      "height": 1000,
+      "passed": true,
+      "sinksBeforeArrival": true,
+      "centerRisesFromBelow": true,
+      "noDuplicate": true,
+      "staysCentered": true,
+      "keyboardReplay": true,
+      "restartWhilePlaying": true,
+      "guideRestores": true,
+      "rapidScrollCancels": true,
+      "overflow": false,
+      "errors": [],
+      "missing": []
+    },
+    {
+      "width": 390,
+      "height": 1000,
+      "passed": true,
+      "sinksBeforeArrival": true,
+      "centerRisesFromBelow": true,
+      "noDuplicate": true,
+      "staysCentered": true,
+      "keyboardReplay": true,
+      "restartWhilePlaying": true,
+      "guideRestores": true,
+      "rapidScrollCancels": true,
+      "overflow": false,
+      "errors": [],
+      "missing": []
+    },
+    {
+      "width": 320,
+      "height": 1000,
+      "passed": true,
+      "sinksBeforeArrival": true,
+      "centerRisesFromBelow": true,
+      "noDuplicate": true,
+      "staysCentered": true,
+      "keyboardReplay": true,
+      "restartWhilePlaying": true,
+      "guideRestores": true,
+      "rapidScrollCancels": true,
+      "overflow": false,
+      "errors": [],
+      "missing": []
+    },
+    {
+      "mode": "OS reduced motion",
+      "passed": true,
+      "staticCenter": true,
+      "guideHiddenInSection": true,
+      "guideRestoredOutside": true
+    },
+    {
+      "mode": "existing motion pause",
+      "passed": true,
+      "staticCenter": true,
+      "guideHiddenInSection": true,
+      "guideRestoredOutside": true
+    },
+    {
+      "mode": "animation asset unavailable",
+      "passed": true,
+      "staticCenter": true
+    },
+    {
+      "mode": "original layout and copy",
+      "passed": true,
+      "original": {
+        "width": 232,
+        "height": 303.78125
+      },
+      "updated": {
+        "width": 232,
+        "height": 303.78125
+      },
+      "cardsUnchanged": true
+    },
+    {
+      "mode": "delayed asset and visibility resume; runtime OS preference change",
+      "passed": true,
+      "pendingArrivalResumes": true,
+      "activeMotionStopsImmediately": true,
+      "staticCenter": true
+    }
+  ]
+}

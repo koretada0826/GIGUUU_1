@@ -1,0 +1,65 @@
+{
+  "generator": "Built-in image generation; model version is not selectable or verifiable.",
+  "images": [
+    {
+      "number": 1,
+      "slug": "white-brand-stage",
+      "file": "01-white-brand-stage.png",
+      "source": "/Users/rintaro/.codex/generated_images/01a0f605-38f7-76b1-8832-824e69b416d0/exec-41e82c3c-1d62-4520-9546-db107a41baab.png"
+    },
+    {
+      "number": 2,
+      "slug": "monogram-architecture",
+      "file": "02-monogram-architecture.png",
+      "source": "/Users/rintaro/.codex/generated_images/01a0f605-38f7-76b1-8832-824e69b416d0/exec-bcb956d1-a624-4fa2-8c46-e63bb7231769.png"
+    },
+    {
+      "number": 3,
+      "slug": "human-handwritten-emphasis",
+      "file": "03-human-handwritten-emphasis.png",
+      "source": "/Users/rintaro/.codex/generated_images/01a0f605-38f7-76b1-8832-824e69b416d0/exec-0953757f-4f3c-4390-a274-a6b55debe115.png"
+    },
+    {
+      "number": 4,
+      "slug": "knowledge-paper-assembly",
+      "file": "04-knowledge-paper-assembly.png",
+      "source": "/Users/rintaro/.codex/generated_images/01a0f605-38f7-76b1-8832-824e69b416d0/exec-2eb04070-ca81-4e2b-9aef-67f75fd07a07.png"
+    },
+    {
+      "number": 5,
+      "slug": "transparent-clover-layers",
+      "file": "05-transparent-clover-layers.png",
+      "source": "/Users/rintaro/.codex/generated_images/01a0f605-38f7-76b1-8832-824e69b416d0/exec-f52f2a0f-cdc4-4fa6-b18b-98ca1144e71e.png"
+    },
+    {
+      "number": 6,
+      "slug": "letterpress-close-up",
+      "file": "06-letterpress-close-up.png",
+      "source": "/Users/rintaro/.codex/generated_images/01a0f605-38f7-76b1-8832-824e69b416d0/exec-45ab48b6-8953-4986-97e7-a21f267dc287.png"
+    },
+    {
+      "number": 7,
+      "slug": "ai-sales-intersection",
+      "file": "07-ai-sales-intersection.png",
+      "source": "/Users/rintaro/.codex/generated_images/01a0f605-38f7-76b1-8832-824e69b416d0/exec-a2818f33-d879-44fd-9a55-2ceaa787bcce.png"
+    },
+    {
+      "number": 8,
+      "slug": "vertical-editorial-voice",
+      "file": "08-vertical-editorial-voice.png",
+      "source": "/Users/rintaro/.codex/generated_images/01a0f605-38f7-76b1-8832-824e69b416d0/exec-31a40b1f-3cae-494c-8e43-814e2c6b7d05.png"
+    },
+    {
+      "number": 9,
+      "slug": "white-aperture-identity",
+      "file": "09-white-aperture-identity.png",
+      "source": "/Users/rintaro/.codex/generated_images/01a0f605-38f7-76b1-8832-824e69b416d0/exec-74ce33d9-c5cf-43af-8e86-273c515099ee.png"
+    },
+    {
+      "number": 10,
+      "slug": "folded-continuous-story",
+      "file": "10-folded-continuous-story.png",
+      "source": "/Users/rintaro/.codex/generated_images/01a0f605-38f7-76b1-8832-824e69b416d0/exec-11e7815f-1166-4184-94b6-59a2c788e38a.png"
+    }
+  ]
+}

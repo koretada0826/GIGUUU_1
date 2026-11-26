@@ -1,0 +1,37 @@
+{
+  "concept_id": 2,
+  "title": "smarthr-type",
+  "prompt": "Use case: ads-marketing.\nAsset: ONE original Japanese call-center recruitment HERO image, wide landscape aspect about 1938:811 (2.39:1). This is a new site-referenced creative direction, not a website screenshot or a clone.\nInput image 1: actual saved website screenshot of SmartHR 採用, https://recruit.smarthr.co.jp/. Study its composition, type hierarchy and imagery treatment. Input image 2: our current call-center image, used ONLY for subject context (headsets, operators, call-center equipment), not its repeated anime arrangement.\nObserved reference element: 画面を支配する極太文字、段差のある白い文字面、鮮やかな色面。大きな主張と短い補足の階層。\nDirection: Translate the SmartHR recruitment screenshot's GIANT TYPOGRAPHY and stepped white headline planes into a call-center recruitment hero. Oversized heavy clean Japanese sans-serif text spans most of left and center on staggered white strips. RIGHT third is a cobalt/pale-blue flat visual area containing a tightly framed ORIGINAL photorealistic young Japanese headset operator and a small CRM monitor. Minimal, sharply structured, typographic advertising. No gradients, source slogans, fake performance metrics or source navigation. At least 60% of visual emphasis is typography; do not return the old anime group composition.\nExact ORIGINAL approved copy: small label \"CALL CENTER RECRUIT\"; headline \"あなたの声を、\" / \"仕事にしよう。\"; subcopy \"人と話す仕事を、仲間と。\". Use these strings ONLY, plus 電話対応 / 営業 / サポート / チーム if small work labels are needed. Do not copy any text from the attached website screenshot.\nKeep call-center theme recognizable: professional communications headsets worn on heads with natural boom microphones, customer-contact workstation/screens with unreadable interface text, desk telephone or call-script papers. All human foreground staff Japanese adults. Natural proportions and coherent anatomy. Photographic concepts must be photographs; illustrative/sculptural concepts must follow their distinct direction.\nPalette: mostly white, navy, cobalt blue and pale blue/teal, natural skin tones. The attached site's other brand colors are reference context, not output requirements. Keep bright edges that suit a white page, with no full dark rectangular background.\nNO copied company logos, brands, slogans, named people, identity recreation, dates, certifications, customer quotes, salary/benefit promises, numerical claims, header/navigation, website CTA, browser chrome, watermarks or multiple concept thumbnails. No company-specific recruitment conditions. Preserve legibility, avoid cropped lettering or faces. Output exactly one finished opaque hero image, not a full page.",
+  "tool": "image_gen__imagegen (built-in)",
+  "actual_model": null,
+  "attached_images": [
+    {
+      "path": "/Users/matsugirintarou/Desktop/rintaro/giguuu改善/assets/recruit/callcenter-site-referenced-10/references/02-recruit-smarthr-co-jp.jpg",
+      "role": "Actual website screenshot; composition/type hierarchy reference"
+    },
+    {
+      "path": "/Users/matsugirintarou/Desktop/rintaro/giguuu改善/assets/recruit/recruit-callcenter-illustrated-v1.png",
+      "role": "Our call-center subject context only"
+    }
+  ],
+  "source_site": {
+    "name": "SmartHR 採用",
+    "url": "https://recruit.smarthr.co.jp/",
+    "screenshot_captured_at": "2026-10-12"
+  },
+  "borrowed_visual_element": "画面を支配する極太文字、段差のある白い文字面、鮮やかな色面。大きな主張と短い補足の階層。",
+  "dimensions": {
+    "width": 1938,
+    "height": 811
+  },
+  "generated_source_path": "/Users/matsugirintarou/.codex/generated_images/01a134a4-6ce1-7290-8919-30c49dd047ea/exec-f88b43b3-072e-4a5d-b76b-956bf7ed2b0f.png",
+  "saved_path": "/Users/matsugirintarou/Desktop/rintaro/giguuu改善/assets/recruit/callcenter-site-referenced-10/02-smarthr-type.png",
+  "visual_inspection": {
+    "headline": "Exact approved Japanese headline complete/readable",
+    "subcopy": "Exact approved subcopy complete/readable",
+    "call_center": "Foreground young Japanese operator wears boom-mic headset; background staff/CRM monitors and desk phone",
+    "reference_derived_composition": "Extreme heavy type on staggered white strips with blue field and large close-up operator on right",
+    "source_copy_logo_identity": "No source text/logo/identity copied",
+    "issues": "Blue field has mild tonal variation rather than completely flat solid color"
+  }
+}

@@ -1,0 +1,137 @@
+{
+ "slug": "www-intercom-com",
+ "url": "https://www.intercom.com/",
+ "capturedAt": "2026-10-12 21:08:08",
+ "files": {
+  "pc_f0": "www-intercom-com-pc-f0.jpg",
+  "pc_f1": "www-intercom-com-pc-f1.jpg",
+  "pc_f2": "www-intercom-com-pc-f2.jpg",
+  "pc_scroll": "www-intercom-com-pc-scroll.jpg",
+  "sp": "www-intercom-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.intercom.com/",
+  "title": "Intercom | A complete system for human and AI customer service",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 9567,
+  "h1": "A complete system for AI and human customer service",
+  "h1Style": {
+   "fontFamily": "Saans, \"Saans Fallback\", \"Hiragino Kaku Gothic ProN\", \"Hiragino Sans\", \"Yu Gothic UI\", \"Yu Gothic\", Meiryo, \"Noto Sans J",
+   "fontSize": "80px",
+   "fontWeight": "400",
+   "lineHeight": "80px",
+   "letterSpacing": "-2.4px",
+   "color": "rgb(17, 17, 17)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 349,
+    "y": 236,
+    "w": 742,
+    "h": 240
+   }
+  },
+  "lead": "Intercom is the only helpdesk with a natively integrated AI Agent, Fin, meaning every customer conversation improves the next one, enabling perfect experiences that were never possible before.",
+  "ctas": [],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.intercom.com/ims-image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F4bgok82s%2Fmonorepo-static-assets%2Ff3537134afdca56c6c95cc7e598af56bbc3dfd87-600x825.webp&w=256&q=75",
+    "w": 176,
+    "h": 243,
+    "alt": ""
+   },
+   {
+    "src": "https://www.intercom.com/ims-image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F4bgok82s%2Fmonorepo-static-assets%2F33589346d03d1fe689cc38aaa4cfad8d7b849cb0-600x750.webp&w=256&q=75",
+    "w": 194,
+    "h": 243,
+    "alt": ""
+   },
+   {
+    "src": "https://www.intercom.com/ims-image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F4bgok82s%2Fmonorepo-static-assets%2Fe1f962d29283402d20e6202001651a7130751ec0-600x783.webp&w=256&q=75",
+    "w": 151,
+    "h": 197,
+    "alt": ""
+   },
+   {
+    "src": "https://www.intercom.com/ims-image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F4bgok82s%2Fmonorepo-static-assets%2F987d4efd962d3f6813c2c066ccdeaa74f2774231-600x398.webp&w=384&q=75",
+    "w": 287,
+    "h": 190,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Saans",
+   "Serrif"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "A complete system for AI and human customer service",
+  "h1Style": {
+   "fontFamily": "Saans, \"Saans Fallback\", \"Hiragino Kaku Gothic ProN\", \"Hiragino Sans\", \"Yu Gothic UI\", \"Yu Gothic\", Meiryo, \"Noto Sans J",
+   "fontSize": "40px",
+   "fontWeight": "400",
+   "lineHeight": "38px",
+   "letterSpacing": "-1.2px",
+   "color": "rgb(17, 17, 17)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 16,
+    "y": 188,
+    "w": 358,
+    "h": 152
+   }
+  },
+  "lead": "Intercom is the only helpdesk with a natively integrated AI Agent, Fin.",
+  "ctas": [],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.intercom.com/ims-image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F4bgok82s%2Fmonorepo-static-assets%2Ff3537134afdca56c6c95cc7e598af56bbc3dfd87-600x825.webp&w=256&q=75",
+    "w": 93,
+    "h": 128,
+    "alt": ""
+   },
+   {
+    "src": "https://www.intercom.com/ims-image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F4bgok82s%2Fmonorepo-static-assets%2Fe1f962d29283402d20e6202001651a7130751ec0-600x783.webp&w=256&q=75",
+    "w": 86,
+    "h": 112,
+    "alt": ""
+   },
+   {
+    "src": "https://www.intercom.com/ims-image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F4bgok82s%2Fmonorepo-static-assets%2F987d4efd962d3f6813c2c066ccdeaa74f2774231-600x398.webp&w=256&q=75",
+    "w": 120,
+    "h": 80,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 10419
+ },
+ "elapsedSec": 13.2
+}

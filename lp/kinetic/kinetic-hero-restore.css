@@ -1,0 +1,17 @@
+/* KINETIC TELEMO hero (ff495af) restored into the 50102b2 page.
+   Only shared-CSS values that differ between ff495af and 50102b2 and reach the hero are put back here,
+   all scoped to #hero so the header and the other sections keep their 50102b2 styles. */
+#hero {
+  /* ff495af mi-header.css :root values (92 / 80 / 76 / 64px). In 50102b2, hero-editorial.css sets 100px (76px <=900px)
+     on the body for the header; the hero's micro copy uses this variable for its top offset. */
+  --nav-height: 92px;
+  /* ff495af index-refine.css `.page-home { color: var(--rf-text) }` with --rf-text: #3c4757 */
+  color: #3c4757;
+  /* 50102b2 telemo-reference.css sets `.page-home { line-break: strict }`; ff495af had the default */
+  line-break: auto;
+}
+@media (max-width: 1100px) { #hero { --nav-height: 80px; } }
+@media (max-width: 900px) { #hero { --nav-height: 76px; } }
+@media (max-width: 767px) { #hero { --nav-height: 64px; } }
+/* ff495af index-refine.css `.page-home :focus-visible` used --rf-blue-hover (#174883) */
+#hero :focus-visible { outline-color: #174883; }

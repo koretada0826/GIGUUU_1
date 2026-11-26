@@ -1,0 +1,228 @@
+{
+ "slug": "www-ana-co-jp",
+ "url": "https://www.ana.co.jp/",
+ "capturedAt": "2026-10-12 21:31:24",
+ "files": {
+  "pc_f0": "www-ana-co-jp-pc-f0.jpg",
+  "pc_f1": "www-ana-co-jp-pc-f1.jpg",
+  "pc_f2": "www-ana-co-jp-pc-f2.jpg",
+  "pc_scroll": "www-ana-co-jp-pc-scroll.jpg",
+  "sp": "www-ana-co-jp-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.ana.co.jp/",
+  "title": "ANAの航空券・飛行機 予約、空席照会、運賃案内|ANA",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 6739,
+  "h1": "",
+  "h1Style": {
+   "fontFamily": "ヒラギノ角ゴシック, \"Hiragino Sans\", \"Hiragino Kaku Gothic ProN\", HiraKakuProN-W3, \"ヒラギノ角ゴ ProN W3\", \"Hiragino Kaku Gothic Pro\", ",
+   "fontSize": "14px",
+   "fontWeight": "700",
+   "lineHeight": "21px",
+   "letterSpacing": "normal",
+   "color": "rgb(51, 51, 51)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 120,
+    "y": 157,
+    "w": 260,
+    "h": 24
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "トップ",
+   "新規予約",
+   "予約管理",
+   "ご出発の準備",
+   "各種サービスご利用案内",
+   "旅を探す・計画する",
+   "セール・キャンペーン",
+   "お楽しみコンテンツ",
+   "新規予約",
+   "予約管理",
+   "ご出発の準備",
+   "各種サービスご利用案内"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.ana.co.jp/common-assets/common-patrs/hamburger-wide-navi/image/banner/banner-dp_coupon.jpg",
+    "w": 309,
+    "h": 80,
+    "alt": "航空券＋宿泊 おトクなクーポン配布中！"
+   },
+   {
+    "src": "https://www.ana.co.jp/common-assets/common-patrs/hamburger-wide-navi/image/banner/banner-campaign.jpg",
+    "w": 309,
+    "h": 80,
+    "alt": "各種キャンペーン"
+   },
+   {
+    "src": "https://www.ana.co.jp/common-assets/common-patrs/hamburger-wide-navi/image/banner/banner-campaign.jpg",
+    "w": 309,
+    "h": 80,
+    "alt": "各種キャンペーン"
+   },
+   {
+    "src": "https://www.ana.co.jp/www2/ja/topoftop/login/260929/hero01_pc.jpg",
+    "w": 1366,
+    "h": 360,
+    "alt": ""
+   },
+   {
+    "src": "https://www.ana.co.jp/www2/ja/topoftop/login/261005/hero01_pc.jpg",
+    "w": 1366,
+    "h": 360,
+    "alt": ""
+   },
+   {
+    "src": "https://www.ana.co.jp/www2/ja/topoftop/login/260929/hero01_pc.jpg",
+    "w": 1366,
+    "h": 360,
+    "alt": ""
+   },
+   {
+    "src": "https://www.ana.co.jp/www2/ja/topoftop/login/261005/hero01_pc.jpg",
+    "w": 1366,
+    "h": 360,
+    "alt": ""
+   },
+   {
+    "src": "https://www.ana.co.jp/www2/ja/topoftop/login/260929/hero01_pc.jpg",
+    "w": 1366,
+    "h": 360,
+    "alt": ""
+   },
+   {
+    "src": "https://www.ana.co.jp/www2/ja/topoftop/login/261005/hero01_pc.jpg",
+    "w": 1366,
+    "h": 360,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "ヒラギノ角ゴシック"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": true,
+   "lottie": false
+  },
+  "bodyBg": "rgb(241, 241, 241)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "",
+  "h1Style": {
+   "fontFamily": "ヒラギノ角ゴシック, \"Hiragino Sans\", \"Hiragino Kaku Gothic ProN\", HiraKakuProN-W3, \"ヒラギノ角ゴ ProN W3\", \"Hiragino Kaku Gothic Pro\", ",
+   "fontSize": "14px",
+   "fontWeight": "700",
+   "lineHeight": "21px",
+   "letterSpacing": "normal",
+   "color": "rgb(51, 51, 51)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 16,
+    "y": 225,
+    "w": 150,
+    "h": 14
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "国内 海外 10/1 ウェブサイトリニューアルにおける機能制限について",
+   "トップ",
+   "新規予約",
+   "予約管理",
+   "ご出発の準備",
+   "各種サービスご利用案内",
+   "旅を探す・計画する",
+   "セール・キャンペーン",
+   "新規予約",
+   "予約管理",
+   "ご出発の準備",
+   "各種サービスご利用案内"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.ana.co.jp/common-assets/common-patrs/hamburger-wide-navi/image/banner/banner-dp_coupon.jpg",
+    "w": 309,
+    "h": 80,
+    "alt": "航空券＋宿泊 おトクなクーポン配布中！"
+   },
+   {
+    "src": "https://www.ana.co.jp/common-assets/common-patrs/hamburger-wide-navi/image/banner/banner-campaign.jpg",
+    "w": 309,
+    "h": 80,
+    "alt": "各種キャンペーン"
+   },
+   {
+    "src": "https://www.ana.co.jp/common-assets/common-patrs/hamburger-wide-navi/image/banner/banner-campaign.jpg",
+    "w": 309,
+    "h": 80,
+    "alt": "各種キャンペーン"
+   },
+   {
+    "src": "https://www.ana.co.jp/www2/ja/topoftop/login/260929/hero01_sp.jpg",
+    "w": 390,
+    "h": 291,
+    "alt": ""
+   },
+   {
+    "src": "https://www.ana.co.jp/www2/ja/topoftop/login/261005/hero01_sp.jpg",
+    "w": 390,
+    "h": 291,
+    "alt": ""
+   },
+   {
+    "src": "https://www.ana.co.jp/www2/ja/topoftop/login/260929/hero01_sp.jpg",
+    "w": 390,
+    "h": 291,
+    "alt": ""
+   },
+   {
+    "src": "https://www.ana.co.jp/www2/ja/topoftop/login/261005/hero01_sp.jpg",
+    "w": 390,
+    "h": 291,
+    "alt": ""
+   },
+   {
+    "src": "https://www.ana.co.jp/www2/ja/topoftop/login/260929/hero01_sp.jpg",
+    "w": 390,
+    "h": 291,
+    "alt": ""
+   },
+   {
+    "src": "https://www.ana.co.jp/www2/ja/topoftop/login/261005/hero01_sp.jpg",
+    "w": 390,
+    "h": 291,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 7164
+ },
+ "elapsedSec": 15.1
+}

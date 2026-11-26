@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>TELEMO｜左右配置の2案</title>
+<style>
+:root{color-scheme:light;--ink:#142f3b;--muted:#63747c;--line:#dce3e5;--teal:#007d8c}
+*{box-sizing:border-box}
+body{margin:0;background:#f6f7f7;color:var(--ink);font:14px/1.6 -apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif}
+a{color:var(--teal);text-underline-offset:4px}
+button{font:inherit;cursor:pointer}
+a:focus-visible,button:focus-visible{outline:3px solid var(--teal);outline-offset:4px}
+.top{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:24px 32px;background:#fff;border-bottom:1px solid var(--line)}
+h1{margin:0 0 6px;font-size:clamp(24px,2.3vw,32px);line-height:1.35;letter-spacing:-.04em}
+.top p{margin:0;color:var(--muted)}
+.top>a{flex-shrink:0}
+.gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px;max-width:1920px;margin:auto;padding:28px 32px}
+figure{min-width:0;margin:0}
+.preview{position:relative;display:block;overflow:hidden;border:1px solid var(--line);border-radius:5px;cursor:zoom-in;background:#fff}
+.preview img{display:block;width:100%;height:auto}
+.zoom{position:absolute;right:12px;bottom:12px;padding:5px 12px;background:#fff;border-radius:3px;color:var(--ink);font-size:12px;opacity:0}
+.preview:hover .zoom,.preview:focus-visible .zoom{opacity:1}
+figcaption{display:flex;gap:12px;align-items:baseline;margin-top:12px;font-size:16px;font-weight:650}
+.number{color:var(--teal);font-variant-numeric:tabular-nums}
+.note{margin:0;padding:0 32px 24px;color:var(--muted);font-size:12px}
+dialog{width:min(1440px,calc(100vw - 32px));max-width:none;max-height:calc(100dvh - 32px);padding:0;border:1px solid var(--line);border-radius:6px;background:#fff;color:var(--ink);overflow:auto}
+dialog::backdrop{background:rgba(10,26,34,.82)}
+.dialog-top{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:12px 18px;border-bottom:1px solid var(--line)}
+.dialog-top h2{margin:0;font-size:16px}
+.controls{display:flex;flex-shrink:0;gap:6px}
+.controls button{min-height:38px;padding:6px 12px;border:1px solid var(--line);border-radius:4px;background:#fff;color:var(--ink)}
+.controls .close{background:var(--ink);border-color:var(--ink);color:#fff}
+.dialog-image{display:block;width:100%;height:auto;max-height:calc(100dvh - 125px);object-fit:contain;background:#f3f5f5}
+body:has(dialog[open]){overflow:hidden}
+@media(max-width:760px){.top{display:block;padding:20px}.top>a{display:inline-block;margin-top:12px}.gallery{grid-template-columns:1fr;gap:28px;padding:24px 20px}.zoom{opacity:1}figcaption{font-size:14px}.note{padding:0 20px 24px}.dialog-top{display:block;padding:12px}.dialog-top h2{font-size:14px}.controls{justify-content:flex-end;margin-top:10px}.controls button{font-size:12px}.dialog-image{max-height:calc(100dvh - 160px)}}
+</style>
+</head>
+<body>
+<header class="top">
+  <div>
+    <h1>TELEMO｜左右配置の2案。</h1>
+    <p>TELEMOを片側へ寄せ、空いた側に見出しとボタンを配置。画像を押すと拡大できます。</p>
+  </div>
+  <a href="./telemo-ui-concepts.html">前の10案を見る →</a>
+</header>
+<main class="gallery" aria-label="左右配置の比較">
+  <figure id="right">
+    <a class="preview" href="./assets/telemo-ui-concepts/20261022-side-layouts/telemo-right.webp" data-layout="right" aria-label="案1を拡大：TELEMOを右、見出しとボタンを左">
+      <img src="./assets/telemo-ui-concepts/20261022-side-layouts/telemo-right.webp" width="1586" height="992" alt="白地とオフィスを背景に、TELEMOを右、見出しと2つのボタンを左へ配置した案。右下にミニ社長とコメント。" decoding="async">
+      <span class="zoom">拡大する</span>
+    </a>
+    <figcaption><span class="number">01</span><span>TELEMOを右、見出しとボタンを左</span></figcaption>
+  </figure>
+  <figure id="left">
+    <a class="preview" href="./assets/telemo-ui-concepts/20261022-side-layouts/telemo-left.webp" data-layout="left" aria-label="案2を拡大：TELEMOを左、見出しとボタンを右">
+      <img src="./assets/telemo-ui-concepts/20261022-side-layouts/telemo-left.webp" width="1586" height="992" alt="黄色と円環を背景に、TELEMOを左、見出しと2つのボタンを右へ配置した案。右下にミニ社長とコメント。" decoding="async">
+      <span class="zoom">拡大する</span>
+    </a>
+    <figcaption><span class="number">02</span><span>TELEMOを左、見出しとボタンを右</span></figcaption>
+  </figure>
+</main>
+<p class="note">レイアウト検討用の画像です。</p>
+<dialog id="preview-dialog" aria-labelledby="dialog-title">
+  <div class="dialog-top">
+    <h2 id="dialog-title"></h2>
+    <div class="controls">
+      <button type="button" id="previous" aria-label="前の案">← 前</button>
+      <button type="button" id="next" aria-label="次の案">次 →</button>
+      <button type="button" class="close" id="close">閉じる ×</button>
+    </div>
+  </div>
+  <img class="dialog-image" id="dialog-image" alt="" width="1586" height="992">
+</dialog>
+<script>
+(() => {
+  const links = [...document.querySelectorAll('[data-layout]')];
+  const dialog = document.getElementById('preview-dialog');
+  const image = document.getElementById('dialog-image');
+  const title = document.getElementById('dialog-title');
+  let active = 0;
+  let opener;
+  function show(index) {
+    active = (index + links.length) % links.length;
+    const link = links[active];
+    image.src = link.href;
+    image.alt = link.querySelector('img').alt;
+    title.textContent = link.closest('figure').querySelector('figcaption').textContent.trim();
+    history.replaceState(null, '', '#' + link.dataset.layout);
+    if (!dialog.open) dialog.showModal();
+  }
+  links.forEach((link, index) => link.addEventListener('click', event => {
+    event.preventDefault();
+    opener = link;
+    show(index);
+  }));
+  document.getElementById('previous').addEventListener('click', () => show(active - 1));
+  document.getElementById('next').addEventListener('click', () => show(active + 1));
+  document.getElementById('close').addEventListener('click', () => dialog.close());
+  dialog.addEventListener('keydown', event => {
+    if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
+      event.preventDefault();
+      show(active + (event.key === 'ArrowLeft' ? -1 : 1));
+    }
+  });
+  dialog.addEventListener('close', () => {
+    history.replaceState(null, '', location.pathname + location.search);
+    opener?.focus();
+  });
+  const initial = links.findIndex(link => '#' + link.dataset.layout === location.hash);
+  if (initial >= 0) show(initial);
+})();
+</script>
+</body>
+</html>

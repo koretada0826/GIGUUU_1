@@ -1,0 +1,31 @@
+{
+  "asset": "telemo-campaign-desktop-v1.png",
+  "use_case": "ads-marketing",
+  "mode": "built-in image_gen",
+  "intent": "generate",
+  "transparent_background": false,
+  "requested_dimensions": {
+    "width": 1920,
+    "height": 960
+  },
+  "actual_dimensions": {
+    "width": 1774,
+    "height": 887
+  },
+  "aspect_ratio": "2:1",
+  "prompt": "Use case: ads-marketing\nAsset type: final production desktop TELEMO landing-page hero art. Wide landscape canvas, exactly 1920x960 if possible, aspect ratio 2:1. This image will be used as an entire hero visual in HTML.\nPrimary request: Create a polished, cheerful Japanese brand campaign composition inspired ONLY by the arrangement and balance of reference image 1. Use the existing TELEMO 3D wordmark material from image 2 and the existing mini president from image 3.\nInput images: Image 1 is composition inspiration ONLY (headline on top, product lower left, character and speech shape on right); do NOT use its people, beverages, cans, brand, colors, wording, navigation, or icons. Image 2 is the TELEMO lettering and material reference; preserve the spelling TELEMO, front teal faces, thick white side faces and dimensional form. Image 3 is the ONLY allowed human identity; preserve this exact face, hairstyle, brown hair, friendly smile, earring, white T-shirt and small stylized body.\nScene/backdrop: flat pale teal #eaf6f8 / off-white paper surface with a very subtle fine paper grain, gently tactile. NO color gradient, no dark full-bleed panel, no grid.\nComposition/framing: Roomy 6% canvas margins. Across the top, two large lines of navy #0a2a44 Japanese text in rounded bold Japanese gothic, accurately typeset and clearly legible. First line at y8%-18%; second line at y22%-34%. Below, on the left, a freestanding 3D TELEMO wordmark occupying about 52% of full canvas width: x6%-58%, y48%-82%, grounded on the pale surface with soft natural shadows, teal front faces and thick white side faces. Spell T E L E M O exactly, all six letters visible, not cropped. Avoid gigantic fullscreen wordmark.\nOn the right, x72%-91%, y33%-68%, the mini president from image 3, oversized realistic face with small stylized body in white T-shirt, friendly and gesturing with open palm toward TELEMO. Preserve his identity faithfully; no actor replacement, no extra people. He appears behind the speech balloon.\nAt x61%-94%, y65%-91%, place an oversized white organic rounded speech balloon with a subtle teal outline, a small tail toward the president, and two large lines of bold teal Japanese text.\nText (verbatim): Headline first line 「本当の現場を知り尽くした、」; headline second line 「コールセンター経営者がつくったAI」. Speech balloon first line 「現場の知見を、」; speech balloon second line 「AIの力に。」. Wordmark 「TELEMO」.\nTypography: Heavy friendly Japanese gothic, consistent and clean. Exact Japanese spelling and punctuation, no extra words. Header text navy; balloon text teal #008596.\nLighting/mood: bright soft studio daylight, welcoming, confident, professional, approachable. Natural material shading only.\nConstraints: final hero ART only. No website navigation, no browser chrome, no buttons, no links or URLs, no invented numbers or statistics, no additional logos or names, no audio controls. No source ALL FREE elements, no beverages, no alcohol, no red/yellow claim badge. Do not use source actors or copy. No colored gradients. Keep all four exact Japanese lines legible, no character substitutions, no text clipping.",
+  "referenced_image_paths": [
+    "/var/folders/3l/38v471wx4fbbqrrv78ns5q600000gn/T/TemporaryItems/NSIRD_screencaptureui_GATbxD/スクリーンショット 2026-10-22 18.34.43.png",
+    "/Users/rintaro/giguuu-campaign-hero-preview/assets/telemo-blender/telemo-kinetic-hero-teal-depth-1440.webp",
+    "/Users/rintaro/giguuu-campaign-hero-preview/assets/concierge/president-mini-v1.png"
+  ],
+  "source_output_path": "/Users/rintaro/.codex/generated_images/01a162fa-fd10-74b3-8085-9f718ce020ab/exec-296e65de-f807-4408-8856-cc039d7457c5.png",
+  "inspection": {
+    "headline_exact": true,
+    "speech_balloon_exact": true,
+    "telemo_spelling_exact": true,
+    "president_identity_preserved": true,
+    "source_brand_elements_absent": true,
+    "notes": "TELEMO is visually closer to 64% of canvas width, with all six letters legible and clear spacing. No raster edits applied."
+  }
+}

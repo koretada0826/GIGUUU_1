@@ -1,0 +1,66 @@
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * aktiv-grotesk:
+ *   - http://typekit.com/eulas/00000000000000007753ca4f
+ *   - http://typekit.com/eulas/00000000000000007753ca28
+ *   - http://typekit.com/eulas/00000000000000007753ca37
+ *   - http://typekit.com/eulas/00000000000000007753ca27
+ *   - http://typekit.com/eulas/00000000000000007753ca29
+ * aktiv-grotesk-thin:
+ *   - http://typekit.com/eulas/00000000000000007753ca2a
+ *   - http://typekit.com/eulas/00000000000000007753ca4e
+ *
+ * © 2009-2026 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2026-05-08 01:25:24 UTC"}*/
+
+@import url("../images/p_typekit_net__p.css");
+
+@font-face {
+font-family:"aktiv-grotesk";
+src:url("../images/use_typekit_net__af_855c4b_00000000000000007753ca4f_31_l") format("woff2"),url("../images/use_typekit_net__af_855c4b_00000000000000007753ca4f_31_d") format("woff"),url("../images/use_typekit_net__af_855c4b_00000000000000007753ca4f_31_a") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"aktiv-grotesk";
+src:url("../images/use_typekit_net__af_7d84d7_00000000000000007753ca28_31_l") format("woff2"),url("../images/use_typekit_net__af_7d84d7_00000000000000007753ca28_31_d") format("woff"),url("../images/use_typekit_net__af_7d84d7_00000000000000007753ca28_31_a") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"aktiv-grotesk";
+src:url("../images/use_typekit_net__af_0e4445_00000000000000007753ca37_31_l") format("woff2"),url("../images/use_typekit_net__af_0e4445_00000000000000007753ca37_31_d") format("woff"),url("../images/use_typekit_net__af_0e4445_00000000000000007753ca37_31_a") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"aktiv-grotesk";
+src:url("../images/use_typekit_net__af_bf7c1c_00000000000000007753ca27_31_l") format("woff2"),url("../images/use_typekit_net__af_bf7c1c_00000000000000007753ca27_31_d") format("woff"),url("../images/use_typekit_net__af_bf7c1c_00000000000000007753ca27_31_a") format("opentype");
+font-display:auto;font-style:italic;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"aktiv-grotesk";
+src:url("../images/use_typekit_net__af_36c3c6_00000000000000007753ca29_31_l") format("woff2"),url("../images/use_typekit_net__af_36c3c6_00000000000000007753ca29_31_d") format("woff"),url("../images/use_typekit_net__af_36c3c6_00000000000000007753ca29_31_a") format("opentype");
+font-display:auto;font-style:normal;font-weight:500;font-stretch:normal;
+}
+
+@font-face {
+font-family:"aktiv-grotesk-thin";
+src:url("../images/use_typekit_net__af_6507b8_00000000000000007753ca2a_31_l") format("woff2"),url("../images/use_typekit_net__af_6507b8_00000000000000007753ca2a_31_d") format("woff"),url("../images/use_typekit_net__af_6507b8_00000000000000007753ca2a_31_a") format("opentype");
+font-display:auto;font-style:normal;font-weight:200;font-stretch:normal;
+}
+
+@font-face {
+font-family:"aktiv-grotesk-thin";
+src:url("../images/use_typekit_net__af_f4ce5f_00000000000000007753ca4e_31_l") format("woff2"),url("../images/use_typekit_net__af_f4ce5f_00000000000000007753ca4e_31_d") format("woff"),url("../images/use_typekit_net__af_f4ce5f_00000000000000007753ca4e_31_a") format("opentype");
+font-display:auto;font-style:italic;font-weight:200;font-stretch:normal;
+}
+
+.tk-aktiv-grotesk { font-family: "aktiv-grotesk",sans-serif; }
+.tk-aktiv-grotesk-thin { font-family: "aktiv-grotesk-thin",sans-serif; }

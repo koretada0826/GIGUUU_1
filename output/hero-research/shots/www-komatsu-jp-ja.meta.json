@@ -1,0 +1,194 @@
+{
+ "slug": "www-komatsu-jp-ja",
+ "url": "https://www.komatsu.jp/ja",
+ "capturedAt": "2026-10-12 21:31:54",
+ "files": {
+  "pc_f0": "www-komatsu-jp-ja-pc-f0.jpg",
+  "pc_f1": "www-komatsu-jp-ja-pc-f1.jpg",
+  "pc_f2": "www-komatsu-jp-ja-pc-f2.jpg",
+  "pc_scroll": "www-komatsu-jp-ja-pc-scroll.jpg",
+  "sp": "www-komatsu-jp-ja-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": "OK",
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.komatsu.jp/ja",
+  "title": "コマツ 企業サイト",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 4880,
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [
+   "私たちのアイデンティティー",
+   "会社概要",
+   "沿革",
+   "役員一覧",
+   "拠点一覧",
+   "イノベーション",
+   "Atlassian Williams F1 Team",
+   "Discover Komatsu",
+   "土木",
+   "解体・産廃・リサイクル",
+   "農畜産",
+   "林業"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.komatsu.jp/ja/-/media/home/top-page/carousel/report_2880x960.jpg?h=960&iar=0&w=2880&rev=74d5bdfeb2c64ae290b9d52f1c61660c&hash=3FA3C594BF7EBC12D522B159C9029509",
+    "w": 1440,
+    "h": 480,
+    "alt": ""
+   },
+   {
+    "src": "https://www.komatsu.jp/ja/-/media/home/top-page/carousel/progress_top_ja.jpg?h=960&iar=0&w=2880&rev=4a7511ba44e24aa6bcabf11a0fb2c4e6&hash=7B7A882E1018F49DB37498527023C11B",
+    "w": 1440,
+    "h": 480,
+    "alt": ""
+   },
+   {
+    "src": "https://www.komatsu.jp/ja/-/media/home/top-page/carousel/remanchiri_hiro_ja_v2.jpg?h=960&iar=0&w=2880&rev=b9213196c0764879b8013e1c72af9826&hash=5E8C6DD2CF4D2CC2FCB82EEC5A0E1B25",
+    "w": 1440,
+    "h": 480,
+    "alt": ""
+   },
+   {
+    "src": "https://www.komatsu.jp/ja/-/media/home/top-page/carousel/teleoperation_top_jp_pc.jpg?h=960&iar=0&w=2880&rev=9070d14b21a64bb2b872da855e9f72f9&hash=B9463A04FED62CE7F64A1EE8EA95374B",
+    "w": 1440,
+    "h": 480,
+    "alt": ""
+   },
+   {
+    "src": "https://www.komatsu.jp/ja/-/media/home/top-page/carousel/top-hero-banner_pc_jp.jpg?h=960&iar=0&w=2880&rev=3e558c66497f43a083369808bf42dc13&hash=37738D54103F2C64E56E1C6A078A0436",
+    "w": 1440,
+    "h": 480,
+    "alt": ""
+   },
+   {
+    "src": "https://www.komatsu.jp/ja/-/media/home/top-page/carousel/progress_top_ja.jpg?h=960&iar=0&w=2880&rev=4a7511ba44e24aa6bcabf11a0fb2c4e6&hash=7B7A882E1018F49DB37498527023C11B",
+    "w": 294,
+    "h": 98,
+    "alt": ""
+   },
+   {
+    "src": "https://www.komatsu.jp/ja/-/media/home/top-page/carousel/remanchiri_hiro_ja_v2.jpg?h=960&iar=0&w=2880&rev=b9213196c0764879b8013e1c72af9826&hash=5E8C6DD2CF4D2CC2FCB82EEC5A0E1B25",
+    "w": 294,
+    "h": 98,
+    "alt": ""
+   },
+   {
+    "src": "https://www.komatsu.jp/ja/-/media/home/top-page/carousel/teleoperation_top_jp_pc.jpg?h=960&iar=0&w=2880&rev=9070d14b21a64bb2b872da855e9f72f9&hash=B9463A04FED62CE7F64A1EE8EA95374B",
+    "w": 294,
+    "h": 98,
+    "alt": ""
+   },
+   {
+    "src": "https://www.komatsu.jp/ja/-/media/home/top-page/carousel/top-hero-banner_pc_jp.jpg?h=960&iar=0&w=2880&rev=3e558c66497f43a083369808bf42dc13&hash=37738D54103F2C64E56E1C6A078A0436",
+    "w": 294,
+    "h": 98,
+    "alt": ""
+   },
+   {
+    "src": "https://www.komatsu.jp/ja/-/media/home/top-page/carousel/report_2880x960.jpg?h=960&iar=0&w=2880&rev=74d5bdfeb2c64ae290b9d52f1c61660c&hash=3FA3C594BF7EBC12D522B159C9029509",
+    "w": 294,
+    "h": 98,
+    "alt": ""
+   },
+   {
+    "src": "https://www.komatsu.jp/ja/-/media/home/top-page/carousel/progress_top_ja.jpg?h=960&iar=0&w=2880&rev=4a7511ba44e24aa6bcabf11a0fb2c4e6&hash=7B7A882E1018F49DB37498527023C11B",
+    "w": 294,
+    "h": 98,
+    "alt": ""
+   },
+   {
+    "src": "https://www.komatsu.jp/ja/-/media/home/top-page/carousel/remanchiri_hiro_ja_v2.jpg?h=960&iar=0&w=2880&rev=b9213196c0764879b8013e1c72af9826&hash=5E8C6DD2CF4D2CC2FCB82EEC5A0E1B25",
+    "w": 294,
+    "h": 98,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Noto Sans JP"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [
+   "アトラシアン・ウィリアムズF1チームと技術協力を拡大",
+   "シンガポールで「スマートコンストラクション®」を本格導入"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.komatsu.jp/ja/-/media/home/top-page/carousel/report750750.jpg?h=750&iar=0&w=750&rev=987646e3cf7c45859ad1144bdc1a2158&hash=18160B4433DD06231D8C3A780907CE02",
+    "w": 390,
+    "h": 390,
+    "alt": ""
+   },
+   {
+    "src": "https://www.komatsu.jp/ja/-/media/home/top-page/carousel/progresssp_ja.jpg?h=750&iar=0&w=750&rev=f34020d0d9eb43428f02ae4acabe50e7&hash=3F68395DB279E68D149403C8382FABE9",
+    "w": 390,
+    "h": 390,
+    "alt": ""
+   },
+   {
+    "src": "https://www.komatsu.jp/ja/-/media/home/top-page/carousel/remanchiri_hiro_ja_sp_v2.jpg?h=750&iar=0&w=750&rev=548cb6d5e1474e35af09c5892c8c7a01&hash=25F51E2BFAE88C29F82F0EC69DCB0452",
+    "w": 390,
+    "h": 390,
+    "alt": ""
+   },
+   {
+    "src": "https://www.komatsu.jp/ja/-/media/home/top-page/carousel/teleoperation_top_ja_sp.jpg?h=750&iar=0&w=750&rev=15e32bdbeb0b45b6bc4f3b07b4343259&hash=1F7AF64276A10B36849C9ABB06802B2D",
+    "w": 390,
+    "h": 390,
+    "alt": ""
+   },
+   {
+    "src": "https://www.komatsu.jp/ja/-/media/home/top-page/carousel/top-hero-banner_sp_jp.png?h=750&iar=0&w=750&rev=e03f3711ce0944ca86cda6f568d66247&hash=922FF21D92A4502B5E2E125374BD9724",
+    "w": 390,
+    "h": 390,
+    "alt": ""
+   },
+   {
+    "src": "https://www.komatsu.jp/ja/-/media/home/top-page/highlights/highlight_cerelemony.jpg?h=810&iar=0&w=1440&rev=cd9ca18c090d4f0c81812c83f4526118&hash=CF0CD8EBDF74F1471C77C458E76850AC",
+    "w": 159,
+    "h": 89,
+    "alt": ""
+   },
+   {
+    "src": "https://www.komatsu.jp/ja/-/media/home/top-page/highlights/singapore.jpg?h=812&iar=0&w=1440&rev=8db2ddf976514d2f9be4a8b989b5f0f3&hash=B6CCBEDD4776A3859F61A20FB88F4631",
+    "w": 159,
+    "h": 90,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 6148
+ },
+ "elapsedSec": 13.4
+}

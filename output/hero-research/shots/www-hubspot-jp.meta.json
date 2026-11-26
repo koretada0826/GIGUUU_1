@@ -1,0 +1,185 @@
+{
+ "slug": "www-hubspot-jp",
+ "url": "https://www.hubspot.jp/",
+ "capturedAt": "2026-10-12 21:31:39",
+ "files": {
+  "pc_f0": "www-hubspot-jp-pc-f0.jpg",
+  "pc_f1": "www-hubspot-jp-pc-f1.jpg",
+  "pc_f2": "www-hubspot-jp-pc-f2.jpg",
+  "pc_scroll": "www-hubspot-jp-pc-scroll.jpg",
+  "sp": "www-hubspot-jp-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.hubspot.jp/",
+  "title": "HubSpot（ハブスポット）｜CRM・SFA・MA・CMSが一元化されたカスタマープラットフォーム",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 7443,
+  "h1": "需要を創出し、取引を成約につなげ、顧客満足度を高める。すべてを1つのプラットフォームで。",
+  "h1Style": {
+   "fontFamily": "\"Zen Kaku Gothic New\", sans-serif",
+   "fontSize": "65px",
+   "fontWeight": "300",
+   "lineHeight": "78px",
+   "letterSpacing": "normal",
+   "color": "rgb(31, 31, 31)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 212,
+    "y": 254,
+    "w": 1016,
+    "h": 312
+   }
+  },
+  "lead": "HubSpotでは、マーケティング、営業、カスタマーサービスが顧客データを共有できるため、チームもAIも、顧客が求めていることを常に把握できます。",
+  "ctas": [
+   "メインコンテンツにスキップ",
+   "ハイコントラスト",
+   "無料でHubSpotのCRMを試してみる→",
+   "全製品の概要を確認する→",
+   "Spotlight：製品の最新情報",
+   "HubSpot新機能のご紹介",
+   "HubSpotが選ばれる理由",
+   "サステナビリティー 英語",
+   "年次イベント「UNBOUND」 英語",
+   "HubSpotコミュニティー",
+   "HubSpotユーザーグループ 英語",
+   "Solutions Partnerプログラム"
+  ],
+  "videos": [
+   {
+    "src": "",
+    "autoplay": false,
+    "loop": false,
+    "muted": false,
+    "w": 1030,
+    "h": 579,
+    "playing": false
+   },
+   {
+    "src": "",
+    "autoplay": false,
+    "loop": false,
+    "muted": false,
+    "w": 1030,
+    "h": 579,
+    "playing": false
+   },
+   {
+    "src": "",
+    "autoplay": false,
+    "loop": false,
+    "muted": false,
+    "w": 1030,
+    "h": 579,
+    "playing": false
+   }
+  ],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.hubspot.jp/hs-fs/hubfs/hero-home-img1.webp?width=800&height=560&name=hero-home-img1.webp",
+    "w": 475,
+    "h": 560,
+    "alt": "hero-home-img1"
+   },
+   {
+    "src": "https://www.hubspot.jp/hs-fs/hubfs/hero-home-img2.webp?width=800&height=560&name=hero-home-img2.webp",
+    "w": 475,
+    "h": 560,
+    "alt": "hero-home-img2"
+   },
+   {
+    "src": "https://www.hubspot.jp/hs-fs/hubfs/hero-home-img3.webp?width=800&height=560&name=hero-home-img3.webp",
+    "w": 475,
+    "h": 560,
+    "alt": "hero-home-img3"
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Zen Kaku Gothic New",
+   "HubSpot Sans"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(252, 252, 250)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "需要を創出し、取引を成約につなげ、顧客満足度を高める。すべてを1つのプラットフォームで。",
+  "h1Style": {
+   "fontFamily": "\"Zen Kaku Gothic New\", sans-serif",
+   "fontSize": "40px",
+   "fontWeight": "300",
+   "lineHeight": "41.8182px",
+   "letterSpacing": "normal",
+   "color": "rgb(31, 31, 31)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 48,
+    "y": 158,
+    "w": 294,
+    "h": 293
+   }
+  },
+  "lead": "HubSpotでは、マーケティング、営業、カスタマーサービスが顧客データを共有できるため、チームもAIも、顧客が求めていることを常に把握できます。",
+  "ctas": [
+   "メインコンテンツにスキップ",
+   "デモを申し込む→ HubSpotの有料版のデモを申し込む",
+   "無料で試してみる→ HubSpotの無料ツールを使ってみる"
+  ],
+  "videos": [
+   {
+    "src": "",
+    "autoplay": false,
+    "loop": false,
+    "muted": false,
+    "w": 358,
+    "h": 201,
+    "playing": false
+   },
+   {
+    "src": "",
+    "autoplay": false,
+    "loop": false,
+    "muted": false,
+    "w": 358,
+    "h": 201,
+    "playing": false
+   },
+   {
+    "src": "",
+    "autoplay": false,
+    "loop": false,
+    "muted": false,
+    "w": 358,
+    "h": 201,
+    "playing": false
+   }
+  ],
+  "canvases": [],
+  "images": [],
+  "pageHeight": 10292
+ },
+ "elapsedSec": 15.3
+}

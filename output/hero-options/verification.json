@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-14",
+  "candidate_count": 72,
+  "image_files": 88,
+  "all_images_http_ok": true,
+  "javascript_syntax_ok": true,
+  "gallery_search_verified": true,
+  "group_filter_verified": true,
+  "image_dialog_verified": true,
+  "recruit_preview_verified": true,
+  "selection_save_verified": true,
+  "reset_verified": true,
+  "home_preview_verified": true,
+  "mobile_viewport": 390,
+  "mobile_document_width": 390,
+  "gallery_screenshot": "output/hero-options/gallery-desktop.jpg",
+  "selection_scope": "Browser localStorage, independently for home and recruit."
+}

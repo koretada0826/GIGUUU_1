@@ -1,0 +1,891 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ヒーローUI調査 2026-10-12</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%23007d8c'/%3E%3C/svg%3E">
+<style>
+:root{
+  --ink:#1a1a1a; --accent:#007d8c; --accent-dark:#00606c; --accent-soft:#e7f4f6;
+  --muted:#5b6770; --line:#dde2e5; --soft:#f5f7f8; --field:#c5ccd0;
+}
+*{box-sizing:border-box}
+[hidden]{display:none !important}
+html{-webkit-text-size-adjust:100%; scrollbar-gutter:stable}
+html.lock{overflow:hidden}
+body{
+  margin:0; background:#fff; color:var(--ink); overflow-wrap:anywhere;
+  font:15px/1.7 -apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Hiragino Sans","Noto Sans JP","Yu Gothic",Meiryo,sans-serif;
+}
+body.has-cmpbar{padding-bottom:84px}
+a{color:var(--accent)}
+a:hover{color:var(--accent-dark)}
+button,input,select{font:inherit; color:inherit}
+:focus-visible{outline:2px solid var(--accent); outline-offset:2px}
+.muted{color:var(--muted)}
+
+.wrap{max-width:1560px; margin:0 auto; padding:0 24px}
+
+/* ヘッダー */
+.top{border-bottom:1px solid var(--line); padding-top:20px}
+.title-row{display:flex; flex-wrap:wrap; align-items:baseline; gap:4px 18px}
+h1{margin:0; font-size:22px; line-height:1.4; font-weight:700}
+.count{margin:0; color:var(--muted); font-size:13px}
+.linkbtn{background:none; border:0; padding:0; color:var(--accent); font-size:13px; cursor:pointer; text-decoration:underline}
+.tabs{display:flex; gap:4px; margin-top:10px}
+.tab{background:none; border:0; border-bottom:3px solid transparent; padding:8px 16px; cursor:pointer; font-weight:600; color:var(--muted)}
+.tab:hover{color:var(--accent)}
+.tab[aria-selected="true"]{color:var(--accent); border-bottom-color:var(--accent)}
+
+/* フィルタ */
+.controls{padding:16px 0 4px}
+input[type=search],select{
+  font-size:14px; padding:8px 10px; min-height:38px; border:1px solid var(--field);
+  border-radius:6px; background:#fff; color:var(--ink);
+}
+.search{width:100%; max-width:560px}
+.fbox{margin-top:12px; border:1px solid var(--line); border-radius:8px}
+.fbox>summary{cursor:pointer; padding:10px 14px; font-weight:600; font-size:14px; list-style:none; display:flex; gap:8px; align-items:center}
+.fbox>summary::-webkit-details-marker{display:none}
+.fbox>summary::before{content:"▸"; color:var(--accent)}
+.fbox[open]>summary::before{content:"▾"}
+.fbadge{background:var(--accent); color:#fff; border-radius:999px; font-size:12px; padding:0 8px; line-height:1.6}
+.fbody{padding:4px 14px 14px; display:grid; gap:14px}
+.frow{display:flex; flex-wrap:wrap; gap:10px 14px; align-items:flex-end}
+.field{display:flex; flex-direction:column; gap:4px; font-size:12px; color:var(--muted)}
+.gt{margin:0 0 6px; font-size:12px; font-weight:700; color:var(--muted); display:flex; flex-wrap:wrap; align-items:center; gap:4px 12px}
+.chips{display:flex; flex-wrap:wrap; gap:6px}
+.chip{
+  display:inline-flex; align-items:center; gap:6px; padding:3px 10px; border:1px solid var(--line);
+  border-radius:999px; background:#fff; font-size:12.5px; line-height:1.5; cursor:pointer;
+}
+.chip:hover{border-color:var(--accent)}
+.chip .n{font-size:11.5px; color:var(--muted)}
+.chip[aria-pressed="true"]{background:var(--accent); border-color:var(--accent); color:#fff}
+.chip[aria-pressed="true"] .n{color:#fff}
+.btn{border:1px solid var(--field); background:#fff; border-radius:6px; padding:6px 14px; min-height:36px; font-size:14px; cursor:pointer}
+.btn:hover{border-color:var(--accent); color:var(--accent)}
+.btn.primary{background:var(--accent); border-color:var(--accent); color:#fff}
+.btn.primary:hover{background:var(--accent-dark); border-color:var(--accent-dark); color:#fff}
+.btn.small{min-height:28px; padding:2px 10px; font-size:12px; font-weight:400}
+.btn[disabled]{opacity:.45; cursor:not-allowed}
+.btn[disabled]:hover{border-color:var(--field); color:inherit}
+
+/* 状態表示 */
+.status{margin:32px 0; color:var(--muted)}
+.errbox{margin:28px 0; padding:18px 20px; border:1px solid var(--accent); border-radius:8px; background:var(--accent-soft)}
+.errbox p{margin:0 0 8px}
+.errbox code, .code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; font-size:.92em; background:#fff; border:1px solid var(--line); border-radius:4px; padding:1px 6px}
+body.is-error #controls, body.is-error .tabs, body.is-error #count{display:none}
+
+/* カード */
+#view{padding:12px 0 40px}
+.grid{display:grid; gap:16px; grid-template-columns:repeat(4,minmax(0,1fr))}
+.card{position:relative; display:flex; flex-direction:column; min-width:0; border:1px solid var(--line); border-radius:8px; background:#fff; overflow:hidden}
+.card:hover{border-color:var(--accent)}
+.thumb{aspect-ratio:16/10; background:var(--soft); border-bottom:1px solid var(--line); overflow:hidden}
+.thumb img{display:block; width:100%; height:100%; object-fit:cover; object-position:top left}
+.noimg{display:flex; align-items:center; justify-content:center; width:100%; height:100%; color:var(--muted); font-size:12px}
+.card .body{padding:12px 14px 14px; display:flex; flex-direction:column; gap:6px; min-width:0}
+.name{margin:0; font-size:16px; line-height:1.45; font-weight:700}
+.open{background:none; border:0; padding:0; margin:0; text-align:left; cursor:pointer; font-weight:inherit; font-size:inherit; line-height:inherit; color:var(--ink)}
+.card .open::after, .idea-item .open::after{content:""; position:absolute; inset:0; z-index:1}
+.card .open:focus-visible, .idea-item .open:focus-visible{outline:none}
+.card .open:focus-visible::after, .idea-item .open:focus-visible::after{outline:2px solid var(--accent); outline-offset:-2px; border-radius:8px}
+.card:hover .open, .idea-item:hover .open{color:var(--accent)}
+.url{position:relative; z-index:2; display:block; max-width:100%; font-size:12.5px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+.meta{display:flex; flex-wrap:wrap; align-items:center; gap:6px 8px}
+.badge{display:inline-block; padding:0 8px; border:1px solid var(--accent); border-radius:4px; color:var(--accent); font-size:12px; line-height:1.7}
+.score{font-weight:700; font-size:13px; color:var(--ink)}
+.score::first-letter{color:var(--accent)}
+.tags{display:flex; flex-wrap:wrap; gap:4px}
+.tag{font-size:11.5px; color:var(--muted); background:var(--soft); border-radius:4px; padding:0 6px; line-height:1.7}
+.ex{margin:0; font-size:13px; line-height:1.65; display:-webkit-box; -webkit-line-clamp:4; -webkit-box-orient:vertical; overflow:hidden}
+.ex b{display:block; font-size:11.5px; color:var(--accent); margin-bottom:1px}
+.cmp{
+  position:absolute; top:8px; left:8px; z-index:2; display:inline-flex; align-items:center; gap:6px;
+  background:#fff; border:1px solid var(--field); border-radius:6px; padding:2px 9px 2px 7px; font-size:12px; line-height:1.6; cursor:pointer;
+}
+.cmp input{margin:0; width:16px; height:16px; accent-color:var(--accent)}
+.cmp:has(input:disabled){opacity:.55; cursor:not-allowed}
+.empty{margin:32px 0; color:var(--muted)}
+
+/* アイデア一覧 */
+.note{margin:0 0 12px; font-size:13px; color:var(--muted)}
+.ideas{list-style:none; margin:0; padding:0; display:grid; gap:12px; grid-template-columns:repeat(2,minmax(0,1fr))}
+.idea-item{position:relative; display:grid; grid-template-columns:220px minmax(0,1fr); gap:16px; padding:12px; border:1px solid var(--line); border-radius:8px; min-width:0}
+.idea-item:hover{border-color:var(--accent)}
+.idea-thumb{aspect-ratio:16/10; background:var(--soft); border:1px solid var(--line); border-radius:4px; overflow:hidden; align-self:start}
+.idea-thumb img{display:block; width:100%; height:100%; object-fit:cover; object-position:top left}
+.idea-body{display:flex; flex-direction:column; gap:6px; min-width:0}
+.idea-text{margin:0; font-size:14px; line-height:1.75; white-space:pre-line}
+
+/* 比較バー */
+.cmpbar{position:fixed; left:0; right:0; bottom:0; z-index:20; background:#fff; border-top:2px solid var(--accent)}
+.cmp-inner{max-width:1560px; margin:0 auto; padding:10px 24px; display:flex; flex-wrap:wrap; align-items:center; gap:8px 14px}
+.cmp-inner strong{font-size:14px; white-space:nowrap}
+.cmp-list{list-style:none; margin:0; padding:0; display:flex; flex-wrap:wrap; gap:6px; flex:1 1 200px; min-width:0}
+.cmp-item{display:inline-flex; align-items:center; gap:4px; max-width:100%; background:var(--soft); border:1px solid var(--line); border-radius:999px; padding:0 4px 0 10px; font-size:12.5px; line-height:1.9}
+.cmp-item span{overflow:hidden; text-overflow:ellipsis; white-space:nowrap; max-width:200px}
+.cmp-item button{border:0; background:none; cursor:pointer; padding:0 6px; color:var(--muted); font-size:14px; line-height:1.4}
+.cmp-item button:hover{color:var(--accent)}
+.cmp-hint{font-size:12px; color:var(--muted)}
+
+/* モーダル */
+dialog.modal{padding:0; border:0; max-width:none; max-height:none; color:var(--ink); background:#fff; border-radius:10px; overflow:hidden;
+  width:min(1240px,calc(100vw - 32px)); height:calc(100vh - 32px); height:calc(100dvh - 32px)}
+dialog.modal[open]{display:flex; flex-direction:column}
+dialog.modal::backdrop{background:rgba(26,26,26,.55)}
+.mbar{flex:none; display:flex; align-items:center; justify-content:space-between; gap:10px; padding:10px 16px; border-bottom:1px solid var(--line); background:#fff}
+.mnav{display:flex; align-items:center; gap:8px}
+.pos{font-size:13px; color:var(--muted); min-width:56px; text-align:center}
+.hint{font-size:12px; color:var(--muted)}
+.mtitle{margin:0; font-size:16px}
+.mbody{flex:1 1 auto; min-height:0; overflow:auto; padding:20px 24px 32px; outline:none}
+.d-title{margin:0; font-size:22px; line-height:1.4}
+.d-sub{display:flex; flex-wrap:wrap; align-items:center; gap:6px 14px; margin:8px 0 0; font-size:14px}
+.d-sub .url{position:static; display:inline-block; max-width:100%}
+.cmp-inline{display:inline-flex; align-items:center; gap:6px; font-size:13px; cursor:pointer}
+.cmp-inline input{margin:0; width:16px; height:16px; accent-color:var(--accent)}
+.sec{margin:24px 0 0}
+.sec>h3{margin:0 0 10px; font-size:14px; font-weight:700; border-left:4px solid var(--accent); padding-left:8px; line-height:1.4}
+.frames{display:grid; gap:12px; grid-template-columns:repeat(var(--cols,3),minmax(0,1fr))}
+figure{margin:0; min-width:0}
+figure img{display:block; width:100%; height:auto; aspect-ratio:auto 16/10; border:1px solid var(--line); border-radius:4px; background:var(--soft)}
+figure.sp img{aspect-ratio:auto 780/1688}
+figcaption{margin-top:4px; font-size:12px; color:var(--muted)}
+.pair{display:grid; gap:20px; grid-template-columns:minmax(0,1fr) 300px; align-items:start}
+.pair .sec{margin-top:24px}
+.broken{display:flex; align-items:center; justify-content:center; min-height:96px; width:100%; aspect-ratio:16/10; border:1px dashed var(--field); border-radius:4px; background:var(--soft); color:var(--muted); font-size:12px}
+table.spec{width:100%; border-collapse:collapse; font-size:14px}
+.spec th{width:170px; text-align:left; vertical-align:top; padding:8px 12px; background:var(--soft); border:1px solid var(--line); font-size:13px; font-weight:600}
+.spec th small{display:block; font-weight:400; color:var(--muted); font-size:11px}
+.spec td{padding:8px 12px; border:1px solid var(--line); vertical-align:top; white-space:pre-line}
+.spec .url{white-space:normal; overflow:visible; text-overflow:clip}
+.spec tr.hl th{background:var(--accent-soft); color:var(--accent-dark)}
+.spec tr.hl td{border-left:3px solid var(--accent)}
+
+/* 比較ダイアログ */
+.cgrid{display:grid; gap:14px; grid-template-columns:repeat(var(--n,2),minmax(0,1fr))}
+.ccol{min-width:0}
+.ccol .name{margin:8px 0 2px}
+.cmeta{margin:8px 0 0; font-size:13px}
+.cmeta div{display:grid; grid-template-columns:84px minmax(0,1fr); gap:8px; padding:5px 0; border-top:1px solid var(--line)}
+.cmeta dt{color:var(--muted); font-size:12px}
+.cmeta dd{margin:0}
+
+@media (max-width:1279px){
+  .grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .ideas{grid-template-columns:minmax(0,1fr)}
+}
+@media (max-width:899px){
+  .grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:719px){
+  .wrap{padding:0 16px}
+  .cmp-inner{padding:10px 16px}
+  h1{font-size:19px}
+  input[type=search],select{font-size:16px}
+  .search{max-width:none}
+  .tab{padding:8px 12px}
+  .hint{display:none}
+  body.has-cmpbar{padding-bottom:104px}
+  .cmp-inner{gap:6px 10px}
+  .cmp-inner strong{order:1}
+  #cmpgo{order:2; margin-left:auto; min-height:34px}
+  #cmpclear{order:3; min-height:34px}
+  .cmp-list{order:4; flex:1 1 100%; flex-wrap:nowrap; overflow-x:auto}
+  .cmp-item{flex:none}
+  .cmp-hint{display:none}
+  dialog.modal{width:100vw; height:100vh; height:100dvh; border-radius:0}
+  .mbody{padding:16px 16px 28px}
+  .d-title{font-size:19px}
+  .frames{display:flex; overflow-x:auto; scroll-snap-type:x mandatory; padding-bottom:6px}
+  .frames figure{flex:0 0 82%; scroll-snap-align:start}
+  .pair{grid-template-columns:minmax(0,1fr); gap:0}
+  figure.sp{max-width:280px}
+  .spec, .spec tbody, .spec tr, .spec th, .spec td{display:block; width:auto}
+  .spec th{border-bottom:0}
+  .spec tr{margin-bottom:8px}
+  .cgrid{display:grid; grid-template-columns:none; grid-auto-flow:column; grid-auto-columns:82%; overflow-x:auto; scroll-snap-type:x mandatory; padding-bottom:6px}
+  .ccol{scroll-snap-align:start}
+  .idea-item{grid-template-columns:104px minmax(0,1fr); gap:12px; padding:10px}
+  .idea-text{font-size:13.5px}
+}
+@media (max-width:599px){
+  .grid{grid-template-columns:minmax(0,1fr)}
+}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <div class="title-row">
+      <h1>ヒーローUI調査 2026-10-12</h1>
+      <p class="count" id="count" role="status"></p>
+      <button type="button" class="linkbtn" id="reload">データ再読み込み</button>
+    </div>
+    <div class="tabs" role="tablist" aria-label="表示切り替え">
+      <button type="button" class="tab" role="tab" id="tab-list" data-tab="list" aria-selected="true" aria-controls="view">一覧</button>
+      <button type="button" class="tab" role="tab" id="tab-ideas" data-tab="ideas" aria-selected="false" aria-controls="view">アイデア一覧</button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="controls" id="controls">
+    <input type="search" id="q" class="search" placeholder="フリーワード検索（サイト名・タグ・特徴・アイデアなど）" aria-label="フリーワード検索" autocomplete="off">
+    <details class="fbox" id="fbox" open>
+      <summary>絞り込み・並び替え<span class="fbadge" id="fbadge" hidden></span></summary>
+      <div class="fbody">
+        <div class="frow">
+          <label class="field">並び替え
+            <select id="sort">
+              <option value="score">score 降順</option>
+              <option value="name">名前</option>
+              <option value="type">hero_type</option>
+            </select>
+          </label>
+          <label class="field">score 下限<select id="min"></select></label>
+          <label class="field">agent<select id="agent"></select></label>
+          <label class="field">source<select id="source"></select></label>
+          <button type="button" class="btn" id="clear">条件をクリア</button>
+        </div>
+        <div>
+          <p class="gt">hero_type（複数選択はいずれか）</p>
+          <div class="chips" id="typeChips"></div>
+        </div>
+        <div>
+          <p class="gt">tags
+            <button type="button" class="btn small" id="tagMode">タグ条件: すべて含む</button>
+            <button type="button" class="btn small" id="tagMore" hidden></button>
+          </p>
+          <div class="chips" id="tagChips"></div>
+        </div>
+      </div>
+    </details>
+  </div>
+
+  <div id="view" role="tabpanel"><p class="status">読み込み中…</p></div>
+</main>
+
+<div class="cmpbar" id="cmpbar" hidden>
+  <div class="cmp-inner">
+    <strong>比較 <span id="cmpn">0</span>/4</strong>
+    <ul class="cmp-list" id="cmplist"></ul>
+    <span class="cmp-hint" id="cmphint"></span>
+    <button type="button" class="btn primary" id="cmpgo">比較する</button>
+    <button type="button" class="btn" id="cmpclear">クリア</button>
+  </div>
+</div>
+
+<dialog class="modal" id="detail" aria-labelledby="d-title">
+  <div class="mbar">
+    <div class="mnav">
+      <button type="button" class="btn" id="d-prev" aria-label="前のサイト（←キー）">← 前へ</button>
+      <span class="pos" id="d-pos"></span>
+      <button type="button" class="btn" id="d-next" aria-label="次のサイト（→キー）">次へ →</button>
+    </div>
+    <span class="hint">← → で前後のサイト / Esc で閉じる</span>
+    <button type="button" class="btn" id="d-close" aria-label="閉じる（Esc）">閉じる ✕</button>
+  </div>
+  <div class="mbody" id="d-body" tabindex="-1"></div>
+</dialog>
+
+<dialog class="modal" id="compare" aria-labelledby="c-title">
+  <div class="mbar">
+    <h2 class="mtitle" id="c-title">PC ファーストビュー比較</h2>
+    <button type="button" class="btn" id="c-close" aria-label="閉じる（Esc）">閉じる ✕</button>
+  </div>
+  <div class="mbody" id="c-body" tabindex="-1"></div>
+</dialog>
+
+<script>
+(function () {
+  'use strict';
+
+  /* ---------- 定数 ---------- */
+  const MAX_CMP = 4;
+  const TAG_COLLAPSED = 30;
+  const FRAME_LABELS = ['0.8s', '3s', '6s'];
+  const TYPE_ORDER = ['full-bleed-photo', 'full-bleed-video', 'split-text-image', 'framed-image-card', 'collage-grid',
+    'typographic-with-small-image', 'device-mockup', '3d-canvas', 'illustration', 'slider-carousel', 'other'];
+  const TYPE_JA = {
+    'full-bleed-photo': '全面写真', 'full-bleed-video': '全面動画', 'split-text-image': 'テキストと画像の分割',
+    'framed-image-card': '枠付き画像カード', 'collage-grid': 'コラージュ・グリッド', 'typographic-with-small-image': 'タイポ主体＋小さな画像',
+    'device-mockup': 'デバイスモックアップ', '3d-canvas': '3D・Canvas', 'illustration': 'イラスト',
+    'slider-carousel': 'スライダー・カルーセル', 'other': 'その他'
+  };
+  const FIELDS = [
+    ['name', 'サイト名'], ['url', 'URL'], ['slug', 'slug'], ['source', 'ソース'], ['agent', '調査担当'], ['industry', '業種'],
+    ['hero_type', 'ヒーロー型'], ['score', 'スコア'], ['tags', 'タグ'],
+    ['layout', 'レイアウト'], ['image_treatment', '画像の扱い'], ['typography', 'タイポグラフィ'], ['cta', 'CTA'],
+    ['motion', 'モーション'], ['tech', '技術'], ['mobile', 'モバイル'],
+    ['why_good', '良い点'], ['idea_for_telemo', 'TELEMOへのアイデア']
+  ];
+  const HIGHLIGHT = new Set(['why_good', 'idea_for_telemo']);
+  const CMP_FIELDS = [['hero_type', 'hero_type'], ['score', 'score'], ['layout', 'レイアウト'], ['image_treatment', '画像の扱い'],
+    ['typography', 'タイポ'], ['cta', 'CTA'], ['motion', 'モーション']];
+  const collator = new Intl.Collator('ja');
+
+  /* ---------- 状態 ---------- */
+  const state = {
+    all: [], bySlug: new Map(), view: [], skippedNoIdea: 0,
+    q: '', words: [], types: new Set(), tags: new Set(), tagMode: 'and', agent: '', source: '', min: 0, sort: 'score',
+    tab: 'list', tagsExpanded: false, cmp: [], current: null,
+    facets: { types: [], tags: [], agents: [], sources: [] }
+  };
+
+  /* ---------- ユーティリティ ---------- */
+  const $ = (s, el) => (el || document).querySelector(s);
+  const $$ = (s, el) => Array.from((el || document).querySelectorAll(s));
+  const ESC = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' };
+  const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ESC[c]);
+  const has = (v) => v !== undefined && v !== null && !(typeof v === 'string' && v.trim() === '') && !(Array.isArray(v) && v.length === 0);
+  const norm = (t) => String(t).normalize('NFKC').toLowerCase();
+  const str = (v) => (typeof v === 'string' && v.trim() ? v.trim() : '');
+  const toArr = (v) => {
+    if (Array.isArray(v)) return v.filter((x) => x !== null && x !== undefined && String(x).trim() !== '').map((x) => String(x).trim());
+    if (typeof v === 'string' && v.trim()) return v.split(/[,、，\n]+/).map((x) => x.trim()).filter(Boolean);
+    return [];
+  };
+  const safeUrl = (u) => (has(u) && /^https?:\/\//i.test(String(u).trim()) ? String(u).trim() : '');
+  const shortUrl = (u) => u.replace(/^https?:\/\//i, '').replace(/\/$/, '');
+  const fmtScore = (n) => (Number.isInteger(n) ? String(n) : String(Math.round(n * 10) / 10));
+  const imgUrl = (name) => {
+    if (!name) return '';
+    if (/^(https?:)?\/\//i.test(name) || /^data:/i.test(name)) return name;
+    const rel = String(name).replace(/^\.\//, '').replace(/^shots\//, '');
+    return './shots/' + rel.split('/').map(encodeURIComponent).join('/');
+  };
+  const pcSrc = (s) => s.shots.pc || s.shots.frames[s.shots.frames.length - 1] || s.shots.frames[0] || '';
+  const typeRank = (t) => { const i = TYPE_ORDER.indexOf(t); return i >= 0 ? i : (t ? 50 : 99); };
+
+  /* ---------- データ正規化 ---------- */
+  function normalize(raw, i, seen) {
+    if (!raw || typeof raw !== 'object' || Array.isArray(raw)) return null;
+    const s = Object.assign({}, raw);
+    let slug = str(s.slug);
+    if (!slug) {
+      slug = String(s.name || s.url || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '') || ('site-' + (i + 1));
+    }
+    let u = slug, n = 2;
+    while (seen.has(u)) u = slug + '-' + (n++);
+    seen.add(u);
+    s.slug = u;
+    s.name = has(s.name) ? String(s.name).trim() : u;
+    ['hero_type', 'agent', 'source'].forEach((k) => { if (has(s[k])) s[k] = String(s[k]).trim(); else delete s[k]; });
+    s.tags = toArr(s.tags);
+    const sc = Number(s.score);
+    s.score = (s.score === null || s.score === undefined || s.score === '' || !isFinite(sc)) ? null : sc;
+    const sh = (s.shots && typeof s.shots === 'object') ? s.shots : {};
+    s.shots = { pc: str(sh.pc), sp: str(sh.sp), scroll: str(sh.scroll), frames: toArr(sh.frames) };
+    const parts = [];
+    Object.keys(s).forEach((k) => {
+      if (k === 'shots') return;
+      const v = s[k];
+      if (Array.isArray(v)) parts.push(v.join(' '));
+      else if (v !== null && typeof v === 'object') parts.push(JSON.stringify(v));
+      else if (has(v)) parts.push(String(v));
+    });
+    Object.defineProperty(s, '_hay', { value: norm(parts.join('\n')), enumerable: false });
+    return s;
+  }
+
+  function countBy(list, fn) {
+    const m = new Map();
+    list.forEach((s) => {
+      const r = fn(s);
+      (Array.isArray(r) ? r : [r]).forEach((k) => { if (has(k)) m.set(k, (m.get(k) || 0) + 1); });
+    });
+    return Array.from(m.entries());
+  }
+
+  function ingest(arr) {
+    const seen = new Set();
+    state.all = arr.map((r, i) => normalize(r, i, seen)).filter(Boolean);
+    state.bySlug = new Map(state.all.map((s) => [s.slug, s]));
+    state.cmp = state.cmp.filter((sl) => state.bySlug.has(sl));
+    const f = state.facets;
+    f.types = countBy(state.all, (s) => s.hero_type).sort((a, b) => (typeRank(a[0]) - typeRank(b[0])) || (b[1] - a[1]) || collator.compare(a[0], b[0]));
+    f.tags = countBy(state.all, (s) => s.tags).sort((a, b) => (b[1] - a[1]) || collator.compare(a[0], b[0]));
+    f.agents = countBy(state.all, (s) => s.agent).sort((a, b) => collator.compare(a[0], b[0]));
+    f.sources = countBy(state.all, (s) => s.source).sort((a, b) => collator.compare(a[0], b[0]));
+    // 存在しなくなった条件を捨てる
+    state.types = new Set(Array.from(state.types).filter((t) => f.types.some((x) => x[0] === t)));
+    state.tags = new Set(Array.from(state.tags).filter((t) => f.tags.some((x) => x[0] === t)));
+    if (state.agent && !f.agents.some((x) => x[0] === state.agent)) state.agent = '';
+    if (state.source && !f.sources.some((x) => x[0] === state.source)) state.source = '';
+  }
+
+  /* ---------- 読み込み ---------- */
+  function showError(err) {
+    document.body.classList.add('is-error');
+    $('#view').innerHTML =
+      '<div class="errbox" role="alert">' +
+      '<p><code>python3 scripts/serve.py</code> でローカルサーバーを起動して http://localhost:8000/output/hero-research/ を開いてください</p>' +
+      '<p class="muted">sites.json を読み込めませんでした（' + esc(err && err.message ? err.message : String(err)) + '）。ファイルを直接開いている場合や、sites.json がまだ無い場合に表示されます。</p>' +
+      '<p><button type="button" class="btn" id="retry">再読み込み</button></p>' +
+      '</div>';
+  }
+
+  async function load() {
+    let data;
+    try {
+      const res = await fetch('./sites.json', { cache: 'no-store' });
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      const text = await res.text();
+      try { data = JSON.parse(text); } catch (e) { throw new Error('JSON を解析できません。書き込み中の可能性があります'); }
+    } catch (err) {
+      showError(err);
+      return false;
+    }
+    const arr = Array.isArray(data) ? data : (data && Array.isArray(data.sites) ? data.sites : null);
+    if (!arr) { showError(new Error('sites.json の中身が配列ではありません')); return false; }
+    document.body.classList.remove('is-error');
+    ingest(arr);
+    return true;
+  }
+
+  /* ---------- フィルタ・並び替え ---------- */
+  function matches(s) {
+    if (state.types.size && !state.types.has(s.hero_type)) return false;
+    if (state.tags.size) {
+      if (state.tagMode === 'and') { for (const t of state.tags) if (!s.tags.includes(t)) return false; }
+      else if (!s.tags.some((t) => state.tags.has(t))) return false;
+    }
+    if (state.agent && s.agent !== state.agent) return false;
+    if (state.source && s.source !== state.source) return false;
+    if (state.min > 0 && !(s.score !== null && s.score >= state.min)) return false;
+    if (state.words.length && !state.words.every((w) => s._hay.includes(w))) return false;
+    return true;
+  }
+  const cmpName = (a, b) => collator.compare(a.name, b.name);
+  const cmpScore = (a, b) => ((b.score === null ? -1 : b.score) - (a.score === null ? -1 : a.score)) || cmpName(a, b);
+  function sorter(mode) {
+    if (mode === 'name') return cmpName;
+    if (mode === 'type') {
+      return (a, b) => (typeRank(a.hero_type) - typeRank(b.hero_type)) || collator.compare(a.hero_type || '', b.hero_type || '') || cmpScore(a, b);
+    }
+    return cmpScore;
+  }
+  function applyFilters() {
+    let list = state.all.filter(matches);
+    state.skippedNoIdea = 0;
+    if (state.tab === 'ideas') {
+      const withIdea = list.filter((s) => has(s.idea_for_telemo));
+      state.skippedNoIdea = list.length - withIdea.length;
+      list = withIdea.sort(cmpScore);
+    } else {
+      list.sort(sorter(state.sort));
+    }
+    state.view = list;
+  }
+  function activeFilterCount() {
+    return (state.types.size ? 1 : 0) + (state.tags.size ? 1 : 0) + (state.agent ? 1 : 0) + (state.source ? 1 : 0) + (state.min > 0 ? 1 : 0);
+  }
+
+  /* ---------- 部品 HTML ---------- */
+  const typeBadge = (s) => (has(s.hero_type) ? '<span class="badge" title="' + esc(TYPE_JA[s.hero_type] || '') + '">' + esc(s.hero_type) + '</span>' : '');
+  const scoreBadge = (s) => (s.score !== null ? '<span class="score" title="スコア ' + esc(fmtScore(s.score)) + '">★' + esc(fmtScore(s.score)) + '</span>' : '');
+  function urlLink(u) {
+    const su = safeUrl(u);
+    return su ? '<a class="url" href="' + esc(su) + '" target="_blank" rel="noopener noreferrer" title="' + esc(su) + '">' + esc(shortUrl(su)) + ' ↗</a>' : '';
+  }
+  function imgTag(src, alt) {
+    return '<img src="' + esc(imgUrl(src)) + '" alt="' + esc(alt) + '" loading="lazy" decoding="async">';
+  }
+  function chip(kind, v, n, on, title) {
+    return '<button type="button" class="chip" data-kind="' + kind + '" data-v="' + esc(v) + '" aria-pressed="' + (on ? 'true' : 'false') + '"' +
+      (title ? ' title="' + esc(title) + '"' : '') + '><span>' + esc(v) + '</span><span class="n">' + n + '</span></button>';
+  }
+
+  function cardHTML(s) {
+    const pc = pcSrc(s);
+    const on = state.cmp.includes(s.slug);
+    const full = state.cmp.length >= MAX_CMP && !on;
+    const shown = s.tags.slice(0, 6);
+    const tagsHtml = shown.length
+      ? '<div class="tags">' + shown.map((t) => '<span class="tag">' + esc(t) + '</span>').join('') +
+        (s.tags.length > shown.length ? '<span class="tag">+' + (s.tags.length - shown.length) + '</span>' : '') + '</div>'
+      : '';
+    return '<article class="card" data-slug="' + esc(s.slug) + '">' +
+      '<div class="thumb">' + (pc ? imgTag(pc, s.name + ' の PC ファーストビュー') : '<span class="noimg">画像なし</span>') + '</div>' +
+      '<label class="cmp"><input type="checkbox" class="cmp-cb" data-slug="' + esc(s.slug) + '" aria-label="' + esc(s.name) + ' を比較に追加"' +
+      (on ? ' checked' : '') + (full ? ' disabled' : '') + '><span>比較</span></label>' +
+      '<div class="body">' +
+      '<h2 class="name"><button type="button" class="open" data-slug="' + esc(s.slug) + '">' + esc(s.name) + '</button></h2>' +
+      urlLink(s.url) +
+      '<div class="meta">' + typeBadge(s) + scoreBadge(s) + '</div>' +
+      tagsHtml +
+      (has(s.why_good) ? '<p class="ex"><b>良い点</b>' + esc(s.why_good) + '</p>' : '') +
+      (has(s.idea_for_telemo) ? '<p class="ex"><b>TELEMOへのアイデア</b>' + esc(s.idea_for_telemo) + '</p>' : '') +
+      '</div></article>';
+  }
+
+  function ideaHTML(s) {
+    const pc = pcSrc(s);
+    return '<li class="idea-item">' +
+      '<div class="idea-thumb">' + (pc ? imgTag(pc, '') : '<span class="noimg">画像なし</span>') + '</div>' +
+      '<div class="idea-body">' +
+      '<h2 class="name"><button type="button" class="open" data-slug="' + esc(s.slug) + '">' + esc(s.name) + '</button></h2>' +
+      '<div class="meta">' + scoreBadge(s) + typeBadge(s) + '</div>' +
+      '<p class="idea-text">' + esc(s.idea_for_telemo) + '</p>' +
+      '</div></li>';
+  }
+
+  /* ---------- 描画（一覧） ---------- */
+  function renderChips() {
+    const f = state.facets;
+    $('#typeChips').innerHTML = f.types.map((x) => chip('type', x[0], x[1], state.types.has(x[0]), TYPE_JA[x[0]])).join('') || '<span class="muted">（該当なし）</span>';
+    let tags = f.tags;
+    const total = tags.length;
+    if (!state.tagsExpanded && total > TAG_COLLAPSED) {
+      const head = tags.slice(0, TAG_COLLAPSED);
+      const set = new Set(head.map((x) => x[0]));
+      tags = head.concat(tags.filter((x) => state.tags.has(x[0]) && !set.has(x[0])));
+    }
+    $('#tagChips').innerHTML = tags.map((x) => chip('tag', x[0], x[1], state.tags.has(x[0]))).join('') || '<span class="muted">（該当なし）</span>';
+    const more = $('#tagMore');
+    more.hidden = total <= TAG_COLLAPSED;
+    more.textContent = state.tagsExpanded ? '折りたたむ' : 'すべて表示（' + total + '）';
+    $('#tagMode').textContent = 'タグ条件: ' + (state.tagMode === 'and' ? 'すべて含む' : 'いずれか');
+  }
+
+  function fillSelect(sel, items, current, allLabel) {
+    sel.innerHTML = '<option value="">' + allLabel + '</option>' +
+      items.map((x) => '<option value="' + esc(x[0]) + '"' + (x[0] === current ? ' selected' : '') + '>' + esc(x[0]) + '（' + x[1] + '）</option>').join('');
+  }
+
+  function buildFilters() {
+    const f = state.facets;
+    fillSelect($('#agent'), f.agents, state.agent, 'すべて');
+    fillSelect($('#source'), f.sources, state.source, 'すべて');
+    const maxScore = Math.max(5, Math.ceil(Math.max.apply(null, [0].concat(state.all.map((s) => (s.score === null ? 0 : s.score))))));
+    let opts = '<option value="0">指定なし</option>';
+    for (let i = 1; i <= maxScore; i++) opts += '<option value="' + i + '"' + (state.min === i ? ' selected' : '') + '>' + i + ' 以上</option>';
+    $('#min').innerHTML = opts;
+    $('#sort').value = state.sort;
+    renderChips();
+  }
+
+  function renderCount() {
+    const t = state.all.length, v = state.view.length;
+    let txt = (v === t && !state.skippedNoIdea) ? '全 ' + t + ' 件' : t + ' 件中 ' + v + ' 件を表示';
+    if (state.tab === 'ideas' && state.skippedNoIdea) txt += '（アイデア未記入 ' + state.skippedNoIdea + ' 件は除く）';
+    $('#count').textContent = txt;
+    const n = activeFilterCount();
+    const b = $('#fbadge');
+    b.hidden = n === 0;
+    b.textContent = n + ' 条件';
+  }
+
+  function render() {
+    applyFilters();
+    renderCount();
+    $('#sort').disabled = state.tab === 'ideas';
+    $('#sort').title = state.tab === 'ideas' ? 'アイデア一覧は score 降順で固定です' : '';
+    const root = $('#view');
+    if (!state.all.length) {
+      root.innerHTML = '<p class="empty">まだデータがありません（sites.json が空です）。</p>';
+    } else if (!state.view.length) {
+      root.innerHTML = '<p class="empty">条件に一致するサイトがありません。<button type="button" class="linkbtn" data-act="clear">条件をクリア</button></p>';
+    } else if (state.tab === 'ideas') {
+      root.innerHTML = '<p class="note">score の高い順。サイト名かサムネイルをクリックすると詳細が開きます。</p><ol class="ideas">' + state.view.map(ideaHTML).join('') + '</ol>';
+    } else {
+      root.innerHTML = '<div class="grid">' + state.view.map(cardHTML).join('') + '</div>';
+    }
+    syncCmpUI();
+  }
+
+  /* ---------- 詳細 ---------- */
+  const dlg = $('#detail');
+  const cdlg = $('#compare');
+  let lastFocus = null;
+  let lastFocusC = null;
+
+  function figHTML(src, alt, cap, cls) {
+    return '<figure' + (cls ? ' class="' + cls + '"' : '') + '><a href="' + esc(imgUrl(src)) + '" target="_blank" rel="noopener" title="画像を新しいタブで開く">' +
+      imgTag(src, alt) + '</a>' + (cap ? '<figcaption>' + esc(cap) + '</figcaption>' : '') + '</figure>';
+  }
+
+  function rowHTML(k, label, v) {
+    let cell;
+    if (k === 'url') cell = urlLink(v) || esc(v);
+    else if (k === 'tags') cell = '<div class="tags">' + v.map((t) => '<span class="tag">' + esc(t) + '</span>').join('') + '</div>';
+    else if (k === 'hero_type') cell = esc(v) + (TYPE_JA[v] ? '（' + esc(TYPE_JA[v]) + '）' : '');
+    else if (k === 'score') cell = esc(fmtScore(v));
+    else if (Array.isArray(v)) cell = esc(v.join('、'));
+    else if (typeof v === 'object') cell = '<span class="code">' + esc(JSON.stringify(v)) + '</span>';
+    else cell = esc(String(v));
+    return '<tr' + (HIGHLIGHT.has(k) ? ' class="hl"' : '') + '><th scope="row">' + esc(label) + (label !== k ? '<small>' + esc(k) + '</small>' : '') + '</th><td>' + cell + '</td></tr>';
+  }
+
+  function detailHTML(s) {
+    const sh = s.shots;
+    let h = '<h2 class="d-title" id="d-title">' + esc(s.name) + '</h2>';
+    h += '<div class="d-sub">' + urlLink(s.url) + typeBadge(s) + scoreBadge(s) +
+      (has(s.industry) ? '<span class="muted">' + esc(s.industry) + '</span>' : '') +
+      '<label class="cmp-inline"><input type="checkbox" class="cmp-cb" data-slug="' + esc(s.slug) + '">比較に追加</label></div>';
+
+    const frames = sh.frames.length ? sh.frames : (sh.pc ? [sh.pc] : []);
+    if (frames.length) {
+      h += '<section class="sec"><h3>PC ファーストビュー（読み込み後の変化）</h3><div class="frames" style="--cols:' + Math.min(frames.length, 3) + '">' +
+        frames.map((f, i) => figHTML(f, s.name + ' PC フレーム ' + i,
+          sh.frames.length ? 'f' + i + (FRAME_LABELS[i] ? ' · ' + FRAME_LABELS[i] : '') : 'PC')).join('') +
+        '</div></section>';
+    }
+    if (sh.scroll || sh.sp) {
+      h += '<div class="pair">';
+      h += sh.scroll ? '<section class="sec"><h3>スクロール後（PC）</h3>' + figHTML(sh.scroll, s.name + ' PC スクロール後', '') + '</section>' : '<div></div>';
+      h += sh.sp ? '<section class="sec"><h3>スマホ（390px 幅）</h3>' + figHTML(sh.sp, s.name + ' スマホ', '', 'sp') + '</section>' : '';
+      h += '</div>';
+    }
+
+    const used = new Set(['shots']);
+    const rows = [];
+    FIELDS.forEach((f) => { used.add(f[0]); if (has(s[f[0]])) rows.push(rowHTML(f[0], f[1], s[f[0]])); });
+    Object.keys(s).forEach((k) => { if (!used.has(k) && k.charAt(0) !== '_' && has(s[k])) rows.push(rowHTML(k, k, s[k])); });
+    h += '<section class="sec"><h3>調査メモ（全フィールド）</h3><table class="spec"><tbody>' + rows.join('') + '</tbody></table></section>';
+    return h;
+  }
+
+  function navList() {
+    return state.view.some((x) => x.slug === state.current) ? state.view : state.all.slice().sort(cmpScore);
+  }
+
+  function setHash(slug) {
+    try {
+      history.replaceState(null, '', location.pathname + location.search + (slug ? '#' + encodeURIComponent(slug) : ''));
+    } catch (e) { /* file:// など */ }
+  }
+
+  function lockScroll() {
+    document.documentElement.classList.toggle('lock', dlg.open || cdlg.open);
+  }
+
+  function openDetail(slug) {
+    const s = state.bySlug.get(slug);
+    if (!s) return;
+    state.current = slug;
+    const body = $('#d-body');
+    body.innerHTML = detailHTML(s);
+    body.scrollTop = 0;
+    const list = navList();
+    const i = list.findIndex((x) => x.slug === slug);
+    $('#d-pos').textContent = (i + 1) + ' / ' + list.length;
+    $('#d-prev').disabled = $('#d-next').disabled = list.length < 2;
+    if (!dlg.open) {
+      lastFocus = document.activeElement;
+      dlg.showModal();
+      lockScroll();
+    }
+    body.focus({ preventScroll: true });
+    syncCmpUI();
+    setHash(slug);
+  }
+
+  function step(dir) {
+    const list = navList();
+    const i = list.findIndex((x) => x.slug === state.current);
+    if (i < 0 || list.length < 2) return;
+    openDetail(list[(i + dir + list.length) % list.length].slug);
+  }
+
+  function applyHash() {
+    let h = '';
+    try { h = decodeURIComponent(location.hash.slice(1)); } catch (e) { h = ''; }
+    if (h && state.bySlug.has(h)) {
+      if (cdlg.open) cdlg.close();
+      if (state.current !== h || !dlg.open) openDetail(h);
+    } else if (!h && dlg.open) {
+      dlg.close();
+    }
+  }
+
+  /* ---------- 比較 ---------- */
+  function syncCmpUI() {
+    const full = state.cmp.length >= MAX_CMP;
+    $$('.cmp-cb').forEach((cb) => {
+      const on = state.cmp.includes(cb.dataset.slug);
+      cb.checked = on;
+      cb.disabled = full && !on;
+      cb.title = cb.disabled ? '比較は最大 ' + MAX_CMP + ' 件までです' : '';
+    });
+    const n = state.cmp.length;
+    $('#cmpbar').hidden = n === 0;
+    document.body.classList.toggle('has-cmpbar', n > 0);
+    $('#cmpn').textContent = n;
+    $('#cmplist').innerHTML = state.cmp.map((sl) => {
+      const s = state.bySlug.get(sl);
+      return '<li class="cmp-item"><span>' + esc(s ? s.name : sl) + '</span><button type="button" data-rm="' + esc(sl) + '" aria-label="' + esc(s ? s.name : sl) + ' を比較から外す">×</button></li>';
+    }).join('');
+    $('#cmphint').textContent = n === 1 ? '2件以上選ぶと比較できます' : (n >= MAX_CMP ? '最大 ' + MAX_CMP + ' 件です' : '');
+    $('#cmpgo').disabled = n < 2;
+  }
+
+  function toggleCmp(slug, on) {
+    const i = state.cmp.indexOf(slug);
+    if (on && i < 0 && state.cmp.length < MAX_CMP) state.cmp.push(slug);
+    if (!on && i >= 0) state.cmp.splice(i, 1);
+    syncCmpUI();
+  }
+
+  function compareHTML(list) {
+    return '<div class="cgrid" style="--n:' + list.length + '">' + list.map((s) => {
+      const pc = pcSrc(s);
+      const rows = CMP_FIELDS.filter((f) => has(s[f[0]])).map((f) => {
+        const v = f[0] === 'score' ? '★' + fmtScore(s.score) : s[f[0]];
+        return '<div><dt>' + esc(f[1]) + '</dt><dd>' + esc(v) + '</dd></div>';
+      }).join('');
+      return '<div class="ccol">' + (pc ? figHTML(pc, s.name + ' の PC ファーストビュー', '') : '<div class="broken">画像なし</div>') +
+        '<h3 class="name"><button type="button" class="open" data-slug="' + esc(s.slug) + '" data-from="compare">' + esc(s.name) + '</button></h3>' +
+        urlLink(s.url) + '<dl class="cmeta">' + rows + '</dl></div>';
+    }).join('') + '</div>';
+  }
+
+  function openCompare() {
+    const list = state.cmp.map((sl) => state.bySlug.get(sl)).filter(Boolean);
+    if (list.length < 2) return;
+    $('#c-body').innerHTML = compareHTML(list);
+    $('#c-title').textContent = 'PC ファーストビュー比較（' + list.length + ' 件）';
+    $('#c-body').scrollTop = 0;
+    lastFocusC = document.activeElement;
+    cdlg.showModal();
+    lockScroll();
+  }
+
+  /* ---------- タブ ---------- */
+  function setTab(tab) {
+    state.tab = tab;
+    $$('.tab').forEach((b) => b.setAttribute('aria-selected', b.dataset.tab === tab ? 'true' : 'false'));
+    render();
+  }
+
+  /* ---------- イベント ---------- */
+  function clearFilters() {
+    state.q = ''; state.words = []; state.types.clear(); state.tags.clear();
+    state.agent = ''; state.source = ''; state.min = 0;
+    $('#q').value = '';
+    buildFilters();
+    render();
+  }
+
+  let timer = 0;
+  $('#q').addEventListener('input', (e) => {
+    clearTimeout(timer);
+    timer = setTimeout(() => {
+      state.q = e.target.value;
+      state.words = norm(state.q).split(/\s+/).filter(Boolean);
+      render();
+    }, 120);
+  });
+  $('#sort').addEventListener('change', (e) => { state.sort = e.target.value; render(); });
+  $('#min').addEventListener('change', (e) => { state.min = Number(e.target.value) || 0; render(); });
+  $('#agent').addEventListener('change', (e) => { state.agent = e.target.value; render(); });
+  $('#source').addEventListener('change', (e) => { state.source = e.target.value; render(); });
+  $('#clear').addEventListener('click', clearFilters);
+  $('#tagMode').addEventListener('click', () => { state.tagMode = state.tagMode === 'and' ? 'or' : 'and'; renderChips(); render(); });
+  $('#tagMore').addEventListener('click', () => { state.tagsExpanded = !state.tagsExpanded; renderChips(); });
+  $('#fbox').addEventListener('click', (e) => {
+    const c = e.target.closest('.chip');
+    if (!c) return;
+    const set = c.dataset.kind === 'type' ? state.types : state.tags;
+    if (set.has(c.dataset.v)) set.delete(c.dataset.v); else set.add(c.dataset.v);
+    renderChips();
+    render();
+  });
+  $$('.tab').forEach((b) => b.addEventListener('click', () => setTab(b.dataset.tab)));
+
+  document.addEventListener('click', (e) => {
+    const t = e.target;
+    if (!(t instanceof Element)) return;
+    const open = t.closest('.open');
+    if (open) {
+      if (open.dataset.from === 'compare') cdlg.close();
+      openDetail(open.dataset.slug);
+      return;
+    }
+    const idea = t.closest('.idea-item');
+    if (idea && !t.closest('a')) {
+      const b = $('.open', idea);
+      if (b) openDetail(b.dataset.slug);
+      return;
+    }
+    if (t.closest('[data-act="clear"]')) { clearFilters(); return; }
+    const rm = t.closest('[data-rm]');
+    if (rm) { toggleCmp(rm.dataset.rm, false); return; }
+    if (t.closest('#retry') || t.closest('#reload')) { reloadData(); }
+  });
+  document.addEventListener('change', (e) => {
+    const t = e.target;
+    if (t instanceof Element && t.matches('.cmp-cb')) toggleCmp(t.dataset.slug, t.checked);
+  });
+  $('#cmpgo').addEventListener('click', openCompare);
+  $('#cmpclear').addEventListener('click', () => { state.cmp = []; syncCmpUI(); });
+  $('#d-prev').addEventListener('click', () => step(-1));
+  $('#d-next').addEventListener('click', () => step(1));
+  $('#d-close').addEventListener('click', () => dlg.close());
+  $('#c-close').addEventListener('click', () => cdlg.close());
+
+  // 画像の読み込み失敗は枠だけ残して「画像なし」を表示する
+  document.addEventListener('error', (e) => {
+    const t = e.target;
+    if (!(t instanceof HTMLImageElement) || t.dataset.failed) return;
+    t.dataset.failed = '1';
+    const ph = document.createElement('span');
+    ph.className = t.closest('.thumb, .idea-thumb') ? 'noimg' : 'broken';
+    ph.textContent = '画像なし';
+    (t.parentElement && t.parentElement.tagName === 'A' ? t.parentElement : t).replaceWith(ph);
+  }, true);
+
+  // モーダル: 背景クリックで閉じる、閉じた後の後始末
+  [dlg, cdlg].forEach((d) => {
+    let downOnBackdrop = false;
+    d.addEventListener('mousedown', (e) => { downOnBackdrop = e.target === d; });
+    d.addEventListener('click', (e) => { if (e.target === d && downOnBackdrop) d.close(); });
+  });
+  dlg.addEventListener('close', () => {
+    state.current = null;
+    setHash('');
+    lockScroll();
+    if (!cdlg.open && lastFocus && document.contains(lastFocus)) lastFocus.focus({ preventScroll: true });
+  });
+  cdlg.addEventListener('close', () => {
+    lockScroll();
+    if (!dlg.open && lastFocusC && document.contains(lastFocusC)) lastFocusC.focus({ preventScroll: true });
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.defaultPrevented || e.altKey || e.ctrlKey || e.metaKey) return;
+    if (e.key === 'Escape') {
+      if (cdlg.open) { e.preventDefault(); cdlg.close(); }
+      else if (dlg.open) { e.preventDefault(); dlg.close(); }
+      return;
+    }
+    if (!dlg.open || e.shiftKey) return;
+    const t = e.target;
+    if (t instanceof Element && (t.matches('textarea, select') || (t.matches('input') && t.type !== 'checkbox') || t.isContentEditable)) return;
+    if (e.key === 'ArrowLeft') { e.preventDefault(); step(-1); }
+    else if (e.key === 'ArrowRight') { e.preventDefault(); step(1); }
+  });
+
+  window.addEventListener('hashchange', applyHash);
+
+  /* ---------- 起動 ---------- */
+  async function reloadData() {
+    if (await load()) {
+      buildFilters();
+      render();
+      applyHash();
+    }
+  }
+
+  if (window.matchMedia && window.matchMedia('(max-width: 719px)').matches) $('#fbox').open = false;
+  reloadData();
+})();
+</script>
+</body>
+</html>

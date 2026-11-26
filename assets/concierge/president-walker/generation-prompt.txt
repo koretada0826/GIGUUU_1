@@ -1,0 +1,6 @@
+Tool: built-in image_gen.imagegen; transparent_background=true.
+The tool does not expose a model selector. This is not a claim of using image2.5.
+Reference 1: Blender-rendered frames/idle-00.png.
+Reference 2: assets/founder/founder-portrait-ai.png.
+
+Use case: stylized-concept. Asset type: transparent full-body miniature company president, static companion for an existing Blender animated website mascot. Reference image 1 is the authored Blender character: preserve its three-head-tall proportions, white short sleeve T-shirt, navy trousers, white sneakers, small gold earring, friendly front-facing standing pose, and rounded clay-figurine aesthetic. Reference image 2 is the president's facial identity: reflect his medium brown center-parted hair, warm approachable expression and facial likeness in stylized toy form. Polish the face and swept hair detail while keeping the Blender character silhouette and outfit consistent. Entire body including shoes visible, centered, portrait canvas, neutral relaxed arms. True transparent background. No text, no logos, no pedestal, no floor or backdrop, no props, no glasses, no glow. A single character only.

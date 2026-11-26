@@ -1,0 +1,23 @@
+/* Blue sculptural hero inspired by the supplied Goodpatch reference. */
+.page-home.concept-08 .hero.blue-concept-hero { background: #0758aa; min-height: 740px; }
+.blue-concept-hero .editorial-hero__collage { inset: 0; width: 100%; height: 100%; mask-image: none; -webkit-mask-image: none; }
+.blue-concept-hero .editorial-hero__photo-stack img { object-position: 50% 50%; }
+.page-home.concept-08 .hero.blue-concept-hero::before { background: linear-gradient(90deg,rgba(0,35,93,.24),rgba(0,35,93,.04) 70%); }
+.blue-concept-hero .editorial-hero__copy { width: 88%; padding: 55px 0 70px 3vw; }
+.page-home.concept-08 .blue-concept-hero h1.editorial-hero__title { color: #fff; -webkit-text-fill-color: #fff; font-family: 'Noto Sans JP',sans-serif; font-weight: 800; font-size: clamp(38px,4.8vw,86px); line-height: 1.35; letter-spacing: -.025em; }
+.blue-concept-hero .editorial-hero__lead { color: #fff; font-family: 'Noto Sans JP',sans-serif; font-weight: 600; font-size: clamp(20px,1.8vw,30px); line-height: 1.65; margin-top: 32px; }
+.blue-concept-hero .editorial-hero__description { color: #fff; margin-top: 20px; }
+.page-home.concept-08 .blue-concept-hero .editorial-hero__cta { background: #fff; color: #0967b8; min-height: 58px; width: 260px; padding: 12px 28px; margin-top: 24px; font-size: 16px; }
+.blue-concept-hero .editorial-hero__numbers a { color: #d9e7fa; }
+.blue-concept-hero .editorial-hero__numbers a[aria-current] { color: #fff; border-bottom-color: #fff; }
+.blue-concept-hero .editorial-hero__scroll { color: #fff; }
+.blue-concept-hero .editorial-hero__scroll i { background: #fff; }
+.blue-concept-hero .editorial-hero__pause { color: #fff; background: rgba(0,61,137,.35); border-color: rgba(255,255,255,.7); }
+@media (max-width: 900px) {
+ .page-home.concept-08 .hero.blue-concept-hero { min-height: 760px; }
+ .blue-concept-hero .editorial-hero__copy { width: 100%; padding: 55px 24px 120px; }
+ .page-home.concept-08 .blue-concept-hero h1.editorial-hero__title { font-size: clamp(27px,6.1vw,50px); }
+ .blue-concept-hero .editorial-hero__photo-stack img { object-position: 58% 50%; }
+ .page-home.concept-08 .hero.blue-concept-hero::before { background: rgba(0,38,105,.29); }
+ .blue-concept-hero .editorial-hero__lead { font-size: 20px; }
+}

@@ -1,0 +1,250 @@
+/* The supplied catalog reference informs only #telemo-flow's arrangement:
+   visual, narrow STEP band, left-aligned title, description and fee below.
+   Original six steps, copy, amounts and TELEMO colors stay intact. */
+#telemo-flow.lpsr-flow-catalog {
+  height: auto;
+  scroll-margin-top: calc(var(--nav-height, 92px) + 24px);
+}
+
+#telemo-flow.lpsr-flow-catalog .telemo-flow__pin {
+  position: static;
+  padding: 0 0 28px;
+}
+
+#telemo-flow.lpsr-flow-catalog .telemo-plan__process-heading h4 {
+  font-size: clamp(28px, 3.6vw, 48px);
+}
+
+#telemo-flow.lpsr-flow-catalog .telemo-plan__process-heading p {
+  max-width: 760px;
+  margin: 14px auto 0;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+#telemo-flow.lpsr-flow-catalog .telemo-flow__hint {
+  display: none;
+}
+
+#telemo-flow.lpsr-flow-catalog .telemo-flow__viewport {
+  margin: 40px 0 0;
+  padding: 0;
+  overflow: visible;
+}
+
+#telemo-flow.lpsr-flow-catalog .telemo-plan__steps {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-auto-rows: auto;
+  gap: 44px clamp(14px, 1.5vw, 24px);
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#telemo-flow.lpsr-flow-catalog .telemo-plan__steps::before,
+#telemo-flow.lpsr-flow-catalog .telemo-plan__steps::after,
+#telemo-flow.lpsr-flow-catalog .telemo-plan__step::before,
+#telemo-flow.lpsr-flow-catalog .telemo-plan__step::after {
+  display: none;
+}
+
+#telemo-flow.lpsr-flow-catalog .telemo-plan__step {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  min-height: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+#telemo-flow.lpsr-flow-catalog .lpsr-flow-catalog__visual {
+  position: relative;
+  display: grid;
+  place-items: center;
+  aspect-ratio: 1;
+  padding: 0 0 30px;
+  overflow: hidden;
+  border-radius: 4px;
+  background: #eaf6f8;
+  color: #007d8c;
+}
+
+#telemo-flow.lpsr-flow-catalog .lpsr-flow-catalog__icon {
+  display: block;
+  width: 43%;
+  height: auto;
+}
+
+#telemo-flow.lpsr-flow-catalog .telemo-plan__step-number {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 30px;
+  padding: 0;
+  border-radius: 0;
+  background: #007d8c;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: .08em;
+}
+
+#telemo-flow.lpsr-flow-catalog .telemo-plan__step-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0;
+  padding: 16px 0 0;
+  text-align: left;
+}
+
+#telemo-flow.lpsr-flow-catalog .telemo-plan__step h5 {
+  display: block;
+  min-height: 2.9em;
+  margin: 0;
+  color: #0a2a44;
+  font-size: clamp(16px, 1.3vw, 19px);
+  font-weight: 800;
+  line-height: 1.45;
+  word-break: normal;
+  overflow-wrap: anywhere;
+  text-wrap: pretty;
+}
+
+#telemo-flow.lpsr-flow-catalog .telemo-plan__step p {
+  align-self: stretch;
+  margin: 10px 0 18px;
+  color: #4b5965;
+  font-size: 14px;
+  line-height: 1.8;
+  text-wrap: pretty;
+}
+
+#telemo-flow.lpsr-flow-catalog .lpsr-flow-catalog__nowrap {
+  white-space: nowrap;
+}
+
+#telemo-flow.lpsr-flow-catalog .telemo-plan__step-price {
+  grid-column: auto;
+  width: 100%;
+  margin: auto 0 0;
+  padding: 12px 0 0;
+  border-top: 1px solid #dcecf0;
+  border-radius: 0;
+  background: transparent;
+  color: #00556b;
+}
+
+#telemo-flow.lpsr-flow-catalog .telemo-plan__step-price span {
+  color: #64717c;
+  font-size: 12px;
+}
+
+#telemo-flow.lpsr-flow-catalog .telemo-plan__step-price strong {
+  margin-top: 4px;
+  font-size: clamp(26px, 2.2vw, 32px);
+  line-height: 1.2;
+}
+
+#telemo-flow.lpsr-flow-catalog .telemo-plan__step .telemo-plan__step-footnote {
+  align-self: stretch;
+  margin: auto 0 0;
+  padding-top: 12px;
+  border-top: 1px solid #dcecf0;
+  color: #64717c;
+  font-size: 12px;
+}
+
+@media (min-width: 800px) and (max-width: 1099px) {
+  #telemo-flow.lpsr-flow-catalog .telemo-plan__steps {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 36px 22px;
+  }
+}
+
+@media (max-width: 799px) {
+  #telemo-flow.lpsr-flow-catalog {
+    scroll-margin-top: calc(var(--nav-height, 64px) + 16px);
+  }
+
+  #telemo-flow.lpsr-flow-catalog .telemo-plan__process-heading h4 {
+    font-size: clamp(27px, 6.5vw, 36px);
+    line-height: 1.4;
+  }
+
+  #telemo-flow.lpsr-flow-catalog .telemo-plan__process-heading p {
+    margin-top: 12px;
+    font-size: 13px;
+  }
+
+  #telemo-flow.lpsr-flow-catalog .telemo-flow__viewport {
+    margin-top: 28px;
+  }
+
+  #telemo-flow.lpsr-flow-catalog .telemo-plan__steps {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 30px 18px;
+  }
+
+  #telemo-flow.lpsr-flow-catalog .lpsr-flow-catalog__visual {
+    padding-bottom: 26px;
+  }
+
+  #telemo-flow.lpsr-flow-catalog .telemo-plan__step-number {
+    height: 26px;
+    font-size: 12px;
+  }
+
+  #telemo-flow.lpsr-flow-catalog .telemo-plan__step-body {
+    padding-top: 12px;
+  }
+
+  #telemo-flow.lpsr-flow-catalog .telemo-plan__step h5 {
+    min-height: 2.9em;
+    font-size: 16px;
+    line-height: 1.45;
+  }
+
+  #telemo-flow.lpsr-flow-catalog .telemo-plan__step p {
+    margin-top: 8px;
+    font-size: 13px;
+    line-height: 1.8;
+  }
+
+  #telemo-flow.lpsr-flow-catalog .telemo-plan__step-price strong {
+    font-size: 27px;
+  }
+}
+
+@media (max-width: 359px) {
+  #telemo-flow.lpsr-flow-catalog .telemo-plan__steps {
+    gap: 28px 14px;
+  }
+
+  #telemo-flow.lpsr-flow-catalog .telemo-plan__step h5 {
+    min-height: 4.35em;
+    font-size: 15px;
+  }
+
+  #telemo-flow.lpsr-flow-catalog .telemo-plan__step-price strong {
+    font-size: 25px;
+  }
+}
+
+@media print {
+  #telemo-flow.lpsr-flow-catalog .telemo-plan__steps {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  #telemo-flow.lpsr-flow-catalog .telemo-plan__step {
+    break-inside: avoid;
+  }
+}

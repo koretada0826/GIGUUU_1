@@ -1,0 +1,150 @@
+{
+ "slug": "can-a-yell-jp",
+ "url": "https://www.can-a-yell.jp/",
+ "capturedAt": "2026-10-12 21:06:45",
+ "files": {
+  "pc_f0": "can-a-yell-jp-pc-f0.jpg",
+  "pc_f1": "can-a-yell-jp-pc-f1.jpg",
+  "pc_f2": "can-a-yell-jp-pc-f2.jpg",
+  "pc_scroll": "can-a-yell-jp-pc-scroll.jpg",
+  "sp": "can-a-yell-jp-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.can-a-yell.jp/",
+  "title": "CANaYELL（カナエル）| スタッフの魅力が顧客満足度（CS）を高めるタレントエンパワーメントシステム",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 14773,
+  "h1": "CANaYELL（カナエル）",
+  "h1Style": {
+   "fontFamily": "\"Noto Sans JP\", sans-serif",
+   "fontSize": "16px",
+   "fontWeight": "400",
+   "lineHeight": "16px",
+   "letterSpacing": "normal",
+   "color": "rgb(26, 34, 44)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 75,
+    "y": 42,
+    "w": 1,
+    "h": 1
+   }
+  },
+  "lead": "サービスについて 機能 お客様の声 料金",
+  "ctas": [
+   "実際の画面を見たい 無料デモ",
+   "3分でわかるCANaYELL 資料ダウンロード",
+   "3分でわかるCANaYELL 資料ダウンロード",
+   "実際の画面を見たい！ 無料デモ"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.can-a-yell.jp/img/mv06_txt_pc.svg",
+    "w": 532,
+    "h": 356,
+    "alt": "タレントエンパワーメントシステム 人の魅力が競争力になる 現場の「行動」が変わり、顧客も従業員も自社のファンになる仕組み"
+   },
+   {
+    "src": "https://www.can-a-yell.jp/img/mv06_pc.png",
+    "w": 783,
+    "h": 646,
+    "alt": "特許取得済 第7420423号 CANaYELLアプリの画像"
+   },
+   {
+    "src": "https://www.can-a-yell.jp/img/client_logo.png",
+    "w": 4237,
+    "h": 176,
+    "alt": "リーディングカンパニー"
+   },
+   {
+    "src": "https://www.can-a-yell.jp/img/client_logo.png",
+    "w": 4237,
+    "h": 176,
+    "alt": "リーディングカンパニー"
+   }
+  ],
+  "backgroundImages": [
+   {
+    "bg": "url(\"https://www.can-a-yell.jp/img/mv_bg.svg\"), linear-gradient(135deg, rgb(30, 200, 194) 0%, rgb(4, 140, 242) 50%, rgb(4, 140, 242) 100%)",
+    "w": 1440,
+    "h": 646
+   }
+  ],
+  "firstScreenFonts": [
+   "Noto Sans JP"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": true,
+   "lottie": false
+  },
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "CANaYELL（カナエル）",
+  "h1Style": {
+   "fontFamily": "\"Noto Sans JP\", sans-serif",
+   "fontSize": "16.64px",
+   "fontWeight": "400",
+   "lineHeight": "16.64px",
+   "letterSpacing": "normal",
+   "color": "rgb(26, 34, 44)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 16,
+    "y": 29,
+    "w": 1,
+    "h": 1
+   }
+  },
+  "lead": "サービスについて 機能 お客様の声 料金",
+  "ctas": [
+   "3分でわかるCANaYELL 資料ダウンロード",
+   "実際の画面を見たい！ 無料デモ"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.can-a-yell.jp/img/mv06_txt_sp.png",
+    "w": 390,
+    "h": 690,
+    "alt": "タレントエンパワーメントシステム 人の魅力が競争力になる 現場の「行動」が変わり、顧客も従業員も自社のファンになる仕組み 特許取得済 第7420423号 CAN"
+   },
+   {
+    "src": "https://www.can-a-yell.jp/img/client_logo.png",
+    "w": 3467,
+    "h": 144,
+    "alt": "リーディングカンパニー"
+   },
+   {
+    "src": "https://www.can-a-yell.jp/img/client_logo.png",
+    "w": 3467,
+    "h": 144,
+    "alt": "リーディングカンパニー"
+   }
+  ],
+  "pageHeight": 16758
+ },
+ "elapsedSec": 12.9
+}

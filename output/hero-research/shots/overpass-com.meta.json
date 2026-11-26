@@ -1,0 +1,128 @@
+{
+ "slug": "overpass-com",
+ "url": "https://www.overpass.com/",
+ "capturedAt": "2026-10-12 21:14:19",
+ "files": {
+  "pc_f0": "overpass-com-pc-f0.jpg",
+  "pc_f1": "overpass-com-pc-f1.jpg",
+  "pc_f2": "overpass-com-pc-f2.jpg",
+  "pc_scroll": "overpass-com-pc-scroll.jpg",
+  "sp": "overpass-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.overpass.com/",
+  "title": "Build Global Remote Sales & Support Teams | Overpass",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 11069,
+  "h1": "",
+  "h1Style": {
+   "fontFamily": "eina03, sans-serif",
+   "fontSize": "2px",
+   "fontWeight": "700",
+   "lineHeight": "3px",
+   "letterSpacing": "normal",
+   "color": "rgb(0, 0, 0)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 122,
+    "y": 140,
+    "w": 0,
+    "h": 0
+   }
+  },
+  "lead": "Top notch talent. Simple hiring.",
+  "ctas": [
+   "Pricing",
+   "Login",
+   "Become an Agent",
+   "Start Hiring",
+   "Login",
+   "START HIRING"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [],
+  "backgroundImages": [
+   {
+    "bg": "url(\"https://images.prismic.io/overpassprod/769d32a3-2e08-446f-9e56-12be53f40148_11Artboard+1-8.png?auto=compress,format&rect=0,11,1440,1602&w=1460&h=1624\")",
+    "w": 730,
+    "h": 815
+   },
+   {
+    "bg": "url(\"https://images.prismic.io/overpassprod/9957ec04-0058-44a2-bdac-a993d2cff320_11Artboard+2+copy+2-8.png?auto=compress,format&rect=0,0,1460,1624&w=1460&h=1624\")",
+    "w": 730,
+    "h": 815
+   },
+   {
+    "bg": "url(\"https://images.prismic.io/overpassprod/abe30af8-280c-4736-8df1-66fe03632b85_newArtboard+2+copy+3-8.png?auto=compress,format&rect=0,0,1460,1624&w=1460&h=1624\")",
+    "w": 730,
+    "h": 815
+   },
+   {
+    "bg": "url(\"https://images.prismic.io/overpassprod/13ac3dba-0158-4ffd-a354-c1b72c75908e_11Artboard+1+copy-8.png?auto=compress,format&rect=0,11,1440,1602&w=1460&h=1624\")",
+    "w": 730,
+    "h": 815
+   }
+  ],
+  "firstScreenFonts": [
+   "eina01",
+   "eina03"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "",
+  "h1Style": {
+   "fontFamily": "eina03, sans-serif",
+   "fontSize": "2px",
+   "fontWeight": "700",
+   "lineHeight": "2.86px",
+   "letterSpacing": "normal",
+   "color": "rgb(0, 0, 0)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 8,
+    "y": 134,
+    "w": 0,
+    "h": 0
+   }
+  },
+  "lead": "Top notch talent. Simple hiring.",
+  "ctas": [
+   "Pricing",
+   "Login",
+   "Become an Agent",
+   "Start Hiring",
+   "START HIRING",
+   "FIND A JOB"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [],
+  "pageHeight": 10950
+ },
+ "elapsedSec": 15.7
+}

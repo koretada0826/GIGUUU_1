@@ -1,0 +1,118 @@
+{
+  "created": "2026-10-22",
+  "set": "reference-pairs",
+  "numbering": "Actual order of generated images displayed in the second ideation set in chat. Supersedes the earlier ten directions.",
+  "hero": "assets/telemo-blender/telemo-kinetic-hero-teal-depth-2880.webp",
+  "groups": [
+    {
+      "id": "sanuki",
+      "name": "さぬきの夢",
+      "url": "https://oidemai-sanuki.jp/sanukinoyume/",
+      "inspiration": "大きな和文・全面写真・文字と立体物の重なり",
+      "options": [
+        {
+          "number": 1,
+          "key": "sanuki_gold",
+          "id": "sanuki-gold",
+          "title": "黄金色 × 大きな明朝体",
+          "image": "./assets/telemo-ui-concepts/20261022-reference-pairs/sanuki-gold.webp"
+        },
+        {
+          "number": 2,
+          "key": "sanuki_ink",
+          "id": "sanuki-ink",
+          "title": "墨色 × 余白と光",
+          "image": "./assets/telemo-ui-concepts/20261022-reference-pairs/sanuki-ink.webp"
+        }
+      ]
+    },
+    {
+      "id": "movie",
+      "name": "映画『免許返納!?』",
+      "url": "https://menkyohenno-movie.com/",
+      "inspiration": "鮮やかな黄色・太い黒文字・円環のフレーム",
+      "options": [
+        {
+          "number": 3,
+          "key": "movie_split",
+          "id": "movie-split",
+          "title": "黄色 × 左右分割",
+          "image": "./assets/telemo-ui-concepts/20261022-reference-pairs/movie-split.webp"
+        },
+        {
+          "number": 4,
+          "key": "movie_wide",
+          "id": "movie-wide",
+          "title": "黄色 × ワイドポスター",
+          "image": "./assets/telemo-ui-concepts/20261022-reference-pairs/movie-wide.webp"
+        }
+      ]
+    },
+    {
+      "id": "rakushifu",
+      "name": "らくしふ",
+      "url": "https://rakushifu.jp/",
+      "inspiration": "白地の読みやすさ・青の強調・黄色のボタン",
+      "options": [
+        {
+          "number": 5,
+          "key": "rakushifu_split",
+          "id": "rakushifu-split",
+          "title": "白・青・黄 × 左右配置",
+          "image": "./assets/telemo-ui-concepts/20261022-reference-pairs/rakushifu-split.webp"
+        },
+        {
+          "number": 6,
+          "key": "rakushifu_center",
+          "id": "rakushifu-center",
+          "title": "白・青・黄 × 中央配置",
+          "image": "./assets/telemo-ui-concepts/20261022-reference-pairs/rakushifu-center.webp"
+        }
+      ]
+    },
+    {
+      "id": "farm",
+      "name": "Farm Minerals",
+      "url": "https://www.farmminerals.com/",
+      "inspiration": "素材の質感・光と円柱・少ないナビゲーション",
+      "options": [
+        {
+          "number": 7,
+          "key": "farm_olive",
+          "id": "farm-olive",
+          "title": "濃緑 × 立体展示",
+          "image": "./assets/telemo-ui-concepts/20261022-reference-pairs/farm-olive.webp"
+        },
+        {
+          "number": 8,
+          "key": "farm_mineral",
+          "id": "farm-mineral",
+          "title": "石材 × ライトギャラリー",
+          "image": "./assets/telemo-ui-concepts/20261022-reference-pairs/farm-mineral.webp"
+        }
+      ]
+    },
+    {
+      "id": "allfree",
+      "name": "オールフリー",
+      "url": "https://www.suntory.co.jp/non-al/allfree/karada-allfree/",
+      "inspiration": "鮮やかな水色・紙の質感・丸い文字と曲線",
+      "options": [
+        {
+          "number": 9,
+          "key": "allfree_blue",
+          "id": "allfree-blue",
+          "title": "水色 × 紙の質感",
+          "image": "./assets/telemo-ui-concepts/20261022-reference-pairs/allfree-blue.webp"
+        },
+        {
+          "number": 10,
+          "key": "allfree_oval",
+          "id": "allfree-oval",
+          "title": "白地 × ブルーの楕円",
+          "image": "./assets/telemo-ui-concepts/20261022-reference-pairs/allfree-oval.webp"
+        }
+      ]
+    }
+  ]
+}

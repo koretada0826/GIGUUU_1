@@ -1,0 +1,45 @@
+{
+  "tool": "built-in image_gen",
+  "mode": "edit",
+  "source_image": "assets/telemo-support/redesign/support-consultation-v1.png",
+  "output_image": "assets/telemo-support/redesign/support-consultation-v2.png",
+  "prompt": "Use case: precise-object-edit, with strict identity preservation.\nInput image 1 is the edit target: support-consultation-v1.png. Produce exactly one edited photo.\nAsset type: wide consultation photograph placed on a white (#ffffff) web page with light-gray (#f4f6f8) panels.\nPrimary request: Remove EVERY artificial blue graphic overlay from this exact photograph: the large concentric blue arcs/ring on the left, thin curved outline, translucent blue arc crossing the woman's jacket and lower-left foreground, and the saturated blue band/curved graphic along the right edge and lower-right corner. No trace of these arcs, bands, graphic boundaries, or blue-tinted overlays may remain.\nReplace removed background areas with a seamless natural continuation of the existing bright office: soft window light, windows, blurred plants where appropriate, very pale blue-gray out-of-focus office background. Restore the natural beige jacket and foreground under the removed overlay without changing their geometry.\nAt the far left edge and lower-left corner, make the office background gradually and very naturally brighten into pure white (#ffffff), seamlessly blending onto a white webpage. Use soft photographic light falloff with no visible gradient boundary, shape, ring, or hard edge. Keep the people clear and unchanged. The right edge must remain a softly blurred natural office background, without saturated blue bands or graphic borders.\nInvariants: Preserve the EXACT two people in the source image, their identities, facial features, hairstyles, expressions, gaze direction, pose, hands, clothing, beige jacket and navy suit, paper documents, pen and laptops, positions, sizes, camera framing, original cool natural color balance, and depth of field. Do not reinterpret or beautify the subjects. Edit only the decorations and immediately affected areas.\nComposition/output: Preserve the original 1834:858 aspect ratio (917:429, approximately 2.1375:1) and composition with no crop or reframing. Output at the largest supported native resolution in this same aspect ratio, preferably 3668x1716 or higher if supported.\nNo text, logos, watermarks, new decorative shapes, rings, stripes, borders, or additional people. Opaque photograph, not transparent.",
+  "transparent_background": false,
+  "output_dimensions": {
+    "width": 1833,
+    "height": 858
+  },
+  "requested_aspect_ratio": "1834:858",
+  "self_check": {
+    "method": "元画像と生成画像の目視比較",
+    "blue_arcs": {
+      "pass": true,
+      "details": "左の青い円弧、細い輪郭線、女性のジャケットにかかった青い装飾、右下の円弧はいずれも残っていない。"
+    },
+    "blue_right_band": {
+      "pass": true,
+      "details": "右端の青い装飾帯は残っていない。淡いブルーグレーの自然なオフィスのボケとPCが続いている。"
+    },
+    "subjects_preserved": {
+      "pass": true,
+      "details": "二人の人物の顔立ち、髪型、表情、視線、ポーズ、服装と配置は目視で維持されている。青い装飾で隠れていた女性のジャケットと左のPCは自然に補完されている。画素単位の同一性を保証する判定ではない。"
+    },
+    "props_preserved": {
+      "pass": true,
+      "details": "資料、ペン、ノートPCを維持。装飾で隠れていた部分のみ補完されている。"
+    },
+    "white_blend": {
+      "pass": true,
+      "details": "左端から左下は白へ自然に明るく抜け、背景のぼけが柔らかくつながっている。"
+    },
+    "no_text_logos_watermarks_or_new_graphics": {
+      "pass": true,
+      "details": "文字、ロゴ、透かし、新たな装飾図形は見当たらない。"
+    },
+    "framing": {
+      "pass": true,
+      "details": "構図を維持。出力は1833×858で、元画像1834×858より幅が1px小さい。比率の差は約0.055%。"
+    },
+    "resolution_note": "最大サイズでの出力をプロンプトで指定したが、組み込みツールから返った実際のサイズは1833×858。追加の拡大・リサイズ・画像加工は行わず生成PNGをそのままコピーした。"
+  }
+}

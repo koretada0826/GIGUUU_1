@@ -1,0 +1,154 @@
+{
+ "slug": "odysseeclinic-com-au",
+ "url": "https://www.odysseeclinic.com.au/",
+ "capturedAt": "2026-10-12 21:15:23",
+ "files": {
+  "pc_f0": "odysseeclinic-com-au-pc-f0.jpg",
+  "pc_f1": "odysseeclinic-com-au-pc-f1.jpg",
+  "pc_f2": "odysseeclinic-com-au-pc-f2.jpg",
+  "pc_scroll": "odysseeclinic-com-au-pc-scroll.jpg",
+  "sp": "odysseeclinic-com-au-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.odysseeclinic.com.au/",
+  "title": "Odyssée",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 8840,
+  "h1": "Medical aesthetics for timeless results.",
+  "h1Style": {
+   "fontFamily": "psTimes, \"psTimes Fallback\", serif",
+   "fontSize": "18px",
+   "fontWeight": "400",
+   "lineHeight": "19.8px",
+   "letterSpacing": "0.36px",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "MENU",
+   "BOOK CONSULTATION",
+   "TREATMENTS",
+   "CONCERNS",
+   "ABOUT",
+   "BOOK CONSULTATION"
+  ],
+  "videos": [
+   {
+    "src": "blob:https://www.odysseeclinic.com.au/0965d1ee-f8cf-4561-81d4-7b9c6c13617b",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 1440,
+    "h": 900,
+    "playing": true
+   }
+  ],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://cdn.sanity.io/images/jk7ok3ks/production/7b0fe4636ce1a622cb71e46f97ce9e27cf6bac7a-2821x1667.jpg/SHOT02_0309.jpg?rect=134,42,2492,1625&fp-x=0.4892718294797087&fp-y=0.5124781804086795&w=2200&h=1",
+    "w": 1440,
+    "h": 900,
+    "alt": "A womans face close up"
+   },
+   {
+    "src": "https://cdn.sanity.io/images/jk7ok3ks/production/854e3909493c914faad6408954aa816f8b3650e0-4096x2732.jpg/854e3909493c914faad6408954aa816f8b3650e0.jpg?rect=1,0,4095,2732&w=1920&h=1281&q=90&auto=format",
+    "w": 1440,
+    "h": 900,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "baselGrotesk"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": true,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 252, 248)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "Medical aesthetics for timeless results.",
+  "h1Style": {
+   "fontFamily": "psTimes, \"psTimes Fallback\", serif",
+   "fontSize": "18px",
+   "fontWeight": "400",
+   "lineHeight": "19.8px",
+   "letterSpacing": "0.36px",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "MENU",
+   "BOOK",
+   "BOOK",
+   "MENU",
+   "BEGIN YOUR TAILORED JOURNEY"
+  ],
+  "videos": [
+   {
+    "src": "blob:https://www.odysseeclinic.com.au/65ea3517-d7a2-4fc5-8a2f-f4cdb46437e9",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 390,
+    "h": 844,
+    "playing": true
+   },
+   {
+    "src": "blob:https://www.odysseeclinic.com.au/5654de2e-3a14-4705-8fd6-68ca83576de8",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 390,
+    "h": 633,
+    "playing": true
+   }
+  ],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://cdn.sanity.io/images/jk7ok3ks/production/854e3909493c914faad6408954aa816f8b3650e0-4096x2732.jpg/854e3909493c914faad6408954aa816f8b3650e0.jpg?w=1024&h=683&q=90&auto=format",
+    "w": 390,
+    "h": 844,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 8711
+ },
+ "elapsedSec": 11.5
+}

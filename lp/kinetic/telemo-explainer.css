@@ -1,0 +1,113 @@
+/* TELEMO explanation: a quiet, full-width editorial section. */
+main > #telemo {
+  width: 100%;
+  max-width: none;
+  padding: clamp(72px, 8vw, 112px) var(--page-padding);
+  background: #eaf6f8;
+  border-top: 0;
+}
+
+#telemo .telemo {
+  width: min(var(--page-width), 100%);
+  min-height: min(690px, 85svh);
+  margin-inline: auto;
+  padding: 0;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  grid-template-rows: auto 1fr;
+  align-items: center;
+  column-gap: clamp(48px, 6vw, 100px);
+  row-gap: clamp(60px, 8vh, 104px);
+  background: transparent;
+  border-radius: 0;
+}
+
+#telemo .telemo__heading {
+  grid-column: 1 / -1;
+  text-align: center;
+  color: #0a2a44;
+}
+
+#telemo .telemo__heading h2 {
+  font-size: clamp(25px, 2.2vw, 34px);
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: .035em;
+}
+
+#telemo .telemo__left {
+  align-self: center;
+  padding-bottom: 24px;
+}
+
+#telemo .eyebrow {
+  margin-bottom: 12px;
+  font-size: 12px;
+  letter-spacing: .12em;
+}
+
+#telemo .telemo__logo {
+  margin: 0 0 22px;
+  color: #007d8c;
+  font: 700 14px/1.2 "Space Grotesk", sans-serif;
+  letter-spacing: .22em;
+}
+
+#telemo .telemo__catch {
+  max-width: 12em;
+  margin: 0 0 24px;
+  color: #0a2a44;
+  font-family: var(--rf-display);
+  font-size: clamp(30px, 3vw, 43px);
+  font-weight: 800;
+  line-height: 1.7;
+  letter-spacing: .035em;
+  text-wrap: pretty;
+}
+
+#telemo .telemo__catch .grad { color: inherit; }
+
+#telemo .telemo__text {
+  max-width: 38em;
+  color: #34424e;
+  font-size: 16px;
+  line-height: 2;
+}
+
+#telemo .tags { margin: 22px 0 28px; gap: 8px 16px; }
+#telemo .tag { color: #4b5965; font-size: 12px; }
+
+#telemo .telemo__right {
+  width: 100%;
+  padding: 0;
+  border: 0;
+}
+
+@media (max-width: 959px) {
+  #telemo .telemo {
+    min-height: 0;
+    max-width: 720px;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 0;
+  }
+  #telemo .telemo__heading { grid-column: 1; margin-bottom: 52px; }
+  #telemo .telemo__left { padding: 0; }
+  #telemo .telemo__catch { max-width: none; font-size: clamp(32px, 5vw, 42px); }
+  #telemo .telemo__right { margin-top: 48px; }
+}
+
+@media (max-width: 767px) {
+  main > #telemo { padding: 68px var(--page-padding) 76px; }
+  #telemo .telemo {
+    min-height: 0;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 0;
+  }
+  #telemo .telemo__heading { grid-column: 1; margin-bottom: 48px; }
+  #telemo .telemo__left { padding: 0; }
+  #telemo .telemo__catch { max-width: 14em; font-size: clamp(27px, 7vw, 38px); }
+  #telemo .telemo__text { font-size: 15px; }
+  #telemo .telemo__right { margin-top: 42px; }
+}

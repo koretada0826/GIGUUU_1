@@ -1,0 +1,44 @@
+/* Keep the hero palette; use white surfaces throughout the rest of the homepage. */
+.page-home.background-study main > section:not(#hero) {
+  --rf-surface-tint: #fff;
+  --rf-band: #fff;
+  --tl-pale: #fff;
+  background: #fff;
+}
+
+/* Decorative chapter panels include tinted fills and blue grid textures. */
+.page-home.background-study main > :is(#telemo-listen, #founder, #telemo-how, #telemo-core, #telemo-plan, #company, #contact)::before,
+.page-home.background-study main > #telemo-plan::after {
+  display: none;
+}
+
+.page-home main > section:not(#hero) .telemo-support-redesign {
+  --support-pale: #fff;
+}
+
+/* These surfaces use literal colors rather than the shared pale surface token. */
+.page-home main > section:not(#hero) :is(
+  .telemo-how__grid li,
+  .telemo-cases__card,
+  .telemo-compare__card--ai,
+  .telemo-compare__card--ai .telemo-compare__card-body,
+  .telemo-compare__card--ai .telemo-compare__features,
+  .telemo-compare__arrow,
+  .diff-matrix td.diff-matrix__ai,
+  .telemo-support-redesign__stage,
+  .telemo-plan__unit,
+  .telemo-plan__benefits > div,
+  .telemo-plan__step-price,
+  .telemo-plan__carryover-intro,
+  .telemo-plan__carryover-result,
+  .telemo-booking__panel
+) {
+  background: #fff;
+}
+
+.page-home .telemo-booking__panel,
+.page-home #telemo-core .lpsr-guide-comments__tools button:hover,
+.page-home header.ggh .ggh__panel a:not(.ggh__panel-contact):hover,
+.page-home .footer .soc:hover {
+  background: #fff;
+}

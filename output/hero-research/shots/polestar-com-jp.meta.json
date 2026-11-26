@@ -1,0 +1,178 @@
+{
+ "slug": "polestar-com-jp",
+ "url": "https://www.polestar.com/jp/",
+ "capturedAt": "2026-10-12 21:08:41",
+ "files": {
+  "pc_f0": "polestar-com-jp-pc-f0.jpg",
+  "pc_f1": "polestar-com-jp-pc-f1.jpg",
+  "pc_f2": "polestar-com-jp-pc-f2.jpg",
+  "pc_scroll": "polestar-com-jp-pc-scroll.jpg",
+  "sp": "polestar-com-jp-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": "button:has-text('Accept')",
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.polestar.com/jp/",
+  "title": "Pure progressive performance | Polestar",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 1204,
+  "h1": "Page not found",
+  "h1Style": {
+   "fontFamily": "\"Polestar Unica\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+   "fontSize": "30px",
+   "fontWeight": "400",
+   "lineHeight": "32px",
+   "letterSpacing": "-1.2px",
+   "color": "rgb(0, 0, 0)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 112,
+    "y": 120,
+    "w": 384,
+    "h": 32
+   }
+  },
+  "lead": "We're unable to find the page you are looking for. Press the link below to get to the home page.",
+  "ctas": [
+   "Return Home",
+   "Subscribe"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.polestar.com/dato-assets/11286/1743511706-megamenu-p2.png?w=535",
+    "w": 535,
+    "h": 186,
+    "alt": ""
+   },
+   {
+    "src": "https://www.polestar.com/dato-assets/11286/1743511706-megamenu-p2.png?w=535",
+    "w": 535,
+    "h": 186,
+    "alt": ""
+   },
+   {
+    "src": "https://www.polestar.com/dato-assets/11286/1743511706-megamenu-p2.png?w=535",
+    "w": 535,
+    "h": 186,
+    "alt": ""
+   },
+   {
+    "src": "https://www.polestar.com/dato-assets/11286/1743511706-megamenu-p2.png?w=535",
+    "w": 535,
+    "h": 186,
+    "alt": ""
+   },
+   {
+    "src": "https://www.polestar.com/dato-assets/11286/1743511706-megamenu-p2.png?w=535",
+    "w": 535,
+    "h": 186,
+    "alt": ""
+   },
+   {
+    "src": "https://www.polestar.com/dato-assets/11286/1743511706-megamenu-p2.png?w=535",
+    "w": 535,
+    "h": 186,
+    "alt": ""
+   },
+   {
+    "src": "https://www.polestar.com/dato-assets/11286/1759244063-megamenu-ps3-my26.png?w=535",
+    "w": 535,
+    "h": 185,
+    "alt": ""
+   },
+   {
+    "src": "https://www.polestar.com/dato-assets/11286/1759244063-megamenu-ps3-my26.png?w=535",
+    "w": 535,
+    "h": 185,
+    "alt": ""
+   },
+   {
+    "src": "https://www.polestar.com/dato-assets/11286/1759244063-megamenu-ps3-my26.png?w=535",
+    "w": 535,
+    "h": 185,
+    "alt": ""
+   },
+   {
+    "src": "https://www.polestar.com/dato-assets/11286/1759244063-megamenu-ps3-my26.png?w=535",
+    "w": 535,
+    "h": 185,
+    "alt": ""
+   },
+   {
+    "src": "https://www.polestar.com/dato-assets/11286/1759244063-megamenu-ps3-my26.png?w=535",
+    "w": 535,
+    "h": 185,
+    "alt": ""
+   },
+   {
+    "src": "https://www.polestar.com/dato-assets/11286/1759244063-megamenu-ps3-my26.png?w=535",
+    "w": 535,
+    "h": 185,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Polestar Unica"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 304,
+ "sp": {
+  "h1": "Page not found",
+  "h1Style": {
+   "fontFamily": "\"Polestar Unica\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+   "fontSize": "30px",
+   "fontWeight": "400",
+   "lineHeight": "32px",
+   "letterSpacing": "-1.2px",
+   "color": "rgb(0, 0, 0)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 23,
+    "y": 152,
+    "w": 343,
+    "h": 32
+   }
+  },
+  "lead": "We're unable to find the page you are looking for. Press the link below to get to the home page.",
+  "ctas": [
+   "Return Home",
+   "Subscribe"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.polestar.com/dato-assets/11286/1573830498-1572952817-combined-image-car-404.png",
+    "w": 343,
+    "h": 206,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 1364
+ },
+ "elapsedSec": 14.4
+}

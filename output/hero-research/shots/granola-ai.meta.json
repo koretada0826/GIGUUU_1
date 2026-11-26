@@ -1,0 +1,247 @@
+{
+ "slug": "granola-ai",
+ "url": "https://www.granola.ai/",
+ "capturedAt": "2026-10-12 21:27:10",
+ "files": {
+  "pc_f0": "granola-ai-pc-f0.jpg",
+  "pc_f1": "granola-ai-pc-f1.jpg",
+  "pc_f2": "granola-ai-pc-f2.jpg",
+  "pc_scroll": "granola-ai-pc-scroll.jpg",
+  "sp": "granola-ai-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.granola.ai/",
+  "title": "Granola — The AI Notepad for back-to-back meetings",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 14310,
+  "h1": "The AI notepad for back-to-back meetings",
+  "h1Style": {
+   "fontFamily": "quadrant, \"quadrant Fallback\"",
+   "fontSize": "86.4px",
+   "fontWeight": "400",
+   "lineHeight": "80.352px",
+   "letterSpacing": "-1.728px",
+   "color": "rgb(41, 41, 41)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 120,
+    "y": 269,
+    "w": 562,
+    "h": 321
+   }
+  },
+  "lead": "Notes, actions and memory. Without a meeting bot.",
+  "ctas": [
+   "Granola for Apple Watch Learn more →",
+   "Download for free"
+  ],
+  "videos": [],
+  "canvases": [
+   {
+    "w": 117,
+    "h": 117
+   },
+   {
+    "w": 117,
+    "h": 117
+   }
+  ],
+  "images": [
+   {
+    "src": "https://www.granola.ai/nav-icon-notes-rebrand.png",
+    "w": 44,
+    "h": 44,
+    "alt": "Notepad icon"
+   },
+   {
+    "src": "https://www.granola.ai/nav-icon-chat-rebrand.png",
+    "w": 44,
+    "h": 44,
+    "alt": "Chat icon"
+   },
+   {
+    "src": "https://www.granola.ai/nav-icon-ios-rebrand.png",
+    "w": 44,
+    "h": 44,
+    "alt": "Granola for mobile icon"
+   },
+   {
+    "src": "https://www.granola.ai/_next/image?url=%2FblogImages%2Fwatchog.jpg&w=828&q=75",
+    "w": 267,
+    "h": 140,
+    "alt": "Granola for Apple Watch"
+   },
+   {
+    "src": "https://www.granola.ai/_next/image?url=%2FhomepageAssets%2Ffooter%2Ffooter-1.jpg&w=1920&q=75",
+    "w": 1440,
+    "h": 260,
+    "alt": ""
+   },
+   {
+    "src": "https://www.granola.ai/_next/image?url=%2FhomepageAssets%2Ffooter%2Ffooter-2.jpg&w=1920&q=75",
+    "w": 1440,
+    "h": 260,
+    "alt": ""
+   },
+   {
+    "src": "https://www.granola.ai/_next/image?url=%2FhomepageAssets%2Ffooter%2Ffooter-3.jpg&w=1920&q=75",
+    "w": 1440,
+    "h": 260,
+    "alt": ""
+   },
+   {
+    "src": "https://www.granola.ai/_next/image?url=%2FhomepageAssets%2Ffooter%2Ffooter-4.jpg&w=1920&q=75",
+    "w": 1440,
+    "h": 260,
+    "alt": ""
+   },
+   {
+    "src": "https://www.granola.ai/_next/image?url=%2FhomepageAssets%2Ffooter%2Ffooter-5.jpg&w=1920&q=75",
+    "w": 1440,
+    "h": 260,
+    "alt": ""
+   },
+   {
+    "src": "https://www.granola.ai/_next/image?url=%2FhomepageAssets%2Ffooter%2Ffooter-6.jpg&w=1920&q=75",
+    "w": 1440,
+    "h": 260,
+    "alt": ""
+   },
+   {
+    "src": "https://www.granola.ai/_next/image?url=%2FhomepageAssets%2Ffloating-items%2Fgrey.jpg&w=640&q=75",
+    "w": 461,
+    "h": 819,
+    "alt": ""
+   },
+   {
+    "src": "https://www.granola.ai/_next/image?url=%2FhomepageAssets%2Ffloating-items%2Fexplosion.jpg&w=640&q=75",
+    "w": 530,
+    "h": 662,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [
+   {
+    "bg": "url(\"https://www.granola.ai/homepageAssets/call-videos/paavan-call-512-poster.jpg\")",
+    "w": 117,
+    "h": 117
+   },
+   {
+    "bg": "url(\"https://www.granola.ai/homepageAssets/call-videos/naomi-call-512-poster.jpg\")",
+    "w": 117,
+    "h": 117
+   }
+  ],
+  "firstScreenFonts": [
+   "melange",
+   "quadrant",
+   "-apple-system"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "The AI notepad for back-to-back meetings",
+  "h1Style": {
+   "fontFamily": "quadrant, \"quadrant Fallback\"",
+   "fontSize": "48px",
+   "fontWeight": "400",
+   "lineHeight": "44.64px",
+   "letterSpacing": "-0.96px",
+   "color": "rgb(41, 41, 41)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 16,
+    "y": 160,
+    "w": 312,
+    "h": 179
+   }
+  },
+  "lead": "Notes, actions and memory. Without a meeting bot.",
+  "ctas": [
+   "Download for iOS",
+   "Get the Desktop app"
+  ],
+  "videos": [],
+  "canvases": [
+   {
+    "w": 76,
+    "h": 76
+   }
+  ],
+  "images": [
+   {
+    "src": "https://www.granola.ai/_next/image?url=%2FhomepageAssets%2Ffooter%2Ffooter-1.jpg&w=828&q=75",
+    "w": 390,
+    "h": 260,
+    "alt": ""
+   },
+   {
+    "src": "https://www.granola.ai/_next/image?url=%2FhomepageAssets%2Ffooter%2Ffooter-2.jpg&w=828&q=75",
+    "w": 390,
+    "h": 260,
+    "alt": ""
+   },
+   {
+    "src": "https://www.granola.ai/_next/image?url=%2FhomepageAssets%2Ffooter%2Ffooter-3.jpg&w=828&q=75",
+    "w": 390,
+    "h": 260,
+    "alt": ""
+   },
+   {
+    "src": "https://www.granola.ai/_next/image?url=%2FhomepageAssets%2Ffooter%2Ffooter-4.jpg&w=828&q=75",
+    "w": 390,
+    "h": 260,
+    "alt": ""
+   },
+   {
+    "src": "https://www.granola.ai/_next/image?url=%2FhomepageAssets%2Ffooter%2Ffooter-5.jpg&w=828&q=75",
+    "w": 390,
+    "h": 260,
+    "alt": ""
+   },
+   {
+    "src": "https://www.granola.ai/_next/image?url=%2FhomepageAssets%2Ffooter%2Ffooter-6.jpg&w=828&q=75",
+    "w": 390,
+    "h": 260,
+    "alt": ""
+   },
+   {
+    "src": "https://www.granola.ai/_next/image?url=%2FhomepageAssets%2Ffloating-items%2Fexplosion.jpg&w=640&q=75",
+    "w": 286,
+    "h": 358,
+    "alt": ""
+   },
+   {
+    "src": "https://www.granola.ai/_next/image?url=%2FhomepageAssets%2Ffloating-items%2Fgreen-poster.jpg&w=640&q=75",
+    "w": 215,
+    "h": 391,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 12157
+ },
+ "elapsedSec": 12.6
+}

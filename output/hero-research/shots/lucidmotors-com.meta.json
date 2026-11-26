@@ -1,0 +1,113 @@
+{
+ "slug": "lucidmotors-com",
+ "url": "https://www.lucidmotors.com/",
+ "capturedAt": "2026-10-12 21:08:55",
+ "files": {
+  "pc_f0": "lucidmotors-com-pc-f0.jpg",
+  "pc_f1": "lucidmotors-com-pc-f1.jpg",
+  "pc_f2": "lucidmotors-com-pc-f2.jpg",
+  "pc_scroll": "lucidmotors-com-pc-scroll.jpg",
+  "sp": "lucidmotors-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": "button:has-text('Accept all')",
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://lucidmotors.com/",
+  "title": "Home | Lucid Motors",
+  "lang": "en-us",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 6753,
+  "h1": "Lucid Gravity",
+  "h1Style": {
+   "fontFamily": "\"Lucid Serif VF\", Georgia, Georgia, Times, \"Times New Roman\", serif, \"Apple Color Emoji\", \"Segoe UI Emoji\"",
+   "fontSize": "72px",
+   "fontWeight": "400",
+   "lineHeight": "80px",
+   "letterSpacing": "-0.5px",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "left",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 24,
+    "y": 604,
+    "w": 394,
+    "h": 80
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "DEMO DRIVE",
+   "US",
+   "VIEW INVENTORY",
+   "BUILD & ORDER"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://images.ctfassets.net/5ky6szwjj7ya/qFB7mbu2agjGhJ9xxFOt4/51cb98a79d4e1f5f1e4036cf9c82cd16/lucid-motors-home-lucid-gravity-desktop-hero-01.webp?q=50",
+    "w": 1440,
+    "h": 900,
+    "alt": "Family loading a dark gray SUV outside a modern coastal home; boy holds basketba"
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Times",
+   "Lucid Serif VF",
+   "Lucid Sans VF"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(15, 15, 15)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "Lucid Gravity",
+  "h1Style": {
+   "fontFamily": "\"Lucid Serif VF\", Georgia, Georgia, Times, \"Times New Roman\", serif, \"Apple Color Emoji\", \"Segoe UI Emoji\"",
+   "fontSize": "40px",
+   "fontWeight": "400",
+   "lineHeight": "48px",
+   "letterSpacing": "normal",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 84,
+    "y": 454,
+    "w": 222,
+    "h": 48
+   }
+  },
+  "lead": null,
+  "ctas": [],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://images.ctfassets.net/5ky6szwjj7ya/7hmebgdFSd5B3B3CxCUrdZ/8f1de7e998fadb43a2e67a5d91ee7732/lucid-motors-lucid-gravity-mobile-01-hero.webp?q=50",
+    "w": 390,
+    "h": 844,
+    "alt": "Family loading a dark gray SUV outside a modern coastal home; boy holds basketba"
+   }
+  ],
+  "pageHeight": 7651
+ },
+ "elapsedSec": 15.1
+}

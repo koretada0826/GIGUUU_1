@@ -1,0 +1,44 @@
+{
+  "name": "TELEMO Sales Opportunity Comparison",
+  "source": {
+    "type": "screenshot",
+    "file": "docs/design/telemo-comparison-reference.png",
+    "viewport_px": { "width": 1524, "height": 698 }
+  },
+  "image_generation": {
+    "requested_model": "image2.5",
+    "tool_used": "built-in image_gen",
+    "model_note": "The tool does not expose a model selector, so the exact model version cannot be verified.",
+    "human_prompt": "Use case: photorealistic-natural. Asset type: photograph inside the left card of a Japanese B2B sales comparison infographic. A Japanese male sales representative in his 30s wearing a dark business suit, seated at an office desk, holding a telephone receiver to his ear while concentrating on a customer call. Half body, subject on the left half of the frame, office softly blurred, horizontal composition with right side relatively quiet for overlaid HTML copy. Monochrome black-and-white editorial photography, realistic face and hands, clean corporate environment. No words, no logos, no watermark, no graphic labels.",
+    "robot_prompt": "Use case: stylized-concept. Asset type: isolated character image for the right card of a Japanese AI sales comparison infographic. Friendly premium 3D robot assistant, white rounded shell, black glossy face screen with two simple bright cyan smiling eyes, subtle cyan glowing headset earpieces, head and upper torso visible, front three-quarter view, polished but not toy-like, modern corporate technology feel. Cool cyan accent lights, realistic studio render. Transparent background, clean cutout edges. No words, no logos, no watermark, no text on the chest."
+  },
+  "copy": {
+    "headline": "人1人分のコストで、約5倍の営業機会。",
+    "lead": "同じコストでも、かけられる電話の数が圧倒的に違います。さらに、TELEMOは成果改善の仕組みを持っています。",
+    "comparison": "約5倍の営業機会",
+    "note": "人による営業の費用・コール数は、営業担当者１人・１日８時間・月22日稼働を想定した比較例。TELEMOの料金・コール数は標準プランの条件。"
+  },
+  "figures": {
+    "human": {
+      "monthly_cost_jpy": 400000,
+      "calls_per_hour": 25,
+      "hours_per_day": 8,
+      "working_days_per_month": 22,
+      "calls_per_month": 4400,
+      "image": "assets/telemo-comparison/human-sales.webp"
+    },
+    "telemo": {
+      "monthly_cost_jpy": 350000,
+      "calls_per_month": 22000,
+      "image": "assets/telemo-comparison/telemo-robot.webp"
+    },
+    "call_volume_ratio": 5
+  },
+  "layout": {
+    "desktop": "human card, center arrow, TELEMO card",
+    "mobile": "human card, downward arrow, TELEMO card",
+    "left_color": "#46515C",
+    "right_gradient": ["#005367", "#00B7C4"],
+    "background": "#FFFFFF"
+  }
+}

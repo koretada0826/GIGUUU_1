@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ja">
+<head><meta charset="utf-8"><title>採用ページの初期表示確認</title><style>body{font:16px system-ui;margin:24px;color:#0a2a44}pre{white-space:pre-wrap}iframe{position:absolute;top:800px;left:0;border:0}a{color:#007d8c}</style></head>
+<body>
+<h1>初期表示の確認</h1>
+<p><a href="../../recruit.html">採用ページを開く</a></p>
+<div id="result">読み込み中…</div>
+<iframe src="../../recruit.html" title="採用ページの確認用表示" width="1440" height="900"></iframe>
+<script>
+const frame=document.querySelector('iframe');
+frame.addEventListener('load',async()=>{
+  const doc=frame.contentDocument;
+  await doc.fonts.ready;
+  await doc.querySelector('.rc-illustrated__art img').decode();
+  const results=[];
+  for(const [width,height] of [[1440,900],[1440,720],[1024,768],[768,700],[390,844],[375,667],[320,568]]){
+    frame.width=width;frame.height=height;
+    await new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve)));
+    const heading=doc.querySelector('#graduate-title').getBoundingClientRect();
+    const firstview=doc.querySelector('.rc-firstview').getBoundingClientRect();
+    const navigation=doc.querySelector('.rc-toc').getBoundingClientRect();
+    const link=doc.querySelector('.rc-toc a[href="#graduate"]').getBoundingClientRect();
+    const photo=doc.querySelector('.rc-illustrated__art').getBoundingClientRect();
+    results.push({viewport:[width,height],firstview_height:Math.round(firstview.height),navigation_bottom:Math.round(navigation.bottom),all_categories_within_firstview:navigation.bottom<=height+1,university_heading_below_firstview:heading.top>=height,university_link_visible:link.top>=0&&link.bottom<=height,image_height:Math.round(photo.height),horizontal_overflow:doc.documentElement.scrollWidth>width});
+  }
+  const output=document.querySelector('#result');output.textContent='';
+  for(const result of results){const row=document.createElement('p');row.textContent=JSON.stringify(result);output.append(row);}
+});
+</script>
+</body></html>

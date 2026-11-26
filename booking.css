@@ -1,0 +1,18 @@
+.page-contact .contact__booking {
+  scroll-margin-top: 120px;
+}
+
+.page-contact .contact__booking-link {
+  margin: 0 0 24px;
+  font-size: 14px;
+  text-underline-offset: 4px;
+}
+
+.page-contact #timerex_calendar {
+  min-height: 640px;
+}
+
+.page-contact .contact__booking-link a:focus-visible {
+  outline: 3px solid var(--rf-accent-hover);
+  outline-offset: 4px;
+}

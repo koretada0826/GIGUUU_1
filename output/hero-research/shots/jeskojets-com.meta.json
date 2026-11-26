@@ -1,0 +1,195 @@
+{
+ "slug": "jeskojets-com",
+ "url": "https://jeskojets.com/",
+ "capturedAt": "2026-10-12 21:12:22",
+ "files": {
+  "pc_f0": "jeskojets-com-pc-f0.jpg",
+  "pc_f1": "jeskojets-com-pc-f1.jpg",
+  "pc_f2": "jeskojets-com-pc-f2.jpg",
+  "pc_scroll": "jeskojets-com-pc-scroll.jpg",
+  "sp": "jeskojets-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://jeskojets.com/",
+  "title": "Jesko Jets",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 10896,
+  "h1": "We are movement",
+  "h1Style": {
+   "fontFamily": "\"GT America Expanded\", Arial, sans-serif",
+   "fontSize": "72px",
+   "fontWeight": "500",
+   "lineHeight": "63.36px",
+   "letterSpacing": "-5.76px",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 96,
+    "y": 156,
+    "w": 708,
+    "h": 127
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "Book the Flight Book the Flight"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://cdn.prod.website-files.com/68b57ef5ef86011d9b251e8e/68d9ddb4432de688d8f96eb1_img_hero-front-over.webp",
+    "w": 1851,
+    "h": 1157,
+    "alt": ""
+   },
+   {
+    "src": "https://cdn.prod.website-files.com/68b57ef5ef86011d9b251e8e/68d9dfe10f1c8a1d719c1e63_917d8b944f7f57b7fbe3969bf2719a2e_img_hero-front.webp",
+    "w": 1851,
+    "h": 1157,
+    "alt": "jet window"
+   },
+   {
+    "src": "https://cdn.prod.website-files.com/68b57ef5ef86011d9b251e8e/68d9d827d5233a3ae348505b_img_window-knob-2.webp",
+    "w": 439,
+    "h": 79,
+    "alt": ""
+   },
+   {
+    "src": "https://cdn.prod.website-files.com/68b57ef5ef86011d9b251e8e/68d9d1aae1383a58699853ed_img_window-knob.webp",
+    "w": 439,
+    "h": 79,
+    "alt": ""
+   },
+   {
+    "src": "https://cdn.prod.website-files.com/68b57ef5ef86011d9b251e8e/68d27a91bc0bf516a17a3f69_img_hero-back.webp",
+    "w": 1851,
+    "h": 1157,
+    "alt": ""
+   },
+   {
+    "src": "https://cdn.prod.website-files.com/68b57ef5ef86011d9b251e8e/68bf31df0eb6b62331d8e35a_9557f7de34f540aa715092b1bcdbbf57_img_sky-hero.webp",
+    "w": 1632,
+    "h": 1800,
+    "alt": "view from the airplane window"
+   },
+   {
+    "src": "https://cdn.prod.website-files.com/68b57ef5ef86011d9b251e8e/68ee74b1f45fbfb23fb6405a_clouds.webp",
+    "w": 5836,
+    "h": 792,
+    "alt": ""
+   },
+   {
+    "src": "https://cdn.prod.website-files.com/68b57ef5ef86011d9b251e8e/68ee74b1f45fbfb23fb6405a_clouds.webp",
+    "w": 5836,
+    "h": 792,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "GT America Expanded",
+   "GT America Extended"
+  ],
+  "libs": {
+   "gsap": true,
+   "ScrollTrigger": true,
+   "three": false,
+   "lenis": true,
+   "swiper": false,
+   "lottie": true
+  },
+  "bodyBg": "rgb(255, 248, 237)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "We are movement",
+  "h1Style": {
+   "fontFamily": "\"GT America Expanded\", Arial, sans-serif",
+   "fontSize": "41.9367px",
+   "fontWeight": "500",
+   "lineHeight": "37.743px",
+   "letterSpacing": "-3.35494px",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 25,
+    "y": 113,
+    "w": 340,
+    "h": 76
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "Book the FlightBook the Flight"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://cdn.prod.website-files.com/68b57ef5ef86011d9b251e8e/68d9ddb4432de688d8f96eb1_img_hero-front-over.webp",
+    "w": 390,
+    "h": 844,
+    "alt": ""
+   },
+   {
+    "src": "https://cdn.prod.website-files.com/68b57ef5ef86011d9b251e8e/68d9dfe10f1c8a1d719c1e63_917d8b944f7f57b7fbe3969bf2719a2e_img_hero-front.webp",
+    "w": 390,
+    "h": 844,
+    "alt": "jet window"
+   },
+   {
+    "src": "https://cdn.prod.website-files.com/68b57ef5ef86011d9b251e8e/68d9d827d5233a3ae348505b_img_window-knob-2-p-800.webp",
+    "w": 320,
+    "h": 58,
+    "alt": ""
+   },
+   {
+    "src": "https://cdn.prod.website-files.com/68b57ef5ef86011d9b251e8e/68d9d1aae1383a58699853ed_img_window-knob-p-800.webp",
+    "w": 320,
+    "h": 58,
+    "alt": ""
+   },
+   {
+    "src": "https://cdn.prod.website-files.com/68b57ef5ef86011d9b251e8e/68d27a91bc0bf516a17a3f69_img_hero-back.webp",
+    "w": 390,
+    "h": 844,
+    "alt": ""
+   },
+   {
+    "src": "https://cdn.prod.website-files.com/68b57ef5ef86011d9b251e8e/68bf31df0eb6b62331d8e35a_9557f7de34f540aa715092b1bcdbbf57_img_sky-hero.webp",
+    "w": 390,
+    "h": 1441,
+    "alt": "view from the airplane window"
+   },
+   {
+    "src": "https://cdn.prod.website-files.com/68b57ef5ef86011d9b251e8e/68ee74b1f45fbfb23fb6405a_clouds.webp",
+    "w": 5473,
+    "h": 743,
+    "alt": ""
+   },
+   {
+    "src": "https://cdn.prod.website-files.com/68b57ef5ef86011d9b251e8e/68ee74b1f45fbfb23fb6405a_clouds.webp",
+    "w": 5473,
+    "h": 743,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 10251
+ },
+ "elapsedSec": 13.1
+}

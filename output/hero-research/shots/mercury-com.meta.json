@@ -1,0 +1,146 @@
+{
+ "slug": "mercury-com",
+ "url": "https://mercury.com/",
+ "capturedAt": "2026-10-12 21:09:06",
+ "files": {
+  "pc_f0": "mercury-com-pc-f0.jpg",
+  "pc_f1": "mercury-com-pc-f1.jpg",
+  "pc_f2": "mercury-com-pc-f2.jpg",
+  "pc_scroll": "mercury-com-pc-scroll.jpg",
+  "sp": "mercury-com-sp.jpg"
+ },
+ "errors": [
+  "load timeout (continued)"
+ ],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://mercury.com/",
+  "title": "Online Business Banking For Startups, Small Businesses & Scaling Companies",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 13011,
+  "h1": "Radically different banking",
+  "h1Style": {
+   "fontFamily": "arcadiaDisplay, \"arcadiaDisplay Fallback\"",
+   "fontSize": "49.3472px",
+   "fontWeight": "480",
+   "lineHeight": "54.2819px",
+   "letterSpacing": "normal",
+   "color": "rgb(237, 237, 243)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 384,
+    "y": 144,
+    "w": 672,
+    "h": 54
+   }
+  },
+  "lead": "Apply online in 10 minutes to experience banking unlike anything that’s come before.",
+  "ctas": [],
+  "videos": [
+   {
+    "src": "https://mercury.com/videos/hero/hero-scrub-lg.mp4",
+    "autoplay": false,
+    "loop": false,
+    "muted": true,
+    "w": 1440,
+    "h": 900,
+    "playing": false
+   }
+  ],
+  "canvases": [
+   {
+    "w": 149,
+    "h": 44
+   }
+  ],
+  "images": [
+   {
+    "src": "https://mercury.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero_start_frame_xl.39vs55l6ttdit.jpg&w=3840&q=75",
+    "w": 1440,
+    "h": 900,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [
+   {
+    "bg": "url(\"data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/wAARCAAIAAgDAREAAhEBAxEB/9sAQwAKBwcIBwYKCAgICwoKCw4YEA4NDQ4dFRYRGCMfJSQiHyIhJis3LyYpNCkhIjBBMTQ5Oz4+PiUuRElDPEg3PT47/9sAQwEKCwsODQ4cEBAcOygiKDs7",
+    "w": 1440,
+    "h": 900
+   }
+  ],
+  "firstScreenFonts": [
+   "arcadiaDisplay",
+   "arcadia"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "Radically different banking",
+  "h1Style": {
+   "fontFamily": "arcadiaDisplay, \"arcadiaDisplay Fallback\"",
+   "fontSize": "28px",
+   "fontWeight": "480",
+   "lineHeight": "30.8px",
+   "letterSpacing": "normal",
+   "color": "rgb(237, 237, 243)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 24,
+    "y": 128,
+    "w": 342,
+    "h": 31
+   }
+  },
+  "lead": "Apply online in 10 minutes to experience banking unlike anything that’s come before.",
+  "ctas": [
+   "Products",
+   "Solutions",
+   "Resources",
+   "About",
+   "Pricing"
+  ],
+  "videos": [
+   {
+    "src": "https://mercury.com/videos/hero/hero-scrub-sm.mp4",
+    "autoplay": false,
+    "loop": false,
+    "muted": true,
+    "w": 390,
+    "h": 844,
+    "playing": false
+   }
+  ],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://mercury.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero_start_frame_sm_portrait.409-6sv-ajyax.jpg&w=1080&q=75",
+    "w": 390,
+    "h": 844,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 16245
+ },
+ "elapsedSec": 18.3
+}

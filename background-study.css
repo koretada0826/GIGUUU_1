@@ -1,0 +1,122 @@
+/* AISHIFT-inspired background study, kept separate for review and merging.
+   Preserve the existing copy, content widths, section order and interactions.
+   Use the site's solid white / pale teal tokens; no new images or motion. */
+
+.page-home.background-study {
+  --study-gutter: clamp(8px, 1.25vw, 24px);
+  --study-radius: clamp(28px, 4vw, 64px);
+  background: #fff;
+}
+
+/* A small, quiet surface behind the existing hero introduction. */
+.background-study .kinetic-hero__about {
+  position: relative;
+  isolation: isolate;
+  border-left-color: transparent;
+}
+
+.background-study .kinetic-hero__about::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0 -24px -24px 12px;
+  border-radius: 28px;
+  background: var(--rf-surface-tint);
+  pointer-events: none;
+}
+
+/* Backgrounds sit behind the original layout, leaving content geometry intact.
+   The inset white edge and broad lower curve echo the reference's section rhythm. */
+.page-home.background-study main > :is(#telemo-listen, #telemo-how, #telemo-core, #telemo-plan, #company, #contact) {
+  position: relative;
+  isolation: isolate;
+  background: #fff;
+}
+
+.background-study main > :is(#telemo-listen, #telemo-how, #telemo-core, #telemo-plan, #company, #contact)::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 12px var(--study-gutter);
+  border-radius: var(--study-radius);
+  background: var(--study-surface, var(--rf-surface-tint));
+  pointer-events: none;
+}
+
+.background-study main > #telemo-listen::before {
+  border-radius: var(--study-radius) var(--study-radius) 50% 50% / var(--study-radius) var(--study-radius) 9% 9%;
+}
+
+.background-study #telemo-core,
+.background-study #company {
+  --study-surface: var(--rf-surface-gray);
+}
+
+.background-study main > #telemo-plan::before {
+  border-radius: 50% 50% var(--study-radius) var(--study-radius) / 3% 3% var(--study-radius) var(--study-radius);
+}
+
+/* White areas between the tinted chapters keep the page light. */
+.page-home.background-study main > :is(#telemo-cases, #news) {
+  background: #fff;
+}
+
+/* The existing audio controls now sit on white, above the pale section. */
+.background-study .telemo-listen__demo {
+  border-color: var(--rf-border);
+  background: #fff;
+}
+
+.background-study :is(.telemo-core__card, .telemo-plan__price-card, .telemo-plan__included) {
+  border-radius: 20px;
+}
+
+.background-study .founder__photo,
+.background-study .founder__photo img {
+  border-radius: 24px;
+}
+
+.page-home.background-study #company .panel {
+  border-radius: 24px;
+  box-shadow: none;
+}
+
+.background-study .news {
+  overflow: hidden;
+  border: 1px solid var(--rf-border);
+  border-radius: 24px;
+}
+
+.background-study .telemo-booking__panel {
+  border-radius: var(--study-radius);
+}
+
+.page-home.background-study .contact__form {
+  border-radius: 24px;
+  box-shadow: none;
+}
+
+@media (max-width: 767px) {
+  .background-study .kinetic-hero__about::before {
+    inset: -12px;
+    border-radius: 20px;
+  }
+
+  .background-study main > #telemo-listen::before,
+  .background-study main > #telemo-plan::before {
+    border-radius: var(--study-radius);
+  }
+
+  .background-study :is(.founder__photo, .founder__photo img, .news),
+  .page-home.background-study #company .panel,
+  .page-home.background-study .contact__form {
+    border-radius: 20px;
+  }
+}
+
+@media print {
+  .background-study .kinetic-hero__about::before,
+  .background-study main > .sec::before {
+    display: none;
+  }
+}

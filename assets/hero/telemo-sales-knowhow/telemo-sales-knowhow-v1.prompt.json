@@ -1,0 +1,144 @@
+{
+  "schema_version": "1.0.0",
+  "name": "telemo-sales-knowhow-v1",
+  "created_at": "2026-10-13",
+  "language": "ja-JP",
+  "purpose": "ユーザー提供のTELEMO完成画像を、構図・コピー・キャラクター・配色を保持して再現するための画像生成用デザイン仕様。APIリクエストそのものではない。",
+  "reference": {
+    "file": "telemo-sales-knowhow-reference.png",
+    "original_file": "/Users/matsugirintarou/Desktop/ChatGPT 画像 2026年10月13日 18_34_15.png",
+    "role": "完成画像。構図、文字内容、キャラクターの形状、ポーズ、配色、質感の基準。",
+    "width": 1585,
+    "height": 992
+  },
+  "generation": {
+    "requested_model": "image2.5",
+    "tool": "image_gen__imagegen",
+    "actual_model": null,
+    "model_selection_supported": false,
+    "model_note": "組み込みツールはモデル指定および実際のモデル識別子を公開していない。image2.5の使用を確認できない。requested_modelはユーザーの希望を記録するフィールドであり、APIのmodel値ではない。",
+    "use_case": "ads-marketing",
+    "intent": "reference-based reproduction",
+    "transparent_background": false,
+    "number_of_outputs": 1,
+    "output_file": "telemo-sales-knowhow-generated-v1.png"
+  },
+  "canvas": {
+    "width": 1585,
+    "height": 992,
+    "aspect_ratio": "1585:992",
+    "orientation": "landscape",
+    "coordinate_system": "左上原点の参照画像ピクセル座標。位置・サイズ・色・文字サイズは目視推定。生成ツールが出力寸法を自動選択するため厳密なサイズ指定ではない。",
+    "background": "#FFFFFF"
+  },
+  "art_direction": {
+    "style": "明るい青と白の手描き水彩広告。背景は繊細な水彩、キャラクターはレトロなラバーホース風カートゥーン。見出しは勢いのある太い筆文字。",
+    "mood": ["前向き", "親しみやすい", "軽快", "爽やか", "現場への信頼"],
+    "palette": {
+      "primary_blue": "#064BDF",
+      "deep_navy": "#082E70",
+      "sky_blue": "#70C9FC",
+      "light_sky": "#D7EFFC",
+      "panel_blue": "#E7F3FE",
+      "white": "#FFFFFF",
+      "muted_blue_gray": "#7F91AB"
+    },
+    "textures": ["水彩紙の微細な粒子", "雲の柔らかなにじみ", "青い筆跡の掠れ", "薄い鉛筆・インク風の線"],
+    "typography": {
+      "hero": "鮮やかな青の極太手描き筆文字。文字列全体が右上がり。長い青い筆の下線。",
+      "annotations": "濃紺の手書き日本語。少し傾いた二行構成。青いアクセント線。",
+      "body": "濃紺の読みやすい日本語ゴシック体。",
+      "section_headlines": "太い日本語ゴシック体。青と濃紺。",
+      "brand": "丸みのある青い手描き大文字TELEMO。"
+    }
+  },
+  "layout": {
+    "hero": {
+      "bounds": [0, 0, 1585, 615],
+      "background": "青空と白い雲。遠景に淡青の日本の都市ビル群。左端と右端に高層ビル。手前に白い緩やかな丘と走るキャラクターの柔らかい影。",
+      "brand": {"text": "TELEMO", "bounds": [700, 27, 200, 53]},
+      "headline": {
+        "lines": ["営業のコツには、", "ちゃんと理由がある。"],
+        "bounds": [430, 72, 765, 296],
+        "rotation_degrees_approx": -7,
+        "underline": "左下の約[459,424]から右上の約[1140,282]に伸びる、太く掠れた青い筆の線。"
+      },
+      "characters": [
+        {
+          "id": "speaking",
+          "label": "話し方",
+          "bounds": [119, 164, 309, 356],
+          "design": "白い丸い吹き出しに尾、濃紺の輪郭、大きな縦長の目、笑顔。青い細い手足、白手袋、白と青のスニーカー。右手の人差し指を斜め上へ立てる。左手は腰付近。片足を上げて弾んでいる。",
+          "label_style": "胴体中央に濃紺の太い手書き文字。"
+        },
+        {
+          "id": "pausing",
+          "label": "間の取り方",
+          "bounds": [606, 334, 329, 279],
+          "design": "白い文字盤に青い縁とベルを持つ丸い目覚まし時計。大きな縦長の目、笑顔、文字盤の短い目盛り。濃紺の細い手足、白手袋、白と青のスニーカー。画面右側の手を上げ、左足を上げて走っている。",
+          "label_style": "文字盤の下半分に濃紺の太い手書き文字。"
+        },
+        {
+          "id": "responding",
+          "label": "切り返し",
+          "bounds": [1038, 289, 318, 285],
+          "design": "鮮やかな青の曲がった右向きの折り返し矢印。目と口を持ち、白い腹部にラベル。濃紺の手足、白手袋、白と青のスニーカー。左手を握って上げ、左足を前へ出して走っている。",
+          "label_style": "白い腹部中央に濃紺の太い手書き文字。"
+        }
+      ],
+      "annotations": [
+        {"lines": ["伝え方で、", "心は動く！"], "bounds": [170, 145, 147, 80]},
+        {"lines": ["間があるから、", "伝わる！"], "bounds": [460, 444, 157, 88]},
+        {"lines": ["営業の知見を、", "みんなの力に。"], "bounds": [1192, 42, 270, 116], "decoration": "青い下線"},
+        {"lines": ["どんな質問も", "チャンスに！"], "bounds": [1307, 229, 165, 101]},
+        {"lines": ["だから、", "チームは強くなる。"], "bounds": [1340, 530, 215, 84], "decoration": "青い下線"}
+      ]
+    },
+    "explanation": {
+      "bounds": [0, 615, 1585, 197],
+      "background": "#FFFFFF",
+      "left_rule": {"bounds": [162, 644, 3, 130], "color": "#064BDF"},
+      "headline": {"text": "現場で培った営業ノウハウを、AIで再現。", "bounds": [198, 640, 825, 55], "font_size_approx_px": 48, "weight": "bold", "color": "#064BDF"},
+      "body": {
+        "lines": ["話し方、間の取り方、切り返しのタイミング。", "トップ営業の“勝ちパターン”を解析し、チームで再現できる仕組みへ。"],
+        "bounds": [199, 711, 850, 68],
+        "font_size_approx_px": 23,
+        "color": "#082E70"
+      }
+    },
+    "origin_panel": {
+      "bounds": [162, 812, 1264, 171],
+      "background": "#E7F3FE",
+      "eyebrow": {"text": "「AIを知っている人」が営業AIをつくったのではない。", "bounds": [219, 826, 590, 24], "font_size_approx_px": 19, "color": "#7F91AB"},
+      "left_rule": {"bounds": [219, 860, 3, 96], "color": "#064BDF"},
+      "headline": {
+        "lines": ["営業を知っている人が、", "AIで営業を仕組みにした。"],
+        "bounds": [249, 861, 559, 92],
+        "font_size_approx_px": 40,
+        "weight": "bold",
+        "colors": ["#064BDF", "#082E70"]
+      },
+      "supporting_copy": {
+        "lines": ["これまでの営業の経験と、", "現場での実践をもとに、", "TELEMOは生まれました。"],
+        "bounds": [1020, 864, 188, 66],
+        "font_size_approx_px": 16,
+        "weight": "bold",
+        "color": "#082E70",
+        "underline": {"bounds": [1020, 943, 185, 3], "color": "#064BDF"}
+      },
+      "divider": {"bounds": [1249, 855, 1, 95], "color": "#CAD9EB"},
+      "english_copy": {"lines": ["HUMAN", "SALES", "KNOWS", "THE ANSWER."], "bounds": [1279, 865, 119, 76], "font_size_approx_px": 13, "weight": "bold", "color": "#7F91AB", "tracking": "wide"}
+    }
+  },
+  "constraints": [
+    "完成画像と同じ3つのキャラクター、同じ順番、同じ形状とポーズを保持する。",
+    "記載された日本語と英語のコピーをそのまま使い、追加・省略・言い換えをしない。",
+    "上部のイラスト約62%、下部の説明約38%という構成を保持する。",
+    "背景は青空、雲、都市の遠景、白い地面。青・濃紺・白・淡青を中心にする。",
+    "見出しとキャラクターを重ねず、下部の文章を読みやすくする。",
+    "全画面に広告ビジュアル1枚だけを描く。ブラウザーや端末、外枠、ボタン、ナビゲーションは追加しない。",
+    "元画像は完成版として別途保存する。再生成画像は候補であり、ピクセル一致や文字の完全一致は保証しない。"
+  ],
+  "avoid": ["写真風人物", "3Dレンダー", "赤・オレンジ・緑の差し色", "キャラクターの増減", "新しいコピー", "ウォーターマーク", "複数案を並べたコラージュ", "画面モックアップ"],
+  "prompt": "Use case: ads-marketing. Asset type: one Japanese TELEMO advertising illustration, wide landscape, reference aspect ratio 1585:992. Input image 1 is the approved complete design and sole visual reference. Reproduce the same composition, wording, three recognizable mascot identities, poses, colors and watercolor texture as faithfully as possible. This is a faithful reconstruction, not a redesign. The structured design specification included with this prompt is authoritative; all positions are approximate reference pixels. Render only the single flat finished advertising image, full bleed, no device or browser frame. Upper 62%: luminous blue watercolor sky, soft white clouds, distant pale blue Japanese city skyline and white gently rolling ground; bold cobalt brush-lettered Japanese headline leaning upward to the right at the center with a long hand-painted underline, TELEMO above. Left: cheerful white speech-bubble mascot labeled 話し方, pointing up. Center bottom: cheerful blue-and-white alarm-clock mascot labeled 間の取り方. Right: cheerful bright blue curved right-arrow mascot labeled 切り返し. All have expressive oval eyes, smiles, white gloves, blue/dark navy limbs, white-and-blue sneakers, retro rubber-hose cartoon treatment and running/jumping poses. Preserve all surrounding handwritten Japanese annotations in their original locations. Lower 38%: clean white explanatory section with cobalt vertical rule, large blue bold headline and two navy body lines, then a pale blue rectangular statement panel with gray-blue eyebrow, two-line bold blue/navy message, supporting navy paragraph on the right, small blue underline, slim divider and muted uppercase English motto. Every string in the specification must be spelled verbatim and legible, including Japanese punctuation. Do not invent, omit or rewrite any copy. Preserve the lively hand-painted hero and the calm clean typography in the lower section. Output exactly one opaque image."
+}

@@ -1,0 +1,252 @@
+{
+  "name": "telemo-hero-concept-v1",
+  "created": "2026-10-12",
+  "purpose": "TELEMO LP のヒーローに入れる背景写真。2026-10-12 のヒーローUI調査（docs/research/hero-ui-ideas-2026-10-12.md）で評価の高かったサイトの良い点だけを、1枚の写真の『構図・光・色・余白』として集約する。見出し・ボタン・AI通話ログのカード・ロゴ帯は実HTMLで重ねる前提なので、写真には文字やUIを入れない。",
+  "output": {
+    "file": "telemo-hero-concept-v1-c.png",
+    "preview_jpg": "telemo-hero-concept-v1-c.jpg",
+    "aspect_ratio": "16:9",
+    "target_size": "1920x1080 以上",
+    "usage": "index.html の .doc-hero__video のポスター／静止画版、または Gemini で動画化するときの参照画像",
+    "actual_size": "1672x941（生成ツールの上限。1920x1080 未満なので、ヒーローでは cover 表示で拡大される）"
+  },
+  "generation_tool": "Codex CLI 0.162 の組み込み image_gen（モデル名は非公開。generation-log.json に送ったプロンプト全文と時刻）",
+  "references": [
+    {
+      "site": "Parloa",
+      "url": "https://www.parloa.com/",
+      "hero_type": "full-bleed-video",
+      "borrowed": "暖色の自然光で『人が仕事をしている瞬間』を全面に。右下に AI 通話ログのカードを置けるよう、机の面で区切られた空きをつくる",
+      "applied_to": [
+        "lighting.warm_daylight",
+        "zones.card_lower_right"
+      ]
+    },
+    {
+      "site": "Clarion",
+      "url": "https://www.clarionhealth.com/",
+      "hero_type": "full-bleed-photo",
+      "borrowed": "電話に出ている人を隠さず、顔より下だけをブランド色（ティール）で落とせる構図。明るいオフィスで表情が見える",
+      "applied_to": [
+        "subject.on_phone",
+        "zones.lower_band_for_teal_gradient",
+        "palette.teal_accent"
+      ]
+    },
+    {
+      "site": "Lightship",
+      "url": "https://www.lightshiprv.com/",
+      "hero_type": "full-bleed-video",
+      "borrowed": "余白付きの角丸パネルに収めても成立する、端まで整った静かなワイド構図。見出しを被写体の左に振り分けられる",
+      "applied_to": [
+        "composition.wide_calm",
+        "zones.clean_edges"
+      ]
+    },
+    {
+      "site": "Aevion（Riotters）",
+      "url": "https://drone.riotters.com/",
+      "hero_type": "3d-canvas",
+      "borrowed": "淡い色・細い線だけの静かな背景。動く（目立つ）のは被写体だけ",
+      "applied_to": [
+        "background.uncluttered",
+        "palette.pale_neutrals"
+      ]
+    },
+    {
+      "site": "Mercury",
+      "url": "https://mercury.com/",
+      "hero_type": "full-bleed-video",
+      "borrowed": "『現場→製品画面』へつなぐため、オペレーターのモニターを画面内に入れる（画面の中身は読めない程度に）",
+      "applied_to": [
+        "props.monitor_visible"
+      ]
+    },
+    {
+      "site": "ウェアラ 手取りLP",
+      "url": "https://www.weara.co.jp/tedori/",
+      "hero_type": "full-bleed-photo",
+      "borrowed": "ストック写真ではない『本当の現場』の質感。文字を帯で貼れるよう、左側に均質な面を残す",
+      "applied_to": [
+        "realism.documentary",
+        "zones.text_left"
+      ]
+    },
+    {
+      "site": "Career Kikkake",
+      "url": "https://agent.kikkake.cc/",
+      "hero_type": "full-bleed-photo",
+      "borrowed": "白×ティールの配色に合うハイキー寄りの明るさ。左側の壁を明るい無地にして、白ベールでもティールのグラデでも成立させる",
+      "applied_to": [
+        "lighting.high_key_left_wall",
+        "palette.white_teal"
+      ]
+    },
+    {
+      "site": "Oscar",
+      "url": "https://www.hioscar.com/",
+      "hero_type": "full-bleed-photo",
+      "borrowed": "作り笑いではない、本物の表情。奥の同僚も含めて『人の感情』が写っている",
+      "applied_to": [
+        "subject.genuine_expression",
+        "background.colleagues"
+      ]
+    },
+    {
+      "site": "Maple",
+      "url": "https://www.getmaple.ca/",
+      "hero_type": "full-bleed-video",
+      "borrowed": "映像の直下に実績ストリップを置く。そのため写真の最下部は暗めで単純な面にしておく",
+      "applied_to": [
+        "zones.lower_band_for_teal_gradient"
+      ]
+    },
+    {
+      "site": "Genesys",
+      "url": "https://www.genesys.com/",
+      "hero_type": "full-bleed-photo",
+      "borrowed": "逆光・自然光のリアリティと、見出し直下に受賞バッジを置ける左下の余白",
+      "applied_to": [
+        "lighting.backlight_from_windows",
+        "zones.text_left"
+      ]
+    },
+    {
+      "site": "Wonderful",
+      "url": "https://www.wonderful.ai/",
+      "hero_type": "full-bleed-video",
+      "borrowed": "映像の中央を空け、文字は左、補足は右に分ける。カットが変わっても文字位置を動かさない",
+      "applied_to": [
+        "composition.subject_right_center_free"
+      ]
+    },
+    {
+      "site": "DMJ 採用サイト",
+      "url": "https://dmj-japan.co.jp/recruit/",
+      "hero_type": "full-bleed-photo",
+      "borrowed": "見出しを顔の下に重ねる前提で、顔は上寄りに配置する",
+      "applied_to": [
+        "subject.face_upper_right"
+      ]
+    },
+    {
+      "site": "SmartHR",
+      "url": "https://smarthr.jp/",
+      "hero_type": "split-text-image",
+      "borrowed": "TELEMO と同系のティールに、表情の見える人物。小物（ファイル・椅子の縁）に控えめなティールを置く",
+      "applied_to": [
+        "palette.teal_accent"
+      ]
+    },
+    {
+      "site": "WHOOP",
+      "url": "https://www.whoop.com/",
+      "hero_type": "full-bleed-video",
+      "borrowed": "素材の質感で語る。フィルムグレインを重ねても荒れない、素肌・布・机の質感",
+      "applied_to": [
+        "realism.textures"
+      ]
+    },
+    {
+      "site": "パタゴニア",
+      "url": "https://www.patagonia.jp/",
+      "hero_type": "full-bleed-video",
+      "borrowed": "ヒーローを 2/3 高さに収めても成立するよう、2.3:1 に切っても要素が欠けないセーフエリア",
+      "applied_to": [
+        "zones.safe_area_2_3_to_1"
+      ]
+    }
+  ],
+  "zones": {
+    "description": "1920x1080 を 100% で表したときの、HTML を重ねる領域。写真側はこの領域に顔・明るい物・細かい物を置かない",
+    "text_left": {
+      "x": "6%-42%",
+      "y": "30%-78%",
+      "for": "見出し（明朝）・リード・CTA 2つ"
+    },
+    "card_lower_right": {
+      "x": "64%-95%",
+      "y": "56%-88%",
+      "for": "AI通話ログのガラスカード（顧客／AI の吹き出し、『アポ獲得・通話◯秒』のピル）"
+    },
+    "lower_band_for_teal_gradient": {
+      "x": "0%-100%",
+      "y": "72%-100%",
+      "for": "透明→#007d8c のグラデと、導入ロゴ／実績3項目の帯"
+    },
+    "subject_face": {
+      "x": "60%-80%",
+      "y": "18%-48%",
+      "for": "主役の顔（文字と重ねない）"
+    },
+    "center_free": {
+      "x": "42%-60%",
+      "y": "20%-70%",
+      "for": "空けておく（被写体の肩〜机。目を引く物を置かない）"
+    },
+    "safe_area_2_3_to_1": {
+      "y": "15%-85%",
+      "for": "2.3:1 に切り詰めても顔・手元・モニターが残る範囲"
+    }
+  },
+  "prompt": {
+    "use_case": "photorealistic-natural",
+    "asset_type": "TELEMO LP hero background photograph (documentary style, no text)",
+    "primary_request": "A realistic documentary-style photograph inside a modern Japanese call center, composed so that a headline can sit on the left, a small UI card on the lower right, and a brand-color gradient along the bottom. Generate a NEW photograph; do not add any text, logos or interface graphics.",
+    "subject": "A Japanese man in his late 20s with short black hair, wearing a plain dark navy shirt, seated at his desk in the RIGHT third of the frame, seen from the side at a slight three-quarter angle. He holds a corded desk-phone handset to his ear and is mid-conversation: calm, focused, a faint natural smile, eyes on his monitor. His face sits in the upper right quarter of the frame. Both forearms rest naturally on the desk; one hand holds the handset, the other rests near the keyboard. Anatomy must be coherent: natural elbows and wrists, five fingers, no hands touching the face.",
+    "props": "His monitor is visible at the right edge, angled away so the screen shows only a soft, unreadable pale interface (no legible text, no charts that draw the eye). On the desk: a desk phone with a coiled cord, a notebook, a pen, a teal document folder as the single small brand-color accent.",
+    "background": "Rows of ordinary desks with low partitions. Three or four colleagues work in soft focus behind him, two of them on the phone, with genuine, unposed expressions. Large windows on the far right. The LEFT 40% of the frame is a plain, slightly darker wall or partition in warm gray-beige with nothing bright, no faces and no fine detail, so a headline can be placed there. The center of the frame (between the wall and the man) stays visually quiet: only his shoulder, the desk surface and a blurred partition.",
+    "lower_band": "The bottom quarter of the frame is desk surface and floor in darker neutral tones, simple and even, so a teal gradient and a row of logos can be overlaid later. The lower right area in front of the desk edge is uncluttered for a small UI card.",
+    "lighting": "Soft natural daylight from the windows on the right, slightly backlit, with a gentle warm highlight on his cheek and hands. Neutral palette of beige, warm gray and charcoal with restrained teal accents. Realistic skin, fabric and desk textures that will take a film-grain overlay well. Shallow depth of field, 35mm cinema lens look, slight vignette toward the edges.",
+    "composition": "Wide 16:9 landscape, 1920x1080 or larger. Eye-level camera, horizon level. The man and his monitor occupy the right third, the quiet wall the left 40%, the upper middle is calm negative space. Nothing important within 5% of any edge, so the photo also works cropped to 2.3:1 and inside a rounded, inset panel.",
+    "mood": "Quiet, trustworthy, documentary. A real workplace during a real call, not a stock photo and not an advertisement.",
+    "constraints": "No text, captions, logos, watermarks, on-screen graphics, holograms, neon, lens flares, headsets, or people looking at the camera. No extra limbs, distorted hands, duplicated fingers or floating objects. Keep the Japanese office setting authentic."
+  },
+  "negative_prompt": "text, caption, logo, watermark, UI overlay, hologram, neon, glow, lens flare, headset, looking at camera, stock smile, distorted hands, extra fingers, blurry subject, oversaturated, HDR look",
+  "generation_notes": {
+    "variants_to_request": 2,
+    "selection_criteria": [
+      "左 40% に顔・明るい物が無い",
+      "顔が右上 1/4 にあり、右下（机の手前）が空いている",
+      "最下部 1/4 が暗めの単純な面",
+      "手・受話器・指が崩れていない",
+      "文字・ロゴ・UI が写っていない"
+    ],
+    "after_generation": "選んだ画像を telemo-hero-concept-v1.png として保存し、JPG（品質 82）も書き出す。output/hero-concept/ のプレビューで HTML を重ねて確認する"
+  },
+  "results": {
+    "generated_at": "2026-10-12 22:05-22:08 JST",
+    "candidates": [
+      {
+        "file": "telemo-hero-concept-v1-a.png",
+        "jpg": "telemo-hero-concept-v1-a.jpg",
+        "size": "1672x941",
+        "from": "prompt のみ",
+        "assessment": "明るい木目の机とティールのファイルが下 1/4 を占め、グラデ帯・カード領域と競合。左端の境界付近に同僚。"
+      },
+      {
+        "file": "telemo-hero-concept-v1-b.png",
+        "jpg": "telemo-hero-concept-v1-b.jpg",
+        "size": "1672x941",
+        "from": "prompt のみ",
+        "assessment": "暗いウォルナットの机で下帯には向くが、右下にノート・ペン・ファイル・電話が残る。"
+      },
+      {
+        "file": "telemo-hero-concept-v1-c.png",
+        "jpg": "telemo-hero-concept-v1-c.jpg",
+        "size": "1672x941",
+        "from": "案B を参照画像にして、机の小物を減らし右下と最下部を無地にする指示で再生成",
+        "assessment": "左 40% は無地の壁、顔は右上 1/4、右下と最下部 1/4 は無地の暗い机。文字・ロゴ・UI なし。手・受話器は目視で崩れなし。ティールのファイルは無くなったので、ブランド色は HTML 側のグラデで足す。"
+      }
+    ],
+    "chosen": "telemo-hero-concept-v1-c.png",
+    "selection_criteria_check_for_chosen": {
+      "左 40% に顔・明るい物が無い": "満たす",
+      "顔が右上 1/4 にあり、右下（机の手前）が空いている": "満たす",
+      "最下部 1/4 が暗めの単純な面": "満たす（薄い木目は残る）",
+      "手・受話器・指が崩れていない": "目視で崩れなし",
+      "文字・ロゴ・UI が写っていない": "満たす"
+    },
+    "preview": "output/hero-concept/preview.html?img=../../assets/hero/concept/telemo-hero-concept-v1-c.jpg（推奨3案の HTML を重ねた姿）"
+  }
+}

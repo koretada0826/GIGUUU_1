@@ -1,0 +1,175 @@
+{
+ "slug": "holdings-panasonic-jp",
+ "url": "https://holdings.panasonic/jp/",
+ "capturedAt": "2026-10-12 21:10:08",
+ "files": {
+  "pc_f0": "holdings-panasonic-jp-pc-f0.jpg",
+  "pc_f1": "holdings-panasonic-jp-pc-f1.jpg",
+  "pc_f2": "holdings-panasonic-jp-pc-f2.jpg",
+  "pc_scroll": "holdings-panasonic-jp-pc-scroll.jpg",
+  "sp": "holdings-panasonic-jp-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://holdings.panasonic/jp/",
+  "title": "パナソニック ホールディングス株式会社",
+  "lang": "ja-JP",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 5560,
+  "h1": "パナソニック ホールディングス株式会社",
+  "h1Style": {
+   "fontFamily": "\"Noto Sans JP\", \"Noto Sans\", sans-serif",
+   "fontSize": "12px",
+   "fontWeight": "400",
+   "lineHeight": "18px",
+   "letterSpacing": "normal",
+   "color": "rgb(102, 102, 102)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 100,
+    "y": 12,
+    "w": 218,
+    "h": 18
+   }
+  },
+  "lead": null,
+  "ctas": [],
+  "videos": [
+   {
+    "src": "https://holdings.panasonic/content/dam/holdings/jp/ja/home/260917_HPtop_05sec.mp4",
+    "autoplay": false,
+    "loop": false,
+    "muted": true,
+    "w": 1440,
+    "h": 810,
+    "playing": false
+   }
+  ],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://holdings.panasonic/content/dam/holdings/jp/ja/common/holdings-plogo-blue.svg",
+    "w": 285,
+    "h": 80,
+    "alt": "Panasonic Group"
+   },
+   {
+    "src": "https://holdings.panasonic/content/dam/holdings/jp/ja/common/holdings-plogo-blue.svg",
+    "w": 285,
+    "h": 80,
+    "alt": "Panasonic Group"
+   },
+   {
+    "src": "https://holdings.panasonic/etc.clientlibs/bsc/clientlibs/clientlib-site/resources/images/icn-video-play.svg",
+    "w": 44,
+    "h": 45,
+    "alt": "Play"
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Noto Sans JP"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(242, 242, 242)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "パナソニック ホールディングス株式会社",
+  "h1Style": {
+   "fontFamily": "\"Noto Sans JP\", \"Noto Sans\", sans-serif",
+   "fontSize": "12px",
+   "fontWeight": "400",
+   "lineHeight": "18px",
+   "letterSpacing": "normal",
+   "color": "rgb(102, 102, 102)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 15,
+    "y": 58,
+    "w": 218,
+    "h": 18
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "2.パナソニックグループの使命と今なすべきこと",
+   "「パナソニックグループ コンプライアンス行動基準」について",
+   "ステークホルダーエンゲージメントと社外イニシアティブ",
+   "長期環境ビジョン Panasonic GREEN IMPACTによる価値創造",
+   "2.パナソニックグループの使命と今なすべきこと",
+   "「パナソニックグループ コンプライアンス行動基準」について",
+   "ステークホルダーエンゲージメントと社外イニシアティブ",
+   "長期環境ビジョン Panasonic GREEN IMPACTによる価値創造",
+   "2.パナソニックグループの使命と今なすべきこと",
+   "「パナソニックグループ コンプライアンス行動基準」について",
+   "ステークホルダーエンゲージメントと社外イニシアティブ",
+   "長期環境ビジョン Panasonic GREEN IMPACTによる価値創造"
+  ],
+  "videos": [
+   {
+    "src": "https://holdings.panasonic/content/dam/holdings/jp/ja/home/260917_HPtop_05sec.mp4",
+    "autoplay": false,
+    "loop": false,
+    "muted": true,
+    "w": 390,
+    "h": 219,
+    "playing": true
+   }
+  ],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://holdings.panasonic/content/dam/holdings/jp/ja/common/holdings-plogo-horizontal.svg",
+    "w": 157,
+    "h": 46,
+    "alt": "Panasonic Group"
+   },
+   {
+    "src": "https://holdings.panasonic/content/dam/holdings/jp/ja/common/holdings-plogo-horizontal.svg",
+    "w": 157,
+    "h": 46,
+    "alt": "Panasonic Group"
+   },
+   {
+    "src": "https://holdings.panasonic/etc.clientlibs/bsc/clientlibs/clientlib-site/resources/images/icn-video-pause.svg",
+    "w": 44,
+    "h": 44,
+    "alt": "Pause"
+   },
+   {
+    "src": "https://holdings.panasonic/content/dam/holdings/jp/ja/home/integrated_report_2026_webbanner_page_2_ir_479_270.jpg",
+    "w": 360,
+    "h": 203,
+    "alt": ""
+   },
+   {
+    "src": "https://holdings.panasonic/content/dam/holdings/jp/ja/home/sustainability_data_book_2026_webbanner_page_2_sdb_479_270.jpg",
+    "w": 360,
+    "h": 203,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 7595
+ },
+ "elapsedSec": 11.6
+}

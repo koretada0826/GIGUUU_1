@@ -1,0 +1,8 @@
+{
+  "use_case": "precise-object-edit",
+  "asset_type": "TELEMO blue sculptural hero background",
+  "primary_request": "Replace ONLY the central coral heart with a large sculptural coral telephone handset (classic curved telephone receiver, recognizable earpiece and mouthpiece connected by a smooth curved grip).",
+  "input_images": "Image 1: edit target. Preserve blue background, lighting, every blue sphere and organic shape, camera framing, texture, and composition.",
+  "replacement": "One coral salmon telephone handset floating in the same center-right position and taking approximately the same visual footprint as the heart. Slight diagonal tilt, earpiece upper-right and mouthpiece lower-left, graceful premium matte inflated 3D appearance. Simple correct telephone receiver silhouette, no keypad, no buttons, no cord, no heart shape.",
+  "constraints": "Change central heart into telephone handset only; retain existing blue color palette and coral reflected light. No text, no logo, no watermark, no layout changes."
+}

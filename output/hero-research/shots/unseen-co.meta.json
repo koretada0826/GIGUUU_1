@@ -1,0 +1,119 @@
+{
+ "slug": "unseen-co",
+ "url": "https://unseen.co/",
+ "capturedAt": "2026-10-12 21:08:50",
+ "files": {
+  "pc_f0": "unseen-co-pc-f0.jpg",
+  "pc_f1": "unseen-co-pc-f1.jpg",
+  "pc_f2": "unseen-co-pc-f2.jpg",
+  "pc_scroll": "unseen-co-pc-scroll.jpg",
+  "sp": "unseen-co-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://unseen.co/",
+  "title": "Unseen Studio® – Brand, Digital & Motion",
+  "lang": "en-GB",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 900,
+  "h1": "Home",
+  "h1Style": {
+   "fontFamily": "\"Neue Montreal\", system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-s",
+   "fontSize": "28.8px",
+   "fontWeight": "700",
+   "lineHeight": "43.2px",
+   "letterSpacing": "normal",
+   "color": "rgb(0, 0, 0)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 0,
+    "y": 0,
+    "w": 1440,
+    "h": 43
+   }
+  },
+  "lead": "var globalData = {\"publicUrl\":\"https://unseen.co/wp-content/themes/unseen/public/\",\"assetsUrl\":\"https://unseen.co/wp-content/themes/unseen/resources/assets/\"}; //# sourceURL=theme-js-extra",
+  "ctas": [
+   "Toggle Menu",
+   "01 Index Index",
+   "02 Projects Projects",
+   "03 Contact Contact",
+   "04 World World",
+   "Toggle Sound",
+   "UNSEEN WORLD"
+  ],
+  "videos": [],
+  "canvases": [
+   {
+    "w": 1440,
+    "h": 900
+   }
+  ],
+  "images": [],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Neue Montreal",
+   "Saol Display"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 0,
+ "sp": {
+  "h1": "Home",
+  "h1Style": {
+   "fontFamily": "\"Neue Montreal\", system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-s",
+   "fontSize": "28px",
+   "fontWeight": "700",
+   "lineHeight": "42px",
+   "letterSpacing": "normal",
+   "color": "rgb(0, 0, 0)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 0,
+    "y": 0,
+    "w": 390,
+    "h": 42
+   }
+  },
+  "lead": "var globalData = {\"publicUrl\":\"https://unseen.co/wp-content/themes/unseen/public/\",\"assetsUrl\":\"https://unseen.co/wp-content/themes/unseen/resources/assets/\"}; //# sourceURL=theme-js-extra",
+  "ctas": [
+   "Toggle Menu",
+   "01 Index Index",
+   "02 Projects Projects",
+   "03 Contact Contact",
+   "04 World World",
+   "Toggle Sound",
+   "Filter"
+  ],
+  "videos": [],
+  "canvases": [
+   {
+    "w": 390,
+    "h": 844
+   }
+  ],
+  "images": [],
+  "pageHeight": 844
+ },
+ "elapsedSec": 18.6
+}

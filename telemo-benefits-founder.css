@@ -1,0 +1,104 @@
+/* Keep the original stage ratio; hand the fixed guide over to this stage. */
+#telemo-core .lpsr-benefits-founder .lpsr-benefits-founder__replay {
+  position: relative;
+  display: block;
+  width: 88%;
+  aspect-ratio: 1145 / 1374;
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+  border-radius: 16px;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+#telemo-core .lpsr-benefits-founder .lpsr-benefits-founder__replay:focus-visible {
+  outline: 3px solid var(--rf-accent);
+  outline-offset: 5px;
+}
+
+#telemo-core .lpsr-benefits-founder .lpsr-benefits-founder__replay:disabled {
+  opacity: 1;
+  cursor: default;
+}
+
+#telemo-core .lpsr-benefits-founder.is-awaiting-guide .lpsr-benefits-founder__replay {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+#telemo-core .lpsr-benefits-founder .lpsr-benefits-founder__portrait {
+  position: absolute;
+  inset: 0 10%;
+  display: block;
+  transform-origin: center 92%;
+  filter: drop-shadow(0 5px 5px #0a2a4412);
+}
+
+#telemo-core .lpsr-benefits-founder img.lpsr-benefits-founder__poster {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  object-fit: contain;
+}
+
+#telemo-core .lpsr-benefits-founder .lpsr-benefits-founder__wave {
+  position: absolute;
+  inset: 0;
+  display: none;
+  background: url('./assets/concierge/president-cutout/wave.webp') 0 0 / 800% 100% no-repeat;
+}
+
+#telemo-core .lpsr-benefits-founder.is-playing .lpsr-benefits-founder__portrait {
+  animation: lpsr-benefits-founder-enter 900ms cubic-bezier(.2, .75, .25, 1) both;
+}
+
+#telemo-core .lpsr-benefits-founder.is-playing .lpsr-benefits-founder__poster {
+  visibility: hidden;
+}
+
+#telemo-core .lpsr-benefits-founder.is-playing .lpsr-benefits-founder__wave {
+  display: block;
+  /* 8 frames: move one full frame per step, then return to the static pose. */
+  animation: lpsr-benefits-founder-wave 1100ms steps(8) 2;
+}
+
+@keyframes lpsr-benefits-founder-enter {
+  0% { transform: translateY(var(--lpsr-founder-rise, 100vh)); }
+  75% { transform: translateY(-5px); }
+  100% { transform: none; }
+}
+
+@keyframes lpsr-benefits-founder-wave {
+  to { background-position-x: 114.285714%; }
+}
+
+/* Applied only while this section owns the existing floating guide. */
+.telemo-concierge.lpsr-benefits-guide--transition {
+  transition: transform 560ms cubic-bezier(.4, 0, .4, 1), opacity 180ms ease;
+}
+
+.telemo-concierge.lpsr-benefits-guide--departing {
+  transform: translateY(calc(100% + var(--campaign-guide-bottom, 64px) + 32px));
+  opacity: 0;
+  pointer-events: none;
+  transition-delay: 0ms, 380ms;
+}
+
+.telemo-concierge.lpsr-benefits-guide--docked { visibility: hidden; }
+.telemo-concierge.lpsr-benefits-guide--transition.is-motion-paused { transition: none; }
+
+@media (max-width: 600px) {
+  #telemo-core .lpsr-benefits-founder .lpsr-benefits-founder__replay { width: 100%; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #telemo-core .lpsr-benefits-founder .lpsr-benefits-founder__portrait,
+  #telemo-core .lpsr-benefits-founder .lpsr-benefits-founder__wave { animation: none; }
+  #telemo-core .lpsr-benefits-founder.is-playing .lpsr-benefits-founder__poster { visibility: visible; }
+  #telemo-core .lpsr-benefits-founder.is-playing .lpsr-benefits-founder__wave { display: none; }
+  .telemo-concierge.lpsr-benefits-guide--transition { transition: none; }
+}

@@ -1,0 +1,168 @@
+[
+  {
+    "kind": "gallery",
+    "width": 1440,
+    "cards": 29,
+    "additional": 15,
+    "overflow": false,
+    "broken": [],
+    "errors": [],
+    "passed": true
+  },
+  {
+    "kind": "gallery",
+    "width": 1280,
+    "cards": 29,
+    "additional": 15,
+    "overflow": false,
+    "broken": [],
+    "errors": [],
+    "passed": true
+  },
+  {
+    "kind": "gallery",
+    "width": 768,
+    "cards": 29,
+    "additional": 15,
+    "overflow": false,
+    "broken": [],
+    "errors": [],
+    "passed": true
+  },
+  {
+    "kind": "gallery",
+    "width": 390,
+    "cards": 29,
+    "additional": 15,
+    "overflow": false,
+    "broken": [],
+    "errors": [],
+    "passed": true
+  },
+  {
+    "kind": "reference",
+    "id": "15-m3e",
+    "overflow": false,
+    "broken": [],
+    "errors": [],
+    "passed": true
+  },
+  {
+    "kind": "reference",
+    "id": "16-manerepi",
+    "overflow": false,
+    "broken": [],
+    "errors": [],
+    "passed": true
+  },
+  {
+    "kind": "reference",
+    "id": "17-tama",
+    "overflow": false,
+    "broken": [],
+    "errors": [],
+    "passed": true
+  },
+  {
+    "kind": "reference",
+    "id": "18-chalkliner",
+    "overflow": false,
+    "broken": [],
+    "errors": [],
+    "passed": true
+  },
+  {
+    "kind": "reference",
+    "id": "19-rentaro",
+    "overflow": false,
+    "broken": [],
+    "errors": [],
+    "passed": true
+  },
+  {
+    "kind": "reference",
+    "id": "20-ubie",
+    "overflow": false,
+    "broken": [],
+    "errors": [],
+    "passed": true
+  },
+  {
+    "kind": "reference",
+    "id": "21-nectar",
+    "overflow": false,
+    "broken": [],
+    "errors": [],
+    "passed": true
+  },
+  {
+    "kind": "reference",
+    "id": "22-fabric",
+    "overflow": false,
+    "broken": [],
+    "errors": [],
+    "passed": true
+  },
+  {
+    "kind": "reference",
+    "id": "23-sony",
+    "overflow": false,
+    "broken": [],
+    "errors": [],
+    "passed": true
+  },
+  {
+    "kind": "reference",
+    "id": "24-famicom",
+    "overflow": false,
+    "broken": [],
+    "errors": [],
+    "passed": true
+  },
+  {
+    "kind": "reference",
+    "id": "25-fancl",
+    "overflow": false,
+    "broken": [],
+    "errors": [],
+    "passed": true
+  },
+  {
+    "kind": "reference",
+    "id": "26-kirin",
+    "overflow": false,
+    "broken": [],
+    "errors": [],
+    "passed": true
+  },
+  {
+    "kind": "reference",
+    "id": "27-coupy",
+    "overflow": false,
+    "broken": [],
+    "errors": [],
+    "passed": true
+  },
+  {
+    "kind": "reference",
+    "id": "28-potapota",
+    "overflow": false,
+    "broken": [],
+    "errors": [],
+    "passed": true
+  },
+  {
+    "kind": "reference",
+    "id": "29-hibikibi",
+    "overflow": false,
+    "broken": [],
+    "errors": [],
+    "passed": true
+  },
+  {
+    "kind": "cta",
+    "demoURL": "http://127.0.0.1:4173/index.html#telemo-listen",
+    "contactURL": "http://127.0.0.1:4173/index.html#contact",
+    "passed": true
+  }
+]

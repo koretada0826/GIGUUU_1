@@ -1,0 +1,254 @@
+{
+ "slug": "asuzacgroup-jp-recruit-highschool",
+ "url": "https://asuzacgroup.jp/recruit/highschool/",
+ "capturedAt": "2026-10-12 21:16:01",
+ "files": {
+  "pc_f0": "asuzacgroup-jp-recruit-highschool-pc-f0.jpg",
+  "pc_f1": "asuzacgroup-jp-recruit-highschool-pc-f1.jpg",
+  "pc_f2": "asuzacgroup-jp-recruit-highschool-pc-f2.jpg",
+  "pc_scroll": "asuzacgroup-jp-recruit-highschool-pc-scroll.jpg",
+  "sp": "asuzacgroup-jp-recruit-highschool-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://recruit.asuzacgroup.jp/highschool/",
+  "title": "アスザックグループ 高校生採用サイト",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 24304,
+  "h1": "",
+  "h1Style": {
+   "fontFamily": "\"Noto Sans JP\", \"Hiragino Sans\", ヒラギノ角ゴシック, \"Hiragino Kaku Gothic ProN\", \"ヒラギノ角ゴ ProN W3\", メイリオ, Meiryo, sans-serif",
+   "fontSize": "17.7216px",
+   "fontWeight": "400",
+   "lineHeight": "31.8989px",
+   "letterSpacing": "1.77216px",
+   "color": "rgb(35, 69, 166)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 529,
+    "y": 503,
+    "w": 381,
+    "h": 101
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "高校生採用サイト",
+   "募集要項",
+   "PAGETOP"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://recruit.asuzacgroup.jp/highschool/common/img/logo_group.svg",
+    "w": 287,
+    "h": 44,
+    "alt": ""
+   },
+   {
+    "src": "https://recruit.asuzacgroup.jp/highschool/img/main/copy_01.png",
+    "w": 533,
+    "h": 130,
+    "alt": "わくわくと成長でいっぱいの"
+   },
+   {
+    "src": "https://recruit.asuzacgroup.jp/highschool/img/main/copy_02.png",
+    "w": 733,
+    "h": 364,
+    "alt": "ものづくりの世界で働こう！！"
+   },
+   {
+    "src": "https://recruit.asuzacgroup.jp/highschool/img/main/ttl.png",
+    "w": 381,
+    "h": 101,
+    "alt": "高校生採用サイト"
+   },
+   {
+    "src": "https://recruit.asuzacgroup.jp/highschool/img/main/illust_01.png",
+    "w": 151,
+    "h": 151,
+    "alt": ""
+   },
+   {
+    "src": "https://recruit.asuzacgroup.jp/highschool/img/main/illust_02.png",
+    "w": 151,
+    "h": 151,
+    "alt": ""
+   },
+   {
+    "src": "https://recruit.asuzacgroup.jp/highschool/img/main/illust_03.png",
+    "w": 151,
+    "h": 151,
+    "alt": ""
+   },
+   {
+    "src": "https://recruit.asuzacgroup.jp/highschool/img/main/illust_04.png",
+    "w": 151,
+    "h": 151,
+    "alt": ""
+   },
+   {
+    "src": "https://recruit.asuzacgroup.jp/highschool/img/main/illust_05.png",
+    "w": 151,
+    "h": 151,
+    "alt": ""
+   },
+   {
+    "src": "https://recruit.asuzacgroup.jp/highschool/img/main/person_01.png",
+    "w": 413,
+    "h": 602,
+    "alt": ""
+   },
+   {
+    "src": "https://recruit.asuzacgroup.jp/highschool/img/main/person_02.png",
+    "w": 413,
+    "h": 602,
+    "alt": ""
+   },
+   {
+    "src": "https://recruit.asuzacgroup.jp/highschool/common/img/illust/foods.png",
+    "w": 240,
+    "h": 240,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [
+   {
+    "bg": "url(\"https://recruit.asuzacgroup.jp/highschool/common/img/bg_yellow_plain.png\")",
+    "w": 1440,
+    "h": 876
+   }
+  ],
+  "firstScreenFonts": [
+   "Noto Sans JP",
+   "Lato"
+  ],
+  "libs": {
+   "gsap": true,
+   "ScrollTrigger": true,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "",
+  "h1Style": {
+   "fontFamily": "\"Noto Sans JP\", \"Hiragino Sans\", ヒラギノ角ゴシック, \"Hiragino Kaku Gothic ProN\", \"ヒラギノ角ゴ ProN W3\", メイリオ, Meiryo, sans-serif",
+   "fontSize": "14.56px",
+   "fontWeight": "400",
+   "lineHeight": "26.208px",
+   "letterSpacing": "0.728px",
+   "color": "rgb(35, 69, 166)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 102,
+    "y": 389,
+    "w": 185,
+    "h": 49
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "高校生採用サイト",
+   "募集 要項",
+   "募集要項",
+   "PAGETOP"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://recruit.asuzacgroup.jp/highschool/img/main/copy_01.png",
+    "w": 279,
+    "h": 68,
+    "alt": "わくわくと成長でいっぱいの"
+   },
+   {
+    "src": "https://recruit.asuzacgroup.jp/highschool/img/sp/main/copy_02.png",
+    "w": 295,
+    "h": 254,
+    "alt": "ものづくりの世界で働こう！！"
+   },
+   {
+    "src": "https://recruit.asuzacgroup.jp/highschool/img/main/ttl.png",
+    "w": 185,
+    "h": 49,
+    "alt": "高校生採用サイト"
+   },
+   {
+    "src": "https://recruit.asuzacgroup.jp/highschool/img/main/illust_01.png",
+    "w": 56,
+    "h": 56,
+    "alt": ""
+   },
+   {
+    "src": "https://recruit.asuzacgroup.jp/highschool/img/main/illust_02.png",
+    "w": 56,
+    "h": 56,
+    "alt": ""
+   },
+   {
+    "src": "https://recruit.asuzacgroup.jp/highschool/img/main/illust_03.png",
+    "w": 56,
+    "h": 56,
+    "alt": ""
+   },
+   {
+    "src": "https://recruit.asuzacgroup.jp/highschool/img/main/illust_04.png",
+    "w": 56,
+    "h": 56,
+    "alt": ""
+   },
+   {
+    "src": "https://recruit.asuzacgroup.jp/highschool/img/main/illust_05.png",
+    "w": 56,
+    "h": 56,
+    "alt": ""
+   },
+   {
+    "src": "https://recruit.asuzacgroup.jp/highschool/img/main/person_01.png",
+    "w": 147,
+    "h": 206,
+    "alt": ""
+   },
+   {
+    "src": "https://recruit.asuzacgroup.jp/highschool/img/main/person_02.png",
+    "w": 147,
+    "h": 206,
+    "alt": ""
+   },
+   {
+    "src": "https://recruit.asuzacgroup.jp/highschool/common/img/illust/foods.png",
+    "w": 163,
+    "h": 163,
+    "alt": ""
+   },
+   {
+    "src": "https://recruit.asuzacgroup.jp/highschool/common/img/illust/fine_ceramic.png?240719",
+    "w": 175,
+    "h": 175,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 24086
+ },
+ "elapsedSec": 12.6
+}

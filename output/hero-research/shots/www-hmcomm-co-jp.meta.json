@@ -1,0 +1,11 @@
+{
+ "slug": "www-hmcomm-co-jp",
+ "url": "https://www.hmcomm.co.jp/",
+ "capturedAt": "2026-10-12 21:09:04",
+ "files": {},
+ "errors": [
+  "pc: Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.hmcomm.co.jp/\nCall log:\n  - navigating to \"https://www.hmcomm.co.jp/\", waiting until \"domcontentloaded\"\n",
+  "sp: Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.hmcomm.co.jp/\nCall log:\n  - navigating to \"https://www.hmcomm.co.jp/\", waiting until \"domcontentloaded\"\n"
+ ],
+ "elapsedSec": 0.7
+}

@@ -1,0 +1,154 @@
+{
+ "slug": "anthropic-com",
+ "url": "https://www.anthropic.com/",
+ "capturedAt": "2026-10-12 21:08:43",
+ "files": {
+  "pc_f0": "anthropic-com-pc-f0.jpg",
+  "pc_f1": "anthropic-com-pc-f1.jpg",
+  "pc_f2": "anthropic-com-pc-f2.jpg",
+  "pc_scroll": "anthropic-com-pc-scroll.jpg",
+  "sp": "anthropic-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.anthropic.com/",
+  "title": "Home \\ Anthropic",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 3340,
+  "h1": "AI research and products that put safety at the frontier AI research and products that put safety at the frontier",
+  "h1Style": {
+   "fontFamily": "\"Anthropic Sans\", Arial, sans-serif",
+   "fontSize": "60.8653px",
+   "fontWeight": "700",
+   "lineHeight": "66.9518px",
+   "letterSpacing": "normal",
+   "color": "rgb(20, 20, 19)",
+   "textAlign": "left",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 78,
+    "y": 219,
+    "w": 736,
+    "h": 179
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "Policy",
+   "Policy on the AI Exponential",
+   "News",
+   "research",
+   "products",
+   "research",
+   "products",
+   "Read more"
+  ],
+  "videos": [],
+  "canvases": [
+   {
+    "w": 1285,
+    "h": 112
+   },
+   {
+    "w": 777,
+    "h": 221
+   }
+  ],
+  "images": [
+   {
+    "src": "https://cdn.prod.website-files.com/67ce28cfec624e2b733f8a52/6ac58801cfefcdc334ff5116_hero_moo_1a.webp",
+    "w": 228,
+    "h": 228,
+    "alt": ""
+   },
+   {
+    "src": "https://cdn.prod.website-files.com/67ce28cfec624e2b733f8a52/6ac58801747f83a043689dd7_hero_moo_1b.webp",
+    "w": 228,
+    "h": 228,
+    "alt": ""
+   },
+   {
+    "src": "https://cdn.prod.website-files.com/67ce28cfec624e2b733f8a52/6ac58801d511fa26e58282aa_hero_moo_1c.webp",
+    "w": 228,
+    "h": 228,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Anthropic Serif",
+   "Anthropic Sans"
+  ],
+  "libs": {
+   "gsap": true,
+   "ScrollTrigger": true,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(250, 249, 245)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "AI research and products that put safety at the frontier AI research and products that put safety at the frontier",
+  "h1Style": {
+   "fontFamily": "\"Anthropic Sans\", Arial, sans-serif",
+   "fontSize": "40.2939px",
+   "fontWeight": "700",
+   "lineHeight": "44.3233px",
+   "letterSpacing": "normal",
+   "color": "rgb(20, 20, 19)",
+   "textAlign": "left",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 33,
+    "y": 147,
+    "w": 325,
+    "h": 163
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "research",
+   "products",
+   "research",
+   "products",
+   "Read more"
+  ],
+  "videos": [],
+  "canvases": [
+   {
+    "w": 264,
+    "h": 155
+   }
+  ],
+  "images": [
+   {
+    "src": "https://cdn.prod.website-files.com/67ce28cfec624e2b733f8a52/6ac588016a4d3320bc2a5a9e_hero_moo_phone_1a.webp",
+    "w": 126,
+    "h": 126,
+    "alt": ""
+   },
+   {
+    "src": "https://cdn.prod.website-files.com/67ce28cfec624e2b733f8a52/6ac587fe25505878325f9517_hero_moo_phone_1b.webp",
+    "w": 126,
+    "h": 126,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 6776
+ },
+ "elapsedSec": 11.8
+}

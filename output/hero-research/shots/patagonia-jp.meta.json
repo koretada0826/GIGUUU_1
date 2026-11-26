@@ -1,0 +1,249 @@
+{
+ "slug": "patagonia-jp",
+ "url": "https://www.patagonia.jp/",
+ "capturedAt": "2026-10-12 21:09:10",
+ "files": {
+  "pc_f0": "patagonia-jp-pc-f0.jpg",
+  "pc_f1": "patagonia-jp-pc-f1.jpg",
+  "pc_f2": "patagonia-jp-pc-f2.jpg",
+  "pc_scroll": "patagonia-jp-pc-scroll.jpg",
+  "sp": "patagonia-jp-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.patagonia.jp/home/",
+  "title": "パタゴニア アウトドアウェア",
+  "lang": "ja-JP",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 4118,
+  "h1": "Worth it.",
+  "h1Style": {
+   "fontFamily": "\"ヒラギノ角ゴ Pro W3\", \"Hiragino Kaku Gothic Pro W3\", \"ヒラギノ角ゴ Pro\", \"Hiragino Kaku Gothic Pro\", ヒラギノ角ゴ, \"Hiragino Kaku Gothic\"",
+   "fontSize": "51.2px",
+   "fontWeight": "700",
+   "lineHeight": "69.12px",
+   "letterSpacing": "-1.024px",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 400,
+    "y": 350,
+    "w": 640,
+    "h": 104
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "リジェネラティブ・オーガニック",
+   "イベント",
+   "リジェネラティブ・オーガニック",
+   "地球が私たちの唯一の株主",
+   "ストアを探す",
+   "新着＆おすすめ",
+   "フィヨルド・フランネル・シャツ",
+   "テルボンヌ・コレクション",
+   "ナノエア・インサレーション",
+   "ナノ・パフ・インサレーション",
+   "ダウン・セーター・インサレーション",
+   "トレントシェル・ジャケット"
+  ],
+  "videos": [
+   {
+    "src": "https://www.patagonia.com/media/marketing/videos/f26_worth_it_ambient_hero_8s_HD_h264_16x9_w.mp4",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 1440,
+    "h": 594,
+    "playing": true
+   }
+  ],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://dis.patagonia.jp/dw/image/v2/bdjb_PRD/on/demandware.static/-/Library-Sites-PatagoniaShared/default/dw628febaa/images/JP-images/homepage/s26_sq_mens_rodrigo_manns.jpg?q=85&sw=310&",
+    "w": 309,
+    "h": 309,
+    "alt": ""
+   },
+   {
+    "src": "https://dis.patagonia.jp/dw/image/v2/bdjb_PRD/on/demandware.static/-/Library-Sites-PatagoniaShared/default/dw9d1bce72/images/JP-images/homepage/s26_sq_womens_eric_bissell.jpg?q=85&sw=310&",
+    "w": 309,
+    "h": 309,
+    "alt": ""
+   },
+   {
+    "src": "https://dis.patagonia.jp/dw/image/v2/bdjb_PRD/on/demandware.static/-/Library-Sites-PatagoniaShared/default/dw14b993b0/images/JP-images/homepage/s26_sq_kids_ash_adams.jpg?q=85&sw=310&",
+    "w": 309,
+    "h": 309,
+    "alt": ""
+   },
+   {
+    "src": "https://dis.patagonia.jp/dw/image/v2/bdjb_PRD/on/demandware.static/-/Library-Sites-PatagoniaShared/default/dw3454292b/images/JP-images/homepage/s26_pacs_steven_gnam_2.jpg?q=85&sw=310&",
+    "w": 309,
+    "h": 309,
+    "alt": ""
+   },
+   {
+    "src": "https://dis.patagonia.jp/dw/image/v2/bdjb_PRD/on/demandware.static/-/Library-Sites-PatagoniaShared/default/dw3af4badb/routing-tile/worn-wear-routing.jpg?q=85&sw=310&",
+    "w": 309,
+    "h": 309,
+    "alt": ""
+   },
+   {
+    "src": "https://dis.patagonia.jp/dw/image/v2/bdjb_PRD/on/demandware.static/-/Library-Sites-PatagoniaShared/default/dw172ab970/images/JP-images/homepage/1_1_MG_0051.jpg?q=40&sw=50&",
+    "w": 309,
+    "h": 309,
+    "alt": ""
+   },
+   {
+    "src": "https://dis.patagonia.jp/dw/image/v2/bdjb_PRD/on/demandware.static/-/Library-Sites-PatagoniaShared/default/dwfed6be73/routing-tile/books-routing.jpg?q=40&sw=50&",
+    "w": 309,
+    "h": 309,
+    "alt": ""
+   },
+   {
+    "src": "https://www.patagonia.jp/on/demandware.static/-/Library-Sites-PatagoniaShared/default/dw155aaa2b/images/JP-images/mobile-app/100126_app_2026FW.jpg?$staticlink$",
+    "w": 280,
+    "h": 280,
+    "alt": "Patagonia"
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "ヒラギノ角ゴ Pro W6",
+   "ヒラギノ角ゴ Pro W3"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 712,
+ "sp": {
+  "h1": "Worth it.",
+  "h1Style": {
+   "fontFamily": "\"ヒラギノ角ゴ Pro W3\", \"Hiragino Kaku Gothic Pro W3\", \"ヒラギノ角ゴ Pro\", \"Hiragino Kaku Gothic Pro\", ヒラギノ角ゴ, \"Hiragino Kaku Gothic\"",
+   "fontSize": "36px",
+   "fontWeight": "700",
+   "lineHeight": "48.6px",
+   "letterSpacing": "-0.72px",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 18,
+    "y": 208,
+    "w": 354,
+    "h": 69
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "地球が私たちの唯一の株主",
+   "新着＆おすすめ",
+   "新着製品",
+   "すべて見る",
+   "メンズ",
+   "ウィメンズ",
+   "キッズ＆ベビー",
+   "バッグ＆ギア",
+   "帽子＆アクセサリー",
+   "おすすめ",
+   "フーディニ・ジャケット",
+   "フィヨルド・フランネル・シャツ"
+  ],
+  "videos": [
+   {
+    "src": "https://www.patagonia.com/media/marketing/videos/f26_worth_it_ambient_hero_8s_HD_h264_16x9_w.mp4",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 390,
+    "h": 375,
+    "playing": true
+   }
+  ],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://dis.patagonia.jp/dw/image/v2/bdjb_PRD/on/demandware.static/-/Library-Sites-PatagoniaShared/default/dw628febaa/images/JP-images/homepage/s26_sq_mens_rodrigo_manns.jpg?q=85&sw=668&",
+    "w": 324,
+    "h": 324,
+    "alt": ""
+   },
+   {
+    "src": "https://dis.patagonia.jp/dw/image/v2/bdjb_PRD/on/demandware.static/-/Library-Sites-PatagoniaShared/default/dw628febaa/images/JP-images/homepage/s26_sq_mens_rodrigo_manns.jpg?q=40&sw=50&",
+    "w": 324,
+    "h": 324,
+    "alt": ""
+   },
+   {
+    "src": "https://dis.patagonia.jp/dw/image/v2/bdjb_PRD/on/demandware.static/-/Library-Sites-PatagoniaShared/default/dw9d1bce72/images/JP-images/homepage/s26_sq_womens_eric_bissell.jpg?q=85&sw=668&",
+    "w": 324,
+    "h": 324,
+    "alt": ""
+   },
+   {
+    "src": "https://dis.patagonia.jp/dw/image/v2/bdjb_PRD/on/demandware.static/-/Library-Sites-PatagoniaShared/default/dw9d1bce72/images/JP-images/homepage/s26_sq_womens_eric_bissell.jpg?q=40&sw=50&",
+    "w": 324,
+    "h": 324,
+    "alt": ""
+   },
+   {
+    "src": "https://dis.patagonia.jp/dw/image/v2/bdjb_PRD/on/demandware.static/-/Library-Sites-PatagoniaShared/default/dw14b993b0/images/JP-images/homepage/s26_sq_kids_ash_adams.jpg?q=40&sw=50&",
+    "w": 324,
+    "h": 324,
+    "alt": ""
+   },
+   {
+    "src": "https://dis.patagonia.jp/dw/image/v2/bdjb_PRD/on/demandware.static/-/Library-Sites-PatagoniaShared/default/dw3454292b/images/JP-images/homepage/s26_pacs_steven_gnam_2.jpg?q=40&sw=50&",
+    "w": 324,
+    "h": 324,
+    "alt": ""
+   },
+   {
+    "src": "https://dis.patagonia.jp/dw/image/v2/bdjb_PRD/on/demandware.static/-/Library-Sites-PatagoniaShared/default/dw3af4badb/routing-tile/worn-wear-routing.jpg?q=40&sw=50&",
+    "w": 324,
+    "h": 324,
+    "alt": ""
+   },
+   {
+    "src": "https://dis.patagonia.jp/dw/image/v2/bdjb_PRD/on/demandware.static/-/Library-Sites-PatagoniaShared/default/dw172ab970/images/JP-images/homepage/1_1_MG_0051.jpg?q=40&sw=50&",
+    "w": 324,
+    "h": 324,
+    "alt": ""
+   },
+   {
+    "src": "https://dis.patagonia.jp/dw/image/v2/bdjb_PRD/on/demandware.static/-/Library-Sites-PatagoniaShared/default/dwfed6be73/routing-tile/books-routing.jpg?q=40&sw=50&",
+    "w": 324,
+    "h": 324,
+    "alt": ""
+   },
+   {
+    "src": "https://www.patagonia.jp/on/demandware.static/-/Library-Sites-PatagoniaShared/default/dw155aaa2b/images/JP-images/mobile-app/100126_app_2026FW.jpg?$staticlink$",
+    "w": 280,
+    "h": 280,
+    "alt": "Patagonia"
+   }
+  ],
+  "pageHeight": 5549
+ },
+ "elapsedSec": 13.7
+}

@@ -1,0 +1,106 @@
+{
+ "slug": "moneda-com",
+ "url": "https://moneda.com/",
+ "capturedAt": "2026-10-12 21:26:26",
+ "files": {
+  "pc_f0": "moneda-com-pc-f0.jpg",
+  "pc_f1": "moneda-com-pc-f1.jpg",
+  "pc_f2": "moneda-com-pc-f2.jpg",
+  "pc_scroll": "moneda-com-pc-scroll.jpg",
+  "sp": "moneda-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": "safe-accept",
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://moneda.com/",
+  "title": "Moneda: Self-Custody Accounts That Earn, Send & Spend",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 9655,
+  "h1": "No Banks. No Borders. Just Better Money.",
+  "h1Style": {
+   "fontFamily": "Inter, Arial, sans-serif",
+   "fontSize": "16px",
+   "fontWeight": "500",
+   "lineHeight": "21.6px",
+   "letterSpacing": "normal",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 171,
+    "y": 307,
+    "w": 1098,
+    "h": 177
+   }
+  },
+  "lead": "Download The App Download The App",
+  "ctas": [],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://moneda.com/home/moneda-home-hero-p-1600.avif",
+    "w": 1440,
+    "h": 900,
+    "alt": "Woman wearing a grey blazer and light jeans sitting on a white chair, holding a "
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Inter"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "No Banks. No Borders. Just Better Money.",
+  "h1Style": {
+   "fontFamily": "Inter, Arial, sans-serif",
+   "fontSize": "16px",
+   "fontWeight": "500",
+   "lineHeight": "21.6px",
+   "letterSpacing": "normal",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 18,
+    "y": 242,
+    "w": 353,
+    "h": 204
+   }
+  },
+  "lead": "Download The App Download The App",
+  "ctas": [],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://moneda.com/home/moneda-home-hero-p-1080.avif",
+    "w": 390,
+    "h": 844,
+    "alt": "Woman wearing a grey blazer and light jeans sitting on a white chair, holding a "
+   }
+  ],
+  "pageHeight": 9887
+ },
+ "elapsedSec": 13.4
+}

@@ -1,0 +1,265 @@
+{
+ "slug": "sony-com-ja-sonyinfo",
+ "url": "https://www.sony.com/ja/SonyInfo/",
+ "capturedAt": "2026-10-12 21:09:24",
+ "files": {
+  "pc_f0": "sony-com-ja-sonyinfo-pc-f0.jpg",
+  "pc_f1": "sony-com-ja-sonyinfo-pc-f1.jpg",
+  "pc_f2": "sony-com-ja-sonyinfo-pc-f2.jpg",
+  "pc_scroll": "sony-com-ja-sonyinfo-pc-scroll.jpg",
+  "sp": "sony-com-ja-sonyinfo-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": "#onetrust-accept-btn-handler",
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.sony.com/ja/",
+  "title": "ホーム | ソニーグループポータル",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 3211,
+  "h1": "",
+  "h1Style": {
+   "fontFamily": "\"SST W20 Roman\", \"SST W55 Regular\", Arial, \"Helvetica Neue\", Meiryo, \"Hiragino Kaku Gothic ProN\", sans-serif",
+   "fontSize": "16px",
+   "fontWeight": "700",
+   "lineHeight": "16px",
+   "letterSpacing": "normal",
+   "color": "rgb(0, 0, 0)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 125,
+    "y": 1,
+    "w": 108,
+    "h": 67
+   }
+  },
+  "lead": "メニュー",
+  "ctas": [
+   "事業・製品 開く",
+   "ソニーグループについて 開く",
+   "テクノロジー 開く",
+   "サステナビリティ 開く",
+   "デザイン 開く",
+   "人材・採用情報 開く",
+   "投資家情報 開く",
+   "映画『バッド・ルーテナント：トウキョウ』10/23（金）公開を再生する",
+   "映画『GROTESQQQUE-グロテスク-』11/6（金）公開を再生する",
+   "日向坂46『イチャイチャ虫』を再生する",
+   "映画『バイオハザード』10/9（金）公開を再生する",
+   "映画『バッド・ルーテナント：トウキョウ』10/23（金）公開を再生する"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.sony.com/ja/top/2021/img/ja_20260924_Wolverine_image_l.jpg",
+    "w": 695,
+    "h": 390,
+    "alt": ""
+   },
+   {
+    "src": "https://www.sony.com/ja/top/2021/img/ja_20261005_BLT-TOKYO_image_l.jpg",
+    "w": 695,
+    "h": 390,
+    "alt": ""
+   },
+   {
+    "src": "https://www.sony.com/ja/top/2021/img/ja_20261005_GROTESQQQUE_image_l.jpg",
+    "w": 695,
+    "h": 390,
+    "alt": ""
+   },
+   {
+    "src": "https://www.sony.com/ja/top/2021/img/ja_20260924_hinatazaka46-Ityaityamushi_image_l.jpg",
+    "w": 695,
+    "h": 390,
+    "alt": ""
+   },
+   {
+    "src": "https://www.sony.com/ja/top/2021/img/ja_20260924_Jikyu300_image_l.jpg",
+    "w": 695,
+    "h": 390,
+    "alt": ""
+   },
+   {
+    "src": "https://www.sony.com/ja/top/2021/img/ja_20260924_BioHazard_image_l.jpg",
+    "w": 695,
+    "h": 390,
+    "alt": ""
+   },
+   {
+    "src": "https://www.sony.com/ja/top/2021/img/ja_20260924_Wolverine_image_l.jpg",
+    "w": 695,
+    "h": 390,
+    "alt": ""
+   },
+   {
+    "src": "https://www.sony.com/ja/top/2021/img/ja_20261005_BLT-TOKYO_image_l.jpg",
+    "w": 695,
+    "h": 390,
+    "alt": ""
+   },
+   {
+    "src": "https://www.sony.com/ja/top/2021/img/ja_20261005_GROTESQQQUE_image_l.jpg",
+    "w": 695,
+    "h": 390,
+    "alt": ""
+   },
+   {
+    "src": "https://www.sony.com/ja/top/2021/img/ja_20260924_hinatazaka46-Ityaityamushi_image_l.jpg",
+    "w": 695,
+    "h": 390,
+    "alt": ""
+   },
+   {
+    "src": "https://www.sony.com/ja/top/2021/img/ja_20260924_Jikyu300_image_l.jpg",
+    "w": 695,
+    "h": 390,
+    "alt": ""
+   },
+   {
+    "src": "https://www.sony.com/ja/top/2021/img/ja_20260924_BioHazard_image_l.jpg",
+    "w": 695,
+    "h": 390,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "SST W20 Roman",
+   "SST W20 Bold"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": true,
+   "lottie": false
+  },
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "",
+  "h1Style": {
+   "fontFamily": "\"SST W20 Roman\", \"SST W55 Regular\", Arial, \"Helvetica Neue\", Meiryo, \"Hiragino Kaku Gothic ProN\", sans-serif",
+   "fontSize": "16px",
+   "fontWeight": "700",
+   "lineHeight": "16px",
+   "letterSpacing": "normal",
+   "color": "rgb(0, 0, 0)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 147,
+    "y": 1,
+    "w": 96,
+    "h": 61
+   }
+  },
+  "lead": "メニュー",
+  "ctas": [
+   "メニュー",
+   "事業・製品 開く",
+   "ソニーフィナンシャルグループ",
+   "ソニーグループについて 開く",
+   "ソニーグループについて トップ",
+   "CEOメッセージ",
+   "Creative Entertainment Vision",
+   "Sony's Purpose & Values",
+   "事業ポートフォリオ",
+   "コーポレート・ガバナンス",
+   "歴史沿革",
+   "ニュースリリース"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "",
+    "w": 291,
+    "h": 218,
+    "alt": ""
+   },
+   {
+    "src": "",
+    "w": 291,
+    "h": 218,
+    "alt": ""
+   },
+   {
+    "src": "",
+    "w": 291,
+    "h": 218,
+    "alt": ""
+   },
+   {
+    "src": "",
+    "w": 291,
+    "h": 218,
+    "alt": ""
+   },
+   {
+    "src": "https://www.sony.com/ja/top/2021/img/ja_20260924_Jikyu300_image_s.jpg",
+    "w": 291,
+    "h": 218,
+    "alt": ""
+   },
+   {
+    "src": "https://www.sony.com/ja/top/2021/img/ja_20260924_BioHazard_image_s.jpg",
+    "w": 291,
+    "h": 218,
+    "alt": ""
+   },
+   {
+    "src": "https://www.sony.com/ja/top/2021/img/ja_20260924_Wolverine_image_s.jpg",
+    "w": 291,
+    "h": 218,
+    "alt": ""
+   },
+   {
+    "src": "https://www.sony.com/ja/top/2021/img/ja_20261005_BLT-TOKYO_image_s.jpg",
+    "w": 291,
+    "h": 218,
+    "alt": ""
+   },
+   {
+    "src": "https://www.sony.com/ja/top/2021/img/ja_20261005_GROTESQQQUE_image_s.jpg",
+    "w": 291,
+    "h": 218,
+    "alt": ""
+   },
+   {
+    "src": "",
+    "w": 291,
+    "h": 218,
+    "alt": ""
+   },
+   {
+    "src": "",
+    "w": 291,
+    "h": 218,
+    "alt": ""
+   },
+   {
+    "src": "",
+    "w": 291,
+    "h": 218,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 5444
+ },
+ "elapsedSec": 16.2
+}

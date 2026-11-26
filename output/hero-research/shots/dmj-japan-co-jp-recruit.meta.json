@@ -1,0 +1,187 @@
+{
+ "slug": "dmj-japan-co-jp-recruit",
+ "url": "https://dmj-japan.co.jp/recruit/",
+ "capturedAt": "2026-10-12 21:13:50",
+ "files": {
+  "pc_f0": "dmj-japan-co-jp-recruit-pc-f0.jpg",
+  "pc_f1": "dmj-japan-co-jp-recruit-pc-f1.jpg",
+  "pc_f2": "dmj-japan-co-jp-recruit-pc-f2.jpg",
+  "pc_scroll": "dmj-japan-co-jp-recruit-pc-scroll.jpg",
+  "sp": "dmj-japan-co-jp-recruit-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://dmj-japan.co.jp/recruit/",
+  "title": "採用情報｜株式会社デジタルマーケティングジャパン",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 16352,
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [
+   "エントリーはこちら"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://dmj-japan.co.jp/wp-content/themes/dmj/assets/img/common/logo-red.webp",
+    "w": 97,
+    "h": 41,
+    "alt": "DMJ DIGITAL MARKETING JAPAN"
+   },
+   {
+    "src": "https://dmj-japan.co.jp/wp-content/themes/dmj/assets/img/recruit/top/mv-bg.webp",
+    "w": 1827,
+    "h": 900,
+    "alt": ""
+   },
+   {
+    "src": "https://dmj-japan.co.jp/wp-content/themes/dmj/assets/img/recruit/top/mv-bg.webp",
+    "w": 1827,
+    "h": 900,
+    "alt": ""
+   },
+   {
+    "src": "https://dmj-japan.co.jp/wp-content/themes/dmj/assets/img/recruit/top/bg01.webp",
+    "w": 1440,
+    "h": 900,
+    "alt": ""
+   },
+   {
+    "src": "https://dmj-japan.co.jp/wp-content/themes/dmj/assets/img/recruit/top/bg02.webp",
+    "w": 1440,
+    "h": 900,
+    "alt": ""
+   },
+   {
+    "src": "https://dmj-japan.co.jp/wp-content/themes/dmj/assets/img/recruit/top/bg03.webp",
+    "w": 1440,
+    "h": 900,
+    "alt": ""
+   },
+   {
+    "src": "https://dmj-japan.co.jp/wp-content/themes/dmj/assets/img/recruit/top/bg04.webp",
+    "w": 1440,
+    "h": 900,
+    "alt": ""
+   },
+   {
+    "src": "https://dmj-japan.co.jp/wp-content/themes/dmj/assets/img/recruit/top/bg05.webp",
+    "w": 1440,
+    "h": 900,
+    "alt": ""
+   },
+   {
+    "src": "https://dmj-japan.co.jp/wp-content/themes/dmj/assets/img/recruit/top/mv-head.webp",
+    "w": 1112,
+    "h": 299,
+    "alt": "大人の青春は、やり切った先にある。"
+   },
+   {
+    "src": "https://dmj-japan.co.jp/wp-content/themes/dmj/assets/img/recruit/top/mv-txt.webp",
+    "w": 200,
+    "h": 168,
+    "alt": "結果を出した分だけ、キャリアが進む。評価は年次ではなく、すべて成果。 実力で駆け上がるキャリアをここから。"
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Noto Sans JP"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [
+   "代表挨拶",
+   "事業を知る",
+   "メンバー紹介",
+   "経営理念",
+   "募集要項",
+   "採用情報"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://dmj-japan.co.jp/wp-content/themes/dmj/assets/img/recruit/top/mv-bg-sp.webp",
+    "w": 1065,
+    "h": 844,
+    "alt": ""
+   },
+   {
+    "src": "https://dmj-japan.co.jp/wp-content/themes/dmj/assets/img/recruit/top/mv-bg-sp.webp",
+    "w": 1065,
+    "h": 844,
+    "alt": ""
+   },
+   {
+    "src": "https://dmj-japan.co.jp/wp-content/themes/dmj/assets/img/recruit/top/bg01-sp.webp",
+    "w": 390,
+    "h": 844,
+    "alt": ""
+   },
+   {
+    "src": "https://dmj-japan.co.jp/wp-content/themes/dmj/assets/img/recruit/top/bg02-sp.webp",
+    "w": 390,
+    "h": 844,
+    "alt": ""
+   },
+   {
+    "src": "https://dmj-japan.co.jp/wp-content/themes/dmj/assets/img/recruit/top/bg03-sp.webp",
+    "w": 390,
+    "h": 844,
+    "alt": ""
+   },
+   {
+    "src": "https://dmj-japan.co.jp/wp-content/themes/dmj/assets/img/recruit/top/bg04-sp.webp",
+    "w": 390,
+    "h": 844,
+    "alt": ""
+   },
+   {
+    "src": "https://dmj-japan.co.jp/wp-content/themes/dmj/assets/img/recruit/top/bg05-sp.webp",
+    "w": 390,
+    "h": 844,
+    "alt": ""
+   },
+   {
+    "src": "https://dmj-japan.co.jp/wp-content/themes/dmj/assets/img/recruit/top/mv-head-sp.webp",
+    "w": 374,
+    "h": 204,
+    "alt": "大人の青春は、やり切った先にある。"
+   },
+   {
+    "src": "https://dmj-japan.co.jp/wp-content/themes/dmj/assets/img/recruit/top/mv-txt-sp.webp",
+    "w": 257,
+    "h": 62,
+    "alt": "結果を出した分だけ、キャリアが進む。評価は年次ではなく、すべて成果。 実力で駆け上がるキャリアをここから。"
+   }
+  ],
+  "pageHeight": 14478
+ },
+ "elapsedSec": 11.8
+}

@@ -1,0 +1,130 @@
+{
+ "slug": "www-salesforce-com-jp-service",
+ "url": "https://www.salesforce.com/jp/service/",
+ "capturedAt": "2026-10-12 21:09:15",
+ "files": {
+  "pc_f0": "www-salesforce-com-jp-service-pc-f0.jpg",
+  "pc_f1": "www-salesforce-com-jp-service-pc-f1.jpg",
+  "pc_f2": "www-salesforce-com-jp-service-pc-f2.jpg",
+  "pc_scroll": "www-salesforce-com-jp-service-pc-scroll.jpg",
+  "sp": "www-salesforce-com-jp-service-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": "button:has-text('OK')",
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.salesforce.com/jp/service/",
+  "title": "AIを活用した最高のカスタマーサービスソフトウェア | セールスフォース・ジャパン",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 10565,
+  "h1": "Agentforceで無限のサービスを実現",
+  "h1Style": {
+   "fontFamily": "\"Tazugane Info Heavy\", \"Avant Garde for Salesforce\", sans-serif",
+   "fontSize": "53px",
+   "fontWeight": "400",
+   "lineHeight": "64px",
+   "letterSpacing": "-2.184px",
+   "color": "rgb(0, 30, 91)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 80,
+    "y": 328,
+    "w": 510,
+    "h": 128
+   }
+  },
+  "lead": "カスタマーサービス、フィールドサービス、従業員サービスを単一のプラットフォームでつなぎます。Agentforceは、AIエージェント、人の専門知識、信頼できるデータを一つにまとめ、シームレスなエクスペリエンスを実現します。人にしかできないことは人に。残りはAgentforceに任せましょう。",
+  "ctas": [
+   "デモを見る",
+   "無料トライアル"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://wp.sfdcdigital.com/en-us/wp-content/uploads/sites/4/2024/06/icon-service.svg?w=1024",
+    "w": 56,
+    "h": 56,
+    "alt": ""
+   },
+   {
+    "src": "https://wp.sfdcdigital.com/en-us/wp-content/uploads/sites/4/2025/06/Service-Marquee-2880x900-1.jpg?resize=1536,480",
+    "w": 1440,
+    "h": 508,
+    "alt": ""
+   },
+   {
+    "src": "https://wp.sfdcdigital.com/en-us/wp-content/uploads/sites/4/2025/02/G2_Logo_DarkBlue_RGB.png?w=1024",
+    "w": 56,
+    "h": 56,
+    "alt": "g2のロゴ"
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Tazugane Info Heavy",
+   "Salesforce Sans"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "Agentforceで無限のサービスを実現",
+  "h1Style": {
+   "fontFamily": "\"Tazugane Info Heavy\", \"Avant Garde for Salesforce\", sans-serif",
+   "fontSize": "53px",
+   "fontWeight": "400",
+   "lineHeight": "48px",
+   "letterSpacing": "-1.406px",
+   "color": "rgb(0, 30, 91)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 24,
+    "y": 349,
+    "w": 342,
+    "h": 144
+   }
+  },
+  "lead": "カスタマーサービス、フィールドサービス、従業員サービスを単一のプラットフォームでつなぎます。Agentforceは、AIエージェント、人の専門知識、信頼できるデータを一つにまとめ、シームレスなエクスペリエンスを実現します。人にしかできないことは人に。残りはAgentforceに任せましょう。",
+  "ctas": [
+   "デモを見る"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://wp.sfdcdigital.com/en-us/wp-content/uploads/sites/4/2024/06/icon-service.svg?w=1024",
+    "w": 48,
+    "h": 48,
+    "alt": ""
+   },
+   {
+    "src": "https://wp.sfdcdigital.com/en-us/wp-content/uploads/sites/4/2025/06/Service-marquee-mobile-background.jpg?resize=731,1024",
+    "w": 390,
+    "h": 1076,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 13116
+ },
+ "elapsedSec": 14.7
+}

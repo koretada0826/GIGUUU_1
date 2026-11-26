@@ -1,0 +1,259 @@
+{
+ "slug": "e-daikoku-com-recruit",
+ "url": "https://www.e-daikoku.com/recruit/",
+ "capturedAt": "2026-10-12 21:16:14",
+ "files": {
+  "pc_f0": "e-daikoku-com-recruit-pc-f0.jpg",
+  "pc_f1": "e-daikoku-com-recruit-pc-f1.jpg",
+  "pc_f2": "e-daikoku-com-recruit-pc-f2.jpg",
+  "pc_scroll": "e-daikoku-com-recruit-pc-scroll.jpg",
+  "sp": "e-daikoku-com-recruit-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.e-daikoku.com/recruit/",
+  "title": "大黒屋 採用サイト（新卒・中途）",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 900,
+  "h1": "大黒屋",
+  "h1Style": {
+   "fontFamily": "\"Zen Old Mincho\", serif",
+   "fontSize": "16px",
+   "fontWeight": "400",
+   "lineHeight": "18.4px",
+   "letterSpacing": "normal",
+   "color": "rgb(0, 0, 0)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 23,
+    "y": 15,
+    "w": 155,
+    "h": 93
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "SKIP",
+   "大黒屋",
+   "ABOUT US",
+   "WORK STYLE",
+   "ENVIRONMENT",
+   "FAQ",
+   "NEWS",
+   "新卒採用",
+   "中途採用"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.e-daikoku.com/recruit/assets/img/opening/background.webp",
+    "w": 1440,
+    "h": 900,
+    "alt": ""
+   },
+   {
+    "src": "https://www.e-daikoku.com/recruit/assets/img/opening/background-cut.webp",
+    "w": 1440,
+    "h": 900,
+    "alt": ""
+   },
+   {
+    "src": "https://www.e-daikoku.com/recruit/assets/img/opening/frog-front.webp",
+    "w": 210,
+    "h": 342,
+    "alt": ""
+   },
+   {
+    "src": "https://www.e-daikoku.com/recruit/assets/img/opening/frog-dive.webp",
+    "w": 239,
+    "h": 423,
+    "alt": ""
+   },
+   {
+    "src": "https://www.e-daikoku.com/recruit/assets/img/top-A/catch/pc-catch-kanazawa.webp",
+    "w": 596,
+    "h": 276,
+    "alt": "かえるちゃ！ここでなら。"
+   },
+   {
+    "src": "https://www.e-daikoku.com/recruit/assets/img/top-A/visual/pc-person.webp",
+    "w": 1440,
+    "h": 810,
+    "alt": ""
+   },
+   {
+    "src": "https://www.e-daikoku.com/recruit/assets/img/top-A/visual/pc-box.webp",
+    "w": 274,
+    "h": 215,
+    "alt": ""
+   },
+   {
+    "src": "https://www.e-daikoku.com/recruit/assets/img/top-A/visual/pc-gloves.webp",
+    "w": 144,
+    "h": 82,
+    "alt": ""
+   },
+   {
+    "src": "https://www.e-daikoku.com/recruit/assets/img/top-A/visual/pc-small-loupe.webp",
+    "w": 92,
+    "h": 83,
+    "alt": ""
+   },
+   {
+    "src": "https://www.e-daikoku.com/recruit/assets/img/top-A/visual/pc-headphones.webp",
+    "w": 216,
+    "h": 218,
+    "alt": ""
+   },
+   {
+    "src": "https://www.e-daikoku.com/recruit/assets/img/top-A/visual/pc-bag.webp",
+    "w": 1440,
+    "h": 305,
+    "alt": ""
+   },
+   {
+    "src": "https://www.e-daikoku.com/recruit/assets/img/top-A/visual/pc-accessories.webp",
+    "w": 216,
+    "h": 218,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [
+   {
+    "bg": "url(\"https://www.e-daikoku.com/recruit/assets/img/common/logo.webp\")",
+    "w": 155,
+    "h": 93
+   }
+  ],
+  "firstScreenFonts": [
+   "Zen Old Mincho"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 0,
+ "sp": {
+  "h1": "大黒屋",
+  "h1Style": {
+   "fontFamily": "\"Zen Old Mincho\", serif",
+   "fontSize": "16px",
+   "fontWeight": "400",
+   "lineHeight": "18.4px",
+   "letterSpacing": "normal",
+   "color": "rgb(0, 0, 0)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 8,
+    "y": 4,
+    "w": 83,
+    "h": 57
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "SKIP",
+   "大黒屋",
+   "新卒採用",
+   "中途採用"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.e-daikoku.com/recruit/assets/img/opening/background.webp",
+    "w": 390,
+    "h": 844,
+    "alt": ""
+   },
+   {
+    "src": "https://www.e-daikoku.com/recruit/assets/img/opening/background-cut.webp",
+    "w": 390,
+    "h": 844,
+    "alt": ""
+   },
+   {
+    "src": "https://www.e-daikoku.com/recruit/assets/img/opening/frog-front.webp",
+    "w": 188,
+    "h": 304,
+    "alt": ""
+   },
+   {
+    "src": "https://www.e-daikoku.com/recruit/assets/img/opening/frog-dive.webp",
+    "w": 188,
+    "h": 304,
+    "alt": ""
+   },
+   {
+    "src": "https://www.e-daikoku.com/recruit/assets/img/opening/loupe.webp",
+    "w": 7136,
+    "h": 15443,
+    "alt": ""
+   },
+   {
+    "src": "https://www.e-daikoku.com/recruit/assets/img/top-A/catch/sm-catch-kyoto.webp",
+    "w": 346,
+    "h": 180,
+    "alt": "かえるわ！ここでなら。"
+   },
+   {
+    "src": "https://www.e-daikoku.com/recruit/assets/img/top-A/visual/sm-person.webp",
+    "w": 390,
+    "h": 558,
+    "alt": ""
+   },
+   {
+    "src": "https://www.e-daikoku.com/recruit/assets/img/top-A/visual/sm-box.webp",
+    "w": 181,
+    "h": 147,
+    "alt": ""
+   },
+   {
+    "src": "https://www.e-daikoku.com/recruit/assets/img/top-A/visual/sm-gloves.webp",
+    "w": 101,
+    "h": 104,
+    "alt": ""
+   },
+   {
+    "src": "https://www.e-daikoku.com/recruit/assets/img/top-A/visual/sm-small-loupe.webp",
+    "w": 60,
+    "h": 56,
+    "alt": ""
+   },
+   {
+    "src": "https://www.e-daikoku.com/recruit/assets/img/top-A/visual/sm-headphones.webp",
+    "w": 61,
+    "h": 57,
+    "alt": ""
+   },
+   {
+    "src": "https://www.e-daikoku.com/recruit/assets/img/top-A/visual/sm-bag.webp",
+    "w": 390,
+    "h": 148,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 844
+ },
+ "elapsedSec": 14.0
+}

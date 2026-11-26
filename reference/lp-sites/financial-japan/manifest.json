@@ -1,0 +1,9 @@
+{
+  "source": "https://financialjapan.jp/recruit/",
+  "final_url": "https://financialjapan.jp/recruit/",
+  "assets_saved": 236,
+  "bytes_saved": 51336873,
+  "failed": {
+    "https://financialjapan.jp/wp-content/themes/FINANCIALJAPAN/assets/css/block.min.css?ver=1.0.0": "Command '['curl', '-fsSL', '--max-time', '20', '--max-filesize', '16777216', '--resolve', 'financialjapan.jp:443:3.173.197.122', '-w', '\\n__MIRROR_META__%{url_effective}\\t%{content_type}', 'https://financialjapan.jp/wp-content/themes/FINANCIALJAPAN/assets/css/block.min.css?ver=1.0.0']' returned non-zero exit status 56."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "giguuu-kaizen",
+  "private": true,
+  "scripts": {
+    "test:ui": "playwright test",
+    "test:ui:update": "playwright test --update-snapshots",
+    "test:ui:report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.61.1"
+  }
+}

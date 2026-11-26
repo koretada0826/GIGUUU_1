@@ -1,0 +1,146 @@
+{
+ "slug": "hioscar-com",
+ "url": "https://www.hioscar.com/",
+ "capturedAt": "2026-10-12 21:16:29",
+ "files": {
+  "pc_f0": "hioscar-com-pc-f0.jpg",
+  "pc_f1": "hioscar-com-pc-f1.jpg",
+  "pc_f2": "hioscar-com-pc-f2.jpg",
+  "pc_scroll": "hioscar-com-pc-scroll.jpg",
+  "sp": "hioscar-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.hioscar.com/",
+  "title": "Health insurance made for real life",
+  "lang": "en-US",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 14911,
+  "h1": "Health insurance made for real life",
+  "h1Style": {
+   "fontFamily": "display, displayFull, ui-serif, Georgia, serif",
+   "fontSize": "120px",
+   "fontWeight": "400",
+   "lineHeight": "120px",
+   "letterSpacing": "-1.2px",
+   "color": "rgb(247, 245, 235)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 16,
+    "y": 500,
+    "w": 1408,
+    "h": 240
+   }
+  },
+  "lead": "Shop plans Find care",
+  "ctas": [
+   "Get Coverage",
+   "For Members",
+   "For Employers",
+   "For Brokers",
+   "For Providers",
+   "English",
+   "Español",
+   "Log in",
+   "Find a Plan",
+   "Shop plans",
+   "Find care"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.hioscar.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fjnbz686p%2Fhioscar_production%2F95467783f183da1cb6bf90cdab98c95905799347-2880x1920.jpg%3Fw%3D3840%26fm%3Dwebp%26fit%3Dmax",
+    "w": 1440,
+    "h": 960,
+    "alt": ""
+   },
+   {
+    "src": "https://www.hioscar.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fjnbz686p%2Fhioscar_production%2Fd9131fd4c8826504d49a063647fc82161b6b9e9c-2880x1920.jpg%3Fw%3D3840%26fm%3Dwebp%26fit%3Dmax",
+    "w": 397,
+    "h": 337,
+    "alt": ""
+   },
+   {
+    "src": "https://www.hioscar.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fjnbz686p%2Fhioscar_production%2F9bfa4a1fa9680ec186b4ee7a996acefdfd712cb6-2880x1920.jpg%3Fw%3D3840%26fm%3Dwebp%26fit%3Dmax",
+    "w": 417,
+    "h": 334,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "sans",
+   "display"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(247, 245, 235)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "Health insurance made for real life",
+  "h1Style": {
+   "fontFamily": "display, displayFull, ui-serif, Georgia, serif",
+   "fontSize": "51px",
+   "fontWeight": "400",
+   "lineHeight": "51px",
+   "letterSpacing": "-0.51px",
+   "color": "rgb(247, 245, 235)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 16,
+    "y": 598,
+    "w": 358,
+    "h": 102
+   }
+  },
+  "lead": "Shop plans Find care",
+  "ctas": [
+   "Shop plans",
+   "Find care"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.hioscar.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fjnbz686p%2Fhioscar_production%2F95467783f183da1cb6bf90cdab98c95905799347-2880x1920.jpg%3Fw%3D3840%26fm%3Dwebp%26fit%3Dmax",
+    "w": 1266,
+    "h": 844,
+    "alt": ""
+   },
+   {
+    "src": "https://www.hioscar.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fjnbz686p%2Fhioscar_production%2Fd9131fd4c8826504d49a063647fc82161b6b9e9c-2880x1920.jpg%3Fw%3D3840%26fm%3Dwebp%26fit%3Dmax",
+    "w": 155,
+    "h": 197,
+    "alt": ""
+   },
+   {
+    "src": "https://www.hioscar.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fjnbz686p%2Fhioscar_production%2F9bfa4a1fa9680ec186b4ee7a996acefdfd712cb6-2880x1920.jpg%3Fw%3D3840%26fm%3Dwebp%26fit%3Dmax",
+    "w": 155,
+    "h": 196,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 13495
+ },
+ "elapsedSec": 13.8
+}

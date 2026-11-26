@@ -1,0 +1,386 @@
+[
+  {
+    "variant": "01-lions",
+    "width": 1280,
+    "overflow": false,
+    "headingVisible": true,
+    "ctaVisible": true,
+    "miniOverlapsActions": false,
+    "miniOverlapsCopy": [],
+    "miniPosition": [
+      523,
+      68,
+      233,
+      350
+    ],
+    "miniSource": "../../../assets/concierge/president-cutout/poster.webp",
+    "miniVisible": true,
+    "brokenImages": 0,
+    "headline": "本当の現場を知り尽くした、コールセンター経営者がつくったAI",
+    "links": [
+      "../../../index.html#telemo-how",
+      "../../../index.html#contact"
+    ],
+    "errors": []
+  },
+  {
+    "variant": "01-lions",
+    "width": 390,
+    "overflow": false,
+    "headingVisible": true,
+    "ctaVisible": true,
+    "miniOverlapsActions": false,
+    "miniOverlapsCopy": [],
+    "miniPosition": [
+      105,
+      63,
+      180,
+      270
+    ],
+    "miniSource": "../../../assets/concierge/president-cutout/poster.webp",
+    "miniVisible": true,
+    "brokenImages": 0,
+    "headline": "本当の現場を知り尽くした、コールセンター経営者がつくったAI",
+    "links": [
+      "../../../index.html#telemo-how",
+      "../../../index.html#contact"
+    ],
+    "errors": []
+  },
+  {
+    "variant": "02-rapidshot",
+    "width": 1280,
+    "overflow": false,
+    "headingVisible": true,
+    "ctaVisible": true,
+    "miniOverlapsActions": false,
+    "miniOverlapsCopy": [],
+    "miniPosition": [
+      554,
+      88,
+      300,
+      450
+    ],
+    "miniSource": "../../../assets/concierge/president-cutout/poster.webp",
+    "miniVisible": true,
+    "brokenImages": 0,
+    "headline": "本当の現場を知り尽くした、コールセンター経営者がつくったAI",
+    "links": [
+      "../../../index.html#telemo-how",
+      "../../../index.html#contact"
+    ],
+    "errors": []
+  },
+  {
+    "variant": "02-rapidshot",
+    "width": 390,
+    "overflow": false,
+    "headingVisible": true,
+    "ctaVisible": true,
+    "miniOverlapsActions": false,
+    "miniOverlapsCopy": [],
+    "miniPosition": [
+      97,
+      70,
+      197,
+      295
+    ],
+    "miniSource": "../../../assets/concierge/president-cutout/poster.webp",
+    "miniVisible": true,
+    "brokenImages": 0,
+    "headline": "本当の現場を知り尽くした、コールセンター経営者がつくったAI",
+    "links": [
+      "../../../index.html#telemo-how",
+      "../../../index.html#contact"
+    ],
+    "errors": []
+  },
+  {
+    "variant": "03-pilot",
+    "width": 1280,
+    "overflow": false,
+    "headingVisible": true,
+    "ctaVisible": true,
+    "miniOverlapsActions": false,
+    "miniOverlapsCopy": [],
+    "miniPosition": [
+      1092,
+      544,
+      160,
+      240
+    ],
+    "miniSource": "../../../assets/concierge/president-cutout/poster.webp",
+    "miniVisible": true,
+    "brokenImages": 0,
+    "headline": "本当の現場を知り尽くした、コールセンター経営者がつくったAI",
+    "links": [
+      "../../../index.html#telemo-how",
+      "../../../index.html#contact"
+    ],
+    "errors": []
+  },
+  {
+    "variant": "03-pilot",
+    "width": 390,
+    "overflow": false,
+    "headingVisible": true,
+    "ctaVisible": true,
+    "miniOverlapsActions": false,
+    "miniOverlapsCopy": [],
+    "miniPosition": [
+      252,
+      652,
+      120,
+      180
+    ],
+    "miniSource": "../../../assets/concierge/president-cutout/poster.webp",
+    "miniVisible": true,
+    "brokenImages": 0,
+    "headline": "本当の現場を知り尽くした、コールセンター経営者がつくったAI",
+    "links": [
+      "../../../index.html#telemo-how",
+      "../../../index.html#contact"
+    ],
+    "errors": []
+  },
+  {
+    "variant": "04-kio",
+    "width": 1280,
+    "overflow": false,
+    "headingVisible": true,
+    "ctaVisible": true,
+    "miniOverlapsActions": false,
+    "miniOverlapsCopy": [],
+    "miniPosition": [
+      484,
+      238,
+      287,
+      430
+    ],
+    "miniSource": "../../../assets/concierge/president-cutout/poster.webp",
+    "miniVisible": true,
+    "brokenImages": 0,
+    "headline": "本当の現場を知り尽くした、コールセンター経営者がつくったAI",
+    "links": [
+      "../../../index.html#telemo-how",
+      "../../../index.html#contact"
+    ],
+    "errors": []
+  },
+  {
+    "variant": "04-kio",
+    "width": 390,
+    "overflow": false,
+    "headingVisible": true,
+    "ctaVisible": true,
+    "miniOverlapsActions": false,
+    "miniOverlapsCopy": [],
+    "miniPosition": [
+      123,
+      135,
+      207,
+      310
+    ],
+    "miniSource": "../../../assets/concierge/president-cutout/poster.webp",
+    "miniVisible": true,
+    "brokenImages": 0,
+    "headline": "本当の現場を知り尽くした、コールセンター経営者がつくったAI",
+    "links": [
+      "../../../index.html#telemo-how",
+      "../../../index.html#contact"
+    ],
+    "errors": []
+  },
+  {
+    "variant": "05-dars",
+    "width": 1280,
+    "overflow": false,
+    "headingVisible": true,
+    "ctaVisible": true,
+    "miniOverlapsActions": false,
+    "miniOverlapsCopy": [],
+    "miniPosition": [
+      169,
+      423,
+      220,
+      313
+    ],
+    "miniSource": "../../../assets/concierge/president-cutout/poster.webp",
+    "miniVisible": true,
+    "brokenImages": 0,
+    "headline": "本当の現場を知り尽くした、コールセンター経営者がつくったAI",
+    "links": [
+      "../../../index.html#telemo-how",
+      "../../../index.html#contact"
+    ],
+    "errors": []
+  },
+  {
+    "variant": "05-dars",
+    "width": 390,
+    "overflow": false,
+    "headingVisible": true,
+    "ctaVisible": true,
+    "miniOverlapsActions": false,
+    "miniOverlapsCopy": [],
+    "miniPosition": [
+      47,
+      225,
+      169,
+      240
+    ],
+    "miniSource": "../../../assets/concierge/president-cutout/poster.webp",
+    "miniVisible": true,
+    "brokenImages": 0,
+    "headline": "本当の現場を知り尽くした、コールセンター経営者がつくったAI",
+    "links": [
+      "../../../index.html#telemo-how",
+      "../../../index.html#contact"
+    ],
+    "errors": []
+  },
+  {
+    "variant": "06-koikeya",
+    "width": 1280,
+    "overflow": false,
+    "headingVisible": true,
+    "ctaVisible": true,
+    "miniOverlapsActions": false,
+    "miniOverlapsCopy": [],
+    "miniPosition": [
+      547,
+      194,
+      187,
+      280
+    ],
+    "miniSource": "../../../assets/concierge/president-cutout/poster.webp",
+    "miniVisible": true,
+    "brokenImages": 0,
+    "headline": "本当の現場を知り尽くした、コールセンター経営者がつくったAI",
+    "links": [
+      "../../../index.html#telemo-how",
+      "../../../index.html#contact"
+    ],
+    "errors": []
+  },
+  {
+    "variant": "06-koikeya",
+    "width": 390,
+    "overflow": false,
+    "headingVisible": true,
+    "ctaVisible": true,
+    "miniOverlapsActions": false,
+    "miniOverlapsCopy": [],
+    "miniPosition": [
+      112,
+      165,
+      167,
+      250
+    ],
+    "miniSource": "../../../assets/concierge/president-cutout/poster.webp",
+    "miniVisible": true,
+    "brokenImages": 0,
+    "headline": "本当の現場を知り尽くした、コールセンター経営者がつくったAI",
+    "links": [
+      "../../../index.html#telemo-how",
+      "../../../index.html#contact"
+    ],
+    "errors": []
+  },
+  {
+    "variant": "07-esneaker",
+    "width": 1280,
+    "overflow": false,
+    "headingVisible": true,
+    "ctaVisible": true,
+    "miniOverlapsActions": false,
+    "miniOverlapsCopy": [],
+    "miniPosition": [
+      307,
+      220,
+      253,
+      380
+    ],
+    "miniSource": "../../../assets/concierge/president-cutout/poster.webp",
+    "miniVisible": true,
+    "brokenImages": 0,
+    "headline": "本当の現場を知り尽くした、コールセンター経営者がつくったAI",
+    "links": [
+      "../../../index.html#telemo-how",
+      "../../../index.html#contact"
+    ],
+    "errors": []
+  },
+  {
+    "variant": "07-esneaker",
+    "width": 390,
+    "overflow": false,
+    "headingVisible": true,
+    "ctaVisible": true,
+    "miniOverlapsActions": false,
+    "miniOverlapsCopy": [],
+    "miniPosition": [
+      62,
+      199,
+      197,
+      295
+    ],
+    "miniSource": "../../../assets/concierge/president-cutout/poster.webp",
+    "miniVisible": true,
+    "brokenImages": 0,
+    "headline": "本当の現場を知り尽くした、コールセンター経営者がつくったAI",
+    "links": [
+      "../../../index.html#telemo-how",
+      "../../../index.html#contact"
+    ],
+    "errors": []
+  },
+  {
+    "variant": "08-zelda",
+    "width": 1280,
+    "overflow": false,
+    "headingVisible": true,
+    "ctaVisible": true,
+    "miniOverlapsActions": false,
+    "miniOverlapsCopy": [],
+    "miniPosition": [
+      543,
+      269,
+      193,
+      290
+    ],
+    "miniSource": "../../../assets/concierge/president-cutout/poster.webp",
+    "miniVisible": true,
+    "brokenImages": 0,
+    "headline": "本当の現場を知り尽くした、コールセンター経営者がつくったAI",
+    "links": [
+      "../../../index.html#telemo-how",
+      "../../../index.html#contact"
+    ],
+    "errors": []
+  },
+  {
+    "variant": "08-zelda",
+    "width": 390,
+    "overflow": false,
+    "headingVisible": true,
+    "ctaVisible": true,
+    "miniOverlapsActions": false,
+    "miniOverlapsCopy": [],
+    "miniPosition": [
+      110,
+      244,
+      170,
+      255
+    ],
+    "miniSource": "../../../assets/concierge/president-cutout/poster.webp",
+    "miniVisible": true,
+    "brokenImages": 0,
+    "headline": "本当の現場を知り尽くした、コールセンター経営者がつくったAI",
+    "links": [
+      "../../../index.html#telemo-how",
+      "../../../index.html#contact"
+    ],
+    "errors": []
+  }
+]

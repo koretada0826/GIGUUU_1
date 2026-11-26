@@ -1,0 +1,632 @@
+[
+  {
+    "id": "09-yukimi",
+    "width": 1440,
+    "overflow": false,
+    "broken": [],
+    "h1": {
+      "x": 57.59375,
+      "y": 744,
+      "width": 864.015625,
+      "height": 134.765625,
+      "bottom": 878.765625
+    },
+    "actions": {
+      "x": 1095.40625,
+      "y": 888,
+      "width": 287,
+      "height": 52,
+      "bottom": 940
+    },
+    "hero": {
+      "x": 0,
+      "y": 64,
+      "width": 1440,
+      "height": 936,
+      "bottom": 1000
+    },
+    "president": {
+      "x": 590,
+      "y": 244,
+      "width": 260,
+      "height": 390,
+      "bottom": 634
+    },
+    "errors": []
+  },
+  {
+    "id": "09-yukimi",
+    "width": 1280,
+    "overflow": false,
+    "broken": [],
+    "h1": {
+      "x": 51.1875,
+      "y": 744,
+      "width": 768.015625,
+      "height": 134.765625,
+      "bottom": 878.765625
+    },
+    "actions": {
+      "x": 941.8125,
+      "y": 888,
+      "width": 287,
+      "height": 52,
+      "bottom": 940
+    },
+    "hero": {
+      "x": 0,
+      "y": 64,
+      "width": 1280,
+      "height": 936,
+      "bottom": 1000
+    },
+    "president": {
+      "x": 510,
+      "y": 244,
+      "width": 260,
+      "height": 390,
+      "bottom": 634
+    },
+    "errors": []
+  },
+  {
+    "id": "09-yukimi",
+    "width": 390,
+    "overflow": false,
+    "broken": [],
+    "h1": {
+      "x": 22,
+      "y": 516,
+      "width": 346,
+      "height": 162.78125,
+      "bottom": 678.78125
+    },
+    "actions": {
+      "x": 22,
+      "y": 743.96875,
+      "width": 277,
+      "height": 50,
+      "bottom": 793.96875
+    },
+    "hero": {
+      "x": 0,
+      "y": 60,
+      "width": 390,
+      "height": 759.96875,
+      "bottom": 819.96875
+    },
+    "president": {
+      "x": 108.3359375,
+      "y": 195,
+      "width": 173.328125,
+      "height": 260,
+      "bottom": 455
+    },
+    "errors": []
+  },
+  {
+    "id": "10-brother",
+    "width": 1440,
+    "overflow": false,
+    "broken": [],
+    "h1": {
+      "x": 57.59375,
+      "y": 764,
+      "width": 864.015625,
+      "height": 129.96875,
+      "bottom": 893.96875
+    },
+    "actions": {
+      "x": 1095.40625,
+      "y": 888,
+      "width": 287,
+      "height": 52,
+      "bottom": 940
+    },
+    "hero": {
+      "x": 0,
+      "y": 64,
+      "width": 1440,
+      "height": 936,
+      "bottom": 1000
+    },
+    "president": {
+      "x": 586.671875,
+      "y": 264,
+      "width": 266.65625,
+      "height": 400,
+      "bottom": 664
+    },
+    "errors": []
+  },
+  {
+    "id": "10-brother",
+    "width": 1280,
+    "overflow": false,
+    "broken": [],
+    "h1": {
+      "x": 51.1875,
+      "y": 764,
+      "width": 768.015625,
+      "height": 129.96875,
+      "bottom": 893.96875
+    },
+    "actions": {
+      "x": 941.8125,
+      "y": 888,
+      "width": 287,
+      "height": 52,
+      "bottom": 940
+    },
+    "hero": {
+      "x": 0,
+      "y": 64,
+      "width": 1280,
+      "height": 936,
+      "bottom": 1000
+    },
+    "president": {
+      "x": 506.671875,
+      "y": 264,
+      "width": 266.65625,
+      "height": 400,
+      "bottom": 664
+    },
+    "errors": []
+  },
+  {
+    "id": "10-brother",
+    "width": 390,
+    "overflow": false,
+    "broken": [],
+    "h1": {
+      "x": 22,
+      "y": 536,
+      "width": 346,
+      "height": 162.78125,
+      "bottom": 698.78125
+    },
+    "actions": {
+      "x": 22,
+      "y": 763.96875,
+      "width": 277,
+      "height": 50,
+      "bottom": 813.96875
+    },
+    "hero": {
+      "x": 0,
+      "y": 60,
+      "width": 390,
+      "height": 779.96875,
+      "bottom": 839.96875
+    },
+    "president": {
+      "x": 101.671875,
+      "y": 200,
+      "width": 186.65625,
+      "height": 280,
+      "bottom": 480
+    },
+    "errors": []
+  },
+  {
+    "id": "11-kabu-mobile",
+    "width": 1440,
+    "overflow": false,
+    "broken": [],
+    "h1": {
+      "x": 72,
+      "y": 314,
+      "width": 576,
+      "height": 212.375,
+      "bottom": 526.375
+    },
+    "actions": {
+      "x": 72,
+      "y": 629,
+      "width": 287,
+      "height": 52,
+      "bottom": 681
+    },
+    "hero": {
+      "x": 0,
+      "y": 64,
+      "width": 1440,
+      "height": 936,
+      "bottom": 1000
+    },
+    "president": {
+      "x": 822.671875,
+      "y": 299,
+      "width": 226.65625,
+      "height": 340,
+      "bottom": 639
+    },
+    "errors": []
+  },
+  {
+    "id": "11-kabu-mobile",
+    "width": 1280,
+    "overflow": false,
+    "broken": [],
+    "h1": {
+      "x": 64,
+      "y": 314,
+      "width": 512,
+      "height": 212.375,
+      "bottom": 526.375
+    },
+    "actions": {
+      "x": 64,
+      "y": 629,
+      "width": 287,
+      "height": 52,
+      "bottom": 681
+    },
+    "hero": {
+      "x": 0,
+      "y": 64,
+      "width": 1280,
+      "height": 936,
+      "bottom": 1000
+    },
+    "president": {
+      "x": 718.671875,
+      "y": 299,
+      "width": 226.65625,
+      "height": 340,
+      "bottom": 639
+    },
+    "errors": []
+  },
+  {
+    "id": "11-kabu-mobile",
+    "width": 390,
+    "overflow": false,
+    "broken": [],
+    "h1": {
+      "x": 22,
+      "y": 526,
+      "width": 346,
+      "height": 162.78125,
+      "bottom": 688.78125
+    },
+    "actions": {
+      "x": 22,
+      "y": 753.96875,
+      "width": 277,
+      "height": 50,
+      "bottom": 803.96875
+    },
+    "hero": {
+      "x": 0,
+      "y": 60,
+      "width": 390,
+      "height": 769.96875,
+      "bottom": 829.96875
+    },
+    "president": {
+      "x": 166.8359375,
+      "y": 180,
+      "width": 173.328125,
+      "height": 260,
+      "bottom": 440
+    },
+    "errors": []
+  },
+  {
+    "id": "12-minecraft",
+    "width": 1440,
+    "overflow": false,
+    "broken": [],
+    "h1": {
+      "x": 72,
+      "y": 344,
+      "width": 576,
+      "height": 221.1875,
+      "bottom": 565.1875
+    },
+    "actions": {
+      "x": 72,
+      "y": 694,
+      "width": 287,
+      "height": 52,
+      "bottom": 746
+    },
+    "hero": {
+      "x": 0,
+      "y": 64,
+      "width": 1440,
+      "height": 936,
+      "bottom": 1000
+    },
+    "president": {
+      "x": 910.1328125,
+      "y": 504,
+      "width": 253.328125,
+      "height": 380,
+      "bottom": 884
+    },
+    "errors": []
+  },
+  {
+    "id": "12-minecraft",
+    "width": 1280,
+    "overflow": false,
+    "broken": [],
+    "h1": {
+      "x": 64,
+      "y": 344,
+      "width": 512,
+      "height": 221.1875,
+      "bottom": 565.1875
+    },
+    "actions": {
+      "x": 64,
+      "y": 694,
+      "width": 287,
+      "height": 52,
+      "bottom": 746
+    },
+    "hero": {
+      "x": 0,
+      "y": 64,
+      "width": 1280,
+      "height": 936,
+      "bottom": 1000
+    },
+    "president": {
+      "x": 794.9296875,
+      "y": 504,
+      "width": 253.328125,
+      "height": 380,
+      "bottom": 884
+    },
+    "errors": []
+  },
+  {
+    "id": "12-minecraft",
+    "width": 390,
+    "overflow": false,
+    "broken": [],
+    "h1": {
+      "x": 22,
+      "y": 536,
+      "width": 346,
+      "height": 162.78125,
+      "bottom": 698.78125
+    },
+    "actions": {
+      "x": 22,
+      "y": 763.96875,
+      "width": 277,
+      "height": 50,
+      "bottom": 813.96875
+    },
+    "hero": {
+      "x": 0,
+      "y": 60,
+      "width": 390,
+      "height": 779.96875,
+      "bottom": 839.96875
+    },
+    "president": {
+      "x": 185.1875,
+      "y": 230,
+      "width": 160,
+      "height": 240,
+      "bottom": 470
+    },
+    "errors": []
+  },
+  {
+    "id": "13-mamoroom",
+    "width": 1440,
+    "overflow": false,
+    "broken": [],
+    "h1": {
+      "x": 72,
+      "y": 394,
+      "width": 604.796875,
+      "height": 209.1875,
+      "bottom": 603.1875
+    },
+    "actions": {
+      "x": 72,
+      "y": 714,
+      "width": 287,
+      "height": 52,
+      "bottom": 766
+    },
+    "hero": {
+      "x": 0,
+      "y": 64,
+      "width": 1440,
+      "height": 936,
+      "bottom": 1000
+    },
+    "president": {
+      "x": 974.15625,
+      "y": 534,
+      "width": 206.65625,
+      "height": 310,
+      "bottom": 844
+    },
+    "errors": []
+  },
+  {
+    "id": "13-mamoroom",
+    "width": 1280,
+    "overflow": false,
+    "broken": [],
+    "h1": {
+      "x": 64,
+      "y": 394,
+      "width": 537.59375,
+      "height": 209.1875,
+      "bottom": 603.1875
+    },
+    "actions": {
+      "x": 64,
+      "y": 714,
+      "width": 287,
+      "height": 52,
+      "bottom": 766
+    },
+    "hero": {
+      "x": 0,
+      "y": 64,
+      "width": 1280,
+      "height": 936,
+      "bottom": 1000
+    },
+    "president": {
+      "x": 842.953125,
+      "y": 534,
+      "width": 206.65625,
+      "height": 310,
+      "bottom": 844
+    },
+    "errors": []
+  },
+  {
+    "id": "13-mamoroom",
+    "width": 390,
+    "overflow": false,
+    "broken": [],
+    "h1": {
+      "x": 22,
+      "y": 516,
+      "width": 346,
+      "height": 162.78125,
+      "bottom": 678.78125
+    },
+    "actions": {
+      "x": 22,
+      "y": 743.96875,
+      "width": 277,
+      "height": 50,
+      "bottom": 793.96875
+    },
+    "hero": {
+      "x": 0,
+      "y": 60,
+      "width": 390,
+      "height": 759.96875,
+      "bottom": 819.96875
+    },
+    "president": {
+      "x": 189.875,
+      "y": 225,
+      "width": 153.328125,
+      "height": 230,
+      "bottom": 455
+    },
+    "errors": []
+  },
+  {
+    "id": "14-casamalka",
+    "width": 1440,
+    "overflow": false,
+    "broken": [],
+    "h1": {
+      "x": 466,
+      "y": 350,
+      "width": 508,
+      "height": 181.5625,
+      "bottom": 531.5625
+    },
+    "actions": {
+      "x": 576.5,
+      "y": 644,
+      "width": 287,
+      "height": 52,
+      "bottom": 696
+    },
+    "hero": {
+      "x": 0,
+      "y": 64,
+      "width": 1440,
+      "height": 936,
+      "bottom": 1000
+    },
+    "president": {
+      "x": 1216.8125,
+      "y": 710,
+      "width": 180,
+      "height": 270,
+      "bottom": 980
+    },
+    "errors": []
+  },
+  {
+    "id": "14-casamalka",
+    "width": 1280,
+    "overflow": false,
+    "broken": [],
+    "h1": {
+      "x": 386,
+      "y": 350,
+      "width": 508,
+      "height": 181.5625,
+      "bottom": 531.5625
+    },
+    "actions": {
+      "x": 496.5,
+      "y": 644,
+      "width": 287,
+      "height": 52,
+      "bottom": 696
+    },
+    "hero": {
+      "x": 0,
+      "y": 64,
+      "width": 1280,
+      "height": 936,
+      "bottom": 1000
+    },
+    "president": {
+      "x": 1061.609375,
+      "y": 710,
+      "width": 180,
+      "height": 270,
+      "bottom": 980
+    },
+    "errors": []
+  },
+  {
+    "id": "14-casamalka",
+    "width": 390,
+    "overflow": false,
+    "broken": [],
+    "h1": {
+      "x": 47,
+      "y": 281,
+      "width": 296,
+      "height": 147.96875,
+      "bottom": 428.96875
+    },
+    "actions": {
+      "x": 70.5,
+      "y": 525,
+      "width": 249,
+      "height": 50,
+      "bottom": 575
+    },
+    "hero": {
+      "x": 0,
+      "y": 60,
+      "width": 390,
+      "height": 800,
+      "bottom": 860
+    },
+    "president": {
+      "x": 258.671875,
+      "y": 665,
+      "width": 113.328125,
+      "height": 170,
+      "bottom": 835
+    },
+    "errors": []
+  }
+]

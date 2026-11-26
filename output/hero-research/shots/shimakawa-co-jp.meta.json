@@ -1,0 +1,238 @@
+{
+ "slug": "shimakawa-co-jp",
+ "url": "https://www.shimakawa.co.jp/",
+ "capturedAt": "2026-10-12 21:15:08",
+ "files": {
+  "pc_f0": "shimakawa-co-jp-pc-f0.jpg",
+  "pc_f1": "shimakawa-co-jp-pc-f1.jpg",
+  "pc_f2": "shimakawa-co-jp-pc-f2.jpg",
+  "pc_scroll": "shimakawa-co-jp-pc-scroll.jpg",
+  "sp": "shimakawa-co-jp-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.shimakawa.co.jp/",
+  "title": "特注型工業用機械設備の提案・設計・製作・販売なら株式会社島川製作所",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 20250,
+  "h1": "",
+  "h1Style": {
+   "fontFamily": "\"Noto Sans JP\", \"Noto Sans\", sans-serif",
+   "fontSize": "14.1667px",
+   "fontWeight": "700",
+   "lineHeight": "19.8333px",
+   "letterSpacing": "1.13333px",
+   "color": "rgb(20, 35, 51)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 48,
+    "y": 26,
+    "w": 225,
+    "h": 54
+   }
+  },
+  "lead": "協働開発・ソリューション 技術領域 一貫生産体制について／プロセス 開発体制 プロジェクトストーリー 事業紹介 課題解決事例 製品情報 島川製作所について 会社概要 拠点情報／アクセス サステナビリティの取り組み 100周年へ。これからのSHIMAKAWA 採用情報 ENGLISH ご相談・お問い合わせ",
+  "ctas": [
+   "協働開発・ソリューション",
+   "事業紹介",
+   "課題解決事例",
+   "製品情報",
+   "島川製作所について",
+   "採用情報",
+   "ENGLISH",
+   "ご相談・お問い合わせ",
+   "株式会社 島川製作所",
+   "特注装置・オーダーメイド機械を相談する",
+   "TEL. 072-808-3055 9：00～17：00（土・日曜、祝日休み）",
+   "協働開発・ソリューション"
+  ],
+  "videos": [
+   {
+    "src": "https://www.shimakawa.co.jp/wp/wp-content/themes/standard_sass/src/videos/message-bg.mp4",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 720,
+    "h": 450,
+    "playing": true
+   }
+  ],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.shimakawa.co.jp/wp/wp-content/uploads/2026/06/top-fv-01-1440x855.jpg",
+    "w": 723,
+    "h": 953,
+    "alt": ""
+   },
+   {
+    "src": "https://www.shimakawa.co.jp/wp/wp-content/uploads/2026/05/top-fv-02-1440x855.jpg",
+    "w": 683,
+    "h": 900,
+    "alt": ""
+   },
+   {
+    "src": "https://www.shimakawa.co.jp/wp/wp-content/uploads/2026/05/top-fv-04-1440x855.jpg",
+    "w": 683,
+    "h": 900,
+    "alt": ""
+   },
+   {
+    "src": "https://www.shimakawa.co.jp/wp/wp-content/uploads/2026/05/top-fv-03-1440x855.jpg",
+    "w": 683,
+    "h": 900,
+    "alt": ""
+   },
+   {
+    "src": "https://www.shimakawa.co.jp/wp/wp-content/uploads/2026/05/top-fv-06-1440x855.jpg",
+    "w": 683,
+    "h": 900,
+    "alt": ""
+   },
+   {
+    "src": "https://www.shimakawa.co.jp/wp/wp-content/uploads/2026/05/top-fv-05-1440x855.jpg",
+    "w": 683,
+    "h": 900,
+    "alt": ""
+   },
+   {
+    "src": "https://www.shimakawa.co.jp/wp/wp-content/uploads/2026/06/top-fv-01-1440x855.jpg",
+    "w": 723,
+    "h": 429,
+    "alt": ""
+   },
+   {
+    "src": "https://www.shimakawa.co.jp/wp/wp-content/uploads/2026/05/top-fv-02-1440x855.jpg",
+    "w": 683,
+    "h": 405,
+    "alt": ""
+   },
+   {
+    "src": "https://www.shimakawa.co.jp/wp/wp-content/uploads/2026/05/top-fv-04-1440x855.jpg",
+    "w": 683,
+    "h": 405,
+    "alt": ""
+   },
+   {
+    "src": "https://www.shimakawa.co.jp/wp/wp-content/uploads/2026/05/top-fv-03-1440x855.jpg",
+    "w": 683,
+    "h": 405,
+    "alt": ""
+   },
+   {
+    "src": "https://www.shimakawa.co.jp/wp/wp-content/uploads/2026/05/top-fv-06-1440x855.jpg",
+    "w": 683,
+    "h": 405,
+    "alt": ""
+   },
+   {
+    "src": "https://www.shimakawa.co.jp/wp/wp-content/uploads/2026/05/top-fv-05-1440x855.jpg",
+    "w": 683,
+    "h": 405,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Noto Sans JP",
+   "Gothic MB101 DemiBold"
+  ],
+  "libs": {
+   "gsap": true,
+   "ScrollTrigger": true,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 0,
+ "sp": {
+  "h1": "",
+  "h1Style": {
+   "fontFamily": "\"Noto Sans JP\", \"Noto Sans\", sans-serif",
+   "fontSize": "14px",
+   "fontWeight": "700",
+   "lineHeight": "19.6px",
+   "letterSpacing": "1.12px",
+   "color": "rgb(20, 35, 51)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 24,
+    "y": 16,
+    "w": 200,
+    "h": 60
+   }
+  },
+  "lead": "協働開発・ソリューション 技術領域 一貫生産体制について／プロセス 開発体制 プロジェクトストーリー 事業紹介 課題解決事例 製品情報 島川製作所について 会社概要 拠点情報／アクセス サステナビリティの取り組み 100周年へ。これからのSHIMAKAWA 採用情報 ENGLISH ご相談・お問い合わせ",
+  "ctas": [
+   "協働開発のご相談はこちら"
+  ],
+  "videos": [
+   {
+    "src": "https://www.shimakawa.co.jp/wp/wp-content/themes/standard_sass/src/videos/message-bg.mp4",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 390,
+    "h": 844,
+    "playing": true
+   }
+  ],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.shimakawa.co.jp/wp/wp-content/uploads/2026/06/top-fv-01-sp.jpg",
+    "w": 404,
+    "h": 742,
+    "alt": ""
+   },
+   {
+    "src": "https://www.shimakawa.co.jp/wp/wp-content/uploads/2026/06/top-fv-02-sp.jpg",
+    "w": 390,
+    "h": 717,
+    "alt": ""
+   },
+   {
+    "src": "https://www.shimakawa.co.jp/wp/wp-content/uploads/2026/06/top-fv-04-sp.jpg",
+    "w": 390,
+    "h": 717,
+    "alt": ""
+   },
+   {
+    "src": "https://www.shimakawa.co.jp/wp/wp-content/uploads/2026/06/top-fv-03-sp.jpg",
+    "w": 390,
+    "h": 717,
+    "alt": ""
+   },
+   {
+    "src": "https://www.shimakawa.co.jp/wp/wp-content/uploads/2026/06/top-fv-06-sp.jpg",
+    "w": 390,
+    "h": 717,
+    "alt": ""
+   },
+   {
+    "src": "https://www.shimakawa.co.jp/wp/wp-content/uploads/2026/06/top-fv-05-sp.jpg",
+    "w": 390,
+    "h": 717,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 24591
+ },
+ "elapsedSec": 12.4
+}

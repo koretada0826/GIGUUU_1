@@ -1,0 +1,75 @@
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * baskerville-display-pt:
+ *   - http://typekit.com/eulas/00000000000000007735bcf6
+ *   - http://typekit.com/eulas/00000000000000007735ceef
+ *   - http://typekit.com/eulas/00000000000000007735bcf9
+ *   - http://typekit.com/eulas/00000000000000007735bcfa
+ * baskerville-poster-pt:
+ *   - http://typekit.com/eulas/00000000000000007735bcf7
+ *   - http://typekit.com/eulas/00000000000000007735cee8
+ * bodoni-pt-variable:
+ *   - http://typekit.com/eulas/0000000000000000774b978f
+ *   - http://typekit.com/eulas/0000000000000000774b9790
+ *
+ * © 2009-2026 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2026-03-11 04:18:43 UTC"}*/
+
+@import url("../assets/p-74ed8f8cd944bc9e.css");
+
+@font-face {
+font-family:"baskerville-display-pt";
+src:url("../assets/l-c563d3cbe3de31dc.bin") format("woff2"),url("../assets/d-fb0a5f83da832250.bin") format("woff"),url("../assets/a-4298ebda4e210b66.bin") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"baskerville-display-pt";
+src:url("../assets/l-1dd72806b5f1e1ae.bin") format("woff2"),url("../assets/d-6f76a888753f1ad3.bin") format("woff"),url("../assets/a-a52e0f545b20943f.bin") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"baskerville-display-pt";
+src:url("../assets/l-ce78cfac52fc1dfd.bin") format("woff2"),url("../assets/d-46f940809b927c33.bin") format("woff"),url("../assets/a-4af06ff69c1b2566.bin") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"baskerville-display-pt";
+src:url("../assets/l-6c06a9beb54373d9.bin") format("woff2"),url("../assets/d-245cc5408e381437.bin") format("woff"),url("../assets/a-6a0bcb24a95a3bdc.bin") format("opentype");
+font-display:auto;font-style:italic;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"baskerville-poster-pt";
+src:url("../assets/l-271cc5982b5331a7.bin") format("woff2"),url("../assets/d-dabb588dc83e94dc.bin") format("woff"),url("../assets/a-a2e2461591e2ef44.bin") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"baskerville-poster-pt";
+src:url("../assets/l-94016762775a78c2.bin") format("woff2"),url("../assets/d-4d21978b2f6a8625.bin") format("woff"),url("../assets/a-86b030b65f5759bf.bin") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"bodoni-pt-variable";
+src:url("../assets/l-7ac8aa10dba05768.bin") format("woff2"),url("../assets/d-d4123a0dff5b22c9.bin") format("woff"),url("../assets/a-07931c4c6d2e413f.bin") format("opentype");
+font-display:auto;font-style:normal;font-weight:400 800;font-stretch:normal;
+}
+
+@font-face {
+font-family:"bodoni-pt-variable";
+src:url("../assets/l-28a0b1f74b9cd20e.bin") format("woff2"),url("../assets/d-1909aceb61f82142.bin") format("woff"),url("../assets/a-4e65ec354894cce6.bin") format("opentype");
+font-display:auto;font-style:italic;font-weight:400 800;font-stretch:normal;
+}
+
+.tk-baskerville-display-pt { font-family: "baskerville-display-pt",serif; }
+.tk-baskerville-poster-pt { font-family: "baskerville-poster-pt",serif; }
+.tk-bodoni-pt-variable { font-family: "bodoni-pt-variable",sans-serif; }

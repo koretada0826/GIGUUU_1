@@ -1,0 +1,237 @@
+{
+  "schema_version": "1.0.0",
+  "name": "telemo-support-redesign-v1",
+  "created_at": "2026-10-13",
+  "language": "ja-JP",
+  "purpose": "完成画像1を再現するデザイン仕様と画像生成プロンプト。画像2の伴走サポート部分を、編集可能なHTML/CSSとして置き換える。APIリクエスト形式ではない。",
+  "reference": {
+    "file": "support-design-reference.png",
+    "original_file": "/Users/matsugirintarou/Desktop/rintaro/ChatGPT 画像 2026年10月13日 18_40_31.png",
+    "role": "完成デザインの唯一の視覚基準",
+    "width": 1727,
+    "height": 911,
+    "previous_section_file": "support-before-reference.png"
+  },
+  "canvas": {
+    "width": 1727,
+    "height": 911,
+    "aspect_ratio": "1727:911",
+    "background": "#FFFFFF",
+    "coordinates": "左上原点。ピクセル座標、文字サイズ、色は目視推定。"
+  },
+  "generation": {
+    "requested_model": "image2.5",
+    "actual_model": null,
+    "tool": "image_gen__imagegen",
+    "model_selection_supported": false,
+    "model_note": "希望モデル名のみ記録。組み込みツールはモデルを指定・確認できない。",
+    "transparent_background": false,
+    "asset_strategy": "人物写真・青いアーチを1枚、濃紺フッター背景を1枚として生成。文章とロゴ文字はHTML、アイコンはTabler公式SVG。"
+  },
+  "art_direction": {
+    "style": "白を基調に、青・濃紺の太い日本語ゴシックと自然な人物写真を組み合わせた営業伴走サービス広告。",
+    "palette": {
+      "white": "#FFFFFF",
+      "ink": "#092653",
+      "blue": "#0657DB",
+      "pale_blue": "#E8F5FF",
+      "line": "#B9D8FB",
+      "footer_navy": "#0B3768",
+      "muted_blue": "#608AD0"
+    },
+    "font": {
+      "family": "Noto Sans JP",
+      "headline_weight": 900,
+      "headline_size_px_approx": 64,
+      "body_size_px_approx": 26,
+      "features": [
+        "palt"
+      ]
+    },
+    "mood": [
+      "信頼",
+      "実務への理解",
+      "共に考える姿勢",
+      "爽やかなオフィス"
+    ]
+  },
+  "layout": {
+    "message": {
+      "bounds": [
+        76,
+        100,
+        700,
+        670
+      ],
+      "eyebrow": {
+        "text": "営業会社だから、",
+        "blue_left_rule": true
+      },
+      "headline": {
+        "lines": [
+          "「数字を見る」だけでは",
+          "終わらない。",
+          "「なぜ売れないのか」まで、",
+          "一緒に考える。"
+        ],
+        "blue_phrase": "「なぜ売れないのか」",
+        "rest_color": "#092653"
+      },
+      "body": {
+        "lines": [
+          "TELEMOは、システムの提供だけでなく、",
+          "営業のプロとしての知見をもとに、",
+          "成果が出るまで伴走します。"
+        ]
+      },
+      "tagline": {
+        "lines": [
+          "HUMAN SALES × AI",
+          "FOR A BETTER TOMORROW"
+        ],
+        "bounds": [
+          72,
+          736,
+          360,
+          38
+        ],
+        "color": "#608AD0",
+        "letter_spacing": "wide"
+      }
+    },
+    "photo": {
+      "bounds": [
+        665,
+        0,
+        1062,
+        496
+      ],
+      "asset": "support-consultation-v1.png",
+      "actual_asset_dimensions": [
+        1834,
+        858
+      ],
+      "subject": "ベージュのジャケットの日本人女性と濃紺のスーツの日本人男性が、机で資料を見ながら相談している。女性はペンを持ち顎に手を添え、男性は資料を持って説明する。",
+      "background": "自然光の明るいオフィス。窓、青い背景、ぼけた緑。",
+      "treatment": "左から下辺にかけて太い半透明の青い円弧。円弧の外側は白。",
+      "english_caption": {
+        "lines": [
+          "SALES",
+          "ACCOMPANIMENT",
+          "FOR A",
+          "BETTER",
+          "TOMORROW"
+        ],
+        "bounds": [
+          1560,
+          77,
+          140,
+          122
+        ],
+        "color": "#DCEAFE"
+      }
+    },
+    "support_panel": {
+      "bounds": [
+        624,
+        495,
+        1103,
+        306
+      ],
+      "background": "#E8F5FF",
+      "corner_radius_top_left_px": 24,
+      "heading": "伴走サポートの一例",
+      "heading_bounds": [
+        684,
+        531,
+        970,
+        38
+      ],
+      "blue_left_rule": true,
+      "heading_right_rule": true,
+      "grid": {
+        "columns": 2,
+        "rows": 2,
+        "reading_order": "行優先。左上=レポート、右上=課題分析、左下=トークツリー、右下=運用サポート。"
+      },
+      "items": [
+        {
+          "text": "定期的な結果レポート・改善提案",
+          "icon": "users-group.svg",
+          "position": "top-left"
+        },
+        {
+          "text": "通話音声をもとにした課題分析",
+          "icon": "chart-bar.svg",
+          "position": "top-right"
+        },
+        {
+          "text": "トークツリーの見直し・最適化",
+          "icon": "messages.svg",
+          "position": "bottom-left"
+        },
+        {
+          "text": "営業コンサルタントによる運用サポート",
+          "icon": "headset.svg",
+          "position": "bottom-right"
+        }
+      ],
+      "icon_treatment": "青い線画を直径約83pxの白い円内に配置。上段テキスト下に薄青の区切り線。"
+    },
+    "footer": {
+      "bounds": [
+        0,
+        801,
+        1727,
+        110
+      ],
+      "background_asset": "support-footer-background-v1.png",
+      "actual_asset_dimensions": [
+        2222,
+        708
+      ],
+      "background": "#0B3768",
+      "brand": "TELEMO",
+      "brand_descriptor": "AI SALES AUTOMATION",
+      "closing": "使い続けるほど、成果は大きくなる。",
+      "text_color": "#FFFFFF",
+      "decoration": "右下の青い円弧。締めのコピーの左右に細い区切り線。"
+    }
+  },
+  "implementation": {
+    "html": "../../../index.html",
+    "css": "../../../telemo-support-redesign.css",
+    "component_id": "telemo-support-accompaniment",
+    "scope": "既存の改善サイクルの下にある伴走サポート部分と締めの帯",
+    "copy_rendering": "HTML。編集、選択、読み上げが可能。",
+    "desktop": "1051px以上で完成画像と同じ配置をコンテナ幅に比例して拡縮。",
+    "tablet": "641〜1050pxでメッセージと人物写真の2列、サポートを下に配置。",
+    "mobile": "640px以下でメッセージ→写真→サポート→締めの帯。サポートは1列。320pxまで対応。",
+    "precedence_note": "今回ユーザーが指定した完成画像に従い、この部分に青色と濃紺帯を使用。従来の一般的な淡ティール帯ルールより今回の画像指定を優先。"
+  },
+  "icons": {
+    "library": "Tabler Icons",
+    "version": "3.38.0",
+    "license_file": "tabler-LICENSE.txt",
+    "source": "https://github.com/tabler/tabler-icons",
+    "changes": "stroke=currentColorを#0657DBに置換。形状は公式データを保持。"
+  },
+  "constraints": [
+    "全日本語・英語のコピーをそのまま使用する。追加・省略・言い換えをしない。",
+    "左の太い4行見出し、右上の写真、右下の2×2サポートパネル、下部の濃紺帯を保持。",
+    "「なぜ売れないのか」だけを鮮やかな青で強調し、その他の見出しは濃紺。",
+    "女性と男性は営業資料を見て相談し、カメラ目線にしない。",
+    "公開やデプロイは行わず、既存ローカルページに実装する。"
+  ],
+  "avoid": [
+    "全体を1枚の画像としてHTMLに貼る",
+    "新しい訴求や数値",
+    "コラージュ",
+    "ブラウザーや端末の外枠",
+    "余分な人物",
+    "顔や手の崩れ",
+    "写真内の文字",
+    "ウォーターマーク"
+  ],
+  "prompt": "Use case: ads-marketing. Recreate the supplied finished TELEMO support design faithfully as one wide Japanese advertisement, 1727:911 reference proportions. Bright white background, very bold dark-navy four-line Japanese headline at left with only 「なぜ売れないのか」 highlighted in vivid blue. Preserve all verbatim text in layout. Upper right: authentic Japanese woman in beige blazer and Japanese man in navy suit discussing a printed document, bright cool-blue daylight office, broad translucent blue circular arcs around the left and bottom photo edges. Bottom right: pale-blue support panel with rounded top-left corner, heading with blue vertical rule and horizontal line, two-by-two white circular blue line-icon groups with the exact support-item copy. Full-width bottom deep-navy strip with TELEMO and AI SALES AUTOMATION on left, white closing statement at center, subtle blue arc at lower right. Preserve copy, composition and visual hierarchy; no extra claims, buttons, browser frames or watermarks. This prompt records the complete reference; implementation uses separate generated raster assets and editable HTML text."
+}

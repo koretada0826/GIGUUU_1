@@ -1,0 +1,117 @@
+{
+ "slug": "huts-com",
+ "url": "https://huts.com/",
+ "capturedAt": "2026-10-12 21:16:15",
+ "files": {
+  "pc_f0": "huts-com-pc-f0.jpg",
+  "pc_f1": "huts-com-pc-f1.jpg",
+  "pc_f2": "huts-com-pc-f2.jpg",
+  "pc_scroll": "huts-com-pc-scroll.jpg",
+  "sp": "huts-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://huts.com/",
+  "title": "The best way to design and develop your home in the country – Huts",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 15157,
+  "h1": "The best way to design and develop a property in the country",
+  "h1Style": {
+   "fontFamily": "\"HW Cigars\", serif",
+   "fontSize": "72px",
+   "fontWeight": "400",
+   "lineHeight": "72px",
+   "letterSpacing": "-0.72px",
+   "color": "rgb(250, 247, 237)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 287,
+    "y": 302,
+    "w": 867,
+    "h": 216
+   }
+  },
+  "lead": "Get Started",
+  "ctas": [
+   "Get Started"
+  ],
+  "videos": [
+   {
+    "src": "https://cdn.sanity.io/files/xi1ruvdt/production/7452165f3b253894b0bbdd820d06a25a7dd71839.mp4",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 1440,
+    "h": 900,
+    "playing": true
+   }
+  ],
+  "canvases": [],
+  "images": [],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "HW Cigars",
+   "ABC Walter Neue"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(250, 247, 237)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "The best way to design and develop a property in the country",
+  "h1Style": {
+   "fontFamily": "\"HW Cigars\", serif",
+   "fontSize": "38.4789px",
+   "fontWeight": "400",
+   "lineHeight": "38.4789px",
+   "letterSpacing": "-0.384789px",
+   "color": "rgb(250, 247, 237)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 25,
+    "y": 309,
+    "w": 341,
+    "h": 153
+   }
+  },
+  "lead": "Get Started",
+  "ctas": [
+   "Get Started"
+  ],
+  "videos": [
+   {
+    "src": "https://cdn.sanity.io/files/xi1ruvdt/production/7452165f3b253894b0bbdd820d06a25a7dd71839.mp4",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 390,
+    "h": 844,
+    "playing": true
+   }
+  ],
+  "canvases": [],
+  "images": [],
+  "pageHeight": 15938
+ },
+ "elapsedSec": 14.4
+}

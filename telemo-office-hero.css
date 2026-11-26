@@ -1,0 +1,373 @@
+.page-home.concept-08 #hero.telemo-office-hero {
+  --office-ink: #052b46;
+  --office-teal: #007d8c;
+  --office-mint: #dff2e8;
+  --office-orange: #ff8b12;
+  display: block;
+  width: 100%;
+  height: auto;
+  min-height: 0;
+  margin: 0;
+  padding: var(--nav-height) 0 0;
+  background: var(--office-mint);
+  isolation: isolate;
+}
+
+.telemo-office-hero__scene {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1.65fr) minmax(0, 1fr);
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  grid-template-areas: "title title" "wordmark message" "actions actions";
+  align-items: center;
+  aspect-ratio: 2.12;
+  padding: 3.8% 6% 2.8%;
+  overflow: clip;
+  container-type: inline-size;
+}
+
+.telemo-office-hero__background {
+  position: absolute;
+  z-index: -1;
+  inset: -.65%;
+  display: block;
+  width: 101.3%;
+  max-width: none;
+  height: 101.3%;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+.page-home #hero .telemo-office-hero__title {
+  grid-area: title;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: var(--office-ink);
+  font-family: var(--rf-display);
+  font-weight: 900;
+  font-feature-settings: "palt";
+  letter-spacing: -.025em;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.telemo-office-hero__intro {
+  display: table;
+  margin-inline: auto;
+  padding: .08em .85em .16em;
+  border-radius: 2em;
+  background: #ffffffed;
+  font-size: 3.45cqw;
+  white-space: nowrap;
+}
+
+.telemo-office-hero__headline {
+  display: block;
+  margin-top: .3em;
+  font-size: 5.7cqw;
+  white-space: nowrap;
+}
+
+.telemo-office-hero__emphasis {
+  text-decoration: underline;
+  text-decoration-color: #fff;
+  text-decoration-thickness: .12em;
+  text-underline-offset: .18em;
+}
+
+.telemo-office-hero__wordmark {
+  grid-area: wordmark;
+  width: 98%;
+  min-width: 0;
+  margin: 0 0 0 6%;
+}
+
+.telemo-office-hero__wordmark img {
+  display: block;
+  width: 100%;
+  height: auto;
+  translate: 0 var(--office-wordmark-shift, 0px);
+}
+
+.telemo-office-hero__message {
+  grid-area: message;
+  min-width: 0;
+}
+
+.telemo-office-hero__speech {
+  position: relative;
+  width: 80%;
+  margin: 6% 0 0 24%;
+  aspect-ratio: 360 / 210;
+  background: url('./assets/concierge/speech/soft-white-bubble.svg') center / contain no-repeat;
+}
+
+.telemo-office-hero__speech p {
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  width: 83%;
+  margin: 0;
+  color: var(--office-ink);
+  font-family: var(--rf-display);
+  font-size: 2.1cqw;
+  font-weight: 800;
+  line-height: 1.6;
+  letter-spacing: 0;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.telemo-office-hero__speech p::before {
+  content: '“';
+  position: absolute;
+  top: -.35em;
+  left: .05em;
+  font-family: Georgia, serif;
+  font-size: 1.6em;
+  line-height: 1;
+}
+
+.telemo-office-hero__president {
+  position: absolute;
+  right: 3%;
+  bottom: 5.8%;
+  display: block;
+  width: 9%;
+  aspect-ratio: 2 / 3;
+  pointer-events: none;
+}
+
+.telemo-office-hero__president img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.telemo-office-hero__actions {
+  grid-area: actions;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  justify-self: center;
+  gap: 1.4cqw;
+  width: 40%;
+  min-width: 0;
+}
+
+.page-home #hero.telemo-office-hero .btn {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  min-width: 0;
+  min-height: max(48px, 4.8cqw);
+  margin: 0;
+  padding: .75em 1.3em;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  font-family: var(--rf-display);
+  font-size: max(14px, 1.5cqw);
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: 1.4;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.page-home #hero.telemo-office-hero .btn--primary {
+  background: var(--office-orange);
+  color: #171a16;
+}
+
+.page-home #hero.telemo-office-hero .btn--primary:hover {
+  background: #ed7800;
+}
+
+.page-home #hero.telemo-office-hero .btn--ghost {
+  justify-content: center;
+  border-color: var(--office-teal);
+  background: #fff;
+  color: var(--office-teal);
+}
+
+.page-home #hero.telemo-office-hero .btn--ghost:hover {
+  background: #eaf6f8;
+}
+
+.page-home #hero.telemo-office-hero .btn__arrow {
+  flex: none;
+  width: 2.1em;
+  height: 2.1em;
+  margin-left: .7em;
+  border-color: currentColor;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.page-home #hero.telemo-office-hero .btn:focus-visible {
+  outline: 3px solid var(--office-ink);
+  outline-offset: 4px;
+}
+
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .page-home #hero.telemo-office-hero .btn {
+    transition: background-color 180ms ease, border-color 180ms ease;
+  }
+
+  .page-home #hero.telemo-office-hero .btn__arrow {
+    transition: translate 220ms cubic-bezier(.22, 1, .36, 1);
+  }
+
+  .page-home #hero.telemo-office-hero .btn--primary:hover .btn__arrow {
+    translate: 3px 0;
+  }
+
+  .page-home #hero.telemo-office-hero .btn:active {
+    scale: .985;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .telemo-office-hero__wordmark img {
+    translate: none;
+  }
+}
+
+/* Keep one portrait visible while the hero overlaps the next section. */
+.page-home .telemo-concierge.lpsr-campaign-concierge[data-section="hero"],
+.page-home .telemo-concierge.lpsr-campaign-concierge.is-hero-portrait-visible {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.page-home .telemo-concierge.lpsr-campaign-concierge[data-section="hero"] .telemo-concierge__bubble,
+.page-home .telemo-concierge.lpsr-campaign-concierge.is-hero-portrait-visible .telemo-concierge__bubble {
+  visibility: hidden;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .telemo-office-hero__scene {
+    aspect-ratio: 1.8;
+    padding-top: 5%;
+    padding-bottom: 4%;
+  }
+
+  .telemo-office-hero__actions {
+    width: 50%;
+  }
+
+  .telemo-office-hero__speech p {
+    font-size: 2.1cqw;
+  }
+}
+
+@media (max-width: 767px) {
+  .page-home.concept-08 #hero.telemo-office-hero {
+    padding-top: 0;
+  }
+
+  .telemo-office-hero__scene {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: "title" "wordmark" "message" "actions";
+    gap: 18px;
+    aspect-ratio: auto;
+    padding: 26px max(16px, env(safe-area-inset-right)) 24px max(16px, env(safe-area-inset-left));
+  }
+
+  .telemo-office-hero__background {
+    object-position: 58% center;
+  }
+
+  .telemo-office-hero__intro {
+    max-width: 100%;
+    padding: .28em .65em .38em;
+    font-size: clamp(14px, 4.65cqw, 26px);
+  }
+
+  .telemo-office-hero__headline {
+    margin-top: .45em;
+    font-size: clamp(26px, 8.2cqw, 54px);
+    line-height: 1.5;
+    white-space: normal;
+  }
+
+  .telemo-office-hero__headline > span {
+    display: block;
+  }
+
+  .telemo-office-hero__emphasis {
+    text-decoration-thickness: .1em;
+    text-underline-offset: .15em;
+  }
+
+  .telemo-office-hero__wordmark {
+    width: 100%;
+    margin: 6px 0 0;
+  }
+
+  .telemo-office-hero__message {
+    position: relative;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 25%;
+    align-items: start;
+    justify-self: center;
+    width: min(100%, 460px);
+    min-height: 135px;
+  }
+
+  .telemo-office-hero__speech {
+    width: 106%;
+    margin: 0;
+  }
+
+  .telemo-office-hero__speech p {
+    font-size: clamp(15px, 4.9cqw, 23px);
+  }
+
+  .telemo-office-hero__president {
+    position: relative;
+    right: auto;
+    bottom: auto;
+    width: 100%;
+    margin-top: 28%;
+  }
+
+  .telemo-office-hero__actions {
+    gap: 10px;
+    width: min(100%, 460px);
+  }
+
+  .page-home #hero.telemo-office-hero .btn {
+    gap: 4px;
+    min-height: 52px;
+    padding: 12px;
+    font-size: clamp(13px, 3.9cqw, 18px);
+    border-radius: 8px;
+  }
+
+  .page-home #hero.telemo-office-hero .btn__arrow {
+    width: 1.9em;
+    height: 1.9em;
+    margin-left: 0;
+  }
+}
+
+@media print {
+  .page-home.concept-08 #hero.telemo-office-hero {
+    padding-top: 0;
+    break-inside: avoid;
+  }
+}
+
+/* Carry the office illustration's mint into the following content. */
+.page-home.background-study main > #hero + section.reference-logo-band {
+  background: linear-gradient(180deg, #d9f1eb 0%, #eff9f6 100%);
+  border-bottom-color: #d9eae6;
+}
+
+.page-home.background-study main > section#telemo-listen {
+  background: linear-gradient(180deg, #f5fbf9 0%, #fff 55%);
+}

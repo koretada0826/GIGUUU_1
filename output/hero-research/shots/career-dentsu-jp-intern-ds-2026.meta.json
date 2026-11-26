@@ -1,0 +1,171 @@
+{
+ "slug": "career-dentsu-jp-intern-ds-2026",
+ "url": "https://www.career.dentsu.jp/intern/ds/2026/",
+ "capturedAt": "2026-10-12 21:07:32",
+ "files": {
+  "pc_f0": "career-dentsu-jp-intern-ds-2026-pc-f0.jpg",
+  "pc_f1": "career-dentsu-jp-intern-ds-2026-pc-f1.jpg",
+  "pc_f2": "career-dentsu-jp-intern-ds-2026-pc-f2.jpg",
+  "pc_scroll": "career-dentsu-jp-intern-ds-2026-pc-scroll.jpg",
+  "sp": "career-dentsu-jp-intern-ds-2026-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.career.dentsu.jp/intern/ds/2026/",
+  "title": "DENTSU DATA SCIENCE INTERNSHIP",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 8716,
+  "h1": "",
+  "h1Style": {
+   "fontFamily": "\"ヒラギノ角ゴ Pro\", \"Hiragino Kaku Gothic Pro\", YuGothic, \"Yu Gothic Medium\", \"Yu Gothic\", メイリオ, Meiryo, \"ＭＳ Ｐゴシック\", \"MS PGoth",
+   "fontSize": "18px",
+   "fontWeight": "400",
+   "lineHeight": "30.6px",
+   "letterSpacing": "normal",
+   "color": "rgb(0, 0, 0)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 233,
+    "y": 112,
+    "w": 812,
+    "h": 298
+   }
+  },
+  "lead": "2026年はエントリー受付を終了しました。",
+  "ctas": [],
+  "videos": [
+   {
+    "src": "https://www.career.dentsu.jp/intern/ds/2026/assets/mov/bg_main.mp4",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 1594,
+    "h": 900,
+    "playing": true
+   }
+  ],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.career.dentsu.jp/intern/ds/2026/assets/img/logo.svg",
+    "w": 138,
+    "h": 48,
+    "alt": "DENTSU DATA SCIENCE INTERNSHIP"
+   },
+   {
+    "src": "https://www.career.dentsu.jp/intern/ds/2026/img/title_main.svg",
+    "w": 812,
+    "h": 298,
+    "alt": "DENTSU DATA SCIENCE INTERNSHIP"
+   },
+   {
+    "src": "https://www.career.dentsu.jp/intern/ds/2026/img/img_scroll.png",
+    "w": 115,
+    "h": 115,
+    "alt": "scroll"
+   },
+   {
+    "src": "https://www.career.dentsu.jp/intern/ds/2026/img/img_about_01.png",
+    "w": 480,
+    "h": 480,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [
+   {
+    "bg": "url(\"https://www.career.dentsu.jp/intern/ds/2026/img/bg_main.webp\")",
+    "w": 1425,
+    "h": 900
+   }
+  ],
+  "firstScreenFonts": [
+   "ヒラギノ角ゴ Pro",
+   "Arimo"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "",
+  "h1Style": {
+   "fontFamily": "\"ヒラギノ角ゴ Pro\", \"Hiragino Kaku Gothic Pro\", YuGothic, \"Yu Gothic Medium\", \"Yu Gothic\", メイリオ, Meiryo, \"ＭＳ Ｐゴシック\", \"MS PGoth",
+   "fontSize": "14.56px",
+   "fontWeight": "400",
+   "lineHeight": "24.752px",
+   "letterSpacing": "normal",
+   "color": "rgb(0, 0, 0)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 21,
+    "y": 83,
+    "w": 296,
+    "h": 188
+   }
+  },
+  "lead": "2026年はエントリー受付を 終了しました。",
+  "ctas": [
+   "ABOUT",
+   "DNA",
+   "SUMMARY",
+   "STORY",
+   "PROCESS",
+   "LINK",
+   "MYPAGE"
+  ],
+  "videos": [
+   {
+    "src": "https://www.career.dentsu.jp/intern/ds/2026/assets/mov/bg_main_sp.mp4",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 475,
+    "h": 844,
+    "playing": true
+   }
+  ],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.career.dentsu.jp/intern/ds/2026/img/title_main_sp.svg",
+    "w": 296,
+    "h": 188,
+    "alt": "DENTSU DATA SCIENCE INTERNSHIP"
+   },
+   {
+    "src": "https://www.career.dentsu.jp/intern/ds/2026/img/img_scroll.png",
+    "w": 73,
+    "h": 73,
+    "alt": "scroll"
+   },
+   {
+    "src": "https://www.career.dentsu.jp/intern/ds/2026/img/img_about_01.png",
+    "w": 170,
+    "h": 170,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 8459
+ },
+ "elapsedSec": 11.3
+}

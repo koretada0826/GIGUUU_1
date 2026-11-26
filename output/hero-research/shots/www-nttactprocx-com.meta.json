@@ -1,0 +1,270 @@
+{
+ "slug": "www-nttactprocx-com",
+ "url": "https://www.nttactprocx.com/",
+ "capturedAt": "2026-10-12 21:08:21",
+ "files": {
+  "pc_f0": "www-nttactprocx-com-pc-f0.jpg",
+  "pc_f1": "www-nttactprocx-com-pc-f1.jpg",
+  "pc_f2": "www-nttactprocx-com-pc-f2.jpg",
+  "pc_scroll": "www-nttactprocx-com-pc-scroll.jpg",
+  "sp": "www-nttactprocx-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.nttdata-act.com/",
+  "title": "コールセンター・BPO・DX・CXコンサルティングのNTTデータ・マーケティングアクト",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 10226,
+  "h1": "コールセンター・BPO・DX・CXコンサルティングのNTTデータ・マーケティングアクト",
+  "h1Style": {
+   "fontFamily": "\"My Yu Gothic\", YuGothic, sans-serif",
+   "fontSize": "16px",
+   "fontWeight": "500",
+   "lineHeight": "24px",
+   "letterSpacing": "normal",
+   "color": "rgb(45, 45, 45)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": -1,
+    "y": -1,
+    "w": 1,
+    "h": 1
+   }
+  },
+  "lead": "SCROLL",
+  "ctas": [
+   "ソリューション",
+   "ソリューション一覧",
+   "コンタクトセンター",
+   "BPO",
+   "コンサルティング",
+   "デジタルトランスフォーメーション デジタルトランスフォーメーション",
+   "事例",
+   "セミナー",
+   "選ばれる理由",
+   "選ばれる理由ページ",
+   "スペシャリスト",
+   "NTTグループやパートナーとの連携"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.nttdata-act.com/assets/images/components/header-md_dropdown-toggle-level2-icon-contact-center.png",
+    "w": 57,
+    "h": 46,
+    "alt": ""
+   },
+   {
+    "src": "https://www.nttdata-act.com/assets/images/components/header-md_dropdown-toggle-level2-icon-bpo.png",
+    "w": 53,
+    "h": 48,
+    "alt": ""
+   },
+   {
+    "src": "https://www.nttdata-act.com/assets/images/components/header-md_dropdown-toggle-level2-icon-consulting.png",
+    "w": 57,
+    "h": 45,
+    "alt": ""
+   },
+   {
+    "src": "https://www.nttdata-act.com/assets/images/components/header-md_dropdown-toggle-level2-icon-dx.png",
+    "w": 57,
+    "h": 45,
+    "alt": ""
+   },
+   {
+    "src": "https://www.nttdata-act.com/uploads/featureSlide/0000/00000084.png",
+    "w": 589,
+    "h": 344,
+    "alt": "【WP】自治体向け 総合コンタクトセンターのご紹介"
+   },
+   {
+    "src": "https://www.nttdata-act.com/uploads/featureSlide/0000/00000082.jpg",
+    "w": 589,
+    "h": 344,
+    "alt": "【セミナー】10/30CXフォーラム"
+   },
+   {
+    "src": "https://www.nttdata-act.com/uploads/featureSlide/0000/00000085.jpg",
+    "w": 589,
+    "h": 344,
+    "alt": "【セミナー】10/15・11・6～FIT2026"
+   },
+   {
+    "src": "https://www.nttdata-act.com/uploads/featureSlide/0000/00000078.jpg",
+    "w": 589,
+    "h": 344,
+    "alt": "【ニュースリリース】CCアワード2026受賞"
+   },
+   {
+    "src": "https://www.nttdata-act.com/assets/images/pages/index/fv_slide/img02_md.png",
+    "w": 589,
+    "h": 308,
+    "alt": "NTTデータ・マーケティングアクトのソリューション紹介。コンタクトセンター事業をはじめとして、BPOやDXソリューションを提供しています。"
+   },
+   {
+    "src": "https://www.nttdata-act.com/assets/images/pages/index/fv_slide/btn_dl-02_md.png",
+    "w": 192,
+    "h": 51,
+    "alt": "ソリューション紹介資料ダウンロード"
+   },
+   {
+    "src": "https://www.nttdata-act.com/assets/images/pages/index/fv_slide/btn_contact-02_md.png",
+    "w": 192,
+    "h": 51,
+    "alt": "まずは相談する"
+   },
+   {
+    "src": "https://www.nttdata-act.com/uploads/featureSlide/0000/00000003.png",
+    "w": 589,
+    "h": 344,
+    "alt": "【WP】生成AI活用のご紹介"
+   }
+  ],
+  "backgroundImages": [
+   {
+    "bg": "url(\"https://www.nttdata-act.com/assets/images/pages/index/fv_bg_top_md.png\"), url(\"https://www.nttdata-act.com/assets/images/pages/index/fv_bg_bottom_md.png\"), url(\"https://www.nttdata-act.com/assets",
+    "w": 1440,
+    "h": 786
+   }
+  ],
+  "firstScreenFonts": [
+   "My Yu Gothic"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "コールセンター・BPO・DX・CXコンサルティングのNTTデータ・マーケティングアクト",
+  "h1Style": {
+   "fontFamily": "\"My Yu Gothic\", YuGothic, sans-serif",
+   "fontSize": "16px",
+   "fontWeight": "500",
+   "lineHeight": "24px",
+   "letterSpacing": "normal",
+   "color": "rgb(45, 45, 45)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": -1,
+    "y": -1,
+    "w": 1,
+    "h": 1
+   }
+  },
+  "lead": "SCROLL",
+  "ctas": [
+   "ソリューション",
+   "コンタクトセンター",
+   "コンタクトセンター TOP",
+   "インバウンド",
+   "アウトバウンド",
+   "緊急対応・リコール",
+   "多言語通訳・翻訳",
+   "運用アセスメント",
+   "アルコールチェック委託代行",
+   "クラウド型コンタクトセンターシステム「ONE CONTACT Network」",
+   "BPO",
+   "BPO TOP"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.nttdata-act.com/uploads/featureSlide/0000/00000084.png",
+    "w": 340,
+    "h": 198,
+    "alt": "【WP】自治体向け 総合コンタクトセンターのご紹介"
+   },
+   {
+    "src": "https://www.nttdata-act.com/uploads/featureSlide/0000/00000082.jpg",
+    "w": 340,
+    "h": 198,
+    "alt": "【セミナー】10/30CXフォーラム"
+   },
+   {
+    "src": "https://www.nttdata-act.com/uploads/featureSlide/0000/00000085.jpg",
+    "w": 340,
+    "h": 198,
+    "alt": "【セミナー】10/15・11・6～FIT2026"
+   },
+   {
+    "src": "https://www.nttdata-act.com/uploads/featureSlide/0000/00000078.jpg",
+    "w": 340,
+    "h": 198,
+    "alt": "【ニュースリリース】CCアワード2026受賞"
+   },
+   {
+    "src": "https://www.nttdata-act.com/assets/images/pages/index/fv_slide/img02.png",
+    "w": 340,
+    "h": 178,
+    "alt": "NTTデータ・マーケティングアクトのソリューション紹介。コンタクトセンター事業をはじめとして、BPOやDXソリューションを提供しています。"
+   },
+   {
+    "src": "https://www.nttdata-act.com/uploads/featureSlide/0000/00000003.png",
+    "w": 340,
+    "h": 198,
+    "alt": "【WP】生成AI活用のご紹介"
+   },
+   {
+    "src": "https://www.nttdata-act.com/uploads/featureSlide/0000/00000069.png",
+    "w": 340,
+    "h": 178,
+    "alt": "【動画公開】生成AIを導入したらコンタクトセンターはどう変わる？ 実際の活用シーンを動画で解説"
+   },
+   {
+    "src": "https://www.nttdata-act.com/uploads/featureSlide/0000/00000071.jpg",
+    "w": 340,
+    "h": 198,
+    "alt": "【8/31導入事例】神戸市様"
+   },
+   {
+    "src": "https://www.nttdata-act.com/uploads/featureSlide/0000/00000080.jpg",
+    "w": 340,
+    "h": 198,
+    "alt": "【導入事例】9/1ナブコシステム様"
+   },
+   {
+    "src": "https://www.nttdata-act.com/uploads/featureSlide/0000/00000083.png",
+    "w": 340,
+    "h": 198,
+    "alt": "【ニュースリリース】9/30小郡市行政事務センター"
+   },
+   {
+    "src": "https://www.nttdata-act.com/uploads/featureSlide/0000/00000084.png",
+    "w": 340,
+    "h": 198,
+    "alt": "【WP】自治体向け 総合コンタクトセンターのご紹介"
+   },
+   {
+    "src": "https://www.nttdata-act.com/uploads/featureSlide/0000/00000082.jpg",
+    "w": 340,
+    "h": 198,
+    "alt": "【セミナー】10/30CXフォーラム"
+   }
+  ],
+  "pageHeight": 10266
+ },
+ "elapsedSec": 17.5
+}

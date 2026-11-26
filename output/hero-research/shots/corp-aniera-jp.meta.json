@@ -1,0 +1,160 @@
+{
+ "slug": "corp-aniera-jp",
+ "url": "https://corp.aniera.jp/",
+ "capturedAt": "2026-10-12 21:13:23",
+ "files": {
+  "pc_f0": "corp-aniera-jp-pc-f0.jpg",
+  "pc_f1": "corp-aniera-jp-pc-f1.jpg",
+  "pc_f2": "corp-aniera-jp-pc-f2.jpg",
+  "pc_scroll": "corp-aniera-jp-pc-scroll.jpg",
+  "sp": "corp-aniera-jp-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://corp.aniera.jp/",
+  "title": "株式会社アニエラ　コーポレートサイト",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 5925,
+  "h1": "",
+  "h1Style": {
+   "fontFamily": "\"Gen Interface JP\", sans-serif",
+   "fontSize": "16px",
+   "fontWeight": "700",
+   "lineHeight": "32px",
+   "letterSpacing": "normal",
+   "color": "rgb(43, 43, 43)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 70,
+    "y": 70,
+    "w": 174,
+    "h": 30
+   }
+  },
+  "lead": "ABOUT NEWS & ARTICLES RECRUIT CONTACT",
+  "ctas": [],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://corp.aniera.jp/wp-content/themes/aniera/assets/img/top/mv.webp",
+    "w": 1039,
+    "h": 753,
+    "alt": ""
+   },
+   {
+    "src": "https://corp.aniera.jp/wp-content/themes/aniera/assets/img/top/mv_cloud.png",
+    "w": 1076,
+    "h": 900,
+    "alt": ""
+   },
+   {
+    "src": "https://corp.aniera.jp/wp-content/themes/aniera/assets/img/top/cloud_left.png",
+    "w": 190,
+    "h": 84,
+    "alt": ""
+   },
+   {
+    "src": "https://corp.aniera.jp/wp-content/themes/aniera/assets/img/top/cloud_right.png",
+    "w": 214,
+    "h": 135,
+    "alt": ""
+   },
+   {
+    "src": "https://corp.aniera.jp/wp-content/themes/aniera/assets/img/top/maincopy.svg",
+    "w": 408,
+    "h": 188,
+    "alt": "人生を もっと楽しく"
+   },
+   {
+    "src": "https://corp.aniera.jp/wp-content/uploads/2026/08/aniera_DSC08188-1024x683.jpg",
+    "w": 67,
+    "h": 67,
+    "alt": "「「好き」でつながる場所をつくる——ミッション・ビジョンに込めた思い 」のサムネイル"
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Gen Interface JP"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": true,
+   "lottie": false
+  },
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "",
+  "h1Style": {
+   "fontFamily": "\"Gen Interface JP\", sans-serif",
+   "fontSize": "16px",
+   "fontWeight": "700",
+   "lineHeight": "28px",
+   "letterSpacing": "normal",
+   "color": "rgb(43, 43, 43)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 26,
+    "y": 30,
+    "w": 125,
+    "h": 22
+   }
+  },
+  "lead": "About News & Articles Recruit Contact",
+  "ctas": [],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://corp.aniera.jp/wp-content/themes/aniera/assets/img/top/mv.webp",
+    "w": 364,
+    "h": 744,
+    "alt": ""
+   },
+   {
+    "src": "https://corp.aniera.jp/wp-content/themes/aniera/assets/img/top/mv_cloud_sp.png",
+    "w": 390,
+    "h": 844,
+    "alt": ""
+   },
+   {
+    "src": "https://corp.aniera.jp/wp-content/themes/aniera/assets/img/top/cloud_left.png",
+    "w": 141,
+    "h": 62,
+    "alt": ""
+   },
+   {
+    "src": "https://corp.aniera.jp/wp-content/themes/aniera/assets/img/top/cloud_right.png",
+    "w": 103,
+    "h": 65,
+    "alt": ""
+   },
+   {
+    "src": "https://corp.aniera.jp/wp-content/themes/aniera/assets/img/top/maincopy.svg",
+    "w": 218,
+    "h": 100,
+    "alt": "人生を もっと楽しく"
+   }
+  ],
+  "pageHeight": 7296
+ },
+ "elapsedSec": 12.2
+}

@@ -1,0 +1,137 @@
+{
+ "slug": "tbwahakuhodo-co-jp",
+ "url": "https://www.tbwahakuhodo.co.jp/",
+ "capturedAt": "2026-10-12 21:11:44",
+ "files": {
+  "pc_f0": "tbwahakuhodo-co-jp-pc-f0.jpg",
+  "pc_f1": "tbwahakuhodo-co-jp-pc-f1.jpg",
+  "pc_f2": "tbwahakuhodo-co-jp-pc-f2.jpg",
+  "pc_scroll": "tbwahakuhodo-co-jp-pc-scroll.jpg",
+  "sp": "tbwahakuhodo-co-jp-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.tbwahakuhodo.co.jp/",
+  "title": "TBWA\\HAKUHODO",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 17653,
+  "h1": "TBWA\\HAKUHODO",
+  "h1Style": {
+   "fontFamily": "helvetica-neue-lt-pro, \"Helvetica Neue\", Helvetica, \"Noto Sans JP\", Arial, sans-serif",
+   "fontSize": "16px",
+   "fontWeight": "400",
+   "lineHeight": "24px",
+   "letterSpacing": "normal",
+   "color": "rgb(0, 0, 0)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": -1,
+    "y": -1,
+    "w": 1,
+    "h": 1
+   }
+  },
+  "lead": "Disruption® methodology is not destruction; [data-scramble-id=\"st-8w2wxn\"] .c-scramble-text__body { } [data-scramble-id=\"st-8w2wxn\"] .c-scramble-text__mask { } [data-scramble-id=\"st-8w2wxn\"] .c-scramble-text__mask::before { } :is(.p-top-kv1.is-active) [data-scramble-id=\"st-8w2wxn\"] .c-scramble-text_",
+  "ctas": [
+   "MENU CLOSE"
+  ],
+  "videos": [
+   {
+    "src": "https://files.microcms-assets.io/assets/7e06846d57084ab886806dd5cde1dd06/7030c2f7286b4d3db5c42c7bf510af2a/Website_bgv_FY26_1080p_av1.mp4",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 1434,
+    "h": 810,
+    "playing": true
+   }
+  ],
+  "canvases": [
+   {
+    "w": 1419,
+    "h": 116
+   }
+  ],
+  "images": [
+   {
+    "src": "https://images.microcms-assets.io/assets/7e06846d57084ab886806dd5cde1dd06/3312a9f2172a4ff399598ffe98f775fa/%E7%94%BB%E5%83%8F%20(2).jpeg?fit=crop&w=288&h=164&fm=avif",
+    "w": 144,
+    "h": 82,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "helvetica-neue-lt-pro"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": true,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "TBWA\\HAKUHODO",
+  "h1Style": {
+   "fontFamily": "helvetica-neue-lt-pro, \"Helvetica Neue\", Helvetica, \"Noto Sans JP\", Arial, sans-serif",
+   "fontSize": "16px",
+   "fontWeight": "400",
+   "lineHeight": "24px",
+   "letterSpacing": "normal",
+   "color": "rgb(0, 0, 0)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": -1,
+    "y": -1,
+    "w": 1,
+    "h": 1
+   }
+  },
+  "lead": "D I S R U P T I O N ® D I S R U P T I O N ® WE ARE Using creativity to drive business and positively shape society and culture. Our vision is to lead change through innovation, proactive solutions, and world-class creativity that transforms industries. With Disruption® at our core, we challenge conv",
+  "ctas": [
+   "MENU CLOSE"
+  ],
+  "videos": [
+   {
+    "src": "https://files.microcms-assets.io/assets/7e06846d57084ab886806dd5cde1dd06/7030c2f7286b4d3db5c42c7bf510af2a/Website_bgv_FY26_1080p_av1.mp4",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 1209,
+    "h": 680,
+    "playing": true
+   }
+  ],
+  "canvases": [
+   {
+    "w": 350,
+    "h": 93
+   },
+   {
+    "w": 350,
+    "h": 93
+   }
+  ],
+  "images": [],
+  "pageHeight": 12723
+ },
+ "elapsedSec": 12.6
+}

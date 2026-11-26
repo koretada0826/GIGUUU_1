@@ -1,0 +1,72 @@
+{
+ "slug": "talent-foam-org",
+ "url": "https://talent.foam.org/",
+ "capturedAt": "2026-10-12 21:24:32",
+ "files": {
+  "pc_f0": "talent-foam-org-pc-f0.jpg",
+  "pc_f1": "talent-foam-org-pc-f1.jpg",
+  "pc_f2": "talent-foam-org-pc-f2.jpg",
+  "pc_scroll": "talent-foam-org-pc-scroll.jpg",
+  "sp": "talent-foam-org-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.foam.org/talent-2024",
+  "title": "Talent 2024-2025 – Digital Exhibition | Foam: All about photography",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 900,
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [],
+  "videos": [],
+  "canvases": [
+   {
+    "w": 1440,
+    "h": 900
+   }
+  ],
+  "images": [],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "PurpleHaze"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 0,
+ "sp": {
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [],
+  "videos": [],
+  "canvases": [
+   {
+    "w": 390,
+    "h": 844
+   }
+  ],
+  "images": [],
+  "pageHeight": 844
+ },
+ "elapsedSec": 12.7
+}

@@ -1,0 +1,106 @@
+{
+ "slug": "column-com",
+ "url": "https://column.com/",
+ "capturedAt": "2026-10-12 21:13:27",
+ "files": {
+  "pc_f0": "column-com-pc-f0.jpg",
+  "pc_f1": "column-com-pc-f1.jpg",
+  "pc_f2": "column-com-pc-f2.jpg",
+  "pc_scroll": "column-com-pc-scroll.jpg",
+  "sp": "column-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://column.com/",
+  "title": "Column | The platform bank built for scale",
+  "lang": "en-us",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 9717,
+  "h1": "Move, hold, and lend the dollar at scale",
+  "h1Style": {
+   "fontFamily": "SuisseIntl, ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto San",
+   "fontSize": "52px",
+   "fontWeight": "600",
+   "lineHeight": "57.2px",
+   "letterSpacing": "-1.56px",
+   "color": "rgb(17, 26, 74)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 184,
+    "y": 350,
+    "w": 486,
+    "h": 114
+   }
+  },
+  "lead": "The only nationally chartered bank designed to help you build and fund new financial products",
+  "ctas": [
+   "Contact salesCome and say hello."
+  ],
+  "videos": [],
+  "canvases": [
+   {
+    "w": 2000,
+    "h": 1200
+   }
+  ],
+  "images": [],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "SuisseIntl"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "Move, hold, and lend the dollar at scale",
+  "h1Style": {
+   "fontFamily": "SuisseIntl, ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto San",
+   "fontSize": "32px",
+   "fontWeight": "600",
+   "lineHeight": "35.2px",
+   "letterSpacing": "-0.32px",
+   "color": "rgb(17, 26, 74)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 20,
+    "y": 497,
+    "w": 360,
+    "h": 70
+   }
+  },
+  "lead": "The only nationally chartered bank designed to help you build and fund new financial products",
+  "ctas": [],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://column.com/images/index/hero-mobile.webp",
+    "w": 1120,
+    "h": 609,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 14099
+ },
+ "elapsedSec": 13.4
+}

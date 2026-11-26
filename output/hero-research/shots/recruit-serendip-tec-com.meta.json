@@ -1,0 +1,90 @@
+{
+ "slug": "recruit-serendip-tec-com",
+ "url": "https://www.recruit.serendip-tec.com/",
+ "capturedAt": "2026-10-12 21:07:21",
+ "files": {
+  "pc_f0": "recruit-serendip-tec-com-pc-f0.jpg",
+  "pc_f1": "recruit-serendip-tec-com-pc-f1.jpg",
+  "pc_f2": "recruit-serendip-tec-com-pc-f2.jpg",
+  "pc_scroll": "recruit-serendip-tec-com-pc-scroll.jpg",
+  "sp": "recruit-serendip-tec-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.recruit.serendip-tec.com/",
+  "title": "404 Not Found Blog",
+  "lang": null,
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 900,
+  "h1": "404 Not Found Blog",
+  "h1Style": {
+   "fontFamily": "Times",
+   "fontSize": "32px",
+   "fontWeight": "700",
+   "lineHeight": "normal",
+   "letterSpacing": "normal",
+   "color": "rgb(0, 0, 0)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 8,
+    "y": 8,
+    "w": 1424,
+    "h": 37
+   }
+  },
+  "lead": "Domain www.recruit.serendip-tec.com was not found on this server.",
+  "ctas": [],
+  "videos": [],
+  "canvases": [],
+  "images": [],
+  "backgroundImages": [],
+  "firstScreenFonts": [],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 0,
+ "sp": {
+  "h1": "404 Not Found Blog",
+  "h1Style": {
+   "fontFamily": "Times",
+   "fontSize": "32px",
+   "fontWeight": "700",
+   "lineHeight": "normal",
+   "letterSpacing": "normal",
+   "color": "rgb(0, 0, 0)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 8,
+    "y": 8,
+    "w": 964,
+    "h": 37
+   }
+  },
+  "lead": "Domain www.recruit.serendip-tec.com was not found on this server.",
+  "ctas": [],
+  "videos": [],
+  "canvases": [],
+  "images": [],
+  "pageHeight": 2120
+ },
+ "elapsedSec": 10.9
+}

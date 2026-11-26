@@ -1,0 +1,229 @@
+/* Background study: fine graph paper, cut-paper edges and alternating surfaces.
+   Audio demos share one compact card; other content, typography and layout stay on the main styles.
+   Scope: homepage main.lpsr-movie-background. No motion or third-party assets. */
+
+.page-home main.lpsr-movie-background {
+  --lpsr-movie-grid: url('./assets/backgrounds/telemo-grid.svg');
+  --lpsr-movie-orbits: url('./assets/backgrounds/telemo-orbits.svg');
+  --lpsr-movie-grid-size: 32px;
+  --lpsr-movie-cut: clamp(12px, 1.7vw, 24px);
+}
+
+/* Give the audio chapter a gentle diagonal entry and exit. */
+.page-home .lpsr-movie-background > #telemo-listen::before {
+  border-radius: 0;
+  background-color: var(--rf-surface-tint);
+  background-image: var(--lpsr-movie-grid);
+  background-size: var(--lpsr-movie-grid-size) var(--lpsr-movie-grid-size);
+  clip-path: polygon(
+    0 var(--lpsr-movie-cut), 76% 0, 100% var(--lpsr-movie-cut),
+    100% calc(100% - var(--lpsr-movie-cut)), 28% 100%,
+    0 calc(100% - var(--lpsr-movie-cut))
+  );
+}
+
+.page-home .lpsr-movie-background > #telemo-listen .telemo-listen__demos {
+  grid-template-columns: minmax(0, 1fr);
+  gap: 0;
+  padding: 8px 28px;
+  border: 1px solid var(--rf-border);
+  border-radius: 24px;
+  background: #fff;
+}
+
+.page-home .lpsr-movie-background > #telemo-listen .telemo-listen__demo {
+  display: grid;
+  grid-template-columns: 80px minmax(190px, .55fr) minmax(280px, 1fr);
+  grid-template-areas: "number title player" "number category player";
+  align-items: center;
+  gap: 4px 24px;
+  padding: 20px 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+}
+
+.page-home .lpsr-movie-background > #telemo-listen .telemo-listen__demo + .telemo-listen__demo {
+  border-top: 1px solid var(--rf-border);
+}
+
+.page-home .lpsr-movie-background > #telemo-listen .telemo-listen__number {
+  grid-area: number;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.page-home .lpsr-movie-background > #telemo-listen .telemo-listen__demo h3 {
+  grid-area: title;
+  align-self: end;
+  font-size: 22px;
+  line-height: 1.4;
+}
+
+.page-home .lpsr-movie-background > #telemo-listen .telemo-listen__category {
+  grid-area: category;
+  align-self: start;
+  margin: 0;
+}
+
+.page-home .lpsr-movie-background > #telemo-listen .telemo-listen__demo audio {
+  grid-area: player;
+  min-width: 0;
+}
+
+.page-home .lpsr-movie-background > #telemo-listen .telemo-listen__error {
+  grid-column: 2 / -1;
+  margin: 8px 0 0;
+}
+
+@media (max-width: 760px) {
+  .page-home .lpsr-movie-background > #telemo-listen .telemo-listen__demos {
+    padding: 4px 20px;
+    border-radius: 20px;
+  }
+
+  .page-home .lpsr-movie-background > #telemo-listen .telemo-listen__demo {
+    grid-template-columns: 64px minmax(0, 1fr);
+    grid-template-areas: "number title" "number category" "player player";
+    gap: 4px 12px;
+    padding: 16px 0;
+  }
+
+  .page-home .lpsr-movie-background > #telemo-listen .telemo-listen__demo h3 {
+    font-size: 20px;
+  }
+
+  .page-home .lpsr-movie-background > #telemo-listen .telemo-listen__demo audio {
+    margin-top: 8px;
+  }
+
+  .page-home .lpsr-movie-background > #telemo-listen .telemo-listen__error {
+    grid-column: 1 / -1;
+  }
+}
+
+/* The portrait side shares the founder chapter's white background. */
+.page-home .lpsr-movie-background > #founder {
+  position: relative;
+  isolation: isolate;
+}
+
+.page-home .lpsr-movie-background > #founder::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 104px;
+  bottom: 80px;
+  left: var(--study-gutter);
+  width: max(28%, calc((100% - var(--rf-content)) / 2 + 328px));
+  background: #fff;
+  clip-path: polygon(0 2%, 100% 0, 96% 96%, 24% 100%, 0 97%);
+  pointer-events: none;
+}
+
+/* A solid, faceted chapter keeps the step-by-step diagram quiet. */
+.page-home .lpsr-movie-background > #telemo-how::before {
+  border-radius: 0;
+  background: var(--rf-surface-tint);
+  clip-path: polygon(
+    var(--lpsr-movie-cut) 0, 100% var(--lpsr-movie-cut),
+    calc(100% - var(--lpsr-movie-cut)) 100%, 0 calc(100% - var(--lpsr-movie-cut))
+  );
+}
+
+/* Fine graph paper adds texture around the six existing white cards.
+   Cropped concentric outlines are an abstract frame, never an overlay on copy. */
+.page-home .lpsr-movie-background > #telemo-core::before {
+  background-color: var(--rf-surface-gray);
+  background-image: var(--lpsr-movie-orbits), var(--lpsr-movie-grid);
+  background-position: right -310px top -300px, 0 0;
+  background-size: 660px 660px, var(--lpsr-movie-grid-size) var(--lpsr-movie-grid-size);
+  background-repeat: no-repeat, repeat;
+}
+
+/* White paper on a tinted grid separates the long pricing chapter.
+   Only the two decorative layers are cut; no content or focus ring is clipped. */
+.page-home .lpsr-movie-background > #telemo-plan::before {
+  border-radius: var(--study-radius);
+  background-color: var(--rf-surface-tint);
+  background-image: var(--lpsr-movie-grid);
+  background-size: var(--lpsr-movie-grid-size) var(--lpsr-movie-grid-size);
+}
+
+.page-home .lpsr-movie-background > #telemo-plan::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 48px max(32px, calc((100% - var(--rf-content)) / 2 - 36px));
+  background: #fff;
+  clip-path: polygon(0 14px, 100% 0, 100% calc(100% - 22px), 64% 100%, 0 calc(100% - 10px));
+  pointer-events: none;
+}
+
+/* Echo the graph paper once near the end, with a plain white information panel. */
+.page-home .lpsr-movie-background > #company::before {
+  background-color: var(--rf-surface-gray);
+  background-image: var(--lpsr-movie-grid);
+  background-size: var(--lpsr-movie-grid-size) var(--lpsr-movie-grid-size);
+}
+
+.page-home .lpsr-movie-background > #contact::before {
+  border-radius: 0;
+  background: var(--rf-surface-tint);
+  clip-path: polygon(
+    0 var(--lpsr-movie-cut), 100% 0,
+    100% calc(100% - var(--lpsr-movie-cut)), 78% 100%, 0 calc(100% - 8px)
+  );
+}
+
+/* The tinted section panels are retired; these chapters now sit on the page's white. */
+.page-home .lpsr-movie-background > :is(#telemo-listen, #founder, #telemo-how, #telemo-plan, #contact)::before {
+  display: none;
+}
+
+/* Alternate the six existing background panels on desktop:
+   listen / how / core / plan / company / contact = grid / plain / grid / plain / grid / plain. */
+@media (min-width: 1024px) {
+  .page-home .lpsr-movie-background > #telemo-plan::before {
+    background-image: none;
+  }
+}
+
+@media (max-width: 959px) {
+  .page-home .lpsr-movie-background > #founder::before {
+    top: 112px;
+    bottom: auto;
+    width: min(380px, calc(100% - 32px));
+    height: 500px;
+  }
+}
+
+@media (max-width: 767px) {
+  .page-home main.lpsr-movie-background {
+    --lpsr-movie-grid-size: 24px;
+  }
+
+  .page-home .lpsr-movie-background > #founder::before {
+    top: 80px;
+    height: 450px;
+  }
+
+  .page-home .lpsr-movie-background > #telemo-core::before {
+    background-image: var(--lpsr-movie-grid);
+    background-position: 0 0;
+    background-size: var(--lpsr-movie-grid-size) var(--lpsr-movie-grid-size);
+    background-repeat: repeat;
+  }
+
+  .page-home .lpsr-movie-background > #telemo-plan::after {
+    inset: 36px 16px;
+    clip-path: polygon(0 10px, 100% 0, 100% calc(100% - 14px), 38% 100%, 0 calc(100% - 8px));
+  }
+}
+
+@media print {
+  .page-home .lpsr-movie-background > :is(#telemo-listen, #founder, #telemo-how, #telemo-core, #telemo-plan, #company, #contact)::before,
+  .page-home .lpsr-movie-background > #telemo-plan::after {
+    display: none;
+  }
+}

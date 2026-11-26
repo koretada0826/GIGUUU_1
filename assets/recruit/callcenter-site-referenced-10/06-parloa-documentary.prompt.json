@@ -1,0 +1,38 @@
+{
+  "concept_id": 6,
+  "title": "parloa-documentary",
+  "prompt": "Use case: ads-marketing.\nAsset: ONE original Japanese call-center recruitment HERO image, wide landscape aspect about 1938:811 (2.39:1). This is a new site-referenced creative direction, not a website screenshot or a clone.\nInput image 1: actual saved website screenshot of Parloa, https://www.parloa.com/. Study its composition, type hierarchy and imagery treatment. Input image 2: our current call-center image, used ONLY for subject context (headsets, operators, call-center equipment), not its repeated anime arrangement.\nObserved reference element: 仕事中の自然な人物を広い写真で見せ、空いた面に文字を重ねる。会話の文脈が伝わる場面づくり。\nDirection: Use the Parloa screenshot's candid CINEMATIC work-in-progress photography and conversation-context framing, translated to a bright Japanese call center. Original Japanese male operator on RIGHT at his workstation, in side three-quarter view mid-call with boom-mic headset, daylight highlights, a blurred colleague behind. LEFT side is a quiet bright white office wall for a refined large navy serif headline; the photograph naturally fades into the white edge. Across right-middle add two small airy hand-drawn speech cues labeled only 電話対応 and サポート, without imitation SaaS chat cards. Photographic, unposed, storytelling composition, no copied customer chat or fake timings.\nExact ORIGINAL approved copy: small label \"CALL CENTER RECRUIT\"; headline \"会話を、\" / \"価値に変える。\"; subcopy \"声を届ける仲間を、募集しています。\". Use these strings ONLY, plus 電話対応 / 営業 / サポート / チーム if small work labels are needed. Do not copy any text from the attached website screenshot.\nKeep call-center theme recognizable: professional communications headsets worn on heads with natural boom microphones, customer-contact workstation/screens with unreadable interface text, desk telephone or call-script papers. All human foreground staff Japanese adults. Natural proportions and coherent anatomy. Photographic concepts must be photographs; illustrative/sculptural concepts must follow their distinct direction.\nPalette: mostly white, navy, cobalt blue and pale blue/teal, natural skin tones. The attached site's other brand colors are reference context, not output requirements. Keep bright edges that suit a white page, with no full dark rectangular background.\nNO copied company logos, brands, slogans, named people, identity recreation, dates, certifications, customer quotes, salary/benefit promises, numerical claims, header/navigation, website CTA, browser chrome, watermarks or multiple concept thumbnails. No company-specific recruitment conditions. Preserve legibility, avoid cropped lettering or faces. Output exactly one finished opaque hero image, not a full page.",
+  "tool": "built-in image_gen__imagegen",
+  "actual_model": null,
+  "attached_images": [
+    {
+      "path": "/Users/matsugirintarou/Desktop/rintaro/giguuu改善/assets/recruit/callcenter-site-referenced-10/references/06-parloa-com.jpg",
+      "role": "actual website screenshot; cinematic work-in-progress framing reference",
+      "site": "Parloa",
+      "url": "https://www.parloa.com/",
+      "captured_at": "2026-10-12"
+    },
+    {
+      "path": "/Users/matsugirintarou/Desktop/rintaro/giguuu改善/assets/recruit/recruit-callcenter-illustrated-v1.png",
+      "role": "call-center subject context only"
+    }
+  ],
+  "borrowed_visual_element": "仕事中の自然な人物を広い写真で見せ、空いた面に文字を重ねる。会話の文脈が伝わる場面づくり。",
+  "generated_source_path": "/Users/matsugirintarou/.codex/generated_images/01a134a6-229a-7d60-9c6c-15ab30a9edd4/exec-7d020ea2-0b51-477a-884b-d221e8fb5c82.png",
+  "saved_path": "/Users/matsugirintarou/Desktop/rintaro/giguuu改善/assets/recruit/callcenter-site-referenced-10/06-parloa-documentary.png",
+  "dimensions": {
+    "width": 1938,
+    "height": 811
+  },
+  "attempt": 1,
+  "visual_inspection": {
+    "headline": "Exact and readable: 会話を、 / 価値に変える。",
+    "subcopy": "Exact and readable: 声を届ける仲間を、募集しています。",
+    "reference_composition": "Candid side three-quarter operator photo with contextual blurred colleague, generous left text area, refined serif headline and conversation cues.",
+    "call_center": "Professional headsets worn on heads with boom microphones; desk phone, scripts and customer-contact workstation visible.",
+    "source_identity": "No copied source logos, person identity, client chats, stats or claims.",
+    "issues": [
+      "Foreground hand holds a small dark oval adjacent to the headset microphone; appears like an extra microphone tip. Core headset and call-center theme remain clear."
+    ]
+  }
+}

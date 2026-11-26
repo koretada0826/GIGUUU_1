@@ -1,0 +1,92 @@
+{
+ "slug": "rre-com",
+ "url": "https://rre.com/",
+ "capturedAt": "2026-10-12 21:26:14",
+ "files": {
+  "pc_f0": "rre-com-pc-f0.jpg",
+  "pc_f1": "rre-com-pc-f1.jpg",
+  "pc_f2": "rre-com-pc-f2.jpg",
+  "pc_scroll": "rre-com-pc-scroll.jpg",
+  "sp": "rre-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://rre.com/",
+  "title": "RRE: Early-Stage Venture Capital Partner",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 5025,
+  "h1": "Backing the best for the distance",
+  "h1Style": {
+   "fontFamily": "\"RRE Monument Grotesk Trial\", Arial, sans-serif",
+   "fontSize": "80px",
+   "fontWeight": "400",
+   "lineHeight": "88px",
+   "letterSpacing": "-4px",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 80,
+    "y": 440,
+    "w": 549,
+    "h": 176
+   }
+  },
+  "lead": "Founding a world-changing company is a marathon, not a sprint — and raising capital is just the starting gun. What matters most is what comes next: the months and years of building, adapting, and persevering. That’s where we prove our value. It’s an unwavering commitment to your vision. Expertise th",
+  "ctas": [],
+  "videos": [],
+  "canvases": [],
+  "images": [],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "RRE Monument Grotesk Trial"
+  ],
+  "libs": {
+   "gsap": true,
+   "ScrollTrigger": true,
+   "three": false,
+   "lenis": false,
+   "swiper": true,
+   "lottie": false
+  },
+  "bodyBg": "rgb(7, 2, 10)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 652,
+ "sp": {
+  "h1": "Backing the best for the distance",
+  "h1Style": {
+   "fontFamily": "\"RRE Monument Grotesk Trial\", Arial, sans-serif",
+   "fontSize": "48px",
+   "fontWeight": "400",
+   "lineHeight": "52.8px",
+   "letterSpacing": "-2px",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 20,
+    "y": 170,
+    "w": 350,
+    "h": 106
+   }
+  },
+  "lead": "Founding a world-changing company is a marathon, not a sprint — and raising capital is just the starting gun. What matters most is what comes next: the months and years of building, adapting, and persevering. That’s where we prove our value. It’s an unwavering commitment to your vision. Expertise th",
+  "ctas": [],
+  "videos": [],
+  "canvases": [],
+  "images": [],
+  "pageHeight": 5710
+ },
+ "elapsedSec": 12.5
+}

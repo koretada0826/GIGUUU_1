@@ -1,0 +1,9 @@
+{
+  "mode": "built-in image_gen",
+  "use_case": "photorealistic-natural",
+  "prompt": "Use case: photorealistic-natural\nAsset type: vertical 2:3 documentary photograph for a Japanese corporate landing page hero.\nInput image 1 is a visual reference only. Recreate the photographic composition of its large central female call center operator as ONE standalone photograph, not a webpage or collage.\nSubject: Japanese woman in her late twenties wearing a charcoal dark blazer, natural brown shoulder-length hair with bangs, holding a black corded telephone handset naturally to her right ear, three-quarter side profile facing left and eyes looking down toward her workstation. Her head and shoulders occupy most of the frame, top of hair near upper edge. Candid, focused professional expression. Match the reference's authentic human feeling.\nScene: neutral beige and gray Japanese office with indistinct background colleagues. Natural soft office daylight, shallow depth of field, realistic skin texture and individual hair strands. Soft out-of-focus pale foreground workstation object near lower-right edge, similar to reference. Photorealistic corporate documentary photography, gentle restrained warm neutral grading, no dramatic effects.\nComposition: portrait 2:3 aspect ratio, close medium portrait with head at upper center-right and handset/hand clearly visible; dark clothing extends to bottom. Entire image photographic and edge to edge.\nConstraints: no typography, no UI, no panels, no text, no logos, no watermark, no futuristic elements, no glow, no CGI, no exaggerated makeup, anatomically correct hand and believable telephone. Reference is photographic art direction only.",
+  "referenced_image_paths": [
+    "/Users/matsugirintarou/Downloads/Unknown-2.png"
+  ],
+  "transparent_background": false
+}

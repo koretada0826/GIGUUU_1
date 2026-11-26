@@ -1,0 +1,35 @@
+{
+  "generation_tool": "built-in image_gen",
+  "reference_image": "/Users/matsugirintarou/Desktop/スクリーンショット 2026-10-12 18.17.36.png",
+  "output_section": "#telemo-core",
+  "assets": [
+    {
+      "file": "01-natural-voice-v1.png",
+      "title": "生声",
+      "scene": "Photorealistic premium close-up of a professional studio microphone with metal mesh and a circular pop filter to its right, natural dark charcoal recording space, restrained navy/teal accents, authentic metal textures, soft practical lighting, clean lens depth of field. No text, no waveform overlays, no neon.",
+      "alt": "自然な営業音声を収録するスタジオマイクとポップフィルター",
+      "prompt": "{\n  \"brief\": \"Use case: ads-marketing. Asset type: one individual feature-card image for TELEMO website. Use attached screenshot as reference for this specific feature's subject matter, preserve its meaning and restrained corporate navy/teal art direction while creating a fresh polished composition. Output only this one visual, landscape 3:2, approximately 1200x800, edge-to-edge, no title, no card wrapper, no surrounding website or other features. Keep focal elements within center 80% for responsive placement. Primary request: \",\n  \"feature\": \"生声\",\n  \"scene\": \"Photorealistic premium close-up of a professional studio microphone with metal mesh and a circular pop filter to its right, natural dark charcoal recording space, restrained navy/teal accents, authentic metal textures, soft practical lighting, clean lens depth of field. No text, no waveform overlays, no neon.\"\n}"
+    },
+    {
+      "file": "02-talk-tree-v1.png",
+      "title": "トークツリー",
+      "scene": "Clean professional flat 2D sales conversation branching diagram on a very pale blue-gray background, restrained deep teal rounded rectangles with thin connector lines. One root splits into three choices and subsequent response routes. Readable Japanese labels only, verbatim: 挨拶・導入, 興味あり, 検討したい, 今は不要, 商品説明, 再アプローチ, 別リストへ, テスクロ. Match screenshot's content. No 3D, no extra panels, no neon, no tiny random text.",
+      "alt": "挨拶から質問・回答・切り返しへ分岐する営業トークツリー",
+      "prompt": "{\n  \"brief\": \"Use case: ads-marketing. Asset type: one individual feature-card image for TELEMO website. Use attached screenshot as reference for this specific feature's subject matter, preserve its meaning and restrained corporate navy/teal art direction while creating a fresh polished composition. Output only this one visual, landscape 3:2, approximately 1200x800, edge-to-edge, no title, no card wrapper, no surrounding website or other features. Keep focal elements within center 80% for responsive placement. Primary request: \",\n  \"feature\": \"トークツリー\",\n  \"scene\": \"Clean professional flat 2D sales conversation branching diagram on a very pale blue-gray background, restrained deep teal rounded rectangles with thin connector lines. One root splits into three choices and subsequent response routes. Readable Japanese labels only, verbatim: 挨拶・導入, 興味あり, 検討したい, 今は不要, 商品説明, 再アプローチ, 別リストへ, テスクロ. Match screenshot's content. No 3D, no extra panels, no neon, no tiny random text.\"\n}"
+    },
+    {
+      "file": "03-analysis-v1.png",
+      "title": "データ分析・改善",
+      "scene": "Polished straight-on analytical dashboard illustration, dark navy/charcoal background with restrained blue and teal charts, simple anonymized bar chart and donut chart side by side, small clean sidebar, data analysis visual like screenshot. This is illustrative sample UI, no numerical values, no percentage labels, no asserted revenue outcomes, no readable text except optional 分析. Purpose is analyzing call outcomes, no glow or futuristic holograms.",
+      "alt": "架電結果を棒グラフとドーナツグラフで確認する分析画面のイメージ",
+      "prompt": "{\n  \"brief\": \"Use case: ads-marketing. Asset type: one individual feature-card image for TELEMO website. Use attached screenshot as reference for this specific feature's subject matter, preserve its meaning and restrained corporate navy/teal art direction while creating a fresh polished composition. Output only this one visual, landscape 3:2, approximately 1200x800, edge-to-edge, no title, no card wrapper, no surrounding website or other features. Keep focal elements within center 80% for responsive placement. Primary request: \",\n  \"feature\": \"データ分析・改善\",\n  \"scene\": \"Polished straight-on analytical dashboard illustration, dark navy/charcoal background with restrained blue and teal charts, simple anonymized bar chart and donut chart side by side, small clean sidebar, data analysis visual like screenshot. This is illustrative sample UI, no numerical values, no percentage labels, no asserted revenue outcomes, no readable text except optional 分析. Purpose is analyzing call outcomes, no glow or futuristic holograms.\"\n}"
+    },
+    {
+      "file": "04-human-support-v1.png",
+      "title": "RW（Runaway）",
+      "scene": "Photorealistic documentary photo from behind and slightly to the side of a Japanese male employee wearing a dark jacket and practical call center headset, hand lightly touching the earpiece while looking at an office monitor, other workstations in softly blurred background, authentic office light, neutral beige gray charcoal with subtle teal accents. Convey human follow-up for conversations an AI cannot judge. Preserve reference subject type and action, no exaggerated gestures, no neon, no visible personal data, no logos, no text.",
+      "alt": "想定外の会話を人がフォローするコールセンター担当者",
+      "prompt": "{\n  \"brief\": \"Use case: ads-marketing. Asset type: one individual feature-card image for TELEMO website. Use attached screenshot as reference for this specific feature's subject matter, preserve its meaning and restrained corporate navy/teal art direction while creating a fresh polished composition. Output only this one visual, landscape 3:2, approximately 1200x800, edge-to-edge, no title, no card wrapper, no surrounding website or other features. Keep focal elements within center 80% for responsive placement. Primary request: \",\n  \"feature\": \"RW（Runaway）\",\n  \"scene\": \"Photorealistic documentary photo from behind and slightly to the side of a Japanese male employee wearing a dark jacket and practical call center headset, hand lightly touching the earpiece while looking at an office monitor, other workstations in softly blurred background, authentic office light, neutral beige gray charcoal with subtle teal accents. Convey human follow-up for conversations an AI cannot judge. Preserve reference subject type and action, no exaggerated gestures, no neon, no visible personal data, no logos, no text.\"\n}"
+    }
+  ]
+}

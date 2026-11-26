@@ -1,0 +1,161 @@
+{
+ "slug": "parloa-com",
+ "url": "https://www.parloa.com/",
+ "capturedAt": "2026-10-12 21:10:14",
+ "files": {
+  "pc_f0": "parloa-com-pc-f0.jpg",
+  "pc_f1": "parloa-com-pc-f1.jpg",
+  "pc_f2": "parloa-com-pc-f2.jpg",
+  "pc_scroll": "parloa-com-pc-scroll.jpg",
+  "sp": "parloa-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": "button:has-text('Accept')",
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.parloa.com/",
+  "title": "AI Agents for Enterprise Customer Service | Parloa",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 7912,
+  "h1": "AI agents that turn customer conversations into lasting loyalty.",
+  "h1Style": {
+   "fontFamily": "\"Season Serif\", serif",
+   "fontSize": "54px",
+   "fontWeight": "440",
+   "lineHeight": "56.7px",
+   "letterSpacing": "-0.54px",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "left",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 128,
+    "y": 624,
+    "w": 582,
+    "h": 152
+   }
+  },
+  "lead": "Explore the platform",
+  "ctas": [
+   "Platform",
+   "Solutions",
+   "Resources",
+   "Parloa Labs",
+   "Company"
+  ],
+  "videos": [
+   {
+    "src": "https://a.storyblok.com/f/330303/x/fe12cf377a/parloa-hero-01-web-dark30.mp4",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 1440,
+    "h": 900,
+    "playing": true
+   }
+  ],
+  "canvases": [],
+  "images": [],
+  "backgroundImages": [
+   {
+    "bg": "url(\"https://www.parloa.com/img/refraction/refraction-glass-alpha.webp\")",
+    "w": 754,
+    "h": 502
+   },
+   {
+    "bg": "url(\"https://www.parloa.com/img/refraction/refraction-chat-orb.webp\")",
+    "w": 92,
+    "h": 92
+   },
+   {
+    "bg": "url(\"https://www.parloa.com/img/refraction/refraction-glass-alpha.webp\")",
+    "w": 544,
+    "h": 363
+   },
+   {
+    "bg": "url(\"https://www.parloa.com/img/refraction/refraction-glass-alpha.webp\")",
+    "w": 565,
+    "h": 377
+   },
+   {
+    "bg": "url(\"https://www.parloa.com/img/refraction/refraction-glass-alpha.webp\")",
+    "w": 408,
+    "h": 272
+   },
+   {
+    "bg": "url(\"https://www.parloa.com/img/refraction/refraction-glass-alpha.webp\")",
+    "w": 565,
+    "h": 377
+   },
+   {
+    "bg": "url(\"https://www.parloa.com/img/refraction/refraction-glass-alpha.webp\")",
+    "w": 408,
+    "h": 272
+   },
+   {
+    "bg": "url(\"https://www.parloa.com/img/refraction/refraction-glass-alpha.webp\")",
+    "w": 565,
+    "h": 377
+   }
+  ],
+  "firstScreenFonts": [
+   "Geist",
+   "Season Serif",
+   "Geist Mono"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "AI agents that turn customer conversations into lasting loyalty.",
+  "h1Style": {
+   "fontFamily": "\"Season Serif\", serif",
+   "fontSize": "36px",
+   "fontWeight": "440",
+   "lineHeight": "37.8px",
+   "letterSpacing": "-0.36px",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "left",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 24,
+    "y": 509,
+    "w": 342,
+    "h": 139
+   }
+  },
+  "lead": "Explore the platform",
+  "ctas": [],
+  "videos": [
+   {
+    "src": "https://a.storyblok.com/f/330303/x/fe12cf377a/parloa-hero-01-web-dark30.mp4",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 390,
+    "h": 557,
+    "playing": true
+   }
+  ],
+  "canvases": [],
+  "images": [],
+  "pageHeight": 9665
+ },
+ "elapsedSec": 18.6
+}

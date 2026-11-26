@@ -1,0 +1,107 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "mode": "OS reduced motion",
+      "passed": true,
+      "staticPortrait": true,
+      "manualComments": true
+    },
+    {
+      "mode": "existing motion pause",
+      "passed": true,
+      "staticPortrait": true,
+      "manualComments": true
+    },
+    {
+      "width": 768,
+      "passed": true,
+      "overflow": false,
+      "bubbleVisible": true,
+      "bubbleFits": true,
+      "readableCopy": true,
+      "cards": 6,
+      "rightHidden": true,
+      "bubbleHeight": 125.171875,
+      "firstCardY": 380.96875,
+      "manualNext": true,
+      "finiteGesture": true,
+      "noNarration": true,
+      "errors": [],
+      "missing": []
+    },
+    {
+      "width": 600,
+      "passed": true,
+      "overflow": false,
+      "bubbleVisible": true,
+      "bubbleFits": true,
+      "readableCopy": true,
+      "cards": 6,
+      "rightHidden": true,
+      "bubbleHeight": 104.796875,
+      "firstCardY": 315.046875,
+      "manualNext": true,
+      "finiteGesture": true,
+      "noNarration": true,
+      "errors": [],
+      "missing": []
+    },
+    {
+      "width": 390,
+      "passed": true,
+      "overflow": false,
+      "bubbleVisible": true,
+      "bubbleFits": true,
+      "readableCopy": true,
+      "cards": 6,
+      "rightHidden": true,
+      "bubbleHeight": 104.796875,
+      "firstCardY": 315.03125,
+      "manualNext": true,
+      "finiteGesture": true,
+      "noNarration": true,
+      "errors": [],
+      "missing": []
+    },
+    {
+      "width": 320,
+      "passed": true,
+      "overflow": false,
+      "bubbleVisible": true,
+      "bubbleFits": true,
+      "readableCopy": true,
+      "cards": 6,
+      "rightHidden": true,
+      "bubbleHeight": 104.796875,
+      "firstCardY": 314.53125,
+      "manualNext": true,
+      "finiteGesture": true,
+      "noNarration": true,
+      "errors": [],
+      "missing": []
+    },
+    {
+      "mode": "desktop automatic comments and keyboard control",
+      "passed": true,
+      "greetingOnArrival": true,
+      "threeCommentsInOrder": true,
+      "stopsAfterLast": true,
+      "manualNextCancelsAdvance": true,
+      "noNarration": true,
+      "noSoundRequests": true,
+      "guideHandoffPreserved": true,
+      "errors": [],
+      "missing": []
+    }
+  ],
+  "copyCorrection": {
+    "greeting": "お待たせしました！ここからは僕がご案内します。",
+    "unintendedNameRemoved": true,
+    "checked": [
+      "HTML, JS, reference JSON and documentation search",
+      "browser greeting, accessible button label and manual comment wraparound"
+    ],
+    "narration": false
+  }
+}

@@ -1,0 +1,132 @@
+{
+ "slug": "open-rise-jp",
+ "url": "https://open-rise.jp/",
+ "capturedAt": "2026-10-12 21:10:53",
+ "files": {
+  "pc_f0": "open-rise-jp-pc-f0.jpg",
+  "pc_f1": "open-rise-jp-pc-f1.jpg",
+  "pc_f2": "open-rise-jp-pc-f2.jpg",
+  "pc_scroll": "open-rise-jp-pc-scroll.jpg",
+  "sp": "open-rise-jp-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://open-rise.jp/",
+  "title": "OPEN RISE",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 14789,
+  "h1": "OPEN RISE",
+  "h1Style": {
+   "fontFamily": "\"Noto Sans JP\", \"Noto Sans\", sans-serif",
+   "fontSize": "10px",
+   "fontWeight": "400",
+   "lineHeight": "10px",
+   "letterSpacing": "normal",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 527,
+    "y": 421,
+    "w": 386,
+    "h": 58
+   }
+  },
+  "lead": "ABOUT CONCEPT DETAILS GALLERY RESIDENT INSIGHTS PRIORITY ACCESS ウェイティングリストに登録",
+  "ctas": [
+   "OPEN RISE",
+   "ウェイティングリストに登録",
+   "ウェイティングリストに登録"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://open-rise.jp/assets/images/mv.jpg.webp",
+    "w": 1440,
+    "h": 900,
+    "alt": ""
+   },
+   {
+    "src": "https://open-rise.jp/assets/images/bg.jpg.webp",
+    "w": 1613,
+    "h": 1008,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Noto Sans JP"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": true,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(18, 20, 24)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "OPEN RISE",
+  "h1Style": {
+   "fontFamily": "\"Noto Sans JP\", \"Noto Sans\", sans-serif",
+   "fontSize": "10.4px",
+   "fontWeight": "400",
+   "lineHeight": "10.4px",
+   "letterSpacing": "normal",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 54,
+    "y": 207,
+    "w": 282,
+    "h": 42
+   }
+  },
+  "lead": "ABOUT CONCEPT DETAILS GALLERY RESIDENT INSIGHTS PRIORITY ACCESS",
+  "ctas": [
+   "OPEN RISE",
+   "ウェイティングリストに登録",
+   "ウェイティングリストに登録"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://open-rise.jp/assets/images/common/logo.svg",
+    "w": 357,
+    "h": 53,
+    "alt": "OPEN RISE"
+   },
+   {
+    "src": "https://open-rise.jp/assets/images/mv_sp.jpg.webp",
+    "w": 390,
+    "h": 844,
+    "alt": ""
+   },
+   {
+    "src": "https://open-rise.jp/assets/images/bg_sp.jpg.webp",
+    "w": 437,
+    "h": 945,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 13691
+ },
+ "elapsedSec": 12.0
+}

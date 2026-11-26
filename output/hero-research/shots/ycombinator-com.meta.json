@@ -1,0 +1,136 @@
+{
+ "slug": "ycombinator-com",
+ "url": "https://www.ycombinator.com/",
+ "capturedAt": "2026-10-12 21:15:03",
+ "files": {
+  "pc_f0": "ycombinator-com-pc-f0.jpg",
+  "pc_f1": "ycombinator-com-pc-f1.jpg",
+  "pc_f2": "ycombinator-com-pc-f2.jpg",
+  "pc_scroll": "ycombinator-com-pc-scroll.jpg",
+  "sp": "ycombinator-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.ycombinator.com/",
+  "title": "Y Combinator",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 11738,
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://bookface-static.ycombinator.com/assets/ycdc/beforevsnow/openai-batch-2-bd451c2a6d1966e17822ce4a22aeaec5167daad588cf0a99a9a68c563b6b4028.jpg",
+    "w": 461,
+    "h": 461,
+    "alt": "OpenAI during YC"
+   },
+   {
+    "src": "https://bookface-static.ycombinator.com/assets/ycdc/beforevsnow/airbnb-batch-2-a1df9c49bacc25254fe05a3bac4921eff5ac37109de97b1d2337f6fd86a488be.jpg",
+    "w": 461,
+    "h": 461,
+    "alt": "Airbnb during YC"
+   },
+   {
+    "src": "https://bookface-static.ycombinator.com/assets/ycdc/beforevsnow/stripe-batch-2-60e80fb0b35bee455d46fafcd3b175126ae5fce3e397e94a919b968a832d6107.jpg",
+    "w": 461,
+    "h": 461,
+    "alt": "Stripe during YC"
+   },
+   {
+    "src": "https://bookface-static.ycombinator.com/assets/ycdc/beforevsnow/coinbase-batch-1-d0d5c84104f9f9578d888d283099ee17b47731e6301304faf9d1109b38e4d177.jpg",
+    "w": 461,
+    "h": 461,
+    "alt": "Coinbase during YC"
+   },
+   {
+    "src": "https://bookface-static.ycombinator.com/assets/ycdc/beforevsnow/doordash-batch-2-dd602f0734e6093e3d306eb0f7de4fad730cc6d357f478a769c97d0e50c5ceb2.jpg",
+    "w": 461,
+    "h": 461,
+    "alt": "DoorDash during YC"
+   },
+   {
+    "src": "https://bookface-static.ycombinator.com/assets/ycdc/beforevsnow/scale-ai-batch3-cac949deabf5b818c3f3f2c49d9e2d194227ec90dab863ac2ab636dbb870cd19.jpg",
+    "w": 461,
+    "h": 461,
+    "alt": "Scale AI during YC"
+   },
+   {
+    "src": "https://bookface-static.ycombinator.com/assets/ycdc/beforevsnow/dropbox-batch-7f8ebe6bc34eb91cd5103055679597bd7b6628c50ed447b7d6a33c1fda872223.jpg",
+    "w": 461,
+    "h": 461,
+    "alt": "Dropbox during YC"
+   },
+   {
+    "src": "https://bookface-static.ycombinator.com/assets/ycdc/beforevsnow/reddit-batch-a4d08a9bbb466f39806eab735405aea784f6b39f22c9af07f697fe8c323cdc2e.png",
+    "w": 461,
+    "h": 461,
+    "alt": "Reddit during YC"
+   },
+   {
+    "src": "https://bookface-static.ycombinator.com/assets/ycdc/beforevsnow/instacart-batch-2-c4d5c8eea73e1c85e472b9b3fa9f91488ca278f2f2bf258d30166c61847a3c43.jpg",
+    "w": 461,
+    "h": 461,
+    "alt": "Instacart during YC"
+   },
+   {
+    "src": "https://bookface-static.ycombinator.com/assets/ycdc/beforevsnow/gitlab-batch-1-858c18e16366d3344abd06cec9ad5f6440f1395086e96fc733baf2a927645e4e.jpg",
+    "w": 461,
+    "h": 461,
+    "alt": "GitLab during YC"
+   },
+   {
+    "src": "https://bookface-static.ycombinator.com/assets/ycdc/beforevsnow/kalshi-batch-1-12c1828169bef411e3f7910f0b7e48f8e5fb4d1f7eafee50926c933b55b324d5.jpg",
+    "w": 461,
+    "h": 461,
+    "alt": "Kalshi during YC"
+   },
+   {
+    "src": "https://bookface-static.ycombinator.com/assets/ycdc/beforevsnow/replit-batch-1-1fa8581e2ab474b5475f0ba9ef36c5eebbecfe58a82759ca1cdb6ee45f64c38c.jpg",
+    "w": 461,
+    "h": 461,
+    "alt": "Replit during YC"
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Source Serif 4",
+   "Outfit"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(245, 245, 238)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [],
+  "videos": [],
+  "canvases": [],
+  "images": [],
+  "pageHeight": 5884
+ },
+ "elapsedSec": 12.8
+}

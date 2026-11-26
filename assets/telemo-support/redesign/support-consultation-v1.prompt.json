@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "asset": "support-consultation-v1.png",
+  "generator": "built-in image_gen",
+  "requested_model_from_prior_user": "image2.5",
+  "actual_model": "not exposed by built-in tool",
+  "reference_image": "/Users/matsugirintarou/Desktop/rintaro/ChatGPT 画像 2026年10月13日 18_40_31.png",
+  "reference_region": {
+    "x": 665,
+    "y": 0,
+    "width": 1062,
+    "height": 496
+  },
+  "source_output": "/Users/matsugirintarou/.codex/generated_images/01a134a4-6ce1-7290-8919-30c49dd047ea/exec-f5fc728e-ec34-46fa-ba9a-bb3721f101c2.png",
+  "transparent_background": false,
+  "prompt": "Use case: photorealistic-natural.\nAsset type: website support section upper-right photo asset, landscape 1062x496 aspect ratio approximately 2.14:1.\nInput image 1 role: visual reference for exact photo composition, people, poses and blue circular framing. Recreate ONLY the upper-right photograph region of the supplied full page, reference coordinates x=665,y=0,w=1062,h=496 of the 1727x911 source. Do not reproduce any other part of the full page.\nScene: bright cool-blue modern office with softly defocused windows. A Japanese businesswoman in a pale beige blazer on the left, brown tied-back hair, holds a black pen gently by her chin and looks down at a document. A Japanese businessman on the right in dark navy business suit, white shirt and navy tie, wavy black hair, looks down at the same white paper while gesturing with one hand. Preserve their reference facial appearance, clothing, natural attentive expressions, seating positions and upper-body framing. White document at lower center and edge of dark laptop at lower right. Natural realistic hands and skin.\nComposition: faces inside central 35%-70% horizontally, faces in 10%-60% vertically; woman face around 37% width, man face around 65% width. Woman body left-center, man right-center. Photograph fills the rectangle to top and right. On the left and bottom edges, reproduce broad translucent pale-blue and medium-blue circular arcs framing the photo as in reference; fade to clean opaque white outside the arc on left. At bottom edge arcs sweep toward the lower corners while photo remains visible at center. Crop at document, like reference.\nLighting and palette: soft daylight, white and cool blue office, blue tinted outer circle, credible high quality corporate editorial photography.\nConstraints: render only the photo asset. Absolutely no text, letters, captions, logos, watermarks, Japanese text, support panel, icons or footer. Remove the small upper-right English caption entirely. No extra people, hands, fingers, limbs or added decorations. Exactly one image.",
+  "generation_metadata": "Generated images are saved to /Users/matsugirintarou/.codex/generated_images/01a134a4-6ce1-7290-8919-30c49dd047ea as /Users/matsugirintarou/.codex/generated_images/01a134a4-6ce1-7290-8919-30c49dd047ea/exec-f5fc728e-ec34-46fa-ba9a-bb3721f101c2.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

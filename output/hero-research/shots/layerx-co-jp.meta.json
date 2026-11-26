@@ -1,0 +1,112 @@
+{
+ "slug": "layerx-co-jp",
+ "url": "https://layerx.co.jp/",
+ "capturedAt": "2026-10-12 21:07:26",
+ "files": {
+  "pc_f0": "layerx-co-jp-pc-f0.jpg",
+  "pc_f1": "layerx-co-jp-pc-f1.jpg",
+  "pc_f2": "layerx-co-jp-pc-f2.jpg",
+  "pc_scroll": "layerx-co-jp-pc-scroll.jpg",
+  "sp": "layerx-co-jp-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://layerx.co.jp/",
+  "title": "株式会社LayerX",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 8479,
+  "h1": "未 来 の 希 望 を 、 実 装 し よ う 。 Creating a Future Full of Hope.",
+  "h1Style": {
+   "fontFamily": "TazuganeGothicStdN-Regular, \"Noto Sans JP\", \"Hiragino Kaku Gothic ProN\", Meiryo, sans-serif",
+   "fontSize": "16px",
+   "fontWeight": "400",
+   "lineHeight": "24px",
+   "letterSpacing": "normal",
+   "color": "rgb(21, 38, 50)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 156,
+    "y": 340,
+    "w": 398,
+    "h": 221
+   }
+  },
+  "lead": "Scrollez",
+  "ctas": [
+   "私たちについて",
+   "事業内容",
+   "ニュース",
+   "お問い合わせ",
+   "採用情報",
+   "Join Us 採用情報",
+   "Menu",
+   "Join Us 採用情報"
+  ],
+  "videos": [],
+  "canvases": [
+   {
+    "w": 1440,
+    "h": 936
+   }
+  ],
+  "images": [],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "TazuganeGothicStdN-Regular",
+   "PPMori-SemiBold"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "未 来 の 希 望 を 、 実 装 し よ う 。 Creating a Future Full of Hope.",
+  "h1Style": {
+   "fontFamily": "TazuganeGothicStdN-Regular, \"Noto Sans JP\", \"Hiragino Kaku Gothic ProN\", Meiryo, sans-serif",
+   "fontSize": "16px",
+   "fontWeight": "400",
+   "lineHeight": "24px",
+   "letterSpacing": "normal",
+   "color": "rgb(21, 38, 50)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 20,
+    "y": 520,
+    "w": 237,
+    "h": 133
+   }
+  },
+  "lead": "Scrollez",
+  "ctas": [],
+  "videos": [],
+  "canvases": [
+   {
+    "w": 390,
+    "h": 844
+   }
+  ],
+  "images": [],
+  "pageHeight": 6846
+ },
+ "elapsedSec": 12.1
+}

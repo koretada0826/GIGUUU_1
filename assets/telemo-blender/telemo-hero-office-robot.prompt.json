@@ -1,0 +1,27 @@
+{
+  "output": "assets/telemo-blender/telemo-hero-office-robot.png",
+  "size": "1672x941",
+  "generator": "Codex CLI (codex exec -m gpt-6.1-sol) built-in image_gen; prompt via stdin",
+  "reference_images": [
+    "assets/telemo-comparison/telemo-robot.webp"
+  ],
+  "generated_at": "2026-10-13",
+  "source": "~/.codex/generated_images/01a13440-67b8-7f02-ac25-555b088af4cb/exec-42913c5a-d3a6-4900-b4f0-f778396342b6.png",
+  "attempts": [
+    {
+      "n": 1,
+      "result": "robot far too large (head-to-waist ~53% of height, x~58%); EMO coverage impossible (photo scale 0.47, WARNING in Blender). Rejected."
+    },
+    {
+      "n": 2,
+      "result": "robot head-to-waist ~28%, x~51%; usable only as head+collar peeking out of the M (scale 1.25 needed for coverage). Rejected in favour of attempt 3."
+    },
+    {
+      "n": 3,
+      "result": "adopted. robot full body, head-to-waist ~24% (head top y341, waist y560, centre x822 = 49%); no text visible on inspection."
+    }
+  ],
+  "deviation_from_brief": "Brief asked for the robot at x 60-66% and 40-55% of image height. With the script's placement (robot head-to-waist mapped to the lower 42.5% of the M), such a large robot shrinks the photo so it no longer covers E..O. The robot was therefore requested small and centred.",
+  "final_prompt": "Use your built-in image_gen tool to generate ONE image (16:9 landscape), then copy the generated file into this workspace as assets/telemo-blender/telemo-hero-office-robot.png (overwrite the existing file; keep original size, PNG). Do not modify any other file. Do not write any other files.\n\nThe attached image is the reference character \"TELEMO robot\". The robot in the new image must be the SAME character design: glossy white rounded body and helmet-like head, a large black glossy face screen with two cyan glowing smiling arc eyes (^ ^ shape), cyan glowing ring ear-cups on both sides of the head, black neck with a cyan glowing collar ring, white shoulders with black joints and cyan light accents. Same polished 3D render style as the reference.\n\nImage prompt:\nPhotorealistic 3D-render style wide panoramic photo of a bright, white, modern office / call center interior. Large floor-to-ceiling windows across the background with soft natural daylight, airy and clean, white walls and ceiling, light pale floor, a few white desks with monitors softly out of focus in the background, subtle pale teal / cyan accents (teal #007D8C used sparingly as small accent color, e.g. chair fabric, a glass partition tint, small plants). Overall palette: white, very light grey, pale teal. High-key, soft shadows, shallow depth of field on the background.\nThe white TELEMO robot (exactly the reference character) stands in the office, facing the camera (front or slightly three-quarter), friendly smiling eyes, arms relaxed at the sides (no thumbs-up needed). Show the robot from the top of its head down to its waist/hips clearly; legs may be cut off by the bottom of the frame or hidden.\nComposition (important, the image will later be cropped to a very wide 2.76:1 strip keeping the vertical middle):\n- Robot's horizontal centre at about 47-50% of the image width (at the centre).\n- The robot must be SMALL and FAR AWAY, standing in the middle distance of the room, full body visible from head to feet on the floor. The robot's TOTAL height (top of head to feet) must be only about 28-30% of the image height (about 270 px of 941). Top of the robot's head at about 40% of the image height from the top, feet at about 69%. Its head is therefore small (about 9% of the image height). Previous attempts made the robot much too big (head-to-feet ~50% of the height); this time it must clearly be about half that size, with lots of office visible above and around it.\n- Camera at roughly the robot's head height, window sill / horizon line near the vertical middle of the image.\n- Keep the left and right parts of the frame filled with the bright office and windows (no empty borders), with continuous detail across the whole width.\nNo people. No text, no letters, no logos, no watermarks, no signage, no UI, no screens showing readable content.\n\nAfter generating, copy the file and report the source path in ~/.codex/generated_images, the final workspace path, and a short self-evaluation: does the robot match the reference design, where is it placed (x %, head-top y %, waist y %), and is there any text in the image.\n",
+  "evaluation": "Robot matches reference design (white shell, black face screen, cyan smiling eyes, cyan ear rings, cyan collar). Bright white office with large windows, teal chairs as accents. Windows show a light-blue sky and city skyline (not requested; slightly blue). No people, no visible text/logo (checked visually at full size; monitors are blank/dark)."
+}

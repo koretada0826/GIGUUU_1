@@ -1,0 +1,201 @@
+[
+  {
+    "directory": "taste-16-manerepi",
+    "failures": 0,
+    "warnings": [
+      "no-footage",
+      "name-only-title",
+      "small-title"
+    ],
+    "allow": [
+      "few-pictures",
+      "still-page"
+    ]
+  },
+  {
+    "directory": "taste-17-tama",
+    "failures": 0,
+    "warnings": [
+      "no-footage",
+      "name-only-title",
+      "hero-void",
+      "small-title"
+    ],
+    "allow": [
+      "few-pictures",
+      "still-page"
+    ]
+  },
+  {
+    "directory": "taste-19-rentaro",
+    "failures": 0,
+    "warnings": [
+      "no-footage",
+      "name-only-title",
+      "small-title"
+    ],
+    "allow": [
+      "few-pictures",
+      "still-page"
+    ]
+  },
+  {
+    "directory": "taste-20-ubie",
+    "failures": 0,
+    "warnings": [
+      "no-footage",
+      "name-only-title",
+      "hero-void",
+      "small-title"
+    ],
+    "allow": [
+      "few-pictures",
+      "still-page"
+    ]
+  },
+  {
+    "directory": "taste-21-nectar",
+    "failures": 0,
+    "warnings": [
+      "no-footage",
+      "name-only-title",
+      "small-title"
+    ],
+    "allow": [
+      "few-pictures",
+      "still-page"
+    ]
+  },
+  {
+    "directory": "taste-22-fabric",
+    "failures": 0,
+    "warnings": [
+      "no-footage",
+      "off-centre",
+      "name-only-title",
+      "small-title"
+    ],
+    "allow": [
+      "few-pictures",
+      "still-page"
+    ]
+  },
+  {
+    "directory": "taste-23-sony",
+    "failures": 0,
+    "warnings": [
+      "no-footage",
+      "name-only-title",
+      "small-title"
+    ],
+    "allow": [
+      "few-pictures",
+      "still-page"
+    ]
+  },
+  {
+    "directory": "taste-24-famicom",
+    "failures": 0,
+    "warnings": [
+      "no-footage",
+      "name-only-title",
+      "small-title"
+    ],
+    "allow": [
+      "few-pictures",
+      "still-page"
+    ]
+  },
+  {
+    "directory": "taste-25-fancl",
+    "failures": 0,
+    "warnings": [
+      "no-footage",
+      "name-only-title",
+      "small-title"
+    ],
+    "allow": [
+      "few-pictures",
+      "still-page"
+    ]
+  },
+  {
+    "directory": "taste-26-kirin",
+    "failures": 0,
+    "warnings": [
+      "no-footage",
+      "name-only-title",
+      "small-title"
+    ],
+    "allow": [
+      "few-pictures",
+      "still-page"
+    ]
+  },
+  {
+    "directory": "taste-27-coupy",
+    "failures": 0,
+    "warnings": [
+      "no-footage",
+      "name-only-title",
+      "small-title"
+    ],
+    "allow": [
+      "few-pictures",
+      "still-page"
+    ]
+  },
+  {
+    "directory": "taste-28-potapota",
+    "failures": 0,
+    "warnings": [
+      "no-footage",
+      "name-only-title",
+      "hero-void",
+      "small-title"
+    ],
+    "allow": [
+      "few-pictures",
+      "still-page"
+    ]
+  },
+  {
+    "directory": "taste-29-hibikibi",
+    "failures": 0,
+    "warnings": [
+      "no-footage",
+      "name-only-title",
+      "small-title"
+    ],
+    "allow": [
+      "few-pictures",
+      "still-page"
+    ]
+  },
+  {
+    "directory": "taste-chalk",
+    "failures": 0,
+    "warnings": [
+      "no-footage",
+      "name-only-title",
+      "small-title"
+    ],
+    "allow": [
+      "few-pictures",
+      "still-page"
+    ]
+  },
+  {
+    "directory": "taste-m3e",
+    "failures": 0,
+    "warnings": [
+      "no-footage",
+      "name-only-title",
+      "small-title"
+    ],
+    "allow": [
+      "few-pictures",
+      "still-page"
+    ]
+  }
+]

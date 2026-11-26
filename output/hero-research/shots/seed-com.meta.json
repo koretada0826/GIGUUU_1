@@ -1,0 +1,94 @@
+{
+ "slug": "seed-com",
+ "url": "https://seed.com/",
+ "capturedAt": "2026-10-12 21:14:07",
+ "files": {
+  "pc_f0": "seed-com-pc-f0.jpg",
+  "pc_f1": "seed-com-pc-f1.jpg",
+  "pc_f2": "seed-com-pc-f2.jpg",
+  "pc_scroll": "seed-com-pc-scroll.jpg",
+  "sp": "seed-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://seed.com/",
+  "title": "Seed • Whole Body Health Starts in the Gut",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 7520,
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [
+   "Get Started",
+   "Take the Quiz",
+   "Cookie Settings"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://res.cloudinary.com/dljz0lko8/image/upload/v1776179362/hero_desktop.png",
+    "w": 1440,
+    "h": 844,
+    "alt": "Four jars of seed products"
+   }
+  ],
+  "backgroundImages": [
+   {
+    "bg": "url(\"https://res.cloudinary.com/dljz0lko8/image/upload/f_auto,q_auto/v1752265586/library/footer/footer-fpo.jpg\")",
+    "w": 1440,
+    "h": 800
+   },
+   {
+    "bg": "url(\"https://cdn.cookielaw.org/logos/static/ot_close.svg\")",
+    "w": 44,
+    "h": 44
+   }
+  ],
+  "firstScreenFonts": [
+   "Seed Sans"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [
+   "Take the Quiz",
+   "Cookie Settings"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://res.cloudinary.com/dljz0lko8/image/upload/v1776179361/hero_mobile.png",
+    "w": 390,
+    "h": 788,
+    "alt": "Four jars of seed products"
+   }
+  ],
+  "pageHeight": 7897
+ },
+ "elapsedSec": 15.5
+}

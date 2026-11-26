@@ -1,0 +1,112 @@
+{
+ "slug": "locomotive-ca",
+ "url": "https://locomotive.ca/",
+ "capturedAt": "2026-10-12 21:30:47",
+ "files": {
+  "pc_f0": "locomotive-ca-pc-f0.jpg",
+  "pc_f1": "locomotive-ca-pc-f1.jpg",
+  "pc_f2": "locomotive-ca-pc-f2.jpg",
+  "pc_scroll": "locomotive-ca-pc-scroll.jpg",
+  "sp": "locomotive-ca-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://locomotive.ca/en",
+  "title": "Locomotive | Montreal web agency",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 6598,
+  "h1": "🔶 Locomotive® Digital-first Design Agency🍺🔞",
+  "h1Style": {
+   "fontFamily": "LocomotiveNew, -apple-system, \"system-ui\", \"avenir next\", avenir, \"segoe ui\", \"helvetica neue\", helvetica, Cantarell, Ub",
+   "fontSize": "70px",
+   "fontWeight": "400",
+   "lineHeight": "77px",
+   "letterSpacing": "normal",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 40,
+    "y": 716,
+    "w": 1360,
+    "h": 154
+   }
+  },
+  "lead": null,
+  "ctas": [],
+  "videos": [
+   {
+    "src": "https://player.vimeo.com/progressive_redirect/playback/792718372/rendition/1080p/file.mp4?loc=external&log_user=0&signature=978abf9e4b33e3e143901fbcbf68e159d90d5eeb95ed25f8378d341514009cf8",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 1440,
+    "h": 900,
+    "playing": true
+   }
+  ],
+  "canvases": [],
+  "images": [],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "LocomotiveNew"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "🔶 Locomotive® Digital-first Design Agency🍺🔞",
+  "h1Style": {
+   "fontFamily": "LocomotiveNew, -apple-system, \"system-ui\", \"avenir next\", avenir, \"segoe ui\", \"helvetica neue\", helvetica, Cantarell, Ub",
+   "fontSize": "36px",
+   "fontWeight": "400",
+   "lineHeight": "39.6px",
+   "letterSpacing": "normal",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 20,
+    "y": 695,
+    "w": 350,
+    "h": 119
+   }
+  },
+  "lead": null,
+  "ctas": [],
+  "videos": [
+   {
+    "src": "https://player.vimeo.com/progressive_redirect/playback/792718372/rendition/1080p/file.mp4?loc=external&log_user=0&signature=978abf9e4b33e3e143901fbcbf68e159d90d5eeb95ed25f8378d341514009cf8",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 390,
+    "h": 844,
+    "playing": true
+   }
+  ],
+  "canvases": [],
+  "images": [],
+  "pageHeight": 5385
+ },
+ "elapsedSec": 11.8
+}

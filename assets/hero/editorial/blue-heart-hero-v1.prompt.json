@@ -1,0 +1,9 @@
+{
+  "use_case": "stylized-concept",
+  "asset_type": "TELEMO full-screen corporate hero background",
+  "primary_request": "Create an original premium blue abstract three-dimensional hero background inspired by the visual direction of a creative design company homepage: a rich cobalt blue environment filled with softly inflated organic sculptural shapes at different depths, and one warm coral heart shape in the center. No text; website copy will be overlaid as real HTML.",
+  "composition": "Wide landscape 16:9, edge-to-edge immersive artwork. Many blue rounded spheres, smooth squiggles and lobed organic forms arranged around edges and background, with meaningful depth, larger cropped shapes near corners. Central coral heart at 55% horizontal position, 50% vertical, about 22% of frame height. Keep left-center legible for white Japanese headline overlay without busy foreground shapes crossing that zone.",
+  "style": "Sophisticated polished 3D art direction, tactile smooth matte rubber-like surfaces, soft studio lighting, subtle depth of field, calm and refined. Not a photograph.",
+  "palette": "Rich cobalt and royal blue #086BBC, #07549B and deeper blues; central heart warm soft coral salmon with gentle reflected pink light on nearby forms.",
+  "constraints": "No logos, no letters, no typography, no UI, no watermark. Original arrangement rather than a pixel-for-pixel copy. Avoid metallic materials, harsh neon, sci-fi HUDs, jagged edges, toy-like faces."
+}

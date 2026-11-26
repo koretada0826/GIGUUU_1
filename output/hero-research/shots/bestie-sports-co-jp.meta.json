@@ -1,0 +1,205 @@
+{
+ "slug": "bestie-sports-co-jp",
+ "url": "https://bestie-sports.co.jp/",
+ "capturedAt": "2026-10-12 21:13:35",
+ "files": {
+  "pc_f0": "bestie-sports-co-jp-pc-f0.jpg",
+  "pc_f1": "bestie-sports-co-jp-pc-f1.jpg",
+  "pc_f2": "bestie-sports-co-jp-pc-f2.jpg",
+  "pc_scroll": "bestie-sports-co-jp-pc-scroll.jpg",
+  "sp": "bestie-sports-co-jp-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://bestie-sports.co.jp/",
+  "title": "株式会社ベスティはスポーツを中心にあら ゆるコンテンツ、イベントを制作するプロ ダクションです。",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 8534,
+  "h1": "株式会社ベスティ",
+  "h1Style": {
+   "fontFamily": "\"Noto Sans JP\", \"ヒラギノ角ゴ ProN W3\", meiryo, sans-serif",
+   "fontSize": "16px",
+   "fontWeight": "700",
+   "lineHeight": "24px",
+   "letterSpacing": "0.8px",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 26,
+    "y": -67,
+    "w": 130,
+    "h": 52
+   }
+  },
+  "lead": "Contact News Service Works Company Recruit",
+  "ctas": [
+   "株式会社ベスティ",
+   "Contact"
+  ],
+  "videos": [
+   {
+    "src": "https://bestie-sports.co.jp/cms_3hkkWqSQ/wp-content/themes/bestie-sports/movie/mv01.mp4",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 870,
+    "h": 489,
+    "playing": true
+   }
+  ],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://bestie-sports.co.jp/cms_3hkkWqSQ/wp-content/themes/bestie-sports/img/common/logo01.svg",
+    "w": 120,
+    "h": 52,
+    "alt": ""
+   },
+   {
+    "src": "https://bestie-sports.co.jp/cms_3hkkWqSQ/wp-content/themes/bestie-sports/img/home/bg_mv01_pc.png",
+    "w": 1440,
+    "h": 900,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Noto Sans JP",
+   "Roboto Condensed",
+   "Dela Gothic One"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(10, 85, 174)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "株式会社ベスティ",
+  "h1Style": {
+   "fontFamily": "\"Noto Sans JP\", \"ヒラギノ角ゴ ProN W3\", meiryo, sans-serif",
+   "fontSize": "16px",
+   "fontWeight": "700",
+   "lineHeight": "24px",
+   "letterSpacing": "0.8px",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   }
+  },
+  "lead": "contact top news service works company recruit",
+  "ctas": [
+   "contact"
+  ],
+  "videos": [
+   {
+    "src": "https://bestie-sports.co.jp/cms_3hkkWqSQ/wp-content/themes/bestie-sports/movie/mv01.mp4",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 349,
+    "h": 197,
+    "playing": true
+   }
+  ],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://bestie-sports.co.jp/cms_3hkkWqSQ/wp-content/themes/bestie-sports/img/home/bg_mv01_sp.png",
+    "w": 390,
+    "h": 601,
+    "alt": ""
+   },
+   {
+    "src": "https://bestie-sports.co.jp/cms_3hkkWqSQ/wp-content/uploads/2026/07/img_works-logo01.jpg",
+    "w": 120,
+    "h": 44,
+    "alt": ""
+   },
+   {
+    "src": "https://bestie-sports.co.jp/cms_3hkkWqSQ/wp-content/uploads/2026/07/img_works-logo02.jpg",
+    "w": 120,
+    "h": 44,
+    "alt": ""
+   },
+   {
+    "src": "https://bestie-sports.co.jp/cms_3hkkWqSQ/wp-content/uploads/2026/07/img_works-logo03.jpg",
+    "w": 120,
+    "h": 44,
+    "alt": ""
+   },
+   {
+    "src": "https://bestie-sports.co.jp/cms_3hkkWqSQ/wp-content/uploads/2026/07/img_works-logo04.jpg",
+    "w": 120,
+    "h": 44,
+    "alt": ""
+   },
+   {
+    "src": "https://bestie-sports.co.jp/cms_3hkkWqSQ/wp-content/uploads/2026/07/img_works-logo05.jpg",
+    "w": 120,
+    "h": 44,
+    "alt": ""
+   },
+   {
+    "src": "https://bestie-sports.co.jp/cms_3hkkWqSQ/wp-content/uploads/2026/07/img_works-logo06.jpg",
+    "w": 120,
+    "h": 44,
+    "alt": ""
+   },
+   {
+    "src": "https://bestie-sports.co.jp/cms_3hkkWqSQ/wp-content/uploads/2026/07/img_works-logo07.jpg",
+    "w": 120,
+    "h": 44,
+    "alt": ""
+   },
+   {
+    "src": "https://bestie-sports.co.jp/cms_3hkkWqSQ/wp-content/uploads/2026/07/img_works-logo08.jpg",
+    "w": 120,
+    "h": 44,
+    "alt": ""
+   },
+   {
+    "src": "https://bestie-sports.co.jp/cms_3hkkWqSQ/wp-content/uploads/2026/07/img_works-logo09.jpg",
+    "w": 120,
+    "h": 44,
+    "alt": ""
+   },
+   {
+    "src": "https://bestie-sports.co.jp/cms_3hkkWqSQ/wp-content/uploads/2026/07/img_works-logo10.jpg",
+    "w": 120,
+    "h": 44,
+    "alt": ""
+   },
+   {
+    "src": "https://bestie-sports.co.jp/cms_3hkkWqSQ/wp-content/uploads/2026/07/img_works-logo01.jpg",
+    "w": 120,
+    "h": 44,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 6753
+ },
+ "elapsedSec": 15.1
+}

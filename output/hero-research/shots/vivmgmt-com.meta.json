@@ -1,0 +1,166 @@
+{
+ "slug": "vivmgmt-com",
+ "url": "https://vivmgmt.com/",
+ "capturedAt": "2026-10-12 21:15:29",
+ "files": {
+  "pc_f0": "vivmgmt-com-pc-f0.jpg",
+  "pc_f1": "vivmgmt-com-pc-f1.jpg",
+  "pc_f2": "vivmgmt-com-pc-f2.jpg",
+  "pc_scroll": "vivmgmt-com-pc-scroll.jpg",
+  "sp": "vivmgmt-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://vivmgmt.com/",
+  "title": "Photographer Agency & Commercial Photo Production — ViV MGMT",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 900,
+  "h1": "ViV — artist management + production",
+  "h1Style": {
+   "fontFamily": "\"Helvetica Now Display\", sans-serif",
+   "fontSize": "24px",
+   "fontWeight": "400",
+   "lineHeight": "24px",
+   "letterSpacing": "normal",
+   "color": "rgb(0, 0, 0)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": -1,
+    "y": 269,
+    "w": 1,
+    "h": 1
+   }
+  },
+  "lead": "Artist management + production.",
+  "ctas": [],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.datocms-assets.com/196616/1777465143-20180623_foam_test_585.jpg?auto=format&q=90&w=750",
+    "w": 362,
+    "h": 483,
+    "alt": ""
+   },
+   {
+    "src": "https://www.datocms-assets.com/196616/1777466641-cera-hensley-beauty-photography-stilllife-cosmetics-21.jpg?auto=format&q=90&w=750",
+    "w": 362,
+    "h": 483,
+    "alt": ""
+   },
+   {
+    "src": "https://www.datocms-assets.com/196616/1779918226-beauty-model-photography-beth-sternbaum-la-nyc-52.jpg?auto=format&q=90&w=750",
+    "w": 362,
+    "h": 483,
+    "alt": ""
+   },
+   {
+    "src": "https://www.datocms-assets.com/196616/1778184120-gap-studio-zac-posen-denim-portrait.jpg?auto=format&q=90&w=750",
+    "w": 362,
+    "h": 483,
+    "alt": ""
+   },
+   {
+    "src": "https://www.datocms-assets.com/196616/1778184121-danielle-moore-tidal-magazine-black-and-white-fashion-portrait.jpg?auto=format&q=90&w=750",
+    "w": 362,
+    "h": 483,
+    "alt": ""
+   },
+   {
+    "src": "https://www.datocms-assets.com/196616/1779144620-jonathan-mannion-hiphop-music-rap-photography-advertising-photographer-sports22.jpg?auto=format&q=90&w=750",
+    "w": 362,
+    "h": 483,
+    "alt": ""
+   },
+   {
+    "src": "https://www.datocms-assets.com/196616/1779144620-jonathan-mannion-hiphop-music-rap-photography-advertising-photographer-sports48.jpg?auto=format&q=90&w=750",
+    "w": 362,
+    "h": 483,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Helvetica Now Display"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": true,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 0,
+ "sp": {
+  "h1": "ViV — artist management + production",
+  "h1Style": {
+   "fontFamily": "\"Helvetica Now Display\", sans-serif",
+   "fontSize": "24px",
+   "fontWeight": "400",
+   "lineHeight": "24px",
+   "letterSpacing": "normal",
+   "color": "rgb(0, 0, 0)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": -1,
+    "y": 252,
+    "w": 1,
+    "h": 1
+   }
+  },
+  "lead": "Artist management + production.",
+  "ctas": [],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.datocms-assets.com/196616/1779918226-beauty-model-photography-beth-sternbaum-la-nyc-52.jpg?auto=format&q=90&w=750",
+    "w": 180,
+    "h": 240,
+    "alt": ""
+   },
+   {
+    "src": "https://www.datocms-assets.com/196616/1779918224-beauty-model-photography-beth-sternbaum-la-nyc-63.jpg?auto=format&q=90&w=750",
+    "w": 180,
+    "h": 240,
+    "alt": ""
+   },
+   {
+    "src": "https://www.datocms-assets.com/196616/1779918229-beauty-model-photography-beth-sternbaum-la-nyc-10.jpg?auto=format&q=90&w=750",
+    "w": 180,
+    "h": 240,
+    "alt": ""
+   },
+   {
+    "src": "https://www.datocms-assets.com/196616/1778184120-gap-studio-zac-posen-denim-portrait.jpg?auto=format&q=90&w=750",
+    "w": 180,
+    "h": 240,
+    "alt": ""
+   },
+   {
+    "src": "https://www.datocms-assets.com/196616/1778184121-danielle-moore-tidal-magazine-black-and-white-fashion-portrait.jpg?auto=format&q=90&w=750",
+    "w": 180,
+    "h": 240,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 844
+ },
+ "elapsedSec": 13.7
+}

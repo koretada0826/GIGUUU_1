@@ -1,0 +1,277 @@
+{
+ "slug": "anam-ai",
+ "url": "https://anam.ai/",
+ "capturedAt": "2026-10-12 21:15:35",
+ "files": {
+  "pc_f0": "anam-ai-pc-f0.jpg",
+  "pc_f1": "anam-ai-pc-f1.jpg",
+  "pc_f2": "anam-ai-pc-f2.jpg",
+  "pc_scroll": "anam-ai-pc-scroll.jpg",
+  "sp": "anam-ai-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://anam.ai/",
+  "title": "Anam - Real-Time Interactive AI Avatars API",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 14118,
+  "h1": "Create interactive avatars for",
+  "h1Style": {
+   "fontFamily": "Inter, \"Inter Placeholder\", sans-serif",
+   "fontSize": "40px",
+   "fontWeight": "500",
+   "lineHeight": "44px",
+   "letterSpacing": "-0.8px",
+   "color": "rgb(0, 0, 0)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 100,
+    "y": 176,
+    "w": 1240,
+    "h": 44
+   }
+  },
+  "lead": null,
+  "ctas": [],
+  "videos": [
+   {
+    "src": "https://framerusercontent.com/assets/Jr9zz6nJ2w8vNaWdAXK6LAuuOk.webm",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 340,
+    "h": 403,
+    "playing": false
+   },
+   {
+    "src": "https://framerusercontent.com/assets/Jr9zz6nJ2w8vNaWdAXK6LAuuOk.webm",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 408,
+    "h": 484,
+    "playing": true
+   },
+   {
+    "src": "https://framerusercontent.com/assets/Jr9zz6nJ2w8vNaWdAXK6LAuuOk.webm",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 340,
+    "h": 403,
+    "playing": false
+   }
+  ],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://framerusercontent.com/images/VbGAbBrrMidu4Y5YUJLd4PFJut0.webp?scale-down-to=512&width=896&height=874",
+    "w": 340,
+    "h": 403,
+    "alt": ""
+   },
+   {
+    "src": "https://framerusercontent.com/images/POVz1Xx3hOMvsJsbcD3eG1G4yI.webp?width=480&height=646",
+    "w": 340,
+    "h": 403,
+    "alt": ""
+   },
+   {
+    "src": "https://framerusercontent.com/images/bLh6ZJdgNjTWyWJvm1w2ivT6jA.png?scale-down-to=1024&width=928&height=1152",
+    "w": 340,
+    "h": 403,
+    "alt": ""
+   },
+   {
+    "src": "https://framerusercontent.com/images/nxppLHoyjwbub4xl4HQvORrJ02o.png?scale-down-to=1024&width=832&height=1088",
+    "w": 340,
+    "h": 403,
+    "alt": ""
+   },
+   {
+    "src": "https://framerusercontent.com/images/BfxuDPCmM2NvopgMjexkKFqMgWc.webp?width=896&height=981",
+    "w": 340,
+    "h": 403,
+    "alt": ""
+   },
+   {
+    "src": "https://framerusercontent.com/images/a7ARaKfNvPIqPATPIxPbKH99WU.webp?width=480&height=646",
+    "w": 340,
+    "h": 403,
+    "alt": ""
+   },
+   {
+    "src": "https://framerusercontent.com/images/iSN4tzOGZv3SA1JxsPxwaXrL5l0.webp?width=896&height=924",
+    "w": 340,
+    "h": 403,
+    "alt": ""
+   },
+   {
+    "src": "https://framerusercontent.com/images/fApG62fmk5ooV6hMIuKThIFVZc.webp?width=480&height=646",
+    "w": 340,
+    "h": 403,
+    "alt": ""
+   },
+   {
+    "src": "https://framerusercontent.com/images/2joxVt7gAQwLX6k5yHxyQAVQ4k.webp?width=896&height=951",
+    "w": 340,
+    "h": 403,
+    "alt": ""
+   },
+   {
+    "src": "https://framerusercontent.com/images/UmZS3Urv4OgNZLBreaGHKRuqxc.webp?width=480&height=646",
+    "w": 340,
+    "h": 403,
+    "alt": ""
+   },
+   {
+    "src": "https://framerusercontent.com/images/VbGAbBrrMidu4Y5YUJLd4PFJut0.webp?scale-down-to=512&width=896&height=874",
+    "w": 408,
+    "h": 484,
+    "alt": ""
+   },
+   {
+    "src": "https://framerusercontent.com/images/POVz1Xx3hOMvsJsbcD3eG1G4yI.webp?width=480&height=646",
+    "w": 408,
+    "h": 484,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Inter",
+   "sans-serif"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "Create interactive avatars for",
+  "h1Style": {
+   "fontFamily": "Inter, \"Inter Placeholder\", sans-serif",
+   "fontSize": "40px",
+   "fontWeight": "500",
+   "lineHeight": "44px",
+   "letterSpacing": "-0.8px",
+   "color": "rgb(0, 0, 0)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 20,
+    "y": 176,
+    "w": 350,
+    "h": 88
+   }
+  },
+  "lead": null,
+  "ctas": [],
+  "videos": [
+   {
+    "src": "https://framerusercontent.com/assets/Jr9zz6nJ2w8vNaWdAXK6LAuuOk.webm",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 340,
+    "h": 403,
+    "playing": true
+   }
+  ],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://framerusercontent.com/images/bLh6ZJdgNjTWyWJvm1w2ivT6jA.png?scale-down-to=1024&width=928&height=1152",
+    "w": 340,
+    "h": 403,
+    "alt": ""
+   },
+   {
+    "src": "https://framerusercontent.com/images/nxppLHoyjwbub4xl4HQvORrJ02o.png?scale-down-to=1024&width=832&height=1088",
+    "w": 340,
+    "h": 403,
+    "alt": ""
+   },
+   {
+    "src": "https://framerusercontent.com/images/BfxuDPCmM2NvopgMjexkKFqMgWc.webp?width=896&height=981",
+    "w": 340,
+    "h": 403,
+    "alt": ""
+   },
+   {
+    "src": "https://framerusercontent.com/images/a7ARaKfNvPIqPATPIxPbKH99WU.webp?width=480&height=646",
+    "w": 340,
+    "h": 403,
+    "alt": ""
+   },
+   {
+    "src": "https://framerusercontent.com/images/iSN4tzOGZv3SA1JxsPxwaXrL5l0.webp?width=896&height=924",
+    "w": 340,
+    "h": 403,
+    "alt": ""
+   },
+   {
+    "src": "https://framerusercontent.com/images/fApG62fmk5ooV6hMIuKThIFVZc.webp?width=480&height=646",
+    "w": 340,
+    "h": 403,
+    "alt": ""
+   },
+   {
+    "src": "https://framerusercontent.com/images/2joxVt7gAQwLX6k5yHxyQAVQ4k.webp?width=896&height=951",
+    "w": 340,
+    "h": 403,
+    "alt": ""
+   },
+   {
+    "src": "https://framerusercontent.com/images/UmZS3Urv4OgNZLBreaGHKRuqxc.webp?width=480&height=646",
+    "w": 340,
+    "h": 403,
+    "alt": ""
+   },
+   {
+    "src": "https://framerusercontent.com/images/VbGAbBrrMidu4Y5YUJLd4PFJut0.webp?width=896&height=874",
+    "w": 340,
+    "h": 403,
+    "alt": ""
+   },
+   {
+    "src": "https://framerusercontent.com/images/POVz1Xx3hOMvsJsbcD3eG1G4yI.webp?width=480&height=646",
+    "w": 340,
+    "h": 403,
+    "alt": ""
+   },
+   {
+    "src": "https://framerusercontent.com/images/bLh6ZJdgNjTWyWJvm1w2ivT6jA.png?scale-down-to=1024&width=928&height=1152",
+    "w": 340,
+    "h": 403,
+    "alt": ""
+   },
+   {
+    "src": "https://framerusercontent.com/images/nxppLHoyjwbub4xl4HQvORrJ02o.png?scale-down-to=1024&width=832&height=1088",
+    "w": 340,
+    "h": 403,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 16385
+ },
+ "elapsedSec": 13.2
+}

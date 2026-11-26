@@ -1,0 +1,199 @@
+{
+ "slug": "aircall-io",
+ "url": "https://aircall.io/",
+ "capturedAt": "2026-10-12 21:06:57",
+ "files": {
+  "pc_f0": "aircall-io-pc-f0.jpg",
+  "pc_f1": "aircall-io-pc-f1.jpg",
+  "pc_f2": "aircall-io-pc-f2.jpg",
+  "pc_scroll": "aircall-io-pc-scroll.jpg",
+  "sp": "aircall-io-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": "button:has-text('Accept')",
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://aircall.io/",
+  "title": "AI-Powered Customer Communications Platform for SMBs & Enterprise | Aircall",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 14725,
+  "h1": "Customer communications, evolved with AI that qualifies customers and resolves issues.",
+  "h1Style": {
+   "fontFamily": "itcGaramondStd, \"itcGaramondStd Fallback\", serif",
+   "fontSize": "60.8px",
+   "fontWeight": "400",
+   "lineHeight": "63.84px",
+   "letterSpacing": "-1.216px",
+   "color": "rgb(33, 99, 88)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 351,
+    "y": 524,
+    "w": 738,
+    "h": 100
+   }
+  },
+  "lead": "TRY FOR FREE TALK TO SALES",
+  "ctas": [
+   "PRODUCT",
+   "SOLUTIONS",
+   "INTEGRATIONS",
+   "RESOURCES",
+   "PARTNERS",
+   "PRICING",
+   "AI Receptionist",
+   "AI Sales Agent",
+   "AI Support Agent",
+   "AI Order Agent",
+   "Live in-call guidance",
+   "Ask Aircall anything"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://a.storyblok.com/f/157376/1031x473/1930905cd1/hero-ws.png/m/",
+    "w": 1224,
+    "h": 400,
+    "alt": ""
+   },
+   {
+    "src": "https://a.storyblok.com/f/157376/1173x563/9721ad688e/hero-01-resolved.png/m/",
+    "w": 1102,
+    "h": 367,
+    "alt": ""
+   },
+   {
+    "src": "https://a.storyblok.com/f/157376/1200x563/5d0d485e82/hero-02-transcript.png/m/",
+    "w": 1102,
+    "h": 367,
+    "alt": ""
+   },
+   {
+    "src": "https://a.storyblok.com/f/157376/1200x578/c77a9a7c47/hero-03-liveprompts.png/m/",
+    "w": 1102,
+    "h": 367,
+    "alt": ""
+   },
+   {
+    "src": "https://a.storyblok.com/f/157376/1200x563/de193af327/hero-04-automate.png/m/",
+    "w": 1102,
+    "h": 367,
+    "alt": ""
+   },
+   {
+    "src": "https://a.storyblok.com/f/157376/1200x563/50636d65e0/hero-05-chart.png/m/",
+    "w": 1102,
+    "h": 367,
+    "alt": ""
+   },
+   {
+    "src": "https://a.storyblok.com/f/157376/515x366/251fc8e3e3/globe-na.png/m/",
+    "w": 350,
+    "h": 249,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Fellix",
+   "jetBrainsMono",
+   "itcGaramondStd"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(247, 248, 252)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "Customer communications, evolved with AI that handles customer interactions, end to end.",
+  "h1Style": {
+   "fontFamily": "itcGaramondStd, \"itcGaramondStd Fallback\", serif",
+   "fontSize": "33.863px",
+   "fontWeight": "400",
+   "lineHeight": "37.2493px",
+   "letterSpacing": "-0.67726px",
+   "color": "rgb(33, 99, 88)",
+   "textAlign": "left",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 32,
+    "y": 192,
+    "w": 326,
+    "h": 149
+   }
+  },
+  "lead": "TRY FOR FREE TALK TO SALES",
+  "ctas": [
+   "TRY FOR FREE",
+   "TALK TO SALES",
+   "Cookie settings",
+   "Reject all",
+   "Accept all"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://a.storyblok.com/f/157376/1031x473/1930905cd1/hero-ws.png/m/",
+    "w": 358,
+    "h": 164,
+    "alt": ""
+   },
+   {
+    "src": "https://a.storyblok.com/f/157376/1173x563/9721ad688e/hero-01-resolved.png/m/",
+    "w": 322,
+    "h": 161,
+    "alt": ""
+   },
+   {
+    "src": "https://a.storyblok.com/f/157376/1200x563/5d0d485e82/hero-02-transcript.png/m/",
+    "w": 322,
+    "h": 161,
+    "alt": ""
+   },
+   {
+    "src": "https://a.storyblok.com/f/157376/1200x578/c77a9a7c47/hero-03-liveprompts.png/m/",
+    "w": 322,
+    "h": 161,
+    "alt": ""
+   },
+   {
+    "src": "https://a.storyblok.com/f/157376/1200x563/de193af327/hero-04-automate.png/m/",
+    "w": 322,
+    "h": 161,
+    "alt": ""
+   },
+   {
+    "src": "https://a.storyblok.com/f/157376/1200x563/50636d65e0/hero-05-chart.png/m/",
+    "w": 322,
+    "h": 161,
+    "alt": ""
+   },
+   {
+    "src": "https://a.storyblok.com/f/157376/1500x737/81dfab4a39/bgtagline-fades.png/m/",
+    "w": 390,
+    "h": 932,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 11476
+ },
+ "elapsedSec": 12.4
+}

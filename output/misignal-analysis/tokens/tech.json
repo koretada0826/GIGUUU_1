@@ -1,0 +1,34 @@
+{
+ "meta": {
+  "measuredAt": "2026-10-05",
+  "site": "https://misignal.jp/",
+  "pages": [
+   "/",
+   "/products/scan",
+   "/faq",
+   "/article",
+   "/commitment",
+   "/contact(フォームのみ)"
+  ],
+  "viewports": {
+   "pc": "1440x900 DPR1",
+   "sp": "390x844 DPR2 isMobile iPhone UA"
+  },
+  "note": "computed style は全可視要素から自動集計。weight は text=文字数 / bg=面積px² / その他=要素数。"
+ },
+ "framework": "Next.js (App Router: /_next/static/chunks/app/(root)/page-*.js、RSC payload)",
+ "styling": "CSS Modules(Sass 系ネスト展開済み。クラス名 <Component>_<name>__<5桁hash>)。Tailwind 不使用(--tw-* 無し)。Bootstrap 5 の一部(btn/modal/table/alert/spinner/pagination, --bs-*)を同梱。",
+ "cssDelivery": "/_next/static/css/*.css を CloudFront(d1sjb8j5vfrz9p.cloudfront.net) から配信。トップ1ページで 26 本、5ページ合計 59 本(合計 約2.8MB)。ページ chunk 毎に共通 CSS(~100KB)が重複。",
+ "designTokens": "--ds-* 58 個(a042fa0acc3b11c6.css)。Figma 由来の var(--blue-blue-1001-f-7-bb-8,#1f7bb8) 形式(フォールバック付き)も併用",
+ "libraries": {
+  "carousel": "Splide(.splide__*, @keyframes splide-loading)",
+  "video": "Vimeo player(player.css に Like/Share/ControlBar 等)",
+  "calendar": "react-calendar",
+  "payment": "Paidy promotional messaging(cdn.paidy.com。SF Pro JP フォントがここ由来)",
+  "ui": "Bootstrap 5(部分)",
+  "analytics": "GTM, Klaviyo, TikTok, LinkedIn, Clarity, Sentry 等多数のトラッキング",
+  "bot": "Cloudflare Turnstile(challenges.cloudflare.com)"
+ },
+ "uaSwitch": "トップ(/) は UA 判定で PC/SP 別コンポーネント(Hero_/Kv_, Cta_/ScanCtaCompact_ 等)を SSR。他ページは CSS @media",
+ "robots": "robots.txt の Disallow に抵触するパスへはアクセスしていない"
+}

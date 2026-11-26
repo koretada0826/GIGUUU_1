@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-22",
+  "brief": "TELEMOを左右どちらかに寄せ、反対側の余白に見出しとボタンを置く。",
+  "concepts": [
+    {
+      "id": "right",
+      "number": 1,
+      "title": "TELEMOを右、見出しとボタンを左",
+      "baseConcept": "rakushifu-split",
+      "sourceUrl": "https://rakushifu.jp/",
+      "image": "assets/telemo-ui-concepts/20261022-side-layouts/telemo-right.webp",
+      "width": 1586,
+      "height": 992
+    },
+    {
+      "id": "left",
+      "number": 2,
+      "title": "TELEMOを左、見出しとボタンを右",
+      "baseConcept": "movie-split",
+      "sourceUrl": "https://menkyohenno-movie.com/",
+      "image": "assets/telemo-ui-concepts/20261022-side-layouts/telemo-left.webp",
+      "width": 1586,
+      "height": 992
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "tool_name": "image_gen__imagegen (built-in image_gen)",
+  "model_name": null,
+  "model_name_note": "Exact model identifier is not exposed by the built-in tool; embedded provenance identifies software version as gpt-image.",
+  "prompt_full": "Use case: photorealistic-natural\n\nAsset type: TELEMO LP hero background photograph (documentary style, no text)\n\nPrimary request: A realistic documentary-style photograph inside a modern Japanese call center, composed so that a headline can sit on the left, a small UI card on the lower right, and a brand-color gradient along the bottom. Generate a NEW photograph; do not add any text, logos or interface graphics.\n\nSubject: A Japanese man in his late 20s with short black hair, wearing a plain dark navy shirt, seated at his desk in the RIGHT third of the frame, seen from the side at a slight three-quarter angle. He holds a corded desk-phone handset to his ear and is mid-conversation: calm, focused, a faint natural smile, eyes on his monitor. His face sits in the upper right quarter of the frame. Both forearms rest naturally on the desk; one hand holds the handset, the other rests near the keyboard. Anatomy must be coherent: natural elbows and wrists, five fingers, no hands touching the face.\n\nProps: His monitor is visible at the right edge, angled away so the screen shows only a soft, unreadable pale interface (no legible text, no charts that draw the eye). On the desk: a desk phone with a coiled cord, a notebook, a pen, a teal document folder as the single small brand-color accent.\n\nBackground: Rows of ordinary desks with low partitions. Three or four colleagues work in soft focus behind him, two of them on the phone, with genuine, unposed expressions. Large windows on the far right. The LEFT 40% of the frame is a plain, slightly darker wall or partition in warm gray-beige with nothing bright, no faces and no fine detail, so a headline can be placed there. The center of the frame (between the wall and the man) stays visually quiet: only his shoulder, the desk surface and a blurred partition.\n\nLower band: The bottom quarter of the frame is desk surface and floor in darker neutral tones, simple and even, so a teal gradient and a row of logos can be overlaid later. The lower right area in front of the desk edge is uncluttered for a small UI card.\n\nLighting: Soft natural daylight from the windows on the right, slightly backlit, with a gentle warm highlight on his cheek and hands. Neutral palette of beige, warm gray and charcoal with restrained teal accents. Realistic skin, fabric and desk textures that will take a film-grain overlay well. Shallow depth of field, 35mm cinema lens look, slight vignette toward the edges.\n\nComposition: Wide 16:9 landscape, 1920x1080 or larger. Eye-level camera, horizon level. The man and his monitor occupy the right third, the quiet wall the left 40%, the upper middle is calm negative space. Nothing important within 5% of any edge, so the photo also works cropped to 2.3:1 and inside a rounded, inset panel.\n\nMood: Quiet, trustworthy, documentary. A real workplace during a real call, not a stock photo and not an advertisement.\n\nConstraints: No text, captions, logos, watermarks, on-screen graphics, holograms, neon, lens flares, headsets, or people looking at the camera. No extra limbs, distorted hands, duplicated fingers or floating objects. Keep the Japanese office setting authentic.\n\nNegative prompt: text, caption, logo, watermark, UI overlay, hologram, neon, glow, lens flare, headset, looking at camera, stock smile, distorted hands, extra fingers, blurry subject, oversaturated, HDR look\n\nLayout zones (percentages of the full image; reserve these areas without drawing any overlays):\nLeft headline, lead and two CTAs: x=6%-42%, y=30%-78%.\nLower-right AI call-log glass card: x=64%-95%, y=56%-88%; leave quiet desk foreground here.\nBottom teal gradient and customer-logo/statistics strip: x=0%-100%, y=72%-100%; simple darker neutral surface, no baked-in gradient or logos.\nMain subject face: x=60%-80%, y=18%-48%; do not overlap with text.\nQuiet center: x=42%-60%, y=20%-70%; only shoulder, desk and blurred partition, no eye-catching objects.\n2.3:1 crop safe area: y=15%-85%; keep face, hands and monitor within this vertical band.\nKeep faces, bright objects and fine details outside overlay areas. Deliver one new 16:9 photograph, preferably 1920x1080 or larger. Do not render zone boundaries or labels.",
+  "transparent_background": false,
+  "images": [
+    {
+      "variant": "a",
+      "source_path": "/Users/matsugirintarou/.codex/generated_images/01a13035-d9d3-7220-8e33-5f50328ac78e/exec-ec7ef054-d16b-4db1-bc70-093b8da85d21.png",
+      "saved_path": "assets/hero/concept/telemo-hero-concept-v1-a.png",
+      "generation_started_at": "2026-10-12 13:03:59 UTC",
+      "generation_completed_at": "2026-10-12 13:04:34 UTC",
+      "width": 1672,
+      "height": 941,
+      "sha256": "6a1dd529ba707abff5ac8ed3f8907f34d6451def6f2ff70e6a75623d01b7251b",
+      "byte_identical_to_source": true
+    },
+    {
+      "variant": "b",
+      "source_path": "/Users/matsugirintarou/.codex/generated_images/01a13035-d9d3-7220-8e33-5f50328ac78e/exec-535e262c-8b76-4252-bac8-f5ae33201316.png",
+      "saved_path": "assets/hero/concept/telemo-hero-concept-v1-b.png",
+      "generation_started_at": "2026-10-12 13:04:34 UTC",
+      "generation_completed_at": "2026-10-12 13:05:01 UTC",
+      "width": 1672,
+      "height": 941,
+      "sha256": "3dc8c0ff8c42bf019665aab2aab46adae5a9db0ae3ccfd5c51d2256039a64092",
+      "byte_identical_to_source": true
+    },
+    {
+      "variant": "c",
+      "tool_name": "image_gen__imagegen (built-in image_gen)",
+      "prompt_full": "Use case: precise-object-edit\nAsset type: TELEMO hero background photograph, one revised image C.\nInput image: supplied image B is the edit target and sole reference. Edit this photograph, preserving the exact same man's identity, facial features, expression, hair, navy shirt, pose, face position in the upper-right quarter, camera angle, composition, plain wall in the left 40%, blurred colleagues, windows, natural daylight, exposure and restrained beige/charcoal/teal color grading. Preserve photorealism and the existing 16:9 landscape framing.\nChange ONLY these three desk-related details:\n1. Remove the notebook and pen completely. Remove the large teal folder completely (retain the existing subtle teal background accents). Keep the desk telephone base, but relocate it to the far right immediately in front of the right-edge monitor, on the rear part of the desktop above the bottom-quarter band. Keep the handset and natural coiled cable connection; the cable must not spill into the cleared foreground.\n2. Clear the lower-right foreground, horizontal x=64%-95%, from the front desk area down to the image bottom: show only uninterrupted plain walnut desktop here. No telephone base, folder, notebook, pen, plant, cable or other objects in this foreground. Preserve the man's current hands and forearms above this empty foreground; do not move his face or change his identity. Remove the foreground plant at the extreme lower right where it obstructs the desktop.\n3. Make the ENTIRE bottom 25% of the image, across its full width, a continuous dark walnut-brown desktop surface matching image B's darker desk color. Extend the desktop naturally into the bottom-left where floor is currently visible. This lower band must be homogeneous, matte, subtly photographic but without visible patterned wood grain, bright reflections, light objects, clutter, floor, desk-edge lines or props. Keep light and color elsewhere unchanged.\nDo not introduce anything else. No text, logos, UI cards, rendered interfaces, neon, headsets or watermark. Anatomically coherent hands, fingers and handset. Deliver exactly one photorealistic edited image, same 16:9 framing. The empty areas are for later HTML overlays; do not render any overlays.",
+      "reference_images": [
+        "assets/hero/concept/telemo-hero-concept-v1-b.png"
+      ],
+      "source_path": "/Users/matsugirintarou/.codex/generated_images/01a13039-2bdc-7c51-8711-16be23990c3a/exec-200c6e5f-8945-4bf2-ba10-f22c4018dc85.png",
+      "saved_path": "assets/hero/concept/telemo-hero-concept-v1-c.png",
+      "generation_started_at": "2026-10-12 13:07:32 UTC",
+      "generation_completed_at": "2026-10-12 13:08:09 UTC",
+      "width": 1672,
+      "height": 941,
+      "sha256": "816322490d3e18b3257a171ccb61dd3ebd3cfc1f1cb415f7159bfde9d9218e41",
+      "byte_identical_to_source": true
+    }
+  ],
+  "selection_evaluation": {
+    "a": [
+      "Partial: leftmost 37% is plain; a blurred colleague encroaches near 40%.",
+      "Partial: face correctly placed; lower-right overlay area contains hand, cord, notebook and phone.",
+      "Fail: light desk and teal folder occupy much of bottom quarter.",
+      "Pass on visual inspection: hands, fingers and handset appear coherent.",
+      "Pass: no visible readable text, logos or rendered UI overlays; monitor faces away."
+    ],
+    "b": [
+      "Pass: left 40% is a plain wall without faces or bright objects.",
+      "Partial: face correctly placed; lower-right overlay area contains hand, cord, notebook and phone.",
+      "Partial: darker desk than A, but folder and props prevent a simple even bottom band.",
+      "Pass on visual inspection: hands, fingers and handset appear coherent.",
+      "Pass: no visible readable text, logos or rendered UI overlays; monitor faces away."
+    ]
+  }
+}

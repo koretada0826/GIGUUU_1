@@ -1,0 +1,153 @@
+{
+ "slug": "promotion-cast-com-lp02",
+ "url": "https://promotion-cast.com/lp02/",
+ "capturedAt": "2026-10-12 21:17:20",
+ "files": {
+  "pc_f0": "promotion-cast-com-lp02-pc-f0.jpg",
+  "pc_f1": "promotion-cast-com-lp02-pc-f1.jpg",
+  "pc_f2": "promotion-cast-com-lp02-pc-f2.jpg",
+  "pc_scroll": "promotion-cast-com-lp02-pc-scroll.jpg",
+  "sp": "promotion-cast-com-lp02-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://promotion-cast.com/lp02/",
+  "title": "役者/芸人/声優を目指す人の求人バイト情報|プロモーションキャスト",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 17330,
+  "h1": "",
+  "h1Style": {
+   "fontFamily": "\"Noto Sans JP\", sans-serif",
+   "fontSize": "32px",
+   "fontWeight": "700",
+   "lineHeight": "48px",
+   "letterSpacing": "normal",
+   "color": "rgb(7, 22, 49)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 59,
+    "y": 27,
+    "w": 235,
+    "h": 60
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "仮登録はこちら",
+   "仮登録はこちら"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://promotion-cast.com/lp02/wp-content/themes/promotion-cast-2023/img/header-logo-pc.png",
+    "w": 235,
+    "h": 60,
+    "alt": "Promotion Cast 表現者のための求人サービス Produce by CEREBRIX"
+   },
+   {
+    "src": "https://promotion-cast.com/lp02/wp-content/themes/promotion-cast-2023/img/mv-img-galley-fukidashi.png",
+    "w": 230,
+    "h": 185,
+    "alt": "こんな人が活躍しています！"
+   },
+   {
+    "src": "https://promotion-cast.com/lp02/wp-content/themes/promotion-cast-2023/img/mv-img-galley.png",
+    "w": 863,
+    "h": 106,
+    "alt": "役者 / 声優 / 芸人 / 歌手 / ダンサーの画像"
+   },
+   {
+    "src": "https://promotion-cast.com/lp02/wp-content/themes/promotion-cast-2023/img/mv-img-galley.png",
+    "w": 863,
+    "h": 106,
+    "alt": "役者 / 声優 / 芸人 / 歌手 / ダンサーの画像"
+   }
+  ],
+  "backgroundImages": [
+   {
+    "bg": "url(\"https://promotion-cast.com/lp02/wp-content/themes/promotion-cast-2023/img/mv-bg-01-pc.jpg\")",
+    "w": 1440,
+    "h": 645
+   },
+   {
+    "bg": "url(\"https://promotion-cast.com/lp02/wp-content/themes/promotion-cast-2023/img/mv-bg-gallery.png\")",
+    "w": 806,
+    "h": 155
+   }
+  ],
+  "firstScreenFonts": [
+   "Noto Sans JP"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "",
+  "h1Style": {
+   "fontFamily": "\"Noto Sans JP\", sans-serif",
+   "fontSize": "32px",
+   "fontWeight": "700",
+   "lineHeight": "48px",
+   "letterSpacing": "normal",
+   "color": "rgb(7, 22, 49)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 12,
+    "y": 11,
+    "w": 203,
+    "h": 35
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "仮登録はこちら",
+   "仮登録はこちら"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://promotion-cast.com/lp02/wp-content/themes/promotion-cast-2023/img/mv-img-galley-fukidashi.png",
+    "w": 133,
+    "h": 107,
+    "alt": "こんな人が活躍しています！"
+   },
+   {
+    "src": "https://promotion-cast.com/lp02/wp-content/themes/promotion-cast-2023/img/mv-img-galley.png",
+    "w": 886,
+    "h": 109,
+    "alt": "役者 / 声優 / 芸人 / 歌手 / ダンサーの画像"
+   },
+   {
+    "src": "https://promotion-cast.com/lp02/wp-content/themes/promotion-cast-2023/img/mv-img-galley.png",
+    "w": 886,
+    "h": 109,
+    "alt": "役者 / 声優 / 芸人 / 歌手 / ダンサーの画像"
+   }
+  ],
+  "pageHeight": 18703
+ },
+ "elapsedSec": 18.3
+}

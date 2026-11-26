@@ -1,0 +1,264 @@
+{
+ "slug": "www-tmj-jp",
+ "url": "https://www.tmj.jp/",
+ "capturedAt": "2026-10-12 21:08:06",
+ "files": {
+  "pc_f0": "www-tmj-jp-pc-f0.jpg",
+  "pc_f1": "www-tmj-jp-pc-f1.jpg",
+  "pc_f2": "www-tmj-jp-pc-f2.jpg",
+  "pc_scroll": "www-tmj-jp-pc-scroll.jpg",
+  "sp": "www-tmj-jp-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.tmj.jp/",
+  "title": "TMJトップページ | 株式会社TMJ",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 6064,
+  "h1": "",
+  "h1Style": {
+   "fontFamily": "游ゴシック体, YuGothic, \"游ゴシック Medium\", \"Yu Gothic Medium\", 游ゴシック, \"Yu Gothic\", \"Noto Sans JP\", メイリオ, sans-serif",
+   "fontSize": "38px",
+   "fontWeight": "500",
+   "lineHeight": "53.2px",
+   "letterSpacing": "normal",
+   "color": "rgb(40, 50, 60)",
+   "textAlign": "left",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "お問い合わせ",
+   "CONTACT US (Global website)",
+   "資料ダウンロード",
+   "TOP",
+   "導入事例",
+   "業務改善ノート",
+   "会社情報",
+   "イベント情報",
+   "採用情報",
+   "BUSINESS PROCESS Design & Consulting",
+   "CONTACT Design & Outsourcing",
+   "WORK Design & Outsourcing"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.tmj.jp/wptmj/wp-content/themes/tmj/assets/images/index/tmj_logo.png",
+    "w": 135,
+    "h": 50,
+    "alt": "TMJ Inc."
+   },
+   {
+    "src": "https://www.tmj.jp/wptmj/wp-content/uploads/2024/07/TOP-Hero-TMJGenerativeSolution-1300x670-1.jpg",
+    "w": 716,
+    "h": 369,
+    "alt": ""
+   },
+   {
+    "src": "https://www.tmj.jp/wptmj/wp-content/uploads/2023/03/thumbnail_02_pc.png",
+    "w": 716,
+    "h": 370,
+    "alt": ""
+   },
+   {
+    "src": "https://www.tmj.jp/wptmj/wp-content/uploads/2023/03/02thumbnail_03.png",
+    "w": 716,
+    "h": 370,
+    "alt": ""
+   },
+   {
+    "src": "https://www.tmj.jp/wptmj/wp-content/uploads/2024/12/f57aa35099eef771204d1c0372aeb875.jpg",
+    "w": 716,
+    "h": 370,
+    "alt": ""
+   },
+   {
+    "src": "https://www.tmj.jp/wptmj/wp-content/uploads/2023/10/TRUSTDOCKxTMJ_eKYCservice_PC_banner.jpg",
+    "w": 716,
+    "h": 370,
+    "alt": ""
+   },
+   {
+    "src": "https://www.tmj.jp/wptmj/wp-content/uploads/2025/10/TOP_Banner_InsuranceS_L.jpg",
+    "w": 716,
+    "h": 370,
+    "alt": ""
+   },
+   {
+    "src": "https://www.tmj.jp/wptmj/wp-content/uploads/2024/07/TOP-Hero-TMJGenerativeSolution-1300x670-1.jpg",
+    "w": 716,
+    "h": 369,
+    "alt": ""
+   },
+   {
+    "src": "https://www.tmj.jp/wptmj/wp-content/uploads/2023/03/thumbnail_02_pc.png",
+    "w": 716,
+    "h": 370,
+    "alt": ""
+   },
+   {
+    "src": "https://www.tmj.jp/wptmj/wp-content/uploads/2023/03/02thumbnail_03.png",
+    "w": 716,
+    "h": 370,
+    "alt": ""
+   },
+   {
+    "src": "https://www.tmj.jp/wptmj/wp-content/uploads/2024/12/f57aa35099eef771204d1c0372aeb875.jpg",
+    "w": 716,
+    "h": 370,
+    "alt": ""
+   },
+   {
+    "src": "https://www.tmj.jp/wptmj/wp-content/uploads/2023/10/TRUSTDOCKxTMJ_eKYCservice_PC_banner.jpg",
+    "w": 716,
+    "h": 370,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [
+   {
+    "bg": "url(\"https://www.tmj.jp/wptmj/wp-content/themes/tmj/assets/images/index/bg_top.png\")",
+    "w": 1440,
+    "h": 789
+   }
+  ],
+  "firstScreenFonts": [
+   "游ゴシック体",
+   "Roboto Condensed"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": true,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "",
+  "h1Style": {
+   "fontFamily": "游ゴシック体, YuGothic, \"游ゴシック Medium\", \"Yu Gothic Medium\", 游ゴシック, \"Yu Gothic\", \"Noto Sans JP\", メイリオ, sans-serif",
+   "fontSize": "38px",
+   "fontWeight": "500",
+   "lineHeight": "53.2px",
+   "letterSpacing": "normal",
+   "color": "rgb(40, 50, 60)",
+   "textAlign": "left",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 42,
+    "y": 1,
+    "w": 215,
+    "h": 53
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "採用情報",
+   "お問い合わせ",
+   "お問い合わせ",
+   "採用情報",
+   "CXデザインコンサルティング"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.tmj.jp/wptmj/wp-content/uploads/2024/07/TOP-Hero-TMJGenerativeSolution-680x690-1.jpg",
+    "w": 338,
+    "h": 343,
+    "alt": ""
+   },
+   {
+    "src": "https://www.tmj.jp/wptmj/wp-content/uploads/2023/03/thumbnail_02_sp.png",
+    "w": 338,
+    "h": 344,
+    "alt": ""
+   },
+   {
+    "src": "https://www.tmj.jp/wptmj/wp-content/uploads/2023/03/thumbnail_03.png",
+    "w": 338,
+    "h": 344,
+    "alt": ""
+   },
+   {
+    "src": "https://www.tmj.jp/wptmj/wp-content/uploads/2024/12/27477c815822a9478a18b929ea6daf1b.jpg",
+    "w": 338,
+    "h": 344,
+    "alt": ""
+   },
+   {
+    "src": "https://www.tmj.jp/wptmj/wp-content/uploads/2023/10/TRUSTDOCKxTMJ_eKYCservice_SP_banner.jpg",
+    "w": 338,
+    "h": 343,
+    "alt": ""
+   },
+   {
+    "src": "https://www.tmj.jp/wptmj/wp-content/uploads/2025/10/TOP_Banner_InsuranceS_S.jpg",
+    "w": 338,
+    "h": 344,
+    "alt": ""
+   },
+   {
+    "src": "https://www.tmj.jp/wptmj/wp-content/uploads/2024/07/TOP-Hero-TMJGenerativeSolution-680x690-1.jpg",
+    "w": 338,
+    "h": 343,
+    "alt": ""
+   },
+   {
+    "src": "https://www.tmj.jp/wptmj/wp-content/uploads/2023/03/thumbnail_02_sp.png",
+    "w": 338,
+    "h": 344,
+    "alt": ""
+   },
+   {
+    "src": "https://www.tmj.jp/wptmj/wp-content/uploads/2023/03/thumbnail_03.png",
+    "w": 338,
+    "h": 344,
+    "alt": ""
+   },
+   {
+    "src": "https://www.tmj.jp/wptmj/wp-content/uploads/2024/12/27477c815822a9478a18b929ea6daf1b.jpg",
+    "w": 338,
+    "h": 344,
+    "alt": ""
+   },
+   {
+    "src": "https://www.tmj.jp/wptmj/wp-content/uploads/2023/10/TRUSTDOCKxTMJ_eKYCservice_SP_banner.jpg",
+    "w": 338,
+    "h": 343,
+    "alt": ""
+   },
+   {
+    "src": "https://www.tmj.jp/wptmj/wp-content/uploads/2025/10/TOP_Banner_InsuranceS_S.jpg",
+    "w": 338,
+    "h": 344,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 8443
+ },
+ "elapsedSec": 15.2
+}

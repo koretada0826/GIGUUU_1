@@ -1,0 +1,122 @@
+{
+ "slug": "ouraring-com",
+ "url": "https://ouraring.com/",
+ "capturedAt": "2026-10-12 21:08:24",
+ "files": {
+  "pc_f0": "ouraring-com-pc-f0.jpg",
+  "pc_f1": "ouraring-com-pc-f1.jpg",
+  "pc_f2": "ouraring-com-pc-f2.jpg",
+  "pc_scroll": "ouraring-com-pc-scroll.jpg",
+  "sp": "ouraring-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://ouraring.com/ja",
+  "title": "Oura Ring：フィットネス、ストレス、睡眠、健康を管理するスマートリング。",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 6179,
+  "h1": "最高の自分を 目指して",
+  "h1Style": {
+   "fontFamily": "\"Editorial New\", serif",
+   "fontSize": "84px",
+   "fontWeight": "300",
+   "lineHeight": "92.4px",
+   "letterSpacing": "normal",
+   "color": "rgb(74, 71, 65)",
+   "textAlign": "left",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 64,
+    "y": 272,
+    "w": 504,
+    "h": 185
+   }
+  },
+  "lead": "世界最小のスマートリングで、健康状態を詳しく把握。",
+  "ctas": [
+   "購入する",
+   "あなたの健康",
+   "Ouraを選ぶ理由",
+   "ビジネス向け",
+   "カート内に商品がありません",
+   "今すぐ購入",
+   "すべての Cookie を受け入れる",
+   "すべて拒否する",
+   "Cookie 設定"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://ourahealth.imgix.net/homepage/oura-fall-campaign-desktop.jpg?ixlib=js-3.8.0&auto=format&fit=max&fm=png&q=70&w=1920&s=d29e36032138ab1e9079c3f7034207af",
+    "w": 1440,
+    "h": 900,
+    "alt": "announcement_hero_img_alt"
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "AkkuratLL",
+   "Editorial New"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "最高の自分を 目指して",
+  "h1Style": {
+   "fontFamily": "\"Editorial New\", serif",
+   "fontSize": "36px",
+   "fontWeight": "300",
+   "lineHeight": "39.6px",
+   "letterSpacing": "normal",
+   "color": "rgb(74, 71, 65)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 87,
+    "y": 569,
+    "w": 216,
+    "h": 79
+   }
+  },
+  "lead": "世界最小のスマートリングで、健康状態を詳しく把握。",
+  "ctas": [
+   "今すぐ購入",
+   "すべての Cookie を受け入れる",
+   "すべて拒否する",
+   "Cookie 設定"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://ourahealth.imgix.net/homepage/oura-fall-campaign-mobile.jpg?ixlib=js-3.8.0&auto=format&fit=max&fm=png&q=70&w=828&s=139a5bff1e981fdff71f699446852e3d",
+    "w": 390,
+    "h": 844,
+    "alt": "announcement_hero_img_alt"
+   }
+  ],
+  "pageHeight": 7076
+ },
+ "elapsedSec": 16.9
+}

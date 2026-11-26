@@ -1,0 +1,266 @@
+{
+ "slug": "www-kaonavi-jp",
+ "url": "https://www.kaonavi.jp/",
+ "capturedAt": "2026-10-12 21:07:13",
+ "files": {
+  "pc_f0": "www-kaonavi-jp-pc-f0.jpg",
+  "pc_f1": "www-kaonavi-jp-pc-f1.jpg",
+  "pc_f2": "www-kaonavi-jp-pc-f2.jpg",
+  "pc_scroll": "www-kaonavi-jp-pc-scroll.jpg",
+  "sp": "www-kaonavi-jp-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.kaonavi.jp/",
+  "title": "カオナビ｜【シェアNo.1】タレントマネジメントシステム",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 12242,
+  "h1": "",
+  "h1Style": {
+   "fontFamily": "\"Noto Sans JP\", sans-serif",
+   "fontSize": "44px",
+   "fontWeight": "700",
+   "lineHeight": "70.4px",
+   "letterSpacing": "2.46297px",
+   "color": "rgb(32, 34, 38)",
+   "textAlign": "left",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 140,
+    "y": 148,
+    "w": 690,
+    "h": 220
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "セキュリティ",
+   "KTi",
+   "機能",
+   "人材情報の一元化",
+   "人事評価",
+   "AI活用",
+   "労務管理",
+   "勤怠管理",
+   "エンゲージメント向上",
+   "最適配置",
+   "スキル管理・育成",
+   "離職抑止・分析"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.kaonavi.jp/img/top/slide_allinone.png",
+    "w": 1440,
+    "h": 400,
+    "alt": ""
+   },
+   {
+    "src": "https://www.kaonavi.jp/img/top/slide_allinone_message.png",
+    "w": 690,
+    "h": 220,
+    "alt": "労務も勤怠もタレマネも!!! 人事の欲しい機能、すべて集結。タレントマネジメントシステム シェアNo.1 カオナビ"
+   },
+   {
+    "src": "https://www.kaonavi.jp/img/top/slide_talentintelligence.png",
+    "w": 1440,
+    "h": 400,
+    "alt": ""
+   },
+   {
+    "src": "https://www.kaonavi.jp/img/top/slide_talentintelligence_message.png",
+    "w": 660,
+    "h": 133,
+    "alt": "AIの力で一人ひとりの意思決定をナビゲート カオナビは、タレントインテリジェンスへ"
+   },
+   {
+    "src": "https://www.kaonavi.jp/img/top/slide_kti.png",
+    "w": 1440,
+    "h": 400,
+    "alt": ""
+   },
+   {
+    "src": "https://www.kaonavi.jp/img/top/slide_kti_message.png",
+    "w": 535,
+    "h": 160,
+    "alt": "KTi ケーティ Powered by kaonavi 経営から現場まで、意思決定をナビゲートするAIエージェント"
+   },
+   {
+    "src": "https://www.kaonavi.jp/img/top/slide_allinone.png",
+    "w": 1440,
+    "h": 400,
+    "alt": ""
+   },
+   {
+    "src": "https://www.kaonavi.jp/img/top/slide_allinone_message.png",
+    "w": 690,
+    "h": 220,
+    "alt": "労務も勤怠もタレマネも!!! 人事の欲しい機能、すべて集結。タレントマネジメントシステム シェアNo.1 カオナビ"
+   },
+   {
+    "src": "https://www.kaonavi.jp/img/top/slide_talentintelligence.png",
+    "w": 1440,
+    "h": 400,
+    "alt": ""
+   },
+   {
+    "src": "https://www.kaonavi.jp/img/top/slide_talentintelligence_message.png",
+    "w": 660,
+    "h": 133,
+    "alt": "AIの力で一人ひとりの意思決定をナビゲート カオナビは、タレントインテリジェンスへ"
+   },
+   {
+    "src": "https://www.kaonavi.jp/img/top/promo-banner-kti.png",
+    "w": 160,
+    "h": 116,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [
+   {
+    "bg": "url(\"https://www.kaonavi.jp/img/common/hero_back.png\")",
+    "w": 1440,
+    "h": 400
+   },
+   {
+    "bg": "url(\"https://cdn.tetori.link/var/data/u/public/51/5ab21727/creative/362105/f7/f716bfe1f3550ca380f038d834ae8fca.png\")",
+    "w": 290,
+    "h": 193
+   }
+  ],
+  "firstScreenFonts": [
+   "游ゴシック体",
+   "Noto Sans JP",
+   "YakuHanJP",
+   "Times"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": true,
+   "lottie": false
+  },
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "",
+  "h1Style": {
+   "fontFamily": "\"Noto Sans JP\", sans-serif",
+   "fontSize": "25.35px",
+   "fontWeight": "700",
+   "lineHeight": "40.56px",
+   "letterSpacing": "1.41901px",
+   "color": "rgb(32, 34, 38)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 20,
+    "y": 94,
+    "w": 350,
+    "h": 112
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "セキュリティ",
+   "KTi",
+   "機能",
+   "人材情報の一元化",
+   "人事評価",
+   "AI活用",
+   "労務管理",
+   "勤怠管理",
+   "エンゲージメント向上",
+   "最適配置",
+   "スキル管理・育成",
+   "離職抑止・分析"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.kaonavi.jp/img/top/slide_allinone_sp.png",
+    "w": 390,
+    "h": 510,
+    "alt": ""
+   },
+   {
+    "src": "https://www.kaonavi.jp/img/top/slide_allinone_message.png",
+    "w": 350,
+    "h": 112,
+    "alt": "労務も勤怠もタレマネも!!! 人事の欲しい機能、すべて集結。タレントマネジメントシステム シェアNo.1 カオナビ"
+   },
+   {
+    "src": "https://www.kaonavi.jp/img/top/slide_talentintelligence_sp.png",
+    "w": 390,
+    "h": 510,
+    "alt": ""
+   },
+   {
+    "src": "https://www.kaonavi.jp/img/top/slide_talentintelligence_message.png",
+    "w": 350,
+    "h": 71,
+    "alt": "AIの力で一人ひとりの意思決定をナビゲート カオナビは、タレントインテリジェンスへ"
+   },
+   {
+    "src": "https://www.kaonavi.jp/img/top/slide_kti_sp.png",
+    "w": 390,
+    "h": 510,
+    "alt": ""
+   },
+   {
+    "src": "https://www.kaonavi.jp/img/top/slide_kti_message.png",
+    "w": 350,
+    "h": 105,
+    "alt": "KTi ケーティ Powered by kaonavi 経営から現場まで、意思決定をナビゲートするAIエージェント"
+   },
+   {
+    "src": "https://www.kaonavi.jp/img/top/slide_allinone_sp.png",
+    "w": 390,
+    "h": 510,
+    "alt": ""
+   },
+   {
+    "src": "https://www.kaonavi.jp/img/top/slide_allinone_message.png",
+    "w": 350,
+    "h": 112,
+    "alt": "労務も勤怠もタレマネも!!! 人事の欲しい機能、すべて集結。タレントマネジメントシステム シェアNo.1 カオナビ"
+   },
+   {
+    "src": "https://www.kaonavi.jp/img/top/slide_talentintelligence_sp.png",
+    "w": 390,
+    "h": 510,
+    "alt": ""
+   },
+   {
+    "src": "https://www.kaonavi.jp/img/top/slide_talentintelligence_message.png",
+    "w": 350,
+    "h": 71,
+    "alt": "AIの力で一人ひとりの意思決定をナビゲート カオナビは、タレントインテリジェンスへ"
+   },
+   {
+    "src": "https://www.kaonavi.jp/img/top/promo-banner-kti.png",
+    "w": 160,
+    "h": 116,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 18731
+ },
+ "elapsedSec": 13.6
+}

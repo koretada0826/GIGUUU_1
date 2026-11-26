@@ -1,0 +1,283 @@
+/* =========================================================
+   founder.css — トップページ「TELEMOをつくったひと。」セクション
+   index-refine.css のトークン（--rf-*）を使い、上書きはしない。
+   写真は assets/founder/founder-portrait-ai.png を使用。
+   ========================================================= */
+
+.page-home main > #founder { background: #fff; color: var(--rf-text); }
+
+/* ---------- 上段：ロゴ + タグライン ---------- */
+.founder__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 24px;
+  margin-bottom: 48px;
+}
+.founder__logo { margin: 0; display: grid; gap: 6px; line-height: 1; }
+.founder__logo-main {
+  font: 700 44px/1 "Space Grotesk", sans-serif;
+  letter-spacing: .02em;
+  color: var(--rf-navy-950);
+}
+.founder__logo-sub {
+  font: 600 11px/1.4 "Space Grotesk", sans-serif;
+  letter-spacing: .22em;
+  color: var(--rf-navy-800);
+  padding-left: 2px;
+  white-space: nowrap; /* 320px で「AI SALES / AUTOMATION」と割れない */
+}
+.founder__tagline {
+  margin: 0;
+  padding-left: 16px;
+  border-left: 1px solid var(--rf-border);
+  font: 500 12px/1.6 "Space Grotesk", sans-serif;
+  letter-spacing: .08em;
+  color: var(--rf-text-sub);
+}
+
+/* ---------- 本体：写真（左）+ テキスト（右） ---------- */
+.founder__grid {
+  display: grid;
+  grid-template-columns: minmax(0, 380px) minmax(0, 1fr);
+  gap: 56px;
+  align-items: start;
+}
+
+.founder__photo { margin: 0; background: var(--rf-surface-gray); }
+.founder__photo img { display: block; width: 100%; height: auto; aspect-ratio: 1191 / 1320; object-fit: cover; }
+
+.founder__meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 16px;
+  margin-top: 24px;
+}
+.founder__name p { margin: 0; }
+.founder__role { font-size: 13px; font-weight: 700; color: var(--rf-text-sub); letter-spacing: .04em; }
+.founder__name-ja {
+  margin-top: 4px !important;
+  font-family: var(--rf-display);
+  font-size: 34px;
+  font-weight: 800;
+  line-height: 1.3;
+  color: var(--rf-heading);
+  letter-spacing: .12em;
+}
+.founder__name-en {
+  margin-top: 6px !important;
+  font: 500 12px/1.4 "Space Grotesk", sans-serif;
+  letter-spacing: .28em;
+  color: var(--rf-text-sub);
+}
+/* 手書き風コピー（資料の手書き文字に合わせ、手書き調の書体を傾けて下線を添える） */
+.founder__hand {
+  margin: 0 4px 6px 0;
+  padding-bottom: 8px;
+  font-family: "Klee", "Hiragino Mincho ProN", "Yu Mincho", serif;
+  font-size: 17px;
+  line-height: 1.6;
+  color: var(--rf-navy-900);
+  letter-spacing: .08em;
+  transform: rotate(-6deg);
+  transform-origin: right bottom;
+  border-bottom: 1px solid var(--rf-navy-900);
+  white-space: nowrap;
+}
+
+/* 見出し・本文 */
+.page-home .founder__title {
+  margin: 0;
+  font-size: clamp(32px, 3.6vw, 48px);
+  font-weight: 900;
+  line-height: 1.35;
+  letter-spacing: .02em;
+  color: var(--rf-navy-950);
+}
+.founder__title-em {
+  font-family: "Space Grotesk", var(--font-body);
+  font-weight: 700;
+  color: var(--rf-accent);
+  letter-spacing: 0;
+}
+.founder__lead {
+  margin: 32px 0 0;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1.6;
+  color: var(--rf-heading);
+}
+.founder__text { margin: 16px 0 0; max-width: 40em; text-wrap: pretty; font-size: 16px; line-height: 2; color: var(--rf-text); }
+
+/* 実績 */
+.founder__record-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px 20px;
+  margin-top: 40px;
+}
+.founder__badge {
+  margin: 0;
+  padding: 8px 20px;
+  background: var(--rf-navy-900);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .1em;
+}
+.founder__record-note { margin: 0; font-size: 15px; color: var(--rf-text); word-break: auto-phrase; text-wrap: balance; /* 320px で「きまし / た。」と折れないよう文節で 2 行に */ }
+
+.founder__cards {
+  list-style: none;
+  margin: 20px 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+.founder__card {
+  display: flex;
+  flex-direction: column;
+  padding: 18px 14px 16px;
+  background: #fff;
+  border: 1px solid var(--rf-border);
+  box-shadow: var(--rf-sh-card);
+}
+.founder__card-head { display: flex; align-items: flex-start; gap: 10px; }
+.founder__card-head p { margin: 0; white-space: nowrap; letter-spacing: .02em; font-size: 13px; font-weight: 700; line-height: 1.6; color: var(--rf-text-sub); }
+.founder__icon {
+  flex: none;
+  width: 24px;
+  height: 24px;
+  fill: none;
+  stroke: var(--rf-accent);
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  color: var(--rf-accent);
+}
+.founder__icon--fill { fill: var(--rf-accent); stroke: none; }
+.founder__icon--fill .founder__icon-cut { fill: #fff; }
+.founder__num {
+  margin: auto 0 0;
+  padding-top: 14px;
+  text-align: right;
+  font: 700 36px/1 "Space Grotesk", sans-serif;
+  letter-spacing: -.01em;
+  color: var(--rf-navy-900);
+  white-space: nowrap;
+}
+.founder__num small { margin-left: 2px; font: 700 15px/1 var(--font-body); color: var(--rf-navy-900); }
+
+.founder__now {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 16px;
+  padding: 18px 24px;
+  background: var(--rf-surface-tint);
+}
+.founder__now-icon { flex: none; width: 44px; height: 33px; fill: var(--rf-accent); }
+.founder__now p { margin: 0; font-size: 16px; font-weight: 700; line-height: 1.7; color: var(--rf-accent-hover); }
+
+/* ---------- 下段の帯：淡青の単色（白基調のページに濃紺の塊を置かない） ---------- */
+.founder__band {
+  margin-top: 72px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto auto;
+  align-items: end;
+  gap: 40px;
+  padding: 56px 48px;
+  color: var(--rf-heading);
+  background: var(--rf-surface-tint);
+}
+.founder__band p { margin: 0; }
+.founder__band-pre { font-size: 18px; font-weight: 500; line-height: 1.7; letter-spacing: .08em; color: var(--rf-text-sub); }
+.founder__band-copy {
+  margin-top: 20px !important;
+  padding-left: 24px;
+  border-left: 3px solid var(--rf-accent);
+  font-family: var(--rf-display);
+  font-size: clamp(26px, 2.9vw, 38px);
+  font-weight: 800;
+  line-height: 1.55;
+  letter-spacing: .04em;
+  color: var(--rf-heading);
+}
+.founder__band-em { color: var(--rf-accent); }
+.founder__band-note {
+  padding-bottom: 12px;
+  border-bottom: 2px solid var(--rf-accent);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.9;
+  color: var(--rf-heading);
+  white-space: nowrap;
+}
+.founder__band-en {
+  padding-left: 18px;
+  border-left: 1px solid #bfd9df;
+  font: 500 12px/1.7 "Space Grotesk", sans-serif;
+  letter-spacing: .1em;
+  color: var(--rf-text-sub);
+  white-space: nowrap;
+}
+
+/* ---------- タブレット ---------- */
+@media (max-width: 1100px) {
+  .founder__cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .founder__band { grid-template-columns: minmax(0, 1fr) auto; }
+  .founder__band-main { grid-column: 1 / -1; }
+}
+@media (max-width: 959px) {
+  .founder__grid { grid-template-columns: minmax(0, 1fr); gap: 40px; }
+  .founder__person { max-width: 440px; }
+}
+
+/* ---------- SP：写真 → 見出し → 本文 → 実績 2×2 → 帯 ---------- */
+@media (max-width: 767px) {
+  .founder__top { margin-bottom: 32px; }
+  .founder__logo-main { font-size: 32px; }
+  .founder__logo-sub { font-size: 10px; letter-spacing: .18em; }
+  .founder__tagline { font-size: 10px; padding-left: 12px; }
+  .founder__person { max-width: none; }
+  .founder__name-ja { font-size: 28px; }
+  .founder__hand { font-size: 15px; }
+  .page-home .founder__title { font-size: min(30px, 7.5vw); } /* 320px でも「TELEMOをつくったひと。」(約 10.6em) を 1 行に */
+  .founder__lead { margin-top: 24px; font-size: 18px; }
+  .founder__text { font-size: 15px; }
+  .founder__record-head { margin-top: 32px; }
+  .founder__badge { font-size: 14px; padding: 6px 14px; }
+  .founder__record-note { font-size: 14px; }
+  .founder__cards { gap: 10px; }
+  .founder__card { padding: 14px 12px 14px; }
+  .founder__card-head { gap: 8px; }
+  .founder__card-head p { font-size: 12px; }
+  .founder__icon { width: 22px; height: 22px; }
+  .founder__num { font-size: 30px; }
+  .founder__num small { font-size: 13px; }
+  .founder__now { gap: 14px; padding: 16px; }
+  .founder__now-icon { width: 36px; height: 27px; }
+  .founder__now p { font-size: 14px; }
+  .founder__now p br { display: none; }
+  .founder__band {
+    margin-top: 48px;
+    margin-inline: calc(var(--page-padding, 16px) * -1);
+    grid-template-columns: minmax(0, 1fr);
+    gap: 28px;
+    padding: 44px var(--page-padding, 16px);
+  }
+  .founder__band-pre { font-size: 14px; letter-spacing: 0; text-wrap: balance; }
+  .founder__band-copy { padding-left: 14px; font-size: min(21px, 5.6vw); letter-spacing: 0; } /* 320px で「にし / た。」と折れないよう <br> どおり 2 行に */
+  .founder__band-note { justify-self: start; font-size: 14px; }
+}
+
+.founder__origin { max-width: 1040px; margin: 56px auto 0; padding: 32px 0; border-top: 1px solid #cbdde3; }
+.founder__origin h3 { margin: 0 0 20px; font-size: clamp(22px, 2.4vw, 34px); line-height: 1.5; color: #087d89; }
+.founder__origin p { margin: 0; font-size: clamp(15px, 1.25vw, 18px); line-height: 2; color: #153345; }
+@media(max-width: 640px) { .founder__origin { margin-top: 32px; padding: 24px 0; } .founder__origin .brpc { display: none; } }
+/* 改行の品質：見出しは文節で折り（例「現場で培った / 営業ノウハウを、AIで再現。」）、本文は末尾に 1〜2 文字だけ残さない */
+.founder__origin h3 { word-break: auto-phrase; text-wrap: balance; }
+.founder__origin p { text-wrap: pretty; }

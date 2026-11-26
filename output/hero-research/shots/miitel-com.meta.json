@@ -1,0 +1,264 @@
+{
+ "slug": "miitel-com",
+ "url": "https://miitel.com/",
+ "capturedAt": "2026-10-12 21:06:45",
+ "files": {
+  "pc_f0": "miitel-com-pc-f0.jpg",
+  "pc_f1": "miitel-com-pc-f1.jpg",
+  "pc_f2": "miitel-com-pc-f2.jpg",
+  "pc_scroll": "miitel-com-pc-scroll.jpg",
+  "sp": "miitel-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://miitel.com/jp/",
+  "title": "MiiTel（ミーテル） | 音声解析AI",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 8421,
+  "h1": "電話・Web会議・対面 全てのビジネス会話を最適化",
+  "h1Style": {
+   "fontFamily": "Poppins, \"Noto Sans JP\", sans-serif",
+   "fontSize": "46px",
+   "fontWeight": "700",
+   "lineHeight": "59.8px",
+   "letterSpacing": "normal",
+   "color": "rgb(34, 34, 34)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 80,
+    "y": 186,
+    "w": 1280,
+    "h": 120
+   }
+  },
+  "lead": "※1「マーテック市場の現状と展望 2025年度版」2025年11月発刊 （デロイトトーマツミック経済研究所） ※2 アジア企業として唯一選出",
+  "ctas": [
+   "サービス",
+   "SERVICES MiiTelのサービス",
+   "MiiTel Incoming Webhook",
+   "MiiTelとは",
+   "導入事例",
+   "セミナー・イベント",
+   "お役立ち記事",
+   "お問い合わせはこちら サービスに関するお問い合わせはこちら お問い合わせ",
+   "資料ダウンロード"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://miitel.com/jp/sys/wp-content/themes/miitel_brand_jp/assets/img/common/gnav-service-01.jpg.webp",
+    "w": 180,
+    "h": 180,
+    "alt": ""
+   },
+   {
+    "src": "https://miitel.com/jp/sys/wp-content/themes/miitel_brand_jp/assets/img/common/img-contact01.png",
+    "w": 260,
+    "h": 160,
+    "alt": ""
+   },
+   {
+    "src": "https://miitel.com/jp/sys/wp-content/themes/miitel_brand_jp/assets/img/common/img-contact02.png",
+    "w": 260,
+    "h": 160,
+    "alt": ""
+   },
+   {
+    "src": "https://miitel.com/jp/sys/wp-content/themes/miitel_brand_jp/assets/img/common/img-contact04.png",
+    "w": 260,
+    "h": 160,
+    "alt": ""
+   },
+   {
+    "src": "https://miitel.com/jp/sys/wp-content/themes/miitel_brand_jp/assets/img/home/award-img-01.svg",
+    "w": 666,
+    "h": 62,
+    "alt": "No.1音声合成・音声認識システム市場2025年度シェア※1、No.1アウトバウンドシステム市場2025年度シェア※1、第18回ASPICクラウドアワード202"
+   },
+   {
+    "src": "https://miitel.com/jp/sys/wp-content/themes/miitel_brand_jp/assets/img/common/service-img-phone.png",
+    "w": 450,
+    "h": 278,
+    "alt": "電話解析AI MiiTel Phone"
+   },
+   {
+    "src": "https://miitel.com/jp/sys/wp-content/themes/miitel_brand_jp/assets/img/common/service-img-phone.png",
+    "w": 450,
+    "h": 278,
+    "alt": "電話解析AI MiiTel Phone"
+   },
+   {
+    "src": "https://miitel.com/jp/sys/wp-content/themes/miitel_brand_jp/assets/img/common/service-img-meetings.png",
+    "w": 450,
+    "h": 278,
+    "alt": "Web会議解析AI MiiTel Meetings"
+   },
+   {
+    "src": "https://miitel.com/jp/sys/wp-content/themes/miitel_brand_jp/assets/img/common/service-img-recpod.png",
+    "w": 450,
+    "h": 278,
+    "alt": "対面会話解析AI MiiTel RecPod"
+   },
+   {
+    "src": "https://miitel.com/jp/sys/wp-content/themes/miitel_brand_jp/assets/img/common/service-img-phone.png",
+    "w": 450,
+    "h": 278,
+    "alt": "電話解析AI MiiTel Phone"
+   },
+   {
+    "src": "https://miitel.com/jp/sys/wp-content/themes/miitel_brand_jp/assets/img/common/service-img-callcenter.png",
+    "w": 450,
+    "h": 278,
+    "alt": "コールセンター解析AI MiiTel Call Center"
+   },
+   {
+    "src": "https://miitel.com/jp/sys/wp-content/themes/miitel_brand_jp/assets/img/common/service-img-callcenter.png",
+    "w": 450,
+    "h": 278,
+    "alt": "コールセンター解析AI MiiTel Call Center"
+   }
+  ],
+  "backgroundImages": [
+   {
+    "bg": "url(\"https://miitel.com/jp/sys/wp-content/themes/miitel_brand_jp/assets/img/home/fv-img-bg.png\")",
+    "w": 1440,
+    "h": 500
+   }
+  ],
+  "firstScreenFonts": [
+   "Poppins",
+   "Noto Sans JP"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "電話・Web会議・対面 全てのビジネス会話を最適化",
+  "h1Style": {
+   "fontFamily": "Poppins, \"Noto Sans JP\", sans-serif",
+   "fontSize": "26px",
+   "fontWeight": "700",
+   "lineHeight": "33.8px",
+   "letterSpacing": "normal",
+   "color": "rgb(34, 34, 34)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 0,
+    "y": 118,
+    "w": 390,
+    "h": 296
+   }
+  },
+  "lead": "※1「マーテック市場の現状と展望 2025年度版」2025年11月発刊 （デロイトトーマツミック経済研究所） ※2 アジア企業として唯一選出",
+  "ctas": [
+   "サービス",
+   "MiiTelとは",
+   "導入事例",
+   "セミナー・イベント",
+   "お役立ち記事",
+   "ログイン",
+   "資料請求・お問い合わせ",
+   "資料ダウンロード"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://miitel.com/jp/sys/wp-content/themes/miitel_brand_jp/assets/img/home/award-img-01-sp.svg",
+    "w": 338,
+    "h": 251,
+    "alt": "No.1音声合成・音声認識システム市場2025年度シェア※1、No.1アウトバウンドシステム市場2025年度シェア※1、第18回ASPICクラウドアワード202"
+   },
+   {
+    "src": "https://miitel.com/jp/sys/wp-content/themes/miitel_brand_jp/assets/img/common/service-img-phone-sp.png.webp",
+    "w": 265,
+    "h": 232,
+    "alt": "電話解析AI MiiTel Phone"
+   },
+   {
+    "src": "https://miitel.com/jp/sys/wp-content/themes/miitel_brand_jp/assets/img/common/service-img-phone-sp.png.webp",
+    "w": 265,
+    "h": 232,
+    "alt": "電話解析AI MiiTel Phone"
+   },
+   {
+    "src": "https://miitel.com/jp/sys/wp-content/themes/miitel_brand_jp/assets/img/common/service-img-meetings-sp.png.webp",
+    "w": 265,
+    "h": 232,
+    "alt": "Web会議解析AI MiiTel Meetings"
+   },
+   {
+    "src": "https://miitel.com/jp/sys/wp-content/themes/miitel_brand_jp/assets/img/common/service-img-recpod-sp.png.webp",
+    "w": 265,
+    "h": 232,
+    "alt": "対面会話解析AI MiiTel RecPod"
+   },
+   {
+    "src": "https://miitel.com/jp/sys/wp-content/themes/miitel_brand_jp/assets/img/common/service-img-phone-sp.png.webp",
+    "w": 265,
+    "h": 232,
+    "alt": "電話解析AI MiiTel Phone"
+   },
+   {
+    "src": "https://miitel.com/jp/sys/wp-content/themes/miitel_brand_jp/assets/img/common/service-img-callcenter-sp.png.webp",
+    "w": 265,
+    "h": 232,
+    "alt": "コールセンター解析AI MiiTel Call Center"
+   },
+   {
+    "src": "https://miitel.com/jp/sys/wp-content/themes/miitel_brand_jp/assets/img/common/service-img-callcenter-sp.png.webp",
+    "w": 265,
+    "h": 232,
+    "alt": "コールセンター解析AI MiiTel Call Center"
+   },
+   {
+    "src": "https://miitel.com/jp/sys/wp-content/themes/miitel_brand_jp/assets/img/common/service-img-phone-sp.png.webp",
+    "w": 265,
+    "h": 232,
+    "alt": "電話解析AI MiiTel Phone"
+   },
+   {
+    "src": "https://miitel.com/jp/sys/wp-content/themes/miitel_brand_jp/assets/img/common/service-img-callcenter-sp.png.webp",
+    "w": 265,
+    "h": 232,
+    "alt": "コールセンター解析AI MiiTel Call Center"
+   },
+   {
+    "src": "https://miitel.com/jp/sys/wp-content/themes/miitel_brand_jp/assets/img/common/service-img-callcenter-sp.png.webp",
+    "w": 265,
+    "h": 232,
+    "alt": "コールセンター解析AI MiiTel Call Center"
+   },
+   {
+    "src": "https://miitel.com/jp/sys/wp-content/themes/miitel_brand_jp/assets/img/common/service-img-callcenter-sp.png.webp",
+    "w": 265,
+    "h": 232,
+    "alt": "コールセンター解析AI MiiTel Call Center"
+   }
+  ],
+  "pageHeight": 12497
+ },
+ "elapsedSec": 12.9
+}

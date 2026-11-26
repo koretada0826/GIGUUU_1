@@ -1,0 +1,11 @@
+{
+  "source": "https://rig.ai/",
+  "final_url": "https://rig.ai/",
+  "captured_at": "2026-10-12 15:35",
+  "tool": "mirror_browser.py (static DOM snapshot)",
+  "assets_saved": 11,
+  "bytes_saved": 241413,
+  "notes": [],
+  "failed": {},
+  "skipped": {}
+}

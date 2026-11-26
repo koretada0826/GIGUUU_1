@@ -1,0 +1,154 @@
+{
+ "slug": "dhw-co-jp-jobs-2024",
+ "url": "https://www.dhw.co.jp/jobs/2024/",
+ "capturedAt": "2026-10-12 21:16:51",
+ "files": {
+  "pc_f0": "dhw-co-jp-jobs-2024-pc-f0.jpg",
+  "pc_f1": "dhw-co-jp-jobs-2024-pc-f1.jpg",
+  "pc_f2": "dhw-co-jp-jobs-2024-pc-f2.jpg",
+  "pc_scroll": "dhw-co-jp-jobs-2024-pc-scroll.jpg",
+  "sp": "dhw-co-jp-jobs-2024-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.dhw.co.jp/jobs/new/",
+  "title": "28卒 新卒採用 | デジタルハリウッド株式会社採用情報",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 4487,
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [
+   "RECRUIT",
+   "ENTRY"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.dhw.co.jp/jobs/new/img/logo_only_white.svg",
+    "w": 159,
+    "h": 44,
+    "alt": "デジタルハリウッド-ロゴ"
+   },
+   {
+    "src": "https://www.dhw.co.jp/jobs/new/img/mv05.jpg",
+    "w": 1440,
+    "h": 900,
+    "alt": ""
+   },
+   {
+    "src": "https://www.dhw.co.jp/jobs/new/img/mv01.jpg",
+    "w": 1440,
+    "h": 900,
+    "alt": ""
+   },
+   {
+    "src": "https://www.dhw.co.jp/jobs/new/img/mv_new.jpg",
+    "w": 1440,
+    "h": 900,
+    "alt": ""
+   },
+   {
+    "src": "https://www.dhw.co.jp/jobs/new/img/mv03.jpg",
+    "w": 1440,
+    "h": 900,
+    "alt": ""
+   },
+   {
+    "src": "https://www.dhw.co.jp/jobs/new/img/mv05.jpg",
+    "w": 1440,
+    "h": 900,
+    "alt": ""
+   },
+   {
+    "src": "https://www.dhw.co.jp/jobs/new/img/mv01.jpg",
+    "w": 1440,
+    "h": 900,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Noto Sans JP"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": true,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": null,
+  "h1Style": null,
+  "lead": null,
+  "ctas": [
+   "RECRUIT",
+   "ENTRY"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.dhw.co.jp/jobs/new/img/logo_sp_white.svg",
+    "w": 146,
+    "h": 41,
+    "alt": "デジタルハリウッド-ロゴ"
+   },
+   {
+    "src": "https://www.dhw.co.jp/jobs/new/img/mv05-sp.jpg",
+    "w": 390,
+    "h": 844,
+    "alt": ""
+   },
+   {
+    "src": "https://www.dhw.co.jp/jobs/new/img/mv01-sp.jpg",
+    "w": 390,
+    "h": 844,
+    "alt": ""
+   },
+   {
+    "src": "https://www.dhw.co.jp/jobs/new/img/mv01-sp_new.jpg",
+    "w": 390,
+    "h": 844,
+    "alt": ""
+   },
+   {
+    "src": "https://www.dhw.co.jp/jobs/new/img/mv03-sp.jpg",
+    "w": 390,
+    "h": 844,
+    "alt": ""
+   },
+   {
+    "src": "https://www.dhw.co.jp/jobs/new/img/mv05-sp.jpg",
+    "w": 390,
+    "h": 844,
+    "alt": ""
+   },
+   {
+    "src": "https://www.dhw.co.jp/jobs/new/img/mv01-sp.jpg",
+    "w": 390,
+    "h": 844,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 4764
+ },
+ "elapsedSec": 13.3
+}

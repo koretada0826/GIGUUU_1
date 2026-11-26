@@ -1,0 +1,73 @@
+[
+  {
+    "id": "09-yukimi",
+    "source": "雪見だいふく",
+    "url": "https://www.lotte.co.jp/products/brand/yukimi/",
+    "title": "雪見だいふく型｜まるい主役と余白",
+    "layout": "round",
+    "take": "大きな丸い主役と単色の面、小さなモチーフの反復。",
+    "copy_url": "http://127.0.0.1:8879/products/brand/yukimi/",
+    "copy_folder": "../../reference/eight-sites-copy/09-yukimi",
+    "source_image": "../../reference/eight-sites-copy/keyvisuals/09-yukimi.png",
+    "source_tag": "コピーしたキービジュアル画像"
+  },
+  {
+    "id": "10-brother",
+    "source": "ブラザーSDGsストーリー",
+    "url": "https://sdgsstory.global.brother/j/",
+    "title": "ブラザー型｜円と立体でつなぐ構図",
+    "layout": "world",
+    "take": "円形の切り取りと立体の大小差。中央の主役に視線を集める。",
+    "copy_url": "http://127.0.0.1:8880/j/",
+    "copy_folder": "../../reference/eight-sites-copy/10-brother",
+    "source_image": "../../reference/eight-sites-copy/keyvisuals/10-brother.jpg",
+    "source_tag": "コピーした公開OG画像（3D表示は未再現）"
+  },
+  {
+    "id": "11-kabu-mobile",
+    "source": "KABU&モバイル",
+    "url": "https://kabuand.com/mobile/voice",
+    "title": "KABU&型｜階段の上に立つ主役",
+    "layout": "voice",
+    "take": "白い雲と小さな木、階段の立体。主役を頂上に置く。",
+    "copy_url": "http://127.0.0.1:8881/mobile/voice",
+    "copy_folder": "../../reference/eight-sites-copy/11-kabu-mobile",
+    "source_image": "../../reference/eight-sites-copy/11-kabu-mobile/screenshots/source-hero-desktop.png"
+  },
+  {
+    "id": "12-minecraft",
+    "source": "マインクラフト／ザ・ムービー",
+    "url": "https://wwws.warnerbros.co.jp/minecraft-movie/",
+    "title": "マインクラフト型｜奥行きのある四角い世界",
+    "layout": "blocks",
+    "take": "四角い素材の接写、暗い奥行き、大きな中央モチーフ。",
+    "copy_url": "http://127.0.0.1:8882/minecraft-movie/",
+    "copy_folder": "../../reference/eight-sites-copy/12-minecraft",
+    "source_image": "../../reference/eight-sites-copy/keyvisuals/12-minecraft.jpg",
+    "source_tag": "コピーしたキービジュアル画像"
+  },
+  {
+    "id": "13-mamoroom",
+    "source": "MAMOROOM",
+    "url": "https://www.earth.jp/mamoroom/",
+    "title": "マモルーム型｜日常に置く主役",
+    "layout": "room",
+    "take": "手前のテーブルと奥にぼかした部屋。生活の中に主役を置く。",
+    "copy_url": "http://127.0.0.1:8883/mamoroom/",
+    "copy_folder": "../../reference/eight-sites-copy/13-mamoroom",
+    "source_image": "../../reference/eight-sites-copy/keyvisuals/13-mamoroom.jpg",
+    "source_tag": "コピーしたキービジュアル画像"
+  },
+  {
+    "id": "14-casamalka",
+    "source": "Casa Malka",
+    "url": "https://casamalka.com/",
+    "title": "Casa Malka型｜接写と白いフレーム",
+    "layout": "still",
+    "take": "ガラスと植物の接写、中央の白いフレーム、細い罫線。",
+    "copy_url": "http://127.0.0.1:8884/",
+    "copy_folder": "../../reference/eight-sites-copy/14-casamalka",
+    "source_image": "../../reference/eight-sites-copy/14-casamalka/screenshots/source-hero-desktop.png",
+    "source_tag": "年齢確認前の参照画面"
+  }
+]

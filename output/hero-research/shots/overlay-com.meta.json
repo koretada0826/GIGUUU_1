@@ -1,0 +1,124 @@
+{
+ "slug": "overlay-com",
+ "url": "https://www.overlay.com/",
+ "capturedAt": "2026-10-12 21:22:46",
+ "files": {
+  "pc_f0": "overlay-com-pc-f0.jpg",
+  "pc_f1": "overlay-com-pc-f1.jpg",
+  "pc_f2": "overlay-com-pc-f2.jpg",
+  "pc_scroll": "overlay-com-pc-scroll.jpg",
+  "sp": "overlay-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.overlay.com/",
+  "title": "Overlay | The Future of Beauty is Automated",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 8386,
+  "h1": "The Future of Beauty is Automated",
+  "h1Style": {
+   "fontFamily": "Ppeditorialold, Arial, sans-serif",
+   "fontSize": "72px",
+   "fontWeight": "400",
+   "lineHeight": "75.6px",
+   "letterSpacing": "-2.16px",
+   "color": "rgb(46, 47, 83)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 431,
+    "y": 128,
+    "w": 577,
+    "h": 151
+   }
+  },
+  "lead": "Subscribe Unsubscribe anytime. Privacy policy",
+  "ctas": [
+   "GET IN TOUCH",
+   "Subscribe"
+  ],
+  "videos": [],
+  "canvases": [
+   {
+    "w": 1360,
+    "h": 774
+   },
+   {
+    "w": 1440,
+    "h": 681
+   }
+  ],
+  "images": [],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Roboto Flex",
+   "Ppeditorialold"
+  ],
+  "libs": {
+   "gsap": true,
+   "ScrollTrigger": true,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(251, 249, 251)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "The Future of Beauty is Automated",
+  "h1Style": {
+   "fontFamily": "Ppeditorialold, Arial, sans-serif",
+   "fontSize": "38px",
+   "fontWeight": "400",
+   "lineHeight": "39.9px",
+   "letterSpacing": "-1.14px",
+   "color": "rgb(46, 47, 83)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 43,
+    "y": 128,
+    "w": 305,
+    "h": 80
+   }
+  },
+  "lead": "Subscribe Unsubscribe anytime. Privacy policy",
+  "ctas": [
+   "GET IN TOUCH",
+   "Subscribe"
+  ],
+  "videos": [],
+  "canvases": [
+   {
+    "w": 350,
+    "h": 528
+   },
+   {
+    "w": 390,
+    "h": 768
+   }
+  ],
+  "images": [
+   {
+    "src": "https://cdn.prod.website-files.com/684fbcc170396646e14881e5/686776769de39f3750a817cd_Ellipse.svg",
+    "w": 350,
+    "h": 529,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 7933
+ },
+ "elapsedSec": 11.7
+}

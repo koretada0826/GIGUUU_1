@@ -1,0 +1,169 @@
+{
+ "slug": "nippon-shinyaku-co-jp-recruit",
+ "url": "https://www.nippon-shinyaku.co.jp/recruit/",
+ "capturedAt": "2026-10-12 21:14:30",
+ "files": {
+  "pc_f0": "nippon-shinyaku-co-jp-recruit-pc-f0.jpg",
+  "pc_f1": "nippon-shinyaku-co-jp-recruit-pc-f1.jpg",
+  "pc_f2": "nippon-shinyaku-co-jp-recruit-pc-f2.jpg",
+  "pc_scroll": "nippon-shinyaku-co-jp-recruit-pc-scroll.jpg",
+  "sp": "nippon-shinyaku-co-jp-recruit-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": "button:has-text('同意')",
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.nippon-shinyaku.co.jp/recruit/",
+  "title": "日本新薬株式会社 | 新卒採用サイト",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 10341,
+  "h1": "",
+  "h1Style": {
+   "fontFamily": "\"Noto Sans JP\", sans-serif",
+   "fontSize": "30px",
+   "fontWeight": "700",
+   "lineHeight": "54px",
+   "letterSpacing": "normal",
+   "color": "rgb(0, 0, 0)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 30,
+    "y": 28,
+    "w": 171,
+    "h": 56
+   }
+  },
+  "lead": "キャリア採用 障がい者採用 採用メッセージ 会社を知る 数字で見る 仕事を知る 日本新薬のリアル 働き方・環境 募集要項 エントリー / マイページ",
+  "ctas": [
+   "募集要項"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.nippon-shinyaku.co.jp/recruit/assets/images/logo.svg",
+    "w": 171,
+    "h": 56,
+    "alt": "日本新薬株式会社"
+   },
+   {
+    "src": "https://www.nippon-shinyaku.co.jp/recruit/assets/images/img-main-visual-03.jpg",
+    "w": 1420,
+    "h": 890,
+    "alt": ""
+   },
+   {
+    "src": "https://www.nippon-shinyaku.co.jp/recruit/assets/images/img-main-visual-01.jpg",
+    "w": 1420,
+    "h": 890,
+    "alt": ""
+   },
+   {
+    "src": "https://www.nippon-shinyaku.co.jp/recruit/assets/images/img-main-visual-02.jpg",
+    "w": 1420,
+    "h": 890,
+    "alt": ""
+   },
+   {
+    "src": "https://www.nippon-shinyaku.co.jp/recruit/assets/images/img-main-visual-03.jpg",
+    "w": 1420,
+    "h": 890,
+    "alt": ""
+   },
+   {
+    "src": "https://www.nippon-shinyaku.co.jp/recruit/assets/images/img-main-visual-01.jpg",
+    "w": 1420,
+    "h": 890,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Noto Sans JP",
+   "Shippori Mincho"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "",
+  "h1Style": {
+   "fontFamily": "\"Noto Sans JP\", sans-serif",
+   "fontSize": "26px",
+   "fontWeight": "700",
+   "lineHeight": "46.8px",
+   "letterSpacing": "normal",
+   "color": "rgb(0, 0, 0)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 10,
+    "y": -2,
+    "w": 141,
+    "h": 46
+   }
+  },
+  "lead": "キャリア採用障がい者採用 採用メッセージ 会社を知る 数字で見る 仕事を知る 日本新薬のリアル 日本新薬のストーリー新規事業 KYO Color若手社員クロストーク患者さん・ご家族の声採用公式note 働き方・環境 教育・働き方への考え方人財育成・研修福利厚生・働き方制度 募集要項 エントリー / マイページ 2027卒 エントリーマイページ 2028卒 エントリーマイページ",
+  "ctas": [],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.nippon-shinyaku.co.jp/recruit/assets/images/logo.svg",
+    "w": 141,
+    "h": 46,
+    "alt": "日本新薬株式会社"
+   },
+   {
+    "src": "https://www.nippon-shinyaku.co.jp/recruit/assets/images/img-main-visual-sp-03.jpg",
+    "w": 370,
+    "h": 834,
+    "alt": ""
+   },
+   {
+    "src": "https://www.nippon-shinyaku.co.jp/recruit/assets/images/img-main-visual-sp-01.jpg",
+    "w": 370,
+    "h": 834,
+    "alt": ""
+   },
+   {
+    "src": "https://www.nippon-shinyaku.co.jp/recruit/assets/images/img-main-visual-sp-02.jpg",
+    "w": 370,
+    "h": 834,
+    "alt": ""
+   },
+   {
+    "src": "https://www.nippon-shinyaku.co.jp/recruit/assets/images/img-main-visual-sp-03.jpg",
+    "w": 370,
+    "h": 834,
+    "alt": ""
+   },
+   {
+    "src": "https://www.nippon-shinyaku.co.jp/recruit/assets/images/img-main-visual-sp-01.jpg",
+    "w": 370,
+    "h": 834,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 7963
+ },
+ "elapsedSec": 12.6
+}

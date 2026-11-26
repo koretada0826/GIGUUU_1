@@ -1,0 +1,194 @@
+{
+ "slug": "ivry-jp",
+ "url": "https://ivry.jp/",
+ "capturedAt": "2026-10-12 21:06:58",
+ "files": {
+  "pc_f0": "ivry-jp-pc-f0.jpg",
+  "pc_f1": "ivry-jp-pc-f1.jpg",
+  "pc_f2": "ivry-jp-pc-f2.jpg",
+  "pc_scroll": "ivry-jp-pc-scroll.jpg",
+  "sp": "ivry-jp-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://ivry.jp/",
+  "title": "AI電話のアイブリー 0円から使えるビジネス向けAI電話",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 11786,
+  "h1": "アイブリーのAI電話で あらゆる電話業務を効率化",
+  "h1Style": {
+   "fontFamily": "\"Noto Sans JP Variable\", \"Noto Sans JP\", \"Helvetica Neue\", Arial, \"Hiragino Kaku Gothic ProN\", \"Hiragino Sans\", Meiryo, ",
+   "fontSize": "48px",
+   "fontWeight": "700",
+   "lineHeight": "57.6px",
+   "letterSpacing": "0.32px",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 142,
+    "y": 184,
+    "w": 580,
+    "h": 115
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "医療業かわなかクリニック電話とFAXのAI対応を導入し、休診日にも対応！",
+   "飲食千房株式会社電話対応の8割を自動化し、24時間予約受付を実現。",
+   "今すぐ無料で試してみる",
+   "資料をダウンロードする(無料)"
+  ],
+  "videos": [
+   {
+    "src": "https://ivry.jp/assets/movies/hero_animation.mp4",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 480,
+    "h": 320,
+    "playing": true
+   }
+  ],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://images.microcms-assets.io/assets/e295270d0d5e4bd49109e816d1f8ddc4/3a518ee74263474c9e2fea05c3cc3e92/kawanaka03.jpg?fm=webp&w=200",
+    "w": 200,
+    "h": 113,
+    "alt": ""
+   },
+   {
+    "src": "https://images.microcms-assets.io/assets/e295270d0d5e4bd49109e816d1f8ddc4/ec081fdadad741bebb7a807b4e440b58/chibo0.jpg?fm=webp&w=200",
+    "w": 200,
+    "h": 113,
+    "alt": ""
+   },
+   {
+    "src": "https://images.microcms-assets.io/assets/e295270d0d5e4bd49109e816d1f8ddc4/c097a06cd3644cd3a029e3e60af1cbbf/kuwana0.jpg?fm=webp&w=200",
+    "w": 200,
+    "h": 113,
+    "alt": ""
+   },
+   {
+    "src": "https://images.microcms-assets.io/assets/e295270d0d5e4bd49109e816d1f8ddc4/0126f72a2a43483ab3d70e69fa44ed0e/0929-02.jpg?fm=webp&w=200",
+    "w": 200,
+    "h": 113,
+    "alt": ""
+   },
+   {
+    "src": "https://cdn-blocks.karte.io/a677cf0e7c5c0c04866c058120a0fe07/entity/ffe15b63-ae25-43f7-a1e2-38ae10b54be7",
+    "w": 802,
+    "h": 117,
+    "alt": "AI電話デモを無料でお試しいただけます"
+   },
+   {
+    "src": "https://ivry.jp/_v/1.282.0/_next/static/media/client_logo.2ju6dtt8croqe.webp",
+    "w": 2603,
+    "h": 148,
+    "alt": "導入企業のロゴ一覧"
+   },
+   {
+    "src": "https://ivry.jp/_v/1.282.0/_next/static/media/client_logo.2ju6dtt8croqe.webp",
+    "w": 2603,
+    "h": 148,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [
+   {
+    "bg": "url(\"https://ivry.jp/_v/1.282.0/_next/static/media/header_popover_background@2x.14rm11c_xxm9_.webp\"), linear-gradient(0deg, rgba(0, 32, 0, 0.03)), linear-gradient(0deg, rgb(255, 255, 255))",
+    "w": 1440,
+    "h": 483
+   },
+   {
+    "bg": "url(\"https://ivry.jp/_v/1.282.0/_next/static/media/header_popover_background@2x.14rm11c_xxm9_.webp\"), linear-gradient(0deg, rgba(0, 32, 0, 0.03)), linear-gradient(0deg, rgb(255, 255, 255))",
+    "w": 1440,
+    "h": 527
+   },
+   {
+    "bg": "url(\"https://ivry.jp/_v/1.282.0/_next/static/media/header_popover_background@2x.14rm11c_xxm9_.webp\"), linear-gradient(0deg, rgba(0, 32, 0, 0.03)), linear-gradient(0deg, rgb(255, 255, 255))",
+    "w": 1440,
+    "h": 356
+   },
+   {
+    "bg": "url(\"https://ivry.jp/_v/1.282.0/_next/static/media/toplp_hero_background.23i8bub1qmej9.svg\")",
+    "w": 1440,
+    "h": 502
+   }
+  ],
+  "firstScreenFonts": [
+   "Noto Sans JP Variable"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "アイブリーのAI電話で あらゆる電話業務を効率化",
+  "h1Style": {
+   "fontFamily": "\"Noto Sans JP Variable\", \"Noto Sans JP\", \"Helvetica Neue\", Arial, \"Hiragino Kaku Gothic ProN\", \"Hiragino Sans\", Meiryo, ",
+   "fontSize": "32px",
+   "fontWeight": "700",
+   "lineHeight": "38.4px",
+   "letterSpacing": "0.32px",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 16,
+    "y": 128,
+    "w": 358,
+    "h": 115
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "アイブリーを選ぶ理由",
+   "業界・業種から知る",
+   "導入事例",
+   "ソリューション",
+   "機能一覧",
+   "料金プラン",
+   "エンタープライズ",
+   "無料で試す",
+   "資料ダウンロード",
+   "ログイン",
+   "今すぐ無料で試してみる",
+   "資料をダウンロードする(無料)"
+  ],
+  "videos": [
+   {
+    "src": "https://ivry.jp/assets/movies/hero_animation.mp4",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 358,
+    "h": 239,
+    "playing": true
+   }
+  ],
+  "canvases": [],
+  "images": [],
+  "pageHeight": 21061
+ },
+ "elapsedSec": 12.7
+}

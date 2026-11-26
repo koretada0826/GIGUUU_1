@@ -1,0 +1,213 @@
+{
+ "slug": "signwithenvoy-com",
+ "url": "https://signwithenvoy.com/",
+ "capturedAt": "2026-10-12 21:10:14",
+ "files": {
+  "pc_f0": "signwithenvoy-com-pc-f0.jpg",
+  "pc_f1": "signwithenvoy-com-pc-f1.jpg",
+  "pc_f2": "signwithenvoy-com-pc-f2.jpg",
+  "pc_scroll": "signwithenvoy-com-pc-scroll.jpg",
+  "sp": "signwithenvoy-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://envoy.com/",
+  "title": "Envoy | Workplace & visitor solutions platform",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 8162,
+  "h1": "We protect the workplaces the world relies on most",
+  "h1Style": {
+   "fontFamily": "\"Sofia Pro Semi Bold\", sans-serif",
+   "fontSize": "48px",
+   "fontWeight": "600",
+   "lineHeight": "51.36px",
+   "letterSpacing": "normal",
+   "color": "rgb(63, 68, 80)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 389,
+    "y": 256,
+    "w": 661,
+    "h": 103
+   }
+  },
+  "lead": "Unite people, spaces, and communications on one workplace management platform—built for modern security and compliance.",
+  "ctas": [
+   "Learn more",
+   "See it in action",
+   "Learn more",
+   "Learn more",
+   "Learn more",
+   "Learn more",
+   "Learn more"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://cdn.prod.website-files.com/64820bb890b5d776bb0c9faf/69a705cfe3aa16643c2bf568_Website_hero_Lobby-Envoy-260302.png",
+    "w": 277,
+    "h": 366,
+    "alt": "Visitor approval required"
+   },
+   {
+    "src": "https://cdn.prod.website-files.com/64820bb890b5d776bb0c9faf/697a5267bfcf8b3730eed27c_Visitors-Simple_illo-SQ-Envoy-260128.svg",
+    "w": 50,
+    "h": 50,
+    "alt": "Illustration of a visitor badge hanging on a lanyard. "
+   },
+   {
+    "src": "https://cdn.prod.website-files.com/64820bb890b5d776bb0c9faf/6a76276f83fb3a9847dc5e54_Envoy_Response_Box%20(1).svg",
+    "w": 277,
+    "h": 175,
+    "alt": "Map with a pin and a popup box showing 'Major warehouse fire producing heavy smo"
+   },
+   {
+    "src": "https://cdn.prod.website-files.com/64820bb890b5d776bb0c9faf/69a6371a1d50c5b33b0993af_Website_hero-lab-Envoy-270226-09%20(1).svg",
+    "w": 277,
+    "h": 175,
+    "alt": "Illustration of a person looking through a microscope"
+   },
+   {
+    "src": "https://cdn.prod.website-files.com/64820bb890b5d776bb0c9faf/69a263a6c5fc2db00a918a43_454ff025f73ce2184cd086b957136299_Website_Sign-ins-Envoy-260227.svg",
+    "w": 277,
+    "h": 165,
+    "alt": "A visitor sign-in graph"
+   },
+   {
+    "src": "https://cdn.prod.website-files.com/64820bb890b5d776bb0c9faf/68fbb62bd9bbe55c5f584cc6_G2-Top50.svg",
+    "w": 93,
+    "h": 107,
+    "alt": "G2 badge - Best Software 2025, Top 50 office products"
+   },
+   {
+    "src": "https://cdn.prod.website-files.com/64820bb890b5d776bb0c9faf/6a974e3a3dc77fb2f394981f_VisitorManagement_Leader_Enterprise_Leader.svg",
+    "w": 93,
+    "h": 107,
+    "alt": "G2 badge - Fall 2026 Leader, Enterprise"
+   },
+   {
+    "src": "https://cdn.prod.website-files.com/64820bb890b5d776bb0c9faf/6a974c1b9e12593c30b2514d_SpaceManagement_BestUsability_Enterprise_Total.svg",
+    "w": 93,
+    "h": 107,
+    "alt": "G2 badge - Fall 2026 Best Usability, Enterprise"
+   },
+   {
+    "src": "https://cdn.prod.website-files.com/64820bb890b5d776bb0c9faf/6a974c97dcedbe8cefc01365_SpaceManagement_HighestUserAdoption_Enterprise_Adoption.svg",
+    "w": 93,
+    "h": 107,
+    "alt": "G2 badge - Fall 2026 Highest user adoption, Enterprise"
+   },
+   {
+    "src": "https://cdn.prod.website-files.com/64820bb890b5d776bb0c9faf/699e2a2fd09418ed31c44b6f_security.webp",
+    "w": 90,
+    "h": 90,
+    "alt": ""
+   },
+   {
+    "src": "https://cdn.prod.website-files.com/64820bb890b5d776bb0c9faf/69a644a03d5a70c3d08b582a_Website_hero_manufacturing-Envoy-270226.svg",
+    "w": 277,
+    "h": 165,
+    "alt": "Illustration of a robot arm on an assembly line. "
+   }
+  ],
+  "backgroundImages": [
+   {
+    "bg": "url(\"https://cdn.prod.website-files.com/64820bb890b5d776bb0c9faf/69a263a685be85fb32ec4f78_Website_H1-Envoy-260227.svg\")",
+    "w": 693,
+    "h": 366
+   },
+   {
+    "bg": "url(\"https://cdn.prod.website-files.com/64820bb890b5d776bb0c9faf/69a5d785c90cbcc83f5efaf9_G2_sparkles.svg\")",
+    "w": 693,
+    "h": 165
+   }
+  ],
+  "firstScreenFonts": [
+   "Sofia Pro",
+   "Sofia Pro Semi Bold"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "We protect the workplaces the world relies on most",
+  "h1Style": {
+   "fontFamily": "\"Sofia Pro Semi Bold\", sans-serif",
+   "fontSize": "32px",
+   "fontWeight": "600",
+   "lineHeight": "34.24px",
+   "letterSpacing": "normal",
+   "color": "rgb(63, 68, 80)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 28,
+    "y": 152,
+    "w": 335,
+    "h": 103
+   }
+  },
+  "lead": "Unite people, spaces, and communications on one workplace management platform—built for modern security and compliance.",
+  "ctas": [
+   "See it in action",
+   "Learn more"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://cdn.prod.website-files.com/64820bb890b5d776bb0c9faf/68fbb62bd9bbe55c5f584cc6_G2-Top50.svg",
+    "w": 85,
+    "h": 98,
+    "alt": "G2 badge - Best Software 2025, Top 50 office products"
+   },
+   {
+    "src": "https://cdn.prod.website-files.com/64820bb890b5d776bb0c9faf/6a974e3a3dc77fb2f394981f_VisitorManagement_Leader_Enterprise_Leader.svg",
+    "w": 85,
+    "h": 98,
+    "alt": "G2 badge - Fall 2026 Leader, Enterprise"
+   },
+   {
+    "src": "https://cdn.prod.website-files.com/64820bb890b5d776bb0c9faf/6a974c1b9e12593c30b2514d_SpaceManagement_BestUsability_Enterprise_Total.svg",
+    "w": 85,
+    "h": 98,
+    "alt": "G2 badge - Fall 2026 Best Usability, Enterprise"
+   },
+   {
+    "src": "https://cdn.prod.website-files.com/64820bb890b5d776bb0c9faf/6a974c97dcedbe8cefc01365_SpaceManagement_HighestUserAdoption_Enterprise_Adoption.svg",
+    "w": 85,
+    "h": 98,
+    "alt": "G2 badge - Fall 2026 Highest user adoption, Enterprise"
+   },
+   {
+    "src": "https://cdn.prod.website-files.com/64820bb890b5d776bb0c9faf/699e2a2fd09418ed31c44b6f_security.webp",
+    "w": 90,
+    "h": 90,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 9280
+ },
+ "elapsedSec": 17.4
+}

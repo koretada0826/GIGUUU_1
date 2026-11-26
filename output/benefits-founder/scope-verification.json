@@ -1,0 +1,10 @@
+{
+  "unchangedOutsideCharacter": true,
+  "allowedAdditions": [
+    "head: telemo-benefits-founder.css",
+    "body end: telemo-benefits-founder.js"
+  ],
+  "additionalRuntimeScope": "Only hand off the floating guide while #telemo-core is active; restore its existing state outside the section. No shared concierge CSS/JS files edited.",
+  "originalHTMLSHA256": "da9554e2aa4020563b7e424396fdb538d43693690787a66f3f1cb359fab61615",
+  "restoredHTMLSHA256": "da9554e2aa4020563b7e424396fdb538d43693690787a66f3f1cb359fab61615"
+}

@@ -1,0 +1,181 @@
+{
+ "slug": "gusto-com",
+ "url": "https://gusto.com/",
+ "capturedAt": "2026-10-12 21:11:25",
+ "files": {
+  "pc_f0": "gusto-com-pc-f0.jpg",
+  "pc_f1": "gusto-com-pc-f1.jpg",
+  "pc_f2": "gusto-com-pc-f2.jpg",
+  "pc_scroll": "gusto-com-pc-scroll.jpg",
+  "sp": "gusto-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": "button:has-text('Accept')",
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://gusto.com/",
+  "title": "Gusto | Online HR Services: Payroll, Benefits and everything else",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 8832,
+  "h1": "Hire, pay, and grow like a pro.",
+  "h1Style": {
+   "fontFamily": "\"Boogy Brut\", Georgia, serif",
+   "fontSize": "110px",
+   "fontWeight": "400",
+   "lineHeight": "115.5px",
+   "letterSpacing": "-2.5%",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 299,
+    "y": 124,
+    "w": 842,
+    "h": 231
+   }
+  },
+  "lead": "Gusto handles payroll, HR, and more in a snap. That helps you expand your reach and keep betting big on yourself.",
+  "ctas": [
+   "Create free account",
+   "Products",
+   "Business types",
+   "For accountants",
+   "Resources",
+   "Pricing",
+   "Create free account",
+   "Sign in",
+   "Create free account",
+   "How Gusto works"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://cms-media.gusto-cdn.com/image/upload/f_auto,q_auto:eco,w_1280/v1786052990/Background_2x_dxp273.png",
+    "w": 1440,
+    "h": 765,
+    "alt": "Red and pink textured and wavy gradient"
+   },
+   {
+    "src": "https://cms-media.gusto-cdn.com/image/upload/v1786481950/Homepage_Abstract_UI_cvnuwq.svg",
+    "w": 1040,
+    "h": 656,
+    "alt": "Gusto product interface"
+   },
+   {
+    "src": "https://cms-media.gusto-cdn.com/image/upload/v1790001350/ReviewRequestsOptimized_vshvwj.svg",
+    "w": 275,
+    "h": 200,
+    "alt": "Review requests card"
+   },
+   {
+    "src": "https://cms-media.gusto-cdn.com/image/upload/v1790001350/ManageTeamsOptimized_x3bryt.svg",
+    "w": 330,
+    "h": 205,
+    "alt": "Manage team shifts card"
+   },
+   {
+    "src": "https://cms-media.gusto-cdn.com/image/upload/v1788459758/HiringToolsUpdated_savd07.svg",
+    "w": 266,
+    "h": 211,
+    "alt": "Hiring tools card"
+   }
+  ],
+  "backgroundImages": [
+   {
+    "bg": "url(\"https://cdn.cookielaw.org/logos/static/ot_persistent_cookie_icon.png\")",
+    "w": 50,
+    "h": 50
+   }
+  ],
+  "firstScreenFonts": [
+   "Matter",
+   "Boogy Brut"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "Hire, pay, and grow like a pro.",
+  "h1Style": {
+   "fontFamily": "\"Boogy Brut\", Georgia, serif",
+   "fontSize": "52px",
+   "fontWeight": "400",
+   "lineHeight": "54.6px",
+   "letterSpacing": "-2.5%",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 16,
+    "y": 122,
+    "w": 358,
+    "h": 109
+   }
+  },
+  "lead": "Gusto handles payroll, HR, and more in a snap. That helps you expand your reach and keep betting big on yourself.",
+  "ctas": [
+   "Create free account",
+   "Products",
+   "Business types",
+   "For accountants",
+   "Resources",
+   "Pricing",
+   "Create free account",
+   "Sign in"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://cms-media.gusto-cdn.com/image/upload/f_auto,q_auto:eco,w_1280/v1786052990/Background_2x_dxp273.png",
+    "w": 390,
+    "h": 717,
+    "alt": "Red and pink textured and wavy gradient"
+   },
+   {
+    "src": "https://cms-media.gusto-cdn.com/image/upload/v1786138846/main_ui_mobile_dejhzn.svg",
+    "w": 225,
+    "h": 466,
+    "alt": "Gusto product interface"
+   },
+   {
+    "src": "https://cms-media.gusto-cdn.com/image/upload/v1790001350/ReviewRequestsOptimized_vshvwj.svg",
+    "w": 148,
+    "h": 108,
+    "alt": "Review requests card"
+   },
+   {
+    "src": "https://cms-media.gusto-cdn.com/image/upload/v1790001350/ManageTeamsOptimized_x3bryt.svg",
+    "w": 182,
+    "h": 113,
+    "alt": "Manage team shifts card"
+   },
+   {
+    "src": "https://cms-media.gusto-cdn.com/image/upload/v1788459758/BenifitsUpdated_ywwdxa.svg",
+    "w": 168,
+    "h": 93,
+    "alt": "Benefits card"
+   }
+  ],
+  "pageHeight": 9989
+ },
+ "elapsedSec": 12.5
+}

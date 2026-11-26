@@ -1,0 +1,377 @@
+{
+  "version": 1,
+  "reference": {
+    "filename": "スクリーンショット 2026-11-11 10.36.50.png",
+    "width": 1882,
+    "height": 898,
+    "description": "ミント色のコールセンターを背景に、紺色の見出し、立体TELEMOロゴ、社長と吹き出し、2つのCTAを配置したヒーロー"
+  },
+  "implementation": {
+    "html": "index.html#hero",
+    "css": "telemo-office-hero.css",
+    "rendering": "static-html-css",
+    "header": "デスクトップは既存ナビゲーションの高さを上部余白に加算。モバイルは通常フローのヘッダー直後に配置。"
+  },
+  "tokens": {
+    "ink": "#052b46",
+    "teal": "#007d8c",
+    "mint": "#dff2e8",
+    "orange": "#ff8b12",
+    "white": "#ffffff",
+    "fontFamily": "Noto Sans JP",
+    "headingWeight": 900
+  },
+  "elements": [
+    {
+      "id": "background",
+      "type": "image",
+      "source": "assets/hero/office/callcenter-background.jpg",
+      "width": 1815,
+      "height": 866,
+      "alt": "",
+      "decorative": true,
+      "objectFit": "cover"
+    },
+    {
+      "id": "title",
+      "type": "h1",
+      "text": "本当の現場を知り尽くした、コールセンター経営者がつくったAI",
+      "parts": [
+        {
+          "id": "intro",
+          "text": "本当の現場を知り尽くした、",
+          "treatment": "白いカプセル形の背景",
+          "fontSize": "3.45cqw"
+        },
+        {
+          "id": "headline",
+          "text": "コールセンター経営者がつくったAI",
+          "mobileLines": [
+            "コールセンター",
+            "経営者がつくったAI"
+          ],
+          "fontSize": "5.7cqw",
+          "mobileFontSize": "clamp(26px, 8.2cqw, 54px)"
+        },
+        {
+          "id": "emphasis",
+          "text": "経営者がつくったAI",
+          "treatment": "白い下線"
+        }
+      ]
+    },
+    {
+      "id": "wordmark",
+      "type": "image",
+      "source": "assets/telemo-blender/telemo-wordmark-realistic-teal-v2.webp",
+      "width": 2560,
+      "height": 720,
+      "alt": "TELEMO",
+      "description": "既存の透過立体ロゴ"
+    },
+    {
+      "id": "speech",
+      "type": "paragraph",
+      "lines": [
+        "現場の知見を、",
+        "テレモに込めました"
+      ],
+      "shape": "assets/concierge/speech/soft-white-bubble.svg",
+      "fontSize": "2.1cqw",
+      "mobileFontSize": "clamp(15px, 4.9cqw, 23px)"
+    },
+    {
+      "id": "president",
+      "type": "image",
+      "source": "assets/concierge/president-cutout/poster.webp",
+      "width": 256,
+      "height": 384,
+      "decorative": true
+    },
+    {
+      "id": "actions",
+      "type": "links",
+      "items": [
+        {
+          "text": "事業を見る",
+          "href": "#telemo-how",
+          "variant": "primary"
+        },
+        {
+          "text": "お問い合わせ",
+          "href": "#contact",
+          "variant": "secondary"
+        }
+      ]
+    }
+  ],
+  "responsive": {
+    "desktop": {
+      "minWidth": 1024,
+      "sceneAspectRatio": 2.12,
+      "padding": "3.8% 6% 2.8%",
+      "gridColumns": "minmax(0, 1.65fr) minmax(0, 1fr)",
+      "gridAreas": [
+        [
+          "title",
+          "title"
+        ],
+        [
+          "wordmark",
+          "message"
+        ],
+        [
+          "actions",
+          "actions"
+        ]
+      ],
+      "actionsWidth": "40%",
+      "president": {
+        "right": "3%",
+        "bottom": "5.8%",
+        "width": "9%"
+      }
+    },
+    "tablet": {
+      "minWidth": 768,
+      "maxWidth": 1023,
+      "sceneAspectRatio": 1.8,
+      "actionsWidth": "50%"
+    },
+    "mobile": {
+      "maxWidth": 767,
+      "gridAreas": [
+        [
+          "title"
+        ],
+        [
+          "wordmark"
+        ],
+        [
+          "message"
+        ],
+        [
+          "actions"
+        ]
+      ],
+      "padding": "26px 16px 24px (safe-area-inset を下限16pxで考慮)",
+      "gap": 18,
+      "titleWrapping": "主見出しを2行に分割",
+      "logoWidth": "100%",
+      "messageColumns": "minmax(0, 1fr) 25%",
+      "actionsColumns": "repeat(2, minmax(0, 1fr))",
+      "minimumButtonHeight": 52,
+      "height": "内容に応じた自動高さ"
+    }
+  },
+  "behavior": {
+    "primaryCtaTarget": "telemo-how",
+    "secondaryCtaTarget": "contact",
+    "guide": "ヒーローのポートレートが画面内に見えている間は右下の社長を隠し、画面外へ出てから右下へ表示。6つの仕組みでは説明用の社長に切り替え、セクションを離れると右下の社長を再表示。メニュー表示中は隠す。",
+    "bookingUrl": "https://timerex.net/s/telemokanri_c8e4/3da2d732"
+  },
+  "assets": {
+    "background": {
+      "method": "built-in image_gen",
+      "useCase": "precise-object-edit",
+      "prompt": "Use case: precise-object-edit. Edit target: attached reference screenshot. Create a clean reusable BACKGROUND-ONLY illustration asset for a responsive website hero, wide 2.12:1 canvas. Remove every Japanese heading, the white rounded heading capsule, underline, all TELEMO 3D letters and their shadow, the white speech balloon and its text, the small photoreal man at lower right, and both buttons. Inpaint those regions into the office illustration. Preserve the rest of this exact artwork and composition as faithfully as possible: mint and pale aqua sweeping wall, two teal pendant lamps in upper left with warm yellow inner lights, call center employees with headsets and teal monitors along the lower edge, a supervisor behind the woman in lower left, two colleagues conversing at upper right, plants and windows on both edges, tiny yellow desk accents, softly textured pastel illustrated style. The top center and middle left must stay very light and empty for HTML headings and a separately overlaid logo. The middle right should also stay light for a separately overlaid speech balloon. Extend the pale mint wall naturally into all removed text areas. No text, no typography, no logos, no buttons, no speech shapes, no photographic person. Output only the wide finished office background.",
+      "conversion": "sips JPEG quality 90"
+    },
+    "wordmark": "existing",
+    "president": "existing",
+    "speech": "existing"
+  },
+  "verification": {
+    "date": "2026-11-11",
+    "browser": "Chromium / Playwright",
+    "viewports": [
+      {
+        "width": 320,
+        "height": 568
+      },
+      {
+        "width": 375,
+        "height": 667
+      },
+      {
+        "width": 390,
+        "height": 844
+      },
+      {
+        "width": 430,
+        "height": 932
+      },
+      {
+        "width": 767,
+        "height": 844
+      },
+      {
+        "width": 768,
+        "height": 1024
+      },
+      {
+        "width": 1024,
+        "height": 768
+      },
+      {
+        "width": 1440,
+        "height": 1000
+      },
+      {
+        "width": 1882,
+        "height": 1000
+      }
+    ],
+    "horizontalOverflow": false,
+    "textOverflow": false,
+    "imagesLoaded": true,
+    "mobileMenu": "passed",
+    "ctaAnchorNavigation": "passed",
+    "reducedMotion": "passed",
+    "mobileGuide": {
+      "position": "fixed",
+      "bottomGapPx": 8,
+      "widths": [
+        320,
+        390,
+        430,
+        767
+      ],
+      "horizontalOverflow": false,
+      "menuVisibility": "passed",
+      "scrollTracking": "passed"
+    },
+    "singlePresidentHandoff": {
+      "widths": [
+        320,
+        390,
+        650,
+        1440
+      ],
+      "reducedMotion": [
+        "reduce",
+        "no-preference"
+      ],
+      "floatingGuideHiddenInBenefits": true,
+      "floatingGuideRestoredAfterBenefits": true
+    },
+    "motion": {
+      "animatedWidths": [
+        320,
+        390,
+        768,
+        1440
+      ],
+      "horizontalOverflowDuringPlayback": false,
+      "fullPageScrollWidths": [
+        390,
+        1440
+      ],
+      "heroSequenceCompleted": true,
+      "reducedMotionInitialAndDynamic": "passed",
+      "javascriptDisabled": "passed",
+      "keyboardHorizontalScroll": "passed",
+      "presidentHandoff": "passed"
+    },
+    "heroPortraitHandoff": {
+      "widths": [
+        320,
+        390,
+        768,
+        1440,
+        1882
+      ],
+      "duplicatePortraitsDuringScroll": false,
+      "floatingGuideRestoredAfterHero": true,
+      "returnScroll": "passed",
+      "benefitsHandoff": "passed"
+    },
+    "kioHeroEntrance": {
+      "date": "2026-11-13",
+      "widths": [
+        320,
+        390,
+        768,
+        1440
+      ],
+      "overflowDuringAnimation": false,
+      "allAnimationsFinished": true,
+      "reducedMotion": "passed",
+      "anchorInterruption": "passed"
+    }
+  },
+  "motion": {
+    "controller": "telemo-motion.js",
+    "references": [
+      {
+        "url": "https://www.kio.ac.jp/bds/",
+        "observed": "素材を順に拡大し、少し弾んで収束する登場演出",
+        "application": "TELEMOロゴと吹き出しの段階的な登場"
+      },
+      {
+        "url": "https://casamalka.com/",
+        "observed": "clip-pathによる画像表示とスクロール進捗に沿う変形",
+        "application": "見出しのマスク表示、写真枠の開き、ロゴの小さな奥行き移動"
+      }
+    ],
+    "heroTimelineMs": [
+      {
+        "element": "intro",
+        "delay": 300,
+        "duration": 750
+      },
+      {
+        "element": "headline",
+        "delay": 650,
+        "duration": 750
+      },
+      {
+        "element": "wordmark",
+        "delay": 1000,
+        "duration": 950
+      },
+      {
+        "element": "president image",
+        "delay": 1350,
+        "duration": 950
+      },
+      {
+        "element": "speech",
+        "delay": 1700,
+        "duration": 750
+      }
+    ],
+    "scrollEffects": {
+      "wordmarkMaxShiftPx": {
+        "desktop": 18,
+        "mobile": 8
+      },
+      "supportPhotoMaxInsetPercent": 9,
+      "supportPhotoMaxScale": 1.08
+    },
+    "accessibility": "prefers-reduced-motion時は静止。アンカー操作・フォーカス・非表示タブで中断。JavaScriptが無効でも本文とリンクを表示。",
+    "heroEntrance": {
+      "reference": "https://www.kio.ac.jp/bds/",
+      "method": "小さい状態から拡大し、一度大きく弾んで元のサイズへ収束。350ms間隔で順に登場。",
+      "normalScale": [
+        0.3,
+        1.15,
+        1
+      ],
+      "prominentScale": [
+        0.15,
+        1.25,
+        1
+      ],
+      "mobilePeakScale": {
+        "headline": 1.04,
+        "wordmark": 1.08,
+        "president": 1.12,
+        "speech": 1.05
+      },
+      "normalEasing": "cubic-bezier(.18,.89,.32,1.28)",
+      "prominentEasing": "cubic-bezier(.18,.89,.32,1.35)",
+      "totalDurationMs": 2450
+    }
+  }
+}

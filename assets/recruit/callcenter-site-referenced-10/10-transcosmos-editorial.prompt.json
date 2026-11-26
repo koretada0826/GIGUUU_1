@@ -1,0 +1,36 @@
+{
+  "concept_id": 10,
+  "title": "transcosmos-editorial",
+  "prompt": "Use case: ads-marketing.\nAsset: ONE original Japanese call-center recruitment HERO image, wide landscape aspect about 1938:811 (2.39:1). This is a new site-referenced creative direction, not a website screenshot or a clone.\nInput image 1: actual saved website screenshot of トランスコスモス, https://www.trans-cosmos.co.jp/. Study its composition, type hierarchy and imagery treatment. Input image 2: our current call-center image, used ONLY for subject context (headsets, operators, call-center equipment), not its repeated anime arrangement.\nObserved reference element: 横方向の情報帯と整理されたモジュール配置。業務の種類を並べて俯瞰できる構造を人物写真へ翻訳する。\nDirection: Use the transcosmos screenshot only for its organized HORIZONTAL INFORMATION STRIPS and structured modules, translated into a much cleaner original call-center recruitment hero. White background with headline in navy spanning the TOP-LEFT/center. Below and across RIGHT two adjacent broad editorial photo strips show distinct real call-center moments: a Japanese operator on a headset call and two colleagues consulting a script at a workstation. Thin cobalt separators and short exact small labels 電話対応 and チーム; a small white gutter makes work modes readable. Structured editorial feature-spread composition, no source news, client logos, statistics, award claims, mini cards or website navigation. Keep overall sparse and human-centered.\nExact ORIGINAL approved copy: small label \"CALL CENTER RECRUIT\"; headline \"声を届ける、\" / \"仕事を知ろう。\"; subcopy \"電話対応も、チームの相談も。\". Use these strings ONLY, plus 電話対応 / 営業 / サポート / チーム if small work labels are needed. Do not copy any text from the attached website screenshot.\nKeep call-center theme recognizable: professional communications headsets worn on heads with natural boom microphones, customer-contact workstation/screens with unreadable interface text, desk telephone or call-script papers. All human foreground staff Japanese adults. Natural proportions and coherent anatomy. Photographic concepts must be photographs; illustrative/sculptural concepts must follow their distinct direction.\nPalette: mostly white, navy, cobalt blue and pale blue/teal, natural skin tones. The attached site's other brand colors are reference context, not output requirements. Keep bright edges that suit a white page, with no full dark rectangular background.\nNO copied company logos, brands, slogans, named people, identity recreation, dates, certifications, customer quotes, salary/benefit promises, numerical claims, header/navigation, website CTA, browser chrome, watermarks or multiple concept thumbnails. No company-specific recruitment conditions. Preserve legibility, avoid cropped lettering or faces. Output exactly one finished opaque hero image, not a full page.",
+  "tool": "image_gen__imagegen (built-in)",
+  "actual_model": null,
+  "attached_references": [
+    {
+      "path": "/Users/matsugirintarou/Desktop/rintaro/giguuu改善/assets/recruit/callcenter-site-referenced-10/references/10-www-trans-cosmos-co-jp.jpg",
+      "role": "actual website screenshot, composition/type/image treatment",
+      "captured_at": "2026-10-12"
+    },
+    {
+      "path": "/Users/matsugirintarou/Desktop/rintaro/giguuu改善/assets/recruit/recruit-callcenter-illustrated-v1.png",
+      "role": "call-center subject context only"
+    }
+  ],
+  "source_site": {
+    "name": "トランスコスモス",
+    "url": "https://www.trans-cosmos.co.jp/"
+  },
+  "borrowed_visual_element": "横方向の情報帯と整理されたモジュール配置。業務の種類を並べて俯瞰できる構造を人物写真へ翻訳する。",
+  "generated_source_path": "/Users/matsugirintarou/.codex/generated_images/01a13517-3d8c-7100-bfc3-0550c0913d71/exec-d3f1719a-c94f-4215-aa51-d1f6350e3c4b.png",
+  "saved_path": "/Users/matsugirintarou/Desktop/rintaro/giguuu改善/assets/recruit/callcenter-site-referenced-10/10-transcosmos-editorial.png",
+  "dimensions": [
+    1938,
+    812
+  ],
+  "visual_inspection": {
+    "headline": "exact and readable",
+    "subcopy": "exact and readable",
+    "reference_composition": "two structured photographic modules with blue horizontal information bands",
+    "callcenter": "foreground operators wear headsets; female boom microphones clear; team script review at workstation",
+    "source_brand": "no copied source brand, claim, client name or stats"
+  }
+}

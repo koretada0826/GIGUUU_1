@@ -1,0 +1,124 @@
+{
+ "slug": "kinhr-com",
+ "url": "http://kinhr.com/",
+ "capturedAt": "2026-10-12 21:11:48",
+ "files": {
+  "pc_f0": "kinhr-com-pc-f0.jpg",
+  "pc_f1": "kinhr-com-pc-f1.jpg",
+  "pc_f2": "kinhr-com-pc-f2.jpg",
+  "pc_scroll": "kinhr-com-pc-scroll.jpg",
+  "sp": "kinhr-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.wagepoint.com/people-hr/",
+  "title": "People By Wagepoint - Software for Small Business | Canadian Payroll",
+  "lang": "en-CA",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 9255,
+  "h1": "Manage time off the easy way.",
+  "h1Style": {
+   "fontFamily": "Onest, sans-serif",
+   "fontSize": "85.7143px",
+   "fontWeight": "400",
+   "lineHeight": "94.2857px",
+   "letterSpacing": "normal",
+   "color": "rgb(0, 0, 0)",
+   "textAlign": "left",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 134,
+    "y": 257,
+    "w": 756,
+    "h": 189
+   }
+  },
+  "lead": "Manually tracking time off is time-consuming and complex. Ditch the spreadsheets and makes it delightfully simple with People by Wagepoint.",
+  "ctas": [
+   "Book a demo",
+   "Start a free trial",
+   "See pricing",
+   "Try People for free"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.wagepoint.com/wp-content/uploads/2026/03/People-by-Wagepoint-Header-768x995.png",
+    "w": 416,
+    "h": 819,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Onest"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(250, 250, 250)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "Manage time off the easy way.",
+  "h1Style": {
+   "fontFamily": "Onest, sans-serif",
+   "fontSize": "45px",
+   "fontWeight": "400",
+   "lineHeight": "49.5px",
+   "letterSpacing": "normal",
+   "color": "rgb(0, 0, 0)",
+   "textAlign": "left",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 35,
+    "y": 442,
+    "w": 320,
+    "h": 149
+   }
+  },
+  "lead": "Manually tracking time off is time-consuming and complex. Ditch the spreadsheets and makes it delightfully simple with People by Wagepoint.",
+  "ctas": [
+   "Business type",
+   "Small business Less admin, more business",
+   "Partner Program",
+   "Pricing",
+   "Company",
+   "Newsroom See what’s making headlines",
+   "Careers Start your next chapter",
+   "Resources",
+   "Events See where we’ll be next",
+   "Login",
+   "Contact us",
+   "Select province"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://www.wagepoint.com/wp-content/uploads/2026/03/People-by-Wagepoint-Header-790x1024.png",
+    "w": 407,
+    "h": 528,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 16229
+ },
+ "elapsedSec": 19.3
+}

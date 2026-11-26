@@ -1,0 +1,221 @@
+{
+ "slug": "rekki-com",
+ "url": "https://rekki.com/",
+ "capturedAt": "2026-10-12 21:13:11",
+ "files": {
+  "pc_f0": "rekki-com-pc-f0.jpg",
+  "pc_f1": "rekki-com-pc-f1.jpg",
+  "pc_f2": "rekki-com-pc-f2.jpg",
+  "pc_scroll": "rekki-com-pc-scroll.jpg",
+  "sp": "rekki-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://rekki.com/",
+  "title": "REKKI - Office robots built for wholesale distributors",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 3981,
+  "h1": "Office robots built for wholesale distributors",
+  "h1Style": {
+   "fontFamily": "\"Diatype REKKI Medium\", \"Diatype REKKI Medium Placeholder\", sans-serif",
+   "fontSize": "86px",
+   "fontWeight": "400",
+   "lineHeight": "86px",
+   "letterSpacing": "-5.504px",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "center",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 60,
+    "y": 320,
+    "w": 1320,
+    "h": 172
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "For Customer Service",
+   "For Sales",
+   "For Chefs",
+   "Company",
+   "BOOK A DEMO",
+   "GET A DEMO"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://framerusercontent.com/images/6srb6GuMmmqEfgdGeMEhHgHvLs.png?scale-down-to=512&width=1920&height=1080",
+    "w": 211,
+    "h": 119,
+    "alt": ""
+   },
+   {
+    "src": "https://framerusercontent.com/images/g1srZhqIVYKJftPwWiIDb4Kz6Y.svg?width=90&height=97",
+    "w": 69,
+    "h": 69,
+    "alt": ""
+   },
+   {
+    "src": "https://framerusercontent.com/images/6srb6GuMmmqEfgdGeMEhHgHvLs.png?scale-down-to=512&width=1920&height=1080",
+    "w": 211,
+    "h": 119,
+    "alt": ""
+   },
+   {
+    "src": "https://framerusercontent.com/images/g1srZhqIVYKJftPwWiIDb4Kz6Y.svg?width=90&height=97",
+    "w": 69,
+    "h": 69,
+    "alt": ""
+   },
+   {
+    "src": "https://framerusercontent.com/images/6srb6GuMmmqEfgdGeMEhHgHvLs.png?scale-down-to=512&width=1920&height=1080",
+    "w": 211,
+    "h": 119,
+    "alt": ""
+   },
+   {
+    "src": "https://framerusercontent.com/images/g1srZhqIVYKJftPwWiIDb4Kz6Y.svg?width=90&height=97",
+    "w": 69,
+    "h": 69,
+    "alt": ""
+   },
+   {
+    "src": "https://framerusercontent.com/images/KoooaDsalKcX7sZXFG32BUutyos.png?scale-down-to=2048&width=3534&height=1220",
+    "w": 1300,
+    "h": 449,
+    "alt": ""
+   },
+   {
+    "src": "https://framerusercontent.com/images/KqIdmGels2UCfzWzP2umF8u9OqE.png?scale-down-to=2048&width=3104&height=1752",
+    "w": 1192,
+    "h": 673,
+    "alt": ""
+   },
+   {
+    "src": "https://framerusercontent.com/images/sfa490WVfnDawVRCdQVXUvoC0Vw.png?scale-down-to=2048&width=3104&height=1752",
+    "w": 1192,
+    "h": 673,
+    "alt": ""
+   },
+   {
+    "src": "https://framerusercontent.com/images/F6miHSMpmBn2a9Rqvm7hf0qjG0.png?scale-down-to=2048&width=3104&height=1752",
+    "w": 1192,
+    "h": 673,
+    "alt": ""
+   },
+   {
+    "src": "https://framerusercontent.com/images/Syp0dBazcrALarKbgq9laJ9zqoU.png?scale-down-to=2048&width=3104&height=1752",
+    "w": 1192,
+    "h": 673,
+    "alt": ""
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "sans-serif",
+   "Diatype REKKI Medium",
+   "Diatype REKKI Regular"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "Office robots built for wholesale distributors",
+  "h1Style": {
+   "fontFamily": "\"Diatype REKKI Medium\", \"Diatype REKKI Medium Placeholder\", sans-serif",
+   "fontSize": "44px",
+   "fontWeight": "400",
+   "lineHeight": "44px",
+   "letterSpacing": "-2.64px",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "left",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 16,
+    "y": 270,
+    "w": 358,
+    "h": 132
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "OrderAI",
+   "UpsellAI",
+   "GET A DEMO"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [
+   {
+    "src": "https://framerusercontent.com/images/6srb6GuMmmqEfgdGeMEhHgHvLs.png?scale-down-to=512&width=1920&height=1080",
+    "w": 101,
+    "h": 57,
+    "alt": ""
+   },
+   {
+    "src": "https://framerusercontent.com/images/6srb6GuMmmqEfgdGeMEhHgHvLs.png?scale-down-to=512&width=1920&height=1080",
+    "w": 101,
+    "h": 57,
+    "alt": ""
+   },
+   {
+    "src": "https://framerusercontent.com/images/6srb6GuMmmqEfgdGeMEhHgHvLs.png?scale-down-to=512&width=1920&height=1080",
+    "w": 101,
+    "h": 57,
+    "alt": ""
+   },
+   {
+    "src": "https://framerusercontent.com/images/KoooaDsalKcX7sZXFG32BUutyos.png?scale-down-to=2048&width=3534&height=1220",
+    "w": 905,
+    "h": 313,
+    "alt": ""
+   },
+   {
+    "src": "https://framerusercontent.com/images/KqIdmGels2UCfzWzP2umF8u9OqE.png?scale-down-to=1024&width=3104&height=1752",
+    "w": 358,
+    "h": 203,
+    "alt": ""
+   },
+   {
+    "src": "https://framerusercontent.com/images/sfa490WVfnDawVRCdQVXUvoC0Vw.png?scale-down-to=1024&width=3104&height=1752",
+    "w": 358,
+    "h": 203,
+    "alt": ""
+   },
+   {
+    "src": "https://framerusercontent.com/images/F6miHSMpmBn2a9Rqvm7hf0qjG0.png?scale-down-to=1024&width=3104&height=1752",
+    "w": 358,
+    "h": 203,
+    "alt": ""
+   },
+   {
+    "src": "https://framerusercontent.com/images/Syp0dBazcrALarKbgq9laJ9zqoU.png?scale-down-to=1024&width=3104&height=1752",
+    "w": 358,
+    "h": 203,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 3483
+ },
+ "elapsedSec": 14.1
+}

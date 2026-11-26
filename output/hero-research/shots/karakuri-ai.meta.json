@@ -1,0 +1,100 @@
+{
+ "slug": "karakuri-ai",
+ "url": "https://karakuri.ai/",
+ "capturedAt": "2026-10-12 21:07:24",
+ "files": {
+  "pc_f0": "karakuri-ai-pc-f0.jpg",
+  "pc_f1": "karakuri-ai-pc-f1.jpg",
+  "pc_f2": "karakuri-ai-pc-f2.jpg",
+  "pc_scroll": "karakuri-ai-pc-scroll.jpg",
+  "sp": "karakuri-ai-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://karakuri.ai/",
+  "title": "AIエージェントで問い合わせ対応と業務を自動化｜KARAKURI",
+  "lang": "ja",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 16262,
+  "h1": "人か、業務か、 AIか。",
+  "h1Style": {
+   "fontFamily": "Inter, \"Noto Sans JP\"",
+   "fontSize": "80px",
+   "fontWeight": "900",
+   "lineHeight": "96px",
+   "letterSpacing": "4px",
+   "color": "rgba(0, 0, 0, 0)",
+   "textAlign": "left",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 200,
+    "y": 178,
+    "w": 680,
+    "h": 192
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "診断ガイドをダウンロード call_made",
+   "まずは相談する call_made"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "sans-serif",
+   "Inter",
+   "Material Symbols Outlined"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "人か、業務か、 AIか。",
+  "h1Style": {
+   "fontFamily": "Inter, \"Noto Sans JP\"",
+   "fontSize": "48px",
+   "fontWeight": "900",
+   "lineHeight": "57.6px",
+   "letterSpacing": "2.4px",
+   "color": "rgba(0, 0, 0, 0)",
+   "textAlign": "left",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 20,
+    "y": 217,
+    "w": 351,
+    "h": 115
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "診断ガイドをダウンロード call_made",
+   "まずは相談する call_made"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [],
+  "pageHeight": 22885
+ },
+ "elapsedSec": 13.5
+}

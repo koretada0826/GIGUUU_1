@@ -1,0 +1,202 @@
+{
+ "slug": "www-gong-io",
+ "url": "https://www.gong.io/",
+ "capturedAt": "2026-10-12 21:30:59",
+ "files": {
+  "pc_f0": "www-gong-io-pc-f0.jpg",
+  "pc_f1": "www-gong-io-pc-f1.jpg",
+  "pc_f2": "www-gong-io-pc-f2.jpg",
+  "pc_scroll": "www-gong-io-pc-scroll.jpg",
+  "sp": "www-gong-io-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.gong.io/",
+  "title": "Gong - Revenue AI OS",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 10886,
+  "h1": "REVENUE AI BUILT TO CLOSE DEALS FASTER, PREDICT PIPELINE RISK, AUTOMATE HANDOFFS, ENABLE AT SCALE, INCREASE WIN RATES, PREDICT CHURN CLOSE DEALS FASTER PREDICT PIPELINE RISK AUTOMATE HANDOFFS ENABLE AT SCALE INCREASE WIN RATES PREDICT CHURN",
+  "h1Style": {
+   "fontFamily": "Grotesk, \"Grotesk Fallback\"",
+   "fontSize": "60px",
+   "fontWeight": "700",
+   "lineHeight": "66px",
+   "letterSpacing": "-1.2px",
+   "color": "lab(7.71993 31.0893 -44.2052)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 112,
+    "y": 386,
+    "w": 600,
+    "h": 132
+   }
+  },
+  "lead": "Capture every interaction, analyze what's working, and automate what happens next — ring the gong, deal after deal, quarter after quarter. Book a demo See Gong in action",
+  "ctas": [
+   "Product",
+   "Solutions",
+   "Innovation",
+   "Raving fans",
+   "Resources",
+   "Company",
+   "Pricing",
+   "Book a demo",
+   "Book a demo",
+   "See Gong in action"
+  ],
+  "videos": [],
+  "canvases": [
+   {
+    "w": 770,
+    "h": 700
+   }
+  ],
+  "images": [
+   {
+    "src": "https://cdn.sanity.io/images/ww20clc6/production/0b50133901322a215dfcf2f3311fc378ffdaacd6-117x42.svg?rect=0,1,117,41&w=518&h=180&q=80&auto=format",
+    "w": 117,
+    "h": 42,
+    "alt": "Gong home"
+   },
+   {
+    "src": "https://www.gong.io/marketing-assets/background/stars-onlight-accent-1024.webp?dpl=dpl_AbxwNFJvzznqNCsmUfx5ZAkuQmCh",
+    "w": 1189,
+    "h": 1081,
+    "alt": ""
+   },
+   {
+    "src": "https://cdn.sanity.io/images/ww20clc6/production/1436d3e467db11ca97487b193ccf570d85b95e1a-120x30.svg?rect=10,0,100,30&w=80&h=24&fit=max&auto=format",
+    "w": 176,
+    "h": 44,
+    "alt": "LinkedIn logo"
+   },
+   {
+    "src": "https://cdn.sanity.io/images/ww20clc6/production/f08b907c228a919244b287555a02156a2507d1f6-286x57.svg?rect=48,0,190,57&w=80&h=24&fit=max&auto=format",
+    "w": 221,
+    "h": 44,
+    "alt": "Dropbox logo"
+   },
+   {
+    "src": "https://cdn.sanity.io/images/ww20clc6/production/707ca71877225dc8e5e9ebda762d5bc0c0c7f3ed-85x24.svg?rect=3,0,80,24&w=80&h=24&fit=max&auto=format",
+    "w": 156,
+    "h": 44,
+    "alt": "Nasdaq logo"
+   },
+   {
+    "src": "https://cdn.sanity.io/images/ww20clc6/production/b32c81a142456dc6b434d076b2932fbf8338ed1d-81x22.svg?rect=5,0,73,22&w=80&h=24&fit=max&auto=format",
+    "w": 162,
+    "h": 44,
+    "alt": "Upwork logo"
+   },
+   {
+    "src": "https://cdn.sanity.io/images/ww20clc6/production/d428ce870df7cb3cc7037c522006154d9ebc1e2f-150x48.svg?rect=0,2,150,45&w=80&h=24&fit=max&auto=format",
+    "w": 138,
+    "h": 44,
+    "alt": "Canva logo"
+   },
+   {
+    "src": "https://cdn.sanity.io/images/ww20clc6/production/719e5ee7a04e42fa7cb5db4cbe088b8ce158a9be-174x48.svg?rect=7,0,160,48&w=80&h=24&fit=max&auto=format",
+    "w": 160,
+    "h": 44,
+    "alt": "Crayon logo"
+   },
+   {
+    "src": "https://cdn.sanity.io/images/ww20clc6/production/f3ceef061e212adc3fd74a5fdadd056a0b07a554-120x60.svg?rect=0,12,120,36&w=80&h=24&fit=max&auto=format",
+    "w": 88,
+    "h": 44,
+    "alt": "Google logo"
+   },
+   {
+    "src": "https://cdn.sanity.io/images/ww20clc6/production/1436d3e467db11ca97487b193ccf570d85b95e1a-120x30.svg?rect=10,0,100,30&w=80&h=24&fit=max&auto=format",
+    "w": 176,
+    "h": 44,
+    "alt": "LinkedIn logo"
+   },
+   {
+    "src": "https://cdn.sanity.io/images/ww20clc6/production/f08b907c228a919244b287555a02156a2507d1f6-286x57.svg?rect=48,0,190,57&w=80&h=24&fit=max&auto=format",
+    "w": 221,
+    "h": 44,
+    "alt": "Dropbox logo"
+   },
+   {
+    "src": "https://cdn.sanity.io/images/ww20clc6/production/707ca71877225dc8e5e9ebda762d5bc0c0c7f3ed-85x24.svg?rect=3,0,80,24&w=80&h=24&fit=max&auto=format",
+    "w": 156,
+    "h": 44,
+    "alt": "Nasdaq logo"
+   }
+  ],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "Inter",
+   "Grotesk"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "REVENUE AI BUILT TO CLOSE DEALS FASTER, PREDICT PIPELINE RISK, AUTOMATE HANDOFFS, ENABLE AT SCALE, INCREASE WIN RATES, PREDICT CHURN CLOSE DEALS FASTER PREDICT PIPELINE RISK AUTOMATE HANDOFFS ENABLE AT SCALE INCREASE WIN RATES PREDICT CHURN",
+  "h1Style": {
+   "fontFamily": "Grotesk, \"Grotesk Fallback\"",
+   "fontSize": "36px",
+   "fontWeight": "700",
+   "lineHeight": "39.6px",
+   "letterSpacing": "-0.72px",
+   "color": "lab(7.71993 31.0893 -44.2052)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 16,
+    "y": 168,
+    "w": 358,
+    "h": 79
+   }
+  },
+  "lead": "Capture every interaction, analyze what's working, and automate what happens next — ring the gong, deal after deal, quarter after quarter. Book a demo See Gong in action",
+  "ctas": [
+   "Book a demo"
+  ],
+  "videos": [],
+  "canvases": [
+   {
+    "w": 448,
+    "h": 407
+   }
+  ],
+  "images": [
+   {
+    "src": "https://cdn.sanity.io/images/ww20clc6/production/0b50133901322a215dfcf2f3311fc378ffdaacd6-117x42.svg?rect=0,1,117,41&w=518&h=180&q=80&auto=format",
+    "w": 117,
+    "h": 42,
+    "alt": "Gong home"
+   },
+   {
+    "src": "https://www.gong.io/marketing-assets/background/stars-onlight-accent-1024.webp?dpl=dpl_AbxwNFJvzznqNCsmUfx5ZAkuQmCh",
+    "w": 691,
+    "h": 628,
+    "alt": ""
+   }
+  ],
+  "pageHeight": 16544
+ },
+ "elapsedSec": 11.6
+}

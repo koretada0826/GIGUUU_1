@@ -1,0 +1,125 @@
+{
+ "slug": "www-daikin-co-jp",
+ "url": "https://www.daikin.co.jp/",
+ "capturedAt": "2026-10-12 21:10:33",
+ "files": {
+  "pc_f0": "www-daikin-co-jp-pc-f0.jpg",
+  "pc_f1": "www-daikin-co-jp-pc-f1.jpg",
+  "pc_f2": "www-daikin-co-jp-pc-f2.jpg",
+  "pc_scroll": "www-daikin-co-jp-pc-scroll.jpg",
+  "sp": "www-daikin-co-jp-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": "button:has-text('OK')",
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.daikin.co.jp/",
+  "title": "ダイキン工業株式会社",
+  "lang": "ja-JP",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 3457,
+  "h1": "",
+  "h1Style": {
+   "fontFamily": "メイリオ, \"Hiragino Kaku Gothic ProN\", sans-serif",
+   "fontSize": "12px",
+   "fontWeight": "400",
+   "lineHeight": "19.2px",
+   "letterSpacing": "normal",
+   "color": "rgb(0, 0, 0)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 240,
+    "y": 22,
+    "w": 171,
+    "h": 80
+   }
+  },
+  "lead": "お問い合わせ（総合） サイトマップ GLOBAL 検索",
+  "ctas": [
+   "購入相談窓口 （ダイキンカスタマーセンター）",
+   "ショールーム フーハ （東京・大阪）",
+   "セントラル空調・ 産業用プロセス冷却機器",
+   "購入相談窓口 （ダイキンカスタマーセンター）",
+   "ショールーム フーハ （東京・大阪）",
+   "空調お客様サポート （ダイキンコンタクトセンター）",
+   "CLUB DAIKIN （会員登録・ご購入空調製品登録）",
+   "個人のお客様 住宅設備・エアコン",
+   "法人のお客様 空調製品・低温機器・換気設備"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [],
+  "backgroundImages": [
+   {
+    "bg": "url(\"https://www.daikin.co.jp/-/media/Project/Daikin/daikin_co_jp/dj_common/rwd/images/bg_hnav%20png\")",
+    "w": 1440,
+    "h": 48
+   },
+   {
+    "bg": "url(\"https://www.daikin.co.jp/-/media/Project/Daikin/daikin_co_jp/images/pic_product_1%20jpg\")",
+    "w": 310,
+    "h": 371
+   },
+   {
+    "bg": "url(\"https://www.daikin.co.jp/-/media/Project/Daikin/daikin_co_jp/images/pic_product_2%20jpg\")",
+    "w": 310,
+    "h": 371
+   },
+   {
+    "bg": "url(\"https://www.daikin.co.jp/-/media/Project/Daikin/daikin_co_jp/images/pic_product_3%20jpg\")",
+    "w": 300,
+    "h": 361
+   }
+  ],
+  "firstScreenFonts": [
+   "メイリオ"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "",
+  "h1Style": {
+   "fontFamily": "メイリオ, \"Hiragino Kaku Gothic ProN\", sans-serif",
+   "fontSize": "12px",
+   "fontWeight": "400",
+   "lineHeight": "19.2px",
+   "letterSpacing": "normal",
+   "color": "rgb(0, 0, 0)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 10,
+    "y": 42,
+    "w": 105,
+    "h": 22
+   }
+  },
+  "lead": "お問い合わせ（総合） サイトマップ GLOBAL 検索",
+  "ctas": [
+   "個人のお客様 住宅設備・エアコン"
+  ],
+  "videos": [],
+  "canvases": [],
+  "images": [],
+  "pageHeight": 5131
+ },
+ "elapsedSec": 14.6
+}

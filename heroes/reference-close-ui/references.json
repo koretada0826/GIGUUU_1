@@ -1,0 +1,883 @@
+[
+  {
+    "id": "03-pilot",
+    "name": "PILOT CUSTOM",
+    "url": "https://www.pilot-custom.jp/",
+    "status": 200,
+    "final_url": "https://www.pilot-custom.jp/",
+    "styles": {
+      "title": "万年筆 CUSTOM〈カスタムシリーズ〉 | PILOT",
+      "background": "rgba(0, 0, 0, 0)",
+      "font": "\"ヒラギノ明朝 Pro W3\", \"Hiragino Mincho Pro\", 游明朝, YuMincho, \"Source Han Serif JP\", AozoraMinchoRegular, serif",
+      "sheets": [
+        "https://www.pilot-custom.jp/common/css/reset.css",
+        "https://www.pilot-custom.jp/common/css/common.css",
+        "https://www.pilot-custom.jp/css/index.css"
+      ],
+      "images": [
+        {
+          "src": "https://www.pilot-custom.jp/img/leadcopy_img.png",
+          "alt": ""
+        },
+        {
+          "src": "https://www.pilot-custom.jp/img/leadcopy_img_black.png",
+          "alt": ""
+        },
+        {
+          "src": "https://www.pilot-custom.jp/img/leadcopy_img_shadow.jpg",
+          "alt": ""
+        },
+        {
+          "src": "https://www.pilot-custom.jp/img/leadcopy_since.png",
+          "alt": "since 1918"
+        },
+        {
+          "src": "https://www.pilot-custom.jp/img/history_img.jpg",
+          "alt": ""
+        },
+        {
+          "src": "https://www.pilot-custom.jp/img/lineup_highclass.jpg",
+          "alt": ""
+        },
+        {
+          "src": "https://www.pilot-custom.jp/img/lineup_standard.jpg",
+          "alt": ""
+        },
+        {
+          "src": "https://www.pilot-custom.jp/img/lineup_heritage.jpg",
+          "alt": ""
+        },
+        {
+          "src": "https://www.pilot-custom.jp/img/lineup_other.jpg",
+          "alt": ""
+        },
+        {
+          "src": "https://www.pilot-custom.jp/common/img/ilst_begginer.png",
+          "alt": ""
+        },
+        {
+          "src": "https://www.pilot-custom.jp/common/img/icon_blank.png",
+          "alt": ""
+        },
+        {
+          "src": "https://www.pilot-custom.jp/common/img/ilst_proshop.png",
+          "alt": ""
+        },
+        {
+          "src": "https://www.pilot-custom.jp/common/img/icon_blank.png",
+          "alt": ""
+        },
+        {
+          "src": "https://www.pilot-custom.jp/common/img/icon_blank.png",
+          "alt": ""
+        }
+      ]
+    },
+    "take": "全面の暗い背景、大きな細身の文字、中央揃えのコピーと広い余白。",
+    "checked_at": "2026-11-04",
+    "viewports": [
+      [
+        1440,
+        960
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "limitation": "背景動画はreadyState 0で未再生。文字組み・余白を参照。",
+    "media": {
+      "background_video": "https://www.pilot-custom.jp/video/custom_movie_c.mp4",
+      "observed_ready_state": 0
+    }
+  },
+  {
+    "id": "02-rapidshot",
+    "name": "RAPID SHOT",
+    "url": "https://rapidshot.nissinkanzenmeshi.com/",
+    "status": 200,
+    "final_url": "https://rapidshot.nissinkanzenmeshi.com/",
+    "styles": {
+      "title": "完全メシ RAPID SHOT（ラピッド ショット） | 日清食品",
+      "background": "rgba(0, 0, 0, 0)",
+      "font": "Poppins-SemiBold, \"Noto Sans JP\", sans-serif",
+      "sheets": [
+        "https://rapidshot.nissinkanzenmeshi.com/assets/css/style.css"
+      ],
+      "images": [
+        {
+          "src": "https://rapidshot.nissinkanzenmeshi.com/assets/img/logo_nissin.svg",
+          "alt": "NISSIN 日清食品"
+        },
+        {
+          "src": "https://rapidshot.nissinkanzenmeshi.com/assets/img/fv_01_pc.png",
+          "alt": "超時短。完全メシ飲料。新10秒ごはん"
+        },
+        {
+          "src": "https://rapidshot.nissinkanzenmeshi.com/assets/img/fv_02_pc.png",
+          "alt": "栄養を持ち出して、パフォーマンスをあげろ。新10秒ごはん"
+        },
+        {
+          "src": "data:image/svg+xml,%3Csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"1\" height=\"1\"%3E%3C/svg%3E",
+          "alt": "さっと飲める栄養で、朝時間を効率的に。新10秒ごはん"
+        },
+        {
+          "src": "data:image/svg+xml,%3Csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"1\" height=\"1\"%3E%3C/svg%3E",
+          "alt": "続けられるおいしさで栄養を習慣に。新10秒ごはん"
+        },
+        {
+          "src": "https://rapidshot.nissinkanzenmeshi.com/assets/img/fv_bottom_sp.png",
+          "alt": "完全メシ RAPID SHOT ラピッド ショット 33種類の栄養素とおいしさ、もっと手軽にバランスよく"
+        },
+        {
+          "src": "https://rapidshot.nissinkanzenmeshi.com/assets/img/concept_pc.png",
+          "alt": "完全メシ RAPID SHOT ラピッド ショット"
+        },
+        {
+          "src": "https://rapidshot.nissinkanzenmeshi.com/assets/img/logo_kanzenmeshi.svg",
+          "alt": "完全メシ"
+        },
+        {
+          "src": "https://rapidshot.nissinkanzenmeshi.com/assets/img/logo_kyokai.svg",
+          "alt": "日本最適化栄養食協会"
+        },
+        {
+          "src": "https://rapidshot.nissinkanzenmeshi.com/assets/img/lineup-item01_pc.png",
+          "alt": "BANANAYOGURTFLAVOR バナナヨーグルトフレーバー"
+        },
+        {
+          "src": "https://rapidshot.nissinkanzenmeshi.com/assets/img/lineup-item01_product.png",
+          "alt": "BANANAYOGURTFLAVOR バナナヨーグルトフレーバー"
+        },
+        {
+          "src": "https://rapidshot.nissinkanzenmeshi.com/assets/img/lineup-item02_pc.png",
+          "alt": "STRAWBERRYYOGURTFLAVOR ストロベリーヨーグルトフレーバー"
+        },
+        {
+          "src": "https://rapidshot.nissinkanzenmeshi.com/assets/img/lineup-item02_product.png",
+          "alt": "STRAWBERRYYOGURTFLAVOR ストロベリーヨーグルトフレーバー"
+        },
+        {
+          "src": "https://rapidshot.nissinkanzenmeshi.com/assets/img/lineup-item03_pc.png",
+          "alt": "VANILLAYOGURTFLAVOR バニラヨーグルトフレーバー"
+        },
+        {
+          "src": "https://rapidshot.nissinkanzenmeshi.com/assets/img/lineup-item03_product.png",
+          "alt": "VANILLAYOGURTFLAVOR バニラヨーグルトフレーバー"
+        },
+        {
+          "src": "https://rapidshot.nissinkanzenmeshi.com/assets/img/scene01_user.png",
+          "alt": "少しでも寝たい朝に！"
+        },
+        {
+          "src": "https://rapidshot.nissinkanzenmeshi.com/assets/img/scene01_time.png",
+          "alt": "約20分長く寝られる"
+        },
+        {
+          "src": "https://rapidshot.nissinkanzenmeshi.com/assets/img/scene02_user.png",
+          "alt": "朝の準備中に！"
+        },
+        {
+          "src": "https://rapidshot.nissinkanzenmeshi.com/assets/img/scene02_time.png",
+          "alt": "約20分準備ができる"
+        },
+        {
+          "src": "https://rapidshot.nissinkanzenmeshi.com/assets/img/scene03_user.png",
+          "alt": "忙しい日の昼に！"
+        }
+      ]
+    },
+    "take": "中央に主役を大きく立たせ、左右の文字と下段の太い区切りで支える。",
+    "checked_at": "2026-11-04",
+    "viewports": [
+      [
+        1440,
+        960
+      ],
+      [
+        390,
+        844
+      ]
+    ]
+  },
+  {
+    "id": "01-lions",
+    "name": "西武ライオンズ",
+    "url": "https://www.seibulions.jp/special/summerentertainment/",
+    "status": 200,
+    "final_url": "https://www.seibulions.jp/special/summerentertainment/",
+    "styles": {
+      "title": "熱狂＆爽快スタジアム｜埼玉西武ライオンズ",
+      "background": "rgb(255, 255, 255)",
+      "font": "\"Helvetica Neue\", Arial, \"Hiragino Kaku Gothic ProN\", \"Hiragino Sans\", \"Noto Sans\", Meiryo, sans-serif",
+      "sheets": [
+        "https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@700;900&display=swap",
+        "https://www.seibulions.jp/special/summerentertainment/assets/css/style.css?ver=202606121604"
+      ],
+      "images": [
+        {
+          "src": "https://www.seibulions.jp/special/summerentertainment/assets/image/logo_lions.svg",
+          "alt": "Lions"
+        },
+        {
+          "src": "https://www.seibulions.jp/special/summerentertainment/assets/image/logo_nekkyousoukai.png",
+          "alt": "熱狂爽快スタジアム"
+        },
+        {
+          "src": "https://www.seibulions.jp/special/summerentertainment/assets/image/main_kvimg_pc.jpg?v=20260603",
+          "alt": "いこーぜ！夏のベルーナドーム"
+        },
+        {
+          "src": "https://www.seibulions.jp/special/summerentertainment/assets/image/main_kvimg_sp.jpg?v=20260603",
+          "alt": "いこーぜ！夏のベルーナドーム"
+        },
+        {
+          "src": "https://www.seibulions.jp/special/summerentertainment/assets/image/ttl_soukaiarea_map.png",
+          "alt": "爽快エリアマップ"
+        },
+        {
+          "src": "https://www.seibulions.jp/special/summerentertainment/assets/image/point/out/ico_icepack.png",
+          "alt": "氷のう専用氷チャージスポット"
+        },
+        {
+          "src": "https://www.seibulions.jp/special/summerentertainment/assets/image/point/out/ico_coldtowel.png",
+          "alt": "冷タオル配布"
+        },
+        {
+          "src": "https://www.seibulions.jp/special/summerentertainment/assets/image/point/out/ico_splashstage.png",
+          "alt": "スプラッシュステージ"
+        },
+        {
+          "src": "https://www.seibulions.jp/special/summerentertainment/assets/image/point/out/ico_mistpole.png",
+          "alt": "ミストポール"
+        },
+        {
+          "src": "https://www.seibulions.jp/special/summerentertainment/assets/image/point/out/ico_icepack.png",
+          "alt": "氷のう専用氷チャージスポット"
+        },
+        {
+          "src": "https://www.seibulions.jp/special/summerentertainment/assets/image/point/out/ico_largeparasol.png",
+          "alt": "大型パラソル"
+        },
+        {
+          "src": "https://www.seibulions.jp/special/summerentertainment/assets/image/point/out/ico_mistpole.png",
+          "alt": "ミストポール"
+        },
+        {
+          "src": "https://www.seibulions.jp/special/summerentertainment/assets/image/point/out/ico_blower.png",
+          "alt": "送風機"
+        },
+        {
+          "src": "https://www.seibulions.jp/special/summerentertainment/assets/image/point/out/ico_largeparasol.png",
+          "alt": "大型パラソル"
+        },
+        {
+          "src": "https://www.seibulions.jp/special/summerentertainment/assets/image/point/out/ico_blower.png",
+          "alt": "送風機"
+        },
+        {
+          "src": "https://www.seibulions.jp/special/summerentertainment/assets/image/point/out/ico_snowman.png",
+          "alt": ""
+        },
+        {
+          "src": "https://www.seibulions.jp/special/summerentertainment/assets/image/map_outfield.png",
+          "alt": ""
+        },
+        {
+          "src": "https://www.seibulions.jp/special/summerentertainment/assets/image/img_mistmark_pc.png",
+          "alt": "ミスト設置エリア"
+        },
+        {
+          "src": "https://www.seibulions.jp/special/summerentertainment/assets/image/img_mistmark_sp.png",
+          "alt": "ミスト設置エリア"
+        },
+        {
+          "src": "https://www.seibulions.jp/special/summerentertainment/assets/image/point/in/ico_largemist.png",
+          "alt": "大規模ミスト"
+        }
+      ]
+    },
+    "take": "白地に大きな主役、周囲を包むしぶき、下に重ねる大きなタイトル。",
+    "checked_at": "2026-11-04",
+    "viewports": [
+      [
+        1440,
+        960
+      ],
+      [
+        390,
+        844
+      ]
+    ]
+  },
+  {
+    "id": "04-kio",
+    "name": "畿央大学",
+    "url": "https://www.kio.ac.jp/bds/",
+    "status": 200,
+    "final_url": "https://www.kio.ac.jp/bds/",
+    "styles": {
+      "title": "ビジネスデータサイエンス学部（仮称）／畿央大学",
+      "background": "rgba(0, 0, 0, 0)",
+      "font": "\"Zen Kaku Gothic New\", sans-serif",
+      "sheets": [
+        "https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap",
+        "https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap",
+        "https://www.kio.ac.jp/bds/assets/css/style.css",
+        "https://www.kio.ac.jp/bds/assets/css/splide.min.css"
+      ],
+      "images": [
+        {
+          "src": "https://www.kio.ac.jp/bds/assets/images/mv/logo.png",
+          "alt": "畿央大学"
+        },
+        {
+          "src": "https://www.kio.ac.jp/bds/assets/images/mv/parts01_pc.png",
+          "alt": ""
+        },
+        {
+          "src": "https://www.kio.ac.jp/bds/assets/images/mv/parts01_sp.png",
+          "alt": ""
+        },
+        {
+          "src": "https://www.kio.ac.jp/bds/assets/images/mv/parts02.png",
+          "alt": ""
+        },
+        {
+          "src": "https://www.kio.ac.jp/bds/assets/images/mv/parts04_pc.png",
+          "alt": ""
+        },
+        {
+          "src": "https://www.kio.ac.jp/bds/assets/images/mv/parts04_sp.png",
+          "alt": ""
+        },
+        {
+          "src": "https://www.kio.ac.jp/bds/assets/images/mv/dx01.png",
+          "alt": ""
+        },
+        {
+          "src": "https://www.kio.ac.jp/bds/assets/images/mv/parts06.png",
+          "alt": ""
+        },
+        {
+          "src": "https://www.kio.ac.jp/bds/assets/images/mv/dx02.png",
+          "alt": ""
+        },
+        {
+          "src": "https://www.kio.ac.jp/bds/assets/images/mv/dx03.png",
+          "alt": ""
+        },
+        {
+          "src": "https://www.kio.ac.jp/bds/assets/images/mv/parts06.png",
+          "alt": ""
+        },
+        {
+          "src": "https://www.kio.ac.jp/bds/assets/images/gakubu_title_pc.png",
+          "alt": ""
+        },
+        {
+          "src": "https://www.kio.ac.jp/bds/assets/images/gakubu_title_sp.png",
+          "alt": ""
+        },
+        {
+          "src": "https://www.kio.ac.jp/bds/assets/images/gakubu_day_pc.png",
+          "alt": ""
+        },
+        {
+          "src": "https://www.kio.ac.jp/bds/assets/images/gakubu_day_sp.png",
+          "alt": ""
+        },
+        {
+          "src": "https://www.kio.ac.jp/bds/assets/images/pv_pc.png",
+          "alt": ""
+        },
+        {
+          "src": "https://www.kio.ac.jp/bds/assets/images/pv_sp.png",
+          "alt": ""
+        },
+        {
+          "src": "https://www.kio.ac.jp/bds/assets/images/komatta_title01_pc.png",
+          "alt": ""
+        },
+        {
+          "src": "https://www.kio.ac.jp/bds/assets/images/komatta_title_sp.png",
+          "alt": ""
+        },
+        {
+          "src": "https://www.kio.ac.jp/bds/assets/images/komatta_title02_pc.png",
+          "alt": ""
+        }
+      ]
+    },
+    "take": "オレンジの大きな面、極端な文字サイズ、中央のキャラクターと線画を重ねる。",
+    "checked_at": "2026-11-04",
+    "viewports": [
+      [
+        1440,
+        960
+      ],
+      [
+        390,
+        844
+      ]
+    ]
+  },
+  {
+    "id": "05-dars",
+    "name": "DARS",
+    "url": "https://www.morinaga.co.jp/dars/",
+    "status": 200,
+    "final_url": "https://www.morinaga.co.jp/dars/",
+    "styles": {
+      "title": "DARS｜森永製菓株式会社",
+      "background": "rgb(255, 255, 255)",
+      "font": "游ゴシック体, YuGothic, \"游ゴシック Medium\", \"Yu Gothic Medium\", 游ゴシック, \"Yu Gothic\", \"Noto Sans JP\", sans-serif",
+      "sheets": [
+        "https://www.morinaga.co.jp/assets/css/global-responsive.css",
+        "https://www.morinaga.co.jp/dars/assets/css/index.css?20260911"
+      ],
+      "images": [
+        {
+          "src": "https://www.morinaga.co.jp/dars/assets/images/nav_gohobi01.svg",
+          "alt": "1コ1コが、小さなごほうび！"
+        },
+        {
+          "src": "https://www.morinaga.co.jp/dars/assets/images/nav_gohobi02.svg",
+          "alt": "1コの中に、3つのごほうび力！"
+        },
+        {
+          "src": "https://www.morinaga.co.jp/dars/assets/images/nav_kikubari.svg",
+          "alt": "DARSならではのうれしい気配り！"
+        },
+        {
+          "src": "https://www.morinaga.co.jp/dars/assets/images/nav_lineup.svg",
+          "alt": "LINE UP"
+        },
+        {
+          "src": "https://www.morinaga.co.jp/dars/assets/images/nav_pickup.svg",
+          "alt": "PICK UP"
+        },
+        {
+          "src": "https://www.morinaga.co.jp/dars/assets/images/nav_recipe.svg",
+          "alt": "RECIPE"
+        },
+        {
+          "src": "https://www.morinaga.co.jp/dars/assets/images/logo.svg",
+          "alt": "DARS"
+        },
+        {
+          "src": "https://www.morinaga.co.jp/dars/assets/images/kv_title.svg",
+          "alt": "おつかれさま！1コ、いっとこ♪"
+        },
+        {
+          "src": "https://www.morinaga.co.jp/dars/assets/images/kv.jpg",
+          "alt": ""
+        },
+        {
+          "src": "https://www.morinaga.co.jp/dars/assets/images/text_intro.svg",
+          "alt": "ほんのひととき手をとめて、このくちどけのごほうびを。とろーり、うっとり...気分すっきり。そして、デスクでもうひとがんばり！ココロがちょっと疲れたら、1コ、いっとこ 森永DARS！"
+        },
+        {
+          "src": "https://www.morinaga.co.jp/dars/assets/images/img_choco.png",
+          "alt": ""
+        },
+        {
+          "src": "https://www.morinaga.co.jp/dars/assets/images/img_dars.png",
+          "alt": ""
+        },
+        {
+          "src": "https://www.morinaga.co.jp/dars/assets/images/img_intro.png",
+          "alt": ""
+        },
+        {
+          "src": "https://www.morinaga.co.jp/dars/assets/images/tit_break.svg",
+          "alt": "仕事の途中に。勉強の合間に。1コ1コが、小さなごほうび！"
+        },
+        {
+          "src": "https://www.morinaga.co.jp/dars/assets/images/text_break01.svg",
+          "alt": "ちょい疲れたな…"
+        },
+        {
+          "src": "https://www.morinaga.co.jp/dars/assets/images/text_break02.svg",
+          "alt": "1コ、いっとこ♪"
+        },
+        {
+          "src": "https://www.morinaga.co.jp/dars/assets/images/text_break03.svg",
+          "alt": "とろける〜！"
+        },
+        {
+          "src": "https://www.morinaga.co.jp/dars/assets/images/text_break04.svg",
+          "alt": "がんばりますか！"
+        },
+        {
+          "src": "https://www.morinaga.co.jp/dars/assets/images/tit_gohobi.svg",
+          "alt": "いつものデスクで思わずうっとり。1コの中に、３つのごほうび！"
+        },
+        {
+          "src": "https://www.morinaga.co.jp/dars/assets/images/text_gohobi01.svg",
+          "alt": "1 やさしいくちどけ！独自の２層構造が生む、絶妙な噛みごたえ、まろやかなくちどけ。"
+        }
+      ]
+    },
+    "take": "机を大きく見下ろす一枚写真、周囲の道具、中央の主役と手書き風の文字。",
+    "checked_at": "2026-11-04",
+    "viewports": [
+      [
+        1440,
+        960
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "limitation": "導入アニメーション状態のため、HTMLにあるキービジュアル写真とCSSも確認。",
+    "keyvisual_url": "https://www.morinaga.co.jp/dars/assets/images/kv.jpg"
+  },
+  {
+    "id": "06-koikeya",
+    "name": "湖池屋キャラクターズ",
+    "url": "https://characters.koikeya.co.jp/",
+    "status": 200,
+    "final_url": "https://characters.koikeya.co.jp/",
+    "styles": {
+      "title": "湖池屋キャラクターズ│ポリンキー・カラムーチョ・ピンキー│株式会社湖池屋",
+      "background": "rgb(255, 255, 255)",
+      "font": "\"Zen Maru Gothic\", sans-serif",
+      "sheets": [
+        "https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;500;700;900&display=swap",
+        "https://characters.koikeya.co.jp/assets/css/style.css"
+      ],
+      "images": [
+        {
+          "src": "https://characters.koikeya.co.jp/assets/images/logo_characters.png",
+          "alt": "株式会社湖池屋の公式キャラクターサイト 湖池屋キャラクターズ"
+        },
+        {
+          "src": "https://characters.koikeya.co.jp/assets/images/icon_external_blue.svg",
+          "alt": ""
+        },
+        {
+          "src": "https://characters.koikeya.co.jp/assets/images/icon_external_white.svg",
+          "alt": ""
+        },
+        {
+          "src": "https://characters.koikeya.co.jp/assets/images/char_nav.png",
+          "alt": ""
+        },
+        {
+          "src": "https://characters.koikeya.co.jp/assets/images/kv.jpg",
+          "alt": "株式会社湖池屋の公式キャラクターサイト 湖池屋キャラクターズ"
+        },
+        {
+          "src": "https://characters.koikeya.co.jp/assets/images/ttl_news.svg",
+          "alt": "NEWS（湖池屋キャラクターの最新ニュース）"
+        },
+        {
+          "src": "https://characters.koikeya.co.jp/assets/images/news_04.jpg",
+          "alt": ""
+        },
+        {
+          "src": "https://characters.koikeya.co.jp/assets/images/icon_external.svg",
+          "alt": "外部リンク"
+        },
+        {
+          "src": "https://characters.koikeya.co.jp/assets/images/news_03.jpg",
+          "alt": ""
+        },
+        {
+          "src": "https://characters.koikeya.co.jp/assets/images/icon_external.svg",
+          "alt": "外部リンク"
+        },
+        {
+          "src": "https://characters.koikeya.co.jp/assets/images/news_01.jpg",
+          "alt": ""
+        },
+        {
+          "src": "https://characters.koikeya.co.jp/assets/images/icon_external.svg",
+          "alt": "外部リンク"
+        },
+        {
+          "src": "https://characters.koikeya.co.jp/assets/images/ttl_about.svg",
+          "alt": "湖池屋キャラクターズ"
+        },
+        {
+          "src": "https://characters.koikeya.co.jp/assets/images/slider/img_chara_slide_01.png",
+          "alt": "ポリンキーのキャラクター ジャン（湖池屋）"
+        },
+        {
+          "src": "https://characters.koikeya.co.jp/assets/images/slider/img_chara_slide_02.png",
+          "alt": "ポリンキーのキャラクター ポール（湖池屋）"
+        },
+        {
+          "src": "https://characters.koikeya.co.jp/assets/images/slider/img_chara_slide_03.png",
+          "alt": "ポリンキーのキャラクター ベル（湖池屋）"
+        },
+        {
+          "src": "https://characters.koikeya.co.jp/assets/images/slider/img_chara_slide_04.png",
+          "alt": "カラムーチョのキャラクター ヒーおばあちゃん（湖池屋）"
+        },
+        {
+          "src": "https://characters.koikeya.co.jp/assets/images/slider/img_chara_slide_05.png",
+          "alt": "すっぱムーチョのキャラクター ヒーヒーおばあちゃん（湖池屋）"
+        },
+        {
+          "src": "https://characters.koikeya.co.jp/assets/images/slider/img_chara_slide_06.png",
+          "alt": "ポテトチップスのキャラクター ムッシュ・コイケヤ（湖池屋）"
+        },
+        {
+          "src": "https://characters.koikeya.co.jp/assets/images/slider/img_chara_slide_07.png",
+          "alt": "ピンキーのキャラクター ピンキーモンキー（湖池屋）"
+        }
+      ]
+    },
+    "take": "上の旗と窓、中央の主役、下のテーブルを一つの世界としてつなぐ。",
+    "checked_at": "2026-11-04",
+    "viewports": [
+      [
+        1440,
+        960
+      ],
+      [
+        390,
+        844
+      ]
+    ]
+  },
+  {
+    "id": "08-zelda",
+    "name": "ゼルダの伝説",
+    "url": "https://www.nintendo.com/jp/character/zelda/index.html",
+    "status": 200,
+    "final_url": "https://www.nintendo.com/jp/character/zelda/index.html",
+    "styles": {
+      "title": "ゼルダの伝説40周年 | 任天堂",
+      "background": "rgba(0, 0, 0, 0)",
+      "font": "YakuHanJPs, Roboto, \"Hiragino Kaku Gothic ProN\", \"ヒラギノ角ゴ ProN W3\", Arial, ncommonJp, sans-serif",
+      "sheets": [
+        "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap",
+        "https://www.nintendo.com/jp/common/v2/css/ncommon_content.css",
+        "https://www.nintendo.com/jp/character/zelda/assets_2/css/common.css",
+        "https://www.nintendo.com/jp/character/zelda/assets_2/css/libs/swiper-bundle.min.css",
+        "https://www.nintendo.com/jp/character/zelda/assets_2/css/top/style.css",
+        "https://www.nintendo.com/jp/common/v1/css/gheader.css",
+        "https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap",
+        "https://j.wovn.io/css/widget?v=2b633b2033"
+      ],
+      "images": [
+        {
+          "src": "https://www.nintendo.com/jp/common/v1/img/NintendoBoxLogo.png",
+          "alt": "Nintendo"
+        },
+        {
+          "src": "https://www.nintendo.com/jp/character/zelda/assets_2/img/common/logo_s.webp?unoptimized=true",
+          "alt": ""
+        },
+        {
+          "src": "https://www.nintendo.com/jp/character/zelda/assets_2/img/common/btn_menu.webp?unoptimized=true",
+          "alt": ""
+        },
+        {
+          "src": "https://www.nintendo.com/jp/character/zelda/assets_2/img/common/btn_close.webp?unoptimized=true",
+          "alt": ""
+        },
+        {
+          "src": "https://www.nintendo.com/jp/character/zelda/assets_2/img/common/logo_s.webp?unoptimized=true",
+          "alt": ""
+        },
+        {
+          "src": "https://www.nintendo.com/jp/character/zelda/assets_2/img/common/nav_triforce.webp?unoptimized=true",
+          "alt": "Triforce"
+        },
+        {
+          "src": "https://www.nintendo.com/jp/character/zelda/assets_2/img/common/nav_history.webp?unoptimized=true",
+          "alt": "History"
+        },
+        {
+          "src": "https://www.nintendo.com/jp/character/zelda/assets_2/img/common/navi_chronicle.webp?unoptimized=true",
+          "alt": "Chronicle"
+        },
+        {
+          "src": "https://www.nintendo.com/jp/character/zelda/assets_2/img/common/navi_products.webp?unoptimized=true",
+          "alt": "Products"
+        },
+        {
+          "src": "https://www.nintendo.com/jp/character/zelda/assets_2/img/common/navi_top.webp?unoptimized=true",
+          "alt": "Top"
+        },
+        {
+          "src": "https://www.nintendo.com/jp/character/zelda/assets_2/img/top/logo.webp?unoptimized=true",
+          "alt": "ゼルダの伝説40周年"
+        },
+        {
+          "src": "https://www.nintendo.com/jp/character/zelda/assets_2/img/top/mv.webp?unoptimized=true",
+          "alt": ""
+        },
+        {
+          "src": "https://www.nintendo.com/jp/character/zelda/assets_2/img/top/thumb_topics9.webp?unoptimized=true",
+          "alt": ""
+        },
+        {
+          "src": "https://www.nintendo.com/jp/character/zelda/assets_2/img/top/thumb_topics8.webp?unoptimized=true",
+          "alt": ""
+        },
+        {
+          "src": "https://www.nintendo.com/jp/character/zelda/assets_2/img/top/thumb_topics_music_20261009.webp?unoptimized=true",
+          "alt": ""
+        },
+        {
+          "src": "https://www.nintendo.com/jp/character/zelda/assets_2/img/top/thumb_topics7.webp?unoptimized=true",
+          "alt": ""
+        },
+        {
+          "src": "https://www.nintendo.com/jp/character/zelda/assets_2/img/top/thumb_topics6.webp?unoptimized=true",
+          "alt": ""
+        },
+        {
+          "src": "https://www.nintendo.com/jp/character/zelda/assets_2/img/top/thumb_topics5.webp?unoptimized=true",
+          "alt": ""
+        },
+        {
+          "src": "https://www.nintendo.com/jp/character/zelda/assets_2/img/top/thumb_topics4.webp?unoptimized=true",
+          "alt": ""
+        },
+        {
+          "src": "https://www.nintendo.com/jp/character/zelda/assets_2/img/top/thumb_topics3.webp?unoptimized=true",
+          "alt": ""
+        }
+      ]
+    },
+    "take": "三角形のモザイクを全面に敷き、中央の縦長の旗に視線を集める。",
+    "checked_at": "2026-11-04",
+    "viewports": [
+      [
+        1440,
+        960
+      ],
+      [
+        390,
+        844
+      ]
+    ]
+  },
+  {
+    "id": "07-esneaker",
+    "name": "e-SNEAKER",
+    "url": "https://www.daihatsu.co.jp/lineup/e-sneaker/",
+    "status": 200,
+    "final_url": "https://www.daihatsu.co.jp/lineup/e-sneaker/",
+    "styles": {
+      "title": "【公式】e-SNEAKER｜ダイハツ",
+      "background": "rgb(237, 238, 240)",
+      "font": "\"Noto Sans Japanese\", sans-serif",
+      "sheets": [
+        "https://fonts.googleapis.com/css?family=Open+Sans",
+        "https://www.daihatsu.co.jp/dk_common_2015/css/notosansjapanese_local.min.css",
+        "https://www.daihatsu.co.jp/dk_common_2015/css/print.css",
+        "https://www.daihatsu.co.jp/dk_common_2015/css/reset.css",
+        "https://www.daihatsu.co.jp/dk_common_2015/css/dk_j_base.css",
+        "https://www.daihatsu.co.jp/lineup/common_2021/css/swiper.css",
+        "https://www.daihatsu.co.jp/lineup/common_2021/css/base.css",
+        "https://www.daihatsu.co.jp/lineup/e-sneaker/assets/styles/splide-core.min.css",
+        "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Zen+Kaku+Gothic+Antique:wght@300;400;500;700;900&family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap",
+        "https://www.daihatsu.co.jp/lineup/e-sneaker/assets/index.css",
+        "https://www.daihatsu.co.jp/dk_common_2015/css/slick.css"
+      ],
+      "images": [
+        {
+          "src": "https://www.daihatsu.co.jp/lineup/e-sneaker/images/top/hello-animation/animation1-1944/first.webp",
+          "alt": ""
+        },
+        {
+          "src": "https://www.daihatsu.co.jp/lineup/e-sneaker/images/top/hello-animation/animation1-1944/last.webp",
+          "alt": "右正面向きのe-SNEAKER"
+        },
+        {
+          "src": "https://www.daihatsu.co.jp/lineup/e-sneaker/images/top/hello-animation/animation2-1944/last.webp",
+          "alt": "左向きのe-SNEAKER"
+        },
+        {
+          "src": "https://www.daihatsu.co.jp/lineup/e-sneaker/images/top/hello-animation/animation3-1944/last.webp",
+          "alt": "右後ろ向きのe-SNEAKER"
+        },
+        {
+          "src": "https://www.daihatsu.co.jp/lineup/e-sneaker/images/top/hello-animation/animation4-1944/last.webp",
+          "alt": "左正面向きのe-SNEAKER"
+        },
+        {
+          "src": "https://www.daihatsu.co.jp/lineup/e-sneaker/images/top/go/height.webp",
+          "alt": "画像：海が見える歩道でe-SNEAKERに乗る男性と隣を歩く女性"
+        },
+        {
+          "src": "https://www.daihatsu.co.jp/lineup/e-sneaker/images/top/go/wheel.webp",
+          "alt": ""
+        },
+        {
+          "src": "https://www.daihatsu.co.jp/lineup/e-sneaker/images/top/go/foot.webp",
+          "alt": ""
+        },
+        {
+          "src": "https://www.daihatsu.co.jp/lineup/e-sneaker/images/top/go/step.webp",
+          "alt": ""
+        },
+        {
+          "src": "https://www.daihatsu.co.jp/lineup/e-sneaker/images/top/go/speed.webp",
+          "alt": ""
+        },
+        {
+          "src": "https://www.daihatsu.co.jp/lineup/e-sneaker/images/top/go/alert.webp",
+          "alt": ""
+        },
+        {
+          "src": "https://www.daihatsu.co.jp/lineup/e-sneaker/images/top/go/control.webp",
+          "alt": "画像：e-SNEAKERのインターフェイスパネルとハンドル"
+        },
+        {
+          "src": "https://www.daihatsu.co.jp/lineup/e-sneaker/images/top/meet/pc/1.webp",
+          "alt": "画像：e-SNEAKERの快適な走りを楽しむ男性"
+        },
+        {
+          "src": "https://www.daihatsu.co.jp/lineup/e-sneaker/images/top/meet/pc/2.webp",
+          "alt": "画像：歩道でe-SNEAKERでの移動を楽しむ女性"
+        },
+        {
+          "src": "https://www.daihatsu.co.jp/lineup/e-sneaker/images/top/meet/pc/3.webp",
+          "alt": "画像：テラス席からe-SNEAKERを眺める女性"
+        },
+        {
+          "src": "https://www.daihatsu.co.jp/lineup/e-sneaker/images/top/meet/pc/4.webp",
+          "alt": "画像：海辺の歩道でe-SNEAKERに乗る男性"
+        },
+        {
+          "src": "https://www.daihatsu.co.jp/lineup/e-sneaker/images/top/meet/pc/5.webp",
+          "alt": "画像：緑地の歩道をe-SNEAKERで走る女性"
+        },
+        {
+          "src": "https://www.daihatsu.co.jp/lineup/e-sneaker/images/top/meet/pc/6.webp",
+          "alt": "画像：公園で読書を楽しむ男性とe-SNEAKER"
+        },
+        {
+          "src": "https://www.daihatsu.co.jp/lineup/e-sneaker/images/top/meet/pc/7.webp",
+          "alt": "画像：公園の歩道をe-SNEAKERで走る男性"
+        },
+        {
+          "src": "https://www.daihatsu.co.jp/lineup/e-sneaker/images/top/meet/sp/1.webp",
+          "alt": ""
+        }
+      ]
+    },
+    "take": "日常の風景を全面に広げ、上に白いナビ、中央に大きなサービス名を置く。",
+    "checked_at": "2026-11-04",
+    "viewports": [
+      [
+        1440,
+        960
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "limitation": "読み込み待機後に表示を再撮影して確認。"
+  }
+]

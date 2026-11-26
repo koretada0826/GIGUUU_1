@@ -1,0 +1,123 @@
+{
+ "slug": "whoop-com",
+ "url": "https://www.whoop.com/",
+ "capturedAt": "2026-10-12 21:09:53",
+ "files": {
+  "pc_f0": "whoop-com-pc-f0.jpg",
+  "pc_f1": "whoop-com-pc-f1.jpg",
+  "pc_f2": "whoop-com-pc-f2.jpg",
+  "pc_scroll": "whoop-com-pc-scroll.jpg",
+  "sp": "whoop-com-sp.jpg"
+ },
+ "errors": [],
+ "dismissed": null,
+ "frameSeconds": [
+  0.8,
+  3.0,
+  6.0
+ ],
+ "pc": {
+  "finalUrl": "https://www.whoop.com/jp/en/",
+  "title": "WHOOP | Unlock Human Performance & Healthspan",
+  "lang": "en",
+  "viewport": {
+   "w": 1440,
+   "h": 900
+  },
+  "pageHeight": 10059,
+  "h1": "The wearable designed for lasting progress",
+  "h1Style": {
+   "fontFamily": "proxima-nova, \"Readex Pro\", Arial, Helvetica, sans-serif",
+   "fontSize": "120px",
+   "fontWeight": "400",
+   "lineHeight": "96px",
+   "letterSpacing": "-3.6px",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 100,
+    "y": 374,
+    "w": 1240,
+    "h": 192
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "JOIN NOW",
+   "CUSTOMIZE",
+   "DECLINE",
+   "ACCEPT"
+  ],
+  "videos": [
+   {
+    "src": "https://videos.ctfassets.net/rbzqg6pelgqa/7kXkKksCoyZDsqWqrif70W/133712bff91a5dbfcdd9d1b1d129a179/WHOOP_Meridian_HomepageHero_Post48Hours_16x9_Final.mp4",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 1440,
+    "h": 900,
+    "playing": true
+   }
+  ],
+  "canvases": [],
+  "images": [],
+  "backgroundImages": [],
+  "firstScreenFonts": [
+   "proxima-nova"
+  ],
+  "libs": {
+   "gsap": false,
+   "ScrollTrigger": false,
+   "three": false,
+   "lenis": false,
+   "swiper": false,
+   "lottie": false
+  },
+  "bodyBg": "rgb(255, 255, 255)",
+  "prefersDark": false
+ },
+ "scrollYAfterWheel": 700,
+ "sp": {
+  "h1": "The wearable designed for lasting progress",
+  "h1Style": {
+   "fontFamily": "proxima-nova, \"Readex Pro\", Arial, Helvetica, sans-serif",
+   "fontSize": "50px",
+   "fontWeight": "400",
+   "lineHeight": "40px",
+   "letterSpacing": "-1.5px",
+   "color": "rgb(255, 255, 255)",
+   "textAlign": "start",
+   "writingMode": "horizontal-tb",
+   "box": {
+    "x": 21,
+    "y": 377,
+    "w": 348,
+    "h": 120
+   }
+  },
+  "lead": null,
+  "ctas": [
+   "How it works",
+   "Why WHOOP",
+   "Accessories",
+   "JOIN NOW",
+   "JOIN NOW"
+  ],
+  "videos": [
+   {
+    "src": "https://videos.ctfassets.net/rbzqg6pelgqa/Dz1oGnkBnVMk8xBpGC7lB/c1c5938cc17540edaa9a1dedf4e5788e/WHOOP_Meridian_HomepageHero_9x16_Post48Hours_Final.mp4",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 390,
+    "h": 844,
+    "playing": true
+   }
+  ],
+  "canvases": [],
+  "images": [],
+  "pageHeight": 9255
+ },
+ "elapsedSec": 16.6
+}
